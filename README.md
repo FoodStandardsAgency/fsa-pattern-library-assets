@@ -1,1 +1,1 @@
-Compiled assets for the FDA Pattern Library
+Compiled assets for the FSA Pattern Library
