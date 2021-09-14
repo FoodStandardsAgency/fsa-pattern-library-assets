@@ -1,6 +1,247 @@
-/*!*********************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./stories/Button/button.scss ***!
-  \*********************************************************************************************************************/
+/*!********************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/base.scss ***!
+  \********************************************************************************************************/
+@import url(https://fonts.googleapis.com/css?family=Fira+Sans:300,400,500,700);
+/*!************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/base.scss (1) ***!
+  \************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700);
+/*!************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/base.scss (2) ***!
+  \************************************************************************************************************/
+:root {
+  /* Primary Colours */
+  --fsa-primary_dark-green: #007C75;
+  --fsa-primary_mid-green: #6CB33F;
+  --fsa-primary_light-green: #A9C47F;
+  --fsa-primary_dark-grey: #53565A;
+  --fsa_online-grey: #F0F3F5;
+  --fsa_border: #DEE2E5;
+  --fsa-primary_black: #000000;
+  --fsa-primary_white: #FFFFFF;
+  --fsa_tint: #FAFCFD;
+  /* Secondary Colours */
+  --fsa-secondary_mid-red: #E31837;
+  --fsa-secondary_orange: #F15D22;
+  --fsa-secondary_mid-yellow: #FDB913;
+  --fsa-secondary_mid-purple: #49176D;
+  --fsa-secondary_light-purple: #9F218B;
+  --fsa-tertiary_dark-blue: #9F218B;
+  /* Tertiary Colours */
+  --fsa-tertiary_dark-red: #B04A5A;
+  --fsa-tertiary_light-red: #EF3340;
+  --fsa-tertiary_light-yellow: #F1C400;
+  --fsa-tertiary_teal: #00B2A9;
+  --fsa-tertiary_light-blue: #8DC8E8;
+  --fsa-tertiary_dark-purple: #51284F;
+  --fsa-secondary_mid-blue: #007FB2;
+  --fsa-tertiary_lime: #CEDC00;
+  --fsa-tertiary_mauve: #8B84D7;
+  /* Hover Colours */
+  --fsa__link-green: #014B4C;
+  --fsa__purple-hover: #2a0247;
+  /* Typography */
+  --body-font: "open-sans", sans-serif;
+  --body-normal: 400;
+  --body-bold: 600;
+  --heading-font: "fira-sans", sans-serif;
+  --heading-bold: 700;
+  /* Grid */
+  --container: 1rem;
+  --gutter: 1rem;
+  --max-width: 75rem;
+}
+
+/* Custom Mixins */
+html {
+  font-family: sans-serif;
+  font-size: 16px;
+}
+@media screen and (min-width: 768px) {
+  html {
+    font-size: 18px;
+  }
+}
+
+body {
+  font-family: var(--body-font);
+  font-weight: var(--body-normal);
+  font-size: 1rem;
+  line-height: 1.6;
+  letter-spacing: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--fsa-primary_white);
+  color: var(--fsa-primary_black);
+  position: relative;
+}
+@media screen and (min-width: 768px) {
+  body {
+    font-size: 1rem;
+  }
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+h1,
+.h1 {
+  font-family: var(--heading-font);
+  font-size: 2.5rem;
+  font-weight: var(--heading-bold);
+  line-height: 1.1;
+  letter-spacing: normal;
+}
+@media screen and (min-width: 768px) {
+  h1,
+.h1 {
+    font-size: 3.75rem;
+  }
+}
+
+h2,
+.h2 {
+  font-family: var(--heading-font);
+  font-size: 2rem;
+  font-weight: var(--heading-bold);
+  line-height: 1.2;
+  letter-spacing: normal;
+}
+@media screen and (min-width: 768px) {
+  h2,
+.h2 {
+    font-size: 2.5rem;
+  }
+}
+
+h3,
+.h3 {
+  font-family: var(--heading-font);
+  font-size: 1.625rem;
+  font-weight: var(--heading-bold);
+  line-height: 1.2;
+  letter-spacing: normal;
+}
+@media screen and (min-width: 768px) {
+  h3,
+.h3 {
+    font-size: 2rem;
+  }
+}
+
+h4,
+.h4 {
+  font-family: var(--heading-font);
+  font-size: 1.375rem;
+  font-weight: var(--heading-bold);
+  line-height: 1.2;
+  letter-spacing: normal;
+}
+@media screen and (min-width: 768px) {
+  h4,
+.h4 {
+    font-size: 1.625rem;
+  }
+}
+
+h5,
+.h5 {
+  font-family: var(--heading-font);
+  font-size: 1.2rem;
+  font-weight: var(--heading-bold);
+  line-height: 1.4;
+  letter-spacing: normal;
+}
+@media screen and (min-width: 768px) {
+  h5,
+.h5 {
+    font-size: 1.35rem;
+  }
+}
+
+h6,
+.h6 {
+  font-family: var(--body-font);
+  font-size: 1rem;
+  font-weight: var(--body-bold);
+  line-height: 1.6;
+  letter-spacing: normal;
+}
+@media screen and (min-width: 768px) {
+  h6,
+.h6 {
+    font-size: 1.125rem;
+  }
+}
+
+ul {
+  list-style: none;
+}
+/*!********************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/pattern-library/components/Button/button.scss ***!
+  \********************************************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css?family=Fira+Sans:300,400,500,700);
+/*!************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/pattern-library/components/Button/button.scss (1) ***!
+  \************************************************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700);
+/*!************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/pattern-library/components/Button/button.scss (2) ***!
+  \************************************************************************************************************************************************/
+:root {
+  /* Primary Colours */
+  --fsa-primary_dark-green: #007C75;
+  --fsa-primary_mid-green: #6CB33F;
+  --fsa-primary_light-green: #A9C47F;
+  --fsa-primary_dark-grey: #53565A;
+  --fsa_online-grey: #F0F3F5;
+  --fsa_border: #DEE2E5;
+  --fsa-primary_black: #000000;
+  --fsa-primary_white: #FFFFFF;
+  --fsa_tint: #FAFCFD;
+  /* Secondary Colours */
+  --fsa-secondary_mid-red: #E31837;
+  --fsa-secondary_orange: #F15D22;
+  --fsa-secondary_mid-yellow: #FDB913;
+  --fsa-secondary_mid-purple: #49176D;
+  --fsa-secondary_light-purple: #9F218B;
+  --fsa-tertiary_dark-blue: #9F218B;
+  /* Tertiary Colours */
+  --fsa-tertiary_dark-red: #B04A5A;
+  --fsa-tertiary_light-red: #EF3340;
+  --fsa-tertiary_light-yellow: #F1C400;
+  --fsa-tertiary_teal: #00B2A9;
+  --fsa-tertiary_light-blue: #8DC8E8;
+  --fsa-tertiary_dark-purple: #51284F;
+  --fsa-secondary_mid-blue: #007FB2;
+  --fsa-tertiary_lime: #CEDC00;
+  --fsa-tertiary_mauve: #8B84D7;
+  /* Hover Colours */
+  --fsa__link-green: #014B4C;
+  --fsa__purple-hover: #2a0247;
+  /* Typography */
+  --body-font: "open-sans", sans-serif;
+  --body-normal: 400;
+  --body-bold: 600;
+  --heading-font: "fira-sans", sans-serif;
+  --heading-bold: 700;
+  /* Grid */
+  --container: 1rem;
+  --gutter: 1rem;
+  --max-width: 75rem;
+}
+
+/* Custom Mixins */
 .button {
   display: inline-block;
   font-family: open sans, sans-serif;

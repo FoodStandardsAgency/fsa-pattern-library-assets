@@ -8,7 +8,7 @@ function deeson_twig_component_templates($assetPath = 'auto') {
   return [ 
         "button" => [
           "template" => "button",
-          "path" => $assetPath . "/Button",
+          "path" => $assetPath . "/pattern-library/components/Button",
           "variables" => ["content" => []]
         ]
   ];
