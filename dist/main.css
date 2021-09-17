@@ -259,3 +259,143 @@ ul {
 .button--primary {
   background-color: #007c75;
 }
+/*!******************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/pattern-library/components/ListingItem/listingItem.scss ***!
+  \******************************************************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css?family=Fira+Sans:300,400,500,700);
+/*!**********************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/pattern-library/components/ListingItem/listingItem.scss (1) ***!
+  \**********************************************************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700);
+/*!**********************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/pattern-library/components/ListingItem/listingItem.scss (2) ***!
+  \**********************************************************************************************************************************************************/
+:root {
+  /* Primary Colours */
+  --fsa-primary_dark-green: #007C75;
+  --fsa-primary_mid-green: #6CB33F;
+  --fsa-primary_light-green: #A9C47F;
+  --fsa-primary_dark-grey: #53565A;
+  --fsa_online-grey: #F0F3F5;
+  --fsa_border: #DEE2E5;
+  --fsa-primary_black: #000000;
+  --fsa-primary_white: #FFFFFF;
+  --fsa_tint: #FAFCFD;
+  /* Secondary Colours */
+  --fsa-secondary_mid-red: #E31837;
+  --fsa-secondary_orange: #F15D22;
+  --fsa-secondary_mid-yellow: #FDB913;
+  --fsa-secondary_mid-purple: #49176D;
+  --fsa-secondary_light-purple: #9F218B;
+  --fsa-tertiary_dark-blue: #9F218B;
+  /* Tertiary Colours */
+  --fsa-tertiary_dark-red: #B04A5A;
+  --fsa-tertiary_light-red: #EF3340;
+  --fsa-tertiary_light-yellow: #F1C400;
+  --fsa-tertiary_teal: #00B2A9;
+  --fsa-tertiary_light-blue: #8DC8E8;
+  --fsa-tertiary_dark-purple: #51284F;
+  --fsa-secondary_mid-blue: #007FB2;
+  --fsa-tertiary_lime: #CEDC00;
+  --fsa-tertiary_mauve: #8B84D7;
+  /* Hover Colours */
+  --fsa__link-green: #014B4C;
+  --fsa__purple-hover: #2a0247;
+  /* Typography */
+  --body-font: "Open Sans", sans-serif;
+  --body-normal: 400;
+  --body-bold: 600;
+  --heading-font: "Fira Sans", sans-serif;
+  --heading-bold: 700;
+  /* Grid */
+  --container: 1rem;
+  --gutter: 1rem;
+  --max-width: 83.5rem;
+}
+
+/* Custom Mixins */
+.listing-item {
+  display: grid;
+  grid-template-columns: repeat(4, [col-start] 1fr);
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+@media screen and (min-width: 768px) {
+  .listing-item {
+    grid-template-columns: repeat(12, [col-start] 1fr);
+    gap: 2rem;
+  }
+}
+.listing-item:hover {
+  cursor: pointer;
+}
+.listing-item__content {
+  border-bottom: 4px solid var(--fsa_border);
+  padding: 0 1rem 1rem 1rem;
+  grid-column: 1/span 4;
+}
+@media screen and (min-width: 768px) {
+  .listing-item__content {
+    padding: 0 2rem 1.5rem 2rem;
+  }
+}
+@media screen and (min-width: 500px) {
+  .listing-item__content {
+    grid-column: 4/span 8;
+  }
+}
+.listing-item__type {
+  text-transform: none;
+  margin: 0;
+  font-family: var(--body-font);
+  font-weight: var(--body-normal);
+  font-size: 1rem;
+  line-height: 1.6;
+  letter-spacing: normal;
+  font-weight: bold;
+}
+@media screen and (min-width: 768px) {
+  .listing-item__type {
+    font-size: 1rem;
+  }
+}
+@media screen and (min-width: 768px) {
+  .listing-item__type {
+    text-transform: uppercase;
+  }
+}
+.listing-item__title {
+  margin-top: 0.5rem;
+}
+.listing-item__title a {
+  font-size: 1.2rem;
+  font-weight: bold;
+  line-height: 1.4;
+  font-family: var(--heading-font);
+  color: var(--fsa-primary_dark-green);
+}
+.listing-item__title a:hover {
+  text-decoration: underline;
+  color: var(--fsa__link-green);
+}
+.listing-item__title a:focus {
+  background-color: var(--fsa-tertiary_light-yellow);
+  color: var(--fsa-primary_black);
+  text-decoration-thickness: 2px;
+}
+.listing-item__description {
+  margin: 0.5rem 0;
+}
+.listing-item__date {
+  font-family: var(--body-font);
+  font-weight: var(--body-normal);
+  font-size: 1rem;
+  line-height: 1.6;
+  letter-spacing: normal;
+  color: var(--fsa-primary_dark-grey);
+}
+@media screen and (min-width: 768px) {
+  .listing-item__date {
+    font-size: 1rem;
+  }
+}

@@ -16,7 +16,17 @@
   \****************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"[1]\");\n\n//# sourceURL=webpack://fds/./src/pattern-library/components/Button/button.html.twig?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"Button/button.html.twig\");\n\n//# sourceURL=webpack://fds/./src/pattern-library/components/Button/button.html.twig?");
+
+/***/ }),
+
+/***/ "./src/pattern-library/components/ListingItem/listingItem.html.twig":
+/*!**************************************************************************!*\
+  !*** ./src/pattern-library/components/ListingItem/listingItem.html.twig ***!
+  \**************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"ListingItem/listingItem.html.twig\");\n\n//# sourceURL=webpack://fds/./src/pattern-library/components/ListingItem/listingItem.html.twig?");
 
 /***/ }),
 
@@ -40,13 +50,23 @@ eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extr
 
 /***/ }),
 
+/***/ "./src/pattern-library/components/ListingItem/listingItem.scss":
+/*!*********************************************************************!*\
+  !*** ./src/pattern-library/components/ListingItem/listingItem.scss ***!
+  \*********************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n\n\n//# sourceURL=webpack://fds/./src/pattern-library/components/ListingItem/listingItem.scss?");
+
+/***/ }),
+
 /***/ "./src/index.js":
 /*!**********************!*\
   !*** ./src/index.js ***!
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _base_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./base.scss */ \"./src/base.scss\");\n/* harmony import */ var _pattern_library_components_Button_Button__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./pattern-library/components/Button/Button */ \"./src/pattern-library/components/Button/Button.js\");\n\n\n\n\n(0,_pattern_library_components_Button_Button__WEBPACK_IMPORTED_MODULE_1__.default)();\n\n\n\n//# sourceURL=webpack://fds/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _base_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./base.scss */ \"./src/base.scss\");\n/* harmony import */ var _pattern_library_components_Button_Button__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./pattern-library/components/Button/Button */ \"./src/pattern-library/components/Button/Button.js\");\n/* harmony import */ var _pattern_library_components_ListingItem_ListingItem__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./pattern-library/components/ListingItem/ListingItem */ \"./src/pattern-library/components/ListingItem/ListingItem.js\");\n\n\n\n\n(0,_pattern_library_components_Button_Button__WEBPACK_IMPORTED_MODULE_1__.default)();\n(0,_pattern_library_components_ListingItem_ListingItem__WEBPACK_IMPORTED_MODULE_2__.default)();\n\n\n//# sourceURL=webpack://fds/./src/index.js?");
 
 /***/ }),
 
@@ -57,6 +77,16 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _bas
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* export default binding */ __WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _button_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./button.scss */ \"./src/pattern-library/components/Button/button.scss\");\n/* harmony import */ var _button_html_twig__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./button.html.twig */ \"./src/pattern-library/components/Button/button.html.twig\");\n\n\n\n/* harmony default export */ function __WEBPACK_DEFAULT_EXPORT__() {\n  window.addEventListener(\"DOMContentLoaded\",function() {\n    const button = document.querySelector('.button');\n    if (!button) return;\n    button.addEventListener('click', event => {\n      button.textContent = `Button ${event.detail}`;\n    });\n    const img = document.querySelector('img');\n    img.setAttribute('alt', 'some alt');\n  });\n}\n\n\n//# sourceURL=webpack://fds/./src/pattern-library/components/Button/Button.js?");
+
+/***/ }),
+
+/***/ "./src/pattern-library/components/ListingItem/ListingItem.js":
+/*!*******************************************************************!*\
+  !*** ./src/pattern-library/components/ListingItem/ListingItem.js ***!
+  \*******************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* export default binding */ __WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _listingItem_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./listingItem.scss */ \"./src/pattern-library/components/ListingItem/listingItem.scss\");\n/* harmony import */ var _listingItem_html_twig__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./listingItem.html.twig */ \"./src/pattern-library/components/ListingItem/listingItem.html.twig\");\n\n\n\n/* harmony default export */ function __WEBPACK_DEFAULT_EXPORT__() {\n\n  window.addEventListener('DOMContentLoaded', function () {\n    const cards = document.querySelectorAll('.listing-item');\n    if (!cards) return;\n\n    cards.forEach(card => {\n      card.addEventListener('click', (event) => {\n        event.stopPropagation();\n        const link = card.querySelector('.listing-item__title a');\n        link.click();\n      })\n    })\n  });\n}\n\n//# sourceURL=webpack://fds/./src/pattern-library/components/ListingItem/ListingItem.js?");
 
 /***/ })
 
