@@ -54,6 +54,15 @@
 
 /* Custom Mixins */
 html {
+  font-size: 16px;
+}
+@media screen and (min-width: 768px) {
+  html {
+    font-size: 18px;
+  }
+}
+
+html {
   font-family: sans-serif;
   font-size: 16px;
 }
@@ -242,6 +251,15 @@ ul {
 }
 
 /* Custom Mixins */
+html {
+  font-size: 16px;
+}
+@media screen and (min-width: 768px) {
+  html {
+    font-size: 18px;
+  }
+}
+
 .button {
   display: inline-block;
   font-family: open sans, sans-serif;
@@ -348,6 +366,15 @@ ul {
 }
 
 /* Custom Mixins */
+html {
+  font-size: 16px;
+}
+@media screen and (min-width: 768px) {
+  html {
+    font-size: 18px;
+  }
+}
+
 .listing-item {
   display: grid;
   grid-template-columns: repeat(4, [col-start] 1fr);
