@@ -251,32 +251,6 @@ html {
   }
 }
 
-.button {
-  display: inline-block;
-  font-family: open sans, sans-serif;
-  font-size: 1rem;
-  text-align: center;
-  line-height: 1.6rem;
-  letter-spacing: normal;
-  border: 0;
-  border-radius: 1.5rem;
-  padding: 0.5rem 2.5rem;
-  cursor: pointer;
-  transition: background-color 0.2s cubic-bezier(0.19, 1, 0.22, 1), border-radius 0.1s ease-out, border-bottom 0.1s ease-out;
-  background-color: var(--fsa-primary_white);
-  color: var(--fsa__link-green);
-}
-.button:hover {
-  background-color: #006f51;
-  color: var(--fsa-primary_white);
-}
-.button:focus {
-  background-color: var(--fsa-tertiary_light-yellow);
-  color: var(--fsa-primary_black);
-  border-radius: 0;
-  border-bottom: 4px var(--fsa-primary_black) solid;
-  outline: none;
-}
 .button--primary {
   display: inline-block;
   font-family: open sans, sans-serif;
@@ -296,6 +270,57 @@ html {
   background-color: #005e59;
 }
 .button--primary:focus {
+  background-color: var(--fsa-tertiary_light-yellow);
+  color: var(--fsa-primary_black);
+  border-radius: 0;
+  border-bottom: 4px var(--fsa-primary_black) solid;
+  outline: none;
+}
+.button--secondary {
+  display: inline-block;
+  font-family: open sans, sans-serif;
+  font-size: 1rem;
+  text-align: center;
+  line-height: 1.6rem;
+  letter-spacing: normal;
+  border: 0;
+  border-radius: 1.5rem;
+  padding: 0.5rem 2.5rem;
+  cursor: pointer;
+  transition: background-color 0.2s cubic-bezier(0.19, 1, 0.22, 1), border-radius 0.1s ease-out, border-bottom 0.1s ease-out;
+  background-color: var(--fsa-primary_white);
+  color: var(--fsa__link-green);
+}
+.button--secondary:hover {
+  background-color: #006f51;
+  color: var(--fsa-primary_white);
+}
+.button--secondary:focus {
+  background-color: var(--fsa-tertiary_light-yellow);
+  color: var(--fsa-primary_black);
+  border-radius: 0;
+  border-bottom: 4px var(--fsa-primary_black) solid;
+  outline: none;
+}
+.button--cancel {
+  display: inline-block;
+  font-family: open sans, sans-serif;
+  font-size: 1rem;
+  text-align: center;
+  line-height: 1.6rem;
+  letter-spacing: normal;
+  border: 0;
+  border-radius: 1.5rem;
+  padding: 0.5rem 2.5rem;
+  cursor: pointer;
+  transition: background-color 0.2s cubic-bezier(0.19, 1, 0.22, 1), border-radius 0.1s ease-out, border-bottom 0.1s ease-out;
+  background-color: var(--fsa-secondary_mid-red);
+  color: var(--fsa-primary_white);
+}
+.button--cancel:hover {
+  background-color: #b0132b;
+}
+.button--cancel:focus {
   background-color: var(--fsa-tertiary_light-yellow);
   color: var(--fsa-primary_black);
   border-radius: 0;
