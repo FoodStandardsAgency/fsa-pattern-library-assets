@@ -428,6 +428,12 @@ html {
   color: var(--fsa-primary_black);
   outline: none;
   border-bottom: 2px solid var(--fsa-primary_black);
+  padding: 0.5px 0;
+}
+@media screen and (min-width: 500px) {
+  .listing-item__title a:focus {
+    padding: 3px 0;
+  }
 }
 .listing-item__description {
   margin: 0.5rem 0;
