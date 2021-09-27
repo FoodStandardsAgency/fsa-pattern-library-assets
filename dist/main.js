@@ -20,6 +20,16 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ 
 
 /***/ }),
 
+/***/ "./src/pattern-library/components/LandingLinks/landingLinks.html.twig":
+/*!****************************************************************************!*\
+  !*** ./src/pattern-library/components/LandingLinks/landingLinks.html.twig ***!
+  \****************************************************************************/
+/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"LandingLinks/landingLinks.html.twig\");\n\n//# sourceURL=webpack://fds/./src/pattern-library/components/LandingLinks/landingLinks.html.twig?");
+
+/***/ }),
+
 /***/ "./src/pattern-library/components/ListingItem/listingItem.html.twig":
 /*!**************************************************************************!*\
   !*** ./src/pattern-library/components/ListingItem/listingItem.html.twig ***!
@@ -50,6 +60,16 @@ eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extr
 
 /***/ }),
 
+/***/ "./src/pattern-library/components/LandingLinks/landingLinks.scss":
+/*!***********************************************************************!*\
+  !*** ./src/pattern-library/components/LandingLinks/landingLinks.scss ***!
+  \***********************************************************************/
+/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n\n\n//# sourceURL=webpack://fds/./src/pattern-library/components/LandingLinks/landingLinks.scss?");
+
+/***/ }),
+
 /***/ "./src/pattern-library/components/ListingItem/listingItem.scss":
 /*!*********************************************************************!*\
   !*** ./src/pattern-library/components/ListingItem/listingItem.scss ***!
@@ -66,7 +86,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extr
   \**********************/
 /***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _base_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./base.scss */ \"./src/base.scss\");\n/* harmony import */ var _pattern_library_components_Button_Button__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./pattern-library/components/Button/Button */ \"./src/pattern-library/components/Button/Button.js\");\n/* harmony import */ var _pattern_library_components_ListingItem_ListingItem__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./pattern-library/components/ListingItem/ListingItem */ \"./src/pattern-library/components/ListingItem/ListingItem.js\");\n\n\n\n\n(0,_pattern_library_components_ListingItem_ListingItem__WEBPACK_IMPORTED_MODULE_2__.default)();\n\n\n//# sourceURL=webpack://fds/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _base_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./base.scss */ \"./src/base.scss\");\n/* harmony import */ var _pattern_library_components_Button_Button__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./pattern-library/components/Button/Button */ \"./src/pattern-library/components/Button/Button.js\");\n/* harmony import */ var _pattern_library_components_ListingItem_ListingItem__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./pattern-library/components/ListingItem/ListingItem */ \"./src/pattern-library/components/ListingItem/ListingItem.js\");\n/* harmony import */ var _pattern_library_components_LandingLinks_LandingLinks__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./pattern-library/components/LandingLinks/LandingLinks */ \"./src/pattern-library/components/LandingLinks/LandingLinks.js\");\n\n\n\n\n\n(0,_pattern_library_components_ListingItem_ListingItem__WEBPACK_IMPORTED_MODULE_2__.default)();\n(0,_pattern_library_components_LandingLinks_LandingLinks__WEBPACK_IMPORTED_MODULE_3__.default)();\n\n//# sourceURL=webpack://fds/./src/index.js?");
 
 /***/ }),
 
@@ -77,6 +97,16 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _bas
 /***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _button_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./button.scss */ \"./src/pattern-library/components/Button/button.scss\");\n/* harmony import */ var _button_html_twig__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./button.html.twig */ \"./src/pattern-library/components/Button/button.html.twig\");\n\n\n\n\n//# sourceURL=webpack://fds/./src/pattern-library/components/Button/Button.js?");
+
+/***/ }),
+
+/***/ "./src/pattern-library/components/LandingLinks/LandingLinks.js":
+/*!*********************************************************************!*\
+  !*** ./src/pattern-library/components/LandingLinks/LandingLinks.js ***!
+  \*********************************************************************/
+/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": function() { return /* export default binding */ __WEBPACK_DEFAULT_EXPORT__; }\n/* harmony export */ });\n/* harmony import */ var _landingLinks_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./landingLinks.scss */ \"./src/pattern-library/components/LandingLinks/landingLinks.scss\");\n/* harmony import */ var _landingLinks_html_twig__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./landingLinks.html.twig */ \"./src/pattern-library/components/LandingLinks/landingLinks.html.twig\");\n\n\n\n/* harmony default export */ function __WEBPACK_DEFAULT_EXPORT__() {\n\n  window.addEventListener('DOMContentLoaded', function () {\n   const listItems = document.querySelectorAll('.landing-links__item');\n   if(!listItems) return;\n   listItems.forEach(item => {\n     item.addEventListener('click', ()=> {\n       const link = item.querySelector('.landing-links__link');\n       link.click();\n     })\n   })\n  \n  });\n}\n\n//# sourceURL=webpack://fds/./src/pattern-library/components/LandingLinks/LandingLinks.js?");
 
 /***/ }),
 

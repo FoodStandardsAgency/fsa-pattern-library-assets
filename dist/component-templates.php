@@ -15,6 +15,11 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "template" => "listingItem",
           "path" => $assetPath . "/pattern-library/components/ListingItem",
           "variables" => ["content" => []]
+        ], 
+        "landingLinks" => [
+          "template" => "landingLinks",
+          "path" => $assetPath . "/pattern-library/components/LandingLinks",
+          "variables" => ["content" => []]
         ]
   ];
 }
