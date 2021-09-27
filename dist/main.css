@@ -55,19 +55,10 @@
 
 /* Custom Mixins */
 html {
-  font-size: 16px;
-}
-@media screen and (min-width: 768px) {
-  html {
-    font-size: 18px;
-  }
-}
-
-html {
   font-family: sans-serif;
   font-size: 16px;
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1024px) {
   html {
     font-size: 18px;
   }
@@ -242,15 +233,6 @@ ul {
 }
 
 /* Custom Mixins */
-html {
-  font-size: 16px;
-}
-@media screen and (min-width: 768px) {
-  html {
-    font-size: 18px;
-  }
-}
-
 .button--primary {
   display: inline-block;
   font-family: open sans, sans-serif;
@@ -383,15 +365,6 @@ html {
 }
 
 /* Custom Mixins */
-html {
-  font-size: 16px;
-}
-@media screen and (min-width: 768px) {
-  html {
-    font-size: 18px;
-  }
-}
-
 .listing-item {
   margin-bottom: 1.5rem;
 }
