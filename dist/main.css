@@ -179,15 +179,9 @@ small,
 .small {
   font-family: var(--body-font);
   font-weight: var(--body-normal);
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   line-height: 1.6;
   letter-spacing: normal;
-}
-@media screen and (min-width: 1024px) {
-  small,
-.small {
-    font-size: 0.9rem;
-  }
 }
 
 ul {
@@ -269,7 +263,7 @@ ul {
   background-color: #005e59;
 }
 .button--primary:focus {
-  box-shadow: 0 0 0px 3px var(--fsa-tertiary_light-yellow), inset 0 0 0px 3px var(--fsa-primary_black);
+  box-shadow: 0 0 0 0.2rem var(--fsa-primary_black), 0 0 0 0.4rem var(--fsa-tertiary_light-yellow);
   outline: none;
 }
 .button--secondary {
@@ -293,7 +287,7 @@ ul {
   color: var(--fsa-primary_white);
 }
 .button--secondary:focus {
-  box-shadow: 0 0 0px 3px var(--fsa-tertiary_light-yellow), inset 0 0 0px 3px var(--fsa-primary_black);
+  box-shadow: 0 0 0 0.2rem var(--fsa-primary_black), 0 0 0 0.4rem var(--fsa-tertiary_light-yellow);
   outline: none;
 }
 .button--cancel {
@@ -316,7 +310,7 @@ ul {
   background-color: #b0132b;
 }
 .button--cancel:focus {
-  box-shadow: 0 0 0px 3px var(--fsa-tertiary_light-yellow), inset 0 0 0px 3px var(--fsa-primary_black);
+  box-shadow: 0 0 0 0.2rem var(--fsa-primary_black), 0 0 0 0.4rem var(--fsa-tertiary_light-yellow);
   outline: none;
 }
 /*!*************************************************************************************************************************************************************************************************!*\
