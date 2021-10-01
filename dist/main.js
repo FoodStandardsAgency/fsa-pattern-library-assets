@@ -20,6 +20,16 @@ eval("__webpack_require__.r(__webpack_exports__);\n/*!\n * css-vars-ponyfill\n *
 
 /***/ }),
 
+/***/ "./src/pattern-library/components/Breadcrumb/breadcrumb.html.twig":
+/*!************************************************************************!*\
+  !*** ./src/pattern-library/components/Breadcrumb/breadcrumb.html.twig ***!
+  \************************************************************************/
+/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"Breadcrumb/breadcrumb.html.twig\");\n\n//# sourceURL=webpack://fds/./src/pattern-library/components/Breadcrumb/breadcrumb.html.twig?");
+
+/***/ }),
+
 /***/ "./src/pattern-library/components/Button/button.html.twig":
 /*!****************************************************************!*\
   !*** ./src/pattern-library/components/Button/button.html.twig ***!
@@ -27,6 +37,16 @@ eval("__webpack_require__.r(__webpack_exports__);\n/*!\n * css-vars-ponyfill\n *
 /***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"Button/button.html.twig\");\n\n//# sourceURL=webpack://fds/./src/pattern-library/components/Button/button.html.twig?");
+
+/***/ }),
+
+/***/ "./src/pattern-library/components/FiltersSelected/filtersSelected.html.twig":
+/*!**********************************************************************************!*\
+  !*** ./src/pattern-library/components/FiltersSelected/filtersSelected.html.twig ***!
+  \**********************************************************************************/
+/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"FiltersSelected/filtersSelected.html.twig\");\n\n//# sourceURL=webpack://fds/./src/pattern-library/components/FiltersSelected/filtersSelected.html.twig?");
 
 /***/ }),
 
@@ -50,6 +70,66 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ 
 
 /***/ }),
 
+/***/ "./src/pattern-library/components/Pagination/pagination.html.twig":
+/*!************************************************************************!*\
+  !*** ./src/pattern-library/components/Pagination/pagination.html.twig ***!
+  \************************************************************************/
+/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"Pagination/pagination.html.twig\");\n\n//# sourceURL=webpack://fds/./src/pattern-library/components/Pagination/pagination.html.twig?");
+
+/***/ }),
+
+/***/ "./src/pattern-library/components/SearchBar/searchBar.html.twig":
+/*!**********************************************************************!*\
+  !*** ./src/pattern-library/components/SearchBar/searchBar.html.twig ***!
+  \**********************************************************************/
+/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"SearchBar/searchBar.html.twig\");\n\n//# sourceURL=webpack://fds/./src/pattern-library/components/SearchBar/searchBar.html.twig?");
+
+/***/ }),
+
+/***/ "./src/pattern-library/components/SearchBarHeader/searchBarHeader.html.twig":
+/*!**********************************************************************************!*\
+  !*** ./src/pattern-library/components/SearchBarHeader/searchBarHeader.html.twig ***!
+  \**********************************************************************************/
+/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"SearchBarHeader/searchBarHeader.html.twig\");\n\n//# sourceURL=webpack://fds/./src/pattern-library/components/SearchBarHeader/searchBarHeader.html.twig?");
+
+/***/ }),
+
+/***/ "./src/pattern-library/components/SearchNoResults/searchNoResults.html.twig":
+/*!**********************************************************************************!*\
+  !*** ./src/pattern-library/components/SearchNoResults/searchNoResults.html.twig ***!
+  \**********************************************************************************/
+/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"SearchNoResults/searchNoResults.html.twig\");\n\n//# sourceURL=webpack://fds/./src/pattern-library/components/SearchNoResults/searchNoResults.html.twig?");
+
+/***/ }),
+
+/***/ "./src/pattern-library/components/Showing/showing.html.twig":
+/*!******************************************************************!*\
+  !*** ./src/pattern-library/components/Showing/showing.html.twig ***!
+  \******************************************************************/
+/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"Showing/showing.html.twig\");\n\n//# sourceURL=webpack://fds/./src/pattern-library/components/Showing/showing.html.twig?");
+
+/***/ }),
+
+/***/ "./src/pattern-library/components/SortBy/sortBy.html.twig":
+/*!****************************************************************!*\
+  !*** ./src/pattern-library/components/SortBy/sortBy.html.twig ***!
+  \****************************************************************/
+/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"SortBy/sortBy.html.twig\");\n\n//# sourceURL=webpack://fds/./src/pattern-library/components/SortBy/sortBy.html.twig?");
+
+/***/ }),
+
 /***/ "./src/base.scss":
 /*!***********************!*\
   !*** ./src/base.scss ***!
@@ -60,6 +140,16 @@ eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extr
 
 /***/ }),
 
+/***/ "./src/pattern-library/components/Breadcrumb/breadcrumb.scss":
+/*!*******************************************************************!*\
+  !*** ./src/pattern-library/components/Breadcrumb/breadcrumb.scss ***!
+  \*******************************************************************/
+/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n\n\n//# sourceURL=webpack://fds/./src/pattern-library/components/Breadcrumb/breadcrumb.scss?");
+
+/***/ }),
+
 /***/ "./src/pattern-library/components/Button/button.scss":
 /*!***********************************************************!*\
   !*** ./src/pattern-library/components/Button/button.scss ***!
@@ -67,6 +157,16 @@ eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extr
 /***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n\n\n//# sourceURL=webpack://fds/./src/pattern-library/components/Button/button.scss?");
+
+/***/ }),
+
+/***/ "./src/pattern-library/components/FiltersSelected/filtersSelected.scss":
+/*!*****************************************************************************!*\
+  !*** ./src/pattern-library/components/FiltersSelected/filtersSelected.scss ***!
+  \*****************************************************************************/
+/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n\n\n//# sourceURL=webpack://fds/./src/pattern-library/components/FiltersSelected/filtersSelected.scss?");
 
 /***/ }),
 
@@ -90,13 +190,83 @@ eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extr
 
 /***/ }),
 
+/***/ "./src/pattern-library/components/Pagination/pagination.scss":
+/*!*******************************************************************!*\
+  !*** ./src/pattern-library/components/Pagination/pagination.scss ***!
+  \*******************************************************************/
+/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n\n\n//# sourceURL=webpack://fds/./src/pattern-library/components/Pagination/pagination.scss?");
+
+/***/ }),
+
+/***/ "./src/pattern-library/components/SearchBar/searchBar.scss":
+/*!*****************************************************************!*\
+  !*** ./src/pattern-library/components/SearchBar/searchBar.scss ***!
+  \*****************************************************************/
+/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n\n\n//# sourceURL=webpack://fds/./src/pattern-library/components/SearchBar/searchBar.scss?");
+
+/***/ }),
+
+/***/ "./src/pattern-library/components/SearchBarHeader/searchBarHeader.scss":
+/*!*****************************************************************************!*\
+  !*** ./src/pattern-library/components/SearchBarHeader/searchBarHeader.scss ***!
+  \*****************************************************************************/
+/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n\n\n//# sourceURL=webpack://fds/./src/pattern-library/components/SearchBarHeader/searchBarHeader.scss?");
+
+/***/ }),
+
+/***/ "./src/pattern-library/components/SearchNoResults/searchNoResults.scss":
+/*!*****************************************************************************!*\
+  !*** ./src/pattern-library/components/SearchNoResults/searchNoResults.scss ***!
+  \*****************************************************************************/
+/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n\n\n//# sourceURL=webpack://fds/./src/pattern-library/components/SearchNoResults/searchNoResults.scss?");
+
+/***/ }),
+
+/***/ "./src/pattern-library/components/Showing/showing.scss":
+/*!*************************************************************!*\
+  !*** ./src/pattern-library/components/Showing/showing.scss ***!
+  \*************************************************************/
+/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n\n\n//# sourceURL=webpack://fds/./src/pattern-library/components/Showing/showing.scss?");
+
+/***/ }),
+
+/***/ "./src/pattern-library/components/SortBy/sortBy.scss":
+/*!***********************************************************!*\
+  !*** ./src/pattern-library/components/SortBy/sortBy.scss ***!
+  \***********************************************************/
+/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n\n\n//# sourceURL=webpack://fds/./src/pattern-library/components/SortBy/sortBy.scss?");
+
+/***/ }),
+
 /***/ "./src/index.js":
 /*!**********************!*\
   !*** ./src/index.js ***!
   \**********************/
 /***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _base_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./base.scss */ \"./src/base.scss\");\n/* harmony import */ var _pattern_library_components_Button_Button__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./pattern-library/components/Button/Button */ \"./src/pattern-library/components/Button/Button.js\");\n/* harmony import */ var css_vars_ponyfill__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! css-vars-ponyfill */ \"./node_modules/css-vars-ponyfill/dist/css-vars-ponyfill.esm.js\");\n/* harmony import */ var _pattern_library_components_ListingItem_ListingItem__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./pattern-library/components/ListingItem/ListingItem */ \"./src/pattern-library/components/ListingItem/ListingItem.js\");\n/* harmony import */ var _pattern_library_components_LandingLinks_LandingLinks__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./pattern-library/components/LandingLinks/LandingLinks */ \"./src/pattern-library/components/LandingLinks/LandingLinks.js\");\n\n\n\n\n\n\n\n// Fixes css vars on legacy browsers (i.e. IE11)\n(0,css_vars_ponyfill__WEBPACK_IMPORTED_MODULE_4__.default)();\n\n(0,_pattern_library_components_ListingItem_ListingItem__WEBPACK_IMPORTED_MODULE_2__.default)();\n(0,_pattern_library_components_LandingLinks_LandingLinks__WEBPACK_IMPORTED_MODULE_3__.default)();\n\n\n//# sourceURL=webpack://fds/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _base_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./base.scss */ \"./src/base.scss\");\n/* harmony import */ var css_vars_ponyfill__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! css-vars-ponyfill */ \"./node_modules/css-vars-ponyfill/dist/css-vars-ponyfill.esm.js\");\n/* harmony import */ var _pattern_library_components_Breadcrumb_breadcrumb__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./pattern-library/components/Breadcrumb/breadcrumb */ \"./src/pattern-library/components/Breadcrumb/breadcrumb.js\");\n/* harmony import */ var _pattern_library_components_Button_Button__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./pattern-library/components/Button/Button */ \"./src/pattern-library/components/Button/Button.js\");\n/* harmony import */ var _pattern_library_components_FiltersSelected_filtersSelected__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./pattern-library/components/FiltersSelected/filtersSelected */ \"./src/pattern-library/components/FiltersSelected/filtersSelected.js\");\n/* harmony import */ var _pattern_library_components_ListingItem_ListingItem__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./pattern-library/components/ListingItem/ListingItem */ \"./src/pattern-library/components/ListingItem/ListingItem.js\");\n/* harmony import */ var _pattern_library_components_Pagination_pagination__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./pattern-library/components/Pagination/pagination */ \"./src/pattern-library/components/Pagination/pagination.js\");\n/* harmony import */ var _pattern_library_components_SearchBarHeader_searchBarHeader__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./pattern-library/components/SearchBarHeader/searchBarHeader */ \"./src/pattern-library/components/SearchBarHeader/searchBarHeader.js\");\n/* harmony import */ var _pattern_library_components_SearchNoResults_searchNoResults__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./pattern-library/components/SearchNoResults/searchNoResults */ \"./src/pattern-library/components/SearchNoResults/searchNoResults.js\");\n/* harmony import */ var _pattern_library_components_Showing_showing__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./pattern-library/components/Showing/showing */ \"./src/pattern-library/components/Showing/showing.js\");\n/* harmony import */ var _pattern_library_components_SortBy_sortBy__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./pattern-library/components/SortBy/sortBy */ \"./src/pattern-library/components/SortBy/sortBy.js\");\n/* harmony import */ var _pattern_library_components_LandingLinks_LandingLinks__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./pattern-library/components/LandingLinks/LandingLinks */ \"./src/pattern-library/components/LandingLinks/LandingLinks.js\");\n/* harmony import */ var _pattern_library_components_SearchBar_searchBar__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./pattern-library/components/SearchBar/searchBar */ \"./src/pattern-library/components/SearchBar/searchBar.js\");\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n// Fixes css vars on legacy browsers (i.e. IE11)\n(0,css_vars_ponyfill__WEBPACK_IMPORTED_MODULE_12__.default)();\n\n(0,_pattern_library_components_LandingLinks_LandingLinks__WEBPACK_IMPORTED_MODULE_10__.default)();\n(0,_pattern_library_components_SearchBar_searchBar__WEBPACK_IMPORTED_MODULE_11__.default)();\n\n\n//# sourceURL=webpack://fds/./src/index.js?");
+
+/***/ }),
+
+/***/ "./src/pattern-library/components/Breadcrumb/breadcrumb.js":
+/*!*****************************************************************!*\
+  !*** ./src/pattern-library/components/Breadcrumb/breadcrumb.js ***!
+  \*****************************************************************/
+/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _breadcrumb_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./breadcrumb.scss */ \"./src/pattern-library/components/Breadcrumb/breadcrumb.scss\");\n/* harmony import */ var _breadcrumb_html_twig__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./breadcrumb.html.twig */ \"./src/pattern-library/components/Breadcrumb/breadcrumb.html.twig\");\n\n\n\n\n//# sourceURL=webpack://fds/./src/pattern-library/components/Breadcrumb/breadcrumb.js?");
 
 /***/ }),
 
@@ -107,6 +277,16 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _bas
 /***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _button_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./button.scss */ \"./src/pattern-library/components/Button/button.scss\");\n/* harmony import */ var _button_html_twig__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./button.html.twig */ \"./src/pattern-library/components/Button/button.html.twig\");\n\n\n\n\n//# sourceURL=webpack://fds/./src/pattern-library/components/Button/Button.js?");
+
+/***/ }),
+
+/***/ "./src/pattern-library/components/FiltersSelected/filtersSelected.js":
+/*!***************************************************************************!*\
+  !*** ./src/pattern-library/components/FiltersSelected/filtersSelected.js ***!
+  \***************************************************************************/
+/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _filtersSelected_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./filtersSelected.scss */ \"./src/pattern-library/components/FiltersSelected/filtersSelected.scss\");\n/* harmony import */ var _filtersSelected_html_twig__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./filtersSelected.html.twig */ \"./src/pattern-library/components/FiltersSelected/filtersSelected.html.twig\");\n\n\n\n//# sourceURL=webpack://fds/./src/pattern-library/components/FiltersSelected/filtersSelected.js?");
 
 /***/ }),
 
@@ -126,7 +306,67 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \*******************************************************************/
 /***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": function() { return /* export default binding */ __WEBPACK_DEFAULT_EXPORT__; }\n/* harmony export */ });\n/* harmony import */ var _listingItem_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./listingItem.scss */ \"./src/pattern-library/components/ListingItem/listingItem.scss\");\n/* harmony import */ var _listingItem_html_twig__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./listingItem.html.twig */ \"./src/pattern-library/components/ListingItem/listingItem.html.twig\");\n\n\n\n/* harmony default export */ function __WEBPACK_DEFAULT_EXPORT__() {\n\n  window.addEventListener('DOMContentLoaded', function () {\n\n})}\n\n//# sourceURL=webpack://fds/./src/pattern-library/components/ListingItem/ListingItem.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _listingItem_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./listingItem.scss */ \"./src/pattern-library/components/ListingItem/listingItem.scss\");\n/* harmony import */ var _listingItem_html_twig__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./listingItem.html.twig */ \"./src/pattern-library/components/ListingItem/listingItem.html.twig\");\n\n\n\n//# sourceURL=webpack://fds/./src/pattern-library/components/ListingItem/ListingItem.js?");
+
+/***/ }),
+
+/***/ "./src/pattern-library/components/Pagination/pagination.js":
+/*!*****************************************************************!*\
+  !*** ./src/pattern-library/components/Pagination/pagination.js ***!
+  \*****************************************************************/
+/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _pagination_html_twig__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./pagination.html.twig */ \"./src/pattern-library/components/Pagination/pagination.html.twig\");\n/* harmony import */ var _pagination_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./pagination.scss */ \"./src/pattern-library/components/Pagination/pagination.scss\");\n\n\n\n//# sourceURL=webpack://fds/./src/pattern-library/components/Pagination/pagination.js?");
+
+/***/ }),
+
+/***/ "./src/pattern-library/components/SearchBar/searchBar.js":
+/*!***************************************************************!*\
+  !*** ./src/pattern-library/components/SearchBar/searchBar.js ***!
+  \***************************************************************/
+/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": function() { return /* export default binding */ __WEBPACK_DEFAULT_EXPORT__; }\n/* harmony export */ });\n/* harmony import */ var _searchBar_html_twig__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./searchBar.html.twig */ \"./src/pattern-library/components/SearchBar/searchBar.html.twig\");\n/* harmony import */ var _searchBar_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./searchBar.scss */ \"./src/pattern-library/components/SearchBar/searchBar.scss\");\n\n\n\n/* harmony default export */ function __WEBPACK_DEFAULT_EXPORT__() {\n  window.addEventListener('DOMContentLoaded', function () {\n    const el = document.querySelector('.search-bar');\n    if(!el) {\n      return;\n    }\n\n    const input = el.querySelector('.search-bar__box');\n    input.addEventListener('input', () => {\n      if (input.value !== '') {\n        input.classList.add('search-bar__box--has-content');\n      } else {\n        input.classList.remove('search-bar__box--has-content');\n      }\n    });\n  });\n}\n\n\n//# sourceURL=webpack://fds/./src/pattern-library/components/SearchBar/searchBar.js?");
+
+/***/ }),
+
+/***/ "./src/pattern-library/components/SearchBarHeader/searchBarHeader.js":
+/*!***************************************************************************!*\
+  !*** ./src/pattern-library/components/SearchBarHeader/searchBarHeader.js ***!
+  \***************************************************************************/
+/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _searchBarHeader_html_twig__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./searchBarHeader.html.twig */ \"./src/pattern-library/components/SearchBarHeader/searchBarHeader.html.twig\");\n/* harmony import */ var _searchBarHeader_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./searchBarHeader.scss */ \"./src/pattern-library/components/SearchBarHeader/searchBarHeader.scss\");\n\n\n\n//# sourceURL=webpack://fds/./src/pattern-library/components/SearchBarHeader/searchBarHeader.js?");
+
+/***/ }),
+
+/***/ "./src/pattern-library/components/SearchNoResults/searchNoResults.js":
+/*!***************************************************************************!*\
+  !*** ./src/pattern-library/components/SearchNoResults/searchNoResults.js ***!
+  \***************************************************************************/
+/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _searchNoResults_html_twig__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./searchNoResults.html.twig */ \"./src/pattern-library/components/SearchNoResults/searchNoResults.html.twig\");\n/* harmony import */ var _searchNoResults_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./searchNoResults.scss */ \"./src/pattern-library/components/SearchNoResults/searchNoResults.scss\");\n\n\n\n//# sourceURL=webpack://fds/./src/pattern-library/components/SearchNoResults/searchNoResults.js?");
+
+/***/ }),
+
+/***/ "./src/pattern-library/components/Showing/showing.js":
+/*!***********************************************************!*\
+  !*** ./src/pattern-library/components/Showing/showing.js ***!
+  \***********************************************************/
+/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _showing_html_twig__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./showing.html.twig */ \"./src/pattern-library/components/Showing/showing.html.twig\");\n/* harmony import */ var _showing_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./showing.scss */ \"./src/pattern-library/components/Showing/showing.scss\");\n\n\n\n//# sourceURL=webpack://fds/./src/pattern-library/components/Showing/showing.js?");
+
+/***/ }),
+
+/***/ "./src/pattern-library/components/SortBy/sortBy.js":
+/*!*********************************************************!*\
+  !*** ./src/pattern-library/components/SortBy/sortBy.js ***!
+  \*********************************************************/
+/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _sortBy_html_twig__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./sortBy.html.twig */ \"./src/pattern-library/components/SortBy/sortBy.html.twig\");\n/* harmony import */ var _sortBy_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./sortBy.scss */ \"./src/pattern-library/components/SortBy/sortBy.scss\");\n\n\n\n//# sourceURL=webpack://fds/./src/pattern-library/components/SortBy/sortBy.js?");
 
 /***/ })
 

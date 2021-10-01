@@ -187,6 +187,36 @@ small,
 ul {
   list-style: none;
 }
+/*!***********************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./src/pattern-library/components/Breadcrumb/breadcrumb.scss ***!
+  \***********************************************************************************************************************************************************************************************/
+.breadcrumb {
+  font-family: open sans, sans-serif;
+}
+.breadcrumb a {
+  color: #007c75;
+}
+.breadcrumb__item {
+  align-items: center;
+  color: #000;
+  display: inline-block;
+  font-size: 0.9em;
+  font-weight: 400;
+  padding-right: 1.5em;
+  position: relative;
+  text-align: left;
+}
+.breadcrumb__item:not(:last-child)::after {
+  content: "";
+  position: absolute;
+  top: 0.3em;
+  right: 0.55em;
+  bottom: 0.25em;
+  width: 1px;
+  text-align: center;
+  background-color: #000;
+  transform: skew(-25deg);
+}
 /*!***************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./src/pattern-library/components/Button/button.scss ***!
   \***************************************************************************************************************************************************************************************/
@@ -312,6 +342,144 @@ ul {
 .button--cancel:focus {
   box-shadow: 0 0 0 0.2rem var(--fsa-primary_black), 0 0 0 0.4rem var(--fsa-tertiary_light-yellow);
   outline: none;
+}
+/*!*********************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./src/pattern-library/components/FiltersSelected/filtersSelected.scss ***!
+  \*********************************************************************************************************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css?family=Fira+Sans:300,400,500,700);
+/*!*************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./src/pattern-library/components/FiltersSelected/filtersSelected.scss (1) ***!
+  \*************************************************************************************************************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700);
+/*!*************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./src/pattern-library/components/FiltersSelected/filtersSelected.scss (2) ***!
+  \*************************************************************************************************************************************************************************************************************/
+:root {
+  /* Primary Colours */
+  --fsa-primary_dark-green: #007c75;
+  --fsa-primary_mid-green: #6cb33f;
+  --fsa-primary_light-green: #a9c47f;
+  --fsa-primary_dark-grey: #53565a;
+  --fsa_online-grey: #f0f3f5;
+  --fsa_border: #dee2e5;
+  --fsa-primary_black: #000000;
+  --fsa-primary_white: #ffffff;
+  --fsa_tint: #fafcfd;
+  /* Secondary Colours */
+  --fsa-secondary_mid-red: #e31837;
+  --fsa-secondary_orange: #f15d22;
+  --fsa-secondary_mid-yellow: #fdb913;
+  --fsa-secondary_mid-purple: #49176d;
+  --fsa-secondary_light-purple: #9f218b;
+  --fsa-tertiary_dark-blue: #9f218b;
+  /* Tertiary Colours */
+  --fsa-tertiary_dark-red: #b04a5a;
+  --fsa-tertiary_light-red: #ef3340;
+  --fsa-tertiary_light-yellow: #f1c400;
+  --fsa-tertiary_teal: #00b2a9;
+  --fsa-tertiary_light-blue: #8dc8e8;
+  --fsa-tertiary_dark-purple: #51284f;
+  --fsa-secondary_mid-blue: #007fb2;
+  --fsa-tertiary_lime: #cedc00;
+  --fsa-tertiary_mauve: #8b84d7;
+  /* Hover Colours */
+  --fsa__link-green: #014b4c;
+  --fsa__purple-hover: #2a0247;
+  /* Typography */
+  --body-font: "Open Sans", sans-serif;
+  --body-normal: 400;
+  --body-bold: 600;
+  --heading-font: "Fira Sans", sans-serif;
+  --heading-bold: 700;
+  /* Grid */
+  --container-mobile: 1rem;
+  --container: 2rem;
+  --gutter: 1rem;
+  --max-width: 1336px;
+}
+
+/* Custom Mixins */
+.filters {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2rem;
+}
+@media screen and (min-width: 768px) {
+  .filters {
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 1.8rem;
+  }
+}
+.filters__buttons {
+  display: flex;
+  flex-wrap: wrap;
+}
+.filters__button {
+  font-family: var(--body-font);
+  font-weight: var(--body-normal);
+  font-size: 1rem;
+  line-height: 1.6;
+  letter-spacing: normal;
+  background: var(--fsa-secondary_mid-purple);
+  color: var(--fsa-primary_white);
+  font-size: 0.9rem;
+  border: none;
+  border-radius: 1.34rem;
+  box-shadow: none;
+  min-height: 44px;
+  padding: 0.6rem 3rem 0.6rem 1rem;
+  margin: 0 0.5rem 0.5rem 0;
+  cursor: pointer;
+  transition: background-color 0.2s cubic-bezier(0.19, 1, 0.22, 1), color 0.2s cubic-bezier(0.19, 1, 0.22, 1), border-radius 0.2s cubic-bezier(0.19, 1, 0.22, 1);
+  background-image: url(data:image/svg+xml;base64,ZXhwb3J0IGRlZmF1bHQgX193ZWJwYWNrX3B1YmxpY19wYXRoX18gKyAiRmlsdGVyc1NlbGVjdGVkL2Nyb3NzLXdoaXRlLnN2ZyI7);
+  background-repeat: no-repeat;
+  background-position: right 1.08rem center;
+}
+.filters__button:hover {
+  background-color: var(--fsa__purple-hover);
+}
+.filters__button:focus {
+  box-shadow: 0 0 0px 0.2rem var(--fsa-tertiary_light-yellow), 0 0 0px 0.4rem var(--fsa-primary_black);
+  outline: none;
+}
+@media screen and (min-width: 768px) {
+  .filters__button {
+    border-radius: 1.6rem;
+  }
+}
+.filters__remove {
+  font-family: var(--body-font);
+  font-weight: var(--body-normal);
+  font-size: 1rem;
+  line-height: 1.6;
+  letter-spacing: normal;
+  margin: 0;
+  background: none;
+  border: none;
+  box-shadow: none;
+  color: var(--fsa-primary_dark-green);
+  text-decoration: underline;
+  padding: 0;
+  white-space: nowrap;
+  cursor: pointer;
+  transition: background-color 0.2s cubic-bezier(0.19, 1, 0.22, 1);
+}
+.filters__remove:hover {
+  color: var(--fsa__link-green);
+}
+.filters__remove:focus {
+  background: var(--fsa-tertiary_light-yellow);
+  color: var(--fsa-primary_black);
+  outline: none;
+  text-decoration: none;
+  border-bottom: 2px solid var(--fsa-primary_black);
+}
+@media screen and (min-width: 768px) {
+  .filters__remove {
+    margin-top: 0.5rem;
+    margin-left: 1rem;
+  }
 }
 /*!*************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./src/pattern-library/components/ListingItem/listingItem.scss ***!
@@ -444,6 +612,551 @@ ul {
   line-height: 1.6;
   letter-spacing: normal;
   color: var(--fsa-primary_dark-grey);
+}
+/*!***********************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./src/pattern-library/components/Pagination/pagination.scss ***!
+  \***********************************************************************************************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css?family=Fira+Sans:300,400,500,700);
+/*!***************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./src/pattern-library/components/Pagination/pagination.scss (1) ***!
+  \***************************************************************************************************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700);
+/*!***************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./src/pattern-library/components/Pagination/pagination.scss (2) ***!
+  \***************************************************************************************************************************************************************************************************/
+:root {
+  /* Primary Colours */
+  --fsa-primary_dark-green: #007c75;
+  --fsa-primary_mid-green: #6cb33f;
+  --fsa-primary_light-green: #a9c47f;
+  --fsa-primary_dark-grey: #53565a;
+  --fsa_online-grey: #f0f3f5;
+  --fsa_border: #dee2e5;
+  --fsa-primary_black: #000000;
+  --fsa-primary_white: #ffffff;
+  --fsa_tint: #fafcfd;
+  /* Secondary Colours */
+  --fsa-secondary_mid-red: #e31837;
+  --fsa-secondary_orange: #f15d22;
+  --fsa-secondary_mid-yellow: #fdb913;
+  --fsa-secondary_mid-purple: #49176d;
+  --fsa-secondary_light-purple: #9f218b;
+  --fsa-tertiary_dark-blue: #9f218b;
+  /* Tertiary Colours */
+  --fsa-tertiary_dark-red: #b04a5a;
+  --fsa-tertiary_light-red: #ef3340;
+  --fsa-tertiary_light-yellow: #f1c400;
+  --fsa-tertiary_teal: #00b2a9;
+  --fsa-tertiary_light-blue: #8dc8e8;
+  --fsa-tertiary_dark-purple: #51284f;
+  --fsa-secondary_mid-blue: #007fb2;
+  --fsa-tertiary_lime: #cedc00;
+  --fsa-tertiary_mauve: #8b84d7;
+  /* Hover Colours */
+  --fsa__link-green: #014b4c;
+  --fsa__purple-hover: #2a0247;
+  /* Typography */
+  --body-font: "Open Sans", sans-serif;
+  --body-normal: 400;
+  --body-bold: 600;
+  --heading-font: "Fira Sans", sans-serif;
+  --heading-bold: 700;
+  /* Grid */
+  --container-mobile: 1rem;
+  --container: 2rem;
+  --gutter: 1rem;
+  --max-width: 1336px;
+}
+
+/* Custom Mixins */
+.pagination__list {
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+}
+@media screen and (min-width: 1024px) {
+  .pagination__list {
+    margin: 2rem 0;
+  }
+}
+.pagination__item-group {
+  display: flex;
+  padding: 0;
+  align-items: center;
+}
+.pagination__item-group--hidden {
+  visibility: hidden;
+}
+.pagination__item {
+  align-items: center;
+  display: inline-block;
+}
+.pagination__item--first {
+  margin-right: 0.688rem;
+}
+.pagination__item--first:before {
+  width: 0.938rem;
+  background-repeat: repeat-x;
+  margin-right: 0.25rem;
+}
+.pagination__item--previous:before {
+  width: 0.5rem;
+  background-repeat: no-repeat;
+  margin-right: 0.25rem;
+}
+.pagination__item--next:after {
+  width: 0.5rem;
+  background-repeat: no-repeat;
+  transform: scaleX(-1);
+  margin-left: 0.25rem;
+}
+.pagination__item--last {
+  margin-left: 0.688rem;
+}
+.pagination__item--last:after {
+  width: 0.938rem;
+  background-repeat: repeat-x;
+  transform: scaleX(-1);
+  margin-left: 0.25rem;
+}
+.pagination__item a {
+  display: inline-block;
+  font-family: var(--body-font);
+  font-weight: var(--body-normal);
+  font-size: 1rem;
+  line-height: 1.6;
+  letter-spacing: normal;
+  color: var(--fsa-primary_dark-green);
+}
+.pagination__item a:focus {
+  outline: none;
+}
+.pagination__back li, .pagination__forward li {
+  display: flex;
+  height: fit-content;
+}
+.pagination__back li:before, .pagination__back li:after, .pagination__forward li:before, .pagination__forward li:after {
+  content: "";
+  height: 0.813rem;
+  background-image: url(data:image/svg+xml;base64,ZXhwb3J0IGRlZmF1bHQgX193ZWJwYWNrX3B1YmxpY19wYXRoX18gKyAiUGFnaW5hdGlvbi9hcnJvdy5zdmciOw==);
+  background-size: contain;
+}
+.pagination__back li:hover,
+.pagination__back li a:hover, .pagination__forward li:hover,
+.pagination__forward li a:hover {
+  color: var(--fsa__link-green);
+  text-decoration: underline;
+  cursor: pointer;
+}
+.pagination__back li:hover:before, .pagination__back li:hover:after,
+.pagination__back li a:hover:before,
+.pagination__back li a:hover:after, .pagination__forward li:hover:before, .pagination__forward li:hover:after,
+.pagination__forward li a:hover:before,
+.pagination__forward li a:hover:after {
+  content: "";
+  height: 0.813rem;
+  background-image: url(data:image/svg+xml;base64,ZXhwb3J0IGRlZmF1bHQgX193ZWJwYWNrX3B1YmxpY19wYXRoX18gKyAiUGFnaW5hdGlvbi9hcnJvdy1ob3Zlci5zdmciOw==);
+  background-size: contain;
+}
+.pagination__back li:focus-within, .pagination__forward li:focus-within {
+  text-decoration: none;
+  background-color: var(--fsa-tertiary_light-yellow);
+  outline: none;
+  border-bottom: 2px solid var(--fsa-primary_black);
+}
+.pagination__back li:focus-within a, .pagination__forward li:focus-within a {
+  color: var(--fsa-primary_black);
+}
+.pagination__back li:focus-within:before, .pagination__back li:focus-within:after, .pagination__forward li:focus-within:before, .pagination__forward li:focus-within:after {
+  color: var(--fsa-primary_black);
+  background-image: url(data:image/svg+xml;base64,ZXhwb3J0IGRlZmF1bHQgX193ZWJwYWNrX3B1YmxpY19wYXRoX18gKyAiUGFnaW5hdGlvbi9hcnJvdy1mb2N1cy5zdmciOw==);
+}
+.pagination__numbered {
+  display: none;
+}
+@media screen and (min-width: 1024px) {
+  .pagination__numbered {
+    display: flex;
+  }
+}
+.pagination__numbered li {
+  margin: 0 0.25rem;
+}
+.pagination__numbered li a {
+  width: 2.75rem;
+  text-align: center;
+  border-radius: 100%;
+  line-height: 2.75rem;
+}
+.pagination__numbered li a:hover {
+  color: var(--fsa-primary_white);
+  background-color: var(--fsa__link-green);
+  font-weight: bold;
+  text-decoration: none;
+}
+.pagination__numbered li a:focus {
+  box-shadow: 0 0 0 0.188rem var(--fsa-primary_black), 0 0 0 0.375rem var(--fsa-tertiary_light-yellow);
+  border-radius: 5rem;
+  text-decoration: none;
+}
+.pagination__numbered li a[aria-current=page]:focus {
+  color: var(--fsa-primary_white);
+  background-color: var(--fsa-primary_dark-green);
+  font-weight: bold;
+}
+.pagination__numbered li a[aria-current=page]:not(:focus) {
+  color: var(--fsa-primary_white);
+  background-color: var(--fsa-primary_dark-green);
+  font-weight: bold;
+}
+/*!*********************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./src/pattern-library/components/SearchBarHeader/searchBarHeader.scss ***!
+  \*********************************************************************************************************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css?family=Fira+Sans:300,400,500,700);
+/*!*************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./src/pattern-library/components/SearchBarHeader/searchBarHeader.scss (1) ***!
+  \*************************************************************************************************************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700);
+/*!*************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./src/pattern-library/components/SearchBarHeader/searchBarHeader.scss (2) ***!
+  \*************************************************************************************************************************************************************************************************************/
+:root {
+  /* Primary Colours */
+  --fsa-primary_dark-green: #007c75;
+  --fsa-primary_mid-green: #6cb33f;
+  --fsa-primary_light-green: #a9c47f;
+  --fsa-primary_dark-grey: #53565a;
+  --fsa_online-grey: #f0f3f5;
+  --fsa_border: #dee2e5;
+  --fsa-primary_black: #000000;
+  --fsa-primary_white: #ffffff;
+  --fsa_tint: #fafcfd;
+  /* Secondary Colours */
+  --fsa-secondary_mid-red: #e31837;
+  --fsa-secondary_orange: #f15d22;
+  --fsa-secondary_mid-yellow: #fdb913;
+  --fsa-secondary_mid-purple: #49176d;
+  --fsa-secondary_light-purple: #9f218b;
+  --fsa-tertiary_dark-blue: #9f218b;
+  /* Tertiary Colours */
+  --fsa-tertiary_dark-red: #b04a5a;
+  --fsa-tertiary_light-red: #ef3340;
+  --fsa-tertiary_light-yellow: #f1c400;
+  --fsa-tertiary_teal: #00b2a9;
+  --fsa-tertiary_light-blue: #8dc8e8;
+  --fsa-tertiary_dark-purple: #51284f;
+  --fsa-secondary_mid-blue: #007fb2;
+  --fsa-tertiary_lime: #cedc00;
+  --fsa-tertiary_mauve: #8b84d7;
+  /* Hover Colours */
+  --fsa__link-green: #014b4c;
+  --fsa__purple-hover: #2a0247;
+  /* Typography */
+  --body-font: "Open Sans", sans-serif;
+  --body-normal: 400;
+  --body-bold: 600;
+  --heading-font: "Fira Sans", sans-serif;
+  --heading-bold: 700;
+  /* Grid */
+  --container-mobile: 1rem;
+  --container: 2rem;
+  --gutter: 1rem;
+  --max-width: 1336px;
+}
+
+/* Custom Mixins */
+@media screen and (min-width: 1024px) {
+  .search-header {
+    width: 66.6666666667%;
+    flex-basis: 66.6666666667%;
+    max-width: 66.6666666667%;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+}
+@media screen and (min-width: 1024px) and (min-width: 768px) {
+  .search-header {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+.search-header__title {
+  font-family: var(--heading-font);
+  font-size: 2.288rem;
+  font-weight: var(--heading-bold);
+  line-height: 1.1;
+  letter-spacing: normal;
+  color: var(--fsa-primary_dark-green);
+  color: var(--fsa-primary_dark-green);
+  margin-bottom: 1rem;
+  margin-top: 3rem;
+}
+@media screen and (min-width: 1024px) {
+  .search-header__title {
+    font-size: 2.986rem;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .search-header__title {
+    margin-top: 4rem;
+  }
+}
+/*!*********************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./src/pattern-library/components/SearchNoResults/searchNoResults.scss ***!
+  \*********************************************************************************************************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css?family=Fira+Sans:300,400,500,700);
+/*!*************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./src/pattern-library/components/SearchNoResults/searchNoResults.scss (1) ***!
+  \*************************************************************************************************************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700);
+/*!*************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./src/pattern-library/components/SearchNoResults/searchNoResults.scss (2) ***!
+  \*************************************************************************************************************************************************************************************************************/
+:root {
+  /* Primary Colours */
+  --fsa-primary_dark-green: #007c75;
+  --fsa-primary_mid-green: #6cb33f;
+  --fsa-primary_light-green: #a9c47f;
+  --fsa-primary_dark-grey: #53565a;
+  --fsa_online-grey: #f0f3f5;
+  --fsa_border: #dee2e5;
+  --fsa-primary_black: #000000;
+  --fsa-primary_white: #ffffff;
+  --fsa_tint: #fafcfd;
+  /* Secondary Colours */
+  --fsa-secondary_mid-red: #e31837;
+  --fsa-secondary_orange: #f15d22;
+  --fsa-secondary_mid-yellow: #fdb913;
+  --fsa-secondary_mid-purple: #49176d;
+  --fsa-secondary_light-purple: #9f218b;
+  --fsa-tertiary_dark-blue: #9f218b;
+  /* Tertiary Colours */
+  --fsa-tertiary_dark-red: #b04a5a;
+  --fsa-tertiary_light-red: #ef3340;
+  --fsa-tertiary_light-yellow: #f1c400;
+  --fsa-tertiary_teal: #00b2a9;
+  --fsa-tertiary_light-blue: #8dc8e8;
+  --fsa-tertiary_dark-purple: #51284f;
+  --fsa-secondary_mid-blue: #007fb2;
+  --fsa-tertiary_lime: #cedc00;
+  --fsa-tertiary_mauve: #8b84d7;
+  /* Hover Colours */
+  --fsa__link-green: #014b4c;
+  --fsa__purple-hover: #2a0247;
+  /* Typography */
+  --body-font: "Open Sans", sans-serif;
+  --body-normal: 400;
+  --body-bold: 600;
+  --heading-font: "Fira Sans", sans-serif;
+  --heading-bold: 700;
+  /* Grid */
+  --container-mobile: 1rem;
+  --container: 2rem;
+  --gutter: 1rem;
+  --max-width: 1336px;
+}
+
+/* Custom Mixins */
+.search-no-results {
+  padding-bottom: 2rem;
+}
+.search-no-results__content {
+  padding-left: 1rem;
+}
+@media screen and (min-width: 500px) {
+  .search-no-results__content {
+    padding-left: 3rem;
+  }
+}
+.search-no-results__title {
+  font-family: var(--heading-font);
+  font-size: 1.18rem;
+  font-weight: var(--heading-bold);
+  line-height: 1.4;
+  letter-spacing: normal;
+  margin: 0;
+}
+@media screen and (min-width: 1024px) {
+  .search-no-results__title {
+    font-size: 1.2rem;
+  }
+}
+.search-no-results__text {
+  font-family: var(--body-font);
+  font-weight: var(--body-normal);
+  font-size: 1rem;
+  line-height: 1.6;
+  letter-spacing: normal;
+}
+.search-no-results__text a {
+  color: var(--fsa-primary_dark-green);
+  text-decoration: underline;
+}
+.search-no-results__text a:hover {
+  color: var(--fsa__link-green);
+}
+.search-no-results__text a:focus {
+  color: var(--fsa-primary_black);
+  outline: none;
+  text-decoration: none;
+  background-color: var(--fsa-tertiary_light-yellow);
+  border-bottom: 4px solid var(--fsa-primary_black);
+  margin-bottom: -4px;
+}
+/*!*****************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./src/pattern-library/components/Showing/showing.scss ***!
+  \*****************************************************************************************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css?family=Fira+Sans:300,400,500,700);
+/*!*********************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./src/pattern-library/components/Showing/showing.scss (1) ***!
+  \*********************************************************************************************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700);
+/*!*********************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./src/pattern-library/components/Showing/showing.scss (2) ***!
+  \*********************************************************************************************************************************************************************************************/
+:root {
+  /* Primary Colours */
+  --fsa-primary_dark-green: #007c75;
+  --fsa-primary_mid-green: #6cb33f;
+  --fsa-primary_light-green: #a9c47f;
+  --fsa-primary_dark-grey: #53565a;
+  --fsa_online-grey: #f0f3f5;
+  --fsa_border: #dee2e5;
+  --fsa-primary_black: #000000;
+  --fsa-primary_white: #ffffff;
+  --fsa_tint: #fafcfd;
+  /* Secondary Colours */
+  --fsa-secondary_mid-red: #e31837;
+  --fsa-secondary_orange: #f15d22;
+  --fsa-secondary_mid-yellow: #fdb913;
+  --fsa-secondary_mid-purple: #49176d;
+  --fsa-secondary_light-purple: #9f218b;
+  --fsa-tertiary_dark-blue: #9f218b;
+  /* Tertiary Colours */
+  --fsa-tertiary_dark-red: #b04a5a;
+  --fsa-tertiary_light-red: #ef3340;
+  --fsa-tertiary_light-yellow: #f1c400;
+  --fsa-tertiary_teal: #00b2a9;
+  --fsa-tertiary_light-blue: #8dc8e8;
+  --fsa-tertiary_dark-purple: #51284f;
+  --fsa-secondary_mid-blue: #007fb2;
+  --fsa-tertiary_lime: #cedc00;
+  --fsa-tertiary_mauve: #8b84d7;
+  /* Hover Colours */
+  --fsa__link-green: #014b4c;
+  --fsa__purple-hover: #2a0247;
+  /* Typography */
+  --body-font: "Open Sans", sans-serif;
+  --body-normal: 400;
+  --body-bold: 600;
+  --heading-font: "Fira Sans", sans-serif;
+  --heading-bold: 700;
+  /* Grid */
+  --container-mobile: 1rem;
+  --container: 2rem;
+  --gutter: 1rem;
+  --max-width: 1336px;
+}
+
+/* Custom Mixins */
+.showing {
+  color: var(--fsa-primary_black);
+  margin: 0 0 1rem 0;
+}
+@media screen and (min-width: 768px) {
+  .showing {
+    margin: 0;
+  }
+}
+
+.showing--bold {
+  font-weight: bold;
+}
+/*!***************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./src/pattern-library/components/SortBy/sortBy.scss ***!
+  \***************************************************************************************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css?family=Fira+Sans:300,400,500,700);
+/*!*******************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./src/pattern-library/components/SortBy/sortBy.scss (1) ***!
+  \*******************************************************************************************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700);
+/*!*******************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./src/pattern-library/components/SortBy/sortBy.scss (2) ***!
+  \*******************************************************************************************************************************************************************************************/
+:root {
+  /* Primary Colours */
+  --fsa-primary_dark-green: #007c75;
+  --fsa-primary_mid-green: #6cb33f;
+  --fsa-primary_light-green: #a9c47f;
+  --fsa-primary_dark-grey: #53565a;
+  --fsa_online-grey: #f0f3f5;
+  --fsa_border: #dee2e5;
+  --fsa-primary_black: #000000;
+  --fsa-primary_white: #ffffff;
+  --fsa_tint: #fafcfd;
+  /* Secondary Colours */
+  --fsa-secondary_mid-red: #e31837;
+  --fsa-secondary_orange: #f15d22;
+  --fsa-secondary_mid-yellow: #fdb913;
+  --fsa-secondary_mid-purple: #49176d;
+  --fsa-secondary_light-purple: #9f218b;
+  --fsa-tertiary_dark-blue: #9f218b;
+  /* Tertiary Colours */
+  --fsa-tertiary_dark-red: #b04a5a;
+  --fsa-tertiary_light-red: #ef3340;
+  --fsa-tertiary_light-yellow: #f1c400;
+  --fsa-tertiary_teal: #00b2a9;
+  --fsa-tertiary_light-blue: #8dc8e8;
+  --fsa-tertiary_dark-purple: #51284f;
+  --fsa-secondary_mid-blue: #007fb2;
+  --fsa-tertiary_lime: #cedc00;
+  --fsa-tertiary_mauve: #8b84d7;
+  /* Hover Colours */
+  --fsa__link-green: #014b4c;
+  --fsa__purple-hover: #2a0247;
+  /* Typography */
+  --body-font: "Open Sans", sans-serif;
+  --body-normal: 400;
+  --body-bold: 600;
+  --heading-font: "Fira Sans", sans-serif;
+  --heading-bold: 700;
+  /* Grid */
+  --container-mobile: 1rem;
+  --container: 2rem;
+  --gutter: 1rem;
+  --max-width: 1336px;
+}
+
+/* Custom Mixins */
+.sort__label {
+  margin-right: 0.5rem;
+}
+.sort__select {
+  margin-right: 0;
+  font-family: var(--body-font);
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 0.65rem 2.5rem 0.65rem 1rem;
+  min-height: 44px;
+  background: var(--fsa_tint);
+  border: 1px solid var(--fsa-primary_black);
+  border-radius: 0;
+  /* Add customised arrow */
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  background-image: url(data:image/svg+xml;base64,ZXhwb3J0IGRlZmF1bHQgX193ZWJwYWNrX3B1YmxpY19wYXRoX18gKyAiU29ydEJ5L2Fycm93LWRvd24uc3ZnIjs=);
+  background-repeat: no-repeat;
+  background-position: 90% center;
+}
+.sort__select::-ms-expand {
+  display: none;
+}
+.sort__select:focus {
+  box-shadow: inset 0 0 0px 2px var(--fsa-primary_black);
+  outline: solid 3px var(--fsa-tertiary_light-yellow);
 }
 /*!***************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./src/pattern-library/components/LandingLinks/landingLinks.scss ***!
@@ -722,4 +1435,132 @@ ul {
   letter-spacing: normal;
   text-align: center;
   margin-top: 0.5rem;
+}
+/*!*********************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./src/pattern-library/components/SearchBar/searchBar.scss ***!
+  \*********************************************************************************************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css?family=Fira+Sans:300,400,500,700);
+/*!*************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./src/pattern-library/components/SearchBar/searchBar.scss (1) ***!
+  \*************************************************************************************************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700);
+/*!*************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./src/pattern-library/components/SearchBar/searchBar.scss (2) ***!
+  \*************************************************************************************************************************************************************************************************/
+:root {
+  /* Primary Colours */
+  --fsa-primary_dark-green: #007c75;
+  --fsa-primary_mid-green: #6cb33f;
+  --fsa-primary_light-green: #a9c47f;
+  --fsa-primary_dark-grey: #53565a;
+  --fsa_online-grey: #f0f3f5;
+  --fsa_border: #dee2e5;
+  --fsa-primary_black: #000000;
+  --fsa-primary_white: #ffffff;
+  --fsa_tint: #fafcfd;
+  /* Secondary Colours */
+  --fsa-secondary_mid-red: #e31837;
+  --fsa-secondary_orange: #f15d22;
+  --fsa-secondary_mid-yellow: #fdb913;
+  --fsa-secondary_mid-purple: #49176d;
+  --fsa-secondary_light-purple: #9f218b;
+  --fsa-tertiary_dark-blue: #9f218b;
+  /* Tertiary Colours */
+  --fsa-tertiary_dark-red: #b04a5a;
+  --fsa-tertiary_light-red: #ef3340;
+  --fsa-tertiary_light-yellow: #f1c400;
+  --fsa-tertiary_teal: #00b2a9;
+  --fsa-tertiary_light-blue: #8dc8e8;
+  --fsa-tertiary_dark-purple: #51284f;
+  --fsa-secondary_mid-blue: #007fb2;
+  --fsa-tertiary_lime: #cedc00;
+  --fsa-tertiary_mauve: #8b84d7;
+  /* Hover Colours */
+  --fsa__link-green: #014b4c;
+  --fsa__purple-hover: #2a0247;
+  /* Typography */
+  --body-font: "Open Sans", sans-serif;
+  --body-normal: 400;
+  --body-bold: 600;
+  --heading-font: "Fira Sans", sans-serif;
+  --heading-bold: 700;
+  /* Grid */
+  --container-mobile: 1rem;
+  --container: 2rem;
+  --gutter: 1rem;
+  --max-width: 1336px;
+}
+
+/* Custom Mixins */
+.search-bar {
+  position: relative;
+  display: flex;
+}
+.search-bar__label {
+  font-family: var(--body-font);
+  font-weight: var(--body-normal);
+  font-size: 1rem;
+  line-height: 1.6;
+  letter-spacing: normal;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  z-index: 1;
+  left: 2rem;
+  height: 100%;
+}
+.search-bar__box {
+  font-family: var(--body-font);
+  font-weight: var(--body-normal);
+  font-size: 1rem;
+  line-height: 1.6;
+  letter-spacing: normal;
+  position: relative;
+  border: solid 1px var(--fsa-primary_dark-grey);
+  border-radius: 2rem;
+  width: 100%;
+  height: 3.75rem;
+  padding-left: 2rem;
+  background-color: var(--fsa_online-grey);
+}
+.search-bar__box--has-content {
+  z-index: 2;
+}
+.search-bar__box:focus {
+  z-index: 2;
+  outline: none;
+}
+.search-bar__box:focus:focus {
+  box-shadow: 0 0 0 0.2rem var(--fsa-primary_black), 0 0 0 0.4rem var(--fsa-tertiary_light-yellow);
+  border-radius: 2rem;
+}
+.search-bar__submit {
+  position: absolute;
+  right: 0.25rem;
+  top: 0.25rem;
+  bottom: 0.25rem;
+  background-color: var(--fsa-primary_dark-green);
+  border-radius: 1.719rem;
+  padding: 1rem;
+  border: none;
+  z-index: 2;
+}
+.search-bar__submit svg {
+  width: 1.25rem;
+  height: 1.25rem;
+}
+.search-bar__submit:hover {
+  background-color: #005e59;
+}
+.search-bar__submit:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.2rem var(--fsa-primary_black), 0 0 0 0.4rem var(--fsa-tertiary_light-yellow);
+  border-radius: 2rem;
+}
+@media screen and (min-width: 1024px) {
+  .search-bar__submit {
+    right: 0.3rem;
+    top: 0.3rem;
+    bottom: 0.3rem;
+  }
 }
