@@ -1227,7 +1227,6 @@ ul {
   margin: 0 auto;
   padding-left: 1rem;
   padding-right: 1rem;
-  display: flex;
 }
 @media screen and (min-width: 768px) {
   .landing-links__container {
@@ -1235,11 +1234,6 @@ ul {
     padding-right: 2rem;
     width: 100%;
     max-width: calc(1300px + (2 * 2rem));
-  }
-}
-@media screen and (min-width: 1024px) {
-  .landing-links__gap {
-    margin-left: 16.6666666667%;
   }
 }
 .landing-links__title {
@@ -1278,6 +1272,7 @@ ul {
     max-width: 66.6666666667%;
     padding-left: 0.5rem;
     padding-right: 0.5rem;
+    margin-left: 16.6666666667%;
   }
 }
 @media screen and (min-width: 1024px) and (min-width: 768px) {
