@@ -1215,11 +1215,11 @@ ul {
 
 /* Custom Mixins */
 .landing-links {
-  margin-bottom: 1rem;
+  margin-top: 3rem;
 }
 @media screen and (min-width: 1024px) {
   .landing-links {
-    margin-bottom: 2rem;
+    margin-top: 4rem;
   }
 }
 .landing-links__container {
@@ -1288,7 +1288,6 @@ ul {
   line-height: 1.2;
   letter-spacing: normal;
   margin: 0;
-  padding-bottom: 0.5rem;
 }
 @media screen and (min-width: 1024px) {
   .landing-links__title h2 {
@@ -1301,10 +1300,9 @@ ul {
   background-repeat: repeat-x;
   background-size: 25px 25px;
   width: 12rem;
-  height: 9px;
   display: block;
-  padding-bottom: 1rem;
-  margin: 1rem auto 2rem;
+  padding-bottom: 0.5rem;
+  margin: 0.5rem auto 0rem;
 }
 .landing-links__row {
   flex: 1;
@@ -1328,7 +1326,7 @@ ul {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 2rem;
+  margin-top: 2rem;
   width: 50%;
   flex-basis: 50%;
   max-width: 50%;
