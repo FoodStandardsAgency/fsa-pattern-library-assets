@@ -8,57 +8,57 @@ function deeson_twig_component_templates($assetPath = 'auto') {
   return [ 
         "breadcrumb" => [
           "template" => "breadcrumb",
-          "path" => $assetPath . "/pattern-library/components/Breadcrumb",
+          "path" => $assetPath . "/components/general/Breadcrumb",
           "variables" => ["content" => []]
         ], 
         "button" => [
           "template" => "button",
-          "path" => $assetPath . "/pattern-library/components/Button",
+          "path" => $assetPath . "/components/general/Button",
           "variables" => ["content" => []]
         ], 
         "filtersSelected" => [
           "template" => "filtersSelected",
-          "path" => $assetPath . "/pattern-library/components/FiltersSelected",
+          "path" => $assetPath . "/components/search/FiltersSelected",
           "variables" => ["content" => []]
         ], 
         "listingItem" => [
           "template" => "listingItem",
-          "path" => $assetPath . "/pattern-library/components/ListingItem",
+          "path" => $assetPath . "/components/search/ListingItem",
           "variables" => ["content" => []]
         ], 
         "pagination" => [
           "template" => "pagination",
-          "path" => $assetPath . "/pattern-library/components/Pagination",
+          "path" => $assetPath . "/components/search/Pagination",
           "variables" => ["content" => []]
         ], 
         "searchBarHeader" => [
           "template" => "searchBarHeader",
-          "path" => $assetPath . "/pattern-library/components/SearchBarHeader",
+          "path" => $assetPath . "/components/search/SearchBarHeader",
           "variables" => ["content" => []]
         ], 
         "searchNoResults" => [
           "template" => "searchNoResults",
-          "path" => $assetPath . "/pattern-library/components/SearchNoResults",
+          "path" => $assetPath . "/components/search/SearchNoResults",
           "variables" => ["content" => []]
         ], 
         "showing" => [
           "template" => "showing",
-          "path" => $assetPath . "/pattern-library/components/Showing",
+          "path" => $assetPath . "/components/search/Showing",
           "variables" => ["content" => []]
         ], 
         "sortBy" => [
           "template" => "sortBy",
-          "path" => $assetPath . "/pattern-library/components/SortBy",
-          "variables" => ["content" => []]
-        ], 
-        "landingLinks" => [
-          "template" => "landingLinks",
-          "path" => $assetPath . "/pattern-library/components/LandingLinks",
+          "path" => $assetPath . "/components/search/SortBy",
           "variables" => ["content" => []]
         ], 
         "searchBar" => [
           "template" => "searchBar",
-          "path" => $assetPath . "/pattern-library/components/SearchBar",
+          "path" => $assetPath . "/components/search/SearchBar",
+          "variables" => ["content" => []]
+        ], 
+        "landingLinks" => [
+          "template" => "landingLinks",
+          "path" => $assetPath . "/components/landing/LandingLinks",
           "variables" => ["content" => []]
         ]
   ];

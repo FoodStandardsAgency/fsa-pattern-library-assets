@@ -187,9 +187,9 @@ small,
 ul {
   list-style: none;
 }
-/*!***********************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./src/pattern-library/components/Breadcrumb/breadcrumb.scss ***!
-  \***********************************************************************************************************************************************************************************************/
+/*!***************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./src/components/general/Breadcrumb/breadcrumb.scss ***!
+  \***************************************************************************************************************************************************************************************/
 .breadcrumb {
   font-family: open sans, sans-serif;
 }
@@ -217,17 +217,17 @@ ul {
   background-color: #000;
   transform: skew(-25deg);
 }
-/*!***************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./src/pattern-library/components/Button/button.scss ***!
-  \***************************************************************************************************************************************************************************************/
+/*!*******************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./src/components/general/Button/button.scss ***!
+  \*******************************************************************************************************************************************************************************/
 @import url(https://fonts.googleapis.com/css?family=Fira+Sans:300,400,500,700);
-/*!*******************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./src/pattern-library/components/Button/button.scss (1) ***!
-  \*******************************************************************************************************************************************************************************************/
+/*!***********************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./src/components/general/Button/button.scss (1) ***!
+  \***********************************************************************************************************************************************************************************/
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700);
-/*!*******************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./src/pattern-library/components/Button/button.scss (2) ***!
-  \*******************************************************************************************************************************************************************************************/
+/*!***********************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./src/components/general/Button/button.scss (2) ***!
+  \***********************************************************************************************************************************************************************************/
 :root {
   /* Primary Colours */
   --fsa-primary_dark-green: #007c75;
@@ -343,17 +343,17 @@ ul {
   box-shadow: 0 0 0 0.2rem var(--fsa-primary_black), 0 0 0 0.4rem var(--fsa-tertiary_light-yellow);
   outline: none;
 }
-/*!*********************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./src/pattern-library/components/FiltersSelected/filtersSelected.scss ***!
-  \*********************************************************************************************************************************************************************************************************/
+/*!************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./src/components/search/FiltersSelected/filtersSelected.scss ***!
+  \************************************************************************************************************************************************************************************************/
 @import url(https://fonts.googleapis.com/css?family=Fira+Sans:300,400,500,700);
-/*!*************************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./src/pattern-library/components/FiltersSelected/filtersSelected.scss (1) ***!
-  \*************************************************************************************************************************************************************************************************************/
+/*!****************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./src/components/search/FiltersSelected/filtersSelected.scss (1) ***!
+  \****************************************************************************************************************************************************************************************************/
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700);
-/*!*************************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./src/pattern-library/components/FiltersSelected/filtersSelected.scss (2) ***!
-  \*************************************************************************************************************************************************************************************************************/
+/*!****************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./src/components/search/FiltersSelected/filtersSelected.scss (2) ***!
+  \****************************************************************************************************************************************************************************************************/
 :root {
   /* Primary Colours */
   --fsa-primary_dark-green: #007c75;
@@ -432,7 +432,7 @@ ul {
   margin: 0 0.5rem 0.5rem 0;
   cursor: pointer;
   transition: background-color 0.2s cubic-bezier(0.19, 1, 0.22, 1), color 0.2s cubic-bezier(0.19, 1, 0.22, 1), border-radius 0.2s cubic-bezier(0.19, 1, 0.22, 1);
-  background-image: url(data:image/svg+xml;base64,ZXhwb3J0IGRlZmF1bHQgX193ZWJwYWNrX3B1YmxpY19wYXRoX18gKyAiRmlsdGVyc1NlbGVjdGVkL2Nyb3NzLXdoaXRlLnN2ZyI7);
+  background-image: url(data:image/svg+xml;base64,ZXhwb3J0IGRlZmF1bHQgX193ZWJwYWNrX3B1YmxpY19wYXRoX18gKyAic2VhcmNoL0ZpbHRlcnNTZWxlY3RlZC9jcm9zcy13aGl0ZS5zdmciOw==);
   background-repeat: no-repeat;
   background-position: right 1.08rem center;
 }
@@ -481,17 +481,17 @@ ul {
     margin-left: 1rem;
   }
 }
-/*!*************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./src/pattern-library/components/ListingItem/listingItem.scss ***!
-  \*************************************************************************************************************************************************************************************************/
+/*!****************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./src/components/search/ListingItem/listingItem.scss ***!
+  \****************************************************************************************************************************************************************************************/
 @import url(https://fonts.googleapis.com/css?family=Fira+Sans:300,400,500,700);
-/*!*****************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./src/pattern-library/components/ListingItem/listingItem.scss (1) ***!
-  \*****************************************************************************************************************************************************************************************************/
+/*!********************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./src/components/search/ListingItem/listingItem.scss (1) ***!
+  \********************************************************************************************************************************************************************************************/
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700);
-/*!*****************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./src/pattern-library/components/ListingItem/listingItem.scss (2) ***!
-  \*****************************************************************************************************************************************************************************************************/
+/*!********************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./src/components/search/ListingItem/listingItem.scss (2) ***!
+  \********************************************************************************************************************************************************************************************/
 :root {
   /* Primary Colours */
   --fsa-primary_dark-green: #007c75;
@@ -613,17 +613,17 @@ ul {
   letter-spacing: normal;
   color: var(--fsa-primary_dark-grey);
 }
-/*!***********************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./src/pattern-library/components/Pagination/pagination.scss ***!
-  \***********************************************************************************************************************************************************************************************/
+/*!**************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./src/components/search/Pagination/pagination.scss ***!
+  \**************************************************************************************************************************************************************************************/
 @import url(https://fonts.googleapis.com/css?family=Fira+Sans:300,400,500,700);
-/*!***************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./src/pattern-library/components/Pagination/pagination.scss (1) ***!
-  \***************************************************************************************************************************************************************************************************/
+/*!******************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./src/components/search/Pagination/pagination.scss (1) ***!
+  \******************************************************************************************************************************************************************************************/
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700);
-/*!***************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./src/pattern-library/components/Pagination/pagination.scss (2) ***!
-  \***************************************************************************************************************************************************************************************************/
+/*!******************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./src/components/search/Pagination/pagination.scss (2) ***!
+  \******************************************************************************************************************************************************************************************/
 :root {
   /* Primary Colours */
   --fsa-primary_dark-green: #007c75;
@@ -738,7 +738,7 @@ ul {
 .pagination__back li:before, .pagination__back li:after, .pagination__forward li:before, .pagination__forward li:after {
   content: "";
   height: 0.813rem;
-  background-image: url(data:image/svg+xml;base64,ZXhwb3J0IGRlZmF1bHQgX193ZWJwYWNrX3B1YmxpY19wYXRoX18gKyAiUGFnaW5hdGlvbi9hcnJvdy5zdmciOw==);
+  background-image: url(data:image/svg+xml;base64,ZXhwb3J0IGRlZmF1bHQgX193ZWJwYWNrX3B1YmxpY19wYXRoX18gKyAic2VhcmNoL1BhZ2luYXRpb24vYXJyb3cuc3ZnIjs=);
   background-size: contain;
 }
 .pagination__back li:hover,
@@ -755,7 +755,7 @@ ul {
 .pagination__forward li a:hover:after {
   content: "";
   height: 0.813rem;
-  background-image: url(data:image/svg+xml;base64,ZXhwb3J0IGRlZmF1bHQgX193ZWJwYWNrX3B1YmxpY19wYXRoX18gKyAiUGFnaW5hdGlvbi9hcnJvdy1ob3Zlci5zdmciOw==);
+  background-image: url(data:image/svg+xml;base64,ZXhwb3J0IGRlZmF1bHQgX193ZWJwYWNrX3B1YmxpY19wYXRoX18gKyAic2VhcmNoL1BhZ2luYXRpb24vYXJyb3ctaG92ZXIuc3ZnIjs=);
   background-size: contain;
 }
 .pagination__back li:focus-within, .pagination__forward li:focus-within {
@@ -769,7 +769,7 @@ ul {
 }
 .pagination__back li:focus-within:before, .pagination__back li:focus-within:after, .pagination__forward li:focus-within:before, .pagination__forward li:focus-within:after {
   color: var(--fsa-primary_black);
-  background-image: url(data:image/svg+xml;base64,ZXhwb3J0IGRlZmF1bHQgX193ZWJwYWNrX3B1YmxpY19wYXRoX18gKyAiUGFnaW5hdGlvbi9hcnJvdy1mb2N1cy5zdmciOw==);
+  background-image: url(data:image/svg+xml;base64,ZXhwb3J0IGRlZmF1bHQgX193ZWJwYWNrX3B1YmxpY19wYXRoX18gKyAic2VhcmNoL1BhZ2luYXRpb24vYXJyb3ctZm9jdXMuc3ZnIjs=);
 }
 .pagination__numbered {
   display: none;
@@ -809,17 +809,17 @@ ul {
   background-color: var(--fsa-primary_dark-green);
   font-weight: bold;
 }
-/*!*********************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./src/pattern-library/components/SearchBarHeader/searchBarHeader.scss ***!
-  \*********************************************************************************************************************************************************************************************************/
+/*!************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./src/components/search/SearchBarHeader/searchBarHeader.scss ***!
+  \************************************************************************************************************************************************************************************************/
 @import url(https://fonts.googleapis.com/css?family=Fira+Sans:300,400,500,700);
-/*!*************************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./src/pattern-library/components/SearchBarHeader/searchBarHeader.scss (1) ***!
-  \*************************************************************************************************************************************************************************************************************/
+/*!****************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./src/components/search/SearchBarHeader/searchBarHeader.scss (1) ***!
+  \****************************************************************************************************************************************************************************************************/
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700);
-/*!*************************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./src/pattern-library/components/SearchBarHeader/searchBarHeader.scss (2) ***!
-  \*************************************************************************************************************************************************************************************************************/
+/*!****************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./src/components/search/SearchBarHeader/searchBarHeader.scss (2) ***!
+  \****************************************************************************************************************************************************************************************************/
 :root {
   /* Primary Colours */
   --fsa-primary_dark-green: #007c75;
@@ -903,17 +903,17 @@ ul {
     margin-top: 4rem;
   }
 }
-/*!*********************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./src/pattern-library/components/SearchNoResults/searchNoResults.scss ***!
-  \*********************************************************************************************************************************************************************************************************/
+/*!************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./src/components/search/SearchNoResults/searchNoResults.scss ***!
+  \************************************************************************************************************************************************************************************************/
 @import url(https://fonts.googleapis.com/css?family=Fira+Sans:300,400,500,700);
-/*!*************************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./src/pattern-library/components/SearchNoResults/searchNoResults.scss (1) ***!
-  \*************************************************************************************************************************************************************************************************************/
+/*!****************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./src/components/search/SearchNoResults/searchNoResults.scss (1) ***!
+  \****************************************************************************************************************************************************************************************************/
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700);
-/*!*************************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./src/pattern-library/components/SearchNoResults/searchNoResults.scss (2) ***!
-  \*************************************************************************************************************************************************************************************************************/
+/*!****************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./src/components/search/SearchNoResults/searchNoResults.scss (2) ***!
+  \****************************************************************************************************************************************************************************************************/
 :root {
   /* Primary Colours */
   --fsa-primary_dark-green: #007c75;
@@ -1005,17 +1005,17 @@ ul {
   border-bottom: 4px solid var(--fsa-primary_black);
   margin-bottom: -4px;
 }
-/*!*****************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./src/pattern-library/components/Showing/showing.scss ***!
-  \*****************************************************************************************************************************************************************************************/
+/*!********************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./src/components/search/Showing/showing.scss ***!
+  \********************************************************************************************************************************************************************************/
 @import url(https://fonts.googleapis.com/css?family=Fira+Sans:300,400,500,700);
-/*!*********************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./src/pattern-library/components/Showing/showing.scss (1) ***!
-  \*********************************************************************************************************************************************************************************************/
+/*!************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./src/components/search/Showing/showing.scss (1) ***!
+  \************************************************************************************************************************************************************************************/
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700);
-/*!*********************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./src/pattern-library/components/Showing/showing.scss (2) ***!
-  \*********************************************************************************************************************************************************************************************/
+/*!************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./src/components/search/Showing/showing.scss (2) ***!
+  \************************************************************************************************************************************************************************************/
 :root {
   /* Primary Colours */
   --fsa-primary_dark-green: #007c75;
@@ -1074,17 +1074,17 @@ ul {
 .showing--bold {
   font-weight: bold;
 }
-/*!***************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./src/pattern-library/components/SortBy/sortBy.scss ***!
-  \***************************************************************************************************************************************************************************************/
+/*!******************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./src/components/search/SortBy/sortBy.scss ***!
+  \******************************************************************************************************************************************************************************/
 @import url(https://fonts.googleapis.com/css?family=Fira+Sans:300,400,500,700);
-/*!*******************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./src/pattern-library/components/SortBy/sortBy.scss (1) ***!
-  \*******************************************************************************************************************************************************************************************/
+/*!**********************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./src/components/search/SortBy/sortBy.scss (1) ***!
+  \**********************************************************************************************************************************************************************************/
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700);
-/*!*******************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./src/pattern-library/components/SortBy/sortBy.scss (2) ***!
-  \*******************************************************************************************************************************************************************************************/
+/*!**********************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./src/components/search/SortBy/sortBy.scss (2) ***!
+  \**********************************************************************************************************************************************************************************/
 :root {
   /* Primary Colours */
   --fsa-primary_dark-green: #007c75;
@@ -1147,7 +1147,7 @@ ul {
   appearance: none;
   -moz-appearance: none;
   -webkit-appearance: none;
-  background-image: url(data:image/svg+xml;base64,ZXhwb3J0IGRlZmF1bHQgX193ZWJwYWNrX3B1YmxpY19wYXRoX18gKyAiU29ydEJ5L2Fycm93LWRvd24uc3ZnIjs=);
+  background-image: url(data:image/svg+xml;base64,ZXhwb3J0IGRlZmF1bHQgX193ZWJwYWNrX3B1YmxpY19wYXRoX18gKyAic2VhcmNoL1NvcnRCeS9hcnJvdy1kb3duLnN2ZyI7);
   background-repeat: no-repeat;
   background-position: 90% center;
 }
@@ -1158,17 +1158,17 @@ ul {
   box-shadow: inset 0 0 0px 2px var(--fsa-primary_black);
   outline: solid 3px var(--fsa-tertiary_light-yellow);
 }
-/*!***************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./src/pattern-library/components/LandingLinks/landingLinks.scss ***!
-  \***************************************************************************************************************************************************************************************************/
+/*!*******************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./src/components/landing/LandingLinks/landingLinks.scss ***!
+  \*******************************************************************************************************************************************************************************************/
 @import url(https://fonts.googleapis.com/css?family=Fira+Sans:300,400,500,700);
-/*!*******************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./src/pattern-library/components/LandingLinks/landingLinks.scss (1) ***!
-  \*******************************************************************************************************************************************************************************************************/
+/*!***********************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./src/components/landing/LandingLinks/landingLinks.scss (1) ***!
+  \***********************************************************************************************************************************************************************************************/
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700);
-/*!*******************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./src/pattern-library/components/LandingLinks/landingLinks.scss (2) ***!
-  \*******************************************************************************************************************************************************************************************************/
+/*!***********************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./src/components/landing/LandingLinks/landingLinks.scss (2) ***!
+  \***********************************************************************************************************************************************************************************************/
 :root {
   /* Primary Colours */
   --fsa-primary_dark-green: #007c75;
@@ -1429,17 +1429,17 @@ ul {
   text-align: center;
   margin-top: 0.5rem;
 }
-/*!*********************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./src/pattern-library/components/SearchBar/searchBar.scss ***!
-  \*********************************************************************************************************************************************************************************************/
+/*!************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./src/components/search/SearchBar/searchBar.scss ***!
+  \************************************************************************************************************************************************************************************/
 @import url(https://fonts.googleapis.com/css?family=Fira+Sans:300,400,500,700);
-/*!*************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./src/pattern-library/components/SearchBar/searchBar.scss (1) ***!
-  \*************************************************************************************************************************************************************************************************/
+/*!****************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./src/components/search/SearchBar/searchBar.scss (1) ***!
+  \****************************************************************************************************************************************************************************************/
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700);
-/*!*************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./src/pattern-library/components/SearchBar/searchBar.scss (2) ***!
-  \*************************************************************************************************************************************************************************************************/
+/*!****************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./src/components/search/SearchBar/searchBar.scss (2) ***!
+  \****************************************************************************************************************************************************************************************/
 :root {
   /* Primary Colours */
   --fsa-primary_dark-green: #007c75;
