@@ -20,6 +20,16 @@ eval("__webpack_require__.r(__webpack_exports__);\n/*!\n * css-vars-ponyfill\n *
 
 /***/ }),
 
+/***/ "./src/components/form/TitleAndText/titleAndText.html.twig":
+/*!*****************************************************************!*\
+  !*** ./src/components/form/TitleAndText/titleAndText.html.twig ***!
+  \*****************************************************************/
+/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"form/TitleAndText/titleAndText.html.twig\");\n\n//# sourceURL=webpack://fds/./src/components/form/TitleAndText/titleAndText.html.twig?");
+
+/***/ }),
+
 /***/ "./src/components/general/Breadcrumb/breadcrumb.html.twig":
 /*!****************************************************************!*\
   !*** ./src/components/general/Breadcrumb/breadcrumb.html.twig ***!
@@ -140,6 +150,16 @@ eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extr
 
 /***/ }),
 
+/***/ "./src/components/form/TitleAndText/titleAndText.scss":
+/*!************************************************************!*\
+  !*** ./src/components/form/TitleAndText/titleAndText.scss ***!
+  \************************************************************/
+/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n\n\n//# sourceURL=webpack://fds/./src/components/form/TitleAndText/titleAndText.scss?");
+
+/***/ }),
+
 /***/ "./src/components/general/Breadcrumb/breadcrumb.scss":
 /*!***********************************************************!*\
   !*** ./src/components/general/Breadcrumb/breadcrumb.scss ***!
@@ -247,6 +267,16 @@ eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extr
 /***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n\n\n//# sourceURL=webpack://fds/./src/components/search/SortBy/sortBy.scss?");
+
+/***/ }),
+
+/***/ "./src/components/form/TitleAndText/titleAndText.js":
+/*!**********************************************************!*\
+  !*** ./src/components/form/TitleAndText/titleAndText.js ***!
+  \**********************************************************/
+/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _titleAndText_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./titleAndText.scss */ \"./src/components/form/TitleAndText/titleAndText.scss\");\n/* harmony import */ var _titleAndText_html_twig__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./titleAndText.html.twig */ \"./src/components/form/TitleAndText/titleAndText.html.twig\");\n\n\n\n\n//# sourceURL=webpack://fds/./src/components/form/TitleAndText/titleAndText.js?");
 
 /***/ }),
 
@@ -366,7 +396,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _sor
   \**********************/
 /***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _base_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./base.scss */ \"./src/base.scss\");\n/* harmony import */ var css_vars_ponyfill__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! css-vars-ponyfill */ \"./node_modules/css-vars-ponyfill/dist/css-vars-ponyfill.esm.js\");\n/* harmony import */ var _components_general_Breadcrumb_breadcrumb__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./components/general/Breadcrumb/breadcrumb */ \"./src/components/general/Breadcrumb/breadcrumb.js\");\n/* harmony import */ var _components_general_Button_Button__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./components/general/Button/Button */ \"./src/components/general/Button/Button.js\");\n/* harmony import */ var _components_search_FiltersSelected_filtersSelected__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./components/search/FiltersSelected/filtersSelected */ \"./src/components/search/FiltersSelected/filtersSelected.js\");\n/* harmony import */ var _components_search_ListingItem_ListingItem__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./components/search/ListingItem/ListingItem */ \"./src/components/search/ListingItem/ListingItem.js\");\n/* harmony import */ var _components_search_Pagination_pagination__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./components/search/Pagination/pagination */ \"./src/components/search/Pagination/pagination.js\");\n/* harmony import */ var _components_search_SearchBarHeader_searchBarHeader__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./components/search/SearchBarHeader/searchBarHeader */ \"./src/components/search/SearchBarHeader/searchBarHeader.js\");\n/* harmony import */ var _components_search_SearchNoResults_searchNoResults__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./components/search/SearchNoResults/searchNoResults */ \"./src/components/search/SearchNoResults/searchNoResults.js\");\n/* harmony import */ var _components_search_Showing_showing__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./components/search/Showing/showing */ \"./src/components/search/Showing/showing.js\");\n/* harmony import */ var _components_search_SortBy_sortBy__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./components/search/SortBy/sortBy */ \"./src/components/search/SortBy/sortBy.js\");\n/* harmony import */ var _components_landing_LandingLinks_LandingLinks__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./components/landing/LandingLinks/LandingLinks */ \"./src/components/landing/LandingLinks/LandingLinks.js\");\n/* harmony import */ var _components_search_SearchBar_searchBar__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./components/search/SearchBar/searchBar */ \"./src/components/search/SearchBar/searchBar.js\");\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n// Fixes css vars on legacy browsers (i.e. IE11)\n(0,css_vars_ponyfill__WEBPACK_IMPORTED_MODULE_12__.default)();\n\n(0,_components_landing_LandingLinks_LandingLinks__WEBPACK_IMPORTED_MODULE_10__.default)();\n(0,_components_search_SearchBar_searchBar__WEBPACK_IMPORTED_MODULE_11__.default)();\n\n\n//# sourceURL=webpack://fds/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _base_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./base.scss */ \"./src/base.scss\");\n/* harmony import */ var css_vars_ponyfill__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! css-vars-ponyfill */ \"./node_modules/css-vars-ponyfill/dist/css-vars-ponyfill.esm.js\");\n/* harmony import */ var _components_general_Breadcrumb_breadcrumb__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./components/general/Breadcrumb/breadcrumb */ \"./src/components/general/Breadcrumb/breadcrumb.js\");\n/* harmony import */ var _components_general_Button_Button__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./components/general/Button/Button */ \"./src/components/general/Button/Button.js\");\n/* harmony import */ var _components_search_FiltersSelected_filtersSelected__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./components/search/FiltersSelected/filtersSelected */ \"./src/components/search/FiltersSelected/filtersSelected.js\");\n/* harmony import */ var _components_search_ListingItem_ListingItem__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./components/search/ListingItem/ListingItem */ \"./src/components/search/ListingItem/ListingItem.js\");\n/* harmony import */ var _components_search_Pagination_pagination__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./components/search/Pagination/pagination */ \"./src/components/search/Pagination/pagination.js\");\n/* harmony import */ var _components_search_SearchBarHeader_searchBarHeader__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./components/search/SearchBarHeader/searchBarHeader */ \"./src/components/search/SearchBarHeader/searchBarHeader.js\");\n/* harmony import */ var _components_search_SearchNoResults_searchNoResults__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./components/search/SearchNoResults/searchNoResults */ \"./src/components/search/SearchNoResults/searchNoResults.js\");\n/* harmony import */ var _components_search_Showing_showing__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./components/search/Showing/showing */ \"./src/components/search/Showing/showing.js\");\n/* harmony import */ var _components_search_SortBy_sortBy__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./components/search/SortBy/sortBy */ \"./src/components/search/SortBy/sortBy.js\");\n/* harmony import */ var _components_form_TitleAndText_titleAndText__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./components/form/TitleAndText/titleAndText */ \"./src/components/form/TitleAndText/titleAndText.js\");\n/* harmony import */ var _components_landing_LandingLinks_LandingLinks__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./components/landing/LandingLinks/LandingLinks */ \"./src/components/landing/LandingLinks/LandingLinks.js\");\n/* harmony import */ var _components_search_SearchBar_searchBar__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./components/search/SearchBar/searchBar */ \"./src/components/search/SearchBar/searchBar.js\");\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n// Fixes css vars on legacy browsers (i.e. IE11)\n(0,css_vars_ponyfill__WEBPACK_IMPORTED_MODULE_13__.default)();\n\n(0,_components_landing_LandingLinks_LandingLinks__WEBPACK_IMPORTED_MODULE_11__.default)();\n(0,_components_search_SearchBar_searchBar__WEBPACK_IMPORTED_MODULE_12__.default)();\n\n\n//# sourceURL=webpack://fds/./src/index.js?");
 
 /***/ })
 
