@@ -189,6 +189,13 @@ small,
 ul {
   list-style: none;
 }
+
+p {
+  margin: 0;
+}
+p + p {
+  margin-top: 1rem;
+}
 /*!***************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./src/components/general/Breadcrumb/breadcrumb.scss ***!
   \***************************************************************************************************************************************************************************************/
@@ -1360,6 +1367,10 @@ ul {
 }
 
 /* Custom Mixins */
+.form-title {
+  margin: 2rem 0 0 0;
+}
+
 .form-description {
   font-family: var(--body-font);
   font-weight: var(--body-normal);
