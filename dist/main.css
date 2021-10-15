@@ -1299,10 +1299,14 @@ p + p {
 .error-box__field {
   color: var(--fsa-primary_dark-green);
   text-decoration: underline;
+  font-family: var(--heading-font);
+  font-size: 1.18rem;
+  font-weight: var(--heading-bold);
+  line-height: 1.4;
+  letter-spacing: normal;
   color: var(--fsa-secondary-error-red);
   text-decoration: underline;
   margin-top: 0.5rem;
-  font-weight: bold;
   display: block;
 }
 .error-box__field:hover {
@@ -1315,6 +1319,11 @@ p + p {
   background-color: var(--fsa-tertiary_light-yellow);
   border-bottom: 4px solid var(--fsa-primary_black);
   margin-bottom: -4px;
+}
+@media screen and (min-width: 1024px) {
+  .error-box__field {
+    font-size: 1.2rem;
+  }
 }
 .error-box__field:hover {
   color: var(--fsa-secondary-error-hover);

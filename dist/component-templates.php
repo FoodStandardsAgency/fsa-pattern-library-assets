@@ -61,6 +61,11 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/search/SortBy",
           "variables" => ["content" => []]
         ], 
+        "searchBar" => [
+          "template" => "searchBar",
+          "path" => $assetPath . "/components/search/SearchBar",
+          "variables" => ["content" => []]
+        ], 
         "errorBox" => [
           "template" => "errorBox",
           "path" => $assetPath . "/components/forms/ErrorBox",
@@ -69,11 +74,6 @@ function deeson_twig_component_templates($assetPath = 'auto') {
         "titleAndText" => [
           "template" => "titleAndText",
           "path" => $assetPath . "/components/form/TitleAndText",
-          "variables" => ["content" => []]
-        ], 
-        "searchBar" => [
-          "template" => "searchBar",
-          "path" => $assetPath . "/components/search/SearchBar",
           "variables" => ["content" => []]
         ], 
         "checkbox" => [
