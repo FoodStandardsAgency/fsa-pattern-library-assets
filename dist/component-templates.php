@@ -16,19 +16,24 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/layout/formLayout",
           "variables" => ["content" => []]
         ], 
-        "breadcrumb" => [
-          "template" => "breadcrumb",
-          "path" => $assetPath . "/components/general/Breadcrumb",
-          "variables" => ["content" => []]
-        ], 
         "button" => [
           "template" => "button",
           "path" => $assetPath . "/components/general/Button",
           "variables" => ["content" => []]
         ], 
+        "breadcrumb" => [
+          "template" => "breadcrumb",
+          "path" => $assetPath . "/components/general/Breadcrumb",
+          "variables" => ["content" => []]
+        ], 
         "filtersSelected" => [
           "template" => "filtersSelected",
           "path" => $assetPath . "/components/search/FiltersSelected",
+          "variables" => ["content" => []]
+        ], 
+        "listingItem" => [
+          "template" => "listingItem",
+          "path" => $assetPath . "/components/search/ListingItem",
           "variables" => ["content" => []]
         ], 
         "pagination" => [
@@ -39,11 +44,6 @@ function deeson_twig_component_templates($assetPath = 'auto') {
         "searchBarHeader" => [
           "template" => "searchBarHeader",
           "path" => $assetPath . "/components/search/SearchBarHeader",
-          "variables" => ["content" => []]
-        ], 
-        "listingItem" => [
-          "template" => "listingItem",
-          "path" => $assetPath . "/components/search/ListingItem",
           "variables" => ["content" => []]
         ], 
         "searchNoResults" => [
@@ -61,11 +61,6 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/search/SortBy",
           "variables" => ["content" => []]
         ], 
-        "searchBar" => [
-          "template" => "searchBar",
-          "path" => $assetPath . "/components/search/SearchBar",
-          "variables" => ["content" => []]
-        ], 
         "errorBox" => [
           "template" => "errorBox",
           "path" => $assetPath . "/components/forms/ErrorBox",
@@ -74,6 +69,11 @@ function deeson_twig_component_templates($assetPath = 'auto') {
         "titleAndText" => [
           "template" => "titleAndText",
           "path" => $assetPath . "/components/form/TitleAndText",
+          "variables" => ["content" => []]
+        ], 
+        "searchBar" => [
+          "template" => "searchBar",
+          "path" => $assetPath . "/components/search/SearchBar",
           "variables" => ["content" => []]
         ], 
         "checkbox" => [
