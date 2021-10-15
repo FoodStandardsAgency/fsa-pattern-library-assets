@@ -1241,13 +1241,24 @@ p + p {
 }
 
 /* Custom Mixins */
+.error-box {
+  margin: 2rem -0.5rem 0;
+}
+@media screen and (min-width: 500px) {
+  .error-box {
+    margin: 2rem -1.5rem 0;
+  }
+}
 .error-box__container {
   width: 100%;
   margin: 0 auto;
   padding-left: 1rem;
   padding-right: 1rem;
-  border: 4px solid var(--fsa-secondary-error-red);
-  padding-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  border: 0.25rem solid var(--fsa-secondary-error-red);
+  padding: 0 0.5rem 1rem;
 }
 @media screen and (min-width: 768px) {
   .error-box__container {
@@ -1259,7 +1270,7 @@ p + p {
 }
 @media screen and (min-width: 500px) {
   .error-box__container {
-    padding-bottom: 2rem;
+    padding: 0 1rem 2rem;
   }
 }
 .error-box__title {
@@ -1269,6 +1280,7 @@ p + p {
   line-height: 1.2;
   letter-spacing: normal;
   color: var(--fsa-primary_black);
+  margin: 2rem 0 1rem;
 }
 @media screen and (min-width: 1024px) {
   .error-box__title {
@@ -1281,6 +1293,7 @@ p + p {
   font-size: 1rem;
   line-height: 1.6;
   letter-spacing: normal;
+  margin-top: 1rem;
   margin-bottom: 0;
 }
 .error-box__field {
