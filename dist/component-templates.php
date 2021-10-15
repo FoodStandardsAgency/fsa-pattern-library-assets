@@ -16,14 +16,14 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/layout/formLayout",
           "variables" => ["content" => []]
         ], 
-        "button" => [
-          "template" => "button",
-          "path" => $assetPath . "/components/general/Button",
-          "variables" => ["content" => []]
-        ], 
         "breadcrumb" => [
           "template" => "breadcrumb",
           "path" => $assetPath . "/components/general/Breadcrumb",
+          "variables" => ["content" => []]
+        ], 
+        "button" => [
+          "template" => "button",
+          "path" => $assetPath . "/components/general/Button",
           "variables" => ["content" => []]
         ], 
         "filtersSelected" => [
