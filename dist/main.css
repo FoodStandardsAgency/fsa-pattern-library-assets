@@ -2114,35 +2114,27 @@ p + p {
 .landing-links__item:hover .landing-links__svg {
   background-color: var(--fsa__link-green);
 }
-.landing-links__item:hover a {
+.landing-links__item:hover .landing-links__link {
   text-decoration: underline;
 }
 .landing-links__item a {
-  color: var(--fsa-primary_dark-green);
-  text-decoration: underline;
-  text-decoration: none;
-  color: var(--fsa-primary_black);
   display: inline-block;
   width: -webkit-min-content;
   display: -ms-grid;
   -ms-grid-columns: min-content;
-}
-.landing-links__item a:hover {
-  color: var(--fsa__link-green);
-}
-.landing-links__item a:focus {
-  color: var(--fsa-primary_black);
+  text-align: center;
   outline: none;
-  text-decoration: none;
-  background-color: var(--fsa-tertiary_light-yellow);
-  border-bottom: 4px solid var(--fsa-primary_black);
-  margin-bottom: -4px;
 }
 .landing-links__item a:focus {
   background-color: var(--fsa-primary_white);
 }
 .landing-links__item a:focus .landing-links__link {
+  color: var(--fsa-primary_black);
+  outline: none;
+  text-decoration: none;
   background-color: var(--fsa-tertiary_light-yellow);
+  border-bottom: 4px solid var(--fsa-primary_black);
+  padding-bottom: 2px;
 }
 .landing-links__svg {
   width: 72px;
@@ -2152,6 +2144,7 @@ p + p {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 0.5rem;
 }
 .landing-links__svg svg {
   width: 41px;
@@ -2166,13 +2159,22 @@ p + p {
   }
 }
 .landing-links__link {
-  font-family: var(--body-font);
-  font-weight: var(--body-normal);
-  font-size: 1rem;
-  line-height: 1.6;
-  letter-spacing: normal;
+  color: var(--fsa-primary_dark-green);
+  text-decoration: underline;
+  color: var(--fsa-primary_black);
+  text-decoration: none;
   text-align: center;
-  margin-top: 0.5rem;
+}
+.landing-links__link:hover {
+  color: var(--fsa__link-green);
+}
+.landing-links__link:focus {
+  color: var(--fsa-primary_black);
+  outline: none;
+  text-decoration: none;
+  background-color: var(--fsa-tertiary_light-yellow);
+  border-bottom: 4px solid var(--fsa-primary_black);
+  margin-bottom: -4px;
 }
 /*!************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./src/components/search/SearchBar/searchBar.scss ***!
