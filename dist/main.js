@@ -30,6 +30,16 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ 
 
 /***/ }),
 
+/***/ "./src/components/form/ErrorBox/errorBox.html.twig":
+/*!*********************************************************!*\
+  !*** ./src/components/form/ErrorBox/errorBox.html.twig ***!
+  \*********************************************************/
+/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"components/form/ErrorBox/errorBox.html.twig\");\n\n//# sourceURL=webpack://fds/./src/components/form/ErrorBox/errorBox.html.twig?");
+
+/***/ }),
+
 /***/ "./src/components/form/TitleAndText/titleAndText.html.twig":
 /*!*****************************************************************!*\
   !*** ./src/components/form/TitleAndText/titleAndText.html.twig ***!
@@ -37,16 +47,6 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ 
 /***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"components/form/TitleAndText/titleAndText.html.twig\");\n\n//# sourceURL=webpack://fds/./src/components/form/TitleAndText/titleAndText.html.twig?");
-
-/***/ }),
-
-/***/ "./src/components/forms/ErrorBox/errorBox.html.twig":
-/*!**********************************************************!*\
-  !*** ./src/components/forms/ErrorBox/errorBox.html.twig ***!
-  \**********************************************************/
-/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
-
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"components/forms/ErrorBox/errorBox.html.twig\");\n\n//# sourceURL=webpack://fds/./src/components/forms/ErrorBox/errorBox.html.twig?");
 
 /***/ }),
 
@@ -170,6 +170,16 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ 
 
 /***/ }),
 
+/***/ "./src/layout/fullWidth/fullWidth.html.twig":
+/*!**************************************************!*\
+  !*** ./src/layout/fullWidth/fullWidth.html.twig ***!
+  \**************************************************/
+/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"layout/fullWidth/fullWidth.html.twig\");\n\n//# sourceURL=webpack://fds/./src/layout/fullWidth/fullWidth.html.twig?");
+
+/***/ }),
+
 /***/ "./src/layout/twoColumn/twoColumn.html.twig":
 /*!**************************************************!*\
   !*** ./src/layout/twoColumn/twoColumn.html.twig ***!
@@ -200,6 +210,16 @@ eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extr
 
 /***/ }),
 
+/***/ "./src/components/form/ErrorBox/errorBox.scss":
+/*!****************************************************!*\
+  !*** ./src/components/form/ErrorBox/errorBox.scss ***!
+  \****************************************************/
+/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n\n\n//# sourceURL=webpack://fds/./src/components/form/ErrorBox/errorBox.scss?");
+
+/***/ }),
+
 /***/ "./src/components/form/TitleAndText/titleAndText.scss":
 /*!************************************************************!*\
   !*** ./src/components/form/TitleAndText/titleAndText.scss ***!
@@ -207,16 +227,6 @@ eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extr
 /***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n\n\n//# sourceURL=webpack://fds/./src/components/form/TitleAndText/titleAndText.scss?");
-
-/***/ }),
-
-/***/ "./src/components/forms/ErrorBox/errorBox.scss":
-/*!*****************************************************!*\
-  !*** ./src/components/forms/ErrorBox/errorBox.scss ***!
-  \*****************************************************/
-/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
-
-eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n\n\n//# sourceURL=webpack://fds/./src/components/forms/ErrorBox/errorBox.scss?");
 
 /***/ }),
 
@@ -340,6 +350,16 @@ eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extr
 
 /***/ }),
 
+/***/ "./src/layout/fullWidth/fullWidth.scss":
+/*!*********************************************!*\
+  !*** ./src/layout/fullWidth/fullWidth.scss ***!
+  \*********************************************/
+/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n\n\n//# sourceURL=webpack://fds/./src/layout/fullWidth/fullWidth.scss?");
+
+/***/ }),
+
 /***/ "./src/layout/twoColumn/twoColumn.scss":
 /*!*********************************************!*\
   !*** ./src/layout/twoColumn/twoColumn.scss ***!
@@ -360,6 +380,16 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _che
 
 /***/ }),
 
+/***/ "./src/components/form/ErrorBox/ErrorBox.js":
+/*!**************************************************!*\
+  !*** ./src/components/form/ErrorBox/ErrorBox.js ***!
+  \**************************************************/
+/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _errorBox_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./errorBox.scss */ \"./src/components/form/ErrorBox/errorBox.scss\");\n/* harmony import */ var _errorBox_html_twig__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./errorBox.html.twig */ \"./src/components/form/ErrorBox/errorBox.html.twig\");\n\n\n\n\n//# sourceURL=webpack://fds/./src/components/form/ErrorBox/ErrorBox.js?");
+
+/***/ }),
+
 /***/ "./src/components/form/TitleAndText/titleAndText.js":
 /*!**********************************************************!*\
   !*** ./src/components/form/TitleAndText/titleAndText.js ***!
@@ -370,23 +400,13 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _tit
 
 /***/ }),
 
-/***/ "./src/components/forms/ErrorBox/ErrorBox.js":
-/*!***************************************************!*\
-  !*** ./src/components/forms/ErrorBox/ErrorBox.js ***!
-  \***************************************************/
-/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
-
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _errorBox_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./errorBox.scss */ \"./src/components/forms/ErrorBox/errorBox.scss\");\n/* harmony import */ var _errorBox_html_twig__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./errorBox.html.twig */ \"./src/components/forms/ErrorBox/errorBox.html.twig\");\n\n\n\n\n//# sourceURL=webpack://fds/./src/components/forms/ErrorBox/ErrorBox.js?");
-
-/***/ }),
-
 /***/ "./src/components/general/Breadcrumb/breadcrumb.js":
 /*!*********************************************************!*\
   !*** ./src/components/general/Breadcrumb/breadcrumb.js ***!
   \*********************************************************/
 /***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _breadcrumb_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./breadcrumb.scss */ \"./src/components/general/Breadcrumb/breadcrumb.scss\");\n/* harmony import */ var _breadcrumb_html_twig__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./breadcrumb.html.twig */ \"./src/components/general/Breadcrumb/breadcrumb.html.twig\");\n\n\n\n\n//# sourceURL=webpack://fds/./src/components/general/Breadcrumb/breadcrumb.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": function() { return /* export default binding */ __WEBPACK_DEFAULT_EXPORT__; }\n/* harmony export */ });\n/* harmony import */ var _breadcrumb_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./breadcrumb.scss */ \"./src/components/general/Breadcrumb/breadcrumb.scss\");\n/* harmony import */ var _breadcrumb_html_twig__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./breadcrumb.html.twig */ \"./src/components/general/Breadcrumb/breadcrumb.html.twig\");\n\n\n\n/* harmony default export */ function __WEBPACK_DEFAULT_EXPORT__() {\n  // Toggles the expanded class to expand the breadcrumb or not\n  function toggleBreadcrumb(breadcrumb, mobileOverlay) {\n    if (breadcrumb.classList.contains('expanded')) {\n      breadcrumb.classList.remove('expanded');\n    } else {\n      breadcrumb.classList.add('expanded');\n    }\n    if (mobileOverlay.ariaExpanded === 'true') {\n      mobileOverlay.setAttribute('aria-expanded', 'false');\n    } else {\n      mobileOverlay.setAttribute('aria-expanded', 'true');\n    }\n  }\n\n  // Toggles the overflowed class to handle the overflow on the breadcrumb \n  // depending on screensizes\n  function overflow(breadcrumb, breadcrumbItems, breadcrumbLength) {\n    if (!breadcrumb.classList.contains('expanded')) {\n      if (breadcrumbLength > breadcrumbItems.clientWidth) {\n        breadcrumbItems.classList.add('overflowed');\n      } else {\n        breadcrumbItems.classList.remove('overflowed');\n      }\n    }\n  }\n\n  window.addEventListener('DOMContentLoaded', function () {\n    const mobileOverlay = document.querySelector('.breadcrumb__mobile-overlay');\n    const breadcrumb = document.querySelector('.breadcrumb');\n    const breadcrumbItems = document.querySelector('.breadcrumb__items');\n    if (!mobileOverlay && !breadcrumbItems) return;\n\n     // Calculates the length of the breadcrumb (+ some extra spacing for the separators)\n     let breadcrumbLength = 0;\n     const breadcrumbItemList = document.querySelectorAll('.breadcrumb__item');\n     breadcrumbItemList.forEach((item) => {\n       breadcrumbLength += item.clientWidth + 10;\n     });\n\n    // Handles the expanded toggle with both click & keyboard (enter)\n    mobileOverlay.addEventListener('click', (e) => {\n      e.preventDefault();\n      e.stopPropagation();\n      toggleBreadcrumb(breadcrumb, mobileOverlay);\n    });\n    mobileOverlay.addEventListener('keyUp', (e) => {\n      const keyCode = (e.keyCode ? e.keyCode : e.which);\n      if (keyCode === 13) {\n        toggleBreadcrumb(breadcrumb, mobileOverlay);\n      }\n    });\n\n    //-- Overflow state\n    // Upon resize, check if the breadcrumb length is bigger than the visible part of the breadcrumb\n    window.addEventListener('resize', () => {\n      overflow(breadcrumb, breadcrumbItems, breadcrumbLength);\n    });\n    // Triggers it once upon first load\n    overflow(breadcrumb, breadcrumbItems, breadcrumbLength);\n  });\n\n  \n}\n\n\n\n//# sourceURL=webpack://fds/./src/components/general/Breadcrumb/breadcrumb.js?");
 
 /***/ }),
 
@@ -496,7 +516,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _sor
   \**********************/
 /***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _base_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./base.scss */ \"./src/base.scss\");\n/* harmony import */ var css_vars_ponyfill__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! css-vars-ponyfill */ \"./node_modules/css-vars-ponyfill/dist/css-vars-ponyfill.esm.js\");\n/* harmony import */ var _components_general_Breadcrumb_breadcrumb__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./components/general/Breadcrumb/breadcrumb */ \"./src/components/general/Breadcrumb/breadcrumb.js\");\n/* harmony import */ var _components_general_Button_Button__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./components/general/Button/Button */ \"./src/components/general/Button/Button.js\");\n/* harmony import */ var _components_search_FiltersSelected_filtersSelected__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./components/search/FiltersSelected/filtersSelected */ \"./src/components/search/FiltersSelected/filtersSelected.js\");\n/* harmony import */ var _components_search_ListingItem_ListingItem__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./components/search/ListingItem/ListingItem */ \"./src/components/search/ListingItem/ListingItem.js\");\n/* harmony import */ var _components_search_Pagination_pagination__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./components/search/Pagination/pagination */ \"./src/components/search/Pagination/pagination.js\");\n/* harmony import */ var _components_search_SearchBarHeader_searchBarHeader__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./components/search/SearchBarHeader/searchBarHeader */ \"./src/components/search/SearchBarHeader/searchBarHeader.js\");\n/* harmony import */ var _components_search_SearchNoResults_searchNoResults__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./components/search/SearchNoResults/searchNoResults */ \"./src/components/search/SearchNoResults/searchNoResults.js\");\n/* harmony import */ var _components_search_Showing_showing__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./components/search/Showing/showing */ \"./src/components/search/Showing/showing.js\");\n/* harmony import */ var _components_search_SortBy_sortBy__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./components/search/SortBy/sortBy */ \"./src/components/search/SortBy/sortBy.js\");\n/* harmony import */ var _components_forms_ErrorBox_ErrorBox__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./components/forms/ErrorBox/ErrorBox */ \"./src/components/forms/ErrorBox/ErrorBox.js\");\n/* harmony import */ var _components_form_TitleAndText_titleAndText__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./components/form/TitleAndText/titleAndText */ \"./src/components/form/TitleAndText/titleAndText.js\");\n/* harmony import */ var _components_form_Checkbox_checkbox__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./components/form/Checkbox/checkbox */ \"./src/components/form/Checkbox/checkbox.js\");\n/* harmony import */ var _layout_twoColumn_twoColumn__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./layout/twoColumn/twoColumn */ \"./src/layout/twoColumn/twoColumn.js\");\n/* harmony import */ var _layout_formLayout_formLayout__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./layout/formLayout/formLayout */ \"./src/layout/formLayout/formLayout.js\");\n/* harmony import */ var _components_landing_LandingLinks_LandingLinks__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./components/landing/LandingLinks/LandingLinks */ \"./src/components/landing/LandingLinks/LandingLinks.js\");\n/* harmony import */ var _components_search_SearchBar_searchBar__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./components/search/SearchBar/searchBar */ \"./src/components/search/SearchBar/searchBar.js\");\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n// Fixes css vars on legacy browsers (i.e. IE11)\n(0,css_vars_ponyfill__WEBPACK_IMPORTED_MODULE_17__.default)();\n(0,_components_search_SearchBar_searchBar__WEBPACK_IMPORTED_MODULE_16__.default)();\n\n\n//# sourceURL=webpack://fds/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _base_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./base.scss */ \"./src/base.scss\");\n/* harmony import */ var css_vars_ponyfill__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! css-vars-ponyfill */ \"./node_modules/css-vars-ponyfill/dist/css-vars-ponyfill.esm.js\");\n/* harmony import */ var _components_general_Breadcrumb_breadcrumb__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./components/general/Breadcrumb/breadcrumb */ \"./src/components/general/Breadcrumb/breadcrumb.js\");\n/* harmony import */ var _components_general_Button_Button__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./components/general/Button/Button */ \"./src/components/general/Button/Button.js\");\n/* harmony import */ var _components_search_FiltersSelected_filtersSelected__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./components/search/FiltersSelected/filtersSelected */ \"./src/components/search/FiltersSelected/filtersSelected.js\");\n/* harmony import */ var _components_search_ListingItem_ListingItem__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./components/search/ListingItem/ListingItem */ \"./src/components/search/ListingItem/ListingItem.js\");\n/* harmony import */ var _components_search_Pagination_pagination__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./components/search/Pagination/pagination */ \"./src/components/search/Pagination/pagination.js\");\n/* harmony import */ var _components_search_SearchBarHeader_searchBarHeader__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./components/search/SearchBarHeader/searchBarHeader */ \"./src/components/search/SearchBarHeader/searchBarHeader.js\");\n/* harmony import */ var _components_search_SearchNoResults_searchNoResults__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./components/search/SearchNoResults/searchNoResults */ \"./src/components/search/SearchNoResults/searchNoResults.js\");\n/* harmony import */ var _components_search_Showing_showing__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./components/search/Showing/showing */ \"./src/components/search/Showing/showing.js\");\n/* harmony import */ var _components_search_SortBy_sortBy__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./components/search/SortBy/sortBy */ \"./src/components/search/SortBy/sortBy.js\");\n/* harmony import */ var _components_form_ErrorBox_ErrorBox__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./components/form/ErrorBox/ErrorBox */ \"./src/components/form/ErrorBox/ErrorBox.js\");\n/* harmony import */ var _components_form_TitleAndText_titleAndText__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./components/form/TitleAndText/titleAndText */ \"./src/components/form/TitleAndText/titleAndText.js\");\n/* harmony import */ var _components_form_Checkbox_checkbox__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./components/form/Checkbox/checkbox */ \"./src/components/form/Checkbox/checkbox.js\");\n/* harmony import */ var _components_landing_LandingLinks_LandingLinks__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./components/landing/LandingLinks/LandingLinks */ \"./src/components/landing/LandingLinks/LandingLinks.js\");\n/* harmony import */ var _layout_twoColumn_twoColumn__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./layout/twoColumn/twoColumn */ \"./src/layout/twoColumn/twoColumn.js\");\n/* harmony import */ var _layout_formLayout_formLayout__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./layout/formLayout/formLayout */ \"./src/layout/formLayout/formLayout.js\");\n/* harmony import */ var _layout_fullWidth_fullWidth__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./layout/fullWidth/fullWidth */ \"./src/layout/fullWidth/fullWidth.js\");\n/* harmony import */ var _components_search_SearchBar_searchBar__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./components/search/SearchBar/searchBar */ \"./src/components/search/SearchBar/searchBar.js\");\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n// Fixes css vars on legacy browsers (i.e. IE11)\n(0,css_vars_ponyfill__WEBPACK_IMPORTED_MODULE_18__.default)();\n(0,_components_search_SearchBar_searchBar__WEBPACK_IMPORTED_MODULE_17__.default)();\n(0,_components_general_Breadcrumb_breadcrumb__WEBPACK_IMPORTED_MODULE_1__.default)();\n\n\n//# sourceURL=webpack://fds/./src/index.js?");
 
 /***/ }),
 
@@ -507,6 +527,16 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _bas
 /***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _formLayout_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./formLayout.scss */ \"./src/layout/formLayout/formLayout.scss\");\n/* harmony import */ var _formLayout_html_twig__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./formLayout.html.twig */ \"./src/layout/formLayout/formLayout.html.twig\");\n\n\n\n\n//# sourceURL=webpack://fds/./src/layout/formLayout/formLayout.js?");
+
+/***/ }),
+
+/***/ "./src/layout/fullWidth/fullWidth.js":
+/*!*******************************************!*\
+  !*** ./src/layout/fullWidth/fullWidth.js ***!
+  \*******************************************/
+/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _fullWidth_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./fullWidth.scss */ \"./src/layout/fullWidth/fullWidth.scss\");\n/* harmony import */ var _fullWidth_html_twig__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./fullWidth.html.twig */ \"./src/layout/fullWidth/fullWidth.html.twig\");\n\n\n\n\n//# sourceURL=webpack://fds/./src/layout/fullWidth/fullWidth.js?");
 
 /***/ }),
 
