@@ -1510,9 +1510,9 @@ p + p {
 
 /* Custom Mixins */
 .error-box {
-  margin: 2rem -0.5rem 0;
+  margin: 2rem -0.75rem 0;
 }
-@media screen and (min-width: 500px) {
+@media screen and (min-width: 768px) {
   .error-box {
     margin: 2rem -1.25rem 0;
   }
@@ -1526,7 +1526,7 @@ p + p {
   flex-direction: column;
   align-items: flex-start;
   border: 0.25rem solid var(--fsa-secondary-error-red);
-  padding: 0 0.5rem 1rem;
+  padding: 0 0.5rem 2rem;
 }
 @media screen and (min-width: 768px) {
   .error-box__container {
@@ -1536,7 +1536,7 @@ p + p {
     max-width: calc(1300px + (2 * 2rem));
   }
 }
-@media screen and (min-width: 500px) {
+@media screen and (min-width: 768px) {
   .error-box__container {
     padding: 0 1rem 2rem;
   }
@@ -1730,26 +1730,20 @@ p + p {
 /* Custom Mixins */
 .checkbox {
   border: none;
-  padding: 0 0 0 0.5rem;
-  margin: 1.56rem 0 0 -0.5rem;
+  padding: 0;
+  margin: 2rem 0 0 0;
   color: var(--fsa-primary_black);
 }
-@media screen and (min-width: 768px) {
-  .checkbox {
-    margin-left: -1rem;
-    padding-left: 1rem;
-  }
-}
 .checkbox__legend {
-  font-family: var(--body-font);
-  font-weight: var(--body-normal);
+  font-family: var(--heading-font);
   font-size: 1.18rem;
-  line-height: 1.6;
+  font-weight: var(--heading-bold);
+  line-height: 1.4;
   letter-spacing: normal;
   margin: 0;
   padding: 0;
   font-weight: bold;
-  /* Using a float trick here to make the border of fieldset wrap around, not going through, the legend. */
+  /* Using a float trick here to make the border of fieldset wrap around, not going through, the legend.*/
   float: left;
 }
 @media screen and (min-width: 1024px) {
@@ -1785,7 +1779,6 @@ p + p {
   letter-spacing: normal;
   display: flex;
   align-items: center;
-  align-items: center;
 }
 .checkbox__input {
   appearance: none;
@@ -1793,8 +1786,8 @@ p + p {
   height: 1.5rem;
   border: 1px solid var(--fsa-primary_black);
   position: relative;
-  margin: 0 0.94rem 0 0;
   background-color: var(--fsa_tint);
+  margin: 0;
 }
 .checkbox__input::-ms-expand {
   display: none;
@@ -1810,18 +1803,18 @@ p + p {
   outline: none;
   border: none;
 }
+.checkbox__label {
+  padding: 0 0 0 1rem;
+}
 .checkbox--error {
   border-left: 0.25rem solid var(--fsa-secondary_mid-red);
-  margin: 1.56rem 0 0 -0.75rem;
-}
-@media screen and (min-width: 1024px) {
-  .checkbox--error {
-    border-left: 0.23rem solid var(--fsa-secondary_mid-red);
-  }
+  margin-left: -0.75rem;
+  padding-left: 0.5rem;
 }
 @media screen and (min-width: 768px) {
   .checkbox--error {
-    margin-left: -1.23rem;
+    margin-left: -1.25rem;
+    padding-left: 1rem;
   }
 }
 .checkbox--error .checkbox__legend {
