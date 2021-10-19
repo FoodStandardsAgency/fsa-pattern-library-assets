@@ -1547,33 +1547,15 @@ p + p {
   margin-bottom: 0;
 }
 .error-box__field {
-  color: var(--fsa-primary_dark-green);
-  text-decoration: underline;
-  font-family: var(--heading-font);
-  font-size: 1.18rem;
-  font-weight: var(--heading-bold);
-  line-height: 1.4;
+  font-family: var(--body-font);
+  font-size: 1rem;
+  font-weight: var(--body-bold);
+  line-height: 1.6;
   letter-spacing: normal;
   color: var(--fsa-secondary-error-red);
   text-decoration: underline;
   margin-top: 0.5rem;
   display: block;
-}
-.error-box__field:hover {
-  color: var(--fsa__link-green);
-}
-.error-box__field:focus {
-  color: var(--fsa-primary_black);
-  outline: none;
-  text-decoration: none;
-  background-color: var(--fsa-tertiary_light-yellow);
-  border-bottom: 4px solid var(--fsa-primary_black);
-  margin-bottom: -4px;
-}
-@media screen and (min-width: 1024px) {
-  .error-box__field {
-    font-size: 1.2rem;
-  }
 }
 .error-box__field:hover {
   color: var(--fsa-secondary-error-hover);
