@@ -1,6 +1,0 @@
-<span class="button {{ primary ? 'button--primary' : '' }} ">
-  Button {{ primary ? 'p' : 'n' }}
-</span>
-
-<img src="http://lorempixel.com/507/507/" />
-
