@@ -11,14 +11,14 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/layout/twoColumn",
           "variables" => ["content" => []]
         ], 
-        "formLayout" => [
-          "template" => "formLayout",
-          "path" => $assetPath . "/layout/formLayout",
-          "variables" => ["content" => []]
-        ], 
         "fullWidth" => [
           "template" => "fullWidth",
           "path" => $assetPath . "/layout/fullWidth",
+          "variables" => ["content" => []]
+        ], 
+        "formLayout" => [
+          "template" => "formLayout",
+          "path" => $assetPath . "/layout/formLayout",
           "variables" => ["content" => []]
         ], 
         "breadcrumb" => [
@@ -29,6 +29,11 @@ function deeson_twig_component_templates($assetPath = 'auto') {
         "button" => [
           "template" => "button",
           "path" => $assetPath . "/components/general/Button",
+          "variables" => ["content" => []]
+        ], 
+        "tabs" => [
+          "template" => "tabs",
+          "path" => $assetPath . "/components/general/Tabs",
           "variables" => ["content" => []]
         ], 
         "filtersSelected" => [
