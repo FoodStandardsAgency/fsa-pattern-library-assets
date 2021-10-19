@@ -329,11 +329,6 @@ p + p {
     padding-right: 1rem;
   }
 }
-@media screen and (min-width: 1440px) {
-  .logout.expanded .breadcrumb__left {
-    margin-top: 0.65rem;
-  }
-}
 .breadcrumb__right {
   width: 100%;
   flex-basis: 100%;
@@ -381,16 +376,12 @@ p + p {
 .breadcrumb__right .breadcrumb__label {
   font-size: 0.9rem;
   white-space: nowrap;
+  padding: 0.5rem 0;
+  display: inline-block;
 }
 .breadcrumb__right .button {
   margin-left: 1.1rem;
-  margin-top: 0.5rem;
   white-space: nowrap;
-}
-@media screen and (min-width: 1440px) {
-  .breadcrumb__right .button {
-    margin-top: 0;
-  }
 }
 .breadcrumb__items {
   display: flex;
@@ -405,14 +396,14 @@ p + p {
 .breadcrumb__items.overflowed::before {
   position: absolute;
   content: "...";
-  bottom: 0;
+  bottom: 0.5rem;
   right: 1rem;
   z-index: 1;
 }
 .breadcrumb__items.overflowed::after {
   content: "";
   position: absolute;
-  bottom: 0;
+  bottom: 0.5rem;
   right: 1rem;
   width: 1rem;
   height: 100%;
@@ -422,21 +413,20 @@ p + p {
 .breadcrumb__item {
   padding-right: 0.5rem;
 }
+.breadcrumb__item > * {
+  display: inline-block;
+  padding: 0.5rem 0;
+}
 .breadcrumb__item + .breadcrumb__item::before {
   display: inline-block;
   width: 0;
   content: "/";
 }
 .breadcrumb__item + .breadcrumb__item > * {
-  display: inline-block;
   margin-left: 0.5rem;
 }
 .expanded .breadcrumb__items .breadcrumb__item {
-  padding: 1rem 0 0 0;
   /* lobotomized owl doesn't work here :'( */
-}
-.expanded .breadcrumb__items .breadcrumb__item:first-child {
-  padding: 0;
 }
 .expanded .breadcrumb__items .breadcrumb__item::before {
   display: none;
@@ -447,6 +437,8 @@ p + p {
 .breadcrumb__link {
   color: var(--fsa-primary_dark-green);
   text-decoration: underline;
+  display: inline-block;
+  padding: 0.5rem 0;
 }
 .breadcrumb__link:hover {
   color: var(--fsa__link-green);
@@ -467,7 +459,7 @@ p + p {
   height: 1.4rem;
   position: absolute;
   right: 0;
-  top: 0.1rem;
+  top: 0.6rem;
 }
 .breadcrumb__mobile-overlay:hover {
   color: var(--fsa__link-green);
@@ -1542,18 +1534,8 @@ p + p {
   }
 }
 .error-box__title {
-  font-family: var(--heading-font);
-  font-size: 1.939rem;
-  font-weight: var(--heading-bold);
-  line-height: 1.2;
-  letter-spacing: normal;
   color: var(--fsa-primary_black);
   margin: 2rem 0 1rem;
-}
-@media screen and (min-width: 1024px) {
-  .error-box__title {
-    font-size: 2.074rem;
-  }
 }
 .error-box__label {
   font-family: var(--body-font);
