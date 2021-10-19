@@ -388,7 +388,7 @@ p + p {
   flex-direction: row;
   white-space: nowrap;
   overflow: hidden;
-  max-width: 94%;
+  max-width: 96%;
 }
 .expanded .breadcrumb__items {
   flex-direction: column;
@@ -397,14 +397,14 @@ p + p {
   position: absolute;
   content: "...";
   bottom: 0.5rem;
-  right: 1rem;
+  right: 0.9rem;
   z-index: 1;
 }
 .breadcrumb__items.overflowed::after {
   content: "";
   position: absolute;
   bottom: 0.5rem;
-  right: 1rem;
+  right: 0.9rem;
   width: 1rem;
   height: 100%;
   background: #fff;
