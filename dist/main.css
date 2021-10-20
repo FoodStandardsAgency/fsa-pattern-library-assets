@@ -2009,6 +2009,7 @@ p + p {
   letter-spacing: normal;
   margin-left: 1rem;
   color: var(--fsa-primary_black);
+  font-weight: inherit;
 }
 .radio__description {
   font-family: var(--body-font);
@@ -2417,23 +2418,23 @@ p + p {
 /* Custom Mixins */
 .input-field {
   margin-top: 2rem;
-}
-.input-field__container {
   display: flex;
   flex-direction: column;
-  padding-left: 1rem;
-  margin-left: -1.23rem;
 }
 .input-field__label {
-  font-family: var(--body-font);
-  font-size: 1rem;
-  font-weight: var(--body-bold);
-  line-height: 1.6;
+  font-family: var(--heading-font);
+  font-size: 1.18rem;
+  font-weight: var(--heading-bold);
+  line-height: 1.4;
   letter-spacing: normal;
   margin: 0;
   padding: 0;
-  text-transform: uppercase;
   font-weight: bold;
+}
+@media screen and (min-width: 1024px) {
+  .input-field__label {
+    font-size: 1.2rem;
+  }
 }
 .input-field__required {
   font-family: var(--body-font);
@@ -2443,6 +2444,7 @@ p + p {
   letter-spacing: normal;
   font-weight: normal;
   margin-left: 1rem;
+  font-weight: inherit;
 }
 .input-field__input {
   background-color: var(--fsa_online-grey);
@@ -2470,31 +2472,23 @@ p + p {
   color: var(--fsa-primary_dark-grey);
   margin-top: 0.5rem;
 }
+.input-field--error {
+  margin-left: -1.25rem;
+  border-left: 0.25rem solid var(--fsa-secondary_mid-red);
+  margin-left: -0.75rem;
+  padding-left: 0.5rem;
+}
+@media screen and (min-width: 768px) {
+  .input-field--error {
+    margin-left: -1.25rem;
+    padding-left: 1rem;
+  }
+}
 .input-field--error .input-field__label {
   color: var(--fsa-secondary_mid-red);
 }
 .input-field--error .input-field__required {
   color: var(--fsa-primary_black);
-}
-.input-field--error .input-field__container {
-  border-left: 0.25rem solid var(--fsa-secondary_mid-red);
-  padding-left: 0.5rem;
-  margin: 1.56rem 0 0 -0.75rem;
-}
-@media screen and (min-width: 500px) {
-  .input-field--error .input-field__container {
-    padding-left: 1rem;
-  }
-}
-@media screen and (min-width: 1024px) {
-  .input-field--error .input-field__container {
-    border-left: 0.23rem solid var(--fsa-secondary_mid-red);
-  }
-}
-@media screen and (min-width: 768px) {
-  .input-field--error .input-field__container {
-    margin-left: -1.23rem;
-  }
 }
 .input-field__error-message {
   margin-top: 0.5rem;
