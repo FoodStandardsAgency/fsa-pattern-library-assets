@@ -26,6 +26,11 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/general/Breadcrumb",
           "variables" => ["content" => []]
         ], 
+        "button" => [
+          "template" => "button",
+          "path" => $assetPath . "/components/general/Button",
+          "variables" => ["content" => []]
+        ], 
         "tabs" => [
           "template" => "tabs",
           "path" => $assetPath . "/components/general/Tabs",
@@ -34,11 +39,6 @@ function deeson_twig_component_templates($assetPath = 'auto') {
         "filtersSelected" => [
           "template" => "filtersSelected",
           "path" => $assetPath . "/components/search/FiltersSelected",
-          "variables" => ["content" => []]
-        ], 
-        "button" => [
-          "template" => "button",
-          "path" => $assetPath . "/components/general/Button",
           "variables" => ["content" => []]
         ], 
         "listingItem" => [
