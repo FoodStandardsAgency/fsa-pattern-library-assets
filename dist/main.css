@@ -378,7 +378,7 @@ p + p {
 .breadcrumb__right .breadcrumb__label {
   font-size: 0.9rem;
   white-space: nowrap;
-  padding: 0.5rem 0;
+  margin: 0.5rem 0;
   display: inline-block;
 }
 .breadcrumb__right .button {
@@ -390,7 +390,7 @@ p + p {
   flex-direction: row;
   white-space: nowrap;
   overflow: hidden;
-  max-width: 96%;
+  max-width: 98%;
 }
 .expanded .breadcrumb__items {
   flex-direction: column;
@@ -417,7 +417,7 @@ p + p {
 }
 .breadcrumb__item > * {
   display: inline-block;
-  padding: 0.5rem 0;
+  margin: 0.5rem 0;
 }
 .breadcrumb__item + .breadcrumb__item::before {
   display: inline-block;
@@ -440,7 +440,7 @@ p + p {
   color: var(--fsa-primary_dark-green);
   text-decoration: underline;
   display: inline-block;
-  padding: 0.5rem 0;
+  margin: 0.5rem 0;
 }
 .breadcrumb__link:hover {
   color: var(--fsa__link-green);
