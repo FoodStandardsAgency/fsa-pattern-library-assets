@@ -81,6 +81,11 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/search/SearchBar",
           "variables" => ["content" => []]
         ], 
+        "errorBox" => [
+          "template" => "errorBox",
+          "path" => $assetPath . "/components/form/ErrorBox",
+          "variables" => ["content" => []]
+        ], 
         "titleAndText" => [
           "template" => "titleAndText",
           "path" => $assetPath . "/components/form/TitleAndText",
@@ -94,11 +99,6 @@ function deeson_twig_component_templates($assetPath = 'auto') {
         "radio" => [
           "template" => "radio",
           "path" => $assetPath . "/components/form/Radio",
-          "variables" => ["content" => []]
-        ], 
-        "errorBox" => [
-          "template" => "errorBox",
-          "path" => $assetPath . "/components/form/ErrorBox",
           "variables" => ["content" => []]
         ], 
         "inputField" => [
