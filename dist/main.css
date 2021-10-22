@@ -1486,7 +1486,7 @@ p + p {
 /* Mixin for checkbox and radio button style */
 .showing {
   color: var(--fsa-primary_black);
-  margin: 0 0 1rem 0;
+  margin: 1rem 0;
 }
 @media screen and (min-width: 768px) {
   .showing {
