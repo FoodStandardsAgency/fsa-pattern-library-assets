@@ -26,6 +26,11 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/general/Breadcrumb",
           "variables" => ["content" => []]
         ], 
+        "button" => [
+          "template" => "button",
+          "path" => $assetPath . "/components/general/Button",
+          "variables" => ["content" => []]
+        ], 
         "tabs" => [
           "template" => "tabs",
           "path" => $assetPath . "/components/general/Tabs",
@@ -41,19 +46,9 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/search/ListingItem",
           "variables" => ["content" => []]
         ], 
-        "button" => [
-          "template" => "button",
-          "path" => $assetPath . "/components/general/Button",
-          "variables" => ["content" => []]
-        ], 
         "pagination" => [
           "template" => "pagination",
           "path" => $assetPath . "/components/search/Pagination",
-          "variables" => ["content" => []]
-        ], 
-        "searchBarHeader" => [
-          "template" => "searchBarHeader",
-          "path" => $assetPath . "/components/search/SearchBarHeader",
           "variables" => ["content" => []]
         ], 
         "searchNoResults" => [
@@ -64,6 +59,11 @@ function deeson_twig_component_templates($assetPath = 'auto') {
         "showing" => [
           "template" => "showing",
           "path" => $assetPath . "/components/search/Showing",
+          "variables" => ["content" => []]
+        ], 
+        "searchBarHeader" => [
+          "template" => "searchBarHeader",
+          "path" => $assetPath . "/components/search/SearchBarHeader",
           "variables" => ["content" => []]
         ], 
         "sortBy" => [
