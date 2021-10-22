@@ -21,6 +21,11 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/layout/fullWidth",
           "variables" => ["content" => []]
         ], 
+        "breadcrumbs" => [
+          "template" => "breadcrumbs",
+          "path" => $assetPath . "/components/general/Breadcrumb",
+          "variables" => ["content" => []]
+        ], 
         "button" => [
           "template" => "button",
           "path" => $assetPath . "/components/general/Button",
@@ -44,11 +49,6 @@ function deeson_twig_component_templates($assetPath = 'auto') {
         "pagination" => [
           "template" => "pagination",
           "path" => $assetPath . "/components/search/Pagination",
-          "variables" => ["content" => []]
-        ], 
-        "breadcrumbs" => [
-          "template" => "breadcrumbs",
-          "path" => $assetPath . "/components/general/Breadcrumb",
           "variables" => ["content" => []]
         ], 
         "searchBarHeader" => [
@@ -76,14 +76,14 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/search/CollapsibleCheckbox",
           "variables" => ["content" => []]
         ], 
-        "searchBar" => [
-          "template" => "searchBar",
-          "path" => $assetPath . "/components/search/SearchBar",
-          "variables" => ["content" => []]
-        ], 
         "errorBox" => [
           "template" => "errorBox",
           "path" => $assetPath . "/components/form/ErrorBox",
+          "variables" => ["content" => []]
+        ], 
+        "searchBar" => [
+          "template" => "searchBar",
+          "path" => $assetPath . "/components/search/SearchBar",
           "variables" => ["content" => []]
         ], 
         "titleAndText" => [
