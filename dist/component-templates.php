@@ -6,6 +6,11 @@ function deeson_tpl_component_templates($assetPath = 'auto') {
 
 function deeson_twig_component_templates($assetPath = 'auto') {
   return [ 
+        "fullWidth" => [
+          "template" => "fullWidth",
+          "path" => $assetPath . "/layout/fullWidth",
+          "variables" => ["content" => []]
+        ], 
         "twoColumn" => [
           "template" => "twoColumn",
           "path" => $assetPath . "/layout/twoColumn",
@@ -14,11 +19,6 @@ function deeson_twig_component_templates($assetPath = 'auto') {
         "formLayout" => [
           "template" => "formLayout",
           "path" => $assetPath . "/layout/formLayout",
-          "variables" => ["content" => []]
-        ], 
-        "fullWidth" => [
-          "template" => "fullWidth",
-          "path" => $assetPath . "/layout/fullWidth",
           "variables" => ["content" => []]
         ], 
         "breadcrumbs" => [
@@ -31,11 +31,6 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/general/Button",
           "variables" => ["content" => []]
         ], 
-        "tabs" => [
-          "template" => "tabs",
-          "path" => $assetPath . "/components/general/Tabs",
-          "variables" => ["content" => []]
-        ], 
         "filtersSelected" => [
           "template" => "filtersSelected",
           "path" => $assetPath . "/components/search/FiltersSelected",
@@ -44,6 +39,11 @@ function deeson_twig_component_templates($assetPath = 'auto') {
         "listingItem" => [
           "template" => "listingItem",
           "path" => $assetPath . "/components/search/ListingItem",
+          "variables" => ["content" => []]
+        ], 
+        "tabs" => [
+          "template" => "tabs",
+          "path" => $assetPath . "/components/general/Tabs",
           "variables" => ["content" => []]
         ], 
         "pagination" => [
@@ -106,14 +106,14 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/form/InputField",
           "variables" => ["content" => []]
         ], 
-        "messageBox" => [
-          "template" => "messageBox",
-          "path" => $assetPath . "/components/form/MessageBox",
-          "variables" => ["content" => []]
-        ], 
         "multistepFunction" => [
           "template" => "multistepFunction",
           "path" => $assetPath . "/components/form/MultistepFunction",
+          "variables" => ["content" => []]
+        ], 
+        "messageBox" => [
+          "template" => "messageBox",
+          "path" => $assetPath . "/components/form/MessageBox",
           "variables" => ["content" => []]
         ], 
         "landingLinks" => [
