@@ -229,6 +229,17 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ 
 
 /***/ }),
 
+/***/ "./src/components/search/SortBy/react/sortBy.html.twig":
+/*!*************************************************************!*\
+  !*** ./src/components/search/SortBy/react/sortBy.html.twig ***!
+  \*************************************************************/
+/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"components/search/SortBy/react/sortBy.html.twig\");\n\n//# sourceURL=webpack://fds/./src/components/search/SortBy/react/sortBy.html.twig?");
+
+/***/ }),
+
 /***/ "./src/components/search/SortBy/sortBy.html.twig":
 /*!*******************************************************!*\
   !*** ./src/components/search/SortBy/sortBy.html.twig ***!
@@ -763,7 +774,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _sho
 /***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": function() { return /* export default binding */ __WEBPACK_DEFAULT_EXPORT__; }\n/* harmony export */ });\n/* harmony import */ var _helpers_updateParams__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../helpers/updateParams */ \"./src/helpers/updateParams.js\");\n/* harmony import */ var _sortBy_html_twig__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./sortBy.html.twig */ \"./src/components/search/SortBy/sortBy.html.twig\");\n/* harmony import */ var _sortBy_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./sortBy.scss */ \"./src/components/search/SortBy/sortBy.scss\");\n\n\n\n\n\n/* harmony default export */ function __WEBPACK_DEFAULT_EXPORT__() {\n  window.addEventListener('DOMContentLoaded', function () {\n    const el = document.querySelector('.sort');\n    if (!el) {\n      return;\n    }\n\n    const sortBy = el.querySelector('select');\n    sortBy.addEventListener('change', (e) => {\n      e.preventDefault();\n      (0,_helpers_updateParams__WEBPACK_IMPORTED_MODULE_0__.default)('sort', sortBy.value);\n    });\n  });\n}\n\n\n//# sourceURL=webpack://fds/./src/components/search/SortBy/sortBy.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": function() { return /* export default binding */ __WEBPACK_DEFAULT_EXPORT__; }\n/* harmony export */ });\n/* harmony import */ var _helpers_updateParams__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../helpers/updateParams */ \"./src/helpers/updateParams.js\");\n/* harmony import */ var _sortBy_html_twig__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./sortBy.html.twig */ \"./src/components/search/SortBy/sortBy.html.twig\");\n/* harmony import */ var _react_sortBy_html_twig__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./react/sortBy.html.twig */ \"./src/components/search/SortBy/react/sortBy.html.twig\");\n/* harmony import */ var _sortBy_scss__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./sortBy.scss */ \"./src/components/search/SortBy/sortBy.scss\");\n\n\n\n\n\n\n/* harmony default export */ function __WEBPACK_DEFAULT_EXPORT__() {\n  window.addEventListener('DOMContentLoaded', function () {\n    const el = document.querySelector('.sort');\n    if (!el) {\n      return;\n    }\n\n    const sortBy = el.querySelector('select');\n    sortBy.addEventListener('change', (e) => {\n      e.preventDefault();\n      (0,_helpers_updateParams__WEBPACK_IMPORTED_MODULE_0__.default)('sort', sortBy.value);\n    });\n  });\n}\n\n\n//# sourceURL=webpack://fds/./src/components/search/SortBy/sortBy.js?");
 
 /***/ }),
 
