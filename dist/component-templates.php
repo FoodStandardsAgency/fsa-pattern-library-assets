@@ -21,11 +21,6 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/layout/fullWidth",
           "variables" => ["content" => []]
         ], 
-        "breadcrumbs" => [
-          "template" => "breadcrumbs",
-          "path" => $assetPath . "/components/general/Breadcrumb",
-          "variables" => ["content" => []]
-        ], 
         "button" => [
           "template" => "button",
           "path" => $assetPath . "/components/general/Button",
@@ -39,6 +34,11 @@ function deeson_twig_component_templates($assetPath = 'auto') {
         "filtersSelected" => [
           "template" => "filtersSelected",
           "path" => $assetPath . "/components/search/FiltersSelected",
+          "variables" => ["content" => []]
+        ], 
+        "breadcrumbs" => [
+          "template" => "breadcrumbs",
+          "path" => $assetPath . "/components/general/Breadcrumb",
           "variables" => ["content" => []]
         ], 
         "listingItem" => [
@@ -66,24 +66,24 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/search/Showing",
           "variables" => ["content" => []]
         ], 
-        "sortBy" => [
-          "template" => "sortBy",
-          "path" => $assetPath . "/components/search/SortBy",
-          "variables" => ["content" => []]
-        ], 
         "collapsibleCheckbox" => [
           "template" => "collapsibleCheckbox",
           "path" => $assetPath . "/components/search/CollapsibleCheckbox",
           "variables" => ["content" => []]
         ], 
-        "errorBox" => [
-          "template" => "errorBox",
-          "path" => $assetPath . "/components/form/ErrorBox",
-          "variables" => ["content" => []]
-        ], 
         "searchBar" => [
           "template" => "searchBar",
           "path" => $assetPath . "/components/search/SearchBar",
+          "variables" => ["content" => []]
+        ], 
+        "sortBy" => [
+          "template" => "sortBy",
+          "path" => $assetPath . "/components/search/SortBy",
+          "variables" => ["content" => []]
+        ], 
+        "errorBox" => [
+          "template" => "errorBox",
+          "path" => $assetPath . "/components/form/ErrorBox",
           "variables" => ["content" => []]
         ], 
         "titleAndText" => [
