@@ -683,19 +683,26 @@ p + p {
 
 /* Custom Mixins */
 /* Mixin for checkbox and radio button style */
+.tabs {
+  padding: 1rem 0;
+}
+@media screen and (min-width: 768px) {
+  .tabs {
+    padding: 1rem 0 2rem;
+  }
+}
 .tabs__list {
   padding: 0;
+  margin: 0;
   display: flex;
   flex-direction: column;
   border-bottom: 1px solid var(--fsa-primary_black);
   align-items: center;
-  margin-bottom: 1rem;
 }
 @media screen and (min-width: 768px) {
   .tabs__list {
     flex-direction: row;
     justify-content: space-between;
-    margin-bottom: 2rem;
   }
 }
 .tabs__element {
