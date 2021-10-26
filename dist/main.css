@@ -307,7 +307,7 @@ p + p {
     padding-right: 1rem;
   }
 }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 768px) {
   .breadcrumb__left {
     width: 66.6666666667%;
     flex-basis: 66.6666666667%;
@@ -316,23 +316,8 @@ p + p {
     padding-right: 0.5rem;
   }
 }
-@media screen and (min-width: 1024px) and (min-width: 768px) {
+@media screen and (min-width: 768px) and (min-width: 768px) {
   .breadcrumb__left {
-    padding-left: 1rem;
-    padding-right: 1rem;
-  }
-}
-@media screen and (max-width: 768px) {
-  .full .breadcrumb__left {
-    width: 100%;
-    flex-basis: 100%;
-    max-width: 100%;
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
-  }
-}
-@media screen and (max-width: 768px) and (min-width: 768px) {
-  .full .breadcrumb__left {
     padding-left: 1rem;
     padding-right: 1rem;
   }
