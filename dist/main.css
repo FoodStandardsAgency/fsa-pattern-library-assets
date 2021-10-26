@@ -1133,6 +1133,7 @@ p + p {
   line-height: 1.6;
   letter-spacing: normal;
   color: var(--fsa-primary_dark-green);
+  margin: 0.5rem 0;
 }
 .pagination__item a:focus {
   outline: none;
@@ -1193,6 +1194,7 @@ p + p {
   text-align: center;
   border-radius: 100%;
   line-height: 2.75rem;
+  margin: 0;
 }
 .pagination__numbered li a:hover {
   color: var(--fsa-primary_white);
