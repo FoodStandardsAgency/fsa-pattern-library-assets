@@ -91,14 +91,14 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/form/TitleAndText",
           "variables" => ["content" => []]
         ], 
-        "checkbox" => [
-          "template" => "checkbox",
-          "path" => $assetPath . "/components/form/Checkbox",
-          "variables" => ["content" => []]
-        ], 
         "radio" => [
           "template" => "radio",
           "path" => $assetPath . "/components/form/Radio",
+          "variables" => ["content" => []]
+        ], 
+        "checkbox" => [
+          "template" => "checkbox",
+          "path" => $assetPath . "/components/form/Checkbox",
           "variables" => ["content" => []]
         ], 
         "inputField" => [

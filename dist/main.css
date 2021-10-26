@@ -75,8 +75,6 @@ body {
   letter-spacing: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  display: flex;
-  flex-direction: column;
   background-color: var(--fsa-primary_white);
   color: var(--fsa-primary_black);
   position: relative;
@@ -1552,8 +1550,10 @@ p + p {
 /* Mixin for checkbox and radio button style */
 .sort__label {
   margin-right: 0.5rem;
+  display: inline-block;
 }
 .sort__select {
+  display: inline-block;
   margin-right: 0;
   font-family: var(--body-font);
   font-size: 1rem;
