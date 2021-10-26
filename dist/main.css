@@ -89,19 +89,8 @@ body {
 }
 
 a {
-  color: var(--fsa-primary_dark-green);
-  text-decoration: underline;
-}
-a:hover {
-  color: var(--fsa__link-green);
-}
-a:focus {
-  color: var(--fsa-primary_black);
-  outline: none;
   text-decoration: none;
-  background-color: var(--fsa-tertiary_light-yellow);
-  border-bottom: 4px solid var(--fsa-primary_black);
-  margin-bottom: -4px;
+  color: inherit;
 }
 
 h1,
@@ -3133,6 +3122,7 @@ p + p {
   }
 }
 .form-layout__wrapper {
+  padding-bottom: 4.5rem;
   width: 100%;
   flex-basis: 100%;
   max-width: 100%;
