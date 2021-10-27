@@ -202,6 +202,22 @@ p + p {
   width: 1px;
   overflow: hidden;
 }
+
+.link {
+  color: var(--fsa-primary_dark-green);
+  text-decoration: underline;
+}
+.link:hover {
+  color: var(--fsa__link-green);
+}
+.link:focus {
+  color: var(--fsa-primary_black);
+  outline: none;
+  text-decoration: none;
+  background-color: var(--fsa-tertiary_light-yellow);
+  border-bottom: 0.25rem solid var(--fsa-primary_black);
+  margin-bottom: -0.25rem;
+}
 /*!***************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./src/components/general/Breadcrumb/breadcrumb.scss ***!
   \***************************************************************************************************************************************************************************************/
