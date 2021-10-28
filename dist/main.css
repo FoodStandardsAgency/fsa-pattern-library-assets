@@ -2080,7 +2080,7 @@ p + p {
   line-height: 1.6;
   letter-spacing: normal;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
 }
 .checkbox__input {
   background-color: var(--fsa_tint);
@@ -2233,7 +2233,7 @@ p + p {
   line-height: 1.6;
   letter-spacing: normal;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
 }
 .radio__input {
   border-radius: 50%;
