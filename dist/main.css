@@ -3540,6 +3540,7 @@ p + p {
   padding: 1rem;
   border: none;
   z-index: 2;
+  cursor: pointer;
 }
 .search-bar__submit:hover {
   background-color: #005e59;
