@@ -618,149 +618,6 @@ p + p {
   box-shadow: 0 0 0 0.2rem var(--fsa-primary_black), 0 0 0 0.4rem var(--fsa-tertiary_light-yellow);
   outline: none;
 }
-/*!***************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./src/components/general/Tabs/tabs.scss ***!
-  \***************************************************************************************************************************************************************************/
-@import url(https://fonts.googleapis.com/css?family=Fira+Sans:300,400,500,700);
-/*!*******************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./src/components/general/Tabs/tabs.scss (1) ***!
-  \*******************************************************************************************************************************************************************************/
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700);
-/*!*******************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./src/components/general/Tabs/tabs.scss (2) ***!
-  \*******************************************************************************************************************************************************************************/
-:root {
-  /* Primary Colours */
-  --fsa-primary_dark-green: #007c75;
-  --fsa-primary_mid-green: #6cb33f;
-  --fsa-primary_light-green: #a9c47f;
-  --fsa-primary_dark-grey: #53565a;
-  --fsa_online-grey: #f0f3f5;
-  --fsa_border: #dee2e5;
-  --fsa-primary_black: #000000;
-  --fsa-primary_white: #ffffff;
-  --fsa_tint: #fafcfd;
-  /* Secondary Colours */
-  --fsa-secondary_mid-red: #e31837;
-  --fsa-secondary_orange: #f15d22;
-  --fsa-secondary_mid-yellow: #fdb913;
-  --fsa-secondary_mid-purple: #49176d;
-  --fsa-secondary_light-purple: #9f218b;
-  --fsa-tertiary_dark-blue: #9f218b;
-  --fsa-secondary-error-red: #e60f31;
-  --fsa-secondary-error-hover: #b0132b;
-  /* Tertiary Colours */
-  --fsa-tertiary_dark-red: #b04a5a;
-  --fsa-tertiary_light-red: #ef3340;
-  --fsa-tertiary_light-yellow: #f1c400;
-  --fsa-tertiary_teal: #00b2a9;
-  --fsa-tertiary_light-blue: #8dc8e8;
-  --fsa-tertiary_dark-purple: #51284f;
-  --fsa-secondary_mid-blue: #007fb2;
-  --fsa-tertiary_lime: #cedc00;
-  --fsa-tertiary_mauve: #8b84d7;
-  /* Hover Colours */
-  --fsa__link-green: #014b4c;
-  --fsa__purple-hover: #2a0247;
-  /* Typography */
-  --body-font: "Open Sans", sans-serif;
-  --body-normal: 400;
-  --body-bold: 600;
-  --heading-font: "Fira Sans", sans-serif;
-  --heading-bold: 700;
-  /* Grid */
-  --container-mobile: 1rem;
-  --container: 2rem;
-  --gutter: 1rem;
-  --max-width: 1336px;
-}
-
-/* Custom Mixins */
-/* Mixin for checkbox and radio button style */
-.tabs {
-  margin: 2.75rem 0 0;
-}
-.tabs__list {
-  padding: 0;
-  margin: 0;
-  display: flex;
-  flex-direction: column;
-  border-bottom: 1px solid var(--fsa-primary_black);
-  align-items: center;
-}
-@media screen and (min-width: 768px) {
-  .tabs__list {
-    flex-direction: row;
-    justify-content: space-between;
-  }
-}
-.tabs__element {
-  position: relative;
-  font-weight: bold;
-}
-.tabs__element a {
-  color: var(--fsa-primary_dark-green);
-  text-decoration: underline;
-  text-decoration: none;
-  padding-bottom: 1rem;
-  display: block;
-}
-.tabs__element a:hover {
-  color: var(--fsa__link-green);
-}
-.tabs__element a:focus {
-  color: var(--fsa-primary_black);
-  outline: none;
-  text-decoration: none;
-  background-color: var(--fsa-tertiary_light-yellow);
-  border-bottom: 0.25rem solid var(--fsa-primary_black);
-  padding-bottom: 0.75rem;
-}
-@media screen and (min-width: 768px) {
-  .tabs__element a {
-    padding: 0.25rem 0 0.75rem;
-  }
-  .tabs__element a:hover:after {
-    content: "";
-    height: 0.25rem;
-    width: 100%;
-    display: block;
-    background-color: var(--fsa__link-green);
-    position: absolute;
-    bottom: 0rem;
-  }
-  .tabs__element a:focus {
-    padding-bottom: 0.5rem;
-  }
-}
-.tabs__element--active {
-  color: var(--fsa-primary_black);
-  padding: 0.25rem 0 1rem;
-  display: block;
-}
-@media screen and (min-width: 768px) {
-  .tabs__element--active {
-    padding: 0.25rem 0 0.75rem;
-  }
-}
-.tabs__element--active:hover {
-  color: var(--fsa-primary_black);
-  cursor: auto;
-}
-.tabs__element--active:after {
-  content: "";
-  height: 0.25rem;
-  width: 100%;
-  display: block;
-  background-color: var(--fsa-primary_black);
-}
-@media screen and (min-width: 768px) {
-  .tabs__element--active:after {
-    margin-top: 0;
-    position: absolute;
-    bottom: 0rem;
-  }
-}
 /*!************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./src/components/search/FiltersSelected/filtersSelected.scss ***!
   \************************************************************************************************************************************************************************************************/
@@ -1760,7 +1617,7 @@ p + p {
 }
 .accordion__input:checked {
   background-color: var(--fsa-primary_dark-green);
-  background-image: url(data:image/svg+xml;base64,ZXhwb3J0IGRlZmF1bHQgX193ZWJwYWNrX3B1YmxpY19wYXRoX18gKyAiY29tcG9uZW50cy9zZWFyY2gvQ29sbGFwc2libGVDaGVja2JveC90aWNrLnN2ZyI7);
+  background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg width='20' height='15' xmlns='http://www.w3.org/2000/svg'%3e%3cpath d='m1.298 6.506 5.954 5.929 11.046-11' stroke='%23FFF' stroke-width='3' fill='none' fill-rule='evenodd'/%3e%3c/svg%3e");
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -2102,7 +1959,7 @@ p + p {
 }
 .checkbox__input:checked {
   background-color: var(--fsa-primary_dark-green);
-  background-image: url(data:image/svg+xml;base64,ZXhwb3J0IGRlZmF1bHQgX193ZWJwYWNrX3B1YmxpY19wYXRoX18gKyAiY29tcG9uZW50cy9mb3JtL0NoZWNrYm94L3RpY2suc3ZnIjs=);
+  background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg width='20' height='15' xmlns='http://www.w3.org/2000/svg'%3e%3cpath d='m1.298 6.506 5.954 5.929 11.046-11' stroke='%23FFF' stroke-width='3' fill='none' fill-rule='evenodd'/%3e%3c/svg%3e");
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -2284,6 +2141,379 @@ p + p {
 }
 .radio--error .radio__legend {
   color: var(--fsa-secondary_mid-red);
+}
+/*!************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./src/components/form/InputField/inputField.scss ***!
+  \************************************************************************************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css?family=Fira+Sans:300,400,500,700);
+/*!****************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./src/components/form/InputField/inputField.scss (1) ***!
+  \****************************************************************************************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700);
+/*!****************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./src/components/form/InputField/inputField.scss (2) ***!
+  \****************************************************************************************************************************************************************************************/
+:root {
+  /* Primary Colours */
+  --fsa-primary_dark-green: #007c75;
+  --fsa-primary_mid-green: #6cb33f;
+  --fsa-primary_light-green: #a9c47f;
+  --fsa-primary_dark-grey: #53565a;
+  --fsa_online-grey: #f0f3f5;
+  --fsa_border: #dee2e5;
+  --fsa-primary_black: #000000;
+  --fsa-primary_white: #ffffff;
+  --fsa_tint: #fafcfd;
+  /* Secondary Colours */
+  --fsa-secondary_mid-red: #e31837;
+  --fsa-secondary_orange: #f15d22;
+  --fsa-secondary_mid-yellow: #fdb913;
+  --fsa-secondary_mid-purple: #49176d;
+  --fsa-secondary_light-purple: #9f218b;
+  --fsa-tertiary_dark-blue: #9f218b;
+  --fsa-secondary-error-red: #e60f31;
+  --fsa-secondary-error-hover: #b0132b;
+  /* Tertiary Colours */
+  --fsa-tertiary_dark-red: #b04a5a;
+  --fsa-tertiary_light-red: #ef3340;
+  --fsa-tertiary_light-yellow: #f1c400;
+  --fsa-tertiary_teal: #00b2a9;
+  --fsa-tertiary_light-blue: #8dc8e8;
+  --fsa-tertiary_dark-purple: #51284f;
+  --fsa-secondary_mid-blue: #007fb2;
+  --fsa-tertiary_lime: #cedc00;
+  --fsa-tertiary_mauve: #8b84d7;
+  /* Hover Colours */
+  --fsa__link-green: #014b4c;
+  --fsa__purple-hover: #2a0247;
+  /* Typography */
+  --body-font: "Open Sans", sans-serif;
+  --body-normal: 400;
+  --body-bold: 600;
+  --heading-font: "Fira Sans", sans-serif;
+  --heading-bold: 700;
+  /* Grid */
+  --container-mobile: 1rem;
+  --container: 2rem;
+  --gutter: 1rem;
+  --max-width: 1336px;
+}
+
+/* Custom Mixins */
+/* Mixin for checkbox and radio button style */
+.input-field {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+.input-field__label {
+  font-family: var(--heading-font);
+  font-size: 1.18rem;
+  font-weight: var(--heading-bold);
+  line-height: 1.4;
+  letter-spacing: normal;
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+}
+@media screen and (min-width: 1024px) {
+  .input-field__label {
+    font-size: 1.2rem;
+  }
+}
+.input-field__required {
+  font-family: var(--body-font);
+  font-weight: var(--body-normal);
+  font-size: 0.9rem;
+  line-height: 1.6;
+  letter-spacing: normal;
+  font-weight: normal;
+  margin-left: 1rem;
+  font-weight: inherit;
+}
+.input-field__input {
+  background-color: var(--fsa_online-grey);
+  border: solid 1px var(--fsa-primary_dark-grey);
+  margin-top: 0.5rem;
+  padding: 0.85rem 1rem;
+}
+@media screen and (min-width: 500px) {
+  .input-field__input {
+    padding: 0.75rem 1rem;
+  }
+}
+.input-field__input:focus {
+  border: 2px solid var(--fsa-primary_black);
+  box-shadow: inset 0 0 0 2px;
+  outline: 0.25rem solid var(--fsa-tertiary_light-yellow);
+  outline-offset: 0;
+}
+.input-field__caption {
+  font-family: var(--body-font);
+  font-weight: var(--body-normal);
+  font-size: 0.9rem;
+  line-height: 1.6;
+  letter-spacing: normal;
+  color: var(--fsa-primary_dark-grey);
+  margin-top: 0.5rem;
+}
+.input-field--error {
+  margin-left: -1.25rem;
+  border-left: 0.25rem solid var(--fsa-secondary_mid-red);
+  margin-left: -0.75rem;
+  padding-left: 0.5rem;
+}
+@media screen and (min-width: 768px) {
+  .input-field--error {
+    margin-left: -1.25rem;
+    padding-left: 1rem;
+  }
+}
+.input-field--error .input-field__label {
+  color: var(--fsa-secondary_mid-red);
+}
+.input-field--error .input-field__required {
+  color: var(--fsa-primary_black);
+}
+.input-field--error .input-field__input {
+  border: 0.25rem solid var(--fsa-secondary_mid-red);
+}
+.input-field__error-message {
+  margin-top: 0.5rem;
+}
+/*!************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./src/components/form/MessageBox/messageBox.scss ***!
+  \************************************************************************************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css?family=Fira+Sans:300,400,500,700);
+/*!****************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./src/components/form/MessageBox/messageBox.scss (1) ***!
+  \****************************************************************************************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700);
+/*!****************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./src/components/form/MessageBox/messageBox.scss (2) ***!
+  \****************************************************************************************************************************************************************************************/
+:root {
+  /* Primary Colours */
+  --fsa-primary_dark-green: #007c75;
+  --fsa-primary_mid-green: #6cb33f;
+  --fsa-primary_light-green: #a9c47f;
+  --fsa-primary_dark-grey: #53565a;
+  --fsa_online-grey: #f0f3f5;
+  --fsa_border: #dee2e5;
+  --fsa-primary_black: #000000;
+  --fsa-primary_white: #ffffff;
+  --fsa_tint: #fafcfd;
+  /* Secondary Colours */
+  --fsa-secondary_mid-red: #e31837;
+  --fsa-secondary_orange: #f15d22;
+  --fsa-secondary_mid-yellow: #fdb913;
+  --fsa-secondary_mid-purple: #49176d;
+  --fsa-secondary_light-purple: #9f218b;
+  --fsa-tertiary_dark-blue: #9f218b;
+  --fsa-secondary-error-red: #e60f31;
+  --fsa-secondary-error-hover: #b0132b;
+  /* Tertiary Colours */
+  --fsa-tertiary_dark-red: #b04a5a;
+  --fsa-tertiary_light-red: #ef3340;
+  --fsa-tertiary_light-yellow: #f1c400;
+  --fsa-tertiary_teal: #00b2a9;
+  --fsa-tertiary_light-blue: #8dc8e8;
+  --fsa-tertiary_dark-purple: #51284f;
+  --fsa-secondary_mid-blue: #007fb2;
+  --fsa-tertiary_lime: #cedc00;
+  --fsa-tertiary_mauve: #8b84d7;
+  /* Hover Colours */
+  --fsa__link-green: #014b4c;
+  --fsa__purple-hover: #2a0247;
+  /* Typography */
+  --body-font: "Open Sans", sans-serif;
+  --body-normal: 400;
+  --body-bold: 600;
+  --heading-font: "Fira Sans", sans-serif;
+  --heading-bold: 700;
+  /* Grid */
+  --container-mobile: 1rem;
+  --container: 2rem;
+  --gutter: 1rem;
+  --max-width: 1336px;
+}
+
+/* Custom Mixins */
+/* Mixin for checkbox and radio button style */
+.message-box {
+  margin-top: 2rem;
+}
+.message-box__container {
+  border-radius: 0.25rem;
+  box-shadow: 0 0.25rem 1rem 0 rgba(41, 41, 41, 0.15);
+  background-color: var(--fsa-primary_white);
+}
+.message-box__container--status {
+  border-left: 0.25rem solid var(--fsa-primary_mid-green);
+}
+.message-box__container--status p {
+  background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8'%3F%3E%3Csvg width='18px' height='14px' viewBox='0 0 18 14' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Ctitle%3Etick%3C/title%3E%3Cg id='News---pages' stroke='none' stroke-width='1' fill='none' fill-rule='evenodd'%3E%3Cg id='News-6-After-change' transform='translate(-666.000000, -895.000000)' fill='%2373B355' fill-rule='nonzero'%3E%3Cg id='tick' transform='translate(666.000000, 895.000000)'%3E%3Cpath d='M7.11819434,13.4618067 C6.88061504,13.699386 6.48995629,13.699386 6.25237698,13.4618067 L0.178184478,7.39373735 C-0.0593948259,7.15738268 -0.0593948259,6.76549929 0.178184478,6.52791999 L1.89879748,4.80485772 C2.13637678,4.56605378 2.5258109,4.56605378 2.76461484,4.80485772 L6.25360162,8.29261987 C6.49118092,8.52897454 6.88183967,8.52897454 7.11941898,8.29261987 L15.2375283,0.178184478 C15.4763322,-0.0593948259 15.866991,-0.0593948259 16.1033456,0.178184478 L17.822734,1.89757284 C18.0590887,2.13515214 18.0590887,2.5258109 17.822734,2.7633902 L7.11819434,13.4618067 L7.11819434,13.4618067 Z' id='Path'%3E%3C/path%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+.message-box__container--error {
+  border-left: 0.25rem solid var(--fsa-secondary_mid-red);
+}
+.message-box__container--error p {
+  background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8'%3F%3E%3Csvg width='18px' height='19px' viewBox='0 0 18 19' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Ctitle%3Eerror%3C/title%3E%3Cg id='News---pages' stroke='none' stroke-width='1' fill='none' fill-rule='evenodd'%3E%3Cg id='News-6-After-change' transform='translate(-1766.000000, -976.000000)' fill='%23E31837' fill-rule='nonzero'%3E%3Cg id='error' transform='translate(1766.000000, 976.424000)'%3E%3Cpath d='M9.00228567,0 C4.02930067,0 0,4.02930067 0,8.99971433 C0,13.970128 4.02930067,17.9994287 9.00228567,17.9994287 C13.9714137,17.9994287 18.002,13.970128 18.002,8.99971433 C18.002,4.02930067 13.9714137,0 9.00228567,0 Z M14.1771214,11.9361925 C14.2568332,12.01719 14.3056888,12.1277579 14.3056888,12.2434685 C14.3056888,12.3604648 14.2581188,12.4710327 14.1771214,12.5520301 L12.5546015,14.1745501 C12.4723184,14.2542618 12.3617505,14.3031174 12.2460399,14.3031174 C12.1303292,14.3031174 12.0197613,14.2568332 11.9374782,14.1745501 L9.00228567,11.2393575 L6.06323611,14.1745501 C5.98095301,14.2542618 5.87038509,14.3031174 5.75467448,14.3031174 C5.63896386,14.3031174 5.52839594,14.2568332 5.44611284,14.1745501 L3.82487859,12.5520301 C3.74388116,12.4723184 3.69631124,12.3617505 3.69631124,12.2434685 C3.69631124,12.1303292 3.74259549,12.01719 3.82487859,11.9374782 L6.76007113,8.99971433 L3.82487859,6.06323611 C3.74388116,5.98095301 3.69631124,5.87038509 3.69631124,5.75467448 C3.69631124,5.63896386 3.74259549,5.52839594 3.82487859,5.44611284 L5.44739851,3.82359292 C5.52839594,3.74259549 5.63896386,3.69502557 5.75596015,3.69502557 C5.87038509,3.69502557 5.98223868,3.74130981 6.06452178,3.82359292 L9.00228567,6.76007113 L11.9374782,3.82359292 C12.0197613,3.74259549 12.1303292,3.69502557 12.2460399,3.69502557 C12.3617505,3.69502557 12.4723184,3.74130981 12.5546015,3.82359292 L14.1771214,5.44611284 C14.2568332,5.52711027 14.3056888,5.63767819 14.3056888,5.75467448 C14.3056888,5.86909941 14.2581188,5.98095301 14.1771214,6.06323611 L11.2419289,8.99971433 L14.1771214,11.9361925 L14.1771214,11.9361925 Z' id='Shape'%3E%3C/path%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+.message-box__container--warning {
+  border-left: 0.25rem solid var(--fsa-secondary_mid-yellow);
+}
+.message-box__container--warning p {
+  background-image: url("data:image/svg+xml,%3Csvg width='19px' height='19px' viewBox='0 0 19 19' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Ctitle%3Ewarning%3C/title%3E%3Cg id='News---pages' stroke='none' stroke-width='1' fill='none' fill-rule='evenodd'%3E%3Cg id='News-6-After-change' transform='translate(-1752.000000, -914.000000)' fill='%23FDB913' fill-rule='nonzero'%3E%3Cg id='warning' transform='translate(1752.057104, 914.000000)'%3E%3Cpath d='M17.6307455,15.2162416 L10.7406655,1.4347853 C9.78414192,-0.478261766 8.21845028,-0.478261766 7.26063065,1.4347853 L0.369254473,15.2162416 C-0.587269059,17.1305847 0.379623292,18.6949802 2.51819216,18.6949802 L15.4818078,18.6949802 C17.6203767,18.6949802 18.5872691,17.1305847 17.6307455,15.2162416 Z M7.70260155,4.43785444 L10.2973984,4.43785444 L10.2973984,10.9183662 L7.70260155,10.9183662 L7.70260155,4.43785444 L7.70260155,4.43785444 Z M10.621424,15.6037762 C10.621424,16.0496354 10.2572193,16.4138401 9.81136007,16.4138401 L8.19123214,16.4138401 C7.74407683,16.4138401 7.37987207,16.0496354 7.37987207,15.6037762 L7.37987207,13.9979053 C7.37987207,13.5520461 7.74407683,13.1878414 8.19123214,13.1878414 L9.81136007,13.1878414 C10.2572193,13.1878414 10.621424,13.5520461 10.621424,13.9979053 L10.621424,15.6037762 Z' id='Shape'%3E%3C/path%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+.message-box__text {
+  padding: 1rem 1rem 1rem 3rem;
+  background-repeat: no-repeat;
+  background-size: 1rem;
+  background-position: left 1rem top 1.25rem;
+}
+/*!************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./src/components/form/Tabs/tabs.scss ***!
+  \************************************************************************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css?family=Fira+Sans:300,400,500,700);
+/*!****************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./src/components/form/Tabs/tabs.scss (1) ***!
+  \****************************************************************************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700);
+/*!****************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./src/components/form/Tabs/tabs.scss (2) ***!
+  \****************************************************************************************************************************************************************************/
+:root {
+  /* Primary Colours */
+  --fsa-primary_dark-green: #007c75;
+  --fsa-primary_mid-green: #6cb33f;
+  --fsa-primary_light-green: #a9c47f;
+  --fsa-primary_dark-grey: #53565a;
+  --fsa_online-grey: #f0f3f5;
+  --fsa_border: #dee2e5;
+  --fsa-primary_black: #000000;
+  --fsa-primary_white: #ffffff;
+  --fsa_tint: #fafcfd;
+  /* Secondary Colours */
+  --fsa-secondary_mid-red: #e31837;
+  --fsa-secondary_orange: #f15d22;
+  --fsa-secondary_mid-yellow: #fdb913;
+  --fsa-secondary_mid-purple: #49176d;
+  --fsa-secondary_light-purple: #9f218b;
+  --fsa-tertiary_dark-blue: #9f218b;
+  --fsa-secondary-error-red: #e60f31;
+  --fsa-secondary-error-hover: #b0132b;
+  /* Tertiary Colours */
+  --fsa-tertiary_dark-red: #b04a5a;
+  --fsa-tertiary_light-red: #ef3340;
+  --fsa-tertiary_light-yellow: #f1c400;
+  --fsa-tertiary_teal: #00b2a9;
+  --fsa-tertiary_light-blue: #8dc8e8;
+  --fsa-tertiary_dark-purple: #51284f;
+  --fsa-secondary_mid-blue: #007fb2;
+  --fsa-tertiary_lime: #cedc00;
+  --fsa-tertiary_mauve: #8b84d7;
+  /* Hover Colours */
+  --fsa__link-green: #014b4c;
+  --fsa__purple-hover: #2a0247;
+  /* Typography */
+  --body-font: "Open Sans", sans-serif;
+  --body-normal: 400;
+  --body-bold: 600;
+  --heading-font: "Fira Sans", sans-serif;
+  --heading-bold: 700;
+  /* Grid */
+  --container-mobile: 1rem;
+  --container: 2rem;
+  --gutter: 1rem;
+  --max-width: 1336px;
+}
+
+/* Custom Mixins */
+/* Mixin for checkbox and radio button style */
+.tabs {
+  margin: 2.75rem 0 0;
+}
+.tabs__list {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid var(--fsa-primary_black);
+  align-items: center;
+}
+@media screen and (min-width: 768px) {
+  .tabs__list {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+.tabs__element {
+  position: relative;
+  font-weight: bold;
+}
+.tabs__element a {
+  color: var(--fsa-primary_dark-green);
+  text-decoration: underline;
+  text-decoration: none;
+  padding-bottom: 1rem;
+  display: block;
+}
+.tabs__element a:hover {
+  color: var(--fsa__link-green);
+}
+.tabs__element a:focus {
+  color: var(--fsa-primary_black);
+  outline: none;
+  text-decoration: none;
+  background-color: var(--fsa-tertiary_light-yellow);
+  border-bottom: 0.25rem solid var(--fsa-primary_black);
+  padding-bottom: 0.75rem;
+}
+@media screen and (min-width: 768px) {
+  .tabs__element a {
+    padding: 0.25rem 0 0.75rem;
+  }
+  .tabs__element a:hover:after {
+    content: "";
+    height: 0.25rem;
+    width: 100%;
+    display: block;
+    background-color: var(--fsa__link-green);
+    position: absolute;
+    bottom: 0rem;
+  }
+  .tabs__element a:focus {
+    padding-bottom: 0.5rem;
+  }
+}
+.tabs__element--active {
+  color: var(--fsa-primary_black);
+  padding: 0.25rem 0 1rem;
+  display: block;
+}
+@media screen and (min-width: 768px) {
+  .tabs__element--active {
+    padding: 0.25rem 0 0.75rem;
+  }
+}
+.tabs__element--active:hover {
+  color: var(--fsa-primary_black);
+  cursor: auto;
+}
+.tabs__element--active:after {
+  content: "";
+  height: 0.25rem;
+  width: 100%;
+  display: block;
+  background-color: var(--fsa-primary_black);
+}
+@media screen and (min-width: 768px) {
+  .tabs__element--active:after {
+    margin-top: 0;
+    position: absolute;
+    bottom: 0rem;
+  }
 }
 /*!*******************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./src/components/landing/LandingLinks/landingLinks.scss ***!
@@ -2567,17 +2797,17 @@ p + p {
   border-bottom: 0.25rem solid var(--fsa-primary_black);
   margin-bottom: -0.25rem;
 }
-/*!************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./src/components/form/InputField/inputField.scss ***!
-  \************************************************************************************************************************************************************************************/
+/*!*************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./src/components/landing/LargePromoGroup/largePromoGroup.scss ***!
+  \*************************************************************************************************************************************************************************************************/
 @import url(https://fonts.googleapis.com/css?family=Fira+Sans:300,400,500,700);
-/*!****************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./src/components/form/InputField/inputField.scss (1) ***!
-  \****************************************************************************************************************************************************************************************/
+/*!*****************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./src/components/landing/LargePromoGroup/largePromoGroup.scss (1) ***!
+  \*****************************************************************************************************************************************************************************************************/
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700);
-/*!****************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./src/components/form/InputField/inputField.scss (2) ***!
-  \****************************************************************************************************************************************************************************************/
+/*!*****************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./src/components/landing/LargePromoGroup/largePromoGroup.scss (2) ***!
+  \*****************************************************************************************************************************************************************************************************/
 :root {
   /* Primary Colours */
   --fsa-primary_dark-green: #007c75;
@@ -2626,176 +2856,109 @@ p + p {
 
 /* Custom Mixins */
 /* Mixin for checkbox and radio button style */
-.input-field {
-  margin-top: 2rem;
+.largePromoGroup {
+  margin: 3rem -1rem 0;
+}
+@media screen and (min-width: 768px) {
+  .largePromoGroup {
+    margin: 3rem -2rem 0;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .largePromoGroup {
+    margin: 4rem 0 0;
+  }
+}
+.largePromoGroup__row {
   display: flex;
   flex-direction: column;
 }
-.input-field__label {
-  font-family: var(--heading-font);
-  font-size: 1.18rem;
-  font-weight: var(--heading-bold);
-  line-height: 1.4;
-  letter-spacing: normal;
-  margin: 0;
-  padding: 0;
-  font-weight: bold;
+.largePromoGroup__row--even {
+  background-color: var(--fsa__purple-hover);
+  color: var(--fsa-primary_white);
 }
-@media screen and (min-width: 1024px) {
-  .input-field__label {
-    font-size: 1.2rem;
+@media screen and (min-width: 1440px) {
+  .largePromoGroup__row--even {
+    flex-direction: row;
   }
 }
-.input-field__required {
-  font-family: var(--body-font);
-  font-weight: var(--body-normal);
-  font-size: 0.9rem;
-  line-height: 1.6;
-  letter-spacing: normal;
-  font-weight: normal;
-  margin-left: 1rem;
-  font-weight: inherit;
-}
-.input-field__input {
+.largePromoGroup__row--odd {
   background-color: var(--fsa_online-grey);
-  border: solid 1px var(--fsa-primary_dark-grey);
-  margin-top: 0.5rem;
-  padding: 0.85rem 1rem;
 }
-@media screen and (min-width: 500px) {
-  .input-field__input {
-    padding: 0.75rem 1rem;
+@media screen and (min-width: 1440px) {
+  .largePromoGroup__row--odd {
+    flex-direction: row-reverse;
   }
 }
-.input-field__input:focus {
-  border: 2px solid var(--fsa-primary_black);
-  box-shadow: inset 0 0 0 2px;
-  outline: 0.25rem solid var(--fsa-tertiary_light-yellow);
-  outline-offset: 0;
-}
-.input-field__caption {
-  font-family: var(--body-font);
-  font-weight: var(--body-normal);
-  font-size: 0.9rem;
-  line-height: 1.6;
-  letter-spacing: normal;
-  color: var(--fsa-primary_dark-grey);
-  margin-top: 0.5rem;
-}
-.input-field--error {
-  margin-left: -1.25rem;
-  border-left: 0.25rem solid var(--fsa-secondary_mid-red);
-  margin-left: -0.75rem;
+.largePromoGroup__content, .largePromoGroup__background-image {
+  width: 100%;
+  flex-basis: 100%;
+  max-width: 100%;
   padding-left: 0.5rem;
+  padding-right: 0.5rem;
 }
 @media screen and (min-width: 768px) {
-  .input-field--error {
-    margin-left: -1.25rem;
+  .largePromoGroup__content, .largePromoGroup__background-image {
     padding-left: 1rem;
+    padding-right: 1rem;
   }
 }
-.input-field--error .input-field__label {
-  color: var(--fsa-secondary_mid-red);
+@media screen and (min-width: 1440px) {
+  .largePromoGroup__content, .largePromoGroup__background-image {
+    width: 50%;
+    flex-basis: 50%;
+    max-width: 50%;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
 }
-.input-field--error .input-field__required {
-  color: var(--fsa-primary_black);
+@media screen and (min-width: 1440px) and (min-width: 768px) {
+  .largePromoGroup__content, .largePromoGroup__background-image {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
 }
-.input-field--error .input-field__input {
-  border: 0.25rem solid var(--fsa-secondary_mid-red);
+.largePromoGroup__content {
+  padding: 2rem;
 }
-.input-field__error-message {
-  margin-top: 0.5rem;
+@media screen and (min-width: 1440px) {
+  .largePromoGroup__content {
+    padding: 3rem;
+  }
 }
-/*!************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./src/components/form/MessageBox/messageBox.scss ***!
-  \************************************************************************************************************************************************************************************/
-@import url(https://fonts.googleapis.com/css?family=Fira+Sans:300,400,500,700);
-/*!****************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./src/components/form/MessageBox/messageBox.scss (1) ***!
-  \****************************************************************************************************************************************************************************************/
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700);
-/*!****************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./src/components/form/MessageBox/messageBox.scss (2) ***!
-  \****************************************************************************************************************************************************************************************/
-:root {
-  /* Primary Colours */
-  --fsa-primary_dark-green: #007c75;
-  --fsa-primary_mid-green: #6cb33f;
-  --fsa-primary_light-green: #a9c47f;
-  --fsa-primary_dark-grey: #53565a;
-  --fsa_online-grey: #f0f3f5;
-  --fsa_border: #dee2e5;
-  --fsa-primary_black: #000000;
-  --fsa-primary_white: #ffffff;
-  --fsa_tint: #fafcfd;
-  /* Secondary Colours */
-  --fsa-secondary_mid-red: #e31837;
-  --fsa-secondary_orange: #f15d22;
-  --fsa-secondary_mid-yellow: #fdb913;
-  --fsa-secondary_mid-purple: #49176d;
-  --fsa-secondary_light-purple: #9f218b;
-  --fsa-tertiary_dark-blue: #9f218b;
-  --fsa-secondary-error-red: #e60f31;
-  --fsa-secondary-error-hover: #b0132b;
-  /* Tertiary Colours */
-  --fsa-tertiary_dark-red: #b04a5a;
-  --fsa-tertiary_light-red: #ef3340;
-  --fsa-tertiary_light-yellow: #f1c400;
-  --fsa-tertiary_teal: #00b2a9;
-  --fsa-tertiary_light-blue: #8dc8e8;
-  --fsa-tertiary_dark-purple: #51284f;
-  --fsa-secondary_mid-blue: #007fb2;
-  --fsa-tertiary_lime: #cedc00;
-  --fsa-tertiary_mauve: #8b84d7;
-  /* Hover Colours */
-  --fsa__link-green: #014b4c;
-  --fsa__purple-hover: #2a0247;
-  /* Typography */
-  --body-font: "Open Sans", sans-serif;
-  --body-normal: 400;
-  --body-bold: 600;
-  --heading-font: "Fira Sans", sans-serif;
-  --heading-bold: 700;
-  /* Grid */
-  --container-mobile: 1rem;
-  --container: 2rem;
-  --gutter: 1rem;
-  --max-width: 1336px;
-}
-
-/* Custom Mixins */
-/* Mixin for checkbox and radio button style */
-.message-box {
-  margin-top: 2rem;
-}
-.message-box__container {
-  border-radius: 0.25rem;
-  box-shadow: 0 0.25rem 1rem 0 rgba(41, 41, 41, 0.15);
-  background-color: var(--fsa-primary_white);
-}
-.message-box__container--status {
-  border-left: 0.25rem solid var(--fsa-primary_mid-green);
-}
-.message-box__container--status p {
-  background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8'%3F%3E%3Csvg width='18px' height='14px' viewBox='0 0 18 14' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Ctitle%3Etick%3C/title%3E%3Cg id='News---pages' stroke='none' stroke-width='1' fill='none' fill-rule='evenodd'%3E%3Cg id='News-6-After-change' transform='translate(-666.000000, -895.000000)' fill='%2373B355' fill-rule='nonzero'%3E%3Cg id='tick' transform='translate(666.000000, 895.000000)'%3E%3Cpath d='M7.11819434,13.4618067 C6.88061504,13.699386 6.48995629,13.699386 6.25237698,13.4618067 L0.178184478,7.39373735 C-0.0593948259,7.15738268 -0.0593948259,6.76549929 0.178184478,6.52791999 L1.89879748,4.80485772 C2.13637678,4.56605378 2.5258109,4.56605378 2.76461484,4.80485772 L6.25360162,8.29261987 C6.49118092,8.52897454 6.88183967,8.52897454 7.11941898,8.29261987 L15.2375283,0.178184478 C15.4763322,-0.0593948259 15.866991,-0.0593948259 16.1033456,0.178184478 L17.822734,1.89757284 C18.0590887,2.13515214 18.0590887,2.5258109 17.822734,2.7633902 L7.11819434,13.4618067 L7.11819434,13.4618067 Z' id='Path'%3E%3C/path%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
-}
-.message-box__container--error {
-  border-left: 0.25rem solid var(--fsa-secondary_mid-red);
-}
-.message-box__container--error p {
-  background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8'%3F%3E%3Csvg width='18px' height='19px' viewBox='0 0 18 19' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Ctitle%3Eerror%3C/title%3E%3Cg id='News---pages' stroke='none' stroke-width='1' fill='none' fill-rule='evenodd'%3E%3Cg id='News-6-After-change' transform='translate(-1766.000000, -976.000000)' fill='%23E31837' fill-rule='nonzero'%3E%3Cg id='error' transform='translate(1766.000000, 976.424000)'%3E%3Cpath d='M9.00228567,0 C4.02930067,0 0,4.02930067 0,8.99971433 C0,13.970128 4.02930067,17.9994287 9.00228567,17.9994287 C13.9714137,17.9994287 18.002,13.970128 18.002,8.99971433 C18.002,4.02930067 13.9714137,0 9.00228567,0 Z M14.1771214,11.9361925 C14.2568332,12.01719 14.3056888,12.1277579 14.3056888,12.2434685 C14.3056888,12.3604648 14.2581188,12.4710327 14.1771214,12.5520301 L12.5546015,14.1745501 C12.4723184,14.2542618 12.3617505,14.3031174 12.2460399,14.3031174 C12.1303292,14.3031174 12.0197613,14.2568332 11.9374782,14.1745501 L9.00228567,11.2393575 L6.06323611,14.1745501 C5.98095301,14.2542618 5.87038509,14.3031174 5.75467448,14.3031174 C5.63896386,14.3031174 5.52839594,14.2568332 5.44611284,14.1745501 L3.82487859,12.5520301 C3.74388116,12.4723184 3.69631124,12.3617505 3.69631124,12.2434685 C3.69631124,12.1303292 3.74259549,12.01719 3.82487859,11.9374782 L6.76007113,8.99971433 L3.82487859,6.06323611 C3.74388116,5.98095301 3.69631124,5.87038509 3.69631124,5.75467448 C3.69631124,5.63896386 3.74259549,5.52839594 3.82487859,5.44611284 L5.44739851,3.82359292 C5.52839594,3.74259549 5.63896386,3.69502557 5.75596015,3.69502557 C5.87038509,3.69502557 5.98223868,3.74130981 6.06452178,3.82359292 L9.00228567,6.76007113 L11.9374782,3.82359292 C12.0197613,3.74259549 12.1303292,3.69502557 12.2460399,3.69502557 C12.3617505,3.69502557 12.4723184,3.74130981 12.5546015,3.82359292 L14.1771214,5.44611284 C14.2568332,5.52711027 14.3056888,5.63767819 14.3056888,5.75467448 C14.3056888,5.86909941 14.2581188,5.98095301 14.1771214,6.06323611 L11.2419289,8.99971433 L14.1771214,11.9361925 L14.1771214,11.9361925 Z' id='Shape'%3E%3C/path%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
-}
-.message-box__container--warning {
-  border-left: 0.25rem solid var(--fsa-secondary_mid-yellow);
-}
-.message-box__container--warning p {
-  background-image: url("data:image/svg+xml,%3Csvg width='19px' height='19px' viewBox='0 0 19 19' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Ctitle%3Ewarning%3C/title%3E%3Cg id='News---pages' stroke='none' stroke-width='1' fill='none' fill-rule='evenodd'%3E%3Cg id='News-6-After-change' transform='translate(-1752.000000, -914.000000)' fill='%23FDB913' fill-rule='nonzero'%3E%3Cg id='warning' transform='translate(1752.057104, 914.000000)'%3E%3Cpath d='M17.6307455,15.2162416 L10.7406655,1.4347853 C9.78414192,-0.478261766 8.21845028,-0.478261766 7.26063065,1.4347853 L0.369254473,15.2162416 C-0.587269059,17.1305847 0.379623292,18.6949802 2.51819216,18.6949802 L15.4818078,18.6949802 C17.6203767,18.6949802 18.5872691,17.1305847 17.6307455,15.2162416 Z M7.70260155,4.43785444 L10.2973984,4.43785444 L10.2973984,10.9183662 L7.70260155,10.9183662 L7.70260155,4.43785444 L7.70260155,4.43785444 Z M10.621424,15.6037762 C10.621424,16.0496354 10.2572193,16.4138401 9.81136007,16.4138401 L8.19123214,16.4138401 C7.74407683,16.4138401 7.37987207,16.0496354 7.37987207,15.6037762 L7.37987207,13.9979053 C7.37987207,13.5520461 7.74407683,13.1878414 8.19123214,13.1878414 L9.81136007,13.1878414 C10.2572193,13.1878414 10.621424,13.5520461 10.621424,13.9979053 L10.621424,15.6037762 Z' id='Shape'%3E%3C/path%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
-}
-.message-box__text {
-  padding: 1rem 1rem 1rem 3rem;
+.largePromoGroup__background-image {
   background-repeat: no-repeat;
-  background-size: 1rem;
-  background-position: left 1rem top 1.25rem;
+  background-size: cover;
+  background-position: center center;
+  flex: 0 0 50%;
+  height: 50vh;
+  min-height: 15rem;
+}
+@media screen and (min-width: 500px) {
+  .largePromoGroup__background-image {
+    min-height: 20rem;
+  }
+}
+@media screen and (min-width: 768px) {
+  .largePromoGroup__background-image {
+    min-height: 30.75rem;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .largePromoGroup__background-image {
+    min-height: 35.5rem;
+  }
+}
+.largePromoGroup__title {
+  margin: 0;
+}
+.largePromoGroup__description, .largePromoGroup__cta {
+  margin-top: 1rem;
+}
+@media screen and (min-width: 1440px) {
+  .largePromoGroup__description, .largePromoGroup__cta {
+    margin-top: 2rem;
+  }
 }
 /*!*************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./src/layout/twoColumn/twoColumn.scss ***!
