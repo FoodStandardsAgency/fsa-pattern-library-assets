@@ -121,14 +121,19 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/landing/LandingLinks",
           "variables" => ["content" => []]
         ], 
-        "searchBarHeader" => [
-          "template" => "searchBarHeader",
-          "path" => $assetPath . "/components/search/SearchBarHeader/react",
+        "serviceLinks" => [
+          "template" => "serviceLinks",
+          "path" => $assetPath . "/components/landing/ServiceLinks",
           "variables" => ["content" => []]
         ], 
         "largePromoGroup" => [
           "template" => "largePromoGroup",
           "path" => $assetPath . "/components/landing/LargePromoGroup",
+          "variables" => ["content" => []]
+        ], 
+        "searchBarHeader" => [
+          "template" => "searchBarHeader",
+          "path" => $assetPath . "/components/search/SearchBarHeader/react",
           "variables" => ["content" => []]
         ], 
         "sortBy" => [

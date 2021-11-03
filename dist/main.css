@@ -1,13 +1,213 @@
 /*!***************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./src/base.scss ***!
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/base.scss ***!
   \***************************************************************************************************************************************************/
 @import url(https://fonts.googleapis.com/css?family=Fira+Sans:300,400,500,700);
 /*!*******************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./src/base.scss (1) ***!
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/base.scss (1) ***!
   \*******************************************************************************************************************************************************/
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700);
+/*!***************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/components/general/Breadcrumb/breadcrumb.scss ***!
+  \***************************************************************************************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css?family=Fira+Sans:300,400,500,700);
+/*!*******************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/components/general/Breadcrumb/breadcrumb.scss (1) ***!
+  \*******************************************************************************************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700);
+/*!*******************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/components/general/Button/button.scss ***!
+  \*******************************************************************************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css?family=Fira+Sans:300,400,500,700);
+/*!***********************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/components/general/Button/button.scss (1) ***!
+  \***********************************************************************************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700);
+/*!************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/components/search/FiltersSelected/filtersSelected.scss ***!
+  \************************************************************************************************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css?family=Fira+Sans:300,400,500,700);
+/*!****************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/components/search/FiltersSelected/filtersSelected.scss (1) ***!
+  \****************************************************************************************************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700);
+/*!****************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/components/search/ListingItem/listingItem.scss ***!
+  \****************************************************************************************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css?family=Fira+Sans:300,400,500,700);
+/*!********************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/components/search/ListingItem/listingItem.scss (1) ***!
+  \********************************************************************************************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700);
+/*!**************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/components/search/Pagination/pagination.scss ***!
+  \**************************************************************************************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css?family=Fira+Sans:300,400,500,700);
+/*!******************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/components/search/Pagination/pagination.scss (1) ***!
+  \******************************************************************************************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700);
+/*!************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/components/search/SearchBarHeader/searchBarHeader.scss ***!
+  \************************************************************************************************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css?family=Fira+Sans:300,400,500,700);
+/*!****************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/components/search/SearchBarHeader/searchBarHeader.scss (1) ***!
+  \****************************************************************************************************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700);
+/*!************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/components/search/SearchNoResults/searchNoResults.scss ***!
+  \************************************************************************************************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css?family=Fira+Sans:300,400,500,700);
+/*!****************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/components/search/SearchNoResults/searchNoResults.scss (1) ***!
+  \****************************************************************************************************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700);
+/*!********************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/components/search/Showing/showing.scss ***!
+  \********************************************************************************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css?family=Fira+Sans:300,400,500,700);
+/*!************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/components/search/Showing/showing.scss (1) ***!
+  \************************************************************************************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700);
+/*!******************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/components/search/SortBy/sortBy.scss ***!
+  \******************************************************************************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css?family=Fira+Sans:300,400,500,700);
+/*!**********************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/components/search/SortBy/sortBy.scss (1) ***!
+  \**********************************************************************************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700);
+/*!********************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/components/search/CollapsibleCheckbox/collapsibleCheckbox.scss ***!
+  \********************************************************************************************************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css?family=Fira+Sans:300,400,500,700);
+/*!************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/components/search/CollapsibleCheckbox/collapsibleCheckbox.scss (1) ***!
+  \************************************************************************************************************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700);
+/*!********************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/components/form/ErrorBox/errorBox.scss ***!
+  \********************************************************************************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css?family=Fira+Sans:300,400,500,700);
+/*!************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/components/form/ErrorBox/errorBox.scss (1) ***!
+  \************************************************************************************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700);
+/*!****************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/components/form/TitleAndText/titleAndText.scss ***!
+  \****************************************************************************************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css?family=Fira+Sans:300,400,500,700);
+/*!********************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/components/form/TitleAndText/titleAndText.scss (1) ***!
+  \********************************************************************************************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700);
+/*!********************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/components/form/Checkbox/checkbox.scss ***!
+  \********************************************************************************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css?family=Fira+Sans:300,400,500,700);
+/*!************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/components/form/Checkbox/checkbox.scss (1) ***!
+  \************************************************************************************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700);
+/*!**************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/components/form/Radio/radio.scss ***!
+  \**************************************************************************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css?family=Fira+Sans:300,400,500,700);
+/*!******************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/components/form/Radio/radio.scss (1) ***!
+  \******************************************************************************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700);
+/*!*******************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/components/landing/LandingLinks/landingLinks.scss ***!
+  \*******************************************************************************************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css?family=Fira+Sans:300,400,500,700);
+/*!***********************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/components/landing/LandingLinks/landingLinks.scss (1) ***!
+  \***********************************************************************************************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700);
+/*!*******************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/components/landing/ServiceLinks/serviceLinks.scss ***!
+  \*******************************************************************************************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css?family=Fira+Sans:300,400,500,700);
+/*!***********************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/components/landing/ServiceLinks/serviceLinks.scss (1) ***!
+  \***********************************************************************************************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700);
+/*!************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/components/form/InputField/inputField.scss ***!
+  \************************************************************************************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css?family=Fira+Sans:300,400,500,700);
+/*!****************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/components/form/InputField/inputField.scss (1) ***!
+  \****************************************************************************************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700);
+/*!************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/components/form/MessageBox/messageBox.scss ***!
+  \************************************************************************************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css?family=Fira+Sans:300,400,500,700);
+/*!****************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/components/form/MessageBox/messageBox.scss (1) ***!
+  \****************************************************************************************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700);
+/*!************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/components/form/Tabs/tabs.scss ***!
+  \************************************************************************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css?family=Fira+Sans:300,400,500,700);
+/*!****************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/components/form/Tabs/tabs.scss (1) ***!
+  \****************************************************************************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700);
+/*!*************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/components/landing/LargePromoGroup/largePromoGroup.scss ***!
+  \*************************************************************************************************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css?family=Fira+Sans:300,400,500,700);
+/*!*****************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/components/landing/LargePromoGroup/largePromoGroup.scss (1) ***!
+  \*****************************************************************************************************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700);
+/*!*************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/layout/twoColumn/twoColumn.scss ***!
+  \*************************************************************************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css?family=Fira+Sans:300,400,500,700);
+/*!*****************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/layout/twoColumn/twoColumn.scss (1) ***!
+  \*****************************************************************************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700);
+/*!***************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/layout/formLayout/formLayout.scss ***!
+  \***************************************************************************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css?family=Fira+Sans:300,400,500,700);
+/*!*******************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/layout/formLayout/formLayout.scss (1) ***!
+  \*******************************************************************************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700);
+/*!*************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/layout/fullWidth/fullWidth.scss ***!
+  \*************************************************************************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css?family=Fira+Sans:300,400,500,700);
+/*!*****************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/layout/fullWidth/fullWidth.scss (1) ***!
+  \*****************************************************************************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700);
+/*!**************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/components/form/MultistepFunction/multistepFunction.scss ***!
+  \**************************************************************************************************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css?family=Fira+Sans:300,400,500,700);
+/*!******************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/components/form/MultistepFunction/multistepFunction.scss (1) ***!
+  \******************************************************************************************************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700);
+/*!************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/components/search/SearchBar/searchBar.scss ***!
+  \************************************************************************************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css?family=Fira+Sans:300,400,500,700);
+/*!****************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/components/search/SearchBar/searchBar.scss (1) ***!
+  \****************************************************************************************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700);
 /*!*******************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./src/base.scss (2) ***!
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/base.scss (2) ***!
   \*******************************************************************************************************************************************************/
 :root {
   /* Primary Colours */
@@ -218,16 +418,8 @@ p + p {
   border-bottom: 0.25rem solid var(--fsa-primary_black);
   margin-bottom: -0.25rem;
 }
-/*!***************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./src/components/general/Breadcrumb/breadcrumb.scss ***!
-  \***************************************************************************************************************************************************************************************/
-@import url(https://fonts.googleapis.com/css?family=Fira+Sans:300,400,500,700);
 /*!*******************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./src/components/general/Breadcrumb/breadcrumb.scss (1) ***!
-  \*******************************************************************************************************************************************************************************************/
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700);
-/*!*******************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./src/components/general/Breadcrumb/breadcrumb.scss (2) ***!
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/components/general/Breadcrumb/breadcrumb.scss (2) ***!
   \*******************************************************************************************************************************************************************************************/
 :root {
   /* Primary Colours */
@@ -489,16 +681,8 @@ p + p {
   margin-top: 0.35rem;
   transform: rotate(180deg);
 }
-/*!*******************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./src/components/general/Button/button.scss ***!
-  \*******************************************************************************************************************************************************************************/
-@import url(https://fonts.googleapis.com/css?family=Fira+Sans:300,400,500,700);
 /*!***********************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./src/components/general/Button/button.scss (1) ***!
-  \***********************************************************************************************************************************************************************************/
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700);
-/*!***********************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./src/components/general/Button/button.scss (2) ***!
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/components/general/Button/button.scss (2) ***!
   \***********************************************************************************************************************************************************************************/
 :root {
   /* Primary Colours */
@@ -618,16 +802,8 @@ p + p {
   box-shadow: 0 0 0 0.2rem var(--fsa-primary_black), 0 0 0 0.4rem var(--fsa-tertiary_light-yellow);
   outline: none;
 }
-/*!************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./src/components/search/FiltersSelected/filtersSelected.scss ***!
-  \************************************************************************************************************************************************************************************************/
-@import url(https://fonts.googleapis.com/css?family=Fira+Sans:300,400,500,700);
 /*!****************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./src/components/search/FiltersSelected/filtersSelected.scss (1) ***!
-  \****************************************************************************************************************************************************************************************************/
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700);
-/*!****************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./src/components/search/FiltersSelected/filtersSelected.scss (2) ***!
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/components/search/FiltersSelected/filtersSelected.scss (2) ***!
   \****************************************************************************************************************************************************************************************************/
 :root {
   /* Primary Colours */
@@ -759,16 +935,8 @@ p + p {
     margin-left: 1rem;
   }
 }
-/*!****************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./src/components/search/ListingItem/listingItem.scss ***!
-  \****************************************************************************************************************************************************************************************/
-@import url(https://fonts.googleapis.com/css?family=Fira+Sans:300,400,500,700);
 /*!********************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./src/components/search/ListingItem/listingItem.scss (1) ***!
-  \********************************************************************************************************************************************************************************************/
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700);
-/*!********************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./src/components/search/ListingItem/listingItem.scss (2) ***!
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/components/search/ListingItem/listingItem.scss (2) ***!
   \********************************************************************************************************************************************************************************************/
 :root {
   /* Primary Colours */
@@ -894,16 +1062,8 @@ p + p {
   letter-spacing: normal;
   color: var(--fsa-primary_dark-grey);
 }
-/*!**************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./src/components/search/Pagination/pagination.scss ***!
-  \**************************************************************************************************************************************************************************************/
-@import url(https://fonts.googleapis.com/css?family=Fira+Sans:300,400,500,700);
 /*!******************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./src/components/search/Pagination/pagination.scss (1) ***!
-  \******************************************************************************************************************************************************************************************/
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700);
-/*!******************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./src/components/search/Pagination/pagination.scss (2) ***!
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/components/search/Pagination/pagination.scss (2) ***!
   \******************************************************************************************************************************************************************************************/
 :root {
   /* Primary Colours */
@@ -1096,16 +1256,8 @@ p + p {
   background-color: var(--fsa-primary_dark-green);
   font-weight: bold;
 }
-/*!************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./src/components/search/SearchBarHeader/searchBarHeader.scss ***!
-  \************************************************************************************************************************************************************************************************/
-@import url(https://fonts.googleapis.com/css?family=Fira+Sans:300,400,500,700);
 /*!****************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./src/components/search/SearchBarHeader/searchBarHeader.scss (1) ***!
-  \****************************************************************************************************************************************************************************************************/
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700);
-/*!****************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./src/components/search/SearchBarHeader/searchBarHeader.scss (2) ***!
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/components/search/SearchBarHeader/searchBarHeader.scss (2) ***!
   \****************************************************************************************************************************************************************************************************/
 :root {
   /* Primary Colours */
@@ -1193,16 +1345,8 @@ p + p {
     margin-top: 4rem;
   }
 }
-/*!************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./src/components/search/SearchNoResults/searchNoResults.scss ***!
-  \************************************************************************************************************************************************************************************************/
-@import url(https://fonts.googleapis.com/css?family=Fira+Sans:300,400,500,700);
 /*!****************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./src/components/search/SearchNoResults/searchNoResults.scss (1) ***!
-  \****************************************************************************************************************************************************************************************************/
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700);
-/*!****************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./src/components/search/SearchNoResults/searchNoResults.scss (2) ***!
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/components/search/SearchNoResults/searchNoResults.scss (2) ***!
   \****************************************************************************************************************************************************************************************************/
 :root {
   /* Primary Colours */
@@ -1298,16 +1442,8 @@ p + p {
   border-bottom: 0.25rem solid var(--fsa-primary_black);
   margin-bottom: -0.25rem;
 }
-/*!********************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./src/components/search/Showing/showing.scss ***!
-  \********************************************************************************************************************************************************************************/
-@import url(https://fonts.googleapis.com/css?family=Fira+Sans:300,400,500,700);
 /*!************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./src/components/search/Showing/showing.scss (1) ***!
-  \************************************************************************************************************************************************************************************/
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700);
-/*!************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./src/components/search/Showing/showing.scss (2) ***!
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/components/search/Showing/showing.scss (2) ***!
   \************************************************************************************************************************************************************************************/
 :root {
   /* Primary Colours */
@@ -1370,16 +1506,8 @@ p + p {
 .showing--bold {
   font-weight: bold;
 }
-/*!******************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./src/components/search/SortBy/sortBy.scss ***!
-  \******************************************************************************************************************************************************************************/
-@import url(https://fonts.googleapis.com/css?family=Fira+Sans:300,400,500,700);
 /*!**********************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./src/components/search/SortBy/sortBy.scss (1) ***!
-  \**********************************************************************************************************************************************************************************/
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700);
-/*!**********************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./src/components/search/SortBy/sortBy.scss (2) ***!
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/components/search/SortBy/sortBy.scss (2) ***!
   \**********************************************************************************************************************************************************************************/
 :root {
   /* Primary Colours */
@@ -1459,16 +1587,8 @@ p + p {
   box-shadow: inset 0 0 0px 2px var(--fsa-primary_black);
   outline: solid 3px var(--fsa-tertiary_light-yellow);
 }
-/*!********************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./src/components/search/CollapsibleCheckbox/collapsibleCheckbox.scss ***!
-  \********************************************************************************************************************************************************************************************************/
-@import url(https://fonts.googleapis.com/css?family=Fira+Sans:300,400,500,700);
 /*!************************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./src/components/search/CollapsibleCheckbox/collapsibleCheckbox.scss (1) ***!
-  \************************************************************************************************************************************************************************************************************/
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700);
-/*!************************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./src/components/search/CollapsibleCheckbox/collapsibleCheckbox.scss (2) ***!
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/components/search/CollapsibleCheckbox/collapsibleCheckbox.scss (2) ***!
   \************************************************************************************************************************************************************************************************************/
 :root {
   /* Primary Colours */
@@ -1624,16 +1744,8 @@ p + p {
 .accordion__label {
   padding: 0 0 0 1rem;
 }
-/*!********************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./src/components/form/ErrorBox/errorBox.scss ***!
-  \********************************************************************************************************************************************************************************/
-@import url(https://fonts.googleapis.com/css?family=Fira+Sans:300,400,500,700);
 /*!************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./src/components/form/ErrorBox/errorBox.scss (1) ***!
-  \************************************************************************************************************************************************************************************/
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700);
-/*!************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./src/components/form/ErrorBox/errorBox.scss (2) ***!
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/components/form/ErrorBox/errorBox.scss (2) ***!
   \************************************************************************************************************************************************************************************/
 :root {
   /* Primary Colours */
@@ -1755,16 +1867,8 @@ p + p {
   border-bottom: 0.25rem solid var(--fsa-primary_black);
   margin-bottom: -0.25rem;
 }
-/*!****************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./src/components/form/TitleAndText/titleAndText.scss ***!
-  \****************************************************************************************************************************************************************************************/
-@import url(https://fonts.googleapis.com/css?family=Fira+Sans:300,400,500,700);
 /*!********************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./src/components/form/TitleAndText/titleAndText.scss (1) ***!
-  \********************************************************************************************************************************************************************************************/
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700);
-/*!********************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./src/components/form/TitleAndText/titleAndText.scss (2) ***!
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/components/form/TitleAndText/titleAndText.scss (2) ***!
   \********************************************************************************************************************************************************************************************/
 :root {
   /* Primary Colours */
@@ -1827,16 +1931,8 @@ p + p {
   color: var(--fsa-primary_black);
   margin: 1rem 0 0 0;
 }
-/*!********************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./src/components/form/Checkbox/checkbox.scss ***!
-  \********************************************************************************************************************************************************************************/
-@import url(https://fonts.googleapis.com/css?family=Fira+Sans:300,400,500,700);
 /*!************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./src/components/form/Checkbox/checkbox.scss (1) ***!
-  \************************************************************************************************************************************************************************************/
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700);
-/*!************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./src/components/form/Checkbox/checkbox.scss (2) ***!
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/components/form/Checkbox/checkbox.scss (2) ***!
   \************************************************************************************************************************************************************************************/
 :root {
   /* Primary Colours */
@@ -1980,16 +2076,8 @@ p + p {
 .checkbox--error .checkbox__legend {
   color: var(--fsa-secondary_mid-red);
 }
-/*!**************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./src/components/form/Radio/radio.scss ***!
-  \**************************************************************************************************************************************************************************/
-@import url(https://fonts.googleapis.com/css?family=Fira+Sans:300,400,500,700);
 /*!******************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./src/components/form/Radio/radio.scss (1) ***!
-  \******************************************************************************************************************************************************************************/
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700);
-/*!******************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./src/components/form/Radio/radio.scss (2) ***!
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/components/form/Radio/radio.scss (2) ***!
   \******************************************************************************************************************************************************************************/
 :root {
   /* Primary Colours */
@@ -2142,389 +2230,8 @@ p + p {
 .radio--error .radio__legend {
   color: var(--fsa-secondary_mid-red);
 }
-/*!************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./src/components/form/InputField/inputField.scss ***!
-  \************************************************************************************************************************************************************************************/
-@import url(https://fonts.googleapis.com/css?family=Fira+Sans:300,400,500,700);
-/*!****************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./src/components/form/InputField/inputField.scss (1) ***!
-  \****************************************************************************************************************************************************************************************/
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700);
-/*!****************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./src/components/form/InputField/inputField.scss (2) ***!
-  \****************************************************************************************************************************************************************************************/
-:root {
-  /* Primary Colours */
-  --fsa-primary_dark-green: #007c75;
-  --fsa-primary_mid-green: #6cb33f;
-  --fsa-primary_light-green: #a9c47f;
-  --fsa-primary_dark-grey: #53565a;
-  --fsa_online-grey: #f0f3f5;
-  --fsa_border: #dee2e5;
-  --fsa-primary_black: #000000;
-  --fsa-primary_white: #ffffff;
-  --fsa_tint: #fafcfd;
-  /* Secondary Colours */
-  --fsa-secondary_mid-red: #e31837;
-  --fsa-secondary_orange: #f15d22;
-  --fsa-secondary_mid-yellow: #fdb913;
-  --fsa-secondary_mid-purple: #49176d;
-  --fsa-secondary_light-purple: #9f218b;
-  --fsa-tertiary_dark-blue: #9f218b;
-  --fsa-secondary-error-red: #e60f31;
-  --fsa-secondary-error-hover: #b0132b;
-  /* Tertiary Colours */
-  --fsa-tertiary_dark-red: #b04a5a;
-  --fsa-tertiary_light-red: #ef3340;
-  --fsa-tertiary_light-yellow: #f1c400;
-  --fsa-tertiary_teal: #00b2a9;
-  --fsa-tertiary_light-blue: #8dc8e8;
-  --fsa-tertiary_dark-purple: #51284f;
-  --fsa-secondary_mid-blue: #007fb2;
-  --fsa-tertiary_lime: #cedc00;
-  --fsa-tertiary_mauve: #8b84d7;
-  /* Hover Colours */
-  --fsa__link-green: #014b4c;
-  --fsa__purple-hover: #2a0247;
-  /* Typography */
-  --body-font: "Open Sans", sans-serif;
-  --body-normal: 400;
-  --body-bold: 600;
-  --heading-font: "Fira Sans", sans-serif;
-  --heading-bold: 700;
-  /* Grid */
-  --container-mobile: 1rem;
-  --container: 2rem;
-  --gutter: 1rem;
-  --max-width: 1336px;
-}
-
-/* Custom Mixins */
-/* Mixin for checkbox and radio button style */
-.input-field {
-  margin-top: 2rem;
-  display: flex;
-  flex-direction: column;
-}
-.input-field__label {
-  font-family: var(--heading-font);
-  font-size: 1.18rem;
-  font-weight: var(--heading-bold);
-  line-height: 1.4;
-  letter-spacing: normal;
-  margin: 0;
-  padding: 0;
-  font-weight: bold;
-}
-@media screen and (min-width: 1024px) {
-  .input-field__label {
-    font-size: 1.2rem;
-  }
-}
-.input-field__required {
-  font-family: var(--body-font);
-  font-weight: var(--body-normal);
-  font-size: 0.9rem;
-  line-height: 1.6;
-  letter-spacing: normal;
-  font-weight: normal;
-  margin-left: 1rem;
-  font-weight: inherit;
-}
-.input-field__input {
-  background-color: var(--fsa_online-grey);
-  border: solid 1px var(--fsa-primary_dark-grey);
-  margin-top: 0.5rem;
-  padding: 0.85rem 1rem;
-}
-@media screen and (min-width: 500px) {
-  .input-field__input {
-    padding: 0.75rem 1rem;
-  }
-}
-.input-field__input:focus {
-  border: 2px solid var(--fsa-primary_black);
-  box-shadow: inset 0 0 0 2px;
-  outline: 0.25rem solid var(--fsa-tertiary_light-yellow);
-  outline-offset: 0;
-}
-.input-field__caption {
-  font-family: var(--body-font);
-  font-weight: var(--body-normal);
-  font-size: 0.9rem;
-  line-height: 1.6;
-  letter-spacing: normal;
-  color: var(--fsa-primary_dark-grey);
-  margin-top: 0.5rem;
-}
-.input-field--error {
-  margin-left: -1.25rem;
-  border-left: 0.25rem solid var(--fsa-secondary_mid-red);
-  margin-left: -0.75rem;
-  padding-left: 0.5rem;
-}
-@media screen and (min-width: 768px) {
-  .input-field--error {
-    margin-left: -1.25rem;
-    padding-left: 1rem;
-  }
-}
-.input-field--error .input-field__label {
-  color: var(--fsa-secondary_mid-red);
-}
-.input-field--error .input-field__required {
-  color: var(--fsa-primary_black);
-}
-.input-field--error .input-field__input {
-  border: 0.25rem solid var(--fsa-secondary_mid-red);
-}
-.input-field__error-message {
-  margin-top: 0.5rem;
-}
-/*!************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./src/components/form/MessageBox/messageBox.scss ***!
-  \************************************************************************************************************************************************************************************/
-@import url(https://fonts.googleapis.com/css?family=Fira+Sans:300,400,500,700);
-/*!****************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./src/components/form/MessageBox/messageBox.scss (1) ***!
-  \****************************************************************************************************************************************************************************************/
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700);
-/*!****************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./src/components/form/MessageBox/messageBox.scss (2) ***!
-  \****************************************************************************************************************************************************************************************/
-:root {
-  /* Primary Colours */
-  --fsa-primary_dark-green: #007c75;
-  --fsa-primary_mid-green: #6cb33f;
-  --fsa-primary_light-green: #a9c47f;
-  --fsa-primary_dark-grey: #53565a;
-  --fsa_online-grey: #f0f3f5;
-  --fsa_border: #dee2e5;
-  --fsa-primary_black: #000000;
-  --fsa-primary_white: #ffffff;
-  --fsa_tint: #fafcfd;
-  /* Secondary Colours */
-  --fsa-secondary_mid-red: #e31837;
-  --fsa-secondary_orange: #f15d22;
-  --fsa-secondary_mid-yellow: #fdb913;
-  --fsa-secondary_mid-purple: #49176d;
-  --fsa-secondary_light-purple: #9f218b;
-  --fsa-tertiary_dark-blue: #9f218b;
-  --fsa-secondary-error-red: #e60f31;
-  --fsa-secondary-error-hover: #b0132b;
-  /* Tertiary Colours */
-  --fsa-tertiary_dark-red: #b04a5a;
-  --fsa-tertiary_light-red: #ef3340;
-  --fsa-tertiary_light-yellow: #f1c400;
-  --fsa-tertiary_teal: #00b2a9;
-  --fsa-tertiary_light-blue: #8dc8e8;
-  --fsa-tertiary_dark-purple: #51284f;
-  --fsa-secondary_mid-blue: #007fb2;
-  --fsa-tertiary_lime: #cedc00;
-  --fsa-tertiary_mauve: #8b84d7;
-  /* Hover Colours */
-  --fsa__link-green: #014b4c;
-  --fsa__purple-hover: #2a0247;
-  /* Typography */
-  --body-font: "Open Sans", sans-serif;
-  --body-normal: 400;
-  --body-bold: 600;
-  --heading-font: "Fira Sans", sans-serif;
-  --heading-bold: 700;
-  /* Grid */
-  --container-mobile: 1rem;
-  --container: 2rem;
-  --gutter: 1rem;
-  --max-width: 1336px;
-}
-
-/* Custom Mixins */
-/* Mixin for checkbox and radio button style */
-.message-box {
-  margin-top: 2rem;
-}
-.message-box__container {
-  border-radius: 0.25rem;
-  box-shadow: 0 0.25rem 1rem 0 rgba(41, 41, 41, 0.15);
-  background-color: var(--fsa-primary_white);
-}
-.message-box__container--status {
-  border-left: 0.25rem solid var(--fsa-primary_mid-green);
-}
-.message-box__container--status p {
-  background-image: url(./components/form/MessageBox/success.svg);
-}
-.message-box__container--error {
-  border-left: 0.25rem solid var(--fsa-secondary_mid-red);
-}
-.message-box__container--error p {
-  background-image: url(./components/form/MessageBox/error.svg);
-}
-.message-box__container--warning {
-  border-left: 0.25rem solid var(--fsa-secondary_mid-yellow);
-}
-.message-box__container--warning p {
-  background-image: url(./components/form/MessageBox/warning.svg);
-}
-.message-box__text {
-  padding: 1rem 1rem 1rem 3rem;
-  background-repeat: no-repeat;
-  background-size: 1rem;
-  background-position: left 1rem top 1.25rem;
-}
-/*!************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./src/components/form/Tabs/tabs.scss ***!
-  \************************************************************************************************************************************************************************/
-@import url(https://fonts.googleapis.com/css?family=Fira+Sans:300,400,500,700);
-/*!****************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./src/components/form/Tabs/tabs.scss (1) ***!
-  \****************************************************************************************************************************************************************************/
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700);
-/*!****************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./src/components/form/Tabs/tabs.scss (2) ***!
-  \****************************************************************************************************************************************************************************/
-:root {
-  /* Primary Colours */
-  --fsa-primary_dark-green: #007c75;
-  --fsa-primary_mid-green: #6cb33f;
-  --fsa-primary_light-green: #a9c47f;
-  --fsa-primary_dark-grey: #53565a;
-  --fsa_online-grey: #f0f3f5;
-  --fsa_border: #dee2e5;
-  --fsa-primary_black: #000000;
-  --fsa-primary_white: #ffffff;
-  --fsa_tint: #fafcfd;
-  /* Secondary Colours */
-  --fsa-secondary_mid-red: #e31837;
-  --fsa-secondary_orange: #f15d22;
-  --fsa-secondary_mid-yellow: #fdb913;
-  --fsa-secondary_mid-purple: #49176d;
-  --fsa-secondary_light-purple: #9f218b;
-  --fsa-tertiary_dark-blue: #9f218b;
-  --fsa-secondary-error-red: #e60f31;
-  --fsa-secondary-error-hover: #b0132b;
-  /* Tertiary Colours */
-  --fsa-tertiary_dark-red: #b04a5a;
-  --fsa-tertiary_light-red: #ef3340;
-  --fsa-tertiary_light-yellow: #f1c400;
-  --fsa-tertiary_teal: #00b2a9;
-  --fsa-tertiary_light-blue: #8dc8e8;
-  --fsa-tertiary_dark-purple: #51284f;
-  --fsa-secondary_mid-blue: #007fb2;
-  --fsa-tertiary_lime: #cedc00;
-  --fsa-tertiary_mauve: #8b84d7;
-  /* Hover Colours */
-  --fsa__link-green: #014b4c;
-  --fsa__purple-hover: #2a0247;
-  /* Typography */
-  --body-font: "Open Sans", sans-serif;
-  --body-normal: 400;
-  --body-bold: 600;
-  --heading-font: "Fira Sans", sans-serif;
-  --heading-bold: 700;
-  /* Grid */
-  --container-mobile: 1rem;
-  --container: 2rem;
-  --gutter: 1rem;
-  --max-width: 1336px;
-}
-
-/* Custom Mixins */
-/* Mixin for checkbox and radio button style */
-.tabs {
-  margin: 2.75rem 0 0;
-}
-.tabs__list {
-  padding: 0;
-  margin: 0;
-  display: flex;
-  flex-direction: column;
-  border-bottom: 1px solid var(--fsa-primary_black);
-  align-items: center;
-}
-@media screen and (min-width: 768px) {
-  .tabs__list {
-    flex-direction: row;
-    justify-content: space-between;
-  }
-}
-.tabs__element {
-  position: relative;
-  font-weight: bold;
-}
-.tabs__element a {
-  color: var(--fsa-primary_dark-green);
-  text-decoration: underline;
-  text-decoration: none;
-  padding-bottom: 1rem;
-  display: block;
-}
-.tabs__element a:hover {
-  color: var(--fsa__link-green);
-}
-.tabs__element a:focus {
-  color: var(--fsa-primary_black);
-  outline: none;
-  text-decoration: none;
-  background-color: var(--fsa-tertiary_light-yellow);
-  border-bottom: 0.25rem solid var(--fsa-primary_black);
-  padding-bottom: 0.75rem;
-}
-@media screen and (min-width: 768px) {
-  .tabs__element a {
-    padding: 0.25rem 0 0.75rem;
-  }
-  .tabs__element a:hover:after {
-    content: "";
-    height: 0.25rem;
-    width: 100%;
-    display: block;
-    background-color: var(--fsa__link-green);
-    position: absolute;
-    bottom: 0rem;
-  }
-  .tabs__element a:focus {
-    padding-bottom: 0.5rem;
-  }
-}
-.tabs__element--active {
-  color: var(--fsa-primary_black);
-  padding: 0.25rem 0 1rem;
-  display: block;
-}
-@media screen and (min-width: 768px) {
-  .tabs__element--active {
-    padding: 0.25rem 0 0.75rem;
-  }
-}
-.tabs__element--active:hover {
-  color: var(--fsa-primary_black);
-  cursor: auto;
-}
-.tabs__element--active:after {
-  content: "";
-  height: 0.25rem;
-  width: 100%;
-  display: block;
-  background-color: var(--fsa-primary_black);
-}
-@media screen and (min-width: 768px) {
-  .tabs__element--active:after {
-    margin-top: 0;
-    position: absolute;
-    bottom: 0rem;
-  }
-}
-/*!*******************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./src/components/landing/LandingLinks/landingLinks.scss ***!
-  \*******************************************************************************************************************************************************************************************/
-@import url(https://fonts.googleapis.com/css?family=Fira+Sans:300,400,500,700);
 /*!***********************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./src/components/landing/LandingLinks/landingLinks.scss (1) ***!
-  \***********************************************************************************************************************************************************************************************/
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700);
-/*!***********************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./src/components/landing/LandingLinks/landingLinks.scss (2) ***!
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/components/landing/LandingLinks/landingLinks.scss (2) ***!
   \***********************************************************************************************************************************************************************************************/
 :root {
   /* Primary Colours */
@@ -2797,16 +2504,586 @@ p + p {
   border-bottom: 0.25rem solid var(--fsa-primary_black);
   margin-bottom: -0.25rem;
 }
-/*!*************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./src/components/landing/LargePromoGroup/largePromoGroup.scss ***!
-  \*************************************************************************************************************************************************************************************************/
-@import url(https://fonts.googleapis.com/css?family=Fira+Sans:300,400,500,700);
+/*!***********************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/components/landing/ServiceLinks/serviceLinks.scss (2) ***!
+  \***********************************************************************************************************************************************************************************************/
+:root {
+  /* Primary Colours */
+  --fsa-primary_dark-green: #007c75;
+  --fsa-primary_mid-green: #6cb33f;
+  --fsa-primary_light-green: #a9c47f;
+  --fsa-primary_dark-grey: #53565a;
+  --fsa_online-grey: #f0f3f5;
+  --fsa_border: #dee2e5;
+  --fsa-primary_black: #000000;
+  --fsa-primary_white: #ffffff;
+  --fsa_tint: #fafcfd;
+  /* Secondary Colours */
+  --fsa-secondary_mid-red: #e31837;
+  --fsa-secondary_orange: #f15d22;
+  --fsa-secondary_mid-yellow: #fdb913;
+  --fsa-secondary_mid-purple: #49176d;
+  --fsa-secondary_light-purple: #9f218b;
+  --fsa-tertiary_dark-blue: #9f218b;
+  --fsa-secondary-error-red: #e60f31;
+  --fsa-secondary-error-hover: #b0132b;
+  /* Tertiary Colours */
+  --fsa-tertiary_dark-red: #b04a5a;
+  --fsa-tertiary_light-red: #ef3340;
+  --fsa-tertiary_light-yellow: #f1c400;
+  --fsa-tertiary_teal: #00b2a9;
+  --fsa-tertiary_light-blue: #8dc8e8;
+  --fsa-tertiary_dark-purple: #51284f;
+  --fsa-secondary_mid-blue: #007fb2;
+  --fsa-tertiary_lime: #cedc00;
+  --fsa-tertiary_mauve: #8b84d7;
+  /* Hover Colours */
+  --fsa__link-green: #014b4c;
+  --fsa__purple-hover: #2a0247;
+  /* Typography */
+  --body-font: "Open Sans", sans-serif;
+  --body-normal: 400;
+  --body-bold: 600;
+  --heading-font: "Fira Sans", sans-serif;
+  --heading-bold: 700;
+  /* Grid */
+  --container-mobile: 1rem;
+  --container: 2rem;
+  --gutter: 1rem;
+  --max-width: 1336px;
+}
+
+/* Custom Mixins */
+/* Mixin for checkbox and radio button style */
+.service-links__title {
+  font-family: var(--heading-font);
+  font-size: 1.939rem;
+  font-weight: var(--heading-bold);
+  line-height: 1.2;
+  letter-spacing: normal;
+  margin: 0;
+  padding: 0;
+  color: var(--fsa-primary_black);
+}
+@media screen and (min-width: 1024px) {
+  .service-links__title {
+    font-size: 2.074rem;
+  }
+}
+.service-links__description {
+  font-family: var(--body-font);
+  font-weight: var(--body-normal);
+  font-size: 1rem;
+  line-height: 1.6;
+  letter-spacing: normal;
+  margin: 1rem 0 0 0;
+}
+.service-links__cards {
+  padding: 0;
+  margin: 2rem 0 0 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+.service-links__card {
+  font-family: var(--heading-font);
+  font-size: 1.18rem;
+  font-weight: var(--heading-bold);
+  line-height: 1.4;
+  letter-spacing: normal;
+  width: 100%;
+  flex-basis: 100%;
+  max-width: 100%;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  box-shadow: 0 0.25rem 0.5rem 0 rgba(0, 0, 0, 0.1);
+  padding: 0 !important;
+  border-top: 2px solid var(--fsa-secondary_mid-purple);
+  cursor: pointer;
+  background-color: var(--fsa-primary_white);
+}
+@media screen and (min-width: 1024px) {
+  .service-links__card {
+    font-size: 1.2rem;
+  }
+}
+@media screen and (min-width: 768px) {
+  .service-links__card {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+.service-links__card + .service-links__card {
+  margin: 1rem 0 0 0;
+}
+@media screen and (min-width: 768px) {
+  .service-links__card {
+    width: 50%;
+    flex-basis: 50%;
+    max-width: 50%;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    max-width: calc(50% - 1rem);
+    /*Using css selectors as flex gap doesn't work in IE11.*/
+  }
+}
+@media screen and (min-width: 768px) and (min-width: 768px) {
+  .service-links__card {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+@media screen and (min-width: 768px) {
+  .service-links__card:nth-child(2) {
+    margin-top: 0;
+  }
+}
+@media screen and (min-width: 768px) {
+  .service-links__card:nth-child(odd) {
+    margin-right: 2rem;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .service-links__card + .service-links__card {
+    margin-top: 2rem;
+  }
+  .service-links__card:nth-child(2) {
+    margin-top: 0;
+  }
+  .service-links__card--3 {
+    width: 33.3333333333%;
+    flex-basis: 33.3333333333%;
+    max-width: 33.3333333333%;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    max-width: calc(33.3333333333% - 1.34rem);
+  }
+}
+@media screen and (min-width: 1440px) and (min-width: 768px) {
+  .service-links__card--3 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .service-links__card--3:nth-child(3) {
+    margin-top: 0;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .service-links__card--3:not(:nth-child(3n)) {
+    margin-right: 2rem;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .service-links__card--3:nth-child(3n) {
+    margin-right: 0;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .service-links__card--4 {
+    width: 25%;
+    flex-basis: 25%;
+    max-width: 25%;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    max-width: calc(25% - 1.5rem);
+  }
+}
+@media screen and (min-width: 1440px) and (min-width: 768px) {
+  .service-links__card--4 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .service-links__card--4:nth-child(3), .service-links__card--4:nth-child(4) {
+    margin-top: 0;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .service-links__card--4:nth-child(4) {
+    margin-top: 0;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .service-links__card--4:not(:nth-child(4n)) {
+    margin-right: 2rem;
+  }
+}
+.service-links__anchor {
+  padding: 1rem 3.5rem 1rem 1rem;
+  margin: 0;
+  color: var(--fsa-primary_black);
+  display: block;
+  height: 100%;
+  width: 100%;
+  background-image: url(./components/landing/ServiceLinks/arrow-right.svg);
+  background-repeat: no-repeat;
+  background-position: right 1rem top 1.25rem;
+}
+.service-links__anchor:active, .service-links__anchor:visited {
+  color: var(--fsa-primary_black);
+}
+.service-links__anchor:hover {
+  text-decoration: underline;
+  color: var(--fsa__link-green);
+}
+.service-links__anchor:focus {
+  outline: none;
+  background-color: var(--fsa-tertiary_light-yellow);
+}
+/*!****************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/components/form/InputField/inputField.scss (2) ***!
+  \****************************************************************************************************************************************************************************************/
+:root {
+  /* Primary Colours */
+  --fsa-primary_dark-green: #007c75;
+  --fsa-primary_mid-green: #6cb33f;
+  --fsa-primary_light-green: #a9c47f;
+  --fsa-primary_dark-grey: #53565a;
+  --fsa_online-grey: #f0f3f5;
+  --fsa_border: #dee2e5;
+  --fsa-primary_black: #000000;
+  --fsa-primary_white: #ffffff;
+  --fsa_tint: #fafcfd;
+  /* Secondary Colours */
+  --fsa-secondary_mid-red: #e31837;
+  --fsa-secondary_orange: #f15d22;
+  --fsa-secondary_mid-yellow: #fdb913;
+  --fsa-secondary_mid-purple: #49176d;
+  --fsa-secondary_light-purple: #9f218b;
+  --fsa-tertiary_dark-blue: #9f218b;
+  --fsa-secondary-error-red: #e60f31;
+  --fsa-secondary-error-hover: #b0132b;
+  /* Tertiary Colours */
+  --fsa-tertiary_dark-red: #b04a5a;
+  --fsa-tertiary_light-red: #ef3340;
+  --fsa-tertiary_light-yellow: #f1c400;
+  --fsa-tertiary_teal: #00b2a9;
+  --fsa-tertiary_light-blue: #8dc8e8;
+  --fsa-tertiary_dark-purple: #51284f;
+  --fsa-secondary_mid-blue: #007fb2;
+  --fsa-tertiary_lime: #cedc00;
+  --fsa-tertiary_mauve: #8b84d7;
+  /* Hover Colours */
+  --fsa__link-green: #014b4c;
+  --fsa__purple-hover: #2a0247;
+  /* Typography */
+  --body-font: "Open Sans", sans-serif;
+  --body-normal: 400;
+  --body-bold: 600;
+  --heading-font: "Fira Sans", sans-serif;
+  --heading-bold: 700;
+  /* Grid */
+  --container-mobile: 1rem;
+  --container: 2rem;
+  --gutter: 1rem;
+  --max-width: 1336px;
+}
+
+/* Custom Mixins */
+/* Mixin for checkbox and radio button style */
+.input-field {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+.input-field__label {
+  font-family: var(--heading-font);
+  font-size: 1.18rem;
+  font-weight: var(--heading-bold);
+  line-height: 1.4;
+  letter-spacing: normal;
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+}
+@media screen and (min-width: 1024px) {
+  .input-field__label {
+    font-size: 1.2rem;
+  }
+}
+.input-field__required {
+  font-family: var(--body-font);
+  font-weight: var(--body-normal);
+  font-size: 0.9rem;
+  line-height: 1.6;
+  letter-spacing: normal;
+  font-weight: normal;
+  margin-left: 1rem;
+  font-weight: inherit;
+}
+.input-field__input {
+  background-color: var(--fsa_online-grey);
+  border: solid 1px var(--fsa-primary_dark-grey);
+  margin-top: 0.5rem;
+  padding: 0.85rem 1rem;
+}
+@media screen and (min-width: 500px) {
+  .input-field__input {
+    padding: 0.75rem 1rem;
+  }
+}
+.input-field__input:focus {
+  border: 2px solid var(--fsa-primary_black);
+  box-shadow: inset 0 0 0 2px;
+  outline: 0.25rem solid var(--fsa-tertiary_light-yellow);
+  outline-offset: 0;
+}
+.input-field__caption {
+  font-family: var(--body-font);
+  font-weight: var(--body-normal);
+  font-size: 0.9rem;
+  line-height: 1.6;
+  letter-spacing: normal;
+  color: var(--fsa-primary_dark-grey);
+  margin-top: 0.5rem;
+}
+.input-field--error {
+  margin-left: -1.25rem;
+  border-left: 0.25rem solid var(--fsa-secondary_mid-red);
+  margin-left: -0.75rem;
+  padding-left: 0.5rem;
+}
+@media screen and (min-width: 768px) {
+  .input-field--error {
+    margin-left: -1.25rem;
+    padding-left: 1rem;
+  }
+}
+.input-field--error .input-field__label {
+  color: var(--fsa-secondary_mid-red);
+}
+.input-field--error .input-field__required {
+  color: var(--fsa-primary_black);
+}
+.input-field--error .input-field__input {
+  border: 0.25rem solid var(--fsa-secondary_mid-red);
+}
+.input-field__error-message {
+  margin-top: 0.5rem;
+}
+/*!****************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/components/form/MessageBox/messageBox.scss (2) ***!
+  \****************************************************************************************************************************************************************************************/
+:root {
+  /* Primary Colours */
+  --fsa-primary_dark-green: #007c75;
+  --fsa-primary_mid-green: #6cb33f;
+  --fsa-primary_light-green: #a9c47f;
+  --fsa-primary_dark-grey: #53565a;
+  --fsa_online-grey: #f0f3f5;
+  --fsa_border: #dee2e5;
+  --fsa-primary_black: #000000;
+  --fsa-primary_white: #ffffff;
+  --fsa_tint: #fafcfd;
+  /* Secondary Colours */
+  --fsa-secondary_mid-red: #e31837;
+  --fsa-secondary_orange: #f15d22;
+  --fsa-secondary_mid-yellow: #fdb913;
+  --fsa-secondary_mid-purple: #49176d;
+  --fsa-secondary_light-purple: #9f218b;
+  --fsa-tertiary_dark-blue: #9f218b;
+  --fsa-secondary-error-red: #e60f31;
+  --fsa-secondary-error-hover: #b0132b;
+  /* Tertiary Colours */
+  --fsa-tertiary_dark-red: #b04a5a;
+  --fsa-tertiary_light-red: #ef3340;
+  --fsa-tertiary_light-yellow: #f1c400;
+  --fsa-tertiary_teal: #00b2a9;
+  --fsa-tertiary_light-blue: #8dc8e8;
+  --fsa-tertiary_dark-purple: #51284f;
+  --fsa-secondary_mid-blue: #007fb2;
+  --fsa-tertiary_lime: #cedc00;
+  --fsa-tertiary_mauve: #8b84d7;
+  /* Hover Colours */
+  --fsa__link-green: #014b4c;
+  --fsa__purple-hover: #2a0247;
+  /* Typography */
+  --body-font: "Open Sans", sans-serif;
+  --body-normal: 400;
+  --body-bold: 600;
+  --heading-font: "Fira Sans", sans-serif;
+  --heading-bold: 700;
+  /* Grid */
+  --container-mobile: 1rem;
+  --container: 2rem;
+  --gutter: 1rem;
+  --max-width: 1336px;
+}
+
+/* Custom Mixins */
+/* Mixin for checkbox and radio button style */
+.message-box {
+  margin-top: 2rem;
+}
+.message-box__container {
+  border-radius: 0.25rem;
+  box-shadow: 0 0.25rem 1rem 0 rgba(41, 41, 41, 0.15);
+  background-color: var(--fsa-primary_white);
+}
+.message-box__container--status {
+  border-left: 0.25rem solid var(--fsa-primary_mid-green);
+}
+.message-box__container--status p {
+  background-image: url(./components/form/MessageBox/success.svg);
+}
+.message-box__container--error {
+  border-left: 0.25rem solid var(--fsa-secondary_mid-red);
+}
+.message-box__container--error p {
+  background-image: url(./components/form/MessageBox/error.svg);
+}
+.message-box__container--warning {
+  border-left: 0.25rem solid var(--fsa-secondary_mid-yellow);
+}
+.message-box__container--warning p {
+  background-image: url(./components/form/MessageBox/warning.svg);
+}
+.message-box__text {
+  padding: 1rem 1rem 1rem 3rem;
+  background-repeat: no-repeat;
+  background-size: 1rem;
+  background-position: left 1rem top 1.25rem;
+}
+/*!****************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/components/form/Tabs/tabs.scss (2) ***!
+  \****************************************************************************************************************************************************************************/
+:root {
+  /* Primary Colours */
+  --fsa-primary_dark-green: #007c75;
+  --fsa-primary_mid-green: #6cb33f;
+  --fsa-primary_light-green: #a9c47f;
+  --fsa-primary_dark-grey: #53565a;
+  --fsa_online-grey: #f0f3f5;
+  --fsa_border: #dee2e5;
+  --fsa-primary_black: #000000;
+  --fsa-primary_white: #ffffff;
+  --fsa_tint: #fafcfd;
+  /* Secondary Colours */
+  --fsa-secondary_mid-red: #e31837;
+  --fsa-secondary_orange: #f15d22;
+  --fsa-secondary_mid-yellow: #fdb913;
+  --fsa-secondary_mid-purple: #49176d;
+  --fsa-secondary_light-purple: #9f218b;
+  --fsa-tertiary_dark-blue: #9f218b;
+  --fsa-secondary-error-red: #e60f31;
+  --fsa-secondary-error-hover: #b0132b;
+  /* Tertiary Colours */
+  --fsa-tertiary_dark-red: #b04a5a;
+  --fsa-tertiary_light-red: #ef3340;
+  --fsa-tertiary_light-yellow: #f1c400;
+  --fsa-tertiary_teal: #00b2a9;
+  --fsa-tertiary_light-blue: #8dc8e8;
+  --fsa-tertiary_dark-purple: #51284f;
+  --fsa-secondary_mid-blue: #007fb2;
+  --fsa-tertiary_lime: #cedc00;
+  --fsa-tertiary_mauve: #8b84d7;
+  /* Hover Colours */
+  --fsa__link-green: #014b4c;
+  --fsa__purple-hover: #2a0247;
+  /* Typography */
+  --body-font: "Open Sans", sans-serif;
+  --body-normal: 400;
+  --body-bold: 600;
+  --heading-font: "Fira Sans", sans-serif;
+  --heading-bold: 700;
+  /* Grid */
+  --container-mobile: 1rem;
+  --container: 2rem;
+  --gutter: 1rem;
+  --max-width: 1336px;
+}
+
+/* Custom Mixins */
+/* Mixin for checkbox and radio button style */
+.tabs {
+  margin: 2.75rem 0 0;
+}
+.tabs__list {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid var(--fsa-primary_black);
+  align-items: center;
+}
+@media screen and (min-width: 768px) {
+  .tabs__list {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+.tabs__element {
+  position: relative;
+  font-weight: bold;
+}
+.tabs__element a {
+  color: var(--fsa-primary_dark-green);
+  text-decoration: underline;
+  text-decoration: none;
+  padding-bottom: 1rem;
+  display: block;
+}
+.tabs__element a:hover {
+  color: var(--fsa__link-green);
+}
+.tabs__element a:focus {
+  color: var(--fsa-primary_black);
+  outline: none;
+  text-decoration: none;
+  background-color: var(--fsa-tertiary_light-yellow);
+  border-bottom: 0.25rem solid var(--fsa-primary_black);
+  padding-bottom: 0.75rem;
+}
+@media screen and (min-width: 768px) {
+  .tabs__element a {
+    padding: 0.25rem 0 0.75rem;
+  }
+  .tabs__element a:hover:after {
+    content: "";
+    height: 0.25rem;
+    width: 100%;
+    display: block;
+    background-color: var(--fsa__link-green);
+    position: absolute;
+    bottom: 0rem;
+  }
+  .tabs__element a:focus {
+    padding-bottom: 0.5rem;
+  }
+}
+.tabs__element--active {
+  color: var(--fsa-primary_black);
+  padding: 0.25rem 0 1rem;
+  display: block;
+}
+@media screen and (min-width: 768px) {
+  .tabs__element--active {
+    padding: 0.25rem 0 0.75rem;
+  }
+}
+.tabs__element--active:hover {
+  color: var(--fsa-primary_black);
+  cursor: auto;
+}
+.tabs__element--active:after {
+  content: "";
+  height: 0.25rem;
+  width: 100%;
+  display: block;
+  background-color: var(--fsa-primary_black);
+}
+@media screen and (min-width: 768px) {
+  .tabs__element--active:after {
+    margin-top: 0;
+    position: absolute;
+    bottom: 0rem;
+  }
+}
 /*!*****************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./src/components/landing/LargePromoGroup/largePromoGroup.scss (1) ***!
-  \*****************************************************************************************************************************************************************************************************/
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700);
-/*!*****************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./src/components/landing/LargePromoGroup/largePromoGroup.scss (2) ***!
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/components/landing/LargePromoGroup/largePromoGroup.scss (2) ***!
   \*****************************************************************************************************************************************************************************************************/
 :root {
   /* Primary Colours */
@@ -2960,16 +3237,8 @@ p + p {
     margin-top: 2rem;
   }
 }
-/*!*************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./src/layout/twoColumn/twoColumn.scss ***!
-  \*************************************************************************************************************************************************************************/
-@import url(https://fonts.googleapis.com/css?family=Fira+Sans:300,400,500,700);
 /*!*****************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./src/layout/twoColumn/twoColumn.scss (1) ***!
-  \*****************************************************************************************************************************************************************************/
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700);
-/*!*****************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./src/layout/twoColumn/twoColumn.scss (2) ***!
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/layout/twoColumn/twoColumn.scss (2) ***!
   \*****************************************************************************************************************************************************************************/
 :root {
   /* Primary Colours */
@@ -3153,16 +3422,8 @@ p + p {
     align-items: center;
   }
 }
-/*!***************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./src/layout/formLayout/formLayout.scss ***!
-  \***************************************************************************************************************************************************************************/
-@import url(https://fonts.googleapis.com/css?family=Fira+Sans:300,400,500,700);
 /*!*******************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./src/layout/formLayout/formLayout.scss (1) ***!
-  \*******************************************************************************************************************************************************************************/
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700);
-/*!*******************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./src/layout/formLayout/formLayout.scss (2) ***!
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/layout/formLayout/formLayout.scss (2) ***!
   \*******************************************************************************************************************************************************************************/
 :root {
   /* Primary Colours */
@@ -3374,16 +3635,8 @@ p + p {
     padding-right: 1rem;
   }
 }
-/*!*************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./src/layout/fullWidth/fullWidth.scss ***!
-  \*************************************************************************************************************************************************************************/
-@import url(https://fonts.googleapis.com/css?family=Fira+Sans:300,400,500,700);
 /*!*****************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./src/layout/fullWidth/fullWidth.scss (1) ***!
-  \*****************************************************************************************************************************************************************************/
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700);
-/*!*****************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./src/layout/fullWidth/fullWidth.scss (2) ***!
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/layout/fullWidth/fullWidth.scss (2) ***!
   \*****************************************************************************************************************************************************************************/
 :root {
   /* Primary Colours */
@@ -3490,16 +3743,8 @@ p + p {
     padding-right: 1rem;
   }
 }
-/*!**************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./src/components/form/MultistepFunction/multistepFunction.scss ***!
-  \**************************************************************************************************************************************************************************************************/
-@import url(https://fonts.googleapis.com/css?family=Fira+Sans:300,400,500,700);
 /*!******************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./src/components/form/MultistepFunction/multistepFunction.scss (1) ***!
-  \******************************************************************************************************************************************************************************************************/
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700);
-/*!******************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./src/components/form/MultistepFunction/multistepFunction.scss (2) ***!
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/components/form/MultistepFunction/multistepFunction.scss (2) ***!
   \******************************************************************************************************************************************************************************************************/
 :root {
   /* Primary Colours */
@@ -3587,16 +3832,8 @@ p + p {
 .button {
   margin-left: auto;
 }
-/*!************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./src/components/search/SearchBar/searchBar.scss ***!
-  \************************************************************************************************************************************************************************************/
-@import url(https://fonts.googleapis.com/css?family=Fira+Sans:300,400,500,700);
 /*!****************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./src/components/search/SearchBar/searchBar.scss (1) ***!
-  \****************************************************************************************************************************************************************************************/
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700);
-/*!****************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./src/components/search/SearchBar/searchBar.scss (2) ***!
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/components/search/SearchBar/searchBar.scss (2) ***!
   \****************************************************************************************************************************************************************************************/
 :root {
   /* Primary Colours */
