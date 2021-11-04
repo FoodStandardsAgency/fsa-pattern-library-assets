@@ -6,11 +6,6 @@ function deeson_tpl_component_templates($assetPath = 'auto') {
 
 function deeson_twig_component_templates($assetPath = 'auto') {
   return [ 
-        "twoColumn" => [
-          "template" => "twoColumn",
-          "path" => $assetPath . "/layout/twoColumn",
-          "variables" => ["content" => []]
-        ], 
         "formLayout" => [
           "template" => "formLayout",
           "path" => $assetPath . "/layout/formLayout",
@@ -19,6 +14,11 @@ function deeson_twig_component_templates($assetPath = 'auto') {
         "fullWidth" => [
           "template" => "fullWidth",
           "path" => $assetPath . "/layout/fullWidth",
+          "variables" => ["content" => []]
+        ], 
+        "twoColumn" => [
+          "template" => "twoColumn",
+          "path" => $assetPath . "/layout/twoColumn",
           "variables" => ["content" => []]
         ], 
         "breadcrumbs" => [
@@ -36,11 +36,6 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/search/FiltersSelected",
           "variables" => ["content" => []]
         ], 
-        "listingItem" => [
-          "template" => "listingItem",
-          "path" => $assetPath . "/components/search/ListingItem",
-          "variables" => ["content" => []]
-        ], 
         "pagination" => [
           "template" => "pagination",
           "path" => $assetPath . "/components/search/Pagination",
@@ -51,6 +46,11 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/search/SearchBarHeader",
           "variables" => ["content" => []]
         ], 
+        "listingItem" => [
+          "template" => "listingItem",
+          "path" => $assetPath . "/components/search/ListingItem",
+          "variables" => ["content" => []]
+        ], 
         "searchNoResults" => [
           "template" => "searchNoResults",
           "path" => $assetPath . "/components/search/SearchNoResults",
@@ -59,16 +59,6 @@ function deeson_twig_component_templates($assetPath = 'auto') {
         "showing" => [
           "template" => "showing",
           "path" => $assetPath . "/components/search/Showing",
-          "variables" => ["content" => []]
-        ], 
-        "sortBy" => [
-          "template" => "sortBy",
-          "path" => $assetPath . "/components/search/SortBy",
-          "variables" => ["content" => []]
-        ], 
-        "collapsibleCheckbox" => [
-          "template" => "collapsibleCheckbox",
-          "path" => $assetPath . "/components/search/CollapsibleCheckbox",
           "variables" => ["content" => []]
         ], 
         "searchBar" => [
@@ -84,6 +74,16 @@ function deeson_twig_component_templates($assetPath = 'auto') {
         "titleAndText" => [
           "template" => "titleAndText",
           "path" => $assetPath . "/components/form/TitleAndText",
+          "variables" => ["content" => []]
+        ], 
+        "collapsibleCheckbox" => [
+          "template" => "collapsibleCheckbox",
+          "path" => $assetPath . "/components/search/CollapsibleCheckbox",
+          "variables" => ["content" => []]
+        ], 
+        "sortBy" => [
+          "template" => "sortBy",
+          "path" => $assetPath . "/components/search/SortBy",
           "variables" => ["content" => []]
         ], 
         "checkbox" => [
@@ -136,14 +136,14 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/landing/LargePromoGroup",
           "variables" => ["content" => []]
         ], 
-        "sortBy" => [
-          "template" => "sortBy",
-          "path" => $assetPath . "/components/search/SortBy/react",
-          "variables" => ["content" => []]
-        ], 
         "searchBar" => [
           "template" => "searchBar",
           "path" => $assetPath . "/components/search/SearchBar/react",
+          "variables" => ["content" => []]
+        ], 
+        "sortBy" => [
+          "template" => "sortBy",
+          "path" => $assetPath . "/components/search/SortBy/react",
           "variables" => ["content" => []]
         ]
   ];
