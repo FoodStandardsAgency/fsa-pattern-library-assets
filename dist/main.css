@@ -3094,16 +3094,22 @@ p + p {
 /* Custom Mixins */
 /* Mixin for checkbox and radio button style */
 .largePromoGroup {
-  margin: 3rem -1rem 0;
+  margin: 3rem 0 0;
 }
-@media screen and (min-width: 768px) {
-  .largePromoGroup {
-    margin: 3rem -2rem 0;
-  }
-}
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1024px) {
   .largePromoGroup {
     margin: 4rem 0 0;
+  }
+}
+.largePromoGroup__container {
+  width: 100%;
+  max-width: var(--max-width);
+  margin: 0 auto;
+}
+@media screen and (min-width: 1440px) {
+  .largePromoGroup__container {
+    padding-left: var(--container);
+    padding-right: var(--container);
   }
 }
 .largePromoGroup__row {
@@ -3114,7 +3120,7 @@ p + p {
   background-color: var(--fsa__purple-hover);
   color: var(--fsa-primary_white);
 }
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1024px) {
   .largePromoGroup__row--even {
     flex-direction: row;
   }
@@ -3122,7 +3128,7 @@ p + p {
 .largePromoGroup__row--odd {
   background-color: var(--fsa_online-grey);
 }
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1024px) {
   .largePromoGroup__row--odd {
     flex-direction: row-reverse;
   }
@@ -3140,7 +3146,7 @@ p + p {
     padding-right: 1rem;
   }
 }
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1024px) {
   .largePromoGroup__content, .largePromoGroup__background-image {
     width: 50%;
     flex-basis: 50%;
@@ -3149,14 +3155,19 @@ p + p {
     padding-right: 0.5rem;
   }
 }
-@media screen and (min-width: 1440px) and (min-width: 768px) {
+@media screen and (min-width: 1024px) and (min-width: 768px) {
   .largePromoGroup__content, .largePromoGroup__background-image {
     padding-left: 1rem;
     padding-right: 1rem;
   }
 }
 .largePromoGroup__content {
-  padding: 2rem;
+  padding: 1rem;
+}
+@media screen and (min-width: 768px) {
+  .largePromoGroup__content {
+    padding: 2rem;
+  }
 }
 @media screen and (min-width: 1440px) {
   .largePromoGroup__content {
