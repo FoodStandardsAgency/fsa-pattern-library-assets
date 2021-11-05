@@ -57,6 +57,7 @@
 
 /* Custom Mixins */
 /* Mixin for checkbox and radio button style */
+/* Used for Style guide pages */
 html {
   font-family: sans-serif;
   font-size: 16px;
@@ -277,6 +278,7 @@ p + p {
 
 /* Custom Mixins */
 /* Mixin for checkbox and radio button style */
+/* Used for Style guide pages */
 .breadcrumb {
   font-family: var(--body-font);
   font-weight: var(--body-normal);
@@ -548,6 +550,7 @@ p + p {
 
 /* Custom Mixins */
 /* Mixin for checkbox and radio button style */
+/* Used for Style guide pages */
 .button--primary {
   display: inline-block;
   font-family: open sans, sans-serif;
@@ -677,6 +680,7 @@ p + p {
 
 /* Custom Mixins */
 /* Mixin for checkbox and radio button style */
+/* Used for Style guide pages */
 .filters {
   display: flex;
   flex-direction: column;
@@ -818,6 +822,7 @@ p + p {
 
 /* Custom Mixins */
 /* Mixin for checkbox and radio button style */
+/* Used for Style guide pages */
 .listing-item {
   margin-bottom: 1.5rem;
 }
@@ -953,6 +958,7 @@ p + p {
 
 /* Custom Mixins */
 /* Mixin for checkbox and radio button style */
+/* Used for Style guide pages */
 .pagination__list {
   display: flex;
   justify-content: space-between;
@@ -1155,6 +1161,7 @@ p + p {
 
 /* Custom Mixins */
 /* Mixin for checkbox and radio button style */
+/* Used for Style guide pages */
 @media screen and (min-width: 1024px) {
   .search-header {
     width: 66.6666666667%;
@@ -1252,6 +1259,7 @@ p + p {
 
 /* Custom Mixins */
 /* Mixin for checkbox and radio button style */
+/* Used for Style guide pages */
 .search-no-results {
   padding-bottom: 2rem;
 }
@@ -1357,6 +1365,7 @@ p + p {
 
 /* Custom Mixins */
 /* Mixin for checkbox and radio button style */
+/* Used for Style guide pages */
 .showing {
   color: var(--fsa-primary_black);
   margin: 1rem 0;
@@ -1429,6 +1438,7 @@ p + p {
 
 /* Custom Mixins */
 /* Mixin for checkbox and radio button style */
+/* Used for Style guide pages */
 .sort__label {
   margin-right: 0.5rem;
   display: inline-block;
@@ -1518,6 +1528,7 @@ p + p {
 
 /* Custom Mixins */
 /* Mixin for checkbox and radio button style */
+/* Used for Style guide pages */
 .accordion {
   border: none;
   border-top: 4px solid var(--fsa_border);
@@ -1683,6 +1694,7 @@ p + p {
 
 /* Custom Mixins */
 /* Mixin for checkbox and radio button style */
+/* Used for Style guide pages */
 .error-box {
   margin: 2rem -0.75rem 0;
 }
@@ -1814,6 +1826,7 @@ p + p {
 
 /* Custom Mixins */
 /* Mixin for checkbox and radio button style */
+/* Used for Style guide pages */
 .form-title {
   margin: 2rem 0 0 0;
 }
@@ -1886,6 +1899,7 @@ p + p {
 
 /* Custom Mixins */
 /* Mixin for checkbox and radio button style */
+/* Used for Style guide pages */
 .checkbox {
   border: none;
   padding: 0;
@@ -2039,6 +2053,7 @@ p + p {
 
 /* Custom Mixins */
 /* Mixin for checkbox and radio button style */
+/* Used for Style guide pages */
 .radio {
   border: none;
   padding: 0;
@@ -2201,6 +2216,7 @@ p + p {
 
 /* Custom Mixins */
 /* Mixin for checkbox and radio button style */
+/* Used for Style guide pages */
 .landing-links {
   margin-top: 3rem;
 }
@@ -2483,6 +2499,60 @@ p + p {
 
 /* Custom Mixins */
 /* Mixin for checkbox and radio button style */
+/* Used for Style guide pages */
+.service-links {
+  margin: 3rem 0 0;
+}
+@media screen and (min-width: 1024px) {
+  .service-links {
+    margin: 4rem 0 0;
+  }
+}
+.service-links__container {
+  width: 100%;
+  margin: 0 auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+@media screen and (min-width: 768px) {
+  .service-links__container {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    width: 100%;
+    max-width: calc(1300px + (2 * 2rem));
+  }
+}
+@media screen and (min-width: 768px) {
+  .service-links__text-row {
+    flex: 1;
+    margin-left: -0.5rem;
+    margin-right: -0.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+}
+@media screen and (min-width: 768px) and (min-width: 768px) {
+  .service-links__text-row {
+    margin-left: -1rem;
+    margin-right: -1rem;
+  }
+}
+@media screen and (min-width: 768px) {
+  .service-links__text-wrapper {
+    width: 50%;
+    flex-basis: 50%;
+    max-width: 50%;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+}
+@media screen and (min-width: 768px) and (min-width: 768px) {
+  .service-links__text-wrapper {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
 .service-links__title {
   font-family: var(--heading-font);
   font-size: 1.939rem;
@@ -2510,8 +2580,17 @@ p + p {
   padding: 0;
   margin: 2rem 0 0 0;
   list-style: none;
+  flex: 1;
+  margin-left: -0.5rem;
+  margin-right: -0.5rem;
   display: flex;
   flex-wrap: wrap;
+}
+@media screen and (min-width: 768px) {
+  .service-links__cards {
+    margin-left: -1rem;
+    margin-right: -1rem;
+  }
 }
 .service-links__card {
   font-family: var(--heading-font);
@@ -2524,11 +2603,6 @@ p + p {
   max-width: 100%;
   padding-left: 0.5rem;
   padding-right: 0.5rem;
-  box-shadow: 0 0.25rem 0.5rem 0 rgba(0, 0, 0, 0.1);
-  padding: 0 !important;
-  border-top: 2px solid var(--fsa-secondary_mid-purple);
-  cursor: pointer;
-  background-color: var(--fsa-primary_white);
 }
 @media screen and (min-width: 1024px) {
   .service-links__card {
@@ -2551,7 +2625,6 @@ p + p {
     max-width: 50%;
     padding-left: 0.5rem;
     padding-right: 0.5rem;
-    max-width: calc((100% / 12) * 6 - 1rem);
     /*Using css selectors as flex gap doesn't work in IE11.*/
   }
 }
@@ -2564,11 +2637,6 @@ p + p {
 @media screen and (min-width: 768px) {
   .service-links__card:nth-child(2) {
     margin-top: 0;
-  }
-}
-@media screen and (min-width: 768px) {
-  .service-links__card:nth-child(odd) {
-    margin-right: 2rem;
   }
 }
 @media screen and (min-width: 1440px) {
@@ -2584,7 +2652,6 @@ p + p {
     max-width: 33.3333333333%;
     padding-left: 0.5rem;
     padding-right: 0.5rem;
-    max-width: calc((100% / 12) * 4 - 1.34rem);
   }
 }
 @media screen and (min-width: 1440px) and (min-width: 768px) {
@@ -2599,23 +2666,12 @@ p + p {
   }
 }
 @media screen and (min-width: 1440px) {
-  .service-links__card--3:not(:nth-child(3n)) {
-    margin-right: 2rem;
-  }
-}
-@media screen and (min-width: 1440px) {
-  .service-links__card--3:nth-child(3n) {
-    margin-right: 0;
-  }
-}
-@media screen and (min-width: 1440px) {
   .service-links__card--4 {
     width: 25%;
     flex-basis: 25%;
     max-width: 25%;
     padding-left: 0.5rem;
     padding-right: 0.5rem;
-    max-width: calc((100% / 12) * 3 - 1.5rem);
   }
 }
 @media screen and (min-width: 1440px) and (min-width: 768px) {
@@ -2634,28 +2690,40 @@ p + p {
     margin-top: 0;
   }
 }
-@media screen and (min-width: 1440px) {
-  .service-links__card--4:not(:nth-child(4n)) {
-    margin-right: 2rem;
-  }
-}
 .service-links__anchor {
+  background-repeat: no-repeat;
+  background-position: right 1rem top 1.25rem;
+  box-shadow: 0 0.25rem 0.5rem 0 rgba(0, 0, 0, 0.1);
   padding: 1rem 3.5rem 1rem 1rem;
-  margin: 0;
   color: var(--fsa-primary_black);
   display: block;
   height: 100%;
   width: 100%;
-  background-image: url(./components/landing/ServiceLinks/arrow-right.svg);
-  background-repeat: no-repeat;
-  background-position: right 1rem top 1.25rem;
+  border-top: 2px solid var(--fsa-secondary_mid-purple);
+  cursor: pointer;
+  background-color: var(--fsa-primary_white);
+  position: relative;
 }
-.service-links__anchor:active, .service-links__anchor:visited {
-  color: var(--fsa-primary_black);
+.service-links__anchor::before {
+  content: "";
+  background-image: url(./components/landing/ServiceLinks/arrow-right.svg);
+  display: inline-block;
+  width: 1.75rem;
+  height: 1rem;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  right: 1rem;
 }
 .service-links__anchor:hover {
   text-decoration: underline;
   color: var(--fsa__link-green);
+}
+.service-links__anchor:hover::before {
+  background-image: url(./components/landing/ServiceLinks/arrow-hover.svg);
+}
+.service-links__anchor:active, .service-links__anchor:visited {
+  color: var(--fsa-primary_black);
 }
 .service-links__anchor:focus {
   outline: none;
@@ -2720,6 +2788,7 @@ p + p {
 
 /* Custom Mixins */
 /* Mixin for checkbox and radio button style */
+/* Used for Style guide pages */
 .input-field {
   margin-top: 2rem;
   display: flex;
@@ -2859,6 +2928,7 @@ p + p {
 
 /* Custom Mixins */
 /* Mixin for checkbox and radio button style */
+/* Used for Style guide pages */
 .message-box {
   margin-top: 2rem;
 }
@@ -2950,6 +3020,7 @@ p + p {
 
 /* Custom Mixins */
 /* Mixin for checkbox and radio button style */
+/* Used for Style guide pages */
 .tabs {
   margin: 2.75rem 0 0;
 }
@@ -3093,6 +3164,7 @@ p + p {
 
 /* Custom Mixins */
 /* Mixin for checkbox and radio button style */
+/* Used for Style guide pages */
 .largePromoGroup {
   margin: 3rem 0 0;
 }
@@ -3103,8 +3175,12 @@ p + p {
 }
 .largePromoGroup__container {
   width: 100%;
-  max-width: var(--max-width);
   margin: 0 auto;
+}
+@media screen and (min-width: 768px) {
+  .largePromoGroup__container {
+    max-width: calc(1300px + (2 * 2rem));
+  }
 }
 @media screen and (min-width: 1440px) {
   .largePromoGroup__container {
@@ -3267,6 +3343,7 @@ p + p {
 
 /* Custom Mixins */
 /* Mixin for checkbox and radio button style */
+/* Used for Style guide pages */
 .two-col {
   max-width: 100%;
 }
@@ -3460,6 +3537,7 @@ p + p {
 
 /* Custom Mixins */
 /* Mixin for checkbox and radio button style */
+/* Used for Style guide pages */
 .form-layout {
   max-width: 100%;
 }
@@ -3681,6 +3759,7 @@ p + p {
 
 /* Custom Mixins */
 /* Mixin for checkbox and radio button style */
+/* Used for Style guide pages */
 .full-width {
   max-width: 100%;
 }
@@ -3797,6 +3876,7 @@ p + p {
 
 /* Custom Mixins */
 /* Mixin for checkbox and radio button style */
+/* Used for Style guide pages */
 .multistep-function {
   margin-top: 2rem;
 }
@@ -3894,6 +3974,7 @@ p + p {
 
 /* Custom Mixins */
 /* Mixin for checkbox and radio button style */
+/* Used for Style guide pages */
 .search-bar {
   position: relative;
   display: flex;
