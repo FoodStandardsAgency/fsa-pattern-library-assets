@@ -61,6 +61,11 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/search/SearchNoResults",
           "variables" => ["content" => []]
         ], 
+        "showing" => [
+          "template" => "showing",
+          "path" => $assetPath . "/components/search/Showing",
+          "variables" => ["content" => []]
+        ], 
         "sortBy" => [
           "template" => "sortBy",
           "path" => $assetPath . "/components/search/SortBy",
@@ -79,11 +84,6 @@ function deeson_twig_component_templates($assetPath = 'auto') {
         "errorBox" => [
           "template" => "errorBox",
           "path" => $assetPath . "/components/form/ErrorBox",
-          "variables" => ["content" => []]
-        ], 
-        "showing" => [
-          "template" => "showing",
-          "path" => $assetPath . "/components/search/Showing",
           "variables" => ["content" => []]
         ], 
         "externalLink" => [
