@@ -22,6 +22,7 @@
   --fsa_tint: #fafcfd;
   /* Secondary Colours */
   --fsa-secondary_mid-red: #e31837;
+  --fsa-secondary_dark-blue: #165c7d;
   --fsa-secondary_orange: #f15d22;
   --fsa-secondary_mid-yellow: #fdb913;
   --fsa-secondary_mid-purple: #49176d;
@@ -245,6 +246,7 @@ p + p {
   --fsa_tint: #fafcfd;
   /* Secondary Colours */
   --fsa-secondary_mid-red: #e31837;
+  --fsa-secondary_dark-blue: #165c7d;
   --fsa-secondary_orange: #f15d22;
   --fsa-secondary_mid-yellow: #fdb913;
   --fsa-secondary_mid-purple: #49176d;
@@ -518,6 +520,7 @@ p + p {
   --fsa_tint: #fafcfd;
   /* Secondary Colours */
   --fsa-secondary_mid-red: #e31837;
+  --fsa-secondary_dark-blue: #165c7d;
   --fsa-secondary_orange: #f15d22;
   --fsa-secondary_mid-yellow: #fdb913;
   --fsa-secondary_mid-purple: #49176d;
@@ -625,6 +628,174 @@ p + p {
   box-shadow: 0 0 0 0.2rem var(--fsa-primary_black), 0 0 0 0.4rem var(--fsa-tertiary_light-yellow);
   outline: none;
 }
+/*!********************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/components/search/CollapsibleCheckbox/collapsibleCheckbox.scss ***!
+  \********************************************************************************************************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css?family=Fira+Sans:300,400,500,700);
+/*!************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/components/search/CollapsibleCheckbox/collapsibleCheckbox.scss (1) ***!
+  \************************************************************************************************************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700);
+/*!************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/components/search/CollapsibleCheckbox/collapsibleCheckbox.scss (2) ***!
+  \************************************************************************************************************************************************************************************************************/
+:root {
+  /* Primary Colours */
+  --fsa-primary_dark-green: #007c75;
+  --fsa-primary_mid-green: #6cb33f;
+  --fsa-primary_light-green: #a9c47f;
+  --fsa-primary_dark-grey: #53565a;
+  --fsa_online-grey: #f0f3f5;
+  --fsa_border: #dee2e5;
+  --fsa-primary_black: #000000;
+  --fsa-primary_white: #ffffff;
+  --fsa_tint: #fafcfd;
+  /* Secondary Colours */
+  --fsa-secondary_mid-red: #e31837;
+  --fsa-secondary_dark-blue: #165c7d;
+  --fsa-secondary_orange: #f15d22;
+  --fsa-secondary_mid-yellow: #fdb913;
+  --fsa-secondary_mid-purple: #49176d;
+  --fsa-secondary_light-purple: #9f218b;
+  --fsa-tertiary_dark-blue: #9f218b;
+  --fsa-secondary-error-red: #e60f31;
+  --fsa-secondary-error-hover: #b0132b;
+  /* Tertiary Colours */
+  --fsa-tertiary_dark-red: #b04a5a;
+  --fsa-tertiary_light-red: #ef3340;
+  --fsa-tertiary_light-yellow: #f1c400;
+  --fsa-tertiary_teal: #00b2a9;
+  --fsa-tertiary_light-blue: #8dc8e8;
+  --fsa-tertiary_dark-purple: #51284f;
+  --fsa-secondary_mid-blue: #007fb2;
+  --fsa-tertiary_lime: #cedc00;
+  --fsa-tertiary_mauve: #8b84d7;
+  /* Hover Colours */
+  --fsa__link-green: #014b4c;
+  --fsa__purple-hover: #2a0247;
+  /* Typography */
+  --body-font: "Open Sans", sans-serif;
+  --body-normal: 400;
+  --body-bold: 600;
+  --heading-font: "Fira Sans", sans-serif;
+  --heading-bold: 700;
+  /* Grid */
+  --container-mobile: 1rem;
+  --container: 2rem;
+  --gutter: 1rem;
+  --max-width: 1336px;
+}
+
+/* Grid */
+/* Custom Mixins */
+/* Mixin for checkbox and radio button style */
+/* Used for Style guide pages */
+.accordion {
+  border: none;
+  border-top: 4px solid var(--fsa_border);
+  padding: 0;
+  margin: 2rem 0 0;
+}
+.accordion--hidden {
+  display: none;
+}
+.accordion__legend {
+  font-family: var(--body-font);
+  font-size: 1rem;
+  font-weight: var(--body-bold);
+  line-height: 1.6;
+  letter-spacing: normal;
+  margin: 0;
+  padding: 0;
+  float: left;
+  width: 100%;
+  font-weight: 700;
+}
+.accordion__button {
+  border: none;
+  background: none;
+  font: inherit;
+  margin: 0;
+  padding: 0.5rem 0 0;
+  cursor: pointer;
+  width: 100%;
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.accordion__button:focus {
+  outline: none;
+}
+.accordion__button:focus .accordion__title-text {
+  background: var(--fsa-tertiary_light-yellow);
+  border-bottom: 2px solid var(--fsa-primary_black);
+}
+.accordion__button::after {
+  content: url(./components/search/CollapsibleCheckbox/arrow.svg);
+  transform: none;
+}
+.accordion__button--expanded::after {
+  transform: rotate(180deg);
+}
+.accordion__title-text {
+  border-bottom: 2px solid transparent;
+}
+.accordion__description {
+  font-family: var(--body-font);
+  font-weight: var(--body-normal);
+  font-size: 0.9rem;
+  line-height: 1.6;
+  letter-spacing: normal;
+}
+.accordion__fields {
+  clear: both;
+  padding-top: 1rem;
+  display: none;
+}
+.accordion__fields--active {
+  display: block;
+}
+.accordion__field {
+  margin-top: 1rem;
+  font-family: var(--body-font);
+  font-weight: var(--body-normal);
+  font-size: 1rem;
+  line-height: 1.6;
+  letter-spacing: normal;
+  display: flex;
+  align-items: center;
+}
+.accordion__field:first-child {
+  margin-top: 0;
+}
+.accordion__input {
+  background-color: var(--fsa_tint);
+  appearance: none;
+  width: 1.5rem;
+  min-width: 1.5rem;
+  height: 1.5rem;
+  border: 1px solid var(--fsa-primary_black);
+  position: relative;
+  margin: 0;
+}
+.accordion__input::-ms-expand {
+  display: none;
+}
+.accordion__input:focus {
+  box-shadow: 0 0 0 0.167rem var(--fsa-primary_black), 0 0 0 0.333rem var(--fsa-tertiary_light-yellow);
+  outline: none;
+  border: none;
+}
+.accordion__input:checked {
+  background-color: var(--fsa-primary_dark-green);
+  background-image: url(./components/search/CollapsibleCheckbox/tick.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.accordion__label {
+  padding: 0 0 0 1rem;
+}
 /*!************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/components/search/FiltersSelected/filtersSelected.scss ***!
   \************************************************************************************************************************************************************************************************/
@@ -649,6 +820,7 @@ p + p {
   --fsa_tint: #fafcfd;
   /* Secondary Colours */
   --fsa-secondary_mid-red: #e31837;
+  --fsa-secondary_dark-blue: #165c7d;
   --fsa-secondary_orange: #f15d22;
   --fsa-secondary_mid-yellow: #fdb913;
   --fsa-secondary_mid-purple: #49176d;
@@ -792,6 +964,7 @@ p + p {
   --fsa_tint: #fafcfd;
   /* Secondary Colours */
   --fsa-secondary_mid-red: #e31837;
+  --fsa-secondary_dark-blue: #165c7d;
   --fsa-secondary_orange: #f15d22;
   --fsa-secondary_mid-yellow: #fdb913;
   --fsa-secondary_mid-purple: #49176d;
@@ -929,6 +1102,7 @@ p + p {
   --fsa_tint: #fafcfd;
   /* Secondary Colours */
   --fsa-secondary_mid-red: #e31837;
+  --fsa-secondary_dark-blue: #165c7d;
   --fsa-secondary_orange: #f15d22;
   --fsa-secondary_mid-yellow: #fdb913;
   --fsa-secondary_mid-purple: #49176d;
@@ -1133,6 +1307,7 @@ p + p {
   --fsa_tint: #fafcfd;
   /* Secondary Colours */
   --fsa-secondary_mid-red: #e31837;
+  --fsa-secondary_dark-blue: #165c7d;
   --fsa-secondary_orange: #f15d22;
   --fsa-secondary_mid-yellow: #fdb913;
   --fsa-secondary_mid-purple: #49176d;
@@ -1232,6 +1407,7 @@ p + p {
   --fsa_tint: #fafcfd;
   /* Secondary Colours */
   --fsa-secondary_mid-red: #e31837;
+  --fsa-secondary_dark-blue: #165c7d;
   --fsa-secondary_orange: #f15d22;
   --fsa-secondary_mid-yellow: #fdb913;
   --fsa-secondary_mid-purple: #49176d;
@@ -1339,6 +1515,7 @@ p + p {
   --fsa_tint: #fafcfd;
   /* Secondary Colours */
   --fsa-secondary_mid-red: #e31837;
+  --fsa-secondary_dark-blue: #165c7d;
   --fsa-secondary_orange: #f15d22;
   --fsa-secondary_mid-yellow: #fdb913;
   --fsa-secondary_mid-purple: #49176d;
@@ -1413,6 +1590,7 @@ p + p {
   --fsa_tint: #fafcfd;
   /* Secondary Colours */
   --fsa-secondary_mid-red: #e31837;
+  --fsa-secondary_dark-blue: #165c7d;
   --fsa-secondary_orange: #f15d22;
   --fsa-secondary_mid-yellow: #fdb913;
   --fsa-secondary_mid-purple: #49176d;
@@ -1480,380 +1658,6 @@ p + p {
   box-shadow: inset 0 0 0px 2px var(--fsa-primary_black);
   outline: solid 3px var(--fsa-tertiary_light-yellow);
 }
-/*!********************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/components/search/CollapsibleCheckbox/collapsibleCheckbox.scss ***!
-  \********************************************************************************************************************************************************************************************************/
-@import url(https://fonts.googleapis.com/css?family=Fira+Sans:300,400,500,700);
-/*!************************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/components/search/CollapsibleCheckbox/collapsibleCheckbox.scss (1) ***!
-  \************************************************************************************************************************************************************************************************************/
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700);
-/*!************************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/components/search/CollapsibleCheckbox/collapsibleCheckbox.scss (2) ***!
-  \************************************************************************************************************************************************************************************************************/
-:root {
-  /* Primary Colours */
-  --fsa-primary_dark-green: #007c75;
-  --fsa-primary_mid-green: #6cb33f;
-  --fsa-primary_light-green: #a9c47f;
-  --fsa-primary_dark-grey: #53565a;
-  --fsa_online-grey: #f0f3f5;
-  --fsa_border: #dee2e5;
-  --fsa-primary_black: #000000;
-  --fsa-primary_white: #ffffff;
-  --fsa_tint: #fafcfd;
-  /* Secondary Colours */
-  --fsa-secondary_mid-red: #e31837;
-  --fsa-secondary_orange: #f15d22;
-  --fsa-secondary_mid-yellow: #fdb913;
-  --fsa-secondary_mid-purple: #49176d;
-  --fsa-secondary_light-purple: #9f218b;
-  --fsa-tertiary_dark-blue: #9f218b;
-  --fsa-secondary-error-red: #e60f31;
-  --fsa-secondary-error-hover: #b0132b;
-  /* Tertiary Colours */
-  --fsa-tertiary_dark-red: #b04a5a;
-  --fsa-tertiary_light-red: #ef3340;
-  --fsa-tertiary_light-yellow: #f1c400;
-  --fsa-tertiary_teal: #00b2a9;
-  --fsa-tertiary_light-blue: #8dc8e8;
-  --fsa-tertiary_dark-purple: #51284f;
-  --fsa-secondary_mid-blue: #007fb2;
-  --fsa-tertiary_lime: #cedc00;
-  --fsa-tertiary_mauve: #8b84d7;
-  /* Hover Colours */
-  --fsa__link-green: #014b4c;
-  --fsa__purple-hover: #2a0247;
-  /* Typography */
-  --body-font: "Open Sans", sans-serif;
-  --body-normal: 400;
-  --body-bold: 600;
-  --heading-font: "Fira Sans", sans-serif;
-  --heading-bold: 700;
-  /* Grid */
-  --container-mobile: 1rem;
-  --container: 2rem;
-  --gutter: 1rem;
-  --max-width: 1336px;
-}
-
-/* Grid */
-/* Custom Mixins */
-/* Mixin for checkbox and radio button style */
-/* Used for Style guide pages */
-.accordion {
-  border: none;
-  border-top: 4px solid var(--fsa_border);
-  padding: 0;
-  margin: 2rem 0 0;
-}
-.accordion--hidden {
-  display: none;
-}
-.accordion__legend {
-  font-family: var(--body-font);
-  font-size: 1rem;
-  font-weight: var(--body-bold);
-  line-height: 1.6;
-  letter-spacing: normal;
-  margin: 0;
-  padding: 0;
-  float: left;
-  width: 100%;
-  font-weight: 700;
-}
-.accordion__button {
-  border: none;
-  background: none;
-  font: inherit;
-  margin: 0;
-  padding: 0.5rem 0 0;
-  cursor: pointer;
-  width: 100%;
-  text-align: left;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-.accordion__button:focus {
-  outline: none;
-}
-.accordion__button:focus .accordion__title-text {
-  background: var(--fsa-tertiary_light-yellow);
-  border-bottom: 2px solid var(--fsa-primary_black);
-}
-.accordion__button::after {
-  content: url(./components/search/CollapsibleCheckbox/arrow.svg);
-  transform: none;
-}
-.accordion__button--expanded::after {
-  transform: rotate(180deg);
-}
-.accordion__title-text {
-  border-bottom: 2px solid transparent;
-}
-.accordion__description {
-  font-family: var(--body-font);
-  font-weight: var(--body-normal);
-  font-size: 0.9rem;
-  line-height: 1.6;
-  letter-spacing: normal;
-}
-.accordion__fields {
-  clear: both;
-  padding-top: 1rem;
-  display: none;
-}
-.accordion__fields--active {
-  display: block;
-}
-.accordion__field {
-  margin-top: 1rem;
-  font-family: var(--body-font);
-  font-weight: var(--body-normal);
-  font-size: 1rem;
-  line-height: 1.6;
-  letter-spacing: normal;
-  display: flex;
-  align-items: center;
-}
-.accordion__field:first-child {
-  margin-top: 0;
-}
-.accordion__input {
-  background-color: var(--fsa_tint);
-  appearance: none;
-  width: 1.5rem;
-  min-width: 1.5rem;
-  height: 1.5rem;
-  border: 1px solid var(--fsa-primary_black);
-  position: relative;
-  margin: 0;
-}
-.accordion__input::-ms-expand {
-  display: none;
-}
-.accordion__input:focus {
-  box-shadow: 0 0 0 0.167rem var(--fsa-primary_black), 0 0 0 0.333rem var(--fsa-tertiary_light-yellow);
-  outline: none;
-  border: none;
-}
-.accordion__input:checked {
-  background-color: var(--fsa-primary_dark-green);
-  background-image: url(./components/search/CollapsibleCheckbox/tick.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-}
-.accordion__label {
-  padding: 0 0 0 1rem;
-}
-/*!********************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/components/form/ErrorBox/errorBox.scss ***!
-  \********************************************************************************************************************************************************************************/
-@import url(https://fonts.googleapis.com/css?family=Fira+Sans:300,400,500,700);
-/*!************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/components/form/ErrorBox/errorBox.scss (1) ***!
-  \************************************************************************************************************************************************************************************/
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700);
-/*!************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/components/form/ErrorBox/errorBox.scss (2) ***!
-  \************************************************************************************************************************************************************************************/
-:root {
-  /* Primary Colours */
-  --fsa-primary_dark-green: #007c75;
-  --fsa-primary_mid-green: #6cb33f;
-  --fsa-primary_light-green: #a9c47f;
-  --fsa-primary_dark-grey: #53565a;
-  --fsa_online-grey: #f0f3f5;
-  --fsa_border: #dee2e5;
-  --fsa-primary_black: #000000;
-  --fsa-primary_white: #ffffff;
-  --fsa_tint: #fafcfd;
-  /* Secondary Colours */
-  --fsa-secondary_mid-red: #e31837;
-  --fsa-secondary_orange: #f15d22;
-  --fsa-secondary_mid-yellow: #fdb913;
-  --fsa-secondary_mid-purple: #49176d;
-  --fsa-secondary_light-purple: #9f218b;
-  --fsa-tertiary_dark-blue: #9f218b;
-  --fsa-secondary-error-red: #e60f31;
-  --fsa-secondary-error-hover: #b0132b;
-  /* Tertiary Colours */
-  --fsa-tertiary_dark-red: #b04a5a;
-  --fsa-tertiary_light-red: #ef3340;
-  --fsa-tertiary_light-yellow: #f1c400;
-  --fsa-tertiary_teal: #00b2a9;
-  --fsa-tertiary_light-blue: #8dc8e8;
-  --fsa-tertiary_dark-purple: #51284f;
-  --fsa-secondary_mid-blue: #007fb2;
-  --fsa-tertiary_lime: #cedc00;
-  --fsa-tertiary_mauve: #8b84d7;
-  /* Hover Colours */
-  --fsa__link-green: #014b4c;
-  --fsa__purple-hover: #2a0247;
-  /* Typography */
-  --body-font: "Open Sans", sans-serif;
-  --body-normal: 400;
-  --body-bold: 600;
-  --heading-font: "Fira Sans", sans-serif;
-  --heading-bold: 700;
-  /* Grid */
-  --container-mobile: 1rem;
-  --container: 2rem;
-  --gutter: 1rem;
-  --max-width: 1336px;
-}
-
-/* Grid */
-/* Custom Mixins */
-/* Mixin for checkbox and radio button style */
-/* Used for Style guide pages */
-.error-box {
-  margin: 2rem -0.75rem 0;
-}
-@media screen and (min-width: 768px) {
-  .error-box {
-    margin: 2rem -1.25rem 0;
-  }
-}
-.error-box__container {
-  width: 100%;
-  margin: 0 auto;
-  padding-left: 1rem;
-  padding-right: 1rem;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  border: 0.25rem solid var(--fsa-secondary-error-red);
-  padding: 0 0.5rem 2rem;
-}
-@media screen and (min-width: 768px) {
-  .error-box__container {
-    padding-left: 2rem;
-    padding-right: 2rem;
-    width: 100%;
-    max-width: calc(1300px + (2 * 2rem));
-  }
-}
-@media screen and (min-width: 768px) {
-  .error-box__container {
-    padding: 0 1rem 2rem;
-  }
-}
-.error-box__title {
-  color: var(--fsa-primary_black);
-  margin: 2rem 0 1rem;
-}
-.error-box__label {
-  font-family: var(--body-font);
-  font-weight: var(--body-normal);
-  font-size: 1rem;
-  line-height: 1.6;
-  letter-spacing: normal;
-  margin-top: 1rem;
-  margin-bottom: 0;
-}
-.error-box__field {
-  font-family: var(--heading-font);
-  font-size: 1.18rem;
-  font-weight: var(--heading-bold);
-  line-height: 1.4;
-  letter-spacing: normal;
-  color: var(--fsa-secondary-error-red);
-  text-decoration: underline;
-  margin-top: 0.5rem;
-  display: block;
-}
-@media screen and (min-width: 1024px) {
-  .error-box__field {
-    font-size: 1.2rem;
-  }
-}
-.error-box__field:hover {
-  color: var(--fsa-secondary-error-hover);
-}
-.error-box__field:focus {
-  color: var(--fsa-primary_black);
-  outline: none;
-  text-decoration: none;
-  background-color: var(--fsa-tertiary_light-yellow);
-  border-bottom: 0.25rem solid var(--fsa-primary_black);
-  margin-bottom: -0.25rem;
-}
-/*!****************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/components/form/TitleAndText/titleAndText.scss ***!
-  \****************************************************************************************************************************************************************************************/
-@import url(https://fonts.googleapis.com/css?family=Fira+Sans:300,400,500,700);
-/*!********************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/components/form/TitleAndText/titleAndText.scss (1) ***!
-  \********************************************************************************************************************************************************************************************/
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700);
-/*!********************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/components/form/TitleAndText/titleAndText.scss (2) ***!
-  \********************************************************************************************************************************************************************************************/
-:root {
-  /* Primary Colours */
-  --fsa-primary_dark-green: #007c75;
-  --fsa-primary_mid-green: #6cb33f;
-  --fsa-primary_light-green: #a9c47f;
-  --fsa-primary_dark-grey: #53565a;
-  --fsa_online-grey: #f0f3f5;
-  --fsa_border: #dee2e5;
-  --fsa-primary_black: #000000;
-  --fsa-primary_white: #ffffff;
-  --fsa_tint: #fafcfd;
-  /* Secondary Colours */
-  --fsa-secondary_mid-red: #e31837;
-  --fsa-secondary_orange: #f15d22;
-  --fsa-secondary_mid-yellow: #fdb913;
-  --fsa-secondary_mid-purple: #49176d;
-  --fsa-secondary_light-purple: #9f218b;
-  --fsa-tertiary_dark-blue: #9f218b;
-  --fsa-secondary-error-red: #e60f31;
-  --fsa-secondary-error-hover: #b0132b;
-  /* Tertiary Colours */
-  --fsa-tertiary_dark-red: #b04a5a;
-  --fsa-tertiary_light-red: #ef3340;
-  --fsa-tertiary_light-yellow: #f1c400;
-  --fsa-tertiary_teal: #00b2a9;
-  --fsa-tertiary_light-blue: #8dc8e8;
-  --fsa-tertiary_dark-purple: #51284f;
-  --fsa-secondary_mid-blue: #007fb2;
-  --fsa-tertiary_lime: #cedc00;
-  --fsa-tertiary_mauve: #8b84d7;
-  /* Hover Colours */
-  --fsa__link-green: #014b4c;
-  --fsa__purple-hover: #2a0247;
-  /* Typography */
-  --body-font: "Open Sans", sans-serif;
-  --body-normal: 400;
-  --body-bold: 600;
-  --heading-font: "Fira Sans", sans-serif;
-  --heading-bold: 700;
-  /* Grid */
-  --container-mobile: 1rem;
-  --container: 2rem;
-  --gutter: 1rem;
-  --max-width: 1336px;
-}
-
-/* Grid */
-/* Custom Mixins */
-/* Mixin for checkbox and radio button style */
-/* Used for Style guide pages */
-.form-title {
-  margin: 2rem 0 0 0;
-}
-
-.form-description {
-  font-family: var(--body-font);
-  font-weight: var(--body-normal);
-  font-size: 1rem;
-  line-height: 1.6;
-  letter-spacing: normal;
-  color: var(--fsa-primary_black);
-  margin: 1rem 0 0 0;
-}
 /*!********************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/components/form/Checkbox/checkbox.scss ***!
   \********************************************************************************************************************************************************************************/
@@ -1878,6 +1682,7 @@ p + p {
   --fsa_tint: #fafcfd;
   /* Secondary Colours */
   --fsa-secondary_mid-red: #e31837;
+  --fsa-secondary_dark-blue: #165c7d;
   --fsa-secondary_orange: #f15d22;
   --fsa-secondary_mid-yellow: #fdb913;
   --fsa-secondary_mid-purple: #49176d;
@@ -2009,6 +1814,573 @@ p + p {
 .checkbox--error .checkbox__legend {
   color: var(--fsa-secondary_mid-red);
 }
+/*!********************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/components/form/ErrorBox/errorBox.scss ***!
+  \********************************************************************************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css?family=Fira+Sans:300,400,500,700);
+/*!************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/components/form/ErrorBox/errorBox.scss (1) ***!
+  \************************************************************************************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700);
+/*!************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/components/form/ErrorBox/errorBox.scss (2) ***!
+  \************************************************************************************************************************************************************************************/
+:root {
+  /* Primary Colours */
+  --fsa-primary_dark-green: #007c75;
+  --fsa-primary_mid-green: #6cb33f;
+  --fsa-primary_light-green: #a9c47f;
+  --fsa-primary_dark-grey: #53565a;
+  --fsa_online-grey: #f0f3f5;
+  --fsa_border: #dee2e5;
+  --fsa-primary_black: #000000;
+  --fsa-primary_white: #ffffff;
+  --fsa_tint: #fafcfd;
+  /* Secondary Colours */
+  --fsa-secondary_mid-red: #e31837;
+  --fsa-secondary_dark-blue: #165c7d;
+  --fsa-secondary_orange: #f15d22;
+  --fsa-secondary_mid-yellow: #fdb913;
+  --fsa-secondary_mid-purple: #49176d;
+  --fsa-secondary_light-purple: #9f218b;
+  --fsa-tertiary_dark-blue: #9f218b;
+  --fsa-secondary-error-red: #e60f31;
+  --fsa-secondary-error-hover: #b0132b;
+  /* Tertiary Colours */
+  --fsa-tertiary_dark-red: #b04a5a;
+  --fsa-tertiary_light-red: #ef3340;
+  --fsa-tertiary_light-yellow: #f1c400;
+  --fsa-tertiary_teal: #00b2a9;
+  --fsa-tertiary_light-blue: #8dc8e8;
+  --fsa-tertiary_dark-purple: #51284f;
+  --fsa-secondary_mid-blue: #007fb2;
+  --fsa-tertiary_lime: #cedc00;
+  --fsa-tertiary_mauve: #8b84d7;
+  /* Hover Colours */
+  --fsa__link-green: #014b4c;
+  --fsa__purple-hover: #2a0247;
+  /* Typography */
+  --body-font: "Open Sans", sans-serif;
+  --body-normal: 400;
+  --body-bold: 600;
+  --heading-font: "Fira Sans", sans-serif;
+  --heading-bold: 700;
+  /* Grid */
+  --container-mobile: 1rem;
+  --container: 2rem;
+  --gutter: 1rem;
+  --max-width: 1336px;
+}
+
+/* Grid */
+/* Custom Mixins */
+/* Mixin for checkbox and radio button style */
+/* Used for Style guide pages */
+.error-box {
+  margin: 2rem -0.75rem 0;
+}
+@media screen and (min-width: 768px) {
+  .error-box {
+    margin: 2rem -1.25rem 0;
+  }
+}
+.error-box__container {
+  width: 100%;
+  margin: 0 auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  border: 0.25rem solid var(--fsa-secondary-error-red);
+  padding: 0 0.5rem 2rem;
+}
+@media screen and (min-width: 768px) {
+  .error-box__container {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    width: 100%;
+    max-width: calc(1300px + (2 * 2rem));
+  }
+}
+@media screen and (min-width: 768px) {
+  .error-box__container {
+    padding: 0 1rem 2rem;
+  }
+}
+.error-box__title {
+  color: var(--fsa-primary_black);
+  margin: 2rem 0 1rem;
+}
+.error-box__label {
+  font-family: var(--body-font);
+  font-weight: var(--body-normal);
+  font-size: 1rem;
+  line-height: 1.6;
+  letter-spacing: normal;
+  margin-top: 1rem;
+  margin-bottom: 0;
+}
+.error-box__field {
+  font-family: var(--heading-font);
+  font-size: 1.18rem;
+  font-weight: var(--heading-bold);
+  line-height: 1.4;
+  letter-spacing: normal;
+  color: var(--fsa-secondary-error-red);
+  text-decoration: underline;
+  margin-top: 0.5rem;
+  display: block;
+}
+@media screen and (min-width: 1024px) {
+  .error-box__field {
+    font-size: 1.2rem;
+  }
+}
+.error-box__field:hover {
+  color: var(--fsa-secondary-error-hover);
+}
+.error-box__field:focus {
+  color: var(--fsa-primary_black);
+  outline: none;
+  text-decoration: none;
+  background-color: var(--fsa-tertiary_light-yellow);
+  border-bottom: 0.25rem solid var(--fsa-primary_black);
+  margin-bottom: -0.25rem;
+}
+/*!****************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/components/form/ExternalLink/externalLink.scss ***!
+  \****************************************************************************************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css?family=Fira+Sans:300,400,500,700);
+/*!********************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/components/form/ExternalLink/externalLink.scss (1) ***!
+  \********************************************************************************************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700);
+/*!********************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/components/form/ExternalLink/externalLink.scss (2) ***!
+  \********************************************************************************************************************************************************************************************/
+:root {
+  /* Primary Colours */
+  --fsa-primary_dark-green: #007c75;
+  --fsa-primary_mid-green: #6cb33f;
+  --fsa-primary_light-green: #a9c47f;
+  --fsa-primary_dark-grey: #53565a;
+  --fsa_online-grey: #f0f3f5;
+  --fsa_border: #dee2e5;
+  --fsa-primary_black: #000000;
+  --fsa-primary_white: #ffffff;
+  --fsa_tint: #fafcfd;
+  /* Secondary Colours */
+  --fsa-secondary_mid-red: #e31837;
+  --fsa-secondary_dark-blue: #165c7d;
+  --fsa-secondary_orange: #f15d22;
+  --fsa-secondary_mid-yellow: #fdb913;
+  --fsa-secondary_mid-purple: #49176d;
+  --fsa-secondary_light-purple: #9f218b;
+  --fsa-tertiary_dark-blue: #9f218b;
+  --fsa-secondary-error-red: #e60f31;
+  --fsa-secondary-error-hover: #b0132b;
+  /* Tertiary Colours */
+  --fsa-tertiary_dark-red: #b04a5a;
+  --fsa-tertiary_light-red: #ef3340;
+  --fsa-tertiary_light-yellow: #f1c400;
+  --fsa-tertiary_teal: #00b2a9;
+  --fsa-tertiary_light-blue: #8dc8e8;
+  --fsa-tertiary_dark-purple: #51284f;
+  --fsa-secondary_mid-blue: #007fb2;
+  --fsa-tertiary_lime: #cedc00;
+  --fsa-tertiary_mauve: #8b84d7;
+  /* Hover Colours */
+  --fsa__link-green: #014b4c;
+  --fsa__purple-hover: #2a0247;
+  /* Typography */
+  --body-font: "Open Sans", sans-serif;
+  --body-normal: 400;
+  --body-bold: 600;
+  --heading-font: "Fira Sans", sans-serif;
+  --heading-bold: 700;
+  /* Grid */
+  --container-mobile: 1rem;
+  --container: 2rem;
+  --gutter: 1rem;
+  --max-width: 1336px;
+}
+
+/* Grid */
+/* Custom Mixins */
+/* Mixin for checkbox and radio button style */
+/* Used for Style guide pages */
+.external-link {
+  color: var(--fsa-primary_dark-green);
+  text-decoration: underline;
+  padding-right: 1.25rem;
+  position: relative;
+}
+.external-link:hover {
+  color: var(--fsa__link-green);
+}
+.external-link:focus {
+  color: var(--fsa-primary_black);
+  outline: none;
+  text-decoration: none;
+  background-color: var(--fsa-tertiary_light-yellow);
+  border-bottom: 0.25rem solid var(--fsa-primary_black);
+  margin-bottom: -0.25rem;
+}
+.external-link::after {
+  content: "";
+  background-image: url(./components/form/ExternalLink/external.svg);
+  display: inline-block;
+  width: 0.85rem;
+  height: 0.85rem;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  right: 0;
+  top: 0.15rem;
+}
+/*!************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/components/form/InputField/inputField.scss ***!
+  \************************************************************************************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css?family=Fira+Sans:300,400,500,700);
+/*!****************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/components/form/InputField/inputField.scss (1) ***!
+  \****************************************************************************************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700);
+/*!****************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/components/form/InputField/inputField.scss (2) ***!
+  \****************************************************************************************************************************************************************************************/
+:root {
+  /* Primary Colours */
+  --fsa-primary_dark-green: #007c75;
+  --fsa-primary_mid-green: #6cb33f;
+  --fsa-primary_light-green: #a9c47f;
+  --fsa-primary_dark-grey: #53565a;
+  --fsa_online-grey: #f0f3f5;
+  --fsa_border: #dee2e5;
+  --fsa-primary_black: #000000;
+  --fsa-primary_white: #ffffff;
+  --fsa_tint: #fafcfd;
+  /* Secondary Colours */
+  --fsa-secondary_mid-red: #e31837;
+  --fsa-secondary_dark-blue: #165c7d;
+  --fsa-secondary_orange: #f15d22;
+  --fsa-secondary_mid-yellow: #fdb913;
+  --fsa-secondary_mid-purple: #49176d;
+  --fsa-secondary_light-purple: #9f218b;
+  --fsa-tertiary_dark-blue: #9f218b;
+  --fsa-secondary-error-red: #e60f31;
+  --fsa-secondary-error-hover: #b0132b;
+  /* Tertiary Colours */
+  --fsa-tertiary_dark-red: #b04a5a;
+  --fsa-tertiary_light-red: #ef3340;
+  --fsa-tertiary_light-yellow: #f1c400;
+  --fsa-tertiary_teal: #00b2a9;
+  --fsa-tertiary_light-blue: #8dc8e8;
+  --fsa-tertiary_dark-purple: #51284f;
+  --fsa-secondary_mid-blue: #007fb2;
+  --fsa-tertiary_lime: #cedc00;
+  --fsa-tertiary_mauve: #8b84d7;
+  /* Hover Colours */
+  --fsa__link-green: #014b4c;
+  --fsa__purple-hover: #2a0247;
+  /* Typography */
+  --body-font: "Open Sans", sans-serif;
+  --body-normal: 400;
+  --body-bold: 600;
+  --heading-font: "Fira Sans", sans-serif;
+  --heading-bold: 700;
+  /* Grid */
+  --container-mobile: 1rem;
+  --container: 2rem;
+  --gutter: 1rem;
+  --max-width: 1336px;
+}
+
+/* Grid */
+/* Custom Mixins */
+/* Mixin for checkbox and radio button style */
+/* Used for Style guide pages */
+.input-field {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+.input-field__label {
+  font-family: var(--heading-font);
+  font-size: 1.18rem;
+  font-weight: var(--heading-bold);
+  line-height: 1.4;
+  letter-spacing: normal;
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+}
+@media screen and (min-width: 1024px) {
+  .input-field__label {
+    font-size: 1.2rem;
+  }
+}
+.input-field__required {
+  font-family: var(--body-font);
+  font-weight: var(--body-normal);
+  font-size: 0.9rem;
+  line-height: 1.6;
+  letter-spacing: normal;
+  font-weight: normal;
+  margin-left: 1rem;
+  font-weight: inherit;
+}
+.input-field__input {
+  background-color: var(--fsa_online-grey);
+  border: solid 1px var(--fsa-primary_dark-grey);
+  margin-top: 0.5rem;
+  padding: 0.85rem 1rem;
+}
+@media screen and (min-width: 500px) {
+  .input-field__input {
+    padding: 0.75rem 1rem;
+  }
+}
+.input-field__input:focus {
+  border: 2px solid var(--fsa-primary_black);
+  box-shadow: inset 0 0 0 2px;
+  outline: 0.25rem solid var(--fsa-tertiary_light-yellow);
+  outline-offset: 0;
+}
+.input-field__caption {
+  font-family: var(--body-font);
+  font-weight: var(--body-normal);
+  font-size: 0.9rem;
+  line-height: 1.6;
+  letter-spacing: normal;
+  color: var(--fsa-primary_dark-grey);
+  margin-top: 0.5rem;
+}
+.input-field--error {
+  margin-left: -1.25rem;
+  border-left: 0.25rem solid var(--fsa-secondary_mid-red);
+  margin-left: -0.75rem;
+  padding-left: 0.5rem;
+}
+@media screen and (min-width: 768px) {
+  .input-field--error {
+    margin-left: -1.25rem;
+    padding-left: 1rem;
+  }
+}
+.input-field--error .input-field__label {
+  color: var(--fsa-secondary_mid-red);
+}
+.input-field--error .input-field__required {
+  color: var(--fsa-primary_black);
+}
+.input-field--error .input-field__input {
+  border: 0.25rem solid var(--fsa-secondary_mid-red);
+}
+.input-field--error .input-field__input:focus {
+  border: 2px solid var(--fsa-primary_black);
+  box-shadow: inset 0 0 0 2px;
+  outline: 0.25rem solid var(--fsa-tertiary_light-yellow);
+  outline-offset: 0;
+}
+.input-field__error-message {
+  margin-top: 0.5rem;
+}
+/*!************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/components/form/MessageBox/messageBox.scss ***!
+  \************************************************************************************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css?family=Fira+Sans:300,400,500,700);
+/*!****************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/components/form/MessageBox/messageBox.scss (1) ***!
+  \****************************************************************************************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700);
+/*!****************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/components/form/MessageBox/messageBox.scss (2) ***!
+  \****************************************************************************************************************************************************************************************/
+:root {
+  /* Primary Colours */
+  --fsa-primary_dark-green: #007c75;
+  --fsa-primary_mid-green: #6cb33f;
+  --fsa-primary_light-green: #a9c47f;
+  --fsa-primary_dark-grey: #53565a;
+  --fsa_online-grey: #f0f3f5;
+  --fsa_border: #dee2e5;
+  --fsa-primary_black: #000000;
+  --fsa-primary_white: #ffffff;
+  --fsa_tint: #fafcfd;
+  /* Secondary Colours */
+  --fsa-secondary_mid-red: #e31837;
+  --fsa-secondary_dark-blue: #165c7d;
+  --fsa-secondary_orange: #f15d22;
+  --fsa-secondary_mid-yellow: #fdb913;
+  --fsa-secondary_mid-purple: #49176d;
+  --fsa-secondary_light-purple: #9f218b;
+  --fsa-tertiary_dark-blue: #9f218b;
+  --fsa-secondary-error-red: #e60f31;
+  --fsa-secondary-error-hover: #b0132b;
+  /* Tertiary Colours */
+  --fsa-tertiary_dark-red: #b04a5a;
+  --fsa-tertiary_light-red: #ef3340;
+  --fsa-tertiary_light-yellow: #f1c400;
+  --fsa-tertiary_teal: #00b2a9;
+  --fsa-tertiary_light-blue: #8dc8e8;
+  --fsa-tertiary_dark-purple: #51284f;
+  --fsa-secondary_mid-blue: #007fb2;
+  --fsa-tertiary_lime: #cedc00;
+  --fsa-tertiary_mauve: #8b84d7;
+  /* Hover Colours */
+  --fsa__link-green: #014b4c;
+  --fsa__purple-hover: #2a0247;
+  /* Typography */
+  --body-font: "Open Sans", sans-serif;
+  --body-normal: 400;
+  --body-bold: 600;
+  --heading-font: "Fira Sans", sans-serif;
+  --heading-bold: 700;
+  /* Grid */
+  --container-mobile: 1rem;
+  --container: 2rem;
+  --gutter: 1rem;
+  --max-width: 1336px;
+}
+
+/* Grid */
+/* Custom Mixins */
+/* Mixin for checkbox and radio button style */
+/* Used for Style guide pages */
+.message-box {
+  margin-top: 2rem;
+}
+.message-box__container {
+  border-radius: 0.25rem;
+  box-shadow: 0 0.25rem 1rem 0 rgba(41, 41, 41, 0.15);
+  background-color: var(--fsa-primary_white);
+}
+.message-box__container--status {
+  border-left: 0.25rem solid var(--fsa-primary_mid-green);
+}
+.message-box__container--status p {
+  background-image: url(./components/form/MessageBox/success.svg);
+}
+.message-box__container--error {
+  border-left: 0.25rem solid var(--fsa-secondary_mid-red);
+}
+.message-box__container--error p {
+  background-image: url(./components/form/MessageBox/error.svg);
+}
+.message-box__container--warning {
+  border-left: 0.25rem solid var(--fsa-secondary_mid-yellow);
+}
+.message-box__container--warning p {
+  background-image: url(./components/form/MessageBox/warning.svg);
+}
+.message-box__text {
+  padding: 1rem 1rem 1rem 3rem;
+  background-repeat: no-repeat;
+  background-size: 1rem;
+  background-position: left 1rem top 1.25rem;
+}
+/*!**************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/components/form/MultistepFunction/multistepFunction.scss ***!
+  \**************************************************************************************************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css?family=Fira+Sans:300,400,500,700);
+/*!******************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/components/form/MultistepFunction/multistepFunction.scss (1) ***!
+  \******************************************************************************************************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700);
+/*!******************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/components/form/MultistepFunction/multistepFunction.scss (2) ***!
+  \******************************************************************************************************************************************************************************************************/
+:root {
+  /* Primary Colours */
+  --fsa-primary_dark-green: #007c75;
+  --fsa-primary_mid-green: #6cb33f;
+  --fsa-primary_light-green: #a9c47f;
+  --fsa-primary_dark-grey: #53565a;
+  --fsa_online-grey: #f0f3f5;
+  --fsa_border: #dee2e5;
+  --fsa-primary_black: #000000;
+  --fsa-primary_white: #ffffff;
+  --fsa_tint: #fafcfd;
+  /* Secondary Colours */
+  --fsa-secondary_mid-red: #e31837;
+  --fsa-secondary_dark-blue: #165c7d;
+  --fsa-secondary_orange: #f15d22;
+  --fsa-secondary_mid-yellow: #fdb913;
+  --fsa-secondary_mid-purple: #49176d;
+  --fsa-secondary_light-purple: #9f218b;
+  --fsa-tertiary_dark-blue: #9f218b;
+  --fsa-secondary-error-red: #e60f31;
+  --fsa-secondary-error-hover: #b0132b;
+  /* Tertiary Colours */
+  --fsa-tertiary_dark-red: #b04a5a;
+  --fsa-tertiary_light-red: #ef3340;
+  --fsa-tertiary_light-yellow: #f1c400;
+  --fsa-tertiary_teal: #00b2a9;
+  --fsa-tertiary_light-blue: #8dc8e8;
+  --fsa-tertiary_dark-purple: #51284f;
+  --fsa-secondary_mid-blue: #007fb2;
+  --fsa-tertiary_lime: #cedc00;
+  --fsa-tertiary_mauve: #8b84d7;
+  /* Hover Colours */
+  --fsa__link-green: #014b4c;
+  --fsa__purple-hover: #2a0247;
+  /* Typography */
+  --body-font: "Open Sans", sans-serif;
+  --body-normal: 400;
+  --body-bold: 600;
+  --heading-font: "Fira Sans", sans-serif;
+  --heading-bold: 700;
+  /* Grid */
+  --container-mobile: 1rem;
+  --container: 2rem;
+  --gutter: 1rem;
+  --max-width: 1336px;
+}
+
+/* Grid */
+/* Custom Mixins */
+/* Mixin for checkbox and radio button style */
+/* Used for Style guide pages */
+.multistep-function {
+  margin-top: 2rem;
+}
+.multistep-function__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.multistep-function__previous {
+  color: var(--fsa-primary_dark-green);
+  text-decoration: underline;
+  padding: 0.5rem 0;
+  background-image: url(./components/form/MultistepFunction/previous-arrow.svg);
+  background-position: left 0 top 50%;
+  background-size: 1.6rem 1rem;
+  background-repeat: no-repeat;
+  padding-left: 2rem;
+}
+.multistep-function__previous:hover {
+  color: var(--fsa__link-green);
+}
+.multistep-function__previous:focus {
+  color: var(--fsa-primary_black);
+  outline: none;
+  text-decoration: none;
+  background-color: var(--fsa-tertiary_light-yellow);
+  border-bottom: 0.25rem solid var(--fsa-primary_black);
+  margin-bottom: -0.25rem;
+}
+@media screen and (min-width: 500px) {
+  .multistep-function__previous {
+    margin-left: 0;
+  }
+}
+
+.button {
+  margin-left: auto;
+}
 /*!**************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/components/form/Radio/radio.scss ***!
   \**************************************************************************************************************************************************************************/
@@ -2033,6 +2405,7 @@ p + p {
   --fsa_tint: #fafcfd;
   /* Secondary Colours */
   --fsa-secondary_mid-red: #e31837;
+  --fsa-secondary_dark-blue: #165c7d;
   --fsa-secondary_orange: #f15d22;
   --fsa-secondary_mid-yellow: #fdb913;
   --fsa-secondary_mid-purple: #49176d;
@@ -2173,6 +2546,227 @@ p + p {
 .radio--error .radio__legend {
   color: var(--fsa-secondary_mid-red);
 }
+/*!************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/components/form/Tabs/tabs.scss ***!
+  \************************************************************************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css?family=Fira+Sans:300,400,500,700);
+/*!****************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/components/form/Tabs/tabs.scss (1) ***!
+  \****************************************************************************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700);
+/*!****************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/components/form/Tabs/tabs.scss (2) ***!
+  \****************************************************************************************************************************************************************************/
+:root {
+  /* Primary Colours */
+  --fsa-primary_dark-green: #007c75;
+  --fsa-primary_mid-green: #6cb33f;
+  --fsa-primary_light-green: #a9c47f;
+  --fsa-primary_dark-grey: #53565a;
+  --fsa_online-grey: #f0f3f5;
+  --fsa_border: #dee2e5;
+  --fsa-primary_black: #000000;
+  --fsa-primary_white: #ffffff;
+  --fsa_tint: #fafcfd;
+  /* Secondary Colours */
+  --fsa-secondary_mid-red: #e31837;
+  --fsa-secondary_dark-blue: #165c7d;
+  --fsa-secondary_orange: #f15d22;
+  --fsa-secondary_mid-yellow: #fdb913;
+  --fsa-secondary_mid-purple: #49176d;
+  --fsa-secondary_light-purple: #9f218b;
+  --fsa-tertiary_dark-blue: #9f218b;
+  --fsa-secondary-error-red: #e60f31;
+  --fsa-secondary-error-hover: #b0132b;
+  /* Tertiary Colours */
+  --fsa-tertiary_dark-red: #b04a5a;
+  --fsa-tertiary_light-red: #ef3340;
+  --fsa-tertiary_light-yellow: #f1c400;
+  --fsa-tertiary_teal: #00b2a9;
+  --fsa-tertiary_light-blue: #8dc8e8;
+  --fsa-tertiary_dark-purple: #51284f;
+  --fsa-secondary_mid-blue: #007fb2;
+  --fsa-tertiary_lime: #cedc00;
+  --fsa-tertiary_mauve: #8b84d7;
+  /* Hover Colours */
+  --fsa__link-green: #014b4c;
+  --fsa__purple-hover: #2a0247;
+  /* Typography */
+  --body-font: "Open Sans", sans-serif;
+  --body-normal: 400;
+  --body-bold: 600;
+  --heading-font: "Fira Sans", sans-serif;
+  --heading-bold: 700;
+  /* Grid */
+  --container-mobile: 1rem;
+  --container: 2rem;
+  --gutter: 1rem;
+  --max-width: 1336px;
+}
+
+/* Grid */
+/* Custom Mixins */
+/* Mixin for checkbox and radio button style */
+/* Used for Style guide pages */
+.tabs {
+  margin: 2.75rem 0 0;
+}
+.tabs__list {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid var(--fsa-primary_black);
+  align-items: center;
+}
+@media screen and (min-width: 768px) {
+  .tabs__list {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+.tabs__element {
+  position: relative;
+  font-weight: bold;
+}
+.tabs__element a {
+  color: var(--fsa-primary_dark-green);
+  text-decoration: underline;
+  text-decoration: none;
+  padding-bottom: 1rem;
+  display: block;
+}
+.tabs__element a:hover {
+  color: var(--fsa__link-green);
+}
+.tabs__element a:focus {
+  color: var(--fsa-primary_black);
+  outline: none;
+  text-decoration: none;
+  background-color: var(--fsa-tertiary_light-yellow);
+  border-bottom: 0.25rem solid var(--fsa-primary_black);
+  padding-bottom: 0.75rem;
+}
+@media screen and (min-width: 768px) {
+  .tabs__element a {
+    padding: 0.25rem 0 0.75rem;
+  }
+  .tabs__element a:hover:after {
+    content: "";
+    height: 0.25rem;
+    width: 100%;
+    display: block;
+    background-color: var(--fsa__link-green);
+    position: absolute;
+    bottom: 0rem;
+  }
+  .tabs__element a:focus {
+    padding-bottom: 0.5rem;
+  }
+}
+.tabs__element--active {
+  color: var(--fsa-primary_black);
+  padding: 0.25rem 0 1rem;
+  display: block;
+}
+@media screen and (min-width: 768px) {
+  .tabs__element--active {
+    padding: 0.25rem 0 0.75rem;
+  }
+}
+.tabs__element--active:hover {
+  color: var(--fsa-primary_black);
+  cursor: auto;
+}
+.tabs__element--active:after {
+  content: "";
+  height: 0.25rem;
+  width: 100%;
+  display: block;
+  background-color: var(--fsa-primary_black);
+}
+@media screen and (min-width: 768px) {
+  .tabs__element--active:after {
+    margin-top: 0;
+    position: absolute;
+    bottom: 0rem;
+  }
+}
+/*!****************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/components/form/TitleAndText/titleAndText.scss ***!
+  \****************************************************************************************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css?family=Fira+Sans:300,400,500,700);
+/*!********************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/components/form/TitleAndText/titleAndText.scss (1) ***!
+  \********************************************************************************************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700);
+/*!********************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/components/form/TitleAndText/titleAndText.scss (2) ***!
+  \********************************************************************************************************************************************************************************************/
+:root {
+  /* Primary Colours */
+  --fsa-primary_dark-green: #007c75;
+  --fsa-primary_mid-green: #6cb33f;
+  --fsa-primary_light-green: #a9c47f;
+  --fsa-primary_dark-grey: #53565a;
+  --fsa_online-grey: #f0f3f5;
+  --fsa_border: #dee2e5;
+  --fsa-primary_black: #000000;
+  --fsa-primary_white: #ffffff;
+  --fsa_tint: #fafcfd;
+  /* Secondary Colours */
+  --fsa-secondary_mid-red: #e31837;
+  --fsa-secondary_dark-blue: #165c7d;
+  --fsa-secondary_orange: #f15d22;
+  --fsa-secondary_mid-yellow: #fdb913;
+  --fsa-secondary_mid-purple: #49176d;
+  --fsa-secondary_light-purple: #9f218b;
+  --fsa-tertiary_dark-blue: #9f218b;
+  --fsa-secondary-error-red: #e60f31;
+  --fsa-secondary-error-hover: #b0132b;
+  /* Tertiary Colours */
+  --fsa-tertiary_dark-red: #b04a5a;
+  --fsa-tertiary_light-red: #ef3340;
+  --fsa-tertiary_light-yellow: #f1c400;
+  --fsa-tertiary_teal: #00b2a9;
+  --fsa-tertiary_light-blue: #8dc8e8;
+  --fsa-tertiary_dark-purple: #51284f;
+  --fsa-secondary_mid-blue: #007fb2;
+  --fsa-tertiary_lime: #cedc00;
+  --fsa-tertiary_mauve: #8b84d7;
+  /* Hover Colours */
+  --fsa__link-green: #014b4c;
+  --fsa__purple-hover: #2a0247;
+  /* Typography */
+  --body-font: "Open Sans", sans-serif;
+  --body-normal: 400;
+  --body-bold: 600;
+  --heading-font: "Fira Sans", sans-serif;
+  --heading-bold: 700;
+  /* Grid */
+  --container-mobile: 1rem;
+  --container: 2rem;
+  --gutter: 1rem;
+  --max-width: 1336px;
+}
+
+/* Grid */
+/* Custom Mixins */
+/* Mixin for checkbox and radio button style */
+/* Used for Style guide pages */
+.form-title {
+  margin: 2rem 0 0 0;
+}
+
+.form-description {
+  font-family: var(--body-font);
+  font-weight: var(--body-normal);
+  font-size: 1rem;
+  line-height: 1.6;
+  letter-spacing: normal;
+  color: var(--fsa-primary_black);
+  margin: 1rem 0 0 0;
+}
 /*!*******************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/components/landing/LandingLinks/landingLinks.scss ***!
   \*******************************************************************************************************************************************************************************************/
@@ -2197,6 +2791,7 @@ p + p {
   --fsa_tint: #fafcfd;
   /* Secondary Colours */
   --fsa-secondary_mid-red: #e31837;
+  --fsa-secondary_dark-blue: #165c7d;
   --fsa-secondary_orange: #f15d22;
   --fsa-secondary_mid-yellow: #fdb913;
   --fsa-secondary_mid-purple: #49176d;
@@ -2457,17 +3052,17 @@ p + p {
   border-bottom: 0.25rem solid var(--fsa-primary_black);
   margin-bottom: -0.25rem;
 }
-/*!*******************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/components/landing/ServiceLinks/serviceLinks.scss ***!
-  \*******************************************************************************************************************************************************************************************/
+/*!*************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/components/landing/LargePromoGroup/largePromoGroup.scss ***!
+  \*************************************************************************************************************************************************************************************************/
 @import url(https://fonts.googleapis.com/css?family=Fira+Sans:300,400,500,700);
-/*!***********************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/components/landing/ServiceLinks/serviceLinks.scss (1) ***!
-  \***********************************************************************************************************************************************************************************************/
+/*!*****************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/components/landing/LargePromoGroup/largePromoGroup.scss (1) ***!
+  \*****************************************************************************************************************************************************************************************************/
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700);
-/*!***********************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/components/landing/ServiceLinks/serviceLinks.scss (2) ***!
-  \***********************************************************************************************************************************************************************************************/
+/*!*****************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/components/landing/LargePromoGroup/largePromoGroup.scss (2) ***!
+  \*****************************************************************************************************************************************************************************************************/
 :root {
   /* Primary Colours */
   --fsa-primary_dark-green: #007c75;
@@ -2481,6 +3076,7 @@ p + p {
   --fsa_tint: #fafcfd;
   /* Secondary Colours */
   --fsa-secondary_mid-red: #e31837;
+  --fsa-secondary_dark-blue: #165c7d;
   --fsa-secondary_orange: #f15d22;
   --fsa-secondary_mid-yellow: #fdb913;
   --fsa-secondary_mid-purple: #49176d;
@@ -2518,22 +3114,204 @@ p + p {
 /* Custom Mixins */
 /* Mixin for checkbox and radio button style */
 /* Used for Style guide pages */
-.service-links {
+.largePromoGroup {
   margin: 3rem 0 0;
 }
 @media screen and (min-width: 1024px) {
-  .service-links {
+  .largePromoGroup {
     margin: 4rem 0 0;
   }
 }
-.service-links__container {
+.largePromoGroup__container {
+  width: 100%;
+  margin: 0 auto;
+}
+@media screen and (min-width: 768px) {
+  .largePromoGroup__container {
+    max-width: calc(1300px + (2 * 2rem));
+  }
+}
+@media screen and (min-width: 1440px) {
+  .largePromoGroup__container {
+    padding-left: var(--container);
+    padding-right: var(--container);
+  }
+}
+.largePromoGroup__row {
+  display: flex;
+  flex-direction: column;
+}
+.largePromoGroup__row--even {
+  background-color: var(--fsa__purple-hover);
+  color: var(--fsa-primary_white);
+}
+@media screen and (min-width: 1024px) {
+  .largePromoGroup__row--even {
+    flex-direction: row;
+  }
+}
+.largePromoGroup__row--odd {
+  background-color: var(--fsa_online-grey);
+}
+@media screen and (min-width: 1024px) {
+  .largePromoGroup__row--odd {
+    flex-direction: row-reverse;
+  }
+}
+.largePromoGroup__content, .largePromoGroup__background-image {
+  width: 100%;
+  flex-basis: 100%;
+  max-width: 100%;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+@media screen and (min-width: 768px) {
+  .largePromoGroup__content, .largePromoGroup__background-image {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .largePromoGroup__content, .largePromoGroup__background-image {
+    width: 50%;
+    flex-basis: 50%;
+    max-width: 50%;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+}
+@media screen and (min-width: 1024px) and (min-width: 768px) {
+  .largePromoGroup__content, .largePromoGroup__background-image {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+.largePromoGroup__content {
+  padding: 1rem;
+}
+@media screen and (min-width: 768px) {
+  .largePromoGroup__content {
+    padding: 2rem;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .largePromoGroup__content {
+    padding: 3rem;
+  }
+}
+.largePromoGroup__background-image {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  flex: 0 0 50%;
+  height: 50vh;
+  min-height: 15rem;
+}
+@media screen and (min-width: 500px) {
+  .largePromoGroup__background-image {
+    min-height: 20rem;
+  }
+}
+@media screen and (min-width: 768px) {
+  .largePromoGroup__background-image {
+    min-height: 30.75rem;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .largePromoGroup__background-image {
+    min-height: 35.5rem;
+  }
+}
+.largePromoGroup__title {
+  margin: 0;
+}
+.largePromoGroup__description, .largePromoGroup__cta {
+  margin-top: 1rem;
+}
+@media screen and (min-width: 1440px) {
+  .largePromoGroup__description, .largePromoGroup__cta {
+    margin-top: 2rem;
+  }
+}
+/*!*******************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/components/landing/LatestTeaser/latestTeaser.scss ***!
+  \*******************************************************************************************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css?family=Fira+Sans:300,400,500,700);
+/*!***********************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/components/landing/LatestTeaser/latestTeaser.scss (1) ***!
+  \***********************************************************************************************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700);
+/*!***********************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/components/landing/LatestTeaser/latestTeaser.scss (2) ***!
+  \***********************************************************************************************************************************************************************************************/
+:root {
+  /* Primary Colours */
+  --fsa-primary_dark-green: #007c75;
+  --fsa-primary_mid-green: #6cb33f;
+  --fsa-primary_light-green: #a9c47f;
+  --fsa-primary_dark-grey: #53565a;
+  --fsa_online-grey: #f0f3f5;
+  --fsa_border: #dee2e5;
+  --fsa-primary_black: #000000;
+  --fsa-primary_white: #ffffff;
+  --fsa_tint: #fafcfd;
+  /* Secondary Colours */
+  --fsa-secondary_mid-red: #e31837;
+  --fsa-secondary_dark-blue: #165c7d;
+  --fsa-secondary_orange: #f15d22;
+  --fsa-secondary_mid-yellow: #fdb913;
+  --fsa-secondary_mid-purple: #49176d;
+  --fsa-secondary_light-purple: #9f218b;
+  --fsa-tertiary_dark-blue: #9f218b;
+  --fsa-secondary-error-red: #e60f31;
+  --fsa-secondary-error-hover: #b0132b;
+  /* Tertiary Colours */
+  --fsa-tertiary_dark-red: #b04a5a;
+  --fsa-tertiary_light-red: #ef3340;
+  --fsa-tertiary_light-yellow: #f1c400;
+  --fsa-tertiary_teal: #00b2a9;
+  --fsa-tertiary_light-blue: #8dc8e8;
+  --fsa-tertiary_dark-purple: #51284f;
+  --fsa-secondary_mid-blue: #007fb2;
+  --fsa-tertiary_lime: #cedc00;
+  --fsa-tertiary_mauve: #8b84d7;
+  /* Hover Colours */
+  --fsa__link-green: #014b4c;
+  --fsa__purple-hover: #2a0247;
+  /* Typography */
+  --body-font: "Open Sans", sans-serif;
+  --body-normal: 400;
+  --body-bold: 600;
+  --heading-font: "Fira Sans", sans-serif;
+  --heading-bold: 700;
+  /* Grid */
+  --container-mobile: 1rem;
+  --container: 2rem;
+  --gutter: 1rem;
+  --max-width: 1336px;
+}
+
+/* Grid */
+/* Custom Mixins */
+/* Mixin for checkbox and radio button style */
+/* Used for Style guide pages */
+.latest-teaser {
+  margin: 3rem 0 0;
+  /* Cards */
+}
+@media screen and (min-width: 1024px) {
+  .latest-teaser {
+    margin: 4rem 0 0;
+  }
+}
+.latest-teaser__container {
   width: 100%;
   margin: 0 auto;
   padding-left: 1rem;
   padding-right: 1rem;
 }
 @media screen and (min-width: 768px) {
-  .service-links__container {
+  .latest-teaser__container {
     padding-left: 2rem;
     padding-right: 2rem;
     width: 100%;
@@ -2541,7 +3319,7 @@ p + p {
   }
 }
 @media screen and (min-width: 768px) {
-  .service-links__text-row {
+  .latest-teaser__text-row {
     flex: 1;
     margin-left: -0.5rem;
     margin-right: -0.5rem;
@@ -2551,42 +3329,82 @@ p + p {
   }
 }
 @media screen and (min-width: 768px) and (min-width: 768px) {
-  .service-links__text-row {
+  .latest-teaser__text-row {
     margin-left: -1rem;
     margin-right: -1rem;
   }
 }
+.latest-teaser__text-wrapper {
+  text-align: center;
+  width: 100%;
+  flex-basis: 100%;
+  max-width: 100%;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
 @media screen and (min-width: 768px) {
-  .service-links__text-wrapper {
-    width: 50%;
-    flex-basis: 50%;
-    max-width: 50%;
+  .latest-teaser__text-wrapper {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+@media screen and (min-width: 768px) {
+  .latest-teaser__text-wrapper {
+    width: 100%;
+    flex-basis: 100%;
+    max-width: 100%;
     padding-left: 0.5rem;
     padding-right: 0.5rem;
   }
 }
 @media screen and (min-width: 768px) and (min-width: 768px) {
-  .service-links__text-wrapper {
+  .latest-teaser__text-wrapper {
     padding-left: 1rem;
     padding-right: 1rem;
   }
 }
-.service-links__title {
+@media screen and (min-width: 1024px) {
+  .latest-teaser__text-wrapper {
+    width: 66.6666666667%;
+    flex-basis: 66.6666666667%;
+    max-width: 66.6666666667%;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    margin-left: 16.6666666667%;
+  }
+}
+@media screen and (min-width: 1024px) and (min-width: 768px) {
+  .latest-teaser__text-wrapper {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+.latest-teaser__title {
+  margin: 0;
+  padding: 0;
   font-family: var(--heading-font);
   font-size: 1.939rem;
   font-weight: var(--heading-bold);
   line-height: 1.2;
   letter-spacing: normal;
-  margin: 0;
-  padding: 0;
-  color: var(--fsa-primary_black);
+  position: relative;
 }
 @media screen and (min-width: 1024px) {
-  .service-links__title {
+  .latest-teaser__title {
     font-size: 2.074rem;
   }
 }
-.service-links__description {
+.latest-teaser__title:after {
+  content: "";
+  background-image: url(./components/landing/LatestTeaser/dot.svg);
+  background-repeat: repeat-x;
+  background-size: 25px 25px;
+  width: 12rem;
+  display: block;
+  padding-bottom: 0.5rem;
+  margin: 0.5rem auto 0rem;
+}
+.latest-teaser__description {
   font-family: var(--body-font);
   font-weight: var(--body-normal);
   font-size: 1rem;
@@ -2594,10 +3412,42 @@ p + p {
   letter-spacing: normal;
   margin: 1rem 0 0 0;
 }
-.service-links__cards {
-  padding: 0;
-  margin: 2rem 0 0 0;
-  list-style: none;
+.latest-teaser__link-wrapper {
+  margin-top: 1rem;
+}
+.latest-teaser__link {
+  color: var(--fsa-primary_dark-green);
+  text-decoration: underline;
+  padding-left: 2.25rem;
+  position: relative;
+}
+.latest-teaser__link:hover {
+  color: var(--fsa__link-green);
+}
+.latest-teaser__link:focus {
+  color: var(--fsa-primary_black);
+  outline: none;
+  text-decoration: none;
+  background-color: var(--fsa-tertiary_light-yellow);
+  border-bottom: 0.25rem solid var(--fsa-primary_black);
+  margin-bottom: -0.25rem;
+}
+.latest-teaser__link::before {
+  content: "";
+  background-image: url(./components/landing/LatestTeaser/arrow-right.svg);
+  display: inline-block;
+  width: 1.75rem;
+  height: 1rem;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  left: 0;
+  top: 0.25rem;
+}
+.latest-teaser__link:hover::before {
+  background-image: url(./components/landing/LatestTeaser/arrow-hover.svg);
+}
+.latest-teaser__cards-row {
   flex: 1;
   margin-left: -0.5rem;
   margin-right: -0.5rem;
@@ -2605,86 +3455,47 @@ p + p {
   flex-wrap: wrap;
 }
 @media screen and (min-width: 768px) {
-  .service-links__cards {
+  .latest-teaser__cards-row {
     margin-left: -1rem;
     margin-right: -1rem;
   }
 }
-.service-links__card {
-  font-family: var(--heading-font);
-  font-size: 1.18rem;
-  font-weight: var(--heading-bold);
-  line-height: 1.4;
-  letter-spacing: normal;
+@media screen and (min-width: 768px) {
+  .latest-teaser__cards-row {
+    flex-direction: row;
+  }
+}
+.latest-teaser__card {
   width: 100%;
   flex-basis: 100%;
   max-width: 100%;
   padding-left: 0.5rem;
   padding-right: 0.5rem;
-}
-@media screen and (min-width: 1024px) {
-  .service-links__card {
-    font-size: 1.2rem;
-  }
+  margin-top: 2rem;
 }
 @media screen and (min-width: 768px) {
-  .service-links__card {
+  .latest-teaser__card {
     padding-left: 1rem;
     padding-right: 1rem;
   }
 }
-.service-links__card + .service-links__card {
-  margin: 1rem 0 0 0;
-}
 @media screen and (min-width: 768px) {
-  .service-links__card {
+  .latest-teaser__card {
     width: 50%;
     flex-basis: 50%;
     max-width: 50%;
     padding-left: 0.5rem;
     padding-right: 0.5rem;
-    /*Using css selectors as flex gap doesn't work in IE11.*/
   }
 }
 @media screen and (min-width: 768px) and (min-width: 768px) {
-  .service-links__card {
-    padding-left: 1rem;
-    padding-right: 1rem;
-  }
-}
-@media screen and (min-width: 768px) {
-  .service-links__card:nth-child(2) {
-    margin-top: 0;
-  }
-}
-@media screen and (min-width: 1440px) {
-  .service-links__card + .service-links__card {
-    margin-top: 2rem;
-  }
-  .service-links__card:nth-child(2) {
-    margin-top: 0;
-  }
-  .service-links__card--3 {
-    width: 33.3333333333%;
-    flex-basis: 33.3333333333%;
-    max-width: 33.3333333333%;
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
-  }
-}
-@media screen and (min-width: 1440px) and (min-width: 768px) {
-  .service-links__card--3 {
+  .latest-teaser__card {
     padding-left: 1rem;
     padding-right: 1rem;
   }
 }
 @media screen and (min-width: 1440px) {
-  .service-links__card--3:nth-child(3) {
-    margin-top: 0;
-  }
-}
-@media screen and (min-width: 1440px) {
-  .service-links__card--4 {
+  .latest-teaser__card {
     width: 25%;
     flex-basis: 25%;
     max-width: 25%;
@@ -2693,59 +3504,106 @@ p + p {
   }
 }
 @media screen and (min-width: 1440px) and (min-width: 768px) {
-  .service-links__card--4 {
+  .latest-teaser__card {
     padding-left: 1rem;
     padding-right: 1rem;
   }
 }
-@media screen and (min-width: 1440px) {
-  .service-links__card--4:nth-child(3), .service-links__card--4:nth-child(4) {
-    margin-top: 0;
-  }
-}
-@media screen and (min-width: 1440px) {
-  .service-links__card--4:nth-child(4) {
-    margin-top: 0;
-  }
-}
-.service-links__anchor {
-  background-repeat: no-repeat;
-  background-position: right 1rem top 1.25rem;
-  box-shadow: 0 0.25rem 0.5rem 0 rgba(0, 0, 0, 0.1);
-  padding: 1rem 3.5rem 1rem 1rem;
-  color: var(--fsa-primary_black);
-  display: block;
+.latest-teaser__card-wrapper {
   height: 100%;
   width: 100%;
-  border-top: 2px solid var(--fsa-secondary_mid-purple);
-  cursor: pointer;
-  background-color: var(--fsa-primary_white);
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: column;
   position: relative;
 }
-.service-links__anchor::before {
+.latest-teaser__card-wrapper--news {
+  border-top: 0.4rem solid var(--fsa-secondary_mid-purple);
+}
+.latest-teaser__card-wrapper--news .latest-teaser__type {
+  color: var(--fsa-secondary_mid-purple);
+}
+.latest-teaser__card-wrapper--alerts {
+  border-top: 0.4rem solid var(--fsa-secondary_mid-red);
+}
+.latest-teaser__card-wrapper--alerts .latest-teaser__type {
+  color: var(--fsa-secondary_mid-red);
+}
+.latest-teaser__card-wrapper--consultations {
+  border-top: 0.4rem solid var(--fsa-secondary_dark-blue);
+}
+.latest-teaser__card-wrapper--consultations .latest-teaser__type {
+  color: var(--fsa-secondary_dark-blue);
+}
+.latest-teaser__type {
+  font-family: var(--body-font);
+  font-size: 1rem;
+  font-weight: var(--body-bold);
+  line-height: 1.6;
+  letter-spacing: normal;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 0.5rem 0 0;
+}
+.latest-teaser__anchor-wrapper {
+  margin: 0.5rem 0;
+}
+.latest-teaser__anchor {
+  color: var(--fsa-primary_black);
+  cursor: pointer;
+}
+.latest-teaser__anchor:after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  pointer-events: auto;
   content: "";
-  background-image: url(./components/landing/ServiceLinks/arrow-right.svg);
+}
+.latest-teaser__anchor:hover {
+  text-decoration: underline;
+  color: var(--fsa__link-green);
+}
+.latest-teaser__anchor:focus {
+  text-decoration: none;
+  background-color: var(--fsa-tertiary_light-yellow);
+  color: var(--fsa-primary_black);
+  outline: none;
+  border-bottom: 2px solid var(--fsa-primary_black);
+  padding: 0.5px 0;
+}
+@media screen and (min-width: 500px) {
+  .latest-teaser__anchor:focus {
+    padding: 3px 0;
+  }
+}
+.latest-teaser__date {
+  position: relative;
+  display: block;
+  margin-top: 0.5rem;
+  color: var(--fsa-primary_dark-grey);
+  margin-top: auto;
+}
+.latest-teaser__date::before {
+  content: "";
+  background-image: url(./components/landing/LatestTeaser/arrow-right.svg);
   display: inline-block;
   width: 1.75rem;
   height: 1rem;
   background-repeat: no-repeat;
   background-position: center;
   position: absolute;
-  right: 1rem;
+  right: 0;
+  top: 0.25rem;
 }
-.service-links__anchor:hover {
-  text-decoration: underline;
-  color: var(--fsa__link-green);
+.latest-teaser__button-wrapper {
+  display: flex;
+  margin-top: 2rem;
 }
-.service-links__anchor:hover::before {
-  background-image: url(./components/landing/ServiceLinks/arrow-hover.svg);
-}
-.service-links__anchor:active, .service-links__anchor:visited {
-  color: var(--fsa-primary_black);
-}
-.service-links__anchor:focus {
-  outline: none;
-  background-color: var(--fsa-tertiary_light-yellow);
+.latest-teaser__button-wrapper .button {
+  margin: auto;
 }
 /*!***************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/components/landing/PromoGroup/promoGroup.scss ***!
@@ -2771,6 +3629,7 @@ p + p {
   --fsa_tint: #fafcfd;
   /* Secondary Colours */
   --fsa-secondary_mid-red: #e31837;
+  --fsa-secondary_dark-blue: #165c7d;
   --fsa-secondary_orange: #f15d22;
   --fsa-secondary_mid-yellow: #fdb913;
   --fsa-secondary_mid-purple: #49176d;
@@ -3069,17 +3928,17 @@ p + p {
 .promo-group__list-link:hover::before {
   background-image: url(./components/landing/PromoGroup/arrow-hover.svg);
 }
-/*!************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/components/form/InputField/inputField.scss ***!
-  \************************************************************************************************************************************************************************************/
+/*!*******************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/components/landing/ServiceLinks/serviceLinks.scss ***!
+  \*******************************************************************************************************************************************************************************************/
 @import url(https://fonts.googleapis.com/css?family=Fira+Sans:300,400,500,700);
-/*!****************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/components/form/InputField/inputField.scss (1) ***!
-  \****************************************************************************************************************************************************************************************/
+/*!***********************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/components/landing/ServiceLinks/serviceLinks.scss (1) ***!
+  \***********************************************************************************************************************************************************************************************/
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700);
-/*!****************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/components/form/InputField/inputField.scss (2) ***!
-  \****************************************************************************************************************************************************************************************/
+/*!***********************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/components/landing/ServiceLinks/serviceLinks.scss (2) ***!
+  \***********************************************************************************************************************************************************************************************/
 :root {
   /* Primary Colours */
   --fsa-primary_dark-green: #007c75;
@@ -3093,6 +3952,7 @@ p + p {
   --fsa_tint: #fafcfd;
   /* Secondary Colours */
   --fsa-secondary_mid-red: #e31837;
+  --fsa-secondary_dark-blue: #165c7d;
   --fsa-secondary_orange: #f15d22;
   --fsa-secondary_mid-yellow: #fdb913;
   --fsa-secondary_mid-purple: #49176d;
@@ -3130,444 +3990,46 @@ p + p {
 /* Custom Mixins */
 /* Mixin for checkbox and radio button style */
 /* Used for Style guide pages */
-.input-field {
-  margin-top: 2rem;
-  display: flex;
-  flex-direction: column;
-}
-.input-field__label {
-  font-family: var(--heading-font);
-  font-size: 1.18rem;
-  font-weight: var(--heading-bold);
-  line-height: 1.4;
-  letter-spacing: normal;
-  margin: 0;
-  padding: 0;
-  font-weight: bold;
-}
-@media screen and (min-width: 1024px) {
-  .input-field__label {
-    font-size: 1.2rem;
-  }
-}
-.input-field__required {
-  font-family: var(--body-font);
-  font-weight: var(--body-normal);
-  font-size: 0.9rem;
-  line-height: 1.6;
-  letter-spacing: normal;
-  font-weight: normal;
-  margin-left: 1rem;
-  font-weight: inherit;
-}
-.input-field__input {
-  background-color: var(--fsa_online-grey);
-  border: solid 1px var(--fsa-primary_dark-grey);
-  margin-top: 0.5rem;
-  padding: 0.85rem 1rem;
-}
-@media screen and (min-width: 500px) {
-  .input-field__input {
-    padding: 0.75rem 1rem;
-  }
-}
-.input-field__input:focus {
-  border: 2px solid var(--fsa-primary_black);
-  box-shadow: inset 0 0 0 2px;
-  outline: 0.25rem solid var(--fsa-tertiary_light-yellow);
-  outline-offset: 0;
-}
-.input-field__caption {
-  font-family: var(--body-font);
-  font-weight: var(--body-normal);
-  font-size: 0.9rem;
-  line-height: 1.6;
-  letter-spacing: normal;
-  color: var(--fsa-primary_dark-grey);
-  margin-top: 0.5rem;
-}
-.input-field--error {
-  margin-left: -1.25rem;
-  border-left: 0.25rem solid var(--fsa-secondary_mid-red);
-  margin-left: -0.75rem;
-  padding-left: 0.5rem;
-}
-@media screen and (min-width: 768px) {
-  .input-field--error {
-    margin-left: -1.25rem;
-    padding-left: 1rem;
-  }
-}
-.input-field--error .input-field__label {
-  color: var(--fsa-secondary_mid-red);
-}
-.input-field--error .input-field__required {
-  color: var(--fsa-primary_black);
-}
-.input-field--error .input-field__input {
-  border: 0.25rem solid var(--fsa-secondary_mid-red);
-}
-.input-field__error-message {
-  margin-top: 0.5rem;
-}
-/*!************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/components/form/MessageBox/messageBox.scss ***!
-  \************************************************************************************************************************************************************************************/
-@import url(https://fonts.googleapis.com/css?family=Fira+Sans:300,400,500,700);
-/*!****************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/components/form/MessageBox/messageBox.scss (1) ***!
-  \****************************************************************************************************************************************************************************************/
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700);
-/*!****************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/components/form/MessageBox/messageBox.scss (2) ***!
-  \****************************************************************************************************************************************************************************************/
-:root {
-  /* Primary Colours */
-  --fsa-primary_dark-green: #007c75;
-  --fsa-primary_mid-green: #6cb33f;
-  --fsa-primary_light-green: #a9c47f;
-  --fsa-primary_dark-grey: #53565a;
-  --fsa_online-grey: #f0f3f5;
-  --fsa_border: #dee2e5;
-  --fsa-primary_black: #000000;
-  --fsa-primary_white: #ffffff;
-  --fsa_tint: #fafcfd;
-  /* Secondary Colours */
-  --fsa-secondary_mid-red: #e31837;
-  --fsa-secondary_orange: #f15d22;
-  --fsa-secondary_mid-yellow: #fdb913;
-  --fsa-secondary_mid-purple: #49176d;
-  --fsa-secondary_light-purple: #9f218b;
-  --fsa-tertiary_dark-blue: #9f218b;
-  --fsa-secondary-error-red: #e60f31;
-  --fsa-secondary-error-hover: #b0132b;
-  /* Tertiary Colours */
-  --fsa-tertiary_dark-red: #b04a5a;
-  --fsa-tertiary_light-red: #ef3340;
-  --fsa-tertiary_light-yellow: #f1c400;
-  --fsa-tertiary_teal: #00b2a9;
-  --fsa-tertiary_light-blue: #8dc8e8;
-  --fsa-tertiary_dark-purple: #51284f;
-  --fsa-secondary_mid-blue: #007fb2;
-  --fsa-tertiary_lime: #cedc00;
-  --fsa-tertiary_mauve: #8b84d7;
-  /* Hover Colours */
-  --fsa__link-green: #014b4c;
-  --fsa__purple-hover: #2a0247;
-  /* Typography */
-  --body-font: "Open Sans", sans-serif;
-  --body-normal: 400;
-  --body-bold: 600;
-  --heading-font: "Fira Sans", sans-serif;
-  --heading-bold: 700;
-  /* Grid */
-  --container-mobile: 1rem;
-  --container: 2rem;
-  --gutter: 1rem;
-  --max-width: 1336px;
-}
-
-/* Grid */
-/* Custom Mixins */
-/* Mixin for checkbox and radio button style */
-/* Used for Style guide pages */
-.message-box {
-  margin-top: 2rem;
-}
-.message-box__container {
-  border-radius: 0.25rem;
-  box-shadow: 0 0.25rem 1rem 0 rgba(41, 41, 41, 0.15);
-  background-color: var(--fsa-primary_white);
-}
-.message-box__container--status {
-  border-left: 0.25rem solid var(--fsa-primary_mid-green);
-}
-.message-box__container--status p {
-  background-image: url(./components/form/MessageBox/success.svg);
-}
-.message-box__container--error {
-  border-left: 0.25rem solid var(--fsa-secondary_mid-red);
-}
-.message-box__container--error p {
-  background-image: url(./components/form/MessageBox/error.svg);
-}
-.message-box__container--warning {
-  border-left: 0.25rem solid var(--fsa-secondary_mid-yellow);
-}
-.message-box__container--warning p {
-  background-image: url(./components/form/MessageBox/warning.svg);
-}
-.message-box__text {
-  padding: 1rem 1rem 1rem 3rem;
-  background-repeat: no-repeat;
-  background-size: 1rem;
-  background-position: left 1rem top 1.25rem;
-}
-/*!************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/components/form/Tabs/tabs.scss ***!
-  \************************************************************************************************************************************************************************/
-@import url(https://fonts.googleapis.com/css?family=Fira+Sans:300,400,500,700);
-/*!****************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/components/form/Tabs/tabs.scss (1) ***!
-  \****************************************************************************************************************************************************************************/
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700);
-/*!****************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/components/form/Tabs/tabs.scss (2) ***!
-  \****************************************************************************************************************************************************************************/
-:root {
-  /* Primary Colours */
-  --fsa-primary_dark-green: #007c75;
-  --fsa-primary_mid-green: #6cb33f;
-  --fsa-primary_light-green: #a9c47f;
-  --fsa-primary_dark-grey: #53565a;
-  --fsa_online-grey: #f0f3f5;
-  --fsa_border: #dee2e5;
-  --fsa-primary_black: #000000;
-  --fsa-primary_white: #ffffff;
-  --fsa_tint: #fafcfd;
-  /* Secondary Colours */
-  --fsa-secondary_mid-red: #e31837;
-  --fsa-secondary_orange: #f15d22;
-  --fsa-secondary_mid-yellow: #fdb913;
-  --fsa-secondary_mid-purple: #49176d;
-  --fsa-secondary_light-purple: #9f218b;
-  --fsa-tertiary_dark-blue: #9f218b;
-  --fsa-secondary-error-red: #e60f31;
-  --fsa-secondary-error-hover: #b0132b;
-  /* Tertiary Colours */
-  --fsa-tertiary_dark-red: #b04a5a;
-  --fsa-tertiary_light-red: #ef3340;
-  --fsa-tertiary_light-yellow: #f1c400;
-  --fsa-tertiary_teal: #00b2a9;
-  --fsa-tertiary_light-blue: #8dc8e8;
-  --fsa-tertiary_dark-purple: #51284f;
-  --fsa-secondary_mid-blue: #007fb2;
-  --fsa-tertiary_lime: #cedc00;
-  --fsa-tertiary_mauve: #8b84d7;
-  /* Hover Colours */
-  --fsa__link-green: #014b4c;
-  --fsa__purple-hover: #2a0247;
-  /* Typography */
-  --body-font: "Open Sans", sans-serif;
-  --body-normal: 400;
-  --body-bold: 600;
-  --heading-font: "Fira Sans", sans-serif;
-  --heading-bold: 700;
-  /* Grid */
-  --container-mobile: 1rem;
-  --container: 2rem;
-  --gutter: 1rem;
-  --max-width: 1336px;
-}
-
-/* Grid */
-/* Custom Mixins */
-/* Mixin for checkbox and radio button style */
-/* Used for Style guide pages */
-.tabs {
-  margin: 2.75rem 0 0;
-}
-.tabs__list {
-  padding: 0;
-  margin: 0;
-  display: flex;
-  flex-direction: column;
-  border-bottom: 1px solid var(--fsa-primary_black);
-  align-items: center;
-}
-@media screen and (min-width: 768px) {
-  .tabs__list {
-    flex-direction: row;
-    justify-content: space-between;
-  }
-}
-.tabs__element {
-  position: relative;
-  font-weight: bold;
-}
-.tabs__element a {
-  color: var(--fsa-primary_dark-green);
-  text-decoration: underline;
-  text-decoration: none;
-  padding-bottom: 1rem;
-  display: block;
-}
-.tabs__element a:hover {
-  color: var(--fsa__link-green);
-}
-.tabs__element a:focus {
-  color: var(--fsa-primary_black);
-  outline: none;
-  text-decoration: none;
-  background-color: var(--fsa-tertiary_light-yellow);
-  border-bottom: 0.25rem solid var(--fsa-primary_black);
-  padding-bottom: 0.75rem;
-}
-@media screen and (min-width: 768px) {
-  .tabs__element a {
-    padding: 0.25rem 0 0.75rem;
-  }
-  .tabs__element a:hover:after {
-    content: "";
-    height: 0.25rem;
-    width: 100%;
-    display: block;
-    background-color: var(--fsa__link-green);
-    position: absolute;
-    bottom: 0rem;
-  }
-  .tabs__element a:focus {
-    padding-bottom: 0.5rem;
-  }
-}
-.tabs__element--active {
-  color: var(--fsa-primary_black);
-  padding: 0.25rem 0 1rem;
-  display: block;
-}
-@media screen and (min-width: 768px) {
-  .tabs__element--active {
-    padding: 0.25rem 0 0.75rem;
-  }
-}
-.tabs__element--active:hover {
-  color: var(--fsa-primary_black);
-  cursor: auto;
-}
-.tabs__element--active:after {
-  content: "";
-  height: 0.25rem;
-  width: 100%;
-  display: block;
-  background-color: var(--fsa-primary_black);
-}
-@media screen and (min-width: 768px) {
-  .tabs__element--active:after {
-    margin-top: 0;
-    position: absolute;
-    bottom: 0rem;
-  }
-}
-/*!*************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/components/landing/LargePromoGroup/largePromoGroup.scss ***!
-  \*************************************************************************************************************************************************************************************************/
-@import url(https://fonts.googleapis.com/css?family=Fira+Sans:300,400,500,700);
-/*!*****************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/components/landing/LargePromoGroup/largePromoGroup.scss (1) ***!
-  \*****************************************************************************************************************************************************************************************************/
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700);
-/*!*****************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/components/landing/LargePromoGroup/largePromoGroup.scss (2) ***!
-  \*****************************************************************************************************************************************************************************************************/
-:root {
-  /* Primary Colours */
-  --fsa-primary_dark-green: #007c75;
-  --fsa-primary_mid-green: #6cb33f;
-  --fsa-primary_light-green: #a9c47f;
-  --fsa-primary_dark-grey: #53565a;
-  --fsa_online-grey: #f0f3f5;
-  --fsa_border: #dee2e5;
-  --fsa-primary_black: #000000;
-  --fsa-primary_white: #ffffff;
-  --fsa_tint: #fafcfd;
-  /* Secondary Colours */
-  --fsa-secondary_mid-red: #e31837;
-  --fsa-secondary_orange: #f15d22;
-  --fsa-secondary_mid-yellow: #fdb913;
-  --fsa-secondary_mid-purple: #49176d;
-  --fsa-secondary_light-purple: #9f218b;
-  --fsa-tertiary_dark-blue: #9f218b;
-  --fsa-secondary-error-red: #e60f31;
-  --fsa-secondary-error-hover: #b0132b;
-  /* Tertiary Colours */
-  --fsa-tertiary_dark-red: #b04a5a;
-  --fsa-tertiary_light-red: #ef3340;
-  --fsa-tertiary_light-yellow: #f1c400;
-  --fsa-tertiary_teal: #00b2a9;
-  --fsa-tertiary_light-blue: #8dc8e8;
-  --fsa-tertiary_dark-purple: #51284f;
-  --fsa-secondary_mid-blue: #007fb2;
-  --fsa-tertiary_lime: #cedc00;
-  --fsa-tertiary_mauve: #8b84d7;
-  /* Hover Colours */
-  --fsa__link-green: #014b4c;
-  --fsa__purple-hover: #2a0247;
-  /* Typography */
-  --body-font: "Open Sans", sans-serif;
-  --body-normal: 400;
-  --body-bold: 600;
-  --heading-font: "Fira Sans", sans-serif;
-  --heading-bold: 700;
-  /* Grid */
-  --container-mobile: 1rem;
-  --container: 2rem;
-  --gutter: 1rem;
-  --max-width: 1336px;
-}
-
-/* Grid */
-/* Custom Mixins */
-/* Mixin for checkbox and radio button style */
-/* Used for Style guide pages */
-.largePromoGroup {
+.service-links {
   margin: 3rem 0 0;
 }
 @media screen and (min-width: 1024px) {
-  .largePromoGroup {
+  .service-links {
     margin: 4rem 0 0;
   }
 }
-.largePromoGroup__container {
+.service-links__container {
   width: 100%;
   margin: 0 auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 @media screen and (min-width: 768px) {
-  .largePromoGroup__container {
+  .service-links__container {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    width: 100%;
     max-width: calc(1300px + (2 * 2rem));
   }
 }
-@media screen and (min-width: 1440px) {
-  .largePromoGroup__container {
-    padding-left: var(--container);
-    padding-right: var(--container);
-  }
-}
-.largePromoGroup__row {
-  display: flex;
-  flex-direction: column;
-}
-.largePromoGroup__row--even {
-  background-color: var(--fsa__purple-hover);
-  color: var(--fsa-primary_white);
-}
-@media screen and (min-width: 1024px) {
-  .largePromoGroup__row--even {
+@media screen and (min-width: 768px) {
+  .service-links__text-row {
+    flex: 1;
+    margin-left: -0.5rem;
+    margin-right: -0.5rem;
+    display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
   }
 }
-.largePromoGroup__row--odd {
-  background-color: var(--fsa_online-grey);
-}
-@media screen and (min-width: 1024px) {
-  .largePromoGroup__row--odd {
-    flex-direction: row-reverse;
+@media screen and (min-width: 768px) and (min-width: 768px) {
+  .service-links__text-row {
+    margin-left: -1rem;
+    margin-right: -1rem;
   }
-}
-.largePromoGroup__content, .largePromoGroup__background-image {
-  width: 100%;
-  flex-basis: 100%;
-  max-width: 100%;
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
 }
 @media screen and (min-width: 768px) {
-  .largePromoGroup__content, .largePromoGroup__background-image {
-    padding-left: 1rem;
-    padding-right: 1rem;
-  }
-}
-@media screen and (min-width: 1024px) {
-  .largePromoGroup__content, .largePromoGroup__background-image {
+  .service-links__text-wrapper {
     width: 50%;
     flex-basis: 50%;
     max-width: 50%;
@@ -3575,138 +4037,39 @@ p + p {
     padding-right: 0.5rem;
   }
 }
-@media screen and (min-width: 1024px) and (min-width: 768px) {
-  .largePromoGroup__content, .largePromoGroup__background-image {
+@media screen and (min-width: 768px) and (min-width: 768px) {
+  .service-links__text-wrapper {
     padding-left: 1rem;
     padding-right: 1rem;
   }
 }
-.largePromoGroup__content {
-  padding: 1rem;
-}
-@media screen and (min-width: 768px) {
-  .largePromoGroup__content {
-    padding: 2rem;
-  }
-}
-@media screen and (min-width: 1440px) {
-  .largePromoGroup__content {
-    padding: 3rem;
-  }
-}
-.largePromoGroup__background-image {
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
-  flex: 0 0 50%;
-  height: 50vh;
-  min-height: 15rem;
-}
-@media screen and (min-width: 500px) {
-  .largePromoGroup__background-image {
-    min-height: 20rem;
-  }
-}
-@media screen and (min-width: 768px) {
-  .largePromoGroup__background-image {
-    min-height: 30.75rem;
-  }
-}
-@media screen and (min-width: 1440px) {
-  .largePromoGroup__background-image {
-    min-height: 35.5rem;
-  }
-}
-.largePromoGroup__title {
+.service-links__title {
+  font-family: var(--heading-font);
+  font-size: 1.939rem;
+  font-weight: var(--heading-bold);
+  line-height: 1.2;
+  letter-spacing: normal;
   margin: 0;
+  padding: 0;
+  color: var(--fsa-primary_black);
 }
-.largePromoGroup__description, .largePromoGroup__cta {
-  margin-top: 1rem;
-}
-@media screen and (min-width: 1440px) {
-  .largePromoGroup__description, .largePromoGroup__cta {
-    margin-top: 2rem;
+@media screen and (min-width: 1024px) {
+  .service-links__title {
+    font-size: 2.074rem;
   }
 }
-/*!*************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/layout/twoColumn/twoColumn.scss ***!
-  \*************************************************************************************************************************************************************************/
-@import url(https://fonts.googleapis.com/css?family=Fira+Sans:300,400,500,700);
-/*!*****************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/layout/twoColumn/twoColumn.scss (1) ***!
-  \*****************************************************************************************************************************************************************************/
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700);
-/*!*****************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/layout/twoColumn/twoColumn.scss (2) ***!
-  \*****************************************************************************************************************************************************************************/
-:root {
-  /* Primary Colours */
-  --fsa-primary_dark-green: #007c75;
-  --fsa-primary_mid-green: #6cb33f;
-  --fsa-primary_light-green: #a9c47f;
-  --fsa-primary_dark-grey: #53565a;
-  --fsa_online-grey: #f0f3f5;
-  --fsa_border: #dee2e5;
-  --fsa-primary_black: #000000;
-  --fsa-primary_white: #ffffff;
-  --fsa_tint: #fafcfd;
-  /* Secondary Colours */
-  --fsa-secondary_mid-red: #e31837;
-  --fsa-secondary_orange: #f15d22;
-  --fsa-secondary_mid-yellow: #fdb913;
-  --fsa-secondary_mid-purple: #49176d;
-  --fsa-secondary_light-purple: #9f218b;
-  --fsa-tertiary_dark-blue: #9f218b;
-  --fsa-secondary-error-red: #e60f31;
-  --fsa-secondary-error-hover: #b0132b;
-  /* Tertiary Colours */
-  --fsa-tertiary_dark-red: #b04a5a;
-  --fsa-tertiary_light-red: #ef3340;
-  --fsa-tertiary_light-yellow: #f1c400;
-  --fsa-tertiary_teal: #00b2a9;
-  --fsa-tertiary_light-blue: #8dc8e8;
-  --fsa-tertiary_dark-purple: #51284f;
-  --fsa-secondary_mid-blue: #007fb2;
-  --fsa-tertiary_lime: #cedc00;
-  --fsa-tertiary_mauve: #8b84d7;
-  /* Hover Colours */
-  --fsa__link-green: #014b4c;
-  --fsa__purple-hover: #2a0247;
-  /* Typography */
-  --body-font: "Open Sans", sans-serif;
-  --body-normal: 400;
-  --body-bold: 600;
-  --heading-font: "Fira Sans", sans-serif;
-  --heading-bold: 700;
-  /* Grid */
-  --container-mobile: 1rem;
-  --container: 2rem;
-  --gutter: 1rem;
-  --max-width: 1336px;
+.service-links__description {
+  font-family: var(--body-font);
+  font-weight: var(--body-normal);
+  font-size: 1rem;
+  line-height: 1.6;
+  letter-spacing: normal;
+  margin: 1rem 0 0 0;
 }
-
-/* Grid */
-/* Custom Mixins */
-/* Mixin for checkbox and radio button style */
-/* Used for Style guide pages */
-.two-col {
-  max-width: 100%;
-}
-.two-col__container {
-  width: 100%;
-  margin: 0 auto;
-  padding-left: 1rem;
-  padding-right: 1rem;
-}
-@media screen and (min-width: 768px) {
-  .two-col__container {
-    padding-left: 2rem;
-    padding-right: 2rem;
-    width: 100%;
-    max-width: calc(1300px + (2 * 2rem));
-  }
-}
-.two-col__row {
+.service-links__cards {
+  padding: 0;
+  margin: 2rem 0 0 0;
+  list-style: none;
   flex: 1;
   margin-left: -0.5rem;
   margin-right: -0.5rem;
@@ -3714,60 +4077,66 @@ p + p {
   flex-wrap: wrap;
 }
 @media screen and (min-width: 768px) {
-  .two-col__row {
+  .service-links__cards {
     margin-left: -1rem;
     margin-right: -1rem;
   }
 }
-@media screen and (min-width: 768px) {
-  .two-col__row {
-    flex-direction: row;
-  }
-}
-.two-col__top {
+.service-links__card {
+  font-family: var(--heading-font);
+  font-size: 1.18rem;
+  font-weight: var(--heading-bold);
+  line-height: 1.4;
+  letter-spacing: normal;
   width: 100%;
   flex-basis: 100%;
   max-width: 100%;
   padding-left: 0.5rem;
   padding-right: 0.5rem;
-  margin-bottom: 3rem;
+}
+@media screen and (min-width: 1024px) {
+  .service-links__card {
+    font-size: 1.2rem;
+  }
 }
 @media screen and (min-width: 768px) {
-  .two-col__top {
+  .service-links__card {
     padding-left: 1rem;
     padding-right: 1rem;
   }
 }
+.service-links__card + .service-links__card {
+  margin: 1rem 0 0 0;
+}
 @media screen and (min-width: 768px) {
-  .two-col__top {
-    width: 100%;
-    flex-basis: 100%;
-    max-width: 100%;
+  .service-links__card {
+    width: 50%;
+    flex-basis: 50%;
+    max-width: 50%;
     padding-left: 0.5rem;
     padding-right: 0.5rem;
+    /*Using css selectors as flex gap doesn't work in IE11.*/
   }
 }
 @media screen and (min-width: 768px) and (min-width: 768px) {
-  .two-col__top {
-    padding-left: 1rem;
-    padding-right: 1rem;
-  }
-}
-.two-col__left {
-  width: 100%;
-  flex-basis: 100%;
-  max-width: 100%;
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
-}
-@media screen and (min-width: 768px) {
-  .two-col__left {
+  .service-links__card {
     padding-left: 1rem;
     padding-right: 1rem;
   }
 }
 @media screen and (min-width: 768px) {
-  .two-col__left {
+  .service-links__card:nth-child(2) {
+    margin-top: 0;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .service-links__card + .service-links__card {
+    margin-top: 2rem;
+  }
+  .service-links__card:nth-child(2) {
+    margin-top: 0;
+  }
+  .service-links__card--3 {
     width: 33.3333333333%;
     flex-basis: 33.3333333333%;
     max-width: 33.3333333333%;
@@ -3775,53 +4144,80 @@ p + p {
     padding-right: 0.5rem;
   }
 }
-@media screen and (min-width: 768px) and (min-width: 768px) {
-  .two-col__left {
+@media screen and (min-width: 1440px) and (min-width: 768px) {
+  .service-links__card--3 {
     padding-left: 1rem;
     padding-right: 1rem;
   }
 }
-.two-col__right {
-  width: 100%;
-  flex-basis: 100%;
-  max-width: 100%;
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
-}
-@media screen and (min-width: 768px) {
-  .two-col__right {
-    padding-left: 1rem;
-    padding-right: 1rem;
+@media screen and (min-width: 1440px) {
+  .service-links__card--3:nth-child(3) {
+    margin-top: 0;
   }
 }
-@media screen and (min-width: 768px) {
-  .two-col__right {
-    width: 66.6666666667%;
-    flex-basis: 66.6666666667%;
-    max-width: 66.6666666667%;
+@media screen and (min-width: 1440px) {
+  .service-links__card--4 {
+    width: 25%;
+    flex-basis: 25%;
+    max-width: 25%;
     padding-left: 0.5rem;
     padding-right: 0.5rem;
   }
 }
-@media screen and (min-width: 768px) and (min-width: 768px) {
-  .two-col__right {
+@media screen and (min-width: 1440px) and (min-width: 768px) {
+  .service-links__card--4 {
     padding-left: 1rem;
     padding-right: 1rem;
   }
 }
-.two-col__right-top {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
-  margin-bottom: 2rem;
-}
-@media screen and (min-width: 768px) {
-  .two-col__right-top {
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+@media screen and (min-width: 1440px) {
+  .service-links__card--4:nth-child(3), .service-links__card--4:nth-child(4) {
+    margin-top: 0;
   }
+}
+@media screen and (min-width: 1440px) {
+  .service-links__card--4:nth-child(4) {
+    margin-top: 0;
+  }
+}
+.service-links__anchor {
+  background-repeat: no-repeat;
+  background-position: right 1rem top 1.25rem;
+  box-shadow: 0 0.25rem 0.5rem 0 rgba(0, 0, 0, 0.1);
+  padding: 1rem 3.5rem 1rem 1rem;
+  color: var(--fsa-primary_black);
+  display: block;
+  height: 100%;
+  width: 100%;
+  border-top: 2px solid var(--fsa-secondary_mid-purple);
+  cursor: pointer;
+  background-color: var(--fsa-primary_white);
+  position: relative;
+}
+.service-links__anchor::before {
+  content: "";
+  background-image: url(./components/landing/ServiceLinks/arrow-right.svg);
+  display: inline-block;
+  width: 1.75rem;
+  height: 1rem;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  right: 1rem;
+}
+.service-links__anchor:hover {
+  text-decoration: underline;
+  color: var(--fsa__link-green);
+}
+.service-links__anchor:hover::before {
+  background-image: url(./components/landing/ServiceLinks/arrow-hover.svg);
+}
+.service-links__anchor:active, .service-links__anchor:visited {
+  color: var(--fsa-primary_black);
+}
+.service-links__anchor:focus {
+  outline: none;
+  background-color: var(--fsa-tertiary_light-yellow);
 }
 /*!***************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/layout/formLayout/formLayout.scss ***!
@@ -3847,6 +4243,7 @@ p + p {
   --fsa_tint: #fafcfd;
   /* Secondary Colours */
   --fsa-secondary_mid-red: #e31837;
+  --fsa-secondary_dark-blue: #165c7d;
   --fsa-secondary_orange: #f15d22;
   --fsa-secondary_mid-yellow: #fdb913;
   --fsa-secondary_mid-purple: #49176d;
@@ -4047,6 +4444,202 @@ p + p {
   }
 }
 /*!*************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/layout/twoColumn/twoColumn.scss ***!
+  \*************************************************************************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css?family=Fira+Sans:300,400,500,700);
+/*!*****************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/layout/twoColumn/twoColumn.scss (1) ***!
+  \*****************************************************************************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700);
+/*!*****************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/layout/twoColumn/twoColumn.scss (2) ***!
+  \*****************************************************************************************************************************************************************************/
+:root {
+  /* Primary Colours */
+  --fsa-primary_dark-green: #007c75;
+  --fsa-primary_mid-green: #6cb33f;
+  --fsa-primary_light-green: #a9c47f;
+  --fsa-primary_dark-grey: #53565a;
+  --fsa_online-grey: #f0f3f5;
+  --fsa_border: #dee2e5;
+  --fsa-primary_black: #000000;
+  --fsa-primary_white: #ffffff;
+  --fsa_tint: #fafcfd;
+  /* Secondary Colours */
+  --fsa-secondary_mid-red: #e31837;
+  --fsa-secondary_dark-blue: #165c7d;
+  --fsa-secondary_orange: #f15d22;
+  --fsa-secondary_mid-yellow: #fdb913;
+  --fsa-secondary_mid-purple: #49176d;
+  --fsa-secondary_light-purple: #9f218b;
+  --fsa-tertiary_dark-blue: #9f218b;
+  --fsa-secondary-error-red: #e60f31;
+  --fsa-secondary-error-hover: #b0132b;
+  /* Tertiary Colours */
+  --fsa-tertiary_dark-red: #b04a5a;
+  --fsa-tertiary_light-red: #ef3340;
+  --fsa-tertiary_light-yellow: #f1c400;
+  --fsa-tertiary_teal: #00b2a9;
+  --fsa-tertiary_light-blue: #8dc8e8;
+  --fsa-tertiary_dark-purple: #51284f;
+  --fsa-secondary_mid-blue: #007fb2;
+  --fsa-tertiary_lime: #cedc00;
+  --fsa-tertiary_mauve: #8b84d7;
+  /* Hover Colours */
+  --fsa__link-green: #014b4c;
+  --fsa__purple-hover: #2a0247;
+  /* Typography */
+  --body-font: "Open Sans", sans-serif;
+  --body-normal: 400;
+  --body-bold: 600;
+  --heading-font: "Fira Sans", sans-serif;
+  --heading-bold: 700;
+  /* Grid */
+  --container-mobile: 1rem;
+  --container: 2rem;
+  --gutter: 1rem;
+  --max-width: 1336px;
+}
+
+/* Grid */
+/* Custom Mixins */
+/* Mixin for checkbox and radio button style */
+/* Used for Style guide pages */
+.two-col {
+  max-width: 100%;
+}
+.two-col__container {
+  width: 100%;
+  margin: 0 auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+@media screen and (min-width: 768px) {
+  .two-col__container {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    width: 100%;
+    max-width: calc(1300px + (2 * 2rem));
+  }
+}
+.two-col__row {
+  flex: 1;
+  margin-left: -0.5rem;
+  margin-right: -0.5rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+@media screen and (min-width: 768px) {
+  .two-col__row {
+    margin-left: -1rem;
+    margin-right: -1rem;
+  }
+}
+@media screen and (min-width: 768px) {
+  .two-col__row {
+    flex-direction: row;
+  }
+}
+.two-col__top {
+  width: 100%;
+  flex-basis: 100%;
+  max-width: 100%;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  margin-bottom: 3rem;
+}
+@media screen and (min-width: 768px) {
+  .two-col__top {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+@media screen and (min-width: 768px) {
+  .two-col__top {
+    width: 100%;
+    flex-basis: 100%;
+    max-width: 100%;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+}
+@media screen and (min-width: 768px) and (min-width: 768px) {
+  .two-col__top {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+.two-col__left {
+  width: 100%;
+  flex-basis: 100%;
+  max-width: 100%;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+@media screen and (min-width: 768px) {
+  .two-col__left {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+@media screen and (min-width: 768px) {
+  .two-col__left {
+    width: 33.3333333333%;
+    flex-basis: 33.3333333333%;
+    max-width: 33.3333333333%;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+}
+@media screen and (min-width: 768px) and (min-width: 768px) {
+  .two-col__left {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+.two-col__right {
+  width: 100%;
+  flex-basis: 100%;
+  max-width: 100%;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+@media screen and (min-width: 768px) {
+  .two-col__right {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+@media screen and (min-width: 768px) {
+  .two-col__right {
+    width: 66.6666666667%;
+    flex-basis: 66.6666666667%;
+    max-width: 66.6666666667%;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+}
+@media screen and (min-width: 768px) and (min-width: 768px) {
+  .two-col__right {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+.two-col__right-top {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin-bottom: 2rem;
+}
+@media screen and (min-width: 768px) {
+  .two-col__right-top {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+/*!*************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/layout/fullWidth/fullWidth.scss ***!
   \*************************************************************************************************************************************************************************/
 @import url(https://fonts.googleapis.com/css?family=Fira+Sans:300,400,500,700);
@@ -4070,6 +4663,7 @@ p + p {
   --fsa_tint: #fafcfd;
   /* Secondary Colours */
   --fsa-secondary_mid-red: #e31837;
+  --fsa-secondary_dark-blue: #165c7d;
   --fsa-secondary_orange: #f15d22;
   --fsa-secondary_mid-yellow: #fdb913;
   --fsa-secondary_mid-purple: #49176d;
@@ -4164,105 +4758,6 @@ p + p {
     padding-right: 1rem;
   }
 }
-/*!**************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/components/form/MultistepFunction/multistepFunction.scss ***!
-  \**************************************************************************************************************************************************************************************************/
-@import url(https://fonts.googleapis.com/css?family=Fira+Sans:300,400,500,700);
-/*!******************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/components/form/MultistepFunction/multistepFunction.scss (1) ***!
-  \******************************************************************************************************************************************************************************************************/
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700);
-/*!******************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/components/form/MultistepFunction/multistepFunction.scss (2) ***!
-  \******************************************************************************************************************************************************************************************************/
-:root {
-  /* Primary Colours */
-  --fsa-primary_dark-green: #007c75;
-  --fsa-primary_mid-green: #6cb33f;
-  --fsa-primary_light-green: #a9c47f;
-  --fsa-primary_dark-grey: #53565a;
-  --fsa_online-grey: #f0f3f5;
-  --fsa_border: #dee2e5;
-  --fsa-primary_black: #000000;
-  --fsa-primary_white: #ffffff;
-  --fsa_tint: #fafcfd;
-  /* Secondary Colours */
-  --fsa-secondary_mid-red: #e31837;
-  --fsa-secondary_orange: #f15d22;
-  --fsa-secondary_mid-yellow: #fdb913;
-  --fsa-secondary_mid-purple: #49176d;
-  --fsa-secondary_light-purple: #9f218b;
-  --fsa-tertiary_dark-blue: #9f218b;
-  --fsa-secondary-error-red: #e60f31;
-  --fsa-secondary-error-hover: #b0132b;
-  /* Tertiary Colours */
-  --fsa-tertiary_dark-red: #b04a5a;
-  --fsa-tertiary_light-red: #ef3340;
-  --fsa-tertiary_light-yellow: #f1c400;
-  --fsa-tertiary_teal: #00b2a9;
-  --fsa-tertiary_light-blue: #8dc8e8;
-  --fsa-tertiary_dark-purple: #51284f;
-  --fsa-secondary_mid-blue: #007fb2;
-  --fsa-tertiary_lime: #cedc00;
-  --fsa-tertiary_mauve: #8b84d7;
-  /* Hover Colours */
-  --fsa__link-green: #014b4c;
-  --fsa__purple-hover: #2a0247;
-  /* Typography */
-  --body-font: "Open Sans", sans-serif;
-  --body-normal: 400;
-  --body-bold: 600;
-  --heading-font: "Fira Sans", sans-serif;
-  --heading-bold: 700;
-  /* Grid */
-  --container-mobile: 1rem;
-  --container: 2rem;
-  --gutter: 1rem;
-  --max-width: 1336px;
-}
-
-/* Grid */
-/* Custom Mixins */
-/* Mixin for checkbox and radio button style */
-/* Used for Style guide pages */
-.multistep-function {
-  margin-top: 2rem;
-}
-.multistep-function__container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-.multistep-function__previous {
-  color: var(--fsa-primary_dark-green);
-  text-decoration: underline;
-  padding: 0.5rem 0;
-  background-image: url(./components/form/MultistepFunction/previous-arrow.svg);
-  background-position: left 0 top 50%;
-  background-size: 1.6rem 1rem;
-  background-repeat: no-repeat;
-  padding-left: 2rem;
-}
-.multistep-function__previous:hover {
-  color: var(--fsa__link-green);
-}
-.multistep-function__previous:focus {
-  color: var(--fsa-primary_black);
-  outline: none;
-  text-decoration: none;
-  background-color: var(--fsa-tertiary_light-yellow);
-  border-bottom: 0.25rem solid var(--fsa-primary_black);
-  margin-bottom: -0.25rem;
-}
-@media screen and (min-width: 500px) {
-  .multistep-function__previous {
-    margin-left: 0;
-  }
-}
-
-.button {
-  margin-left: auto;
-}
 /*!************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/components/search/SearchBar/searchBar.scss ***!
   \************************************************************************************************************************************************************************************/
@@ -4287,6 +4782,7 @@ p + p {
   --fsa_tint: #fafcfd;
   /* Secondary Colours */
   --fsa-secondary_mid-red: #e31837;
+  --fsa-secondary_dark-blue: #165c7d;
   --fsa-secondary_orange: #f15d22;
   --fsa-secondary_mid-yellow: #fdb913;
   --fsa-secondary_mid-purple: #49176d;
