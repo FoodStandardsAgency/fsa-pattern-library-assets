@@ -6,11 +6,6 @@ function deeson_tpl_component_templates($assetPath = 'auto') {
 
 function deeson_twig_component_templates($assetPath = 'auto') {
   return [ 
-        "hero" => [
-          "template" => "hero",
-          "path" => $assetPath . "/components/general/Hero",
-          "variables" => ["content" => []]
-        ], 
         "formLayout" => [
           "template" => "formLayout",
           "path" => $assetPath . "/layout/formLayout",
@@ -34,6 +29,11 @@ function deeson_twig_component_templates($assetPath = 'auto') {
         "button" => [
           "template" => "button",
           "path" => $assetPath . "/components/general/Button",
+          "variables" => ["content" => []]
+        ], 
+        "hero" => [
+          "template" => "hero",
+          "path" => $assetPath . "/components/general/Hero",
           "variables" => ["content" => []]
         ], 
         "collapsibleCheckbox" => [
