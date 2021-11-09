@@ -6,6 +6,11 @@ function deeson_tpl_component_templates($assetPath = 'auto') {
 
 function deeson_twig_component_templates($assetPath = 'auto') {
   return [ 
+        "formLayout" => [
+          "template" => "formLayout",
+          "path" => $assetPath . "/layout/formLayout",
+          "variables" => ["content" => []]
+        ], 
         "twoColumn" => [
           "template" => "twoColumn",
           "path" => $assetPath . "/layout/twoColumn",
@@ -14,11 +19,6 @@ function deeson_twig_component_templates($assetPath = 'auto') {
         "fullWidth" => [
           "template" => "fullWidth",
           "path" => $assetPath . "/layout/fullWidth",
-          "variables" => ["content" => []]
-        ], 
-        "formLayout" => [
-          "template" => "formLayout",
-          "path" => $assetPath . "/layout/formLayout",
           "variables" => ["content" => []]
         ], 
         "breadcrumbs" => [
@@ -36,19 +36,24 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/search/CollapsibleCheckbox",
           "variables" => ["content" => []]
         ], 
-        "filtersSelected" => [
-          "template" => "filtersSelected",
-          "path" => $assetPath . "/components/search/FiltersSelected",
-          "variables" => ["content" => []]
-        ], 
         "listingItem" => [
           "template" => "listingItem",
           "path" => $assetPath . "/components/search/ListingItem",
           "variables" => ["content" => []]
         ], 
+        "filtersSelected" => [
+          "template" => "filtersSelected",
+          "path" => $assetPath . "/components/search/FiltersSelected",
+          "variables" => ["content" => []]
+        ], 
         "pagination" => [
           "template" => "pagination",
           "path" => $assetPath . "/components/search/Pagination",
+          "variables" => ["content" => []]
+        ], 
+        "searchBarHeader" => [
+          "template" => "searchBarHeader",
+          "path" => $assetPath . "/components/search/SearchBarHeader",
           "variables" => ["content" => []]
         ], 
         "searchNoResults" => [
@@ -79,11 +84,6 @@ function deeson_twig_component_templates($assetPath = 'auto') {
         "errorBox" => [
           "template" => "errorBox",
           "path" => $assetPath . "/components/form/ErrorBox",
-          "variables" => ["content" => []]
-        ], 
-        "searchBarHeader" => [
-          "template" => "searchBarHeader",
-          "path" => $assetPath . "/components/search/SearchBarHeader",
           "variables" => ["content" => []]
         ], 
         "externalLink" => [
@@ -146,6 +146,11 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/landing/ServiceLinks",
           "variables" => ["content" => []]
         ], 
+        "searchBarHeader" => [
+          "template" => "searchBarHeader",
+          "path" => $assetPath . "/components/search/SearchBarHeader/react",
+          "variables" => ["content" => []]
+        ], 
         "sortBy" => [
           "template" => "sortBy",
           "path" => $assetPath . "/components/search/SortBy/react",
@@ -154,11 +159,6 @@ function deeson_twig_component_templates($assetPath = 'auto') {
         "searchBar" => [
           "template" => "searchBar",
           "path" => $assetPath . "/components/search/SearchBar/react",
-          "variables" => ["content" => []]
-        ], 
-        "searchBarHeader" => [
-          "template" => "searchBarHeader",
-          "path" => $assetPath . "/components/search/SearchBarHeader/react",
           "variables" => ["content" => []]
         ]
   ];
