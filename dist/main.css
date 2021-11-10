@@ -3314,9 +3314,6 @@ p + p {
 }
 .landing-links__item a {
   display: inline-block;
-  width: -webkit-min-content;
-  display: -ms-grid;
-  -ms-grid-columns: min-content;
   text-align: center;
   outline: none;
   border: none;
@@ -3348,7 +3345,7 @@ p + p {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 0.5rem;
+  margin: 0 auto 0.5rem;
 }
 .landing-links__svg svg {
   width: 41px;
