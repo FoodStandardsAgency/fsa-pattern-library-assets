@@ -1222,15 +1222,6 @@ p + p {
     background-image: none;
   }
 }
-.hero__mask-wrapper:before {
-  content: "";
-  position: absolute;
-  background-color: inherit;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 60%;
-}
 .hero__container {
   position: relative;
   width: 100%;
@@ -1292,8 +1283,7 @@ p + p {
   position: relative;
   z-index: 1;
 }
-.hero__content:after {
-  content: "";
+.hero--without-image .hero__bg-circle {
   position: absolute;
   background-color: inherit;
   -ms-grid-row-align: center;
@@ -1305,12 +1295,12 @@ p + p {
   left: -34rem;
 }
 @media screen and (min-width: 1024px) {
-  .hero__content:after {
+  .hero--without-image .hero__bg-circle {
     left: -30rem;
   }
 }
 @media screen and (min-width: 1440px) {
-  .hero__content:after {
+  .hero--without-image .hero__bg-circle {
     left: -20rem;
   }
 }
