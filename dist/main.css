@@ -1168,10 +1168,11 @@ p + p {
 .hero {
   display: flex;
   position: relative;
-  overflow: hidden;
+  overflow: visible;
 }
 .hero__mask-wrapper {
   display: flex;
+  order: 2;
   width: 100%;
   height: fit-content;
   overflow: visible;
@@ -1189,7 +1190,7 @@ p + p {
 @media screen and (min-width: 768px) {
   .hero__mask-wrapper {
     background-image: url(./components/general/Hero/pattern.svg);
-    background-size: 90%;
+    background-size: 150%;
     background-position: right top;
     padding-bottom: 2.2rem;
   }
@@ -1197,6 +1198,7 @@ p + p {
 @media screen and (min-width: 1024px) {
   .hero__mask-wrapper {
     padding-bottom: 2.6rem;
+    background-size: 90%;
   }
 }
 @media screen and (min-width: 1440px) {
@@ -1204,10 +1206,25 @@ p + p {
     align-items: center;
   }
 }
+@media screen and (min-width: 1920px) {
+  .hero__mask-wrapper {
+    background-size: 70%;
+    padding-bottom: 3.2rem;
+  }
+}
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
   .hero__mask-wrapper {
     background-image: none;
   }
+}
+.hero__mask-wrapper:before {
+  content: "";
+  position: absolute;
+  background-color: inherit;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 60%;
 }
 .hero__container {
   position: relative;
@@ -1229,6 +1246,7 @@ p + p {
   margin-left: -0.5rem;
   margin-right: -0.5rem;
   display: flex;
+  flex-direction: column;
 }
 @media screen and (min-width: 768px) {
   .hero__row {
@@ -1311,7 +1329,7 @@ p + p {
   background-image: url(./components/general/Hero/dot-white.svg);
   background-repeat: repeat-x;
   background-size: 25px 25px;
-  width: 100%;
+  width: 101%;
   display: block;
   padding-bottom: 0.5rem;
   margin-top: 0.5rem;
@@ -1332,9 +1350,56 @@ p + p {
 .hero__cta {
   margin-top: 1rem;
 }
+.hero__services {
+  order: 3;
+  z-index: 10;
+  width: 100%;
+}
+@media screen and (min-width: 1440px) {
+  .hero__services {
+    position: absolute;
+    height: 100%;
+    bottom: -20rem;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .hero__services--with-image.hero__services--4-columns {
+    position: relative;
+    height: unset;
+    bottom: -2rem;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .hero__services__wrapper--2-columns .service-links__cards {
+    width: 50%;
+  }
+}
+.hero__services .service-links {
+  margin-top: 0;
+}
+.hero__services .service-links__text-wrapper {
+  text-align: left;
+  width: 100%;
+  margin-left: 0;
+  padding-left: 0;
+  padding-right: 0;
+  flex-basis: unset;
+  max-width: none;
+}
+.hero__services .service-links__cards {
+  margin-top: 0;
+}
+@media screen and (max-width: 767px) {
+  .hero__services .service-links__card {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
 .hero__image {
+  order: 1;
   height: 13.5rem;
   overflow: hidden;
+  z-index: 10;
 }
 .hero__image svg g {
   display: contents;
@@ -1346,7 +1411,7 @@ p + p {
     top: 0;
     right: 0;
     bottom: 0;
-    left: 0;
+    left: 50%;
   }
   .hero__image__container {
     width: 100%;
@@ -1370,7 +1435,7 @@ p + p {
     z-index: 1;
     position: absolute;
     top: -3.611rem;
-    right: 2rem;
+    left: 2rem;
     width: 18.667rem;
     height: 18.667rem;
   }
@@ -1380,16 +1445,13 @@ p + p {
 }
 @media screen and (min-width: 1024px) {
   .hero__image svg {
-    top: -6.188rem;
-    right: 2rem;
+    top: -8rem;
     width: 25rem;
     height: 25rem;
   }
 }
 @media screen and (min-width: 1440px) {
   .hero__image svg {
-    top: -8rem;
-    right: 3.125rem;
     width: 33.333rem;
     height: 33.333rem;
   }
@@ -1416,8 +1478,7 @@ p + p {
   background-image: url(./components/general/Hero/dot-grey.svg);
 }
 .hero--with-image {
-  flex-direction: column-reverse;
-  min-height: 29.5rem;
+  flex-direction: column;
 }
 @media screen and (min-width: 768px) {
   .hero--with-image {
@@ -1426,10 +1487,39 @@ p + p {
 }
 .hero--with-image .hero__mask-wrapper {
   background-image: none;
-  min-height: 26rem;
+}
+@media screen and (min-width: 1440px) {
+  .hero--with-image .hero__mask-wrapper {
+    min-height: 26rem;
+  }
 }
 .hero--with-image .hero__title {
   margin-top: 1rem;
+}
+.hero--with-services {
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (min-width: 1440px) {
+  .hero--with-services .hero__mask-wrapper {
+    align-items: unset;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .hero--with-services .hero__content-wrapper {
+    margin-top: 2rem;
+    padding-bottom: 10rem;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .hero--with-image.hero--with-services.hero--services-full .hero__content-wrapper {
+    padding-bottom: 0;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .hero--with-image.hero--with-services.hero--services-full .hero__mask-wrapper {
+    align-items: center;
+  }
 }
 /*!********************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/components/search/CollapsibleCheckbox/collapsibleCheckbox.scss ***!
