@@ -194,10 +194,7 @@ ul {
 }
 
 p {
-  margin: 0;
-}
-p + p {
-  margin-top: 1rem;
+  margin: 1rem 0 0;
 }
 
 .visually-hidden {
@@ -2800,8 +2797,6 @@ p + p {
   font-size: 1rem;
   line-height: 1.6;
   letter-spacing: normal;
-  margin-top: 1rem;
-  margin-bottom: 0;
 }
 .error-box__field {
   font-family: var(--heading-font);
@@ -3158,6 +3153,7 @@ p + p {
   background-image: url(./components/form/MessageBox/warning.svg);
 }
 .message-box__text {
+  margin: 0;
   padding: 1rem 1rem 1rem 3rem;
   background-repeat: no-repeat;
   background-size: 1rem;
@@ -3647,7 +3643,6 @@ p + p {
   line-height: 1.6;
   letter-spacing: normal;
   color: var(--fsa-primary_black);
-  margin: 1rem 0 0 0;
 }
 /*!*******************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/components/landing/LandingLinks/landingLinks.scss ***!
@@ -4294,7 +4289,6 @@ p + p {
   font-size: 1rem;
   line-height: 1.6;
   letter-spacing: normal;
-  margin: 1rem 0 0 0;
 }
 .latest-teaser__link-wrapper {
   margin-top: 1rem;
@@ -5003,7 +4997,6 @@ p + p {
   font-size: 1rem;
   line-height: 1.6;
   letter-spacing: normal;
-  margin: 1rem 0 0 0;
 }
 .service-links__cards {
   padding: 0;
