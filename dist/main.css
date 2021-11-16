@@ -688,6 +688,7 @@ p {
 /* Mixin for checkbox and radio button style */
 /* Used for Style guide pages */
 .header {
+  overflow: hidden;
   padding: 0.5rem 0 0;
   /*Expanded navigation style will only be applied to mobile viewports*/
 }
@@ -2536,6 +2537,180 @@ p {
 .sort__select:focus {
   box-shadow: inset 0 0 0px 2px var(--fsa-primary_black);
   outline: solid 3px var(--fsa-tertiary_light-yellow);
+}
+/*!********************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/components/search/FiltersHeader/filtersHeader.scss ***!
+  \********************************************************************************************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css?family=Fira+Sans:300,400,500,700);
+/*!************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/components/search/FiltersHeader/filtersHeader.scss (1) ***!
+  \************************************************************************************************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700);
+/*!************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/components/search/FiltersHeader/filtersHeader.scss (2) ***!
+  \************************************************************************************************************************************************************************************************/
+:root {
+  /* Primary Colours */
+  --fsa-primary_dark-green: #007c75;
+  --fsa-primary_mid-green: #6cb33f;
+  --fsa-primary_light-green: #a9c47f;
+  --fsa-primary_dark-grey: #53565a;
+  --fsa_online-grey: #f0f3f5;
+  --fsa_border: #dee2e5;
+  --fsa-primary_black: #000000;
+  --fsa-primary_white: #ffffff;
+  --fsa_tint: #fafcfd;
+  /* Secondary Colours */
+  --fsa-secondary_mid-red: #e31837;
+  --fsa-secondary_dark-blue: #165c7d;
+  --fsa-secondary_orange: #f15d22;
+  --fsa-secondary_mid-yellow: #fdb913;
+  --fsa-secondary_mid-purple: #49176d;
+  --fsa-secondary_light-purple: #9f218b;
+  --fsa-tertiary_dark-blue: #9f218b;
+  --fsa-secondary-error-red: #e60f31;
+  --fsa-secondary-error-hover: #b0132b;
+  /* Tertiary Colours */
+  --fsa-tertiary_dark-red: #b04a5a;
+  --fsa-tertiary_light-red: #ef3340;
+  --fsa-tertiary_light-yellow: #f1c400;
+  --fsa-tertiary_teal: #00b2a9;
+  --fsa-tertiary_light-blue: #8dc8e8;
+  --fsa-tertiary_dark-purple: #51284f;
+  --fsa-secondary_mid-blue: #007fb2;
+  --fsa-tertiary_lime: #cedc00;
+  --fsa-tertiary_mauve: #8b84d7;
+  /* Hover Colours */
+  --fsa__link-green: #014b4c;
+  --fsa__purple-hover: #2a0247;
+  /* Typography */
+  --body-font: "Open Sans", sans-serif;
+  --body-normal: 400;
+  --body-bold: 600;
+  --heading-font: "Fira Sans", sans-serif;
+  --heading-bold: 700;
+  /* Grid */
+  --container-mobile: 1rem;
+  --container: 2rem;
+  --gutter: 1rem;
+  --max-width: 1336px;
+}
+
+/* Grid */
+/* Custom Mixins */
+/* Mixin for checkbox and radio button style */
+/* Used for Style guide pages */
+body.overflow-hidden {
+  overflow-y: hidden;
+}
+@media screen and (min-width: 768px) {
+  body.overflow-hidden {
+    overflow: auto;
+  }
+}
+
+.search-filters__button {
+  display: inline-block;
+  font-family: open sans, sans-serif;
+  font-size: 1rem;
+  text-align: center;
+  line-height: 1.6rem;
+  min-height: 44px;
+  letter-spacing: normal;
+  border: 0;
+  border-radius: 1.5rem;
+  padding: 0.6rem 2.5rem;
+  cursor: pointer;
+  transition: background-color 0.2s cubic-bezier(0.19, 1, 0.22, 1), border-radius 0.1s ease-out, border-bottom 0.1s ease-out;
+  background-color: var(--fsa-primary_dark-green);
+  color: var(--fsa-primary_white);
+  width: 100%;
+  font-weight: bold;
+}
+.search-filters__button:hover {
+  background-color: #005e59;
+}
+.search-filters__button:focus {
+  box-shadow: 0 0 0 0.2rem var(--fsa-primary_black), 0 0 0 0.4rem var(--fsa-tertiary_light-yellow);
+  outline: none;
+}
+.search-filters__button--open {
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .search-filters__button {
+    display: none;
+  }
+}
+.search-filters__content {
+  display: none;
+}
+.search-filters__content--open {
+  display: block;
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 1rem;
+  margin: 0;
+  overflow-y: auto;
+  background: var(--fsa-primary_white);
+}
+@media screen and (min-width: 768px) {
+  .search-filters__content {
+    display: block;
+    z-index: 0;
+    width: auto;
+    height: auto;
+    padding: 0;
+    position: static;
+  }
+}
+.search-filters__return-wrapper {
+  display: flex;
+  justify-content: flex-end;
+}
+@media screen and (min-width: 768px) {
+  .search-filters__return-wrapper {
+    display: none;
+  }
+}
+.search-filters__return {
+  border: none;
+  background: none;
+  padding: 0;
+  cursor: pointer;
+  font-family: var(--body-font);
+  font-weight: var(--body-normal);
+  font-size: 1rem;
+  line-height: 1.6;
+  letter-spacing: normal;
+  color: var(--fsa-primary_dark-green);
+  text-decoration: underline;
+}
+.search-filters__return:hover {
+  color: var(--fsa__link-green);
+}
+.search-filters__return:focus {
+  color: var(--fsa-primary_black);
+  outline: none;
+  text-decoration: none;
+  background-color: var(--fsa-tertiary_light-yellow);
+  border-bottom: 0.25rem solid var(--fsa-primary_black);
+  margin-bottom: -0.25rem;
+}
+.search-filters__title {
+  margin: 1rem 0 0;
+  padding: 0;
+}
+@media screen and (min-width: 768px) {
+  .search-filters__title {
+    margin-top: 0.5rem;
+  }
 }
 /*!********************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/components/form/Checkbox/checkbox.scss ***!
