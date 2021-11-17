@@ -4773,6 +4773,7 @@ body.overflow-hidden {
   margin-right: -0.5rem;
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 @media screen and (min-width: 768px) {
   .promo-group__grid-row {
