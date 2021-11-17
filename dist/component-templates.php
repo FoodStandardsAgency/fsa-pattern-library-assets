@@ -11,14 +11,19 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/layout/formLayout",
           "variables" => ["content" => []]
         ], 
+        "twoColumn" => [
+          "template" => "twoColumn",
+          "path" => $assetPath . "/layout/twoColumn",
+          "variables" => ["content" => []]
+        ], 
         "fullWidth" => [
           "template" => "fullWidth",
           "path" => $assetPath . "/layout/fullWidth",
           "variables" => ["content" => []]
         ], 
-        "twoColumn" => [
-          "template" => "twoColumn",
-          "path" => $assetPath . "/layout/twoColumn",
+        "breadcrumbs" => [
+          "template" => "breadcrumbs",
+          "path" => $assetPath . "/components/general/Breadcrumb",
           "variables" => ["content" => []]
         ], 
         "button" => [
@@ -46,24 +51,24 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/search/FiltersSelected",
           "variables" => ["content" => []]
         ], 
-        "breadcrumbs" => [
-          "template" => "breadcrumbs",
-          "path" => $assetPath . "/components/general/Breadcrumb",
-          "variables" => ["content" => []]
-        ], 
         "listingItem" => [
           "template" => "listingItem",
           "path" => $assetPath . "/components/search/ListingItem",
           "variables" => ["content" => []]
         ], 
-        "searchNoResults" => [
-          "template" => "searchNoResults",
-          "path" => $assetPath . "/components/search/SearchNoResults",
+        "pagination" => [
+          "template" => "pagination",
+          "path" => $assetPath . "/components/search/Pagination",
           "variables" => ["content" => []]
         ], 
         "searchBarHeader" => [
           "template" => "searchBarHeader",
           "path" => $assetPath . "/components/search/SearchBarHeader",
+          "variables" => ["content" => []]
+        ], 
+        "searchNoResults" => [
+          "template" => "searchNoResults",
+          "path" => $assetPath . "/components/search/SearchNoResults",
           "variables" => ["content" => []]
         ], 
         "showing" => [
@@ -76,11 +81,6 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/search/SortBy",
           "variables" => ["content" => []]
         ], 
-        "pagination" => [
-          "template" => "pagination",
-          "path" => $assetPath . "/components/search/Pagination",
-          "variables" => ["content" => []]
-        ], 
         "filtersHeader" => [
           "template" => "filtersHeader",
           "path" => $assetPath . "/components/search/FiltersHeader",
@@ -91,6 +91,11 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/search/SearchBar",
           "variables" => ["content" => []]
         ], 
+        "checkbox" => [
+          "template" => "checkbox",
+          "path" => $assetPath . "/components/form/Checkbox",
+          "variables" => ["content" => []]
+        ], 
         "errorBox" => [
           "template" => "errorBox",
           "path" => $assetPath . "/components/form/ErrorBox",
@@ -99,11 +104,6 @@ function deeson_twig_component_templates($assetPath = 'auto') {
         "externalLink" => [
           "template" => "externalLink",
           "path" => $assetPath . "/components/form/ExternalLink",
-          "variables" => ["content" => []]
-        ], 
-        "checkbox" => [
-          "template" => "checkbox",
-          "path" => $assetPath . "/components/form/Checkbox",
           "variables" => ["content" => []]
         ], 
         "inputField" => [
@@ -164,6 +164,11 @@ function deeson_twig_component_templates($assetPath = 'auto') {
         "sortBy" => [
           "template" => "sortBy",
           "path" => $assetPath . "/components/search/SortBy/react",
+          "variables" => ["content" => []]
+        ], 
+        "filtersHeader" => [
+          "template" => "filtersHeader",
+          "path" => $assetPath . "/components/search/FiltersHeader/react",
           "variables" => ["content" => []]
         ], 
         "serviceLinks" => [
