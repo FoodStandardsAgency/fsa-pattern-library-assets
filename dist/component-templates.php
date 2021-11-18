@@ -11,14 +11,14 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/layout/formLayout",
           "variables" => ["content" => []]
         ], 
-        "twoColumn" => [
-          "template" => "twoColumn",
-          "path" => $assetPath . "/layout/twoColumn",
-          "variables" => ["content" => []]
-        ], 
         "fullWidth" => [
           "template" => "fullWidth",
           "path" => $assetPath . "/layout/fullWidth",
+          "variables" => ["content" => []]
+        ], 
+        "twoColumn" => [
+          "template" => "twoColumn",
+          "path" => $assetPath . "/layout/twoColumn",
           "variables" => ["content" => []]
         ], 
         "breadcrumbs" => [
@@ -136,6 +136,11 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/form/TitleAndText",
           "variables" => ["content" => []]
         ], 
+        "emailField" => [
+          "template" => "emailField",
+          "path" => $assetPath . "/components/form/EmailField",
+          "variables" => ["content" => []]
+        ], 
         "landingLinks" => [
           "template" => "landingLinks",
           "path" => $assetPath . "/components/landing/LandingLinks",
@@ -151,11 +156,6 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/landing/LatestTeaser",
           "variables" => ["content" => []]
         ], 
-        "promoGroup" => [
-          "template" => "promoGroup",
-          "path" => $assetPath . "/components/landing/PromoGroup",
-          "variables" => ["content" => []]
-        ], 
         "searchBarHeader" => [
           "template" => "searchBarHeader",
           "path" => $assetPath . "/components/search/SearchBarHeader/react",
@@ -169,6 +169,11 @@ function deeson_twig_component_templates($assetPath = 'auto') {
         "filtersHeader" => [
           "template" => "filtersHeader",
           "path" => $assetPath . "/components/search/FiltersHeader/react",
+          "variables" => ["content" => []]
+        ], 
+        "promoGroup" => [
+          "template" => "promoGroup",
+          "path" => $assetPath . "/components/landing/PromoGroup",
           "variables" => ["content" => []]
         ], 
         "serviceLinks" => [
