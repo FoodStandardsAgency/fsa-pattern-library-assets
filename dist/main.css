@@ -1293,27 +1293,18 @@ p {
 }
 .hero__content {
   display: flex;
-  position: relative;
   z-index: 1;
 }
-.hero--without-image {
-  overflow: hidden;
-}
-.hero--without-image .hero__bg-circle {
+.hero__content:after {
+  content: "";
   position: absolute;
   background-color: inherit;
-  -ms-grid-row-align: center;
-      align-self: center;
-  height: 58.563rem;
-  width: 58.563rem;
+  left: -48%;
+  bottom: -150%;
+  top: -150%;
+  width: 100%;
   border-radius: 100%;
   z-index: -1;
-  right: -20%;
-}
-@media screen and (min-width: 1024px) {
-  .hero--without-image .hero__bg-circle {
-    right: -10%;
-  }
 }
 .hero__title {
   font-family: var(--heading-font);
