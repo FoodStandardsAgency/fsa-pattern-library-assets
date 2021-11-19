@@ -1296,6 +1296,9 @@ p {
   position: relative;
   z-index: 1;
 }
+.hero--without-image {
+  overflow: hidden;
+}
 .hero--without-image .hero__bg-circle {
   position: absolute;
   background-color: inherit;
