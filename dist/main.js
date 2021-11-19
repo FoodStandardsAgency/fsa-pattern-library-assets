@@ -1125,7 +1125,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\nconst updateParams = (name, value) => {\n  const currUrl = new URL(window.location.href);\n  let params = new URLSearchParams(currUrl.search);\n  params.delete(name);\n  params.append(name, value);\n  const query = params.toString();\n  window.location.href = window.location.origin + '?' + query;\n}\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (updateParams);\n\n//# sourceURL=webpack://fds/./src/helpers/updateParams.js?");
+eval("__webpack_require__.r(__webpack_exports__);\nconst updateParams = (name, value) => {\n  const currUrl = new URL(window.location.href);\n  let params = new URLSearchParams(currUrl.search);\n  params.delete(name);\n  params.append(name, value);\n  const query = params.toString();\n  const form = document.getElementsByClassName('search-bar');\n  let pathName = currUrl.pathname;\n  if (form) {\n    pathName = form[0].getAttribute('action');\n  }\n  window.location.href = window.location.origin + pathName + (query != '' ? '?' + query : '');\n}\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (updateParams);\n\n//# sourceURL=webpack://fds/./src/helpers/updateParams.js?");
 
 /***/ }),
 
