@@ -316,17 +316,6 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ 
 
 /***/ }),
 
-/***/ "./src/components/search/SearchBar/react/searchBar.html.twig":
-/*!*******************************************************************!*\
-  !*** ./src/components/search/SearchBar/react/searchBar.html.twig ***!
-  \*******************************************************************/
-/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"components/search/SearchBar/react/searchBar.html.twig\");\n\n//# sourceURL=webpack://fds/./src/components/search/SearchBar/react/searchBar.html.twig?");
-
-/***/ }),
-
 /***/ "./src/components/search/SearchBar/searchBar.html.twig":
 /*!*************************************************************!*\
   !*** ./src/components/search/SearchBar/searchBar.html.twig ***!
@@ -335,17 +324,6 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ 
 
 "use strict";
 eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"components/search/SearchBar/searchBar.html.twig\");\n\n//# sourceURL=webpack://fds/./src/components/search/SearchBar/searchBar.html.twig?");
-
-/***/ }),
-
-/***/ "./src/components/search/SearchBarHeader/react/searchBarHeader.html.twig":
-/*!*******************************************************************************!*\
-  !*** ./src/components/search/SearchBarHeader/react/searchBarHeader.html.twig ***!
-  \*******************************************************************************/
-/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"components/search/SearchBarHeader/react/searchBarHeader.html.twig\");\n\n//# sourceURL=webpack://fds/./src/components/search/SearchBarHeader/react/searchBarHeader.html.twig?");
 
 /***/ }),
 
@@ -1092,7 +1070,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": function() { return /* export default binding */ __WEBPACK_DEFAULT_EXPORT__; }\n/* harmony export */ });\n/* harmony import */ var _helpers_updateParams__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../helpers/updateParams */ \"./src/helpers/updateParams.js\");\n/* harmony import */ var _searchBar_html_twig__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./searchBar.html.twig */ \"./src/components/search/SearchBar/searchBar.html.twig\");\n/* harmony import */ var _react_searchBar_html_twig__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./react/searchBar.html.twig */ \"./src/components/search/SearchBar/react/searchBar.html.twig\");\n/* harmony import */ var _searchBar_scss__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./searchBar.scss */ \"./src/components/search/SearchBar/searchBar.scss\");\n\n\n\n\n\n\n/* harmony default export */ function __WEBPACK_DEFAULT_EXPORT__() {\n  window.addEventListener('DOMContentLoaded', function () {\n    const el = document.querySelector('.search-bar');\n    if(!el) {\n      return;\n    }\n\n    const input = el.querySelector('.search-bar__box');\n    input.addEventListener('input', () => {\n      if (input.value !== '') {\n        input.classList.add('search-bar__box--has-content');\n      } else {\n        input.classList.remove('search-bar__box--has-content');\n      }\n    });\n\n    const submit = el.querySelector('.search-bar__submit');\n    submit.addEventListener('click', (e) => {\n      e.preventDefault();\n      (0,_helpers_updateParams__WEBPACK_IMPORTED_MODULE_0__.default)('keywords', input.value);\n    });\n  });\n}\n\n\n//# sourceURL=webpack://fds/./src/components/search/SearchBar/searchBar.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": function() { return /* export default binding */ __WEBPACK_DEFAULT_EXPORT__; }\n/* harmony export */ });\n/* harmony import */ var _helpers_updateParams__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../helpers/updateParams */ \"./src/helpers/updateParams.js\");\n/* harmony import */ var _searchBar_html_twig__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./searchBar.html.twig */ \"./src/components/search/SearchBar/searchBar.html.twig\");\n/* harmony import */ var _searchBar_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./searchBar.scss */ \"./src/components/search/SearchBar/searchBar.scss\");\n\n\n\n\n\n/* harmony default export */ function __WEBPACK_DEFAULT_EXPORT__() {\n  window.addEventListener('DOMContentLoaded', function () {\n    const el = document.querySelector('.search-bar');\n    if(!el) {\n      return;\n    }\n\n    const input = el.querySelector('.search-bar__box');\n    input.addEventListener('input', () => {\n      if (input.value !== '') {\n        input.classList.add('search-bar__box--has-content');\n      } else {\n        input.classList.remove('search-bar__box--has-content');\n      }\n    });\n\n    const submit = el.querySelector('.search-bar__submit');\n    submit.addEventListener('click', (e) => {\n      e.preventDefault();\n      (0,_helpers_updateParams__WEBPACK_IMPORTED_MODULE_0__.default)('keywords', input.value);\n    });\n  });\n}\n\n\n//# sourceURL=webpack://fds/./src/components/search/SearchBar/searchBar.js?");
 
 /***/ }),
 
@@ -1103,7 +1081,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _searchBarHeader_html_twig__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./searchBarHeader.html.twig */ \"./src/components/search/SearchBarHeader/searchBarHeader.html.twig\");\n/* harmony import */ var _react_searchBarHeader_html_twig__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./react/searchBarHeader.html.twig */ \"./src/components/search/SearchBarHeader/react/searchBarHeader.html.twig\");\n/* harmony import */ var _searchBarHeader_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./searchBarHeader.scss */ \"./src/components/search/SearchBarHeader/searchBarHeader.scss\");\n\n\n\n\n//# sourceURL=webpack://fds/./src/components/search/SearchBarHeader/searchBarHeader.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _searchBarHeader_html_twig__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./searchBarHeader.html.twig */ \"./src/components/search/SearchBarHeader/searchBarHeader.html.twig\");\n/* harmony import */ var _searchBarHeader_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./searchBarHeader.scss */ \"./src/components/search/SearchBarHeader/searchBarHeader.scss\");\n\n\n\n//# sourceURL=webpack://fds/./src/components/search/SearchBarHeader/searchBarHeader.js?");
 
 /***/ }),
 
