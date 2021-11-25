@@ -1187,7 +1187,7 @@ p {
 .hero {
   display: flex;
   position: relative;
-  overflow: visible;
+  overflow: hidden;
 }
 .hero__mask-wrapper {
   display: flex;
@@ -1354,16 +1354,15 @@ p {
 }
 @media screen and (min-width: 1440px) {
   .hero__services {
-    position: absolute;
+    margin-top: -11rem;
     height: 100%;
-    bottom: -20rem;
   }
 }
 @media screen and (min-width: 1440px) {
   .hero__services--with-image.hero__services--4-columns {
     position: relative;
     height: unset;
-    bottom: -2rem;
+    margin-top: 0;
   }
 }
 @media screen and (min-width: 1440px) {

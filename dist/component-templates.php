@@ -21,14 +21,14 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/layout/fullWidth",
           "variables" => ["content" => []]
         ], 
-        "button" => [
-          "template" => "button",
-          "path" => $assetPath . "/components/general/Button",
-          "variables" => ["content" => []]
-        ], 
         "breadcrumbs" => [
           "template" => "breadcrumbs",
           "path" => $assetPath . "/components/general/Breadcrumb",
+          "variables" => ["content" => []]
+        ], 
+        "button" => [
+          "template" => "button",
+          "path" => $assetPath . "/components/general/Button",
           "variables" => ["content" => []]
         ], 
         "header" => [
