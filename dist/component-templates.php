@@ -6,19 +6,14 @@ function deeson_tpl_component_templates($assetPath = 'auto') {
 
 function deeson_twig_component_templates($assetPath = 'auto') {
   return [ 
-        "twoColumn" => [
-          "template" => "twoColumn",
-          "path" => $assetPath . "/layout/twoColumn",
-          "variables" => ["content" => []]
-        ], 
         "formLayout" => [
           "template" => "formLayout",
           "path" => $assetPath . "/layout/formLayout",
           "variables" => ["content" => []]
         ], 
-        "contentLayout" => [
-          "template" => "contentLayout",
-          "path" => $assetPath . "/layout/contentLayout",
+        "twoColumn" => [
+          "template" => "twoColumn",
+          "path" => $assetPath . "/layout/twoColumn",
           "variables" => ["content" => []]
         ], 
         "fullWidth" => [
@@ -26,19 +21,24 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/layout/fullWidth",
           "variables" => ["content" => []]
         ], 
+        "contentLayout" => [
+          "template" => "contentLayout",
+          "path" => $assetPath . "/layout/contentLayout",
+          "variables" => ["content" => []]
+        ], 
         "breadcrumbs" => [
           "template" => "breadcrumbs",
           "path" => $assetPath . "/components/general/Breadcrumb",
           "variables" => ["content" => []]
         ], 
-        "button" => [
-          "template" => "button",
-          "path" => $assetPath . "/components/general/Button",
-          "variables" => ["content" => []]
-        ], 
         "header" => [
           "template" => "header",
           "path" => $assetPath . "/components/general/Header",
+          "variables" => ["content" => []]
+        ], 
+        "button" => [
+          "template" => "button",
+          "path" => $assetPath . "/components/general/Button",
           "variables" => ["content" => []]
         ], 
         "hero" => [
@@ -76,6 +76,11 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/search/SearchBarHeader",
           "variables" => ["content" => []]
         ], 
+        "pagination" => [
+          "template" => "pagination",
+          "path" => $assetPath . "/components/search/Pagination",
+          "variables" => ["content" => []]
+        ], 
         "searchNoResults" => [
           "template" => "searchNoResults",
           "path" => $assetPath . "/components/search/SearchNoResults",
@@ -84,11 +89,6 @@ function deeson_twig_component_templates($assetPath = 'auto') {
         "showing" => [
           "template" => "showing",
           "path" => $assetPath . "/components/search/Showing",
-          "variables" => ["content" => []]
-        ], 
-        "pagination" => [
-          "template" => "pagination",
-          "path" => $assetPath . "/components/search/Pagination",
           "variables" => ["content" => []]
         ], 
         "sortBy" => [
@@ -106,14 +106,14 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/search/SearchBar",
           "variables" => ["content" => []]
         ], 
-        "checkbox" => [
-          "template" => "checkbox",
-          "path" => $assetPath . "/components/form/Checkbox",
-          "variables" => ["content" => []]
-        ], 
         "errorBox" => [
           "template" => "errorBox",
           "path" => $assetPath . "/components/form/ErrorBox",
+          "variables" => ["content" => []]
+        ], 
+        "checkbox" => [
+          "template" => "checkbox",
+          "path" => $assetPath . "/components/form/Checkbox",
           "variables" => ["content" => []]
         ], 
         "externalLink" => [
@@ -166,6 +166,11 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/landing/LandingLinks",
           "variables" => ["content" => []]
         ], 
+        "largePromoGroup" => [
+          "template" => "largePromoGroup",
+          "path" => $assetPath . "/components/landing/LargePromoGroup",
+          "variables" => ["content" => []]
+        ], 
         "latestTeaser" => [
           "template" => "latestTeaser",
           "path" => $assetPath . "/components/landing/LatestTeaser",
@@ -174,11 +179,6 @@ function deeson_twig_component_templates($assetPath = 'auto') {
         "promoGroup" => [
           "template" => "promoGroup",
           "path" => $assetPath . "/components/landing/PromoGroup",
-          "variables" => ["content" => []]
-        ], 
-        "largePromoGroup" => [
-          "template" => "largePromoGroup",
-          "path" => $assetPath . "/components/landing/LargePromoGroup",
           "variables" => ["content" => []]
         ], 
         "serviceLinks" => [
