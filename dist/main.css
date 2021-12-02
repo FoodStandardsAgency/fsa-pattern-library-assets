@@ -3044,6 +3044,11 @@ body.overflow-hidden {
 .checkbox__label {
   padding: 0 0 0 1rem;
 }
+.checkbox__label-description {
+  color: var(--fsa-primary_dark-grey);
+  font-size: 1rem;
+  padding-left: 1rem;
+}
 .checkbox--error {
   border-left: 0.25rem solid var(--fsa-secondary_mid-red);
   margin-left: -0.75rem;
@@ -3780,6 +3785,11 @@ body.overflow-hidden {
 }
 .radio__label {
   padding: 0 0 0 1rem;
+}
+.radio__label-description {
+  color: var(--fsa-primary_dark-grey);
+  font-size: 1rem;
+  padding-left: 1rem;
 }
 .radio--error {
   border-left: 0.25rem solid var(--fsa-secondary_mid-red);
