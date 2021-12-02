@@ -6,24 +6,24 @@ function deeson_tpl_component_templates($assetPath = 'auto') {
 
 function deeson_twig_component_templates($assetPath = 'auto') {
   return [ 
-        "formLayout" => [
-          "template" => "formLayout",
-          "path" => $assetPath . "/layout/formLayout",
-          "variables" => ["content" => []]
-        ], 
         "twoColumn" => [
           "template" => "twoColumn",
           "path" => $assetPath . "/layout/twoColumn",
           "variables" => ["content" => []]
         ], 
-        "fullWidth" => [
-          "template" => "fullWidth",
-          "path" => $assetPath . "/layout/fullWidth",
+        "formLayout" => [
+          "template" => "formLayout",
+          "path" => $assetPath . "/layout/formLayout",
           "variables" => ["content" => []]
         ], 
         "contentLayout" => [
           "template" => "contentLayout",
           "path" => $assetPath . "/layout/contentLayout",
+          "variables" => ["content" => []]
+        ], 
+        "fullWidth" => [
+          "template" => "fullWidth",
+          "path" => $assetPath . "/layout/fullWidth",
           "variables" => ["content" => []]
         ], 
         "breadcrumbs" => [
@@ -71,11 +71,6 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/search/ListingItem",
           "variables" => ["content" => []]
         ], 
-        "pagination" => [
-          "template" => "pagination",
-          "path" => $assetPath . "/components/search/Pagination",
-          "variables" => ["content" => []]
-        ], 
         "searchBarHeader" => [
           "template" => "searchBarHeader",
           "path" => $assetPath . "/components/search/SearchBarHeader",
@@ -89,6 +84,11 @@ function deeson_twig_component_templates($assetPath = 'auto') {
         "showing" => [
           "template" => "showing",
           "path" => $assetPath . "/components/search/Showing",
+          "variables" => ["content" => []]
+        ], 
+        "pagination" => [
+          "template" => "pagination",
+          "path" => $assetPath . "/components/search/Pagination",
           "variables" => ["content" => []]
         ], 
         "sortBy" => [
@@ -126,6 +126,11 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/form/InputField",
           "variables" => ["content" => []]
         ], 
+        "messageBox" => [
+          "template" => "messageBox",
+          "path" => $assetPath . "/components/form/MessageBox",
+          "variables" => ["content" => []]
+        ], 
         "multistepFunction" => [
           "template" => "multistepFunction",
           "path" => $assetPath . "/components/form/MultistepFunction",
@@ -156,19 +161,9 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/form/Textarea",
           "variables" => ["content" => []]
         ], 
-        "messageBox" => [
-          "template" => "messageBox",
-          "path" => $assetPath . "/components/form/MessageBox",
-          "variables" => ["content" => []]
-        ], 
         "landingLinks" => [
           "template" => "landingLinks",
           "path" => $assetPath . "/components/landing/LandingLinks",
-          "variables" => ["content" => []]
-        ], 
-        "largePromoGroup" => [
-          "template" => "largePromoGroup",
-          "path" => $assetPath . "/components/landing/LargePromoGroup",
           "variables" => ["content" => []]
         ], 
         "latestTeaser" => [
@@ -179,6 +174,11 @@ function deeson_twig_component_templates($assetPath = 'auto') {
         "promoGroup" => [
           "template" => "promoGroup",
           "path" => $assetPath . "/components/landing/PromoGroup",
+          "variables" => ["content" => []]
+        ], 
+        "largePromoGroup" => [
+          "template" => "largePromoGroup",
+          "path" => $assetPath . "/components/landing/LargePromoGroup",
           "variables" => ["content" => []]
         ], 
         "serviceLinks" => [
