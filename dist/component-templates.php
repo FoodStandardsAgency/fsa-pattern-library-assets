@@ -11,6 +11,11 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/layout/formLayout",
           "variables" => ["content" => []]
         ], 
+        "twoColumn" => [
+          "template" => "twoColumn",
+          "path" => $assetPath . "/layout/twoColumn",
+          "variables" => ["content" => []]
+        ], 
         "fullWidth" => [
           "template" => "fullWidth",
           "path" => $assetPath . "/layout/fullWidth",
@@ -21,9 +26,9 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/layout/contentLayout",
           "variables" => ["content" => []]
         ], 
-        "twoColumn" => [
-          "template" => "twoColumn",
-          "path" => $assetPath . "/layout/twoColumn",
+        "breadcrumbs" => [
+          "template" => "breadcrumbs",
+          "path" => $assetPath . "/components/general/Breadcrumb",
           "variables" => ["content" => []]
         ], 
         "button" => [
@@ -49,11 +54,6 @@ function deeson_twig_component_templates($assetPath = 'auto') {
         "documentDownload" => [
           "template" => "documentDownload",
           "path" => $assetPath . "/components/general/DocumentDownload",
-          "variables" => ["content" => []]
-        ], 
-        "breadcrumbs" => [
-          "template" => "breadcrumbs",
-          "path" => $assetPath . "/components/general/Breadcrumb",
           "variables" => ["content" => []]
         ], 
         "collapsibleCheckbox" => [
@@ -151,14 +151,14 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/form/EmailField",
           "variables" => ["content" => []]
         ], 
-        "messageBox" => [
-          "template" => "messageBox",
-          "path" => $assetPath . "/components/form/MessageBox",
-          "variables" => ["content" => []]
-        ], 
         "textarea" => [
           "template" => "textarea",
           "path" => $assetPath . "/components/form/Textarea",
+          "variables" => ["content" => []]
+        ], 
+        "messageBox" => [
+          "template" => "messageBox",
+          "path" => $assetPath . "/components/form/MessageBox",
           "variables" => ["content" => []]
         ], 
         "landingLinks" => [
