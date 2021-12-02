@@ -1660,6 +1660,7 @@ p {
 }
 .document-download__link {
   margin-left: 0.5rem;
+  text-decoration: underline;
 }
 @media screen and (min-width: 768px) {
   .document-download__link {
@@ -1670,6 +1671,17 @@ p {
   .document-download__link {
     margin-left: 1rem;
   }
+}
+.document-download__link:hover {
+  color: var(--fsa__link-green);
+}
+.document-download__link:focus {
+  color: var(--fsa-primary_black);
+  outline: none;
+  text-decoration: none;
+  background-color: var(--fsa-tertiary_light-yellow);
+  border-bottom: 0.25rem solid var(--fsa-primary_black);
+  margin-bottom: -0.25rem;
 }
 /*!********************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/components/search/CollapsibleCheckbox/collapsibleCheckbox.scss ***!
