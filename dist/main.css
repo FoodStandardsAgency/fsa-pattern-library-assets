@@ -40,6 +40,7 @@
   --fsa-secondary_mid-blue: #007fb2;
   --fsa-tertiary_lime: #cedc00;
   --fsa-tertiary_mauve: #8b84d7;
+  --fsa-tertiary_stripe-green: #006f51;
   /* Hover Colours */
   --fsa__link-green: #014b4c;
   --fsa__purple-hover: #2a0247;
@@ -261,6 +262,7 @@ p {
   --fsa-secondary_mid-blue: #007fb2;
   --fsa-tertiary_lime: #cedc00;
   --fsa-tertiary_mauve: #8b84d7;
+  --fsa-tertiary_stripe-green: #006f51;
   /* Hover Colours */
   --fsa__link-green: #014b4c;
   --fsa__purple-hover: #2a0247;
@@ -535,6 +537,7 @@ p {
   --fsa-secondary_mid-blue: #007fb2;
   --fsa-tertiary_lime: #cedc00;
   --fsa-tertiary_mauve: #8b84d7;
+  --fsa-tertiary_stripe-green: #006f51;
   /* Hover Colours */
   --fsa__link-green: #014b4c;
   --fsa__purple-hover: #2a0247;
@@ -667,6 +670,7 @@ p {
   --fsa-secondary_mid-blue: #007fb2;
   --fsa-tertiary_lime: #cedc00;
   --fsa-tertiary_mauve: #8b84d7;
+  --fsa-tertiary_stripe-green: #006f51;
   /* Hover Colours */
   --fsa__link-green: #014b4c;
   --fsa__purple-hover: #2a0247;
@@ -1164,6 +1168,7 @@ p {
   --fsa-secondary_mid-blue: #007fb2;
   --fsa-tertiary_lime: #cedc00;
   --fsa-tertiary_mauve: #8b84d7;
+  --fsa-tertiary_stripe-green: #006f51;
   /* Hover Colours */
   --fsa__link-green: #014b4c;
   --fsa__purple-hover: #2a0247;
@@ -1517,6 +1522,155 @@ p {
     align-items: center;
   }
 }
+/*!***************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/components/general/DocumentDownload/documentDownload.scss ***!
+  \***************************************************************************************************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css?family=Fira+Sans:300,400,500,700);
+/*!*******************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/components/general/DocumentDownload/documentDownload.scss (1) ***!
+  \*******************************************************************************************************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700);
+/*!*******************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/components/general/DocumentDownload/documentDownload.scss (2) ***!
+  \*******************************************************************************************************************************************************************************************************/
+:root {
+  /* Primary Colours */
+  --fsa-primary_dark-green: #007c75;
+  --fsa-primary_mid-green: #6cb33f;
+  --fsa-primary_light-green: #a9c47f;
+  --fsa-primary_dark-grey: #53565a;
+  --fsa_online-grey: #f0f3f5;
+  --fsa_border: #dee2e5;
+  --fsa-primary_black: #000000;
+  --fsa-primary_white: #ffffff;
+  --fsa_tint: #fafcfd;
+  /* Secondary Colours */
+  --fsa-secondary_mid-red: #e31837;
+  --fsa-secondary_dark-blue: #165c7d;
+  --fsa-secondary_orange: #f15d22;
+  --fsa-secondary_mid-yellow: #fdb913;
+  --fsa-secondary_mid-purple: #49176d;
+  --fsa-secondary_light-purple: #9f218b;
+  --fsa-tertiary_dark-blue: #9f218b;
+  --fsa-secondary-error-red: #e60f31;
+  --fsa-secondary-error-hover: #b0132b;
+  /* Tertiary Colours */
+  --fsa-tertiary_dark-red: #b04a5a;
+  --fsa-tertiary_light-red: #ef3340;
+  --fsa-tertiary_light-yellow: #f1c400;
+  --fsa-tertiary_teal: #00b2a9;
+  --fsa-tertiary_light-blue: #8dc8e8;
+  --fsa-tertiary_dark-purple: #51284f;
+  --fsa-secondary_mid-blue: #007fb2;
+  --fsa-tertiary_lime: #cedc00;
+  --fsa-tertiary_mauve: #8b84d7;
+  --fsa-tertiary_stripe-green: #006f51;
+  /* Hover Colours */
+  --fsa__link-green: #014b4c;
+  --fsa__purple-hover: #2a0247;
+  /* Typography */
+  --body-font: "Open Sans", sans-serif;
+  --body-normal: 400;
+  --body-bold: 600;
+  --heading-font: "Fira Sans", sans-serif;
+  --heading-bold: 700;
+  /* Grid */
+  --container-mobile: 1rem;
+  --container: 2rem;
+  --gutter: 1rem;
+  --max-width: 1336px;
+}
+
+/* Grid */
+/* Custom Mixins */
+/* Mixin for checkbox and radio button style */
+/* Used for Style guide pages */
+.document-download {
+  background-color: var(--fsa_tint);
+  border: 1px solid var(--fsa_border);
+  margin-top: 2rem;
+  padding: 0.5rem 0.5rem 0.5rem;
+  position: relative;
+}
+@media screen and (min-width: 768px) {
+  .document-download {
+    padding: 1rem 1.5rem 1rem 2rem;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .document-download {
+    padding: 1rem 1rem 1rem 2rem;
+  }
+}
+.document-download:before {
+  content: "";
+  height: calc(100% + 2px);
+  width: 5px;
+  position: absolute;
+  left: -5px;
+  top: -1px;
+}
+.document-download--england:before {
+  background-color: var(--fsa-secondary_mid-red);
+}
+.document-download--wales:before {
+  background-color: var(--fsa-tertiary_stripe-green);
+}
+.document-download--northern-ireland:before {
+  background-color: var(--fsa-secondary_mid-yellow);
+}
+.document-download--multi:before {
+  background-color: var(--fsa-primary_dark-grey);
+}
+.document-download__region {
+  font-family: var(--body-font);
+  font-weight: var(--body-normal);
+  font-size: 1rem;
+  line-height: 1.6;
+  letter-spacing: normal;
+  font-weight: bold;
+  color: var(--fsa-primary_black);
+  display: block;
+}
+.document-download__content {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.document-download__content--with-region {
+  margin-top: 0.5rem;
+}
+.document-download__format {
+  font-family: var(--body-font);
+  font-weight: var(--body-normal);
+  font-size: 1rem;
+  line-height: 1.6;
+  letter-spacing: normal;
+  color: var(--fsa-primary_white);
+  min-width: 3.75rem;
+  text-align: center;
+  display: block;
+  background-color: var(--fsa-primary_dark-grey);
+}
+.document-download__format--pdf {
+  background-color: var(--fsa-tertiary_dark-red);
+}
+.document-download__format--word {
+  background-color: var(--fsa-secondary_dark-blue);
+}
+.document-download__link {
+  margin-left: 0.5rem;
+}
+@media screen and (min-width: 768px) {
+  .document-download__link {
+    margin-left: 1.5rem;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .document-download__link {
+    margin-left: 1rem;
+  }
+}
 /*!********************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/components/search/CollapsibleCheckbox/collapsibleCheckbox.scss ***!
   \********************************************************************************************************************************************************************************************************/
@@ -1559,6 +1713,7 @@ p {
   --fsa-secondary_mid-blue: #007fb2;
   --fsa-tertiary_lime: #cedc00;
   --fsa-tertiary_mauve: #8b84d7;
+  --fsa-tertiary_stripe-green: #006f51;
   /* Hover Colours */
   --fsa__link-green: #014b4c;
   --fsa__purple-hover: #2a0247;
@@ -1728,6 +1883,7 @@ p {
   --fsa-secondary_mid-blue: #007fb2;
   --fsa-tertiary_lime: #cedc00;
   --fsa-tertiary_mauve: #8b84d7;
+  --fsa-tertiary_stripe-green: #006f51;
   /* Hover Colours */
   --fsa__link-green: #014b4c;
   --fsa__purple-hover: #2a0247;
@@ -1872,6 +2028,7 @@ p {
   --fsa-secondary_mid-blue: #007fb2;
   --fsa-tertiary_lime: #cedc00;
   --fsa-tertiary_mauve: #8b84d7;
+  --fsa-tertiary_stripe-green: #006f51;
   /* Hover Colours */
   --fsa__link-green: #014b4c;
   --fsa__purple-hover: #2a0247;
@@ -2010,6 +2167,7 @@ p {
   --fsa-secondary_mid-blue: #007fb2;
   --fsa-tertiary_lime: #cedc00;
   --fsa-tertiary_mauve: #8b84d7;
+  --fsa-tertiary_stripe-green: #006f51;
   /* Hover Colours */
   --fsa__link-green: #014b4c;
   --fsa__purple-hover: #2a0247;
@@ -2215,6 +2373,7 @@ p {
   --fsa-secondary_mid-blue: #007fb2;
   --fsa-tertiary_lime: #cedc00;
   --fsa-tertiary_mauve: #8b84d7;
+  --fsa-tertiary_stripe-green: #006f51;
   /* Hover Colours */
   --fsa__link-green: #014b4c;
   --fsa__purple-hover: #2a0247;
@@ -2315,6 +2474,7 @@ p {
   --fsa-secondary_mid-blue: #007fb2;
   --fsa-tertiary_lime: #cedc00;
   --fsa-tertiary_mauve: #8b84d7;
+  --fsa-tertiary_stripe-green: #006f51;
   /* Hover Colours */
   --fsa__link-green: #014b4c;
   --fsa__purple-hover: #2a0247;
@@ -2423,6 +2583,7 @@ p {
   --fsa-secondary_mid-blue: #007fb2;
   --fsa-tertiary_lime: #cedc00;
   --fsa-tertiary_mauve: #8b84d7;
+  --fsa-tertiary_stripe-green: #006f51;
   /* Hover Colours */
   --fsa__link-green: #014b4c;
   --fsa__purple-hover: #2a0247;
@@ -2498,6 +2659,7 @@ p {
   --fsa-secondary_mid-blue: #007fb2;
   --fsa-tertiary_lime: #cedc00;
   --fsa-tertiary_mauve: #8b84d7;
+  --fsa-tertiary_stripe-green: #006f51;
   /* Hover Colours */
   --fsa__link-green: #014b4c;
   --fsa__purple-hover: #2a0247;
@@ -2594,6 +2756,7 @@ p {
   --fsa-secondary_mid-blue: #007fb2;
   --fsa-tertiary_lime: #cedc00;
   --fsa-tertiary_mauve: #8b84d7;
+  --fsa-tertiary_stripe-green: #006f51;
   /* Hover Colours */
   --fsa__link-green: #014b4c;
   --fsa__purple-hover: #2a0247;
@@ -2768,6 +2931,7 @@ body.overflow-hidden {
   --fsa-secondary_mid-blue: #007fb2;
   --fsa-tertiary_lime: #cedc00;
   --fsa-tertiary_mauve: #8b84d7;
+  --fsa-tertiary_stripe-green: #006f51;
   /* Hover Colours */
   --fsa__link-green: #014b4c;
   --fsa__purple-hover: #2a0247;
@@ -2924,6 +3088,7 @@ body.overflow-hidden {
   --fsa-secondary_mid-blue: #007fb2;
   --fsa-tertiary_lime: #cedc00;
   --fsa-tertiary_mauve: #8b84d7;
+  --fsa-tertiary_stripe-green: #006f51;
   /* Hover Colours */
   --fsa__link-green: #014b4c;
   --fsa__purple-hover: #2a0247;
@@ -3056,6 +3221,7 @@ body.overflow-hidden {
   --fsa-secondary_mid-blue: #007fb2;
   --fsa-tertiary_lime: #cedc00;
   --fsa-tertiary_mauve: #8b84d7;
+  --fsa-tertiary_stripe-green: #006f51;
   /* Hover Colours */
   --fsa__link-green: #014b4c;
   --fsa__purple-hover: #2a0247;
@@ -3147,6 +3313,7 @@ body.overflow-hidden {
   --fsa-secondary_mid-blue: #007fb2;
   --fsa-tertiary_lime: #cedc00;
   --fsa-tertiary_mauve: #8b84d7;
+  --fsa-tertiary_stripe-green: #006f51;
   /* Hover Colours */
   --fsa__link-green: #014b4c;
   --fsa__purple-hover: #2a0247;
@@ -3295,6 +3462,7 @@ body.overflow-hidden {
   --fsa-secondary_mid-blue: #007fb2;
   --fsa-tertiary_lime: #cedc00;
   --fsa-tertiary_mauve: #8b84d7;
+  --fsa-tertiary_stripe-green: #006f51;
   /* Hover Colours */
   --fsa__link-green: #014b4c;
   --fsa__purple-hover: #2a0247;
@@ -3390,6 +3558,7 @@ body.overflow-hidden {
   --fsa-secondary_mid-blue: #007fb2;
   --fsa-tertiary_lime: #cedc00;
   --fsa-tertiary_mauve: #8b84d7;
+  --fsa-tertiary_stripe-green: #006f51;
   /* Hover Colours */
   --fsa__link-green: #014b4c;
   --fsa__purple-hover: #2a0247;
@@ -3490,6 +3659,7 @@ body.overflow-hidden {
   --fsa-secondary_mid-blue: #007fb2;
   --fsa-tertiary_lime: #cedc00;
   --fsa-tertiary_mauve: #8b84d7;
+  --fsa-tertiary_stripe-green: #006f51;
   /* Hover Colours */
   --fsa__link-green: #014b4c;
   --fsa__purple-hover: #2a0247;
@@ -3655,6 +3825,7 @@ body.overflow-hidden {
   --fsa-secondary_mid-blue: #007fb2;
   --fsa-tertiary_lime: #cedc00;
   --fsa-tertiary_mauve: #8b84d7;
+  --fsa-tertiary_stripe-green: #006f51;
   /* Hover Colours */
   --fsa__link-green: #014b4c;
   --fsa__purple-hover: #2a0247;
@@ -3801,6 +3972,7 @@ body.overflow-hidden {
   --fsa-secondary_mid-blue: #007fb2;
   --fsa-tertiary_lime: #cedc00;
   --fsa-tertiary_mauve: #8b84d7;
+  --fsa-tertiary_stripe-green: #006f51;
   /* Hover Colours */
   --fsa__link-green: #014b4c;
   --fsa__purple-hover: #2a0247;
@@ -3875,6 +4047,7 @@ body.overflow-hidden {
   --fsa-secondary_mid-blue: #007fb2;
   --fsa-tertiary_lime: #cedc00;
   --fsa-tertiary_mauve: #8b84d7;
+  --fsa-tertiary_stripe-green: #006f51;
   /* Hover Colours */
   --fsa__link-green: #014b4c;
   --fsa__purple-hover: #2a0247;
@@ -3993,6 +4166,7 @@ body.overflow-hidden {
   --fsa-secondary_mid-blue: #007fb2;
   --fsa-tertiary_lime: #cedc00;
   --fsa-tertiary_mauve: #8b84d7;
+  --fsa-tertiary_stripe-green: #006f51;
   /* Hover Colours */
   --fsa__link-green: #014b4c;
   --fsa__purple-hover: #2a0247;
@@ -4143,6 +4317,7 @@ body.overflow-hidden {
   --fsa-secondary_mid-blue: #007fb2;
   --fsa-tertiary_lime: #cedc00;
   --fsa-tertiary_mauve: #8b84d7;
+  --fsa-tertiary_stripe-green: #006f51;
   /* Hover Colours */
   --fsa__link-green: #014b4c;
   --fsa__purple-hover: #2a0247;
@@ -4430,6 +4605,7 @@ body.overflow-hidden {
   --fsa-secondary_mid-blue: #007fb2;
   --fsa-tertiary_lime: #cedc00;
   --fsa-tertiary_mauve: #8b84d7;
+  --fsa-tertiary_stripe-green: #006f51;
   /* Hover Colours */
   --fsa__link-green: #014b4c;
   --fsa__purple-hover: #2a0247;
@@ -4611,6 +4787,7 @@ body.overflow-hidden {
   --fsa-secondary_mid-blue: #007fb2;
   --fsa-tertiary_lime: #cedc00;
   --fsa-tertiary_mauve: #8b84d7;
+  --fsa-tertiary_stripe-green: #006f51;
   /* Hover Colours */
   --fsa__link-green: #014b4c;
   --fsa__purple-hover: #2a0247;
@@ -4982,6 +5159,7 @@ body.overflow-hidden {
   --fsa-secondary_mid-blue: #007fb2;
   --fsa-tertiary_lime: #cedc00;
   --fsa-tertiary_mauve: #8b84d7;
+  --fsa-tertiary_stripe-green: #006f51;
   /* Hover Colours */
   --fsa__link-green: #014b4c;
   --fsa__purple-hover: #2a0247;
@@ -5321,6 +5499,7 @@ body.overflow-hidden {
   --fsa-secondary_mid-blue: #007fb2;
   --fsa-tertiary_lime: #cedc00;
   --fsa-tertiary_mauve: #8b84d7;
+  --fsa-tertiary_stripe-green: #006f51;
   /* Hover Colours */
   --fsa__link-green: #014b4c;
   --fsa__purple-hover: #2a0247;
@@ -5651,6 +5830,7 @@ body.overflow-hidden {
   --fsa-secondary_mid-blue: #007fb2;
   --fsa-tertiary_lime: #cedc00;
   --fsa-tertiary_mauve: #8b84d7;
+  --fsa-tertiary_stripe-green: #006f51;
   /* Hover Colours */
   --fsa__link-green: #014b4c;
   --fsa__purple-hover: #2a0247;
@@ -5875,6 +6055,7 @@ body.overflow-hidden {
   --fsa-secondary_mid-blue: #007fb2;
   --fsa-tertiary_lime: #cedc00;
   --fsa-tertiary_mauve: #8b84d7;
+  --fsa-tertiary_stripe-green: #006f51;
   /* Hover Colours */
   --fsa__link-green: #014b4c;
   --fsa__purple-hover: #2a0247;
@@ -6071,6 +6252,7 @@ body.overflow-hidden {
   --fsa-secondary_mid-blue: #007fb2;
   --fsa-tertiary_lime: #cedc00;
   --fsa-tertiary_mauve: #8b84d7;
+  --fsa-tertiary_stripe-green: #006f51;
   /* Hover Colours */
   --fsa__link-green: #014b4c;
   --fsa__purple-hover: #2a0247;
@@ -6148,6 +6330,204 @@ body.overflow-hidden {
     padding-right: 1rem;
   }
 }
+/*!*********************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/layout/contentLayout/contentLayout.scss ***!
+  \*********************************************************************************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css?family=Fira+Sans:300,400,500,700);
+/*!*************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/layout/contentLayout/contentLayout.scss (1) ***!
+  \*************************************************************************************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700);
+/*!*************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/layout/contentLayout/contentLayout.scss (2) ***!
+  \*************************************************************************************************************************************************************************************/
+:root {
+  /* Primary Colours */
+  --fsa-primary_dark-green: #007c75;
+  --fsa-primary_mid-green: #6cb33f;
+  --fsa-primary_light-green: #a9c47f;
+  --fsa-primary_dark-grey: #53565a;
+  --fsa_online-grey: #f0f3f5;
+  --fsa_border: #dee2e5;
+  --fsa-primary_black: #000000;
+  --fsa-primary_white: #ffffff;
+  --fsa_tint: #fafcfd;
+  /* Secondary Colours */
+  --fsa-secondary_mid-red: #e31837;
+  --fsa-secondary_dark-blue: #165c7d;
+  --fsa-secondary_orange: #f15d22;
+  --fsa-secondary_mid-yellow: #fdb913;
+  --fsa-secondary_mid-purple: #49176d;
+  --fsa-secondary_light-purple: #9f218b;
+  --fsa-tertiary_dark-blue: #9f218b;
+  --fsa-secondary-error-red: #e60f31;
+  --fsa-secondary-error-hover: #b0132b;
+  /* Tertiary Colours */
+  --fsa-tertiary_dark-red: #b04a5a;
+  --fsa-tertiary_light-red: #ef3340;
+  --fsa-tertiary_light-yellow: #f1c400;
+  --fsa-tertiary_teal: #00b2a9;
+  --fsa-tertiary_light-blue: #8dc8e8;
+  --fsa-tertiary_dark-purple: #51284f;
+  --fsa-secondary_mid-blue: #007fb2;
+  --fsa-tertiary_lime: #cedc00;
+  --fsa-tertiary_mauve: #8b84d7;
+  --fsa-tertiary_stripe-green: #006f51;
+  /* Hover Colours */
+  --fsa__link-green: #014b4c;
+  --fsa__purple-hover: #2a0247;
+  /* Typography */
+  --body-font: "Open Sans", sans-serif;
+  --body-normal: 400;
+  --body-bold: 600;
+  --heading-font: "Fira Sans", sans-serif;
+  --heading-bold: 700;
+  /* Grid */
+  --container-mobile: 1rem;
+  --container: 2rem;
+  --gutter: 1rem;
+  --max-width: 1336px;
+}
+
+/* Grid */
+/* Custom Mixins */
+/* Mixin for checkbox and radio button style */
+/* Used for Style guide pages */
+.content-layout {
+  max-width: 100%;
+}
+.content-layout__container {
+  width: 100%;
+  margin: 0 auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+@media screen and (min-width: 768px) {
+  .content-layout__container {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    width: 100%;
+    max-width: calc(1300px + (2 * 2rem));
+  }
+}
+.content-layout__row {
+  flex: 1;
+  margin-left: -0.5rem;
+  margin-right: -0.5rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+@media screen and (min-width: 768px) {
+  .content-layout__row {
+    margin-left: -1rem;
+    margin-right: -1rem;
+  }
+}
+@media screen and (min-width: 768px) {
+  .content-layout__row {
+    flex-direction: row;
+  }
+}
+.content-layout__top {
+  width: 100%;
+  flex-basis: 100%;
+  max-width: 100%;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  margin-bottom: 3rem;
+}
+@media screen and (min-width: 768px) {
+  .content-layout__top {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+@media screen and (min-width: 768px) {
+  .content-layout__top {
+    width: 100%;
+    flex-basis: 100%;
+    max-width: 100%;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+}
+@media screen and (min-width: 768px) and (min-width: 768px) {
+  .content-layout__top {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+.content-layout__left {
+  width: 100%;
+  flex-basis: 100%;
+  max-width: 100%;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+@media screen and (min-width: 768px) {
+  .content-layout__left {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+@media screen and (min-width: 768px) {
+  .content-layout__left {
+    width: 33.3333333333%;
+    flex-basis: 33.3333333333%;
+    max-width: 33.3333333333%;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+}
+@media screen and (min-width: 768px) and (min-width: 768px) {
+  .content-layout__left {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+.content-layout__right {
+  width: 100%;
+  flex-basis: 100%;
+  max-width: 100%;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+@media screen and (min-width: 768px) {
+  .content-layout__right {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+@media screen and (min-width: 768px) {
+  .content-layout__right {
+    width: 66.6666666667%;
+    flex-basis: 66.6666666667%;
+    max-width: 66.6666666667%;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+}
+@media screen and (min-width: 768px) and (min-width: 768px) {
+  .content-layout__right {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .content-layout__right {
+    width: 58.3333333333%;
+    flex-basis: 58.3333333333%;
+    max-width: 58.3333333333%;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+}
+@media screen and (min-width: 1440px) and (min-width: 768px) {
+  .content-layout__right {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
 /*!************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/components/search/SearchBar/searchBar.scss ***!
   \************************************************************************************************************************************************************************************/
@@ -6190,6 +6570,7 @@ body.overflow-hidden {
   --fsa-secondary_mid-blue: #007fb2;
   --fsa-tertiary_lime: #cedc00;
   --fsa-tertiary_mauve: #8b84d7;
+  --fsa-tertiary_stripe-green: #006f51;
   /* Hover Colours */
   --fsa__link-green: #014b4c;
   --fsa__purple-hover: #2a0247;
