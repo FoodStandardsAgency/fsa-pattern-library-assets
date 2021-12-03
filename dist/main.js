@@ -657,6 +657,17 @@ eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extr
 
 /***/ }),
 
+/***/ "./src/components/general/Link/link.scss":
+/*!***********************************************!*\
+  !*** ./src/components/general/Link/link.scss ***!
+  \***********************************************/
+/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n\n\n//# sourceURL=webpack://fds/./src/components/general/Link/link.scss?");
+
+/***/ }),
+
 /***/ "./src/components/landing/LandingLinks/landingLinks.scss":
 /*!***************************************************************!*\
   !*** ./src/components/landing/LandingLinks/landingLinks.scss ***!
@@ -1059,7 +1070,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _her
 /***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _link_html_twig__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./link.html.twig */ \"./src/components/general/Link/link.html.twig\");\n\n\n\n//# sourceURL=webpack://fds/./src/components/general/Link/link.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _link_html_twig__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./link.html.twig */ \"./src/components/general/Link/link.html.twig\");\n/* harmony import */ var _link_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./link.scss */ \"./src/components/general/Link/link.scss\");\n\n\n\n\n//# sourceURL=webpack://fds/./src/components/general/Link/link.js?");
 
 /***/ }),
 

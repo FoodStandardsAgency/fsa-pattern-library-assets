@@ -651,6 +651,9 @@ p {
   box-shadow: 0 0 0 0.2rem var(--fsa-primary_black), 0 0 0 0.4rem var(--fsa-tertiary_light-yellow);
   outline: none;
 }
+.button + .button {
+  margin-left: 1rem;
+}
 /*!*******************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/components/general/Header/header.scss ***!
   \*******************************************************************************************************************************************************************************/
@@ -1555,6 +1558,72 @@ p {
   .hero--with-image.hero--with-services.hero--services-full .hero__mask-wrapper {
     align-items: center;
   }
+}
+/*!***************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/components/general/Link/link.scss ***!
+  \***************************************************************************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css?family=Fira+Sans:300,400,500,700);
+/*!*******************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/components/general/Link/link.scss (1) ***!
+  \*******************************************************************************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700);
+/*!*******************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/components/general/Link/link.scss (2) ***!
+  \*******************************************************************************************************************************************************************************/
+:root {
+  /* Primary Colours */
+  --fsa-primary_dark-green: #007c75;
+  --fsa-primary_mid-green: #6cb33f;
+  --fsa-primary_light-green: #a9c47f;
+  --fsa-primary_dark-grey: #53565a;
+  --fsa_online-grey: #f0f3f5;
+  --fsa_border: #dee2e5;
+  --fsa-primary_black: #000000;
+  --fsa-primary_white: #ffffff;
+  --fsa_tint: #fafcfd;
+  /* Secondary Colours */
+  --fsa-secondary_mid-red: #e31837;
+  --fsa-secondary_dark-blue: #165c7d;
+  --fsa-secondary_orange: #f15d22;
+  --fsa-secondary_mid-yellow: #fdb913;
+  --fsa-secondary_mid-purple: #49176d;
+  --fsa-secondary_light-purple: #9f218b;
+  --fsa-tertiary_dark-blue: #9f218b;
+  --fsa-secondary-error-red: #e60f31;
+  --fsa-secondary-error-hover: #b0132b;
+  /* Tertiary Colours */
+  --fsa-tertiary_dark-red: #b04a5a;
+  --fsa-tertiary_light-red: #ef3340;
+  --fsa-tertiary_light-yellow: #f1c400;
+  --fsa-tertiary_teal: #00b2a9;
+  --fsa-tertiary_light-blue: #8dc8e8;
+  --fsa-tertiary_dark-purple: #51284f;
+  --fsa-secondary_mid-blue: #007fb2;
+  --fsa-tertiary_lime: #cedc00;
+  --fsa-tertiary_mauve: #8b84d7;
+  --fsa-tertiary_stripe-green: #006f51;
+  /* Hover Colours */
+  --fsa__link-green: #014b4c;
+  --fsa__purple-hover: #2a0247;
+  /* Typography */
+  --body-font: "Open Sans", sans-serif;
+  --body-normal: 400;
+  --body-bold: 600;
+  --heading-font: "Fira Sans", sans-serif;
+  --heading-bold: 700;
+  /* Grid */
+  --container-mobile: 1rem;
+  --container: 2rem;
+  --gutter: 1rem;
+  --max-width: 1336px;
+}
+
+/* Grid */
+/* Custom Mixins */
+/* Mixin for checkbox and radio button style */
+/* Used for Style guide pages */
+.user-login-form .link__wrapper {
+  padding-top: 2rem;
 }
 /*!***************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/components/general/DocumentDownload/documentDownload.scss ***!

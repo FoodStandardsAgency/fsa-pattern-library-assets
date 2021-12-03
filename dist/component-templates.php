@@ -11,14 +11,14 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/layout/formLayout",
           "variables" => ["content" => []]
         ], 
-        "fullWidth" => [
-          "template" => "fullWidth",
-          "path" => $assetPath . "/layout/fullWidth",
-          "variables" => ["content" => []]
-        ], 
         "twoColumn" => [
           "template" => "twoColumn",
           "path" => $assetPath . "/layout/twoColumn",
+          "variables" => ["content" => []]
+        ], 
+        "fullWidth" => [
+          "template" => "fullWidth",
+          "path" => $assetPath . "/layout/fullWidth",
           "variables" => ["content" => []]
         ], 
         "contentLayout" => [
@@ -141,14 +141,14 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/form/Radio",
           "variables" => ["content" => []]
         ], 
-        "titleAndText" => [
-          "template" => "titleAndText",
-          "path" => $assetPath . "/components/form/TitleAndText",
-          "variables" => ["content" => []]
-        ], 
         "tabs" => [
           "template" => "tabs",
           "path" => $assetPath . "/components/form/Tabs",
+          "variables" => ["content" => []]
+        ], 
+        "titleAndText" => [
+          "template" => "titleAndText",
+          "path" => $assetPath . "/components/form/TitleAndText",
           "variables" => ["content" => []]
         ], 
         "emailField" => [
