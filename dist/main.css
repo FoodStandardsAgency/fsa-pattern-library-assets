@@ -1681,19 +1681,21 @@ p {
 .document-download__format--word {
   background-color: var(--fsa-secondary_dark-blue);
 }
-.document-download__link {
+.document-download__link-wrapper {
   margin-left: 0.5rem;
-  text-decoration: underline;
 }
 @media screen and (min-width: 768px) {
-  .document-download__link {
+  .document-download__link-wrapper {
     margin-left: 1.5rem;
   }
 }
 @media screen and (min-width: 1024px) {
-  .document-download__link {
+  .document-download__link-wrapper {
     margin-left: 1rem;
   }
+}
+.document-download__link {
+  text-decoration: underline;
 }
 .document-download__link:hover {
   color: var(--fsa__link-green);

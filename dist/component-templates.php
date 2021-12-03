@@ -31,14 +31,14 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/general/Breadcrumb",
           "variables" => ["content" => []]
         ], 
-        "header" => [
-          "template" => "header",
-          "path" => $assetPath . "/components/general/Header",
-          "variables" => ["content" => []]
-        ], 
         "button" => [
           "template" => "button",
           "path" => $assetPath . "/components/general/Button",
+          "variables" => ["content" => []]
+        ], 
+        "header" => [
+          "template" => "header",
+          "path" => $assetPath . "/components/general/Header",
           "variables" => ["content" => []]
         ], 
         "hero" => [
@@ -71,14 +71,14 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/search/ListingItem",
           "variables" => ["content" => []]
         ], 
-        "searchBarHeader" => [
-          "template" => "searchBarHeader",
-          "path" => $assetPath . "/components/search/SearchBarHeader",
-          "variables" => ["content" => []]
-        ], 
         "pagination" => [
           "template" => "pagination",
           "path" => $assetPath . "/components/search/Pagination",
+          "variables" => ["content" => []]
+        ], 
+        "searchBarHeader" => [
+          "template" => "searchBarHeader",
+          "path" => $assetPath . "/components/search/SearchBarHeader",
           "variables" => ["content" => []]
         ], 
         "searchNoResults" => [
@@ -106,14 +106,14 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/search/SearchBar",
           "variables" => ["content" => []]
         ], 
-        "errorBox" => [
-          "template" => "errorBox",
-          "path" => $assetPath . "/components/form/ErrorBox",
-          "variables" => ["content" => []]
-        ], 
         "checkbox" => [
           "template" => "checkbox",
           "path" => $assetPath . "/components/form/Checkbox",
+          "variables" => ["content" => []]
+        ], 
+        "errorBox" => [
+          "template" => "errorBox",
+          "path" => $assetPath . "/components/form/ErrorBox",
           "variables" => ["content" => []]
         ], 
         "externalLink" => [
