@@ -1654,6 +1654,7 @@ p {
   font-weight: bold;
   color: var(--fsa-primary_black);
   display: block;
+  margin: 0;
 }
 .document-download__content {
   display: flex;
