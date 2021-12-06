@@ -44,6 +44,7 @@
   /* Hover Colours */
   --fsa__link-green: #014b4c;
   --fsa__purple-hover: #2a0247;
+  --fsa__grey-hover: #d9d9d6;
   /* Typography */
   --body-font: "Open Sans", sans-serif;
   --body-normal: 400;
@@ -289,6 +290,7 @@ p {
   /* Hover Colours */
   --fsa__link-green: #014b4c;
   --fsa__purple-hover: #2a0247;
+  --fsa__grey-hover: #d9d9d6;
   /* Typography */
   --body-font: "Open Sans", sans-serif;
   --body-normal: 400;
@@ -564,6 +566,7 @@ p {
   /* Hover Colours */
   --fsa__link-green: #014b4c;
   --fsa__purple-hover: #2a0247;
+  --fsa__grey-hover: #d9d9d6;
   /* Typography */
   --body-font: "Open Sans", sans-serif;
   --body-normal: 400;
@@ -700,6 +703,7 @@ p {
   /* Hover Colours */
   --fsa__link-green: #014b4c;
   --fsa__purple-hover: #2a0247;
+  --fsa__grey-hover: #d9d9d6;
   /* Typography */
   --body-font: "Open Sans", sans-serif;
   --body-normal: 400;
@@ -1198,6 +1202,7 @@ p {
   /* Hover Colours */
   --fsa__link-green: #014b4c;
   --fsa__purple-hover: #2a0247;
+  --fsa__grey-hover: #d9d9d6;
   /* Typography */
   --body-font: "Open Sans", sans-serif;
   --body-normal: 400;
@@ -1599,6 +1604,7 @@ p {
   /* Hover Colours */
   --fsa__link-green: #014b4c;
   --fsa__purple-hover: #2a0247;
+  --fsa__grey-hover: #d9d9d6;
   /* Typography */
   --body-font: "Open Sans", sans-serif;
   --body-normal: 400;
@@ -1665,6 +1671,7 @@ p {
   /* Hover Colours */
   --fsa__link-green: #014b4c;
   --fsa__purple-hover: #2a0247;
+  --fsa__grey-hover: #d9d9d6;
   /* Typography */
   --body-font: "Open Sans", sans-serif;
   --body-normal: 400;
@@ -1783,6 +1790,283 @@ p {
   border-bottom: 0.25rem solid var(--fsa-primary_black);
   margin-bottom: -0.25rem;
 }
+/*!*******************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/components/general/Footer/footer.scss ***!
+  \*******************************************************************************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css?family=Fira+Sans:300,400,500,700);
+/*!***********************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/components/general/Footer/footer.scss (1) ***!
+  \***********************************************************************************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700);
+/*!***********************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/components/general/Footer/footer.scss (2) ***!
+  \***********************************************************************************************************************************************************************************/
+:root {
+  /* Primary Colours */
+  --fsa-primary_dark-green: #007c75;
+  --fsa-primary_mid-green: #6cb33f;
+  --fsa-primary_light-green: #a9c47f;
+  --fsa-primary_dark-grey: #53565a;
+  --fsa_online-grey: #f0f3f5;
+  --fsa_border: #dee2e5;
+  --fsa-primary_black: #000000;
+  --fsa-primary_white: #ffffff;
+  --fsa_tint: #fafcfd;
+  /* Secondary Colours */
+  --fsa-secondary_mid-red: #e31837;
+  --fsa-secondary_dark-blue: #165c7d;
+  --fsa-secondary_orange: #f15d22;
+  --fsa-secondary_mid-yellow: #fdb913;
+  --fsa-secondary_mid-purple: #49176d;
+  --fsa-secondary_light-purple: #9f218b;
+  --fsa-tertiary_dark-blue: #9f218b;
+  --fsa-secondary-error-red: #e60f31;
+  --fsa-secondary-error-hover: #b0132b;
+  /* Tertiary Colours */
+  --fsa-tertiary_dark-red: #b04a5a;
+  --fsa-tertiary_light-red: #ef3340;
+  --fsa-tertiary_light-yellow: #f1c400;
+  --fsa-tertiary_teal: #00b2a9;
+  --fsa-tertiary_light-blue: #8dc8e8;
+  --fsa-tertiary_dark-purple: #51284f;
+  --fsa-secondary_mid-blue: #007fb2;
+  --fsa-tertiary_lime: #cedc00;
+  --fsa-tertiary_mauve: #8b84d7;
+  --fsa-tertiary_stripe-green: #006f51;
+  /* Hover Colours */
+  --fsa__link-green: #014b4c;
+  --fsa__purple-hover: #2a0247;
+  --fsa__grey-hover: #d9d9d6;
+  /* Typography */
+  --body-font: "Open Sans", sans-serif;
+  --body-normal: 400;
+  --body-bold: 600;
+  --heading-font: "Fira Sans", sans-serif;
+  --heading-bold: 700;
+  /* Grid */
+  --container-mobile: 1rem;
+  --container: 2rem;
+  --gutter: 1rem;
+  --max-width: 1336px;
+}
+
+/* Grid */
+/* Custom Mixins */
+/* Mixin for checkbox and radio button style */
+/* Used for Style guide pages */
+.footer {
+  background-color: var(--fsa__purple-hover);
+  border-top: 8px solid var(--fsa-primary_mid-green);
+  padding-bottom: 2rem;
+}
+.footer__grid-container {
+  width: 100%;
+  margin: 0 auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+@media screen and (min-width: 768px) {
+  .footer__grid-container {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    width: 100%;
+    max-width: calc(1300px + (2 * 2rem));
+  }
+}
+.footer__grid-row {
+  flex: 1;
+  margin-left: -0.5rem;
+  margin-right: -0.5rem;
+}
+@media screen and (min-width: 768px) {
+  .footer__grid-row {
+    margin-left: -1rem;
+    margin-right: -1rem;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .footer__grid-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+}
+.footer__nav {
+  width: 100%;
+  flex-basis: 100%;
+  max-width: 100%;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+@media screen and (min-width: 768px) {
+  .footer__nav {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .footer__nav {
+    width: 58.3333333333%;
+    flex-basis: 58.3333333333%;
+    max-width: 58.3333333333%;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+}
+@media screen and (min-width: 1440px) and (min-width: 768px) {
+  .footer__nav {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+.footer__menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0.5rem 0 0;
+  list-style: none;
+  padding: 0;
+}
+@media screen and (min-width: 1440px) {
+  .footer__menu {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: 1rem;
+  }
+}
+.footer .footer__menu-link {
+  /* Use full css class to have a higher specificity to override the external class */
+  color: var(--fsa-primary_white);
+  font-family: var(--body-font);
+  font-weight: var(--body-normal);
+  font-size: 1rem;
+  line-height: 1.6;
+  letter-spacing: normal;
+  font-weight: bold;
+  margin-top: 1rem;
+  display: block;
+  text-decoration: none;
+}
+.footer .footer__menu-link:hover {
+  color: var(--fsa-primary_white);
+  text-decoration: underline;
+}
+.footer .footer__menu-link:focus {
+  color: var(--fsa-primary_black);
+  outline: none;
+  text-decoration: none;
+  background-color: var(--fsa-tertiary_light-yellow);
+  border-bottom: 0.25rem solid var(--fsa-primary_black);
+  margin-bottom: -0.25rem;
+}
+.footer .footer__menu-link:focus::after {
+  background-image: url(./components/general/Footer/external-black.svg);
+}
+.footer .footer__menu-link::after {
+  background-image: url(./components/general/Footer/external-white.svg);
+}
+@media screen and (min-width: 1440px) {
+  .footer .footer__menu-link {
+    margin-right: 1.5rem;
+  }
+}
+.footer__social {
+  margin-top: 2rem;
+  width: 100%;
+  flex-basis: 100%;
+  max-width: 100%;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+@media screen and (min-width: 768px) {
+  .footer__social {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .footer__social {
+    width: 33.3333333333%;
+    flex-basis: 33.3333333333%;
+    max-width: 33.3333333333%;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+}
+@media screen and (min-width: 1440px) and (min-width: 768px) {
+  .footer__social {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+.footer__social-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+@media screen and (min-width: 1440px) {
+  .footer__social-list {
+    justify-content: flex-end;
+  }
+}
+.footer__social-item + .footer__social-item {
+  margin-left: 1rem;
+}
+.footer__social-link {
+  height: 2.75rem;
+  width: 2.75rem;
+  display: block;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.footer__social-link--facebook {
+  background-image: url(./components/general/Footer/fsa-facebook.svg);
+}
+.footer__social-link--facebook:hover {
+  background-image: url(./components/general/Footer/fsa-facebook-hover.svg);
+}
+.footer__social-link--twitter {
+  background-image: url(./components/general/Footer/fsa-twitter.svg);
+}
+.footer__social-link--twitter:hover {
+  background-image: url(./components/general/Footer/fsa-twitter-hover.svg);
+}
+.footer__social-link--instagram {
+  background-image: url(./components/general/Footer/fsa-instagram.svg);
+}
+.footer__social-link--instagram:hover {
+  background-image: url(./components/general/Footer/fsa-instagram-hover.svg);
+}
+.footer__social-link--linkedin {
+  background-image: url(./components/general/Footer/fsa-linkedin.svg);
+}
+.footer__social-link--linkedin:hover {
+  background-image: url(./components/general/Footer/fsa-linkedin-hover.svg);
+}
+.footer__social-link--youtube {
+  background-image: url(./components/general/Footer/fsa-youtube.svg);
+}
+.footer__social-link--youtube:hover {
+  background-image: url(./components/general/Footer/fsa-youtube-hover.svg);
+}
+.footer__social-link--blog {
+  background-image: url(./components/general/Footer/fsa-blog.svg);
+}
+.footer__social-link--blog:hover {
+  background-image: url(./components/general/Footer/fsa-blog-hover.svg);
+}
+.footer__social-link:focus {
+  box-shadow: 0 0 0 0.2rem var(--fsa-primary_black), 0 0 0 0.4rem var(--fsa-tertiary_light-yellow);
+  outline: none;
+  text-decoration: none;
+  border-radius: 50%;
+}
 /*!********************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/components/search/CollapsibleCheckbox/collapsibleCheckbox.scss ***!
   \********************************************************************************************************************************************************************************************************/
@@ -1829,6 +2113,7 @@ p {
   /* Hover Colours */
   --fsa__link-green: #014b4c;
   --fsa__purple-hover: #2a0247;
+  --fsa__grey-hover: #d9d9d6;
   /* Typography */
   --body-font: "Open Sans", sans-serif;
   --body-normal: 400;
@@ -1999,6 +2284,7 @@ p {
   /* Hover Colours */
   --fsa__link-green: #014b4c;
   --fsa__purple-hover: #2a0247;
+  --fsa__grey-hover: #d9d9d6;
   /* Typography */
   --body-font: "Open Sans", sans-serif;
   --body-normal: 400;
@@ -2144,6 +2430,7 @@ p {
   /* Hover Colours */
   --fsa__link-green: #014b4c;
   --fsa__purple-hover: #2a0247;
+  --fsa__grey-hover: #d9d9d6;
   /* Typography */
   --body-font: "Open Sans", sans-serif;
   --body-normal: 400;
@@ -2283,6 +2570,7 @@ p {
   /* Hover Colours */
   --fsa__link-green: #014b4c;
   --fsa__purple-hover: #2a0247;
+  --fsa__grey-hover: #d9d9d6;
   /* Typography */
   --body-font: "Open Sans", sans-serif;
   --body-normal: 400;
@@ -2489,6 +2777,7 @@ p {
   /* Hover Colours */
   --fsa__link-green: #014b4c;
   --fsa__purple-hover: #2a0247;
+  --fsa__grey-hover: #d9d9d6;
   /* Typography */
   --body-font: "Open Sans", sans-serif;
   --body-normal: 400;
@@ -2590,6 +2879,7 @@ p {
   /* Hover Colours */
   --fsa__link-green: #014b4c;
   --fsa__purple-hover: #2a0247;
+  --fsa__grey-hover: #d9d9d6;
   /* Typography */
   --body-font: "Open Sans", sans-serif;
   --body-normal: 400;
@@ -2699,6 +2989,7 @@ p {
   /* Hover Colours */
   --fsa__link-green: #014b4c;
   --fsa__purple-hover: #2a0247;
+  --fsa__grey-hover: #d9d9d6;
   /* Typography */
   --body-font: "Open Sans", sans-serif;
   --body-normal: 400;
@@ -2775,6 +3066,7 @@ p {
   /* Hover Colours */
   --fsa__link-green: #014b4c;
   --fsa__purple-hover: #2a0247;
+  --fsa__grey-hover: #d9d9d6;
   /* Typography */
   --body-font: "Open Sans", sans-serif;
   --body-normal: 400;
@@ -2872,6 +3164,7 @@ p {
   /* Hover Colours */
   --fsa__link-green: #014b4c;
   --fsa__purple-hover: #2a0247;
+  --fsa__grey-hover: #d9d9d6;
   /* Typography */
   --body-font: "Open Sans", sans-serif;
   --body-normal: 400;
@@ -3059,6 +3352,7 @@ body.overflow-hidden {
   /* Hover Colours */
   --fsa__link-green: #014b4c;
   --fsa__purple-hover: #2a0247;
+  --fsa__grey-hover: #d9d9d6;
   /* Typography */
   --body-font: "Open Sans", sans-serif;
   --body-normal: 400;
@@ -3223,6 +3517,7 @@ body.overflow-hidden {
   /* Hover Colours */
   --fsa__link-green: #014b4c;
   --fsa__purple-hover: #2a0247;
+  --fsa__grey-hover: #d9d9d6;
   /* Typography */
   --body-font: "Open Sans", sans-serif;
   --body-normal: 400;
@@ -3356,6 +3651,7 @@ body.overflow-hidden {
   /* Hover Colours */
   --fsa__link-green: #014b4c;
   --fsa__purple-hover: #2a0247;
+  --fsa__grey-hover: #d9d9d6;
   /* Typography */
   --body-font: "Open Sans", sans-serif;
   --body-normal: 400;
@@ -3448,6 +3744,7 @@ body.overflow-hidden {
   /* Hover Colours */
   --fsa__link-green: #014b4c;
   --fsa__purple-hover: #2a0247;
+  --fsa__grey-hover: #d9d9d6;
   /* Typography */
   --body-font: "Open Sans", sans-serif;
   --body-normal: 400;
@@ -3597,6 +3894,7 @@ body.overflow-hidden {
   /* Hover Colours */
   --fsa__link-green: #014b4c;
   --fsa__purple-hover: #2a0247;
+  --fsa__grey-hover: #d9d9d6;
   /* Typography */
   --body-font: "Open Sans", sans-serif;
   --body-normal: 400;
@@ -3693,6 +3991,7 @@ body.overflow-hidden {
   /* Hover Colours */
   --fsa__link-green: #014b4c;
   --fsa__purple-hover: #2a0247;
+  --fsa__grey-hover: #d9d9d6;
   /* Typography */
   --body-font: "Open Sans", sans-serif;
   --body-normal: 400;
@@ -3794,6 +4093,7 @@ body.overflow-hidden {
   /* Hover Colours */
   --fsa__link-green: #014b4c;
   --fsa__purple-hover: #2a0247;
+  --fsa__grey-hover: #d9d9d6;
   /* Typography */
   --body-font: "Open Sans", sans-serif;
   --body-normal: 400;
@@ -3967,6 +4267,7 @@ body.overflow-hidden {
   /* Hover Colours */
   --fsa__link-green: #014b4c;
   --fsa__purple-hover: #2a0247;
+  --fsa__grey-hover: #d9d9d6;
   /* Typography */
   --body-font: "Open Sans", sans-serif;
   --body-normal: 400;
@@ -4114,6 +4415,7 @@ body.overflow-hidden {
   /* Hover Colours */
   --fsa__link-green: #014b4c;
   --fsa__purple-hover: #2a0247;
+  --fsa__grey-hover: #d9d9d6;
   /* Typography */
   --body-font: "Open Sans", sans-serif;
   --body-normal: 400;
@@ -4204,6 +4506,7 @@ h3.form-title {
   /* Hover Colours */
   --fsa__link-green: #014b4c;
   --fsa__purple-hover: #2a0247;
+  --fsa__grey-hover: #d9d9d6;
   /* Typography */
   --body-font: "Open Sans", sans-serif;
   --body-normal: 400;
@@ -4333,6 +4636,7 @@ h3.form-title {
   /* Hover Colours */
   --fsa__link-green: #014b4c;
   --fsa__purple-hover: #2a0247;
+  --fsa__grey-hover: #d9d9d6;
   /* Typography */
   --body-font: "Open Sans", sans-serif;
   --body-normal: 400;
@@ -4484,6 +4788,7 @@ h3.form-title {
   /* Hover Colours */
   --fsa__link-green: #014b4c;
   --fsa__purple-hover: #2a0247;
+  --fsa__grey-hover: #d9d9d6;
   /* Typography */
   --body-font: "Open Sans", sans-serif;
   --body-normal: 400;
@@ -4772,6 +5077,7 @@ h3.form-title {
   /* Hover Colours */
   --fsa__link-green: #014b4c;
   --fsa__purple-hover: #2a0247;
+  --fsa__grey-hover: #d9d9d6;
   /* Typography */
   --body-font: "Open Sans", sans-serif;
   --body-normal: 400;
@@ -4954,6 +5260,7 @@ h3.form-title {
   /* Hover Colours */
   --fsa__link-green: #014b4c;
   --fsa__purple-hover: #2a0247;
+  --fsa__grey-hover: #d9d9d6;
   /* Typography */
   --body-font: "Open Sans", sans-serif;
   --body-normal: 400;
@@ -5326,6 +5633,7 @@ h3.form-title {
   /* Hover Colours */
   --fsa__link-green: #014b4c;
   --fsa__purple-hover: #2a0247;
+  --fsa__grey-hover: #d9d9d6;
   /* Typography */
   --body-font: "Open Sans", sans-serif;
   --body-normal: 400;
@@ -5666,6 +5974,7 @@ h3.form-title {
   /* Hover Colours */
   --fsa__link-green: #014b4c;
   --fsa__purple-hover: #2a0247;
+  --fsa__grey-hover: #d9d9d6;
   /* Typography */
   --body-font: "Open Sans", sans-serif;
   --body-normal: 400;
@@ -5997,6 +6306,7 @@ h3.form-title {
   /* Hover Colours */
   --fsa__link-green: #014b4c;
   --fsa__purple-hover: #2a0247;
+  --fsa__grey-hover: #d9d9d6;
   /* Typography */
   --body-font: "Open Sans", sans-serif;
   --body-normal: 400;
@@ -6222,6 +6532,7 @@ h3.form-title {
   /* Hover Colours */
   --fsa__link-green: #014b4c;
   --fsa__purple-hover: #2a0247;
+  --fsa__grey-hover: #d9d9d6;
   /* Typography */
   --body-font: "Open Sans", sans-serif;
   --body-normal: 400;
@@ -6419,6 +6730,7 @@ h3.form-title {
   /* Hover Colours */
   --fsa__link-green: #014b4c;
   --fsa__purple-hover: #2a0247;
+  --fsa__grey-hover: #d9d9d6;
   /* Typography */
   --body-font: "Open Sans", sans-serif;
   --body-normal: 400;
@@ -6539,6 +6851,7 @@ h3.form-title {
   /* Hover Colours */
   --fsa__link-green: #014b4c;
   --fsa__purple-hover: #2a0247;
+  --fsa__grey-hover: #d9d9d6;
   /* Typography */
   --body-font: "Open Sans", sans-serif;
   --body-normal: 400;
@@ -6737,6 +7050,7 @@ h3.form-title {
   /* Hover Colours */
   --fsa__link-green: #014b4c;
   --fsa__purple-hover: #2a0247;
+  --fsa__grey-hover: #d9d9d6;
   /* Typography */
   --body-font: "Open Sans", sans-serif;
   --body-normal: 400;
