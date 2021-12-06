@@ -929,12 +929,6 @@ p {
 }
 .header__links--welsh .header__links-item:first-child {
   margin-left: 0;
-  min-width: 21rem;
-}
-@media screen and (min-width: 1440px) {
-  .header__links--welsh .header__links-item:first-child {
-    min-width: auto;
-  }
 }
 .header__links--welsh .header__links-item--right {
   margin-left: 2rem;
