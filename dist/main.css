@@ -3120,7 +3120,8 @@ body.overflow-hidden {
   clear: both;
 }
 .checkbox__field {
-  margin-top: 1rem;
+  padding-top: 1rem;
+  margin: 0;
   font-family: var(--body-font);
   font-weight: var(--body-normal);
   font-size: 1rem;
@@ -3128,6 +3129,7 @@ body.overflow-hidden {
   letter-spacing: normal;
   display: flex;
   align-items: flex-start;
+  clear: both;
 }
 .checkbox__input {
   background-color: var(--fsa_tint);
@@ -3853,7 +3855,8 @@ body.overflow-hidden {
   clear: both;
 }
 .radio__field {
-  margin-top: 1rem;
+  padding-top: 1rem;
+  margin: 0;
   font-family: var(--body-font);
   font-weight: var(--body-normal);
   font-size: 1rem;
@@ -3861,6 +3864,7 @@ body.overflow-hidden {
   letter-spacing: normal;
   display: flex;
   align-items: flex-start;
+  clear: both;
 }
 .radio__input {
   border-radius: 50%;
