@@ -1229,9 +1229,11 @@ p {
   display: flex;
   order: 2;
   width: 100%;
+  height: -moz-fit-content;
   height: fit-content;
   overflow: visible;
-  mask: url(./components/general/Hero/hero.svg) no-repeat bottom;
+  -webkit-mask: url(./components/general/Hero/hero.svg) no-repeat bottom;
+          mask: url(./components/general/Hero/hero.svg) no-repeat bottom;
   mask-size: 200%, 100%;
   mask-repeat: no-repeat;
   -webkit-mask: url(./components/general/Hero/hero.svg) no-repeat bottom;
@@ -2754,7 +2756,8 @@ p {
 }
 .accordion__input {
   background-color: var(--fsa_tint);
-  appearance: none;
+  -webkit-appearance: none;
+          appearance: none;
   width: 1.5rem;
   min-width: 1.5rem;
   height: 1.5rem;
@@ -3194,6 +3197,7 @@ p {
 }
 .pagination__back li, .pagination__forward li {
   display: flex;
+  height: -moz-fit-content;
   height: fit-content;
 }
 .pagination__back li:before, .pagination__back li:after, .pagination__forward li:before, .pagination__forward li:after {
@@ -3968,7 +3972,8 @@ body.overflow-hidden {
 }
 .checkbox__input {
   background-color: var(--fsa_tint);
-  appearance: none;
+  -webkit-appearance: none;
+          appearance: none;
   width: 1.5rem;
   min-width: 1.5rem;
   height: 1.5rem;
@@ -4713,7 +4718,8 @@ body.overflow-hidden {
   display: flex;
   justify-content: center;
   align-items: center;
-  appearance: none;
+  -webkit-appearance: none;
+          appearance: none;
   width: 1.5rem;
   min-width: 1.5rem;
   height: 1.5rem;
