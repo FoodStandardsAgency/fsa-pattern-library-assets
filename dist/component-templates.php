@@ -101,11 +101,6 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/search/SearchNoResults",
           "variables" => ["content" => []]
         ], 
-        "showing" => [
-          "template" => "showing",
-          "path" => $assetPath . "/components/search/Showing",
-          "variables" => ["content" => []]
-        ], 
         "sortBy" => [
           "template" => "sortBy",
           "path" => $assetPath . "/components/search/SortBy",
@@ -121,6 +116,11 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/search/SearchBar",
           "variables" => ["content" => []]
         ], 
+        "showing" => [
+          "template" => "showing",
+          "path" => $assetPath . "/components/search/Showing",
+          "variables" => ["content" => []]
+        ], 
         "checkbox" => [
           "template" => "checkbox",
           "path" => $assetPath . "/components/form/Checkbox",
@@ -131,14 +131,14 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/form/ErrorBox",
           "variables" => ["content" => []]
         ], 
-        "externalLink" => [
-          "template" => "externalLink",
-          "path" => $assetPath . "/components/form/ExternalLink",
-          "variables" => ["content" => []]
-        ], 
         "inputField" => [
           "template" => "inputField",
           "path" => $assetPath . "/components/form/InputField",
+          "variables" => ["content" => []]
+        ], 
+        "externalLink" => [
+          "template" => "externalLink",
+          "path" => $assetPath . "/components/form/ExternalLink",
           "variables" => ["content" => []]
         ], 
         "messageBox" => [
@@ -161,14 +161,14 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/form/Tabs",
           "variables" => ["content" => []]
         ], 
-        "titleAndText" => [
-          "template" => "titleAndText",
-          "path" => $assetPath . "/components/form/TitleAndText",
-          "variables" => ["content" => []]
-        ], 
         "emailField" => [
           "template" => "emailField",
           "path" => $assetPath . "/components/form/EmailField",
+          "variables" => ["content" => []]
+        ], 
+        "titleAndText" => [
+          "template" => "titleAndText",
+          "path" => $assetPath . "/components/form/TitleAndText",
           "variables" => ["content" => []]
         ], 
         "textarea" => [

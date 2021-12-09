@@ -56,6 +56,8 @@
   --container: 2rem;
   --gutter: 1rem;
   --max-width: 1336px;
+  /* Transitions */
+  --transition-time: 200;
 }
 
 /* Grid */
@@ -302,6 +304,8 @@ p {
   --container: 2rem;
   --gutter: 1rem;
   --max-width: 1336px;
+  /* Transitions */
+  --transition-time: 200;
 }
 
 /* Grid */
@@ -578,6 +582,8 @@ p {
   --container: 2rem;
   --gutter: 1rem;
   --max-width: 1336px;
+  /* Transitions */
+  --transition-time: 200;
 }
 
 /* Grid */
@@ -715,6 +721,8 @@ p {
   --container: 2rem;
   --gutter: 1rem;
   --max-width: 1336px;
+  /* Transitions */
+  --transition-time: 200;
 }
 
 /* Grid */
@@ -1214,6 +1222,8 @@ p {
   --container: 2rem;
   --gutter: 1rem;
   --max-width: 1336px;
+  /* Transitions */
+  --transition-time: 200;
 }
 
 /* Grid */
@@ -1651,6 +1661,8 @@ p {
   --container: 2rem;
   --gutter: 1rem;
   --max-width: 1336px;
+  /* Transitions */
+  --transition-time: 200;
 }
 
 /* Grid */
@@ -1718,6 +1730,8 @@ p {
   --container: 2rem;
   --gutter: 1rem;
   --max-width: 1336px;
+  /* Transitions */
+  --transition-time: 200;
 }
 
 /* Grid */
@@ -1883,6 +1897,8 @@ p {
   --container: 2rem;
   --gutter: 1rem;
   --max-width: 1336px;
+  /* Transitions */
+  --transition-time: 200;
 }
 
 /* Grid */
@@ -2079,6 +2095,8 @@ p {
   --container: 2rem;
   --gutter: 1rem;
   --max-width: 1336px;
+  /* Transitions */
+  --transition-time: 200;
 }
 
 /* Grid */
@@ -2340,6 +2358,8 @@ p {
   --container: 2rem;
   --gutter: 1rem;
   --max-width: 1336px;
+  /* Transitions */
+  --transition-time: 200;
 }
 
 /* Grid */
@@ -2668,6 +2688,8 @@ p {
   --container: 2rem;
   --gutter: 1rem;
   --max-width: 1336px;
+  /* Transitions */
+  --transition-time: 200;
 }
 
 /* Grid */
@@ -2840,6 +2862,8 @@ p {
   --container: 2rem;
   --gutter: 1rem;
   --max-width: 1336px;
+  /* Transitions */
+  --transition-time: 200;
 }
 
 /* Grid */
@@ -2986,6 +3010,8 @@ p {
   --container: 2rem;
   --gutter: 1rem;
   --max-width: 1336px;
+  /* Transitions */
+  --transition-time: 200;
 }
 
 /* Grid */
@@ -3126,6 +3152,8 @@ p {
   --container: 2rem;
   --gutter: 1rem;
   --max-width: 1336px;
+  /* Transitions */
+  --transition-time: 200;
 }
 
 /* Grid */
@@ -3334,6 +3362,8 @@ p {
   --container: 2rem;
   --gutter: 1rem;
   --max-width: 1336px;
+  /* Transitions */
+  --transition-time: 200;
 }
 
 /* Grid */
@@ -3436,6 +3466,8 @@ p {
   --container: 2rem;
   --gutter: 1rem;
   --max-width: 1336px;
+  /* Transitions */
+  --transition-time: 200;
 }
 
 /* Grid */
@@ -3546,6 +3578,8 @@ p {
   --container: 2rem;
   --gutter: 1rem;
   --max-width: 1336px;
+  /* Transitions */
+  --transition-time: 200;
 }
 
 /* Grid */
@@ -3623,6 +3657,8 @@ p {
   --container: 2rem;
   --gutter: 1rem;
   --max-width: 1336px;
+  /* Transitions */
+  --transition-time: 200;
 }
 
 /* Grid */
@@ -3721,6 +3757,8 @@ p {
   --container: 2rem;
   --gutter: 1rem;
   --max-width: 1336px;
+  /* Transitions */
+  --transition-time: 200;
 }
 
 /* Grid */
@@ -3909,6 +3947,8 @@ body.overflow-hidden {
   --container: 2rem;
   --gutter: 1rem;
   --max-width: 1336px;
+  /* Transitions */
+  --transition-time: 200;
 }
 
 /* Grid */
@@ -4075,6 +4115,8 @@ body.overflow-hidden {
   --container: 2rem;
   --gutter: 1rem;
   --max-width: 1336px;
+  /* Transitions */
+  --transition-time: 200;
 }
 
 /* Grid */
@@ -4209,6 +4251,8 @@ body.overflow-hidden {
   --container: 2rem;
   --gutter: 1rem;
   --max-width: 1336px;
+  /* Transitions */
+  --transition-time: 200;
 }
 
 /* Grid */
@@ -4302,6 +4346,8 @@ body.overflow-hidden {
   --container: 2rem;
   --gutter: 1rem;
   --max-width: 1336px;
+  /* Transitions */
+  --transition-time: 200;
 }
 
 /* Grid */
@@ -4452,6 +4498,8 @@ body.overflow-hidden {
   --container: 2rem;
   --gutter: 1rem;
   --max-width: 1336px;
+  /* Transitions */
+  --transition-time: 200;
 }
 
 /* Grid */
@@ -4549,6 +4597,8 @@ body.overflow-hidden {
   --container: 2rem;
   --gutter: 1rem;
   --max-width: 1336px;
+  /* Transitions */
+  --transition-time: 200;
 }
 
 /* Grid */
@@ -4651,6 +4701,8 @@ body.overflow-hidden {
   --container: 2rem;
   --gutter: 1rem;
   --max-width: 1336px;
+  /* Transitions */
+  --transition-time: 200;
 }
 
 /* Grid */
@@ -4826,6 +4878,8 @@ body.overflow-hidden {
   --container: 2rem;
   --gutter: 1rem;
   --max-width: 1336px;
+  /* Transitions */
+  --transition-time: 200;
 }
 
 /* Grid */
@@ -4974,6 +5028,8 @@ body.overflow-hidden {
   --container: 2rem;
   --gutter: 1rem;
   --max-width: 1336px;
+  /* Transitions */
+  --transition-time: 200;
 }
 
 /* Grid */
@@ -5065,6 +5121,8 @@ h3.form-title {
   --container: 2rem;
   --gutter: 1rem;
   --max-width: 1336px;
+  /* Transitions */
+  --transition-time: 200;
 }
 
 /* Grid */
@@ -5195,6 +5253,8 @@ h3.form-title {
   --container: 2rem;
   --gutter: 1rem;
   --max-width: 1336px;
+  /* Transitions */
+  --transition-time: 200;
 }
 
 /* Grid */
@@ -5347,6 +5407,8 @@ h3.form-title {
   --container: 2rem;
   --gutter: 1rem;
   --max-width: 1336px;
+  /* Transitions */
+  --transition-time: 200;
 }
 
 /* Grid */
@@ -5636,6 +5698,8 @@ h3.form-title {
   --container: 2rem;
   --gutter: 1rem;
   --max-width: 1336px;
+  /* Transitions */
+  --transition-time: 200;
 }
 
 /* Grid */
@@ -5819,6 +5883,8 @@ h3.form-title {
   --container: 2rem;
   --gutter: 1rem;
   --max-width: 1336px;
+  /* Transitions */
+  --transition-time: 200;
 }
 
 /* Grid */
@@ -6192,6 +6258,8 @@ h3.form-title {
   --container: 2rem;
   --gutter: 1rem;
   --max-width: 1336px;
+  /* Transitions */
+  --transition-time: 200;
 }
 
 /* Grid */
@@ -6533,6 +6601,8 @@ h3.form-title {
   --container: 2rem;
   --gutter: 1rem;
   --max-width: 1336px;
+  /* Transitions */
+  --transition-time: 200;
 }
 
 /* Grid */
@@ -6865,6 +6935,8 @@ h3.form-title {
   --container: 2rem;
   --gutter: 1rem;
   --max-width: 1336px;
+  /* Transitions */
+  --transition-time: 200;
 }
 
 /* Grid */
@@ -7091,6 +7163,8 @@ h3.form-title {
   --container: 2rem;
   --gutter: 1rem;
   --max-width: 1336px;
+  /* Transitions */
+  --transition-time: 200;
 }
 
 /* Grid */
@@ -7289,6 +7363,8 @@ h3.form-title {
   --container: 2rem;
   --gutter: 1rem;
   --max-width: 1336px;
+  /* Transitions */
+  --transition-time: 200;
 }
 
 /* Grid */
@@ -7410,6 +7486,8 @@ h3.form-title {
   --container: 2rem;
   --gutter: 1rem;
   --max-width: 1336px;
+  /* Transitions */
+  --transition-time: 200;
 }
 
 /* Grid */
@@ -7609,6 +7687,8 @@ h3.form-title {
   --container: 2rem;
   --gutter: 1rem;
   --max-width: 1336px;
+  /* Transitions */
+  --transition-time: 200;
 }
 
 /* Grid */
