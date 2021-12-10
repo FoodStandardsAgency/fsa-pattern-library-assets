@@ -4022,7 +4022,7 @@ body.overflow-hidden {
   clear: both;
 }
 .checkbox__field-all {
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 .checkbox__input {
   background-color: var(--fsa_tint);
@@ -4779,7 +4779,7 @@ body.overflow-hidden {
   clear: both;
 }
 .radio__field-all {
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 .radio__input {
   border-radius: 50%;
