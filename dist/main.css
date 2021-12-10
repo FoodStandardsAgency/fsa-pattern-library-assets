@@ -1264,7 +1264,7 @@ p {
 }
 @media screen and (min-width: 1024px) {
   .hero__mask-wrapper {
-    padding-bottom: 3.2rem;
+    padding-bottom: 5.5rem;
     background-size: 90%;
   }
 }
@@ -1281,6 +1281,22 @@ p {
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
   .hero__mask-wrapper {
     background-image: none;
+  }
+}
+.hero--without-image.hero--with-services .hero__mask-wrapper {
+  padding-bottom: 2rem;
+}
+@media screen and (min-width: 1440px) {
+  .hero--without-image.hero--with-services .hero__mask-wrapper {
+    padding: 0;
+  }
+}
+.hero--with-services .hero__mask-wrapper {
+  margin-bottom: 1rem;
+}
+@media screen and (min-width: 1440px) {
+  .hero--with-services .hero__mask-wrapper {
+    margin-bottom: 0;
   }
 }
 .hero__container {
@@ -1418,9 +1434,6 @@ p {
     height: 100%;
   }
 }
-.hero__services--2-columns, .hero__services--3-columns {
-  padding-bottom: 5.5rem;
-}
 @media screen and (min-width: 1440px) {
   .hero__services--with-image.hero__services--4-columns {
     position: relative;
@@ -1447,6 +1460,11 @@ p {
 }
 .hero__services .service-links__cards {
   margin-top: 0;
+}
+@media screen and (max-width: 767px) {
+  .hero__services .service-links__cards {
+    margin: 0;
+  }
 }
 @media screen and (max-width: 767px) {
   .hero__services .service-links__card {
@@ -1552,16 +1570,18 @@ p {
     min-height: 26rem;
   }
 }
-.hero--with-image .hero__title {
-  margin-top: 1rem;
-}
 .hero--with-services {
   display: flex;
   flex-direction: column;
 }
 @media screen and (min-width: 1440px) {
   .hero--with-services {
-    min-height: 33.75rem;
+    padding-bottom: 1rem;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .hero--with-services.hero--with-image {
+    padding-bottom: 2rem;
   }
 }
 @media screen and (min-width: 1440px) {
@@ -1579,10 +1599,10 @@ p {
 }
 @media screen and (min-width: 1440px) {
   .hero--without-image.hero--with-services .hero__services--1-rows {
-    margin-top: -7rem;
+    margin-top: -4rem;
   }
   .hero--without-image.hero--with-services .hero__services--2-rows {
-    margin-top: -13rem;
+    margin-top: -10rem;
   }
 }
 @media screen and (min-width: 1440px) {
@@ -1590,7 +1610,7 @@ p {
     margin-top: -8.5rem;
   }
   .hero--with-image.hero--with-services.hero--services-half .hero__services--2-rows {
-    margin-top: -13rem;
+    margin-top: -15.5rem;
   }
 }
 @media screen and (min-width: 1440px) {
@@ -2198,7 +2218,6 @@ p {
   font-size: 1rem;
   line-height: 1.6;
   letter-spacing: normal;
-  font-weight: bold;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
   display: block;
@@ -2450,14 +2469,6 @@ p {
 .feedback__options {
   display: inline-block;
   margin: 0;
-}
-.feedback__or {
-  font-family: var(--body-font);
-  font-weight: var(--body-normal);
-  font-size: 1rem;
-  line-height: 1.6;
-  letter-spacing: normal;
-  color: var(--fsa-primary_black);
 }
 .feedback__report-button {
   display: block;
