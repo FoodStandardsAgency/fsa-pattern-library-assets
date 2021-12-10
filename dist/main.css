@@ -3972,9 +3972,6 @@ body.overflow-hidden {
   margin: 2rem 0 0 0;
   color: var(--fsa-primary_black);
 }
-.checkbox-all {
-  margin-bottom: 2rem;
-}
 .checkbox__legend {
   font-family: var(--heading-font);
   font-size: 1.18rem;
@@ -4023,6 +4020,9 @@ body.overflow-hidden {
   display: flex;
   align-items: flex-start;
   clear: both;
+}
+.checkbox__field-all {
+  margin-bottom: 2rem;
 }
 .checkbox__input {
   background-color: var(--fsa_tint);
@@ -4729,9 +4729,6 @@ body.overflow-hidden {
   margin: 2rem 0 0 0;
   color: var(--fsa-primary_black);
 }
-.radio-all {
-  margin-bottom: 2rem;
-}
 .radio__legend {
   font-family: var(--heading-font);
   font-size: 1.18rem;
@@ -4780,6 +4777,9 @@ body.overflow-hidden {
   display: flex;
   align-items: flex-start;
   clear: both;
+}
+.radio__field-all {
+  margin-bottom: 2rem;
 }
 .radio__input {
   border-radius: 50%;
