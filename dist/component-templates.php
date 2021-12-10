@@ -106,6 +106,11 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/search/Showing",
           "variables" => ["content" => []]
         ], 
+        "sortBy" => [
+          "template" => "sortBy",
+          "path" => $assetPath . "/components/search/SortBy",
+          "variables" => ["content" => []]
+        ], 
         "filtersHeader" => [
           "template" => "filtersHeader",
           "path" => $assetPath . "/components/search/FiltersHeader",
@@ -119,11 +124,6 @@ function deeson_twig_component_templates($assetPath = 'auto') {
         "checkbox" => [
           "template" => "checkbox",
           "path" => $assetPath . "/components/form/Checkbox",
-          "variables" => ["content" => []]
-        ], 
-        "sortBy" => [
-          "template" => "sortBy",
-          "path" => $assetPath . "/components/search/SortBy",
           "variables" => ["content" => []]
         ], 
         "errorBox" => [
@@ -171,6 +171,11 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/form/EmailField",
           "variables" => ["content" => []]
         ], 
+        "textarea" => [
+          "template" => "textarea",
+          "path" => $assetPath . "/components/form/Textarea",
+          "variables" => ["content" => []]
+        ], 
         "landingLinks" => [
           "template" => "landingLinks",
           "path" => $assetPath . "/components/landing/LandingLinks",
@@ -179,11 +184,6 @@ function deeson_twig_component_templates($assetPath = 'auto') {
         "largePromoGroup" => [
           "template" => "largePromoGroup",
           "path" => $assetPath . "/components/landing/LargePromoGroup",
-          "variables" => ["content" => []]
-        ], 
-        "textarea" => [
-          "template" => "textarea",
-          "path" => $assetPath . "/components/form/Textarea",
           "variables" => ["content" => []]
         ], 
         "latestTeaser" => [
