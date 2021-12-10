@@ -3972,6 +3972,9 @@ body.overflow-hidden {
   margin: 2rem 0 0 0;
   color: var(--fsa-primary_black);
 }
+.checkbox-all {
+  margin-bottom: 2rem;
+}
 .checkbox__legend {
   font-family: var(--heading-font);
   font-size: 1.18rem;
@@ -4725,6 +4728,9 @@ body.overflow-hidden {
   padding: 0;
   margin: 2rem 0 0 0;
   color: var(--fsa-primary_black);
+}
+.radio-all {
+  margin-bottom: 2rem;
 }
 .radio__legend {
   font-family: var(--heading-font);
