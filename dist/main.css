@@ -4779,16 +4779,16 @@ body.overflow-hidden {
 /* Custom Mixins */
 /* Mixin for checkbox and radio button style */
 /* Used for Style guide pages */
-.external-link, .ext {
+.external-link {
   color: var(--fsa-primary_dark-green);
   text-decoration: underline;
   padding-right: 1.25rem;
   position: relative;
 }
-.external-link:hover, .ext:hover {
+.external-link:hover {
   color: var(--fsa__link-green);
 }
-.external-link:focus, .ext:focus {
+.external-link:focus {
   color: var(--fsa-primary_black);
   outline: none;
   text-decoration: none;
@@ -4796,7 +4796,7 @@ body.overflow-hidden {
   border-bottom: 0.25rem solid var(--fsa-primary_black);
   margin-bottom: -0.25rem;
 }
-.external-link::after, .ext::after {
+.external-link::after {
   content: "";
   background-image: url(./components/form/ExternalLink/external.svg);
   display: inline-block;
