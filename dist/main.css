@@ -2444,6 +2444,10 @@ p {
 .navigation__menu--level-1 .navigation__link:last-child {
   margin-bottom: 2rem;
 }
+.navigation__menu--level-1 .navigation__link > a:hover {
+  background-color: var(--fsa-secondary_mid-purple);
+  cursor: pointer;
+}
 .navigation__menu--level-1 .navigation__link > a:focus-visible {
   color: var(--fsa-primary_black);
   outline: none;
@@ -2560,7 +2564,6 @@ p {
 }
 @media screen and (min-width: 1440px) {
   .navigation__menu--level-1 .navigation__link--home {
-    margin-left: 0.625rem;
     padding: 0 1.5rem 0 0;
     -ms-grid-row-align: center;
         align-self: center;
@@ -2582,7 +2585,6 @@ p {
     display: block;
     -ms-grid-row-align: center;
         align-self: center;
-    margin-left: 0.625rem;
   }
 }
 .navigation__menu--level-2 {
@@ -2653,6 +2655,12 @@ p {
 .navigation__menu--level-2 .navigation__link__arrow svg path {
   stroke: var(--fsa-primary_dark-green);
   stroke-width: 2;
+}
+.navigation__menu--level-2 .navigation__link > a:hover {
+  background-color: initial;
+  cursor: pointer;
+  color: var(--fsa__link-green);
+  text-decoration: underline;
 }
 .navigation__menu--level-2 .navigation__link > a:focus-visible {
   border-bottom: 0.25rem solid var(--fsa-primary_black);
