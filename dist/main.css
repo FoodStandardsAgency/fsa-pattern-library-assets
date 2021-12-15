@@ -4979,24 +4979,11 @@ body.overflow-hidden {
   margin-left: 1rem;
   font-weight: inherit;
 }
-.input-field__wrapper {
-  display: flex;
-  align-items: center;
-  margin-top: 0.5rem;
-}
-.input-field__prefix {
-  font-family: var(--body-font);
-  font-weight: var(--body-normal);
-  font-size: 1rem;
-  line-height: 1.6;
-  letter-spacing: normal;
-  margin-right: 1.5rem;
-}
 .input-field__input {
   background-color: var(--fsa_online-grey);
   border: solid 1px var(--fsa-primary_dark-grey);
+  margin-top: 0.5rem;
   padding: 0.85rem 1rem;
-  flex-grow: 1;
 }
 @media screen and (min-width: 500px) {
   .input-field__input {
