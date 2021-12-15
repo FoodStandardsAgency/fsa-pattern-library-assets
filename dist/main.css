@@ -2675,9 +2675,30 @@ p {
 }
 @media screen and (max-width: 1023px) {
   .navigation__menu--level-2 .navigation__link--read-more {
+    display: inline-block;
+    font-family: open sans, sans-serif;
+    font-size: 1rem;
+    text-align: center;
+    line-height: 1.6rem;
+    min-height: 44px;
+    letter-spacing: normal;
+    border: 0;
+    border-radius: 1.5rem;
+    padding: 0.6rem 2.5rem;
+    cursor: pointer;
+    transition: background-color 0.2s cubic-bezier(0.19, 1, 0.22, 1), border-radius 0.1s ease-out, border-bottom 0.1s ease-out;
+    background-color: var(--fsa-primary_dark-green);
+    color: var(--fsa-primary_white);
     position: relative;
     width: 100%;
     align-content: center;
+  }
+  .navigation__menu--level-2 .navigation__link--read-more:hover {
+    background-color: #005e59;
+  }
+  .navigation__menu--level-2 .navigation__link--read-more:focus {
+    box-shadow: 0 0 0 0.2rem var(--fsa-primary_black), 0 0 0 0.4rem var(--fsa-tertiary_light-yellow);
+    outline: none;
   }
   .navigation__menu--level-2 .navigation__link--read-more > a {
     position: absolute;
