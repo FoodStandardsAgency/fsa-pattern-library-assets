@@ -3222,6 +3222,180 @@ p {
 .feedback--form .feedback__form-wrapper {
   display: block;
 }
+/*!*******************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/components/general/CookieBanner/cookieBanner.scss ***!
+  \*******************************************************************************************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css?family=Fira+Sans:300,400,500,700);
+/*!***********************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/components/general/CookieBanner/cookieBanner.scss (1) ***!
+  \***********************************************************************************************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700);
+/*!***********************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/components/general/CookieBanner/cookieBanner.scss (2) ***!
+  \***********************************************************************************************************************************************************************************************/
+:root {
+  /* Primary Colours */
+  --fsa-primary_dark-green: #007c75;
+  --fsa-primary_mid-green: #6cb33f;
+  --fsa-primary_light-green: #a9c47f;
+  --fsa-primary_dark-grey: #53565a;
+  --fsa_online-grey: #f0f3f5;
+  --fsa_border: #dee2e5;
+  --fsa-primary_black: #000000;
+  --fsa-primary_white: #ffffff;
+  --fsa_tint: #fafcfd;
+  /* Secondary Colours */
+  --fsa-secondary_mid-red: #e31837;
+  --fsa-secondary_dark-blue: #165c7d;
+  --fsa-secondary_orange: #f15d22;
+  --fsa-secondary_mid-yellow: #fdb913;
+  --fsa-secondary_mid-purple: #49176d;
+  --fsa-secondary_light-purple: #9f218b;
+  --fsa-tertiary_dark-blue: #9f218b;
+  --fsa-secondary-error-red: #e60f31;
+  --fsa-secondary-error-hover: #b0132b;
+  /* Tertiary Colours */
+  --fsa-tertiary_dark-red: #b04a5a;
+  --fsa-tertiary_light-red: #ef3340;
+  --fsa-tertiary_light-yellow: #f1c400;
+  --fsa-tertiary_teal: #00b2a9;
+  --fsa-tertiary_light-blue: #8dc8e8;
+  --fsa-tertiary_dark-purple: #51284f;
+  --fsa-secondary_mid-blue: #007fb2;
+  --fsa-tertiary_lime: #cedc00;
+  --fsa-tertiary_mauve: #8b84d7;
+  --fsa-tertiary_stripe-green: #006f51;
+  /* Hover Colours */
+  --fsa__link-green: #014b4c;
+  --fsa__purple-hover: #2a0247;
+  --fsa__grey-hover: #d9d9d6;
+  /* Typography */
+  --body-font: "Open Sans", sans-serif;
+  --body-normal: 400;
+  --body-bold: 600;
+  --heading-font: "Fira Sans", sans-serif;
+  --heading-bold: 700;
+  /* Grid */
+  --container-mobile: 1rem;
+  --container: 2rem;
+  --gutter: 1rem;
+  --max-width: 1336px;
+  /* Transitions */
+  --transition-time: 200;
+}
+
+/* Grid */
+/* Custom Mixins */
+/* Mixin for checkbox and radio button style */
+/* Used for Style guide pages */
+.cookie-banner {
+  background-color: var(--fsa-primary_dark-green);
+  padding: 1rem;
+  position: fixed;
+  z-index: 1000;
+  width: 100%;
+}
+.cookie-banner--hidden {
+  display: none;
+}
+@media screen and (min-width: 1440px) {
+  .cookie-banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+.cookie-banner__message, .cookie-banner__find-out-more, .cookie-banner__manage {
+  margin: 0;
+  font-family: var(--body-font);
+  font-weight: var(--body-normal);
+  font-size: 1rem;
+  line-height: 1.6;
+  letter-spacing: normal;
+  color: var(--fsa-primary_white);
+}
+.cookie-banner__find-out-more, .cookie-banner__manage {
+  white-space: nowrap;
+  color: var(--fsa-primary_dark-green);
+  text-decoration: underline;
+  color: var(--fsa-primary_white);
+}
+.cookie-banner__find-out-more:hover, .cookie-banner__manage:hover {
+  color: var(--fsa__link-green);
+}
+.cookie-banner__find-out-more:focus, .cookie-banner__manage:focus {
+  color: var(--fsa-primary_black);
+  outline: none;
+  text-decoration: none;
+  background-color: var(--fsa-tertiary_light-yellow);
+  border-bottom: 0.25rem solid var(--fsa-primary_black);
+  margin-bottom: -0.25rem;
+}
+.cookie-banner__find-out-more:hover, .cookie-banner__manage:hover {
+  color: var(--fsa__grey-hover);
+}
+.cookie-banner__actions {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+@media screen and (min-width: 768px) {
+  .cookie-banner__actions {
+    flex-direction: row;
+    align-items: center;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .cookie-banner__actions {
+    margin-top: 0;
+  }
+}
+@media screen and (min-width: 768px) {
+  .cookie-banner__manage {
+    margin-right: 1rem;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .cookie-banner__manage {
+    margin-right: 2rem;
+  }
+}
+.cookie-banner__accept {
+  margin-top: 1rem;
+  display: inline-block;
+  font-family: open sans, sans-serif;
+  font-size: 1rem;
+  text-align: center;
+  line-height: 1.6rem;
+  min-height: 44px;
+  letter-spacing: normal;
+  border: 0;
+  border-radius: 1.5rem;
+  padding: 0.6rem 2.5rem;
+  cursor: pointer;
+  transition: background-color 0.2s cubic-bezier(0.19, 1, 0.22, 1), border-radius 0.1s ease-out, border-bottom 0.1s ease-out;
+  background-color: var(--fsa-primary_white);
+  color: var(--fsa__link-green);
+}
+.cookie-banner__accept:hover {
+  background-color: var(--fsa-primary_dark-green);
+  color: var(--fsa-primary_white);
+}
+.cookie-banner__accept:focus {
+  box-shadow: 0 0 0 0.2rem var(--fsa-primary_black), 0 0 0 0.4rem var(--fsa-tertiary_light-yellow);
+  outline: none;
+}
+.cookie-banner__accept:hover {
+  background-color: var(--fsa__grey-hover);
+  color: var(--fsa__link-green);
+}
+@media screen and (min-width: 768px) {
+  .cookie-banner__accept {
+    margin-top: 0;
+  }
+}
 /*!********************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/components/search/CollapsibleCheckbox/collapsibleCheckbox.scss ***!
   \********************************************************************************************************************************************************************************************************/
