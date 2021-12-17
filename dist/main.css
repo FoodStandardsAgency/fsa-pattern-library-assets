@@ -5143,6 +5143,14 @@ body.overflow-hidden {
     font-size: 1.2rem;
   }
 }
+.input-field__nested {
+  font-family: var(--body-font);
+  font-weight: var(--body-normal);
+  font-size: 1rem;
+  line-height: 1.6;
+  letter-spacing: normal;
+  font-weight: bold;
+}
 .input-field__required {
   font-family: var(--body-font);
   font-weight: var(--body-normal);
