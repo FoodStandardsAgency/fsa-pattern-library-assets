@@ -3388,8 +3388,7 @@ p {
   outline: none;
 }
 .cookie-banner__accept:hover {
-  background-color: var(--fsa__grey-hover);
-  color: var(--fsa__link-green);
+  background-color: var(--fsa__link-green);
 }
 @media screen and (min-width: 768px) {
   .cookie-banner__accept {
