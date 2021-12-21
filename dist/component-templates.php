@@ -66,6 +66,11 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/general/Navigation",
           "variables" => ["content" => []]
         ], 
+        "feedback" => [
+          "template" => "feedback",
+          "path" => $assetPath . "/components/general/Feedback",
+          "variables" => ["content" => []]
+        ], 
         "cookieBanner" => [
           "template" => "cookieBanner",
           "path" => $assetPath . "/components/general/CookieBanner",
@@ -84,11 +89,6 @@ function deeson_twig_component_templates($assetPath = 'auto') {
         "listingItem" => [
           "template" => "listingItem",
           "path" => $assetPath . "/components/search/ListingItem",
-          "variables" => ["content" => []]
-        ], 
-        "feedback" => [
-          "template" => "feedback",
-          "path" => $assetPath . "/components/general/Feedback",
           "variables" => ["content" => []]
         ], 
         "pagination" => [
