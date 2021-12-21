@@ -3295,15 +3295,15 @@ p {
   z-index: 1000;
   width: 100%;
 }
-.cookie-banner--hidden {
-  display: none;
-}
 @media screen and (min-width: 1440px) {
   .cookie-banner {
     display: flex;
     justify-content: space-between;
     align-items: center;
   }
+}
+.cookie-banner--hidden {
+  display: none;
 }
 .cookie-banner__message, .cookie-banner__find-out-more, .cookie-banner__manage {
   margin: 0;
