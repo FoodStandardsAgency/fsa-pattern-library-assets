@@ -26,6 +26,11 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/layout/contentLayout",
           "variables" => ["content" => []]
         ], 
+        "contactLayout" => [
+          "template" => "contactLayout",
+          "path" => $assetPath . "/layout/contactLayout",
+          "variables" => ["content" => []]
+        ], 
         "breadcrumbs" => [
           "template" => "breadcrumbs",
           "path" => $assetPath . "/components/general/Breadcrumb",
@@ -61,14 +66,14 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/general/Footer",
           "variables" => ["content" => []]
         ], 
-        "navigation" => [
-          "template" => "navigation",
-          "path" => $assetPath . "/components/general/Navigation",
-          "variables" => ["content" => []]
-        ], 
         "feedback" => [
           "template" => "feedback",
           "path" => $assetPath . "/components/general/Feedback",
+          "variables" => ["content" => []]
+        ], 
+        "navigation" => [
+          "template" => "navigation",
+          "path" => $assetPath . "/components/general/Navigation",
           "variables" => ["content" => []]
         ], 
         "cookieBanner" => [
@@ -76,14 +81,14 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/general/CookieBanner",
           "variables" => ["content" => []]
         ], 
-        "collapsibleCheckbox" => [
-          "template" => "collapsibleCheckbox",
-          "path" => $assetPath . "/components/search/CollapsibleCheckbox",
-          "variables" => ["content" => []]
-        ], 
         "filtersSelected" => [
           "template" => "filtersSelected",
           "path" => $assetPath . "/components/search/FiltersSelected",
+          "variables" => ["content" => []]
+        ], 
+        "collapsibleCheckbox" => [
+          "template" => "collapsibleCheckbox",
+          "path" => $assetPath . "/components/search/CollapsibleCheckbox",
           "variables" => ["content" => []]
         ], 
         "listingItem" => [
@@ -224,6 +229,11 @@ function deeson_twig_component_templates($assetPath = 'auto') {
         "serviceLinks" => [
           "template" => "serviceLinks",
           "path" => $assetPath . "/components/landing/ServiceLinks",
+          "variables" => ["content" => []]
+        ], 
+        "helpSecondaryMenu" => [
+          "template" => "helpSecondaryMenu",
+          "path" => $assetPath . "/components/contact/HelpSecondaryMenu",
           "variables" => ["content" => []]
         ]
   ];
