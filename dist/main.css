@@ -800,10 +800,10 @@ p {
 }
 .header__languages {
   text-align: right;
-  background-color: var(--fsa-primary_white);
 }
 .header__languages--mobile {
   display: block;
+  background-color: var(--fsa-primary_white);
 }
 @media screen and (min-width: 1024px) {
   .header__languages--mobile {
