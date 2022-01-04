@@ -4826,6 +4826,155 @@ body.overflow-hidden {
   color: var(--fsa-secondary_mid-red);
 }
 /*!********************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/components/form/Dropdown/dropdown.scss ***!
+  \********************************************************************************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css?family=Fira+Sans:300,400,500,700);
+/*!************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/components/form/Dropdown/dropdown.scss (1) ***!
+  \************************************************************************************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700);
+/*!************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/components/form/Dropdown/dropdown.scss (2) ***!
+  \************************************************************************************************************************************************************************************/
+:root {
+  /* Primary Colours */
+  --fsa-primary_dark-green: #007c75;
+  --fsa-primary_mid-green: #6cb33f;
+  --fsa-primary_light-green: #a9c47f;
+  --fsa-primary_dark-grey: #53565a;
+  --fsa_online-grey: #f0f3f5;
+  --fsa_border: #dee2e5;
+  --fsa-primary_black: #000000;
+  --fsa-primary_white: #ffffff;
+  --fsa_tint: #fafcfd;
+  /* Secondary Colours */
+  --fsa-secondary_mid-red: #e31837;
+  --fsa-secondary_dark-blue: #165c7d;
+  --fsa-secondary_orange: #f15d22;
+  --fsa-secondary_mid-yellow: #fdb913;
+  --fsa-secondary_mid-purple: #49176d;
+  --fsa-secondary_light-purple: #9f218b;
+  --fsa-tertiary_dark-blue: #9f218b;
+  --fsa-secondary-error-red: #e60f31;
+  --fsa-secondary-error-hover: #b0132b;
+  /* Tertiary Colours */
+  --fsa-tertiary_dark-red: #b04a5a;
+  --fsa-tertiary_light-red: #ef3340;
+  --fsa-tertiary_light-yellow: #f1c400;
+  --fsa-tertiary_teal: #00b2a9;
+  --fsa-tertiary_light-blue: #8dc8e8;
+  --fsa-tertiary_dark-purple: #51284f;
+  --fsa-secondary_mid-blue: #007fb2;
+  --fsa-tertiary_lime: #cedc00;
+  --fsa-tertiary_mauve: #8b84d7;
+  --fsa-tertiary_stripe-green: #006f51;
+  /* Hover Colours */
+  --fsa__link-green: #014b4c;
+  --fsa__purple-hover: #2a0247;
+  --fsa__grey-hover: #d9d9d6;
+  /* Typography */
+  --body-font: "Open Sans", sans-serif;
+  --body-normal: 400;
+  --body-bold: 600;
+  --heading-font: "Fira Sans", sans-serif;
+  --heading-bold: 700;
+  /* Grid */
+  --container-mobile: 1rem;
+  --container: 2rem;
+  --gutter: 1rem;
+  --max-width: 1336px;
+  /* Transitions */
+  --transition-time: 200;
+}
+
+/* Grid */
+/* Custom Mixins */
+/* Mixin for checkbox and radio button style */
+/* Used for Style guide pages */
+.dropdown {
+  margin-top: 2rem;
+}
+.dropdown__label {
+  font-family: var(--heading-font);
+  font-size: 1.18rem;
+  font-weight: var(--heading-bold);
+  line-height: 1.4;
+  letter-spacing: normal;
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+  /* Using a float trick here to make the border of fieldset wrap around, not going through, the legend.*/
+  float: left;
+}
+@media screen and (min-width: 1024px) {
+  .dropdown__label {
+    font-size: 1.2rem;
+  }
+}
+.dropdown__required {
+  font-family: var(--body-font);
+  font-weight: var(--body-normal);
+  font-size: 0.9rem;
+  line-height: 1.6;
+  letter-spacing: normal;
+  margin-left: 1rem;
+  color: var(--fsa-primary_black);
+  font-weight: inherit;
+}
+.dropdown__description {
+  font-family: var(--body-font);
+  font-weight: var(--body-normal);
+  font-size: 1rem;
+  line-height: 1.6;
+  letter-spacing: normal;
+  margin: 0;
+  padding: 0.5rem 0 0 0;
+  clear: both;
+}
+.dropdown__select {
+  color: var(--fsa-primary_black);
+  margin-top: 1rem;
+  font-family: var(--body-font);
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 0.65rem 2.5rem 0.65rem 1rem;
+  min-height: 44px;
+  background: var(--fsa_tint);
+  border: 1px solid var(--fsa-primary_black);
+  border-radius: 0;
+  /* Add customised arrow */
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  background-image: url(./components/form/Dropdown/arrow-down.svg);
+  background-repeat: no-repeat;
+  background-position: 90% center;
+}
+.dropdown__select::-ms-expand {
+  display: none;
+}
+.dropdown__select:focus {
+  box-shadow: inset 0 0 0px 2px var(--fsa-primary_black);
+  outline: solid 3px var(--fsa-tertiary_light-yellow);
+}
+.dropdown__option {
+  color: var(--fsa-primary_black);
+}
+.dropdown--error {
+  border-left: 0.25rem solid var(--fsa-secondary_mid-red);
+  margin-left: -0.75rem;
+  padding-left: 0.5rem;
+}
+@media screen and (min-width: 768px) {
+  .dropdown--error {
+    margin-left: -1.25rem;
+    padding-left: 1rem;
+  }
+}
+.dropdown--error .dropdown__label {
+  color: var(--fsa-secondary_mid-red);
+}
+/*!********************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/components/form/ErrorBox/errorBox.scss ***!
   \********************************************************************************************************************************************************************************/
 @import url(https://fonts.googleapis.com/css?family=Fira+Sans:300,400,500,700);
