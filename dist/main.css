@@ -3291,8 +3291,6 @@ p {
 .cookie-banner {
   background-color: var(--fsa-primary_dark-green);
   padding: 1rem;
-  position: fixed;
-  z-index: 1000;
   width: 100%;
 }
 @media screen and (min-width: 1440px) {

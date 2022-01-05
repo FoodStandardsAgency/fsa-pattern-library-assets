@@ -196,14 +196,14 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/landing/LandingLinks",
           "variables" => ["content" => []]
         ], 
-        "latestTeaser" => [
-          "template" => "latestTeaser",
-          "path" => $assetPath . "/components/landing/LatestTeaser",
-          "variables" => ["content" => []]
-        ], 
         "largePromoGroup" => [
           "template" => "largePromoGroup",
           "path" => $assetPath . "/components/landing/LargePromoGroup",
+          "variables" => ["content" => []]
+        ], 
+        "latestTeaser" => [
+          "template" => "latestTeaser",
+          "path" => $assetPath . "/components/landing/LatestTeaser",
           "variables" => ["content" => []]
         ], 
         "searchBarHeader" => [
