@@ -7885,7 +7885,7 @@ h3.form-title {
 .help-secondary-menu {
   margin: 3rem auto 0;
 }
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1024px) {
   .help-secondary-menu__container {
     width: 100%;
     margin: 0 auto;
@@ -7893,7 +7893,7 @@ h3.form-title {
     padding-right: 1rem;
   }
 }
-@media screen and (min-width: 1440px) and (min-width: 768px) {
+@media screen and (min-width: 1024px) and (min-width: 768px) {
   .help-secondary-menu__container {
     padding-left: 2rem;
     padding-right: 2rem;
@@ -7901,7 +7901,7 @@ h3.form-title {
     max-width: calc(1300px + (2 * 2rem));
   }
 }
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1024px) {
   .help-secondary-menu__row {
     flex: 1;
     margin-left: -0.5rem;
@@ -7909,10 +7909,25 @@ h3.form-title {
     display: flex;
   }
 }
-@media screen and (min-width: 1440px) and (min-width: 768px) {
+@media screen and (min-width: 1024px) and (min-width: 768px) {
   .help-secondary-menu__row {
     margin-left: -1rem;
     margin-right: -1rem;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .help-secondary-menu__grid-wrapper {
+    width: 100%;
+    flex-basis: 100%;
+    max-width: 100%;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+}
+@media screen and (min-width: 1024px) and (min-width: 768px) {
+  .help-secondary-menu__grid-wrapper {
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
 }
 @media screen and (min-width: 1440px) {
