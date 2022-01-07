@@ -2188,6 +2188,7 @@ p {
   .navigation {
     height: 3.438rem;
     border: none;
+    position: relative;
   }
 }
 .navigation__container {
@@ -2253,6 +2254,19 @@ p {
     padding-left: 1rem;
     padding-right: 1rem;
   }
+}
+.navigation__background-blur {
+  display: none;
+}
+.navigation__background-blur--blurred {
+  display: block;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 3.438rem;
+  background-color: var(--fsa-primary_black);
+  opacity: 0.4;
+  overflow: hidden;
 }
 .navigation__link {
   display: flex;
