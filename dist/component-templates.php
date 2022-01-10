@@ -141,6 +141,11 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/form/ErrorBox",
           "variables" => ["content" => []]
         ], 
+        "externalLink" => [
+          "template" => "externalLink",
+          "path" => $assetPath . "/components/form/ExternalLink",
+          "variables" => ["content" => []]
+        ], 
         "inputField" => [
           "template" => "inputField",
           "path" => $assetPath . "/components/form/InputField",
@@ -161,11 +166,6 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/form/Radio",
           "variables" => ["content" => []]
         ], 
-        "externalLink" => [
-          "template" => "externalLink",
-          "path" => $assetPath . "/components/form/ExternalLink",
-          "variables" => ["content" => []]
-        ], 
         "tabs" => [
           "template" => "tabs",
           "path" => $assetPath . "/components/form/Tabs",
@@ -176,14 +176,14 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/form/TitleAndText",
           "variables" => ["content" => []]
         ], 
-        "textarea" => [
-          "template" => "textarea",
-          "path" => $assetPath . "/components/form/Textarea",
-          "variables" => ["content" => []]
-        ], 
         "emailField" => [
           "template" => "emailField",
           "path" => $assetPath . "/components/form/EmailField",
+          "variables" => ["content" => []]
+        ], 
+        "textarea" => [
+          "template" => "textarea",
+          "path" => $assetPath . "/components/form/Textarea",
           "variables" => ["content" => []]
         ], 
         "landingLinks" => [
@@ -206,11 +206,6 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/landing/PromoGroup",
           "variables" => ["content" => []]
         ], 
-        "searchBarHeader" => [
-          "template" => "searchBarHeader",
-          "path" => $assetPath . "/components/search/SearchBarHeader/react",
-          "variables" => ["content" => []]
-        ], 
         "sortBy" => [
           "template" => "sortBy",
           "path" => $assetPath . "/components/search/SortBy/react",
@@ -219,6 +214,11 @@ function deeson_twig_component_templates($assetPath = 'auto') {
         "filtersHeader" => [
           "template" => "filtersHeader",
           "path" => $assetPath . "/components/search/FiltersHeader/react",
+          "variables" => ["content" => []]
+        ], 
+        "searchBarHeader" => [
+          "template" => "searchBarHeader",
+          "path" => $assetPath . "/components/search/SearchBarHeader/react",
           "variables" => ["content" => []]
         ], 
         "searchBar" => [
