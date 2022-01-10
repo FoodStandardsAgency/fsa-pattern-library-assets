@@ -2112,6 +2112,501 @@ p {
   width: 100%;
   height: 100%;
 }
+/*!***********************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/components/general/Feedback/feedback.scss ***!
+  \***********************************************************************************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css?family=Fira+Sans:300,400,500,700);
+/*!***************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/components/general/Feedback/feedback.scss (1) ***!
+  \***************************************************************************************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700);
+/*!***************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/components/general/Feedback/feedback.scss (2) ***!
+  \***************************************************************************************************************************************************************************************/
+:root {
+  /* Primary Colours */
+  --fsa-primary_dark-green: #007c75;
+  --fsa-primary_mid-green: #6cb33f;
+  --fsa-primary_light-green: #a9c47f;
+  --fsa-primary_dark-grey: #53565a;
+  --fsa_online-grey: #f0f3f5;
+  --fsa_border: #dee2e5;
+  --fsa-primary_black: #000000;
+  --fsa-primary_white: #ffffff;
+  --fsa_tint: #fafcfd;
+  /* Secondary Colours */
+  --fsa-secondary_mid-red: #e31837;
+  --fsa-secondary_dark-blue: #165c7d;
+  --fsa-secondary_orange: #f15d22;
+  --fsa-secondary_mid-yellow: #fdb913;
+  --fsa-secondary_mid-purple: #49176d;
+  --fsa-secondary_light-purple: #9f218b;
+  --fsa-tertiary_dark-blue: #9f218b;
+  --fsa-secondary-error-red: #e60f31;
+  --fsa-secondary-error-hover: #b0132b;
+  /* Tertiary Colours */
+  --fsa-tertiary_dark-red: #b04a5a;
+  --fsa-tertiary_light-red: #ef3340;
+  --fsa-tertiary_light-yellow: #f1c400;
+  --fsa-tertiary_teal: #00b2a9;
+  --fsa-tertiary_light-blue: #8dc8e8;
+  --fsa-tertiary_dark-purple: #51284f;
+  --fsa-secondary_mid-blue: #007fb2;
+  --fsa-tertiary_lime: #cedc00;
+  --fsa-tertiary_mauve: #8b84d7;
+  --fsa-tertiary_stripe-green: #006f51;
+  --fsa-tertiary_light-black: #101010;
+  /* Hover Colours */
+  --fsa__link-green: #014b4c;
+  --fsa__purple-hover: #2a0247;
+  --fsa__grey-hover: #d9d9d6;
+  /* Typography */
+  --body-font: "Open Sans", sans-serif;
+  --body-normal: 400;
+  --body-bold: 600;
+  --heading-font: "Fira Sans", sans-serif;
+  --heading-bold: 700;
+  /* Grid */
+  --container-mobile: 1rem;
+  --container: 2rem;
+  --gutter: 1rem;
+  --max-width: 1336px;
+  /* Transitions */
+  --transition-time: 200;
+}
+
+/* Grid */
+/* Custom Mixins */
+/* Mixin for checkbox and radio button style */
+/* Used for Style guide pages */
+.feedback {
+  background-color: var(--fsa_online-grey);
+  position: relative;
+  top: 4rem;
+}
+@media screen and (min-width: 1440px) {
+  .feedback {
+    background: none;
+  }
+}
+.feedback__grid-container {
+  width: 100%;
+  margin: 0 auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+@media screen and (min-width: 768px) {
+  .feedback__grid-container {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    width: 100%;
+    max-width: calc(1300px + (2 * 2rem));
+  }
+}
+.feedback__grid-row {
+  flex: 1;
+  margin-left: -0.5rem;
+  margin-right: -0.5rem;
+}
+@media screen and (min-width: 768px) {
+  .feedback__grid-row {
+    margin-left: -1rem;
+    margin-right: -1rem;
+  }
+}
+.feedback__grid-wrapper {
+  width: 100%;
+  flex-basis: 100%;
+  max-width: 100%;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+@media screen and (min-width: 768px) {
+  .feedback__grid-wrapper {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .feedback__texts {
+    background-color: var(--fsa_online-grey);
+  }
+}
+.feedback__questions {
+  padding: 1rem 0;
+}
+@media screen and (min-width: 768px) {
+  .feedback__questions {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .feedback__questions {
+    padding: 1rem;
+  }
+}
+.feedback__heading {
+  margin: 0 0.75rem 0 0;
+  font-family: var(--heading-font);
+  font-size: 1.18rem;
+  font-weight: var(--heading-bold);
+  line-height: 1.4;
+  letter-spacing: normal;
+  display: inline-block;
+}
+@media screen and (min-width: 1024px) {
+  .feedback__heading {
+    font-size: 1.2rem;
+  }
+}
+.feedback__options {
+  display: inline-block;
+  margin: 0;
+}
+.feedback__report-button {
+  display: block;
+}
+.feedback__yes, .feedback__no, .feedback__report-button, .feedback__close {
+  font-family: var(--body-font);
+  font-weight: var(--body-normal);
+  font-size: 1rem;
+  line-height: 1.6;
+  letter-spacing: normal;
+  color: var(--fsa-primary_dark-green);
+  text-decoration: underline;
+  border: none;
+  background: none;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+}
+.feedback__yes:hover, .feedback__no:hover, .feedback__report-button:hover, .feedback__close:hover {
+  color: var(--fsa__link-green);
+}
+.feedback__yes:focus, .feedback__no:focus, .feedback__report-button:focus, .feedback__close:focus {
+  color: var(--fsa-primary_black);
+  outline: none;
+  text-decoration: none;
+  background-color: var(--fsa-tertiary_light-yellow);
+  border-bottom: 0.25rem solid var(--fsa-primary_black);
+  margin-bottom: -0.25rem;
+}
+.feedback__yes {
+  margin-right: 0.25rem;
+}
+.feedback__or {
+  margin-right: 0.25rem;
+}
+.feedback__report-button {
+  margin-top: 1rem;
+  font-size: 1.125rem;
+}
+@media screen and (min-width: 768px) {
+  .feedback__report-button {
+    margin: 0;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .feedback__report-button {
+    font-size: 1rem;
+  }
+}
+.feedback__thank {
+  padding: 1rem 0;
+  font-family: var(--heading-font);
+  font-size: 1.18rem;
+  font-weight: var(--heading-bold);
+  line-height: 1.4;
+  letter-spacing: normal;
+  display: none;
+}
+@media screen and (min-width: 1024px) {
+  .feedback__thank {
+    font-size: 1.2rem;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .feedback__thank {
+    padding: 1rem;
+  }
+}
+.feedback__form-wrapper {
+  padding: 1rem 0;
+  display: none;
+}
+@media screen and (min-width: 1440px) {
+  .feedback__form-wrapper {
+    background-color: var(--fsa_online-grey);
+  }
+}
+@media screen and (min-width: 1440px) {
+  .feedback__form-wrapper {
+    padding: 1rem;
+  }
+}
+.feedback__form {
+  position: relative;
+}
+@media screen and (min-width: 1440px) {
+  .feedback__form {
+    max-width: 50%;
+  }
+}
+.feedback__fieldset {
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+.feedback__legend {
+  font-family: var(--heading-font);
+  font-size: 1.18rem;
+  font-weight: var(--heading-bold);
+  line-height: 1.4;
+  letter-spacing: normal;
+  margin-right: 3.25rem;
+}
+@media screen and (min-width: 1024px) {
+  .feedback__legend {
+    font-size: 1.2rem;
+  }
+}
+.feedback__close {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.feedback__textarea {
+  resize: none;
+  min-height: 8.5rem;
+  width: 100%;
+  margin-top: 1rem;
+  vertical-align: top;
+  border-color: var(--fsa-primary_black);
+  background-color: var(--fsa-primary_white);
+  border-radius: 0;
+  font-family: var(--body-font);
+  font-weight: var(--body-normal);
+  font-size: 1rem;
+  line-height: 1.6;
+  letter-spacing: normal;
+}
+.feedback__textarea:focus {
+  box-shadow: 0 0 0 0.25rem var(--fsa-primary_black), 0 0 0 0.5rem var(--fsa-tertiary_light-yellow);
+  outline: none;
+}
+.feedback__submit {
+  display: inline-block;
+  font-family: open sans, sans-serif;
+  font-size: 1rem;
+  text-align: center;
+  line-height: 1.6rem;
+  min-height: 44px;
+  letter-spacing: normal;
+  border: 0;
+  border-radius: 1.5rem;
+  padding: 0.6rem 2.5rem;
+  cursor: pointer;
+  transition: background-color 0.2s cubic-bezier(0.19, 1, 0.22, 1), border-radius 0.1s ease-out, border-bottom 0.1s ease-out;
+  background-color: var(--fsa-primary_dark-green);
+  color: var(--fsa-primary_white);
+  margin-left: auto;
+  display: block;
+  margin-top: 1rem;
+}
+.feedback__submit:hover {
+  background-color: #005e59;
+}
+.feedback__submit:focus {
+  box-shadow: 0 0 0 0.2rem var(--fsa-primary_black), 0 0 0 0.4rem var(--fsa-tertiary_light-yellow);
+  outline: none;
+}
+.feedback--thank .feedback__questions, .feedback--form .feedback__questions {
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .feedback--thank .feedback__questions, .feedback--form .feedback__questions {
+    display: none;
+  }
+}
+.feedback--thank .feedback__thank {
+  display: block;
+}
+.feedback--form .feedback__form-wrapper {
+  display: block;
+}
+/*!*******************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/components/general/CookieBanner/cookieBanner.scss ***!
+  \*******************************************************************************************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css?family=Fira+Sans:300,400,500,700);
+/*!***********************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/components/general/CookieBanner/cookieBanner.scss (1) ***!
+  \***********************************************************************************************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700);
+/*!***********************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/components/general/CookieBanner/cookieBanner.scss (2) ***!
+  \***********************************************************************************************************************************************************************************************/
+:root {
+  /* Primary Colours */
+  --fsa-primary_dark-green: #007c75;
+  --fsa-primary_mid-green: #6cb33f;
+  --fsa-primary_light-green: #a9c47f;
+  --fsa-primary_dark-grey: #53565a;
+  --fsa_online-grey: #f0f3f5;
+  --fsa_border: #dee2e5;
+  --fsa-primary_black: #000000;
+  --fsa-primary_white: #ffffff;
+  --fsa_tint: #fafcfd;
+  /* Secondary Colours */
+  --fsa-secondary_mid-red: #e31837;
+  --fsa-secondary_dark-blue: #165c7d;
+  --fsa-secondary_orange: #f15d22;
+  --fsa-secondary_mid-yellow: #fdb913;
+  --fsa-secondary_mid-purple: #49176d;
+  --fsa-secondary_light-purple: #9f218b;
+  --fsa-tertiary_dark-blue: #9f218b;
+  --fsa-secondary-error-red: #e60f31;
+  --fsa-secondary-error-hover: #b0132b;
+  /* Tertiary Colours */
+  --fsa-tertiary_dark-red: #b04a5a;
+  --fsa-tertiary_light-red: #ef3340;
+  --fsa-tertiary_light-yellow: #f1c400;
+  --fsa-tertiary_teal: #00b2a9;
+  --fsa-tertiary_light-blue: #8dc8e8;
+  --fsa-tertiary_dark-purple: #51284f;
+  --fsa-secondary_mid-blue: #007fb2;
+  --fsa-tertiary_lime: #cedc00;
+  --fsa-tertiary_mauve: #8b84d7;
+  --fsa-tertiary_stripe-green: #006f51;
+  --fsa-tertiary_light-black: #101010;
+  /* Hover Colours */
+  --fsa__link-green: #014b4c;
+  --fsa__purple-hover: #2a0247;
+  --fsa__grey-hover: #d9d9d6;
+  /* Typography */
+  --body-font: "Open Sans", sans-serif;
+  --body-normal: 400;
+  --body-bold: 600;
+  --heading-font: "Fira Sans", sans-serif;
+  --heading-bold: 700;
+  /* Grid */
+  --container-mobile: 1rem;
+  --container: 2rem;
+  --gutter: 1rem;
+  --max-width: 1336px;
+  /* Transitions */
+  --transition-time: 200;
+}
+
+/* Grid */
+/* Custom Mixins */
+/* Mixin for checkbox and radio button style */
+/* Used for Style guide pages */
+.cookie-banner {
+  background-color: var(--fsa-primary_dark-green);
+  padding: 1rem;
+  width: 100%;
+}
+@media screen and (min-width: 1440px) {
+  .cookie-banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+.cookie-banner--hidden {
+  display: none;
+}
+.cookie-banner__message, .cookie-banner__find-out-more, .cookie-banner__manage {
+  margin: 0;
+  font-family: var(--body-font);
+  font-weight: var(--body-normal);
+  font-size: 1rem;
+  line-height: 1.6;
+  letter-spacing: normal;
+  color: var(--fsa-primary_white);
+}
+.cookie-banner__find-out-more, .cookie-banner__manage {
+  white-space: nowrap;
+  color: var(--fsa-primary_dark-green);
+  text-decoration: underline;
+  color: var(--fsa-primary_white);
+}
+.cookie-banner__find-out-more:hover, .cookie-banner__manage:hover {
+  color: var(--fsa__link-green);
+}
+.cookie-banner__find-out-more:focus, .cookie-banner__manage:focus {
+  color: var(--fsa-primary_black);
+  outline: none;
+  text-decoration: none;
+  background-color: var(--fsa-tertiary_light-yellow);
+  border-bottom: 0.25rem solid var(--fsa-primary_black);
+  margin-bottom: -0.25rem;
+}
+.cookie-banner__find-out-more:hover, .cookie-banner__manage:hover {
+  color: var(--fsa__grey-hover);
+}
+.cookie-banner__actions {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+@media screen and (min-width: 768px) {
+  .cookie-banner__actions {
+    flex-direction: row;
+    align-items: center;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .cookie-banner__actions {
+    margin-top: 0;
+  }
+}
+@media screen and (min-width: 768px) {
+  .cookie-banner__manage {
+    margin-right: 1rem;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .cookie-banner__manage {
+    margin-right: 2rem;
+  }
+}
+.cookie-banner__accept {
+  margin-top: 1rem;
+  display: inline-block;
+  font-family: open sans, sans-serif;
+  font-size: 1rem;
+  text-align: center;
+  line-height: 1.6rem;
+  min-height: 44px;
+  letter-spacing: normal;
+  border: 0;
+  border-radius: 1.5rem;
+  padding: 0.6rem 2.5rem;
+  cursor: pointer;
+  transition: background-color 0.2s cubic-bezier(0.19, 1, 0.22, 1), border-radius 0.1s ease-out, border-bottom 0.1s ease-out;
+  background-color: var(--fsa-primary_white);
+  color: var(--fsa__link-green);
+}
+.cookie-banner__accept:hover {
+  background-color: var(--fsa-primary_dark-green);
+  color: var(--fsa-primary_white);
+}
+.cookie-banner__accept:focus {
+  box-shadow: 0 0 0 0.2rem var(--fsa-primary_black), 0 0 0 0.4rem var(--fsa-tertiary_light-yellow);
+  outline: none;
+}
+.cookie-banner__accept:hover {
+  background-color: var(--fsa__link-green);
+}
+@media screen and (min-width: 768px) {
+  .cookie-banner__accept {
+    margin-top: 0;
+  }
+}
 /*!***************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/components/general/Navigation/navigation.scss ***!
   \***************************************************************************************************************************************************************************************/
@@ -2786,501 +3281,6 @@ p {
 }
 .navigation button:focus {
   outline: 0;
-}
-/*!***********************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/components/general/Feedback/feedback.scss ***!
-  \***********************************************************************************************************************************************************************************/
-@import url(https://fonts.googleapis.com/css?family=Fira+Sans:300,400,500,700);
-/*!***************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/components/general/Feedback/feedback.scss (1) ***!
-  \***************************************************************************************************************************************************************************************/
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700);
-/*!***************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/components/general/Feedback/feedback.scss (2) ***!
-  \***************************************************************************************************************************************************************************************/
-:root {
-  /* Primary Colours */
-  --fsa-primary_dark-green: #007c75;
-  --fsa-primary_mid-green: #6cb33f;
-  --fsa-primary_light-green: #a9c47f;
-  --fsa-primary_dark-grey: #53565a;
-  --fsa_online-grey: #f0f3f5;
-  --fsa_border: #dee2e5;
-  --fsa-primary_black: #000000;
-  --fsa-primary_white: #ffffff;
-  --fsa_tint: #fafcfd;
-  /* Secondary Colours */
-  --fsa-secondary_mid-red: #e31837;
-  --fsa-secondary_dark-blue: #165c7d;
-  --fsa-secondary_orange: #f15d22;
-  --fsa-secondary_mid-yellow: #fdb913;
-  --fsa-secondary_mid-purple: #49176d;
-  --fsa-secondary_light-purple: #9f218b;
-  --fsa-tertiary_dark-blue: #9f218b;
-  --fsa-secondary-error-red: #e60f31;
-  --fsa-secondary-error-hover: #b0132b;
-  /* Tertiary Colours */
-  --fsa-tertiary_dark-red: #b04a5a;
-  --fsa-tertiary_light-red: #ef3340;
-  --fsa-tertiary_light-yellow: #f1c400;
-  --fsa-tertiary_teal: #00b2a9;
-  --fsa-tertiary_light-blue: #8dc8e8;
-  --fsa-tertiary_dark-purple: #51284f;
-  --fsa-secondary_mid-blue: #007fb2;
-  --fsa-tertiary_lime: #cedc00;
-  --fsa-tertiary_mauve: #8b84d7;
-  --fsa-tertiary_stripe-green: #006f51;
-  --fsa-tertiary_light-black: #101010;
-  /* Hover Colours */
-  --fsa__link-green: #014b4c;
-  --fsa__purple-hover: #2a0247;
-  --fsa__grey-hover: #d9d9d6;
-  /* Typography */
-  --body-font: "Open Sans", sans-serif;
-  --body-normal: 400;
-  --body-bold: 600;
-  --heading-font: "Fira Sans", sans-serif;
-  --heading-bold: 700;
-  /* Grid */
-  --container-mobile: 1rem;
-  --container: 2rem;
-  --gutter: 1rem;
-  --max-width: 1336px;
-  /* Transitions */
-  --transition-time: 200;
-}
-
-/* Grid */
-/* Custom Mixins */
-/* Mixin for checkbox and radio button style */
-/* Used for Style guide pages */
-.feedback {
-  background-color: var(--fsa_online-grey);
-  position: relative;
-  top: 4rem;
-}
-@media screen and (min-width: 1440px) {
-  .feedback {
-    background: none;
-  }
-}
-.feedback__grid-container {
-  width: 100%;
-  margin: 0 auto;
-  padding-left: 1rem;
-  padding-right: 1rem;
-}
-@media screen and (min-width: 768px) {
-  .feedback__grid-container {
-    padding-left: 2rem;
-    padding-right: 2rem;
-    width: 100%;
-    max-width: calc(1300px + (2 * 2rem));
-  }
-}
-.feedback__grid-row {
-  flex: 1;
-  margin-left: -0.5rem;
-  margin-right: -0.5rem;
-}
-@media screen and (min-width: 768px) {
-  .feedback__grid-row {
-    margin-left: -1rem;
-    margin-right: -1rem;
-  }
-}
-.feedback__grid-wrapper {
-  width: 100%;
-  flex-basis: 100%;
-  max-width: 100%;
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
-}
-@media screen and (min-width: 768px) {
-  .feedback__grid-wrapper {
-    padding-left: 1rem;
-    padding-right: 1rem;
-  }
-}
-@media screen and (min-width: 1440px) {
-  .feedback__texts {
-    background-color: var(--fsa_online-grey);
-  }
-}
-.feedback__questions {
-  padding: 1rem 0;
-}
-@media screen and (min-width: 768px) {
-  .feedback__questions {
-    display: flex;
-    justify-content: space-between;
-  }
-}
-@media screen and (min-width: 1440px) {
-  .feedback__questions {
-    padding: 1rem;
-  }
-}
-.feedback__heading {
-  margin: 0 0.75rem 0 0;
-  font-family: var(--heading-font);
-  font-size: 1.18rem;
-  font-weight: var(--heading-bold);
-  line-height: 1.4;
-  letter-spacing: normal;
-  display: inline-block;
-}
-@media screen and (min-width: 1024px) {
-  .feedback__heading {
-    font-size: 1.2rem;
-  }
-}
-.feedback__options {
-  display: inline-block;
-  margin: 0;
-}
-.feedback__report-button {
-  display: block;
-}
-.feedback__yes, .feedback__no, .feedback__report-button, .feedback__close {
-  font-family: var(--body-font);
-  font-weight: var(--body-normal);
-  font-size: 1rem;
-  line-height: 1.6;
-  letter-spacing: normal;
-  color: var(--fsa-primary_dark-green);
-  text-decoration: underline;
-  border: none;
-  background: none;
-  padding: 0;
-  margin: 0;
-  cursor: pointer;
-}
-.feedback__yes:hover, .feedback__no:hover, .feedback__report-button:hover, .feedback__close:hover {
-  color: var(--fsa__link-green);
-}
-.feedback__yes:focus, .feedback__no:focus, .feedback__report-button:focus, .feedback__close:focus {
-  color: var(--fsa-primary_black);
-  outline: none;
-  text-decoration: none;
-  background-color: var(--fsa-tertiary_light-yellow);
-  border-bottom: 0.25rem solid var(--fsa-primary_black);
-  margin-bottom: -0.25rem;
-}
-.feedback__yes {
-  margin-right: 0.25rem;
-}
-.feedback__or {
-  margin-right: 0.25rem;
-}
-.feedback__report-button {
-  margin-top: 1rem;
-  font-size: 1.125rem;
-}
-@media screen and (min-width: 768px) {
-  .feedback__report-button {
-    margin: 0;
-  }
-}
-@media screen and (min-width: 1024px) {
-  .feedback__report-button {
-    font-size: 1rem;
-  }
-}
-.feedback__thank {
-  padding: 1rem 0;
-  font-family: var(--heading-font);
-  font-size: 1.18rem;
-  font-weight: var(--heading-bold);
-  line-height: 1.4;
-  letter-spacing: normal;
-  display: none;
-}
-@media screen and (min-width: 1024px) {
-  .feedback__thank {
-    font-size: 1.2rem;
-  }
-}
-@media screen and (min-width: 1440px) {
-  .feedback__thank {
-    padding: 1rem;
-  }
-}
-.feedback__form-wrapper {
-  padding: 1rem 0;
-  display: none;
-}
-@media screen and (min-width: 1440px) {
-  .feedback__form-wrapper {
-    background-color: var(--fsa_online-grey);
-  }
-}
-@media screen and (min-width: 1440px) {
-  .feedback__form-wrapper {
-    padding: 1rem;
-  }
-}
-.feedback__form {
-  position: relative;
-}
-@media screen and (min-width: 1440px) {
-  .feedback__form {
-    max-width: 50%;
-  }
-}
-.feedback__fieldset {
-  border: none;
-  margin: 0;
-  padding: 0;
-}
-.feedback__legend {
-  font-family: var(--heading-font);
-  font-size: 1.18rem;
-  font-weight: var(--heading-bold);
-  line-height: 1.4;
-  letter-spacing: normal;
-  margin-right: 3.25rem;
-}
-@media screen and (min-width: 1024px) {
-  .feedback__legend {
-    font-size: 1.2rem;
-  }
-}
-.feedback__close {
-  position: absolute;
-  top: 0;
-  right: 0;
-}
-.feedback__textarea {
-  resize: none;
-  min-height: 8.5rem;
-  width: 100%;
-  margin-top: 1rem;
-  vertical-align: top;
-  border-color: var(--fsa-primary_black);
-  background-color: var(--fsa-primary_white);
-  border-radius: 0;
-  font-family: var(--body-font);
-  font-weight: var(--body-normal);
-  font-size: 1rem;
-  line-height: 1.6;
-  letter-spacing: normal;
-}
-.feedback__textarea:focus {
-  box-shadow: 0 0 0 0.25rem var(--fsa-primary_black), 0 0 0 0.5rem var(--fsa-tertiary_light-yellow);
-  outline: none;
-}
-.feedback__submit {
-  display: inline-block;
-  font-family: open sans, sans-serif;
-  font-size: 1rem;
-  text-align: center;
-  line-height: 1.6rem;
-  min-height: 44px;
-  letter-spacing: normal;
-  border: 0;
-  border-radius: 1.5rem;
-  padding: 0.6rem 2.5rem;
-  cursor: pointer;
-  transition: background-color 0.2s cubic-bezier(0.19, 1, 0.22, 1), border-radius 0.1s ease-out, border-bottom 0.1s ease-out;
-  background-color: var(--fsa-primary_dark-green);
-  color: var(--fsa-primary_white);
-  margin-left: auto;
-  display: block;
-  margin-top: 1rem;
-}
-.feedback__submit:hover {
-  background-color: #005e59;
-}
-.feedback__submit:focus {
-  box-shadow: 0 0 0 0.2rem var(--fsa-primary_black), 0 0 0 0.4rem var(--fsa-tertiary_light-yellow);
-  outline: none;
-}
-.feedback--thank .feedback__questions, .feedback--form .feedback__questions {
-  display: none;
-}
-@media screen and (min-width: 768px) {
-  .feedback--thank .feedback__questions, .feedback--form .feedback__questions {
-    display: none;
-  }
-}
-.feedback--thank .feedback__thank {
-  display: block;
-}
-.feedback--form .feedback__form-wrapper {
-  display: block;
-}
-/*!*******************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/components/general/CookieBanner/cookieBanner.scss ***!
-  \*******************************************************************************************************************************************************************************************/
-@import url(https://fonts.googleapis.com/css?family=Fira+Sans:300,400,500,700);
-/*!***********************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/components/general/CookieBanner/cookieBanner.scss (1) ***!
-  \***********************************************************************************************************************************************************************************************/
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700);
-/*!***********************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/components/general/CookieBanner/cookieBanner.scss (2) ***!
-  \***********************************************************************************************************************************************************************************************/
-:root {
-  /* Primary Colours */
-  --fsa-primary_dark-green: #007c75;
-  --fsa-primary_mid-green: #6cb33f;
-  --fsa-primary_light-green: #a9c47f;
-  --fsa-primary_dark-grey: #53565a;
-  --fsa_online-grey: #f0f3f5;
-  --fsa_border: #dee2e5;
-  --fsa-primary_black: #000000;
-  --fsa-primary_white: #ffffff;
-  --fsa_tint: #fafcfd;
-  /* Secondary Colours */
-  --fsa-secondary_mid-red: #e31837;
-  --fsa-secondary_dark-blue: #165c7d;
-  --fsa-secondary_orange: #f15d22;
-  --fsa-secondary_mid-yellow: #fdb913;
-  --fsa-secondary_mid-purple: #49176d;
-  --fsa-secondary_light-purple: #9f218b;
-  --fsa-tertiary_dark-blue: #9f218b;
-  --fsa-secondary-error-red: #e60f31;
-  --fsa-secondary-error-hover: #b0132b;
-  /* Tertiary Colours */
-  --fsa-tertiary_dark-red: #b04a5a;
-  --fsa-tertiary_light-red: #ef3340;
-  --fsa-tertiary_light-yellow: #f1c400;
-  --fsa-tertiary_teal: #00b2a9;
-  --fsa-tertiary_light-blue: #8dc8e8;
-  --fsa-tertiary_dark-purple: #51284f;
-  --fsa-secondary_mid-blue: #007fb2;
-  --fsa-tertiary_lime: #cedc00;
-  --fsa-tertiary_mauve: #8b84d7;
-  --fsa-tertiary_stripe-green: #006f51;
-  --fsa-tertiary_light-black: #101010;
-  /* Hover Colours */
-  --fsa__link-green: #014b4c;
-  --fsa__purple-hover: #2a0247;
-  --fsa__grey-hover: #d9d9d6;
-  /* Typography */
-  --body-font: "Open Sans", sans-serif;
-  --body-normal: 400;
-  --body-bold: 600;
-  --heading-font: "Fira Sans", sans-serif;
-  --heading-bold: 700;
-  /* Grid */
-  --container-mobile: 1rem;
-  --container: 2rem;
-  --gutter: 1rem;
-  --max-width: 1336px;
-  /* Transitions */
-  --transition-time: 200;
-}
-
-/* Grid */
-/* Custom Mixins */
-/* Mixin for checkbox and radio button style */
-/* Used for Style guide pages */
-.cookie-banner {
-  background-color: var(--fsa-primary_dark-green);
-  padding: 1rem;
-  width: 100%;
-}
-@media screen and (min-width: 1440px) {
-  .cookie-banner {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-}
-.cookie-banner--hidden {
-  display: none;
-}
-.cookie-banner__message, .cookie-banner__find-out-more, .cookie-banner__manage {
-  margin: 0;
-  font-family: var(--body-font);
-  font-weight: var(--body-normal);
-  font-size: 1rem;
-  line-height: 1.6;
-  letter-spacing: normal;
-  color: var(--fsa-primary_white);
-}
-.cookie-banner__find-out-more, .cookie-banner__manage {
-  white-space: nowrap;
-  color: var(--fsa-primary_dark-green);
-  text-decoration: underline;
-  color: var(--fsa-primary_white);
-}
-.cookie-banner__find-out-more:hover, .cookie-banner__manage:hover {
-  color: var(--fsa__link-green);
-}
-.cookie-banner__find-out-more:focus, .cookie-banner__manage:focus {
-  color: var(--fsa-primary_black);
-  outline: none;
-  text-decoration: none;
-  background-color: var(--fsa-tertiary_light-yellow);
-  border-bottom: 0.25rem solid var(--fsa-primary_black);
-  margin-bottom: -0.25rem;
-}
-.cookie-banner__find-out-more:hover, .cookie-banner__manage:hover {
-  color: var(--fsa__grey-hover);
-}
-.cookie-banner__actions {
-  margin-top: 1rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
-}
-@media screen and (min-width: 768px) {
-  .cookie-banner__actions {
-    flex-direction: row;
-    align-items: center;
-  }
-}
-@media screen and (min-width: 1440px) {
-  .cookie-banner__actions {
-    margin-top: 0;
-  }
-}
-@media screen and (min-width: 768px) {
-  .cookie-banner__manage {
-    margin-right: 1rem;
-  }
-}
-@media screen and (min-width: 1440px) {
-  .cookie-banner__manage {
-    margin-right: 2rem;
-  }
-}
-.cookie-banner__accept {
-  margin-top: 1rem;
-  display: inline-block;
-  font-family: open sans, sans-serif;
-  font-size: 1rem;
-  text-align: center;
-  line-height: 1.6rem;
-  min-height: 44px;
-  letter-spacing: normal;
-  border: 0;
-  border-radius: 1.5rem;
-  padding: 0.6rem 2.5rem;
-  cursor: pointer;
-  transition: background-color 0.2s cubic-bezier(0.19, 1, 0.22, 1), border-radius 0.1s ease-out, border-bottom 0.1s ease-out;
-  background-color: var(--fsa-primary_white);
-  color: var(--fsa__link-green);
-}
-.cookie-banner__accept:hover {
-  background-color: var(--fsa-primary_dark-green);
-  color: var(--fsa-primary_white);
-}
-.cookie-banner__accept:focus {
-  box-shadow: 0 0 0 0.2rem var(--fsa-primary_black), 0 0 0 0.4rem var(--fsa-tertiary_light-yellow);
-  outline: none;
-}
-.cookie-banner__accept:hover {
-  background-color: var(--fsa__link-green);
-}
-@media screen and (min-width: 768px) {
-  .cookie-banner__accept {
-    margin-top: 0;
-  }
 }
 /*!********************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/components/search/CollapsibleCheckbox/collapsibleCheckbox.scss ***!
