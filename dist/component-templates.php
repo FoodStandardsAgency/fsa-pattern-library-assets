@@ -181,14 +181,14 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/form/EmailField",
           "variables" => ["content" => []]
         ], 
-        "textarea" => [
-          "template" => "textarea",
-          "path" => $assetPath . "/components/form/Textarea",
-          "variables" => ["content" => []]
-        ], 
         "landingLinks" => [
           "template" => "landingLinks",
           "path" => $assetPath . "/components/landing/LandingLinks",
+          "variables" => ["content" => []]
+        ], 
+        "textarea" => [
+          "template" => "textarea",
+          "path" => $assetPath . "/components/form/Textarea",
           "variables" => ["content" => []]
         ], 
         "largePromoGroup" => [
