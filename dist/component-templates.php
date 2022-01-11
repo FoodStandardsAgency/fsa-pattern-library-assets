@@ -66,11 +66,6 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/general/Feedback",
           "variables" => ["content" => []]
         ], 
-        "cookieBanner" => [
-          "template" => "cookieBanner",
-          "path" => $assetPath . "/components/general/CookieBanner",
-          "variables" => ["content" => []]
-        ], 
         "navigation" => [
           "template" => "navigation",
           "path" => $assetPath . "/components/general/Navigation",
@@ -84,6 +79,11 @@ function deeson_twig_component_templates($assetPath = 'auto') {
         "filtersSelected" => [
           "template" => "filtersSelected",
           "path" => $assetPath . "/components/search/FiltersSelected",
+          "variables" => ["content" => []]
+        ], 
+        "cookieBanner" => [
+          "template" => "cookieBanner",
+          "path" => $assetPath . "/components/general/CookieBanner",
           "variables" => ["content" => []]
         ], 
         "listingItem" => [
@@ -181,14 +181,14 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/form/EmailField",
           "variables" => ["content" => []]
         ], 
-        "landingLinks" => [
-          "template" => "landingLinks",
-          "path" => $assetPath . "/components/landing/LandingLinks",
-          "variables" => ["content" => []]
-        ], 
         "textarea" => [
           "template" => "textarea",
           "path" => $assetPath . "/components/form/Textarea",
+          "variables" => ["content" => []]
+        ], 
+        "landingLinks" => [
+          "template" => "landingLinks",
+          "path" => $assetPath . "/components/landing/LandingLinks",
           "variables" => ["content" => []]
         ], 
         "largePromoGroup" => [

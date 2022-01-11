@@ -4641,14 +4641,19 @@ body.overflow-hidden {
   }
 }
 .checkbox__required {
-  font-family: var(--body-font);
-  font-weight: var(--body-normal);
-  font-size: 0.9rem;
-  line-height: 1.6;
+  font-family: var(--heading-font);
+  font-size: 1.18rem;
+  font-weight: var(--heading-bold);
+  line-height: 1.4;
   letter-spacing: normal;
   margin-left: 1rem;
   color: var(--fsa-primary_black);
   font-weight: inherit;
+}
+@media screen and (min-width: 1024px) {
+  .checkbox__required {
+    font-size: 1.2rem;
+  }
 }
 .checkbox__description {
   font-family: var(--body-font);
@@ -4721,6 +4726,22 @@ body.overflow-hidden {
 }
 .checkbox--error .checkbox__legend {
   color: var(--fsa-secondary_mid-red);
+}
+.checkbox--error .checkbox__fields {
+  border: 4px solid var(--fsa-secondary_mid-red);
+  margin: 0.5rem 0 0 -4px;
+  padding: 0 0.5rem 0.5rem;
+}
+@media screen and (min-width: 768px) {
+  .checkbox--error .checkbox__fields {
+    margin-left: calc(-0.5rem - 4px);
+  }
+}
+.checkbox--error .checkbox__field {
+  padding-top: 1rem;
+}
+.checkbox--error .checkbox__field:first-child {
+  padding-top: 0.5rem;
 }
 /*!********************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/components/form/Dropdown/dropdown.scss ***!
@@ -4810,14 +4831,19 @@ body.overflow-hidden {
   }
 }
 .dropdown__required {
-  font-family: var(--body-font);
-  font-weight: var(--body-normal);
-  font-size: 0.9rem;
-  line-height: 1.6;
+  font-family: var(--heading-font);
+  font-size: 1.18rem;
+  font-weight: var(--heading-bold);
+  line-height: 1.4;
   letter-spacing: normal;
   margin-left: 1rem;
   color: var(--fsa-primary_black);
   font-weight: inherit;
+}
+@media screen and (min-width: 1024px) {
+  .dropdown__required {
+    font-size: 1.2rem;
+  }
 }
 .dropdown__description {
   font-family: var(--body-font);
@@ -5201,14 +5227,19 @@ body.overflow-hidden {
   font-weight: bold;
 }
 .input-field__required {
-  font-family: var(--body-font);
-  font-weight: var(--body-normal);
-  font-size: 0.9rem;
-  line-height: 1.6;
+  font-family: var(--heading-font);
+  font-size: 1.18rem;
+  font-weight: var(--heading-bold);
+  line-height: 1.4;
   letter-spacing: normal;
   font-weight: normal;
   margin-left: 1rem;
   font-weight: inherit;
+}
+@media screen and (min-width: 1024px) {
+  .input-field__required {
+    font-size: 1.2rem;
+  }
 }
 .input-field__wrapper {
   display: flex;
@@ -5575,14 +5606,19 @@ body.overflow-hidden {
   }
 }
 .radio__required {
-  font-family: var(--body-font);
-  font-weight: var(--body-normal);
-  font-size: 0.9rem;
-  line-height: 1.6;
+  font-family: var(--heading-font);
+  font-size: 1.18rem;
+  font-weight: var(--heading-bold);
+  line-height: 1.4;
   letter-spacing: normal;
   margin-left: 1rem;
   color: var(--fsa-primary_black);
   font-weight: inherit;
+}
+@media screen and (min-width: 1024px) {
+  .radio__required {
+    font-size: 1.2rem;
+  }
 }
 .radio__description {
   font-family: var(--body-font);
@@ -5664,6 +5700,22 @@ body.overflow-hidden {
 }
 .radio--error .radio__legend {
   color: var(--fsa-secondary_mid-red);
+}
+.radio--error .radio__fields {
+  border: 4px solid var(--fsa-secondary_mid-red);
+  margin: 0.5rem 0 0 -4px;
+  padding: 0 0.5rem 0.5rem;
+}
+@media screen and (min-width: 768px) {
+  .radio--error .radio__fields {
+    margin-left: calc(-0.5rem - 4px);
+  }
+}
+.radio--error .radio__field {
+  padding-top: 1rem;
+}
+.radio--error .radio__field:first-child {
+  padding-top: 0.5rem;
 }
 /*!************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/components/form/Tabs/tabs.scss ***!
@@ -6133,13 +6185,18 @@ h3.form-title {
   margin-right: 1rem;
 }
 .textarea__required {
-  font-family: var(--body-font);
-  font-weight: var(--body-normal);
-  font-size: 0.9rem;
-  line-height: 1.6;
+  font-family: var(--heading-font);
+  font-size: 1.18rem;
+  font-weight: var(--heading-bold);
+  line-height: 1.4;
   letter-spacing: normal;
   font-weight: inherit;
   color: var(--fsa-primary_black);
+}
+@media screen and (min-width: 1024px) {
+  .textarea__required {
+    font-size: 1.2rem;
+  }
 }
 .textarea__description {
   margin-top: 0.5rem;
