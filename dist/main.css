@@ -4898,6 +4898,13 @@ body.overflow-hidden {
 .dropdown--error .dropdown__label {
   color: var(--fsa-secondary_mid-red);
 }
+.dropdown--error .dropdown__select {
+  border: 0.25rem solid var(--fsa-secondary_mid-red);
+}
+.dropdown--error .dropdown__select:focus {
+  box-shadow: none;
+  outline-width: 4px;
+}
 /*!********************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/components/form/ErrorBox/errorBox.scss ***!
   \********************************************************************************************************************************************************************************/
