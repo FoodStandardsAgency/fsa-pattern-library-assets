@@ -4550,6 +4550,353 @@ body.overflow-hidden {
     margin-top: 0.5rem;
   }
 }
+/*!**************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/components/search/Datepicker/datepicker.scss ***!
+  \**************************************************************************************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css?family=Fira+Sans:300,400,500,700);
+/*!******************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/components/search/Datepicker/datepicker.scss (1) ***!
+  \******************************************************************************************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700);
+/*!******************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/components/search/Datepicker/datepicker.scss (2) ***!
+  \******************************************************************************************************************************************************************************************/
+:root {
+  /* Primary Colours */
+  --fsa-primary_dark-green: #007c75;
+  --fsa-primary_mid-green: #6cb33f;
+  --fsa-primary_light-green: #a9c47f;
+  --fsa-primary_dark-grey: #53565a;
+  --fsa_online-grey: #f0f3f5;
+  --fsa_border: #dee2e5;
+  --fsa-primary_black: #000000;
+  --fsa-primary_white: #ffffff;
+  --fsa_tint: #fafcfd;
+  /* Secondary Colours */
+  --fsa-secondary_mid-red: #e31837;
+  --fsa-secondary_dark-blue: #165c7d;
+  --fsa-secondary_orange: #f15d22;
+  --fsa-secondary_mid-yellow: #fdb913;
+  --fsa-secondary_mid-purple: #49176d;
+  --fsa-secondary_light-purple: #9f218b;
+  --fsa-tertiary_dark-blue: #9f218b;
+  --fsa-secondary-error-red: #e60f31;
+  --fsa-secondary-error-hover: #b0132b;
+  /* Tertiary Colours */
+  --fsa-tertiary_dark-red: #b04a5a;
+  --fsa-tertiary_light-red: #ef3340;
+  --fsa-tertiary_light-yellow: #f1c400;
+  --fsa-tertiary_teal: #00b2a9;
+  --fsa-tertiary_light-blue: #8dc8e8;
+  --fsa-tertiary_dark-purple: #51284f;
+  --fsa-secondary_mid-blue: #007fb2;
+  --fsa-tertiary_lime: #cedc00;
+  --fsa-tertiary_mauve: #8b84d7;
+  --fsa-tertiary_stripe-green: #006f51;
+  --fsa-tertiary_light-black: #101010;
+  /* Hover Colours */
+  --fsa__link-green: #014b4c;
+  --fsa__purple-hover: #2a0247;
+  --fsa__grey-hover: #d9d9d6;
+  /* Typography */
+  --body-font: "Open Sans", sans-serif;
+  --body-normal: 400;
+  --body-bold: 600;
+  --heading-font: "Fira Sans", sans-serif;
+  --heading-bold: 700;
+  /* Grid */
+  --container-mobile: 1rem;
+  --container: 2rem;
+  --gutter: 1rem;
+  --max-width: 1336px;
+  /* Transitions */
+  --transition-time: 200;
+}
+
+/* Grid */
+/* Custom Mixins */
+/* Mixin for checkbox and radio button style */
+/* Used for Style guide pages */
+.datepicker {
+  width: 100%;
+}
+.datepicker--error .datepicker__label {
+  font-weight: bold;
+  color: var(--fsa-secondary_mid-red);
+}
+.datepicker--error .datepicker__select__button {
+  border: 4px solid var(--fsa-secondary_mid-red);
+}
+.datepicker__label {
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+}
+.datepicker__select-wrapper {
+  margin-top: 0;
+  display: flex;
+  justify-content: space-between;
+}
+.datepicker__select {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 0 0.563rem;
+}
+.datepicker__select:first-child {
+  padding-left: 0;
+}
+.datepicker__select:last-child {
+  padding-right: 0;
+}
+.datepicker__select__label {
+  font-family: var(--body-font);
+  font-weight: var(--body-normal);
+  font-size: 1rem;
+  line-height: 1.6;
+  letter-spacing: normal;
+  text-transform: uppercase;
+}
+.datepicker__select__label--hidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+.datepicker__select__button {
+  font-family: var(--body-font);
+  font-weight: var(--body-normal);
+  font-size: 1rem;
+  line-height: 1.6;
+  letter-spacing: normal;
+  border: 1px solid var(--fsa-primary_black);
+  background: var(--fsa-primary_white) url(./components/search/Datepicker/arrow-down.svg) no-repeat;
+  background-position: calc(100% - 1rem) 50%;
+  background-size: 0.8rem;
+  padding: 0.5rem 1.5rem 0.5rem 1rem;
+  cursor: pointer;
+  max-width: 100%;
+  margin-top: 0.438rem;
+  height: 3rem;
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+}
+.datepicker__select__button::-ms-expand {
+  display: none;
+}
+.datepicker__apply-wrapper {
+  display: flex;
+  justify-content: flex-end;
+}
+.datepicker__apply-button {
+  color: var(--fsa-primary_dark-green);
+  text-decoration: underline;
+  margin-top: 0.575rem;
+  text-decoration: none;
+}
+.datepicker__apply-button:hover {
+  color: var(--fsa__link-green);
+}
+.datepicker__apply-button:focus {
+  color: var(--fsa-primary_black);
+  outline: none;
+  text-decoration: none;
+  background-color: var(--fsa-tertiary_light-yellow);
+  border-bottom: 0.25rem solid var(--fsa-primary_black);
+  margin-bottom: -0.25rem;
+}
+.datepicker__apply-button:hover {
+  text-decoration: underline;
+}
+.datepicker__error-message {
+  display: none;
+}
+.datepicker__error-message--visible {
+  margin-top: 0.575rem;
+  display: block;
+}
+/*!************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/components/search/Accordion/accordion.scss ***!
+  \************************************************************************************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css?family=Fira+Sans:300,400,500,700);
+/*!****************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/components/search/Accordion/accordion.scss (1) ***!
+  \****************************************************************************************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700);
+/*!****************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/components/search/Accordion/accordion.scss (2) ***!
+  \****************************************************************************************************************************************************************************************/
+:root {
+  /* Primary Colours */
+  --fsa-primary_dark-green: #007c75;
+  --fsa-primary_mid-green: #6cb33f;
+  --fsa-primary_light-green: #a9c47f;
+  --fsa-primary_dark-grey: #53565a;
+  --fsa_online-grey: #f0f3f5;
+  --fsa_border: #dee2e5;
+  --fsa-primary_black: #000000;
+  --fsa-primary_white: #ffffff;
+  --fsa_tint: #fafcfd;
+  /* Secondary Colours */
+  --fsa-secondary_mid-red: #e31837;
+  --fsa-secondary_dark-blue: #165c7d;
+  --fsa-secondary_orange: #f15d22;
+  --fsa-secondary_mid-yellow: #fdb913;
+  --fsa-secondary_mid-purple: #49176d;
+  --fsa-secondary_light-purple: #9f218b;
+  --fsa-tertiary_dark-blue: #9f218b;
+  --fsa-secondary-error-red: #e60f31;
+  --fsa-secondary-error-hover: #b0132b;
+  /* Tertiary Colours */
+  --fsa-tertiary_dark-red: #b04a5a;
+  --fsa-tertiary_light-red: #ef3340;
+  --fsa-tertiary_light-yellow: #f1c400;
+  --fsa-tertiary_teal: #00b2a9;
+  --fsa-tertiary_light-blue: #8dc8e8;
+  --fsa-tertiary_dark-purple: #51284f;
+  --fsa-secondary_mid-blue: #007fb2;
+  --fsa-tertiary_lime: #cedc00;
+  --fsa-tertiary_mauve: #8b84d7;
+  --fsa-tertiary_stripe-green: #006f51;
+  --fsa-tertiary_light-black: #101010;
+  /* Hover Colours */
+  --fsa__link-green: #014b4c;
+  --fsa__purple-hover: #2a0247;
+  --fsa__grey-hover: #d9d9d6;
+  /* Typography */
+  --body-font: "Open Sans", sans-serif;
+  --body-normal: 400;
+  --body-bold: 600;
+  --heading-font: "Fira Sans", sans-serif;
+  --heading-bold: 700;
+  /* Grid */
+  --container-mobile: 1rem;
+  --container: 2rem;
+  --gutter: 1rem;
+  --max-width: 1336px;
+  /* Transitions */
+  --transition-time: 200;
+}
+
+/* Grid */
+/* Custom Mixins */
+/* Mixin for checkbox and radio button style */
+/* Used for Style guide pages */
+.accordion {
+  border: none;
+  border-top: 4px solid var(--fsa_border);
+  padding: 0;
+  margin: 2rem 0 0;
+}
+.accordion--error {
+  border-top: 4px solid var(--fsa-secondary_mid-red);
+}
+.accordion--hidden {
+  display: none;
+}
+.accordion__legend {
+  font-family: var(--body-font);
+  font-size: 1rem;
+  font-weight: var(--body-bold);
+  line-height: 1.6;
+  letter-spacing: normal;
+  margin: 0;
+  padding: 0;
+  float: left;
+  width: 100%;
+  font-weight: 700;
+}
+.accordion__button {
+  border: none;
+  background: none;
+  font: inherit;
+  margin: 0;
+  padding: 0.5rem 0 0;
+  cursor: pointer;
+  width: 100%;
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.accordion__button:focus {
+  outline: none;
+}
+.accordion__button:focus .accordion__title-text {
+  background: var(--fsa-tertiary_light-yellow);
+  border-bottom: 2px solid var(--fsa-primary_black);
+}
+.accordion__button::after {
+  content: url(./components/search/Accordion/arrow.svg);
+  transform: none;
+}
+.accordion__button--expanded::after {
+  transform: rotate(180deg);
+}
+.accordion__title-text {
+  border-bottom: 2px solid transparent;
+  color: var(--fsa-primary_black);
+}
+.accordion__description {
+  font-family: var(--body-font);
+  font-weight: var(--body-normal);
+  font-size: 0.9rem;
+  line-height: 1.6;
+  letter-spacing: normal;
+}
+.accordion__fields {
+  clear: both;
+  padding-top: 1rem;
+  display: none;
+}
+.accordion__fields--active {
+  display: block;
+}
+.accordion__field {
+  margin-top: 1rem;
+  font-family: var(--body-font);
+  font-weight: var(--body-normal);
+  font-size: 1rem;
+  line-height: 1.6;
+  letter-spacing: normal;
+  display: flex;
+  align-items: center;
+}
+.accordion__field:first-child {
+  margin-top: 0;
+}
+.accordion__input {
+  background-color: var(--fsa_tint);
+  -webkit-appearance: none;
+          appearance: none;
+  width: 1.5rem;
+  min-width: 1.5rem;
+  height: 1.5rem;
+  border: 1px solid var(--fsa-primary_black);
+  position: relative;
+  margin: 0;
+}
+.accordion__input::-ms-expand {
+  display: none;
+}
+.accordion__input:focus {
+  box-shadow: 0 0 0 0.167rem var(--fsa-primary_black), 0 0 0 0.333rem var(--fsa-tertiary_light-yellow);
+  outline: none;
+  border: none;
+}
+.accordion__input:checked {
+  background-color: var(--fsa-primary_dark-green);
+  background-image: url(./components/search/Accordion/tick.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.accordion__label {
+  padding: 0 0 0 1rem;
+}
 /*!********************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/components/form/Checkbox/checkbox.scss ***!
   \********************************************************************************************************************************************************************************/
@@ -4866,13 +5213,14 @@ body.overflow-hidden {
   background: var(--fsa_tint);
   border: 1px solid var(--fsa-primary_black);
   border-radius: 0;
+  max-width: 100%;
   /* Add customised arrow */
   appearance: none;
   -moz-appearance: none;
   -webkit-appearance: none;
   background-image: url(./components/form/Dropdown/arrow-down.svg);
   background-repeat: no-repeat;
-  background-position: 90% center;
+  background-position: calc(100% - 1rem) center;
 }
 .dropdown__select::-ms-expand {
   display: none;
