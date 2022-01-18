@@ -8558,6 +8558,7 @@ h3.form-title {
 .contact-promo__icon svg {
   height: 2.5rem;
   width: 2.5rem;
+  fill: white;
 }
 @media screen and (min-width: 1024px) {
   .contact-promo__icon {
