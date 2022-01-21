@@ -46,6 +46,7 @@
   --fsa__link-green: #014b4c;
   --fsa__purple-hover: #2a0247;
   --fsa__grey-hover: #d9d9d6;
+  --fsa__dark-green-hover: #002a2a;
   /* Typography */
   --body-font: "Open Sans", sans-serif;
   --body-normal: 400;
@@ -295,6 +296,7 @@ p {
   --fsa__link-green: #014b4c;
   --fsa__purple-hover: #2a0247;
   --fsa__grey-hover: #d9d9d6;
+  --fsa__dark-green-hover: #002a2a;
   /* Typography */
   --body-font: "Open Sans", sans-serif;
   --body-normal: 400;
@@ -574,6 +576,7 @@ p {
   --fsa__link-green: #014b4c;
   --fsa__purple-hover: #2a0247;
   --fsa__grey-hover: #d9d9d6;
+  --fsa__dark-green-hover: #002a2a;
   /* Typography */
   --body-font: "Open Sans", sans-serif;
   --body-normal: 400;
@@ -714,6 +717,7 @@ p {
   --fsa__link-green: #014b4c;
   --fsa__purple-hover: #2a0247;
   --fsa__grey-hover: #d9d9d6;
+  --fsa__dark-green-hover: #002a2a;
   /* Typography */
   --body-font: "Open Sans", sans-serif;
   --body-normal: 400;
@@ -1366,6 +1370,7 @@ p {
   --fsa__link-green: #014b4c;
   --fsa__purple-hover: #2a0247;
   --fsa__grey-hover: #d9d9d6;
+  --fsa__dark-green-hover: #002a2a;
   /* Typography */
   --body-font: "Open Sans", sans-serif;
   --body-normal: 400;
@@ -1693,12 +1698,16 @@ p {
   background-color: var(--fsa-primary_dark-green);
   color: var(--fsa-primary_white);
 }
-.hero__theme--green a:hover {
-  background-color: var(--fsa__link-green) !important;
+.hero__theme--green .button:hover {
+  background-color: var(--fsa__dark-green-hover);
 }
 .hero__theme--blue {
   background-color: #165c7d;
   color: var(--fsa-primary_white);
+}
+.hero__theme--blue .button:hover {
+  color: var(--fsa__dark-green-hover);
+  background-color: var(--fsa__grey-hover);
 }
 .hero__theme--grey {
   background-color: var(--fsa_online-grey);
@@ -1709,6 +1718,9 @@ p {
 }
 .hero__theme--grey h1:after {
   background-image: url(./components/general/Hero/assets/dot-grey.svg);
+}
+.hero__theme--grey .button:hover {
+  background-color: var(--fsa__link-green);
 }
 .hero--with-image {
   flex-direction: column;
@@ -1828,6 +1840,7 @@ p {
   --fsa__link-green: #014b4c;
   --fsa__purple-hover: #2a0247;
   --fsa__grey-hover: #d9d9d6;
+  --fsa__dark-green-hover: #002a2a;
   /* Typography */
   --body-font: "Open Sans", sans-serif;
   --body-normal: 400;
@@ -1898,6 +1911,7 @@ p {
   --fsa__link-green: #014b4c;
   --fsa__purple-hover: #2a0247;
   --fsa__grey-hover: #d9d9d6;
+  --fsa__dark-green-hover: #002a2a;
   /* Typography */
   --body-font: "Open Sans", sans-serif;
   --body-normal: 400;
@@ -2161,6 +2175,7 @@ p {
   --fsa__link-green: #014b4c;
   --fsa__purple-hover: #2a0247;
   --fsa__grey-hover: #d9d9d6;
+  --fsa__dark-green-hover: #002a2a;
   /* Typography */
   --body-font: "Open Sans", sans-serif;
   --body-normal: 400;
@@ -2484,6 +2499,7 @@ p {
   --fsa__link-green: #014b4c;
   --fsa__purple-hover: #2a0247;
   --fsa__grey-hover: #d9d9d6;
+  --fsa__dark-green-hover: #002a2a;
   /* Typography */
   --body-font: "Open Sans", sans-serif;
   --body-normal: 400;
@@ -2656,6 +2672,7 @@ p {
   --fsa__link-green: #014b4c;
   --fsa__purple-hover: #2a0247;
   --fsa__grey-hover: #d9d9d6;
+  --fsa__dark-green-hover: #002a2a;
   /* Typography */
   --body-font: "Open Sans", sans-serif;
   --body-normal: 400;
@@ -3365,6 +3382,7 @@ p {
   --fsa__link-green: #014b4c;
   --fsa__purple-hover: #2a0247;
   --fsa__grey-hover: #d9d9d6;
+  --fsa__dark-green-hover: #002a2a;
   /* Typography */
   --body-font: "Open Sans", sans-serif;
   --body-normal: 400;
@@ -3540,6 +3558,7 @@ p {
   --fsa__link-green: #014b4c;
   --fsa__purple-hover: #2a0247;
   --fsa__grey-hover: #d9d9d6;
+  --fsa__dark-green-hover: #002a2a;
   /* Typography */
   --body-font: "Open Sans", sans-serif;
   --body-normal: 400;
@@ -3689,6 +3708,7 @@ p {
   --fsa__link-green: #014b4c;
   --fsa__purple-hover: #2a0247;
   --fsa__grey-hover: #d9d9d6;
+  --fsa__dark-green-hover: #002a2a;
   /* Typography */
   --body-font: "Open Sans", sans-serif;
   --body-normal: 400;
@@ -3832,6 +3852,7 @@ p {
   --fsa__link-green: #014b4c;
   --fsa__purple-hover: #2a0247;
   --fsa__grey-hover: #d9d9d6;
+  --fsa__dark-green-hover: #002a2a;
   /* Typography */
   --body-font: "Open Sans", sans-serif;
   --body-normal: 400;
@@ -4043,6 +4064,7 @@ p {
   --fsa__link-green: #014b4c;
   --fsa__purple-hover: #2a0247;
   --fsa__grey-hover: #d9d9d6;
+  --fsa__dark-green-hover: #002a2a;
   /* Typography */
   --body-font: "Open Sans", sans-serif;
   --body-normal: 400;
@@ -4148,6 +4170,7 @@ p {
   --fsa__link-green: #014b4c;
   --fsa__purple-hover: #2a0247;
   --fsa__grey-hover: #d9d9d6;
+  --fsa__dark-green-hover: #002a2a;
   /* Typography */
   --body-font: "Open Sans", sans-serif;
   --body-normal: 400;
@@ -4261,6 +4284,7 @@ p {
   --fsa__link-green: #014b4c;
   --fsa__purple-hover: #2a0247;
   --fsa__grey-hover: #d9d9d6;
+  --fsa__dark-green-hover: #002a2a;
   /* Typography */
   --body-font: "Open Sans", sans-serif;
   --body-normal: 400;
@@ -4341,6 +4365,7 @@ p {
   --fsa__link-green: #014b4c;
   --fsa__purple-hover: #2a0247;
   --fsa__grey-hover: #d9d9d6;
+  --fsa__dark-green-hover: #002a2a;
   /* Typography */
   --body-font: "Open Sans", sans-serif;
   --body-normal: 400;
@@ -4442,6 +4467,7 @@ p {
   --fsa__link-green: #014b4c;
   --fsa__purple-hover: #2a0247;
   --fsa__grey-hover: #d9d9d6;
+  --fsa__dark-green-hover: #002a2a;
   /* Typography */
   --body-font: "Open Sans", sans-serif;
   --body-normal: 400;
@@ -4633,6 +4659,7 @@ body.overflow-hidden {
   --fsa__link-green: #014b4c;
   --fsa__purple-hover: #2a0247;
   --fsa__grey-hover: #d9d9d6;
+  --fsa__dark-green-hover: #002a2a;
   /* Typography */
   --body-font: "Open Sans", sans-serif;
   --body-normal: 400;
@@ -4802,6 +4829,7 @@ body.overflow-hidden {
   --fsa__link-green: #014b4c;
   --fsa__purple-hover: #2a0247;
   --fsa__grey-hover: #d9d9d6;
+  --fsa__dark-green-hover: #002a2a;
   /* Typography */
   --body-font: "Open Sans", sans-serif;
   --body-normal: 400;
@@ -4980,6 +5008,7 @@ body.overflow-hidden {
   --fsa__link-green: #014b4c;
   --fsa__purple-hover: #2a0247;
   --fsa__grey-hover: #d9d9d6;
+  --fsa__dark-green-hover: #002a2a;
   /* Typography */
   --body-font: "Open Sans", sans-serif;
   --body-normal: 400;
@@ -5173,6 +5202,7 @@ body.overflow-hidden {
   --fsa__link-green: #014b4c;
   --fsa__purple-hover: #2a0247;
   --fsa__grey-hover: #d9d9d6;
+  --fsa__dark-green-hover: #002a2a;
   /* Typography */
   --body-font: "Open Sans", sans-serif;
   --body-normal: 400;
@@ -5336,6 +5366,7 @@ body.overflow-hidden {
   --fsa__link-green: #014b4c;
   --fsa__purple-hover: #2a0247;
   --fsa__grey-hover: #d9d9d6;
+  --fsa__dark-green-hover: #002a2a;
   /* Typography */
   --body-font: "Open Sans", sans-serif;
   --body-normal: 400;
@@ -5473,6 +5504,7 @@ body.overflow-hidden {
   --fsa__link-green: #014b4c;
   --fsa__purple-hover: #2a0247;
   --fsa__grey-hover: #d9d9d6;
+  --fsa__dark-green-hover: #002a2a;
   /* Typography */
   --body-font: "Open Sans", sans-serif;
   --body-normal: 400;
@@ -5569,6 +5601,7 @@ body.overflow-hidden {
   --fsa__link-green: #014b4c;
   --fsa__purple-hover: #2a0247;
   --fsa__grey-hover: #d9d9d6;
+  --fsa__dark-green-hover: #002a2a;
   /* Typography */
   --body-font: "Open Sans", sans-serif;
   --body-normal: 400;
@@ -5748,6 +5781,7 @@ body.overflow-hidden {
   --fsa__link-green: #014b4c;
   --fsa__purple-hover: #2a0247;
   --fsa__grey-hover: #d9d9d6;
+  --fsa__dark-green-hover: #002a2a;
   /* Typography */
   --body-font: "Open Sans", sans-serif;
   --body-normal: 400;
@@ -5848,6 +5882,7 @@ body.overflow-hidden {
   --fsa__link-green: #014b4c;
   --fsa__purple-hover: #2a0247;
   --fsa__grey-hover: #d9d9d6;
+  --fsa__dark-green-hover: #002a2a;
   /* Typography */
   --body-font: "Open Sans", sans-serif;
   --body-normal: 400;
@@ -5953,6 +5988,7 @@ body.overflow-hidden {
   --fsa__link-green: #014b4c;
   --fsa__purple-hover: #2a0247;
   --fsa__grey-hover: #d9d9d6;
+  --fsa__dark-green-hover: #002a2a;
   /* Typography */
   --body-font: "Open Sans", sans-serif;
   --body-normal: 400;
@@ -6155,6 +6191,7 @@ body.overflow-hidden {
   --fsa__link-green: #014b4c;
   --fsa__purple-hover: #2a0247;
   --fsa__grey-hover: #d9d9d6;
+  --fsa__dark-green-hover: #002a2a;
   /* Typography */
   --body-font: "Open Sans", sans-serif;
   --body-normal: 400;
@@ -6306,6 +6343,7 @@ body.overflow-hidden {
   --fsa__link-green: #014b4c;
   --fsa__purple-hover: #2a0247;
   --fsa__grey-hover: #d9d9d6;
+  --fsa__dark-green-hover: #002a2a;
   /* Typography */
   --body-font: "Open Sans", sans-serif;
   --body-normal: 400;
@@ -6400,6 +6438,7 @@ h3.form-title {
   --fsa__link-green: #014b4c;
   --fsa__purple-hover: #2a0247;
   --fsa__grey-hover: #d9d9d6;
+  --fsa__dark-green-hover: #002a2a;
   /* Typography */
   --body-font: "Open Sans", sans-serif;
   --body-normal: 400;
@@ -6533,6 +6572,7 @@ h3.form-title {
   --fsa__link-green: #014b4c;
   --fsa__purple-hover: #2a0247;
   --fsa__grey-hover: #d9d9d6;
+  --fsa__dark-green-hover: #002a2a;
   /* Typography */
   --body-font: "Open Sans", sans-serif;
   --body-normal: 400;
@@ -6693,6 +6733,7 @@ h3.form-title {
   --fsa__link-green: #014b4c;
   --fsa__purple-hover: #2a0247;
   --fsa__grey-hover: #d9d9d6;
+  --fsa__dark-green-hover: #002a2a;
   /* Typography */
   --body-font: "Open Sans", sans-serif;
   --body-normal: 400;
@@ -6985,6 +7026,7 @@ h3.form-title {
   --fsa__link-green: #014b4c;
   --fsa__purple-hover: #2a0247;
   --fsa__grey-hover: #d9d9d6;
+  --fsa__dark-green-hover: #002a2a;
   /* Typography */
   --body-font: "Open Sans", sans-serif;
   --body-normal: 400;
@@ -7171,6 +7213,7 @@ h3.form-title {
   --fsa__link-green: #014b4c;
   --fsa__purple-hover: #2a0247;
   --fsa__grey-hover: #d9d9d6;
+  --fsa__dark-green-hover: #002a2a;
   /* Typography */
   --body-font: "Open Sans", sans-serif;
   --body-normal: 400;
@@ -7547,6 +7590,7 @@ h3.form-title {
   --fsa__link-green: #014b4c;
   --fsa__purple-hover: #2a0247;
   --fsa__grey-hover: #d9d9d6;
+  --fsa__dark-green-hover: #002a2a;
   /* Typography */
   --body-font: "Open Sans", sans-serif;
   --body-normal: 400;
@@ -7891,6 +7935,7 @@ h3.form-title {
   --fsa__link-green: #014b4c;
   --fsa__purple-hover: #2a0247;
   --fsa__grey-hover: #d9d9d6;
+  --fsa__dark-green-hover: #002a2a;
   /* Typography */
   --body-font: "Open Sans", sans-serif;
   --body-normal: 400;
@@ -8226,6 +8271,7 @@ h3.form-title {
   --fsa__link-green: #014b4c;
   --fsa__purple-hover: #2a0247;
   --fsa__grey-hover: #d9d9d6;
+  --fsa__dark-green-hover: #002a2a;
   /* Typography */
   --body-font: "Open Sans", sans-serif;
   --body-normal: 400;
@@ -8491,6 +8537,7 @@ h3.form-title {
   --fsa__link-green: #014b4c;
   --fsa__purple-hover: #2a0247;
   --fsa__grey-hover: #d9d9d6;
+  --fsa__dark-green-hover: #002a2a;
   /* Typography */
   --body-font: "Open Sans", sans-serif;
   --body-normal: 400;
@@ -8665,6 +8712,7 @@ h3.form-title {
   --fsa__link-green: #014b4c;
   --fsa__purple-hover: #2a0247;
   --fsa__grey-hover: #d9d9d6;
+  --fsa__dark-green-hover: #002a2a;
   /* Typography */
   --body-font: "Open Sans", sans-serif;
   --body-normal: 400;
@@ -8775,6 +8823,7 @@ h3.form-title {
   --fsa__link-green: #014b4c;
   --fsa__purple-hover: #2a0247;
   --fsa__grey-hover: #d9d9d6;
+  --fsa__dark-green-hover: #002a2a;
   /* Typography */
   --body-font: "Open Sans", sans-serif;
   --body-normal: 400;
@@ -8895,6 +8944,492 @@ h3.form-title {
   border-bottom: 0.25rem solid var(--fsa-primary_black);
   margin-bottom: -0.25rem;
 }
+/*!*****************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/components/article/ArticleHero/articleHero.scss ***!
+  \*****************************************************************************************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css?family=Fira+Sans:300,400,500,700);
+/*!*********************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/components/article/ArticleHero/articleHero.scss (1) ***!
+  \*********************************************************************************************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700);
+/*!*********************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/components/article/ArticleHero/articleHero.scss (2) ***!
+  \*********************************************************************************************************************************************************************************************/
+:root {
+  /* Primary Colours */
+  --fsa-primary_dark-green: #007c75;
+  --fsa-primary_mid-green: #6cb33f;
+  --fsa-primary_light-green: #a9c47f;
+  --fsa-primary_dark-grey: #53565a;
+  --fsa_online-grey: #f0f3f5;
+  --fsa_border: #dee2e5;
+  --fsa-primary_black: #000000;
+  --fsa-primary_white: #ffffff;
+  --fsa_tint: #fafcfd;
+  /* Secondary Colours */
+  --fsa-secondary_mid-red: #e31837;
+  --fsa-secondary_dark-blue: #165c7d;
+  --fsa-secondary_orange: #f15d22;
+  --fsa-secondary_mid-yellow: #fdb913;
+  --fsa-secondary_mid-purple: #49176d;
+  --fsa-secondary_light-purple: #9f218b;
+  --fsa-tertiary_dark-blue: #9f218b;
+  --fsa-secondary-error-red: #e60f31;
+  --fsa-secondary-error-hover: #b0132b;
+  /* Tertiary Colours */
+  --fsa-tertiary_dark-red: #b04a5a;
+  --fsa-tertiary_light-red: #ef3340;
+  --fsa-tertiary_light-yellow: #f1c400;
+  --fsa-tertiary_teal: #00b2a9;
+  --fsa-tertiary_light-blue: #8dc8e8;
+  --fsa-tertiary_dark-purple: #51284f;
+  --fsa-secondary_mid-blue: #007fb2;
+  --fsa-tertiary_lime: #cedc00;
+  --fsa-tertiary_mauve: #8b84d7;
+  --fsa-tertiary_stripe-green: #006f51;
+  --fsa-tertiary_light-black: #101010;
+  /* Hover Colours */
+  --fsa__link-green: #014b4c;
+  --fsa__purple-hover: #2a0247;
+  --fsa__grey-hover: #d9d9d6;
+  --fsa__dark-green-hover: #002a2a;
+  /* Typography */
+  --body-font: "Open Sans", sans-serif;
+  --body-normal: 400;
+  --body-bold: 600;
+  --heading-font: "Fira Sans", sans-serif;
+  --heading-bold: 700;
+  /* Grid */
+  --container-mobile: 1rem;
+  --container: 2rem;
+  --gutter: 1rem;
+  --max-width: 1336px;
+  /* Transitions */
+  --transition-time: 200;
+}
+
+/* Grid */
+/* Custom Mixins */
+/* Mixin for checkbox and radio button style */
+/* Used for Style guide pages */
+.article-hero__type {
+  font-family: var(--body-font);
+  font-weight: var(--body-normal);
+  font-size: 1rem;
+  line-height: 1.6;
+  letter-spacing: normal;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-bottom: 0.288rem;
+}
+.article-hero__type--news {
+  color: var(--fsa-secondary_mid-purple);
+}
+.article-hero__type--alerts {
+  color: var(--fsa-secondary_mid-red);
+}
+.article-hero__type--consultations {
+  color: var(--fsa-secondary_dark-blue);
+}
+.article-hero__title {
+  font-family: var(--heading-font);
+  font-size: 2.288rem;
+  font-weight: var(--heading-bold);
+  line-height: 1.1;
+  letter-spacing: normal;
+  color: var(--fsa-primary_dark-green);
+  margin-bottom: 1rem;
+  margin-top: 0;
+}
+@media screen and (min-width: 1024px) {
+  .article-hero__title {
+    font-size: 2.986rem;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .article-hero__title {
+    font-family: var(--heading-font);
+    font-size: 2.488rem;
+    font-weight: var(--heading-bold);
+    line-height: 1.1;
+    letter-spacing: normal;
+  }
+}
+.article-hero__region {
+  position: relative;
+  font-family: var(--body-font);
+  font-weight: var(--body-normal);
+  font-size: 1rem;
+  line-height: 1.6;
+  letter-spacing: normal;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+@media screen and (min-width: 768px) {
+  .article-hero__region {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+  }
+}
+.article-hero__region:before {
+  content: "";
+  height: 0.25rem;
+  width: 100%;
+  position: absolute;
+  bottom: -0.263rem;
+}
+@media screen and (min-width: 768px) {
+  .article-hero__region:before {
+    bottom: -0.575rem;
+  }
+}
+.article-hero__region--england:before {
+  background-color: var(--fsa-secondary_mid-red);
+}
+.article-hero__region--wales:before {
+  background-color: var(--fsa-tertiary_stripe-green);
+}
+.article-hero__region--northern-ireland:before {
+  background-color: var(--fsa-secondary_mid-yellow);
+}
+.article-hero__region--multi:before {
+  background-color: var(--fsa-primary_dark-grey);
+}
+.article-hero__description {
+  font-family: var(--body-font);
+  font-weight: var(--body-normal);
+  font-size: 1.18rem;
+  line-height: 1.6;
+  letter-spacing: normal;
+  margin-bottom: 1rem;
+}
+@media screen and (min-width: 1024px) {
+  .article-hero__description {
+    font-size: 1.2rem;
+  }
+}
+.article-hero__description p {
+  margin: 0;
+}
+@media screen and (min-width: 768px) {
+  .article-hero__description {
+    margin-bottom: 2rem;
+  }
+}
+.article-hero__toolbar {
+  border-top: solid 1px var(--fsa__grey-hover);
+  display: flex;
+  flex-direction: column;
+  padding-top: 1rem;
+}
+@media screen and (min-width: 768px) {
+  .article-hero__toolbar {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 0.5rem;
+  }
+}
+.article-hero__toolbar__last-updated {
+  margin-bottom: 0.5rem;
+  height: 100%;
+}
+@media screen and (min-width: 768px) {
+  .article-hero__toolbar__last-updated {
+    display: contents;
+  }
+}
+/*!***************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/components/article/RegionalVariationBlock/regionalVariationBlock.scss ***!
+  \***************************************************************************************************************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css?family=Fira+Sans:300,400,500,700);
+/*!*******************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/components/article/RegionalVariationBlock/regionalVariationBlock.scss (1) ***!
+  \*******************************************************************************************************************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700);
+/*!*******************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/components/article/RegionalVariationBlock/regionalVariationBlock.scss (2) ***!
+  \*******************************************************************************************************************************************************************************************************************/
+:root {
+  /* Primary Colours */
+  --fsa-primary_dark-green: #007c75;
+  --fsa-primary_mid-green: #6cb33f;
+  --fsa-primary_light-green: #a9c47f;
+  --fsa-primary_dark-grey: #53565a;
+  --fsa_online-grey: #f0f3f5;
+  --fsa_border: #dee2e5;
+  --fsa-primary_black: #000000;
+  --fsa-primary_white: #ffffff;
+  --fsa_tint: #fafcfd;
+  /* Secondary Colours */
+  --fsa-secondary_mid-red: #e31837;
+  --fsa-secondary_dark-blue: #165c7d;
+  --fsa-secondary_orange: #f15d22;
+  --fsa-secondary_mid-yellow: #fdb913;
+  --fsa-secondary_mid-purple: #49176d;
+  --fsa-secondary_light-purple: #9f218b;
+  --fsa-tertiary_dark-blue: #9f218b;
+  --fsa-secondary-error-red: #e60f31;
+  --fsa-secondary-error-hover: #b0132b;
+  /* Tertiary Colours */
+  --fsa-tertiary_dark-red: #b04a5a;
+  --fsa-tertiary_light-red: #ef3340;
+  --fsa-tertiary_light-yellow: #f1c400;
+  --fsa-tertiary_teal: #00b2a9;
+  --fsa-tertiary_light-blue: #8dc8e8;
+  --fsa-tertiary_dark-purple: #51284f;
+  --fsa-secondary_mid-blue: #007fb2;
+  --fsa-tertiary_lime: #cedc00;
+  --fsa-tertiary_mauve: #8b84d7;
+  --fsa-tertiary_stripe-green: #006f51;
+  --fsa-tertiary_light-black: #101010;
+  /* Hover Colours */
+  --fsa__link-green: #014b4c;
+  --fsa__purple-hover: #2a0247;
+  --fsa__grey-hover: #d9d9d6;
+  --fsa__dark-green-hover: #002a2a;
+  /* Typography */
+  --body-font: "Open Sans", sans-serif;
+  --body-normal: 400;
+  --body-bold: 600;
+  --heading-font: "Fira Sans", sans-serif;
+  --heading-bold: 700;
+  /* Grid */
+  --container-mobile: 1rem;
+  --container: 2rem;
+  --gutter: 1rem;
+  --max-width: 1336px;
+  /* Transitions */
+  --transition-time: 200;
+}
+
+/* Grid */
+/* Custom Mixins */
+/* Mixin for checkbox and radio button style */
+/* Used for Style guide pages */
+.regional-variation-block {
+  position: relative;
+  margin-top: 2rem;
+  padding: 0 0.5rem;
+}
+@media screen and (min-width: 768px) {
+  .regional-variation-block {
+    padding: 0 2rem;
+  }
+}
+.regional-variation-block--solid {
+  background-color: var(--fsa_tint);
+  border: 1px solid var(--fsa_border);
+  padding: 1rem 0.5rem;
+}
+@media screen and (min-width: 768px) {
+  .regional-variation-block--solid {
+    padding: 1rem 2rem;
+  }
+}
+.regional-variation-block:before {
+  content: "";
+  height: calc(100% + 2px);
+  width: 5px;
+  position: absolute;
+  left: -5px;
+  top: -1px;
+}
+.regional-variation-block--england:before {
+  background-color: var(--fsa-secondary_mid-red);
+}
+.regional-variation-block--wales:before {
+  background-color: var(--fsa-tertiary_stripe-green);
+}
+.regional-variation-block--northern-ireland:before {
+  background-color: var(--fsa-secondary_mid-yellow);
+}
+.regional-variation-block--multi:before {
+  background-color: var(--fsa-primary_dark-grey);
+}
+.regional-variation-block__region {
+  font-family: var(--body-font);
+  font-weight: var(--body-normal);
+  font-size: 1rem;
+  line-height: 1.6;
+  letter-spacing: normal;
+  font-weight: bold;
+  color: var(--fsa-primary_black);
+  margin: 0;
+}
+.regional-variation-block__copy {
+  font-family: var(--body-font);
+  font-weight: var(--body-normal);
+  font-size: 1rem;
+  line-height: 1.6;
+  letter-spacing: normal;
+  color: var(--fsa-primary_black);
+  margin-top: 0.5rem;
+}
+.regional-variation-block__copy .document-download {
+  margin-top: 1rem;
+}
+.regional-variation-block__copy .document-download:before {
+  display: none;
+}
+.regional-variation-block__copy .document-download__region {
+  display: none;
+}
+.regional-variation-block__copy ul {
+  list-style: disc;
+}
+.regional-variation-block__copy ol {
+  list-style: roman;
+}
+.regional-variation-block__copy a:not(.document-download__link) {
+  color: var(--fsa-primary_dark-green);
+  text-decoration: underline;
+}
+.regional-variation-block__copy a:not(.document-download__link):hover {
+  color: var(--fsa__link-green);
+}
+.regional-variation-block__copy a:not(.document-download__link):focus {
+  color: var(--fsa-primary_black);
+  outline: none;
+  text-decoration: none;
+  background-color: var(--fsa-tertiary_light-yellow);
+  border-bottom: 0.25rem solid var(--fsa-primary_black);
+  margin-bottom: -0.25rem;
+}
+/*!*******************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/components/article/PdfAndPrintButtons/pdfAndPrintButtons.scss ***!
+  \*******************************************************************************************************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css?family=Fira+Sans:300,400,500,700);
+/*!***********************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/components/article/PdfAndPrintButtons/pdfAndPrintButtons.scss (1) ***!
+  \***********************************************************************************************************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700);
+/*!***********************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/components/article/PdfAndPrintButtons/pdfAndPrintButtons.scss (2) ***!
+  \***********************************************************************************************************************************************************************************************************/
+:root {
+  /* Primary Colours */
+  --fsa-primary_dark-green: #007c75;
+  --fsa-primary_mid-green: #6cb33f;
+  --fsa-primary_light-green: #a9c47f;
+  --fsa-primary_dark-grey: #53565a;
+  --fsa_online-grey: #f0f3f5;
+  --fsa_border: #dee2e5;
+  --fsa-primary_black: #000000;
+  --fsa-primary_white: #ffffff;
+  --fsa_tint: #fafcfd;
+  /* Secondary Colours */
+  --fsa-secondary_mid-red: #e31837;
+  --fsa-secondary_dark-blue: #165c7d;
+  --fsa-secondary_orange: #f15d22;
+  --fsa-secondary_mid-yellow: #fdb913;
+  --fsa-secondary_mid-purple: #49176d;
+  --fsa-secondary_light-purple: #9f218b;
+  --fsa-tertiary_dark-blue: #9f218b;
+  --fsa-secondary-error-red: #e60f31;
+  --fsa-secondary-error-hover: #b0132b;
+  /* Tertiary Colours */
+  --fsa-tertiary_dark-red: #b04a5a;
+  --fsa-tertiary_light-red: #ef3340;
+  --fsa-tertiary_light-yellow: #f1c400;
+  --fsa-tertiary_teal: #00b2a9;
+  --fsa-tertiary_light-blue: #8dc8e8;
+  --fsa-tertiary_dark-purple: #51284f;
+  --fsa-secondary_mid-blue: #007fb2;
+  --fsa-tertiary_lime: #cedc00;
+  --fsa-tertiary_mauve: #8b84d7;
+  --fsa-tertiary_stripe-green: #006f51;
+  --fsa-tertiary_light-black: #101010;
+  /* Hover Colours */
+  --fsa__link-green: #014b4c;
+  --fsa__purple-hover: #2a0247;
+  --fsa__grey-hover: #d9d9d6;
+  --fsa__dark-green-hover: #002a2a;
+  /* Typography */
+  --body-font: "Open Sans", sans-serif;
+  --body-normal: 400;
+  --body-bold: 600;
+  --heading-font: "Fira Sans", sans-serif;
+  --heading-bold: 700;
+  /* Grid */
+  --container-mobile: 1rem;
+  --container: 2rem;
+  --gutter: 1rem;
+  --max-width: 1336px;
+  /* Transitions */
+  --transition-time: 200;
+}
+
+/* Grid */
+/* Custom Mixins */
+/* Mixin for checkbox and radio button style */
+/* Used for Style guide pages */
+.pdf-and-print-buttons {
+  display: flex;
+  justify-content: space-between;
+}
+.pdf-and-print-buttons__button {
+  font-family: var(--body-font);
+  font-weight: var(--body-normal);
+  font-size: 1rem;
+  line-height: 1.6;
+  letter-spacing: normal;
+  color: var(--fsa-primary_dark-green);
+  font-weight: bold;
+}
+.pdf-and-print-buttons__button a, .pdf-and-print-buttons__button button {
+  display: flex;
+  align-items: center;
+}
+.pdf-and-print-buttons__button a:before, .pdf-and-print-buttons__button button:before {
+  content: "";
+  display: block;
+  background-color: var(--fsa-primary_dark-green);
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 10rem;
+  height: 2.75rem;
+  width: 2.75rem;
+  margin-right: 0.5rem;
+}
+.pdf-and-print-buttons__button a:hover, .pdf-and-print-buttons__button button:hover {
+  cursor: pointer;
+  color: var(--fsa__link-green);
+}
+.pdf-and-print-buttons__button a:hover:before, .pdf-and-print-buttons__button button:hover:before {
+  background-color: var(--fsa__link-green);
+}
+.pdf-and-print-buttons__button--pdf {
+  margin-right: 1.4375rem;
+}
+.pdf-and-print-buttons__button--pdf a:before {
+  background-image: url(./components/article/PdfAndPrintButtons/assets/arrow.svg);
+}
+.pdf-and-print-buttons__button--print button {
+  font-family: var(--body-font);
+  font-weight: var(--body-normal);
+  font-size: 1rem;
+  line-height: 1.6;
+  letter-spacing: normal;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  color: var(--fsa-primary_dark-green);
+  font-weight: bold;
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+}
+.pdf-and-print-buttons__button--print button:hover {
+  cursor: pointer;
+  color: var(--fsa__link-green);
+}
+.pdf-and-print-buttons__button--print button:before {
+  background-image: url(./components/article/PdfAndPrintButtons/assets/printer.svg);
+}
+.pdf-and-print-buttons__button--print a:before {
+  background-image: url(./components/article/PdfAndPrintButtons/assets/printer.svg);
+}
 /*!***************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/layout/formLayout/formLayout.scss ***!
   \***************************************************************************************************************************************************************************/
@@ -8943,6 +9478,7 @@ h3.form-title {
   --fsa__link-green: #014b4c;
   --fsa__purple-hover: #2a0247;
   --fsa__grey-hover: #d9d9d6;
+  --fsa__dark-green-hover: #002a2a;
   /* Typography */
   --body-font: "Open Sans", sans-serif;
   --body-normal: 400;
@@ -9172,6 +9708,7 @@ h3.form-title {
   --fsa__link-green: #014b4c;
   --fsa__purple-hover: #2a0247;
   --fsa__grey-hover: #d9d9d6;
+  --fsa__dark-green-hover: #002a2a;
   /* Typography */
   --body-font: "Open Sans", sans-serif;
   --body-normal: 400;
@@ -9373,6 +9910,7 @@ h3.form-title {
   --fsa__link-green: #014b4c;
   --fsa__purple-hover: #2a0247;
   --fsa__grey-hover: #d9d9d6;
+  --fsa__dark-green-hover: #002a2a;
   /* Typography */
   --body-font: "Open Sans", sans-serif;
   --body-normal: 400;
@@ -9497,6 +10035,7 @@ h3.form-title {
   --fsa__link-green: #014b4c;
   --fsa__purple-hover: #2a0247;
   --fsa__grey-hover: #d9d9d6;
+  --fsa__dark-green-hover: #002a2a;
   /* Typography */
   --body-font: "Open Sans", sans-serif;
   --body-normal: 400;
@@ -9699,6 +10238,7 @@ h3.form-title {
   --fsa__link-green: #014b4c;
   --fsa__purple-hover: #2a0247;
   --fsa__grey-hover: #d9d9d6;
+  --fsa__dark-green-hover: #002a2a;
   /* Typography */
   --body-font: "Open Sans", sans-serif;
   --body-normal: 400;
@@ -9843,6 +10383,7 @@ h3.form-title {
   --fsa__link-green: #014b4c;
   --fsa__purple-hover: #2a0247;
   --fsa__grey-hover: #d9d9d6;
+  --fsa__dark-green-hover: #002a2a;
   /* Typography */
   --body-font: "Open Sans", sans-serif;
   --body-normal: 400;
