@@ -141,9 +141,9 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/form/Checkbox",
           "variables" => ["content" => []]
         ], 
-        "dropdown" => [
-          "template" => "dropdown",
-          "path" => $assetPath . "/components/form/Dropdown",
+        "externalLink" => [
+          "template" => "externalLink",
+          "path" => $assetPath . "/components/form/ExternalLink",
           "variables" => ["content" => []]
         ], 
         "errorBox" => [
@@ -151,9 +151,9 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/form/ErrorBox",
           "variables" => ["content" => []]
         ], 
-        "externalLink" => [
-          "template" => "externalLink",
-          "path" => $assetPath . "/components/form/ExternalLink",
+        "dropdown" => [
+          "template" => "dropdown",
+          "path" => $assetPath . "/components/form/Dropdown",
           "variables" => ["content" => []]
         ], 
         "inputField" => [
@@ -246,14 +246,14 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/landing/ServiceLinks",
           "variables" => ["content" => []]
         ], 
-        "helpSecondaryMenu" => [
-          "template" => "helpSecondaryMenu",
-          "path" => $assetPath . "/components/contact/HelpSecondaryMenu",
-          "variables" => ["content" => []]
-        ], 
         "promoLinks" => [
           "template" => "promoLinks",
           "path" => $assetPath . "/components/contact/PromoLinks",
+          "variables" => ["content" => []]
+        ], 
+        "helpSecondaryMenu" => [
+          "template" => "helpSecondaryMenu",
+          "path" => $assetPath . "/components/contact/HelpSecondaryMenu",
           "variables" => ["content" => []]
         ], 
         "tableOfContents" => [
@@ -266,14 +266,14 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/article/DocumentDownload",
           "variables" => ["content" => []]
         ], 
-        "articleHero" => [
-          "template" => "articleHero",
-          "path" => $assetPath . "/components/article/ArticleHero",
-          "variables" => ["content" => []]
-        ], 
         "regionalVariationBlock" => [
           "template" => "regionalVariationBlock",
           "path" => $assetPath . "/components/article/RegionalVariationBlock",
+          "variables" => ["content" => []]
+        ], 
+        "articleHero" => [
+          "template" => "articleHero",
+          "path" => $assetPath . "/components/article/ArticleHero",
           "variables" => ["content" => []]
         ], 
         "pdfAndPrintButtons" => [
