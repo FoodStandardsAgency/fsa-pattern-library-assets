@@ -4716,7 +4716,6 @@ body.overflow-hidden {
   font-size: 1rem;
   line-height: 1.6;
   letter-spacing: normal;
-  text-transform: uppercase;
 }
 .datepicker__select__label--hidden {
   border: 0;
@@ -9020,7 +9019,7 @@ h3.form-title {
   letter-spacing: normal;
   text-transform: uppercase;
   font-weight: bold;
-  margin-bottom: 0.288rem;
+  margin-bottom: 0.25rem;
 }
 .article-hero__type--news {
   color: var(--fsa-secondary_mid-purple);
@@ -9038,8 +9037,7 @@ h3.form-title {
   line-height: 1.1;
   letter-spacing: normal;
   color: var(--fsa-primary_dark-green);
-  margin-bottom: 1rem;
-  margin-top: 0;
+  margin: 0;
 }
 @media screen and (min-width: 1024px) {
   .article-hero__title {
@@ -9063,37 +9061,25 @@ h3.form-title {
   line-height: 1.6;
   letter-spacing: normal;
   font-weight: bold;
-  margin-bottom: 1rem;
+  margin-top: 1rem;
+  padding-bottom: 0.25rem;
 }
 @media screen and (min-width: 768px) {
   .article-hero__region {
-    margin-top: 1rem;
-    margin-bottom: 2rem;
+    margin-top: 2rem;
   }
 }
-.article-hero__region:before {
-  content: "";
-  height: 0.25rem;
-  width: 100%;
-  position: absolute;
-  bottom: -0.263rem;
+.article-hero__region--england {
+  border-bottom: 0.25rem var(--fsa-secondary_mid-red) solid;
 }
-@media screen and (min-width: 768px) {
-  .article-hero__region:before {
-    bottom: -0.575rem;
-  }
+.article-hero__region--wales {
+  border-bottom: 0.25rem var(--fsa-tertiary_stripe-green) solid;
 }
-.article-hero__region--england:before {
-  background-color: var(--fsa-secondary_mid-red);
+.article-hero__region--northern-ireland {
+  border-bottom: 0.25rem var(--fsa-secondary_mid-yellow) solid;
 }
-.article-hero__region--wales:before {
-  background-color: var(--fsa-tertiary_stripe-green);
-}
-.article-hero__region--northern-ireland:before {
-  background-color: var(--fsa-secondary_mid-yellow);
-}
-.article-hero__region--multi:before {
-  background-color: var(--fsa-primary_dark-grey);
+.article-hero__region--multi {
+  border-bottom: 0.25rem var(--fsa-primary_dark-grey) solid;
 }
 .article-hero__description {
   font-family: var(--body-font);
@@ -9101,7 +9087,7 @@ h3.form-title {
   font-size: 1.18rem;
   line-height: 1.6;
   letter-spacing: normal;
-  margin-bottom: 1rem;
+  margin-top: 1rem;
 }
 @media screen and (min-width: 1024px) {
   .article-hero__description {
@@ -9111,16 +9097,12 @@ h3.form-title {
 .article-hero__description p {
   margin: 0;
 }
-@media screen and (min-width: 768px) {
-  .article-hero__description {
-    margin-bottom: 2rem;
-  }
-}
 .article-hero__toolbar {
   border-top: solid 1px var(--fsa__grey-hover);
   display: flex;
   flex-direction: column;
   padding-top: 1rem;
+  margin-top: 1rem;
 }
 @media screen and (min-width: 768px) {
   .article-hero__toolbar {
@@ -9128,6 +9110,7 @@ h3.form-title {
     justify-content: space-between;
     align-items: center;
     padding-top: 0.5rem;
+    margin-top: 2rem;
   }
 }
 .article-hero__toolbar__last-updated {
