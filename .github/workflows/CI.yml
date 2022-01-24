@@ -28,7 +28,7 @@ jobs:
       - name: Display ref name
         run: echo ${{ github.ref_name }}
       - name: Create new tag from branch
-        if: ${{ github.ref_name == 'tags/*' }}
+        if: ${{ github.ref_name == 'tags\/*' }}
         id: tag_version
         uses: mathieudutour/github-tag-action@v6.0
         with:
