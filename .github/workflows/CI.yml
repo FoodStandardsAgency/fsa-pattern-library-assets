@@ -25,6 +25,8 @@ jobs:
         run: echo "TAG_NAME=$(echo $GITHUB_REF_NAME | sed 's/tags\///')" >> $GITHUB_ENV
       - name: Display tag name
         run: echo ${{ env.TAG_NAME }}
+      - name: Display ref name
+        run: echo ${{ github.ref_name }}
       - name: Create new tag from branch
         if: ${{ github.ref_name == 'tags/*' }}
         id: tag_version
