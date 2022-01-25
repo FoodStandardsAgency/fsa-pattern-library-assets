@@ -5918,6 +5918,11 @@ body.overflow-hidden {
   align-items: center;
 }
 .multistep-function__previous {
+  font-family: var(--body-font);
+  font-weight: var(--body-normal);
+  font-size: 1rem;
+  line-height: 1.6;
+  letter-spacing: normal;
   color: var(--fsa-primary_dark-green);
   text-decoration: underline;
   padding: 0.5rem 0;
