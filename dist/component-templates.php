@@ -21,14 +21,14 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/layout/fullWidth",
           "variables" => ["content" => []]
         ], 
-        "contentLayout" => [
-          "template" => "contentLayout",
-          "path" => $assetPath . "/layout/contentLayout",
-          "variables" => ["content" => []]
-        ], 
         "contactLayout" => [
           "template" => "contactLayout",
           "path" => $assetPath . "/layout/contactLayout",
+          "variables" => ["content" => []]
+        ], 
+        "contentLayout" => [
+          "template" => "contentLayout",
+          "path" => $assetPath . "/layout/contentLayout",
           "variables" => ["content" => []]
         ], 
         "breadcrumbs" => [
@@ -51,14 +51,14 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/general/Hero",
           "variables" => ["content" => []]
         ], 
-        "link" => [
-          "template" => "link",
-          "path" => $assetPath . "/components/general/Link",
-          "variables" => ["content" => []]
-        ], 
         "footer" => [
           "template" => "footer",
           "path" => $assetPath . "/components/general/Footer",
+          "variables" => ["content" => []]
+        ], 
+        "link" => [
+          "template" => "link",
+          "path" => $assetPath . "/components/general/Link",
           "variables" => ["content" => []]
         ], 
         "feedback" => [
@@ -246,6 +246,11 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/landing/ServiceLinks",
           "variables" => ["content" => []]
         ], 
+        "helpSecondaryMenu" => [
+          "template" => "helpSecondaryMenu",
+          "path" => $assetPath . "/components/contact/HelpSecondaryMenu",
+          "variables" => ["content" => []]
+        ], 
         "promoLinks" => [
           "template" => "promoLinks",
           "path" => $assetPath . "/components/contact/PromoLinks",
@@ -254,11 +259,6 @@ function deeson_twig_component_templates($assetPath = 'auto') {
         "tableOfContents" => [
           "template" => "tableOfContents",
           "path" => $assetPath . "/components/article/TableOfContents",
-          "variables" => ["content" => []]
-        ], 
-        "helpSecondaryMenu" => [
-          "template" => "helpSecondaryMenu",
-          "path" => $assetPath . "/components/contact/HelpSecondaryMenu",
           "variables" => ["content" => []]
         ], 
         "documentDownload" => [
