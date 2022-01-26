@@ -41,11 +41,6 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/general/Button",
           "variables" => ["content" => []]
         ], 
-        "header" => [
-          "template" => "header",
-          "path" => $assetPath . "/components/general/Header",
-          "variables" => ["content" => []]
-        ], 
         "hero" => [
           "template" => "hero",
           "path" => $assetPath . "/components/general/Hero",
@@ -54,6 +49,11 @@ function deeson_twig_component_templates($assetPath = 'auto') {
         "link" => [
           "template" => "link",
           "path" => $assetPath . "/components/general/Link",
+          "variables" => ["content" => []]
+        ], 
+        "header" => [
+          "template" => "header",
+          "path" => $assetPath . "/components/general/Header",
           "variables" => ["content" => []]
         ], 
         "footer" => [
@@ -196,14 +196,34 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/form/Textarea",
           "variables" => ["content" => []]
         ], 
-        "landingLinks" => [
-          "template" => "landingLinks",
-          "path" => $assetPath . "/components/landing/LandingLinks",
-          "variables" => ["content" => []]
-        ], 
         "searchBarHeader" => [
           "template" => "searchBarHeader",
           "path" => $assetPath . "/components/search/SearchBarHeader/react",
+          "variables" => ["content" => []]
+        ], 
+        "sortBy" => [
+          "template" => "sortBy",
+          "path" => $assetPath . "/components/search/SortBy/react",
+          "variables" => ["content" => []]
+        ], 
+        "filtersHeader" => [
+          "template" => "filtersHeader",
+          "path" => $assetPath . "/components/search/FiltersHeader/react",
+          "variables" => ["content" => []]
+        ], 
+        "accordion" => [
+          "template" => "accordion",
+          "path" => $assetPath . "/components/search/Accordion/react",
+          "variables" => ["content" => []]
+        ], 
+        "searchBar" => [
+          "template" => "searchBar",
+          "path" => $assetPath . "/components/search/SearchBar/react",
+          "variables" => ["content" => []]
+        ], 
+        "landingLinks" => [
+          "template" => "landingLinks",
+          "path" => $assetPath . "/components/landing/LandingLinks",
           "variables" => ["content" => []]
         ], 
         "largePromoGroup" => [
@@ -229,26 +249,6 @@ function deeson_twig_component_templates($assetPath = 'auto') {
         "helpSecondaryMenu" => [
           "template" => "helpSecondaryMenu",
           "path" => $assetPath . "/components/contact/HelpSecondaryMenu",
-          "variables" => ["content" => []]
-        ], 
-        "sortBy" => [
-          "template" => "sortBy",
-          "path" => $assetPath . "/components/search/SortBy/react",
-          "variables" => ["content" => []]
-        ], 
-        "filtersHeader" => [
-          "template" => "filtersHeader",
-          "path" => $assetPath . "/components/search/FiltersHeader/react",
-          "variables" => ["content" => []]
-        ], 
-        "accordion" => [
-          "template" => "accordion",
-          "path" => $assetPath . "/components/search/Accordion/react",
-          "variables" => ["content" => []]
-        ], 
-        "searchBar" => [
-          "template" => "searchBar",
-          "path" => $assetPath . "/components/search/SearchBar/react",
           "variables" => ["content" => []]
         ], 
         "promoLinks" => [
