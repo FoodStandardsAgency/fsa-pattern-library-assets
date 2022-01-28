@@ -5535,6 +5535,7 @@ body.overflow-hidden {
   color: var(--fsa-primary_dark-green);
   text-decoration: underline;
   padding-right: 1.25rem;
+  margin-right: 0.25rem;
   position: relative;
 }
 .external-link:hover {
@@ -8887,13 +8888,13 @@ h3.form-title {
   left: -5px;
   top: -1px;
 }
-.document-download--england:before {
+.document-download--england:before, .document-download--lloegr:before {
   background-color: var(--fsa-secondary_mid-red);
 }
-.document-download--wales:before {
+.document-download--wales:before, .document-download--cymru:before {
   background-color: var(--fsa-tertiary_stripe-green);
 }
-.document-download--northern-ireland:before {
+.document-download--northern-ireland:before, .document-download--gogledd-iwerddon:before {
   background-color: var(--fsa-secondary_mid-yellow);
 }
 .document-download--multi:before {
@@ -9238,13 +9239,13 @@ h3.form-title {
   left: -5px;
   top: -1px;
 }
-.regional-variation-block--england:before {
+.regional-variation-block--england:before, .regional-variation-block--lloegr:before {
   background-color: var(--fsa-secondary_mid-red);
 }
-.regional-variation-block--wales:before {
+.regional-variation-block--wales:before, .regional-variation-block--cymru:before {
   background-color: var(--fsa-tertiary_stripe-green);
 }
-.regional-variation-block--northern-ireland:before {
+.regional-variation-block--northern-ireland:before, .regional-variation-block--gogledd-iwerddon:before {
   background-color: var(--fsa-secondary_mid-yellow);
 }
 .regional-variation-block--multi:before {
@@ -9277,6 +9278,9 @@ h3.form-title {
 }
 .regional-variation-block__copy .document-download__region {
   display: none;
+}
+.regional-variation-block__copy .document-download__content--with-region {
+  margin-top: 0;
 }
 .regional-variation-block__copy ul {
   list-style: disc;
@@ -9368,6 +9372,10 @@ h3.form-title {
 /* Custom Mixins */
 /* Mixin for checkbox and radio button style */
 /* Used for Style guide pages */
+.text-block h1, .text-block h2, .text-block h3, .text-block h4, .text-block h5, .text-block h6 {
+  margin-top: 3rem;
+  margin-bottom: 0;
+}
 .text-block a {
   color: var(--fsa-primary_dark-green);
   text-decoration: underline;
@@ -9386,29 +9394,33 @@ h3.form-title {
 .text-block ul {
   padding-inline-start: 0;
   list-style-position: inside;
-}
-.text-block ul li {
-  display: flex;
-  align-items: center;
+  font-family: var(--body-font);
+  font-weight: var(--body-normal);
+  font-size: 1rem;
+  line-height: 1.6;
+  letter-spacing: normal;
+  line-height: 1.6;
 }
 .text-block ul li:before {
-  content: "•";
+  content: "●";
   color: var(--fsa-primary_dark-green);
   font-weight: bold;
   display: inline-block;
-  font-size: 1.5rem;
   margin-right: 1rem;
-  line-height: 1.6;
 }
 .text-block ol {
   padding-inline-start: 0;
   list-style-position: inside;
+  font-family: var(--body-font);
+  font-weight: var(--body-normal);
+  font-size: 1rem;
+  line-height: 1.6;
+  letter-spacing: normal;
+  line-height: 1.6;
 }
 .text-block ol li::before {
   content: "";
-  margin-left: 1rem;
-  font-size: 1.5rem;
-  line-height: 1.6;
+  margin-left: 0.5rem;
 }
 /*!*******************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/components/article/BackTo/backTo.scss ***!
@@ -9583,6 +9595,14 @@ h3.form-title {
   display: flex;
   justify-content: space-between;
 }
+@media screen and (min-width: 1024px) {
+  .pdf-and-print-buttons {
+    justify-content: flex-end;
+  }
+}
+.pdf-and-print-buttons__text-wrapper {
+  text-align: left;
+}
 .pdf-and-print-buttons__button {
   font-family: var(--body-font);
   font-weight: var(--body-normal);
@@ -9605,6 +9625,7 @@ h3.form-title {
   border-radius: 10rem;
   height: 2.75rem;
   width: 2.75rem;
+  min-width: 2.75rem;
   margin-right: 0.5rem;
 }
 .pdf-and-print-buttons__button a:hover, .pdf-and-print-buttons__button button:hover {
@@ -10431,7 +10452,7 @@ h3.form-title {
   max-width: 100%;
   padding-left: 0.5rem;
   padding-right: 0.5rem;
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
 }
 @media screen and (min-width: 768px) {
   .content-layout__top {
@@ -10441,6 +10462,7 @@ h3.form-title {
 }
 @media screen and (min-width: 1024px) {
   .content-layout__top {
+    margin-bottom: 3rem;
     width: 66.6666666667%;
     flex-basis: 66.6666666667%;
     max-width: 66.6666666667%;
