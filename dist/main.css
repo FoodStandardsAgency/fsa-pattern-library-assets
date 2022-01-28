@@ -5537,6 +5537,7 @@ body.overflow-hidden {
   padding-right: 1.25rem;
   margin-right: 0.25rem;
   position: relative;
+  display: inline-block;
 }
 .external-link:hover {
   color: var(--fsa__link-green);
