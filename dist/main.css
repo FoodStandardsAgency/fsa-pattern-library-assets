@@ -5286,6 +5286,7 @@ body.overflow-hidden {
   border: 1px solid var(--fsa-primary_black);
   border-radius: 0;
   max-width: 100%;
+  flex-grow: 1;
   /* Add customised arrow */
   appearance: none;
   -moz-appearance: none;
@@ -5534,10 +5535,9 @@ body.overflow-hidden {
 .external-link {
   color: var(--fsa-primary_dark-green);
   text-decoration: underline;
-  padding-right: 1.25rem;
   margin-right: 0.25rem;
   position: relative;
-  display: inline-block;
+  display: inline;
 }
 .external-link:hover {
   color: var(--fsa__link-green);
@@ -5556,11 +5556,9 @@ body.overflow-hidden {
   display: inline-block;
   width: 0.85rem;
   height: 0.85rem;
+  margin-left: 0.25rem;
   background-repeat: no-repeat;
   background-position: center;
-  position: absolute;
-  right: 0;
-  top: 0.15rem;
 }
 /*!************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/components/form/InputField/inputField.scss ***!
@@ -9393,25 +9391,35 @@ h3.form-title {
   margin-bottom: -0.25rem;
 }
 .text-block ul {
+  counter-reset: list;
   padding-inline-start: 0;
-  list-style-position: inside;
+  list-style-position: outside;
+  list-style: none;
   font-family: var(--body-font);
   font-weight: var(--body-normal);
   font-size: 1rem;
   line-height: 1.6;
   letter-spacing: normal;
   line-height: 1.6;
+}
+.text-block ul li {
+  margin-left: 1.5rem;
+}
+.text-block ul li:before {
+  display: inline-block;
+  margin-left: -1.5rem;
 }
 .text-block ul li:before {
   content: "●";
   color: var(--fsa-primary_dark-green);
   font-weight: bold;
-  display: inline-block;
   margin-right: 1rem;
 }
 .text-block ol {
+  counter-reset: list;
   padding-inline-start: 0;
-  list-style-position: inside;
+  list-style-position: outside;
+  list-style: none;
   font-family: var(--body-font);
   font-weight: var(--body-normal);
   font-size: 1rem;
@@ -9419,9 +9427,17 @@ h3.form-title {
   letter-spacing: normal;
   line-height: 1.6;
 }
+.text-block ol li {
+  margin-left: 1.5rem;
+}
+.text-block ol li:before {
+  display: inline-block;
+  margin-left: -1.5rem;
+}
 .text-block ol li::before {
-  content: "";
-  margin-left: 0.5rem;
+  counter-increment: list;
+  content: counter(list) ".";
+  margin-right: 0.7rem;
 }
 /*!*******************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/components/article/BackTo/backTo.scss ***!
@@ -9594,9 +9610,8 @@ h3.form-title {
 /* Used for Style guide pages */
 .pdf-and-print-buttons {
   display: flex;
-  justify-content: space-between;
 }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 768px) {
   .pdf-and-print-buttons {
     justify-content: flex-end;
   }
@@ -9612,10 +9627,20 @@ h3.form-title {
   letter-spacing: normal;
   color: var(--fsa-primary_dark-green);
   font-weight: bold;
+  flex: 50%;
+}
+@media screen and (min-width: 768px) {
+  .pdf-and-print-buttons__button {
+    flex: unset;
+  }
 }
 .pdf-and-print-buttons__button a, .pdf-and-print-buttons__button button {
   display: flex;
-  align-items: center;
+}
+@media screen and (min-width: 768px) {
+  .pdf-and-print-buttons__button a, .pdf-and-print-buttons__button button {
+    align-items: center;
+  }
 }
 .pdf-and-print-buttons__button a:before, .pdf-and-print-buttons__button button:before {
   content: "";
@@ -10421,7 +10446,7 @@ h3.form-title {
   max-width: 100%;
   padding-left: 0.5rem;
   padding-right: 0.5rem;
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
 }
 @media screen and (min-width: 768px) {
   .content-layout__header {
@@ -10436,6 +10461,7 @@ h3.form-title {
     max-width: 100%;
     padding-left: 0.5rem;
     padding-right: 0.5rem;
+    margin-bottom: 3rem;
   }
 }
 @media screen and (min-width: 1024px) and (min-width: 768px) {
