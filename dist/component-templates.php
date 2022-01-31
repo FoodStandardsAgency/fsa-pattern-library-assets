@@ -21,14 +21,14 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/layout/fullWidth",
           "variables" => ["content" => []]
         ], 
-        "contactLayout" => [
-          "template" => "contactLayout",
-          "path" => $assetPath . "/layout/contactLayout",
-          "variables" => ["content" => []]
-        ], 
         "contentLayout" => [
           "template" => "contentLayout",
           "path" => $assetPath . "/layout/contentLayout",
+          "variables" => ["content" => []]
+        ], 
+        "contactLayout" => [
+          "template" => "contactLayout",
+          "path" => $assetPath . "/layout/contactLayout",
           "variables" => ["content" => []]
         ], 
         "breadcrumbs" => [
@@ -151,11 +151,6 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/form/ErrorBox",
           "variables" => ["content" => []]
         ], 
-        "externalLink" => [
-          "template" => "externalLink",
-          "path" => $assetPath . "/components/form/ExternalLink",
-          "variables" => ["content" => []]
-        ], 
         "inputField" => [
           "template" => "inputField",
           "path" => $assetPath . "/components/form/InputField",
@@ -164,6 +159,11 @@ function deeson_twig_component_templates($assetPath = 'auto') {
         "messageBox" => [
           "template" => "messageBox",
           "path" => $assetPath . "/components/form/MessageBox",
+          "variables" => ["content" => []]
+        ], 
+        "externalLink" => [
+          "template" => "externalLink",
+          "path" => $assetPath . "/components/form/ExternalLink",
           "variables" => ["content" => []]
         ], 
         "multistepFunction" => [
@@ -176,14 +176,14 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/form/Radio",
           "variables" => ["content" => []]
         ], 
-        "tabs" => [
-          "template" => "tabs",
-          "path" => $assetPath . "/components/form/Tabs",
-          "variables" => ["content" => []]
-        ], 
         "titleAndText" => [
           "template" => "titleAndText",
           "path" => $assetPath . "/components/form/TitleAndText",
+          "variables" => ["content" => []]
+        ], 
+        "tabs" => [
+          "template" => "tabs",
+          "path" => $assetPath . "/components/form/Tabs",
           "variables" => ["content" => []]
         ], 
         "emailField" => [
