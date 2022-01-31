@@ -146,14 +146,14 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/form/Dropdown",
           "variables" => ["content" => []]
         ], 
-        "externalLink" => [
-          "template" => "externalLink",
-          "path" => $assetPath . "/components/form/ExternalLink",
-          "variables" => ["content" => []]
-        ], 
         "errorBox" => [
           "template" => "errorBox",
           "path" => $assetPath . "/components/form/ErrorBox",
+          "variables" => ["content" => []]
+        ], 
+        "externalLink" => [
+          "template" => "externalLink",
+          "path" => $assetPath . "/components/form/ExternalLink",
           "variables" => ["content" => []]
         ], 
         "inputField" => [
@@ -291,14 +291,14 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/article/ContentMetaData",
           "variables" => ["content" => []]
         ], 
-        "pdfAndPrintButtons" => [
-          "template" => "pdfAndPrintButtons",
-          "path" => $assetPath . "/components/article/PdfAndPrintButtons",
-          "variables" => ["content" => []]
-        ], 
         "stickySidebar" => [
           "template" => "stickySidebar",
           "path" => $assetPath . "/components/article/StickySidebar",
+          "variables" => ["content" => []]
+        ], 
+        "pdfAndPrintButtons" => [
+          "template" => "pdfAndPrintButtons",
+          "path" => $assetPath . "/components/article/PdfAndPrintButtons",
           "variables" => ["content" => []]
         ]
   ];
