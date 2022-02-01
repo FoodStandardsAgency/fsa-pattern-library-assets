@@ -9371,7 +9371,7 @@ h3.form-title {
 /* Custom Mixins */
 /* Mixin for checkbox and radio button style */
 /* Used for Style guide pages */
-.text-block h1, .text-block h2, .text-block h3, .text-block h4, .text-block h5, .text-block h6 {
+.text-block > h1, .text-block > h2, .text-block > h3, .text-block > h4, .text-block > h5, .text-block > h6 {
   margin-top: 3rem;
   margin-bottom: 0;
 }
@@ -9652,6 +9652,259 @@ h3.form-title {
   background-color: var(--fsa-tertiary_light-yellow);
   border-bottom: 0.25rem solid var(--fsa-primary_black);
   margin-bottom: -0.25rem;
+}
+/*!***********************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/components/article/RelatedContent/relatedContent.scss ***!
+  \***********************************************************************************************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css?family=Fira+Sans:300,400,500,700);
+/*!***************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/components/article/RelatedContent/relatedContent.scss (1) ***!
+  \***************************************************************************************************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700);
+/*!***************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/components/article/RelatedContent/relatedContent.scss (2) ***!
+  \***************************************************************************************************************************************************************************************************/
+:root {
+  /* Primary Colours */
+  --fsa-primary_dark-green: #007c75;
+  --fsa-primary_mid-green: #6cb33f;
+  --fsa-primary_light-green: #a9c47f;
+  --fsa-primary_dark-grey: #53565a;
+  --fsa_online-grey: #f0f3f5;
+  --fsa_border: #dee2e5;
+  --fsa-primary_black: #000000;
+  --fsa-primary_white: #ffffff;
+  --fsa_tint: #fafcfd;
+  /* Secondary Colours */
+  --fsa-secondary_mid-red: #e31837;
+  --fsa-secondary_dark-blue: #165c7d;
+  --fsa-secondary_orange: #f15d22;
+  --fsa-secondary_mid-yellow: #fdb913;
+  --fsa-secondary_mid-purple: #49176d;
+  --fsa-secondary_light-purple: #9f218b;
+  --fsa-tertiary_dark-blue: #9f218b;
+  --fsa-secondary-error-red: #e60f31;
+  --fsa-secondary-error-hover: #b0132b;
+  /* Tertiary Colours */
+  --fsa-tertiary_dark-red: #b04a5a;
+  --fsa-tertiary_light-red: #ef3340;
+  --fsa-tertiary_light-yellow: #f1c400;
+  --fsa-tertiary_teal: #00b2a9;
+  --fsa-tertiary_light-blue: #8dc8e8;
+  --fsa-tertiary_dark-purple: #51284f;
+  --fsa-secondary_mid-blue: #007fb2;
+  --fsa-tertiary_lime: #cedc00;
+  --fsa-tertiary_mauve: #8b84d7;
+  --fsa-tertiary_stripe-green: #006f51;
+  --fsa-tertiary_light-black: #101010;
+  /* Hover Colours */
+  --fsa__link-green: #014b4c;
+  --fsa__purple-hover: #2a0247;
+  --fsa__grey-hover: #d9d9d6;
+  --fsa__dark-green-hover: #002a2a;
+  /* Typography */
+  --body-font: "Open Sans", sans-serif;
+  --body-normal: 400;
+  --body-bold: 600;
+  --heading-font: "Fira Sans", sans-serif;
+  --heading-bold: 700;
+  /* Grid */
+  --container-mobile: 1rem;
+  --container: 2rem;
+  --gutter: 1rem;
+  --max-width: 1336px;
+  /* Transitions */
+  --transition-time: 200;
+}
+
+/* Grid */
+/* Custom Mixins */
+/* Mixin for checkbox and radio button style */
+/* Used for Style guide pages */
+.related-content {
+  margin: 3rem 0 0;
+}
+@media screen and (min-width: 1024px) {
+  .related-content {
+    margin: 4rem 0 0;
+  }
+}
+.related-content__main-heading {
+  font-family: var(--heading-font);
+  font-size: 1.939rem;
+  font-weight: var(--heading-bold);
+  line-height: 1.2;
+  letter-spacing: normal;
+  color: var(--fsa-primary_black);
+  text-align: center;
+  margin: 0;
+}
+@media screen and (min-width: 1024px) {
+  .related-content__main-heading {
+    font-size: 2.074rem;
+  }
+}
+.related-content__main-heading::after {
+  content: "";
+  background-image: url(./components/article/RelatedContent/assets/dot.svg);
+  background-repeat: repeat-x;
+  background-size: 1.5rem 0.5rem;
+  width: 13rem;
+  height: 0.5rem;
+  display: block;
+  margin: 0.5rem auto 0rem;
+}
+.related-content__grid-container {
+  width: 100%;
+  margin: 0 auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+@media screen and (min-width: 768px) {
+  .related-content__grid-container {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    width: 100%;
+    max-width: calc(1300px + (2 * 2rem));
+  }
+}
+.related-content__grid-row {
+  flex: 1;
+  margin-left: -0.5rem;
+  margin-right: -0.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+@media screen and (min-width: 768px) {
+  .related-content__grid-row {
+    margin-left: -1rem;
+    margin-right: -1rem;
+  }
+}
+.related-content__card-wrapper {
+  padding: 0 1rem;
+  width: 100%;
+  flex-basis: 100%;
+  max-width: 100%;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  margin-top: 1.25rem;
+}
+@media screen and (min-width: 768px) {
+  .related-content__card-wrapper {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+@media screen and (min-width: 768px) {
+  .related-content__card-wrapper {
+    margin-top: 2rem;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .related-content__card-wrapper {
+    width: 50%;
+    flex-basis: 50%;
+    max-width: 50%;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+}
+@media screen and (min-width: 1024px) and (min-width: 768px) {
+  .related-content__card-wrapper {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .related-content__card-wrapper {
+    width: 33.3333333333%;
+    flex-basis: 33.3333333333%;
+    max-width: 33.3333333333%;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    padding: 0 1rem;
+  }
+}
+@media screen and (min-width: 1440px) and (min-width: 768px) {
+  .related-content__card-wrapper {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+.related-content__card {
+  background-color: var(--fsa_tint);
+  border: solid 4px var(--fsa_border);
+  display: block;
+  padding-left: 0;
+  padding-right: 0;
+  transition: border-color 0.1s ease-in;
+  position: relative;
+  height: 100%;
+  padding-bottom: 3.75rem;
+}
+.related-content__card::after {
+  content: "";
+  background-image: url(./components/article/RelatedContent/assets/arrow.svg);
+  display: inline-block;
+  width: 1.75rem;
+  height: 1rem;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-right: 0.5rem;
+  position: absolute;
+  right: 2rem;
+  bottom: 2.25rem;
+}
+.related-content__card:hover {
+  border-color: var(--fsa-primary_dark-green);
+}
+.related-content__card:hover::after {
+  background-image: url(./components/article/RelatedContent/assets/arrow-hover.svg);
+}
+.related-content__sub-heading {
+  font-family: var(--heading-font);
+  font-size: 1.392rem;
+  font-weight: var(--heading-bold);
+  line-height: 1.2;
+  letter-spacing: normal;
+  color: var(--fsa-primary_black);
+  margin: 1rem 1.25rem 0;
+}
+@media screen and (min-width: 1024px) {
+  .related-content__sub-heading {
+    font-size: 1.44rem;
+  }
+}
+@media screen and (min-width: 768px) {
+  .related-content__sub-heading {
+    margin: 2rem 2.25rem 0;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .related-content__sub-heading {
+    margin: 2rem 2rem 0;
+  }
+}
+.related-content__description {
+  margin: 1rem 1.25rem 0;
+  font-family: var(--body-font);
+  font-weight: var(--body-normal);
+  font-size: 1rem;
+  line-height: 1.6;
+  letter-spacing: normal;
+  color: var(--fsa-primary_black);
+}
+@media screen and (min-width: 768px) {
+  .related-content__description {
+    margin: 1rem 2.25rem 0;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .related-content__description {
+    margin: 1rem 2rem 0;
+  }
 }
 /*!*******************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/components/article/PdfAndPrintButtons/pdfAndPrintButtons.scss ***!
