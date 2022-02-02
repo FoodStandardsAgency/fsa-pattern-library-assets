@@ -71,6 +71,16 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/general/CookieBanner",
           "variables" => ["content" => []]
         ], 
+        "temporaryMessage" => [
+          "template" => "temporaryMessage",
+          "path" => $assetPath . "/components/general/TemporaryMessage",
+          "variables" => ["content" => []]
+        ], 
+        "backToTop" => [
+          "template" => "backToTop",
+          "path" => $assetPath . "/components/general/BackToTop",
+          "variables" => ["content" => []]
+        ], 
         "navigation" => [
           "template" => "navigation",
           "path" => $assetPath . "/components/general/Navigation",
@@ -166,29 +176,14 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/form/MessageBox",
           "variables" => ["content" => []]
         ], 
-        "multistepFunction" => [
-          "template" => "multistepFunction",
-          "path" => $assetPath . "/components/form/MultistepFunction",
-          "variables" => ["content" => []]
-        ], 
         "radio" => [
           "template" => "radio",
           "path" => $assetPath . "/components/form/Radio",
           "variables" => ["content" => []]
         ], 
-        "titleAndText" => [
-          "template" => "titleAndText",
-          "path" => $assetPath . "/components/form/TitleAndText",
-          "variables" => ["content" => []]
-        ], 
-        "emailField" => [
-          "template" => "emailField",
-          "path" => $assetPath . "/components/form/EmailField",
-          "variables" => ["content" => []]
-        ], 
-        "textarea" => [
-          "template" => "textarea",
-          "path" => $assetPath . "/components/form/Textarea",
+        "tabs" => [
+          "template" => "tabs",
+          "path" => $assetPath . "/components/form/Tabs",
           "variables" => ["content" => []]
         ], 
         "searchBarHeader" => [
@@ -206,19 +201,24 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/search/FiltersHeader/react",
           "variables" => ["content" => []]
         ], 
-        "accordion" => [
-          "template" => "accordion",
-          "path" => $assetPath . "/components/search/Accordion/react",
+        "multistepFunction" => [
+          "template" => "multistepFunction",
+          "path" => $assetPath . "/components/form/MultistepFunction",
           "variables" => ["content" => []]
         ], 
-        "searchBar" => [
-          "template" => "searchBar",
-          "path" => $assetPath . "/components/search/SearchBar/react",
+        "titleAndText" => [
+          "template" => "titleAndText",
+          "path" => $assetPath . "/components/form/TitleAndText",
           "variables" => ["content" => []]
         ], 
-        "tabs" => [
-          "template" => "tabs",
-          "path" => $assetPath . "/components/form/Tabs",
+        "emailField" => [
+          "template" => "emailField",
+          "path" => $assetPath . "/components/form/EmailField",
+          "variables" => ["content" => []]
+        ], 
+        "textarea" => [
+          "template" => "textarea",
+          "path" => $assetPath . "/components/form/Textarea",
           "variables" => ["content" => []]
         ], 
         "landingLinks" => [
@@ -244,6 +244,16 @@ function deeson_twig_component_templates($assetPath = 'auto') {
         "serviceLinks" => [
           "template" => "serviceLinks",
           "path" => $assetPath . "/components/landing/ServiceLinks",
+          "variables" => ["content" => []]
+        ], 
+        "accordion" => [
+          "template" => "accordion",
+          "path" => $assetPath . "/components/search/Accordion/react",
+          "variables" => ["content" => []]
+        ], 
+        "searchBar" => [
+          "template" => "searchBar",
+          "path" => $assetPath . "/components/search/SearchBar/react",
           "variables" => ["content" => []]
         ], 
         "helpSecondaryMenu" => [
@@ -294,6 +304,11 @@ function deeson_twig_component_templates($assetPath = 'auto') {
         "relatedContent" => [
           "template" => "relatedContent",
           "path" => $assetPath . "/components/article/RelatedContent",
+          "variables" => ["content" => []]
+        ], 
+        "subjectListing" => [
+          "template" => "subjectListing",
+          "path" => $assetPath . "/components/article/SubjectListing",
           "variables" => ["content" => []]
         ], 
         "pdfAndPrintButtons" => [
