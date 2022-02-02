@@ -136,6 +136,11 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/search/Datepicker",
           "variables" => ["content" => []]
         ], 
+        "accordion" => [
+          "template" => "accordion",
+          "path" => $assetPath . "/components/search/Accordion",
+          "variables" => ["content" => []]
+        ], 
         "searchBar" => [
           "template" => "searchBar",
           "path" => $assetPath . "/components/search/SearchBar",
@@ -144,11 +149,6 @@ function deeson_twig_component_templates($assetPath = 'auto') {
         "checkbox" => [
           "template" => "checkbox",
           "path" => $assetPath . "/components/form/Checkbox",
-          "variables" => ["content" => []]
-        ], 
-        "accordion" => [
-          "template" => "accordion",
-          "path" => $assetPath . "/components/search/Accordion",
           "variables" => ["content" => []]
         ], 
         "dropdown" => [
@@ -246,14 +246,14 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/landing/ServiceLinks",
           "variables" => ["content" => []]
         ], 
-        "searchBar" => [
-          "template" => "searchBar",
-          "path" => $assetPath . "/components/search/SearchBar/react",
-          "variables" => ["content" => []]
-        ], 
         "accordion" => [
           "template" => "accordion",
           "path" => $assetPath . "/components/search/Accordion/react",
+          "variables" => ["content" => []]
+        ], 
+        "searchBar" => [
+          "template" => "searchBar",
+          "path" => $assetPath . "/components/search/SearchBar/react",
           "variables" => ["content" => []]
         ], 
         "helpSecondaryMenu" => [
@@ -306,11 +306,6 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/article/RelatedContent",
           "variables" => ["content" => []]
         ], 
-        "subjectListing" => [
-          "template" => "subjectListing",
-          "path" => $assetPath . "/components/article/SubjectListing",
-          "variables" => ["content" => []]
-        ], 
         "pdfAndPrintButtons" => [
           "template" => "pdfAndPrintButtons",
           "path" => $assetPath . "/components/article/PdfAndPrintButtons",
@@ -319,6 +314,11 @@ function deeson_twig_component_templates($assetPath = 'auto') {
         "stickySidebar" => [
           "template" => "stickySidebar",
           "path" => $assetPath . "/components/article/StickySidebar",
+          "variables" => ["content" => []]
+        ], 
+        "subjectListing" => [
+          "template" => "subjectListing",
+          "path" => $assetPath . "/components/article/SubjectListing",
           "variables" => ["content" => []]
         ]
   ];

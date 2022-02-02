@@ -2694,7 +2694,6 @@ p {
 /* Used for Style guide pages */
 .temporary-message {
   background-color: var(--fsa__grey-hover);
-  border: 1px solid var(--fsa_border);
   font-size: 0.8rem;
   padding: 1rem;
   position: relative;
@@ -5794,6 +5793,19 @@ body.overflow-hidden {
   margin-left: 0.25rem;
   background-repeat: no-repeat;
   background-position: center;
+}
+
+.temporary-message .external-link {
+  color: var(--fsa-primary_black);
+}
+.temporary-message .external-link::after {
+  background-image: url(./components/form/ExternalLink/assets/external-black.svg);
+}
+.temporary-message--danger .external-link {
+  color: var(--fsa-primary_white);
+}
+.temporary-message--danger .external-link::after {
+  background-image: url(./components/form/ExternalLink/assets/external-white.svg);
 }
 /*!************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/components/form/InputField/inputField.scss ***!
