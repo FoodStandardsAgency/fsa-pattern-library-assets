@@ -76,11 +76,6 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/general/TemporaryMessage",
           "variables" => ["content" => []]
         ], 
-        "backToTop" => [
-          "template" => "backToTop",
-          "path" => $assetPath . "/components/general/BackToTop",
-          "variables" => ["content" => []]
-        ], 
         "navigation" => [
           "template" => "navigation",
           "path" => $assetPath . "/components/general/Navigation",
@@ -186,21 +181,6 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/form/Radio",
           "variables" => ["content" => []]
         ], 
-        "searchBarHeader" => [
-          "template" => "searchBarHeader",
-          "path" => $assetPath . "/components/search/SearchBarHeader/react",
-          "variables" => ["content" => []]
-        ], 
-        "sortBy" => [
-          "template" => "sortBy",
-          "path" => $assetPath . "/components/search/SortBy/react",
-          "variables" => ["content" => []]
-        ], 
-        "filtersHeader" => [
-          "template" => "filtersHeader",
-          "path" => $assetPath . "/components/search/FiltersHeader/react",
-          "variables" => ["content" => []]
-        ], 
         "tabs" => [
           "template" => "tabs",
           "path" => $assetPath . "/components/form/Tabs",
@@ -226,14 +206,29 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/landing/LandingLinks",
           "variables" => ["content" => []]
         ], 
+        "searchBarHeader" => [
+          "template" => "searchBarHeader",
+          "path" => $assetPath . "/components/search/SearchBarHeader/react",
+          "variables" => ["content" => []]
+        ], 
+        "sortBy" => [
+          "template" => "sortBy",
+          "path" => $assetPath . "/components/search/SortBy/react",
+          "variables" => ["content" => []]
+        ], 
+        "filtersHeader" => [
+          "template" => "filtersHeader",
+          "path" => $assetPath . "/components/search/FiltersHeader/react",
+          "variables" => ["content" => []]
+        ], 
+        "accordion" => [
+          "template" => "accordion",
+          "path" => $assetPath . "/components/search/Accordion/react",
+          "variables" => ["content" => []]
+        ], 
         "largePromoGroup" => [
           "template" => "largePromoGroup",
           "path" => $assetPath . "/components/landing/LargePromoGroup",
-          "variables" => ["content" => []]
-        ], 
-        "latestTeaser" => [
-          "template" => "latestTeaser",
-          "path" => $assetPath . "/components/landing/LatestTeaser",
           "variables" => ["content" => []]
         ], 
         "promoGroup" => [
@@ -246,14 +241,14 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/landing/ServiceLinks",
           "variables" => ["content" => []]
         ], 
-        "accordion" => [
-          "template" => "accordion",
-          "path" => $assetPath . "/components/search/Accordion/react",
-          "variables" => ["content" => []]
-        ], 
         "searchBar" => [
           "template" => "searchBar",
           "path" => $assetPath . "/components/search/SearchBar/react",
+          "variables" => ["content" => []]
+        ], 
+        "latestTeaser" => [
+          "template" => "latestTeaser",
+          "path" => $assetPath . "/components/landing/LatestTeaser",
           "variables" => ["content" => []]
         ], 
         "helpSecondaryMenu" => [
@@ -309,6 +304,21 @@ function deeson_twig_component_templates($assetPath = 'auto') {
         "subjectListing" => [
           "template" => "subjectListing",
           "path" => $assetPath . "/components/article/SubjectListing",
+          "variables" => ["content" => []]
+        ], 
+        "quoteBlock" => [
+          "template" => "quoteBlock",
+          "path" => $assetPath . "/components/article/QuoteBlock",
+          "variables" => ["content" => []]
+        ], 
+        "teamContacts" => [
+          "template" => "teamContacts",
+          "path" => $assetPath . "/components/article/TeamContacts",
+          "variables" => ["content" => []]
+        ], 
+        "backToTop" => [
+          "template" => "backToTop",
+          "path" => $assetPath . "/components/article/BackToTop",
           "variables" => ["content" => []]
         ], 
         "pdfAndPrintButtons" => [
