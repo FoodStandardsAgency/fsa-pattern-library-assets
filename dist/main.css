@@ -10237,6 +10237,7 @@ h3.form-title {
   font-weight: var(--heading-bold);
   line-height: 1.2;
   letter-spacing: normal;
+  margin: 0;
 }
 @media screen and (min-width: 1024px) {
   .subject-listing__title {
@@ -10249,6 +10250,7 @@ h3.form-title {
   font-size: 1rem;
   line-height: 1.6;
   letter-spacing: normal;
+  margin: 0;
 }
 .subject-listing__section-header {
   font-family: var(--body-font);
@@ -10783,6 +10785,14 @@ h3.form-title {
 /* Custom Mixins */
 /* Mixin for checkbox and radio button style */
 /* Used for Style guide pages */
+.back-to-top {
+  margin: 3rem 0 0;
+}
+@media screen and (min-width: 1024px) {
+  .back-to-top {
+    margin: 4rem 0 0;
+  }
+}
 .back-to-top__link {
   color: var(--fsa-primary_dark-green);
   text-decoration: underline;
