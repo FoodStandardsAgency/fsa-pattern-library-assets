@@ -2693,6 +2693,10 @@ p {
 /* Mixin for checkbox and radio button style */
 /* Used for Style guide pages */
 .temporary-message {
+  width: 100%;
+  margin: 0 auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
   background-color: var(--fsa__grey-hover);
   font-size: 0.8rem;
   padding: 1rem;
@@ -2700,13 +2704,36 @@ p {
 }
 @media screen and (min-width: 768px) {
   .temporary-message {
-    padding: 1rem 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    width: 100%;
+    max-width: calc(1300px + (2 * 2rem));
   }
 }
-@media screen and (min-width: 1024px) {
-  .temporary-message {
-    font-size: 0.9rem;
-    padding: 1rem 18rem;
+.temporary-message__row {
+  flex: 1;
+  margin-left: -0.5rem;
+  margin-right: -0.5rem;
+  display: flex;
+  height: 100%;
+}
+@media screen and (min-width: 768px) {
+  .temporary-message__row {
+    margin-left: -1rem;
+    margin-right: -1rem;
+  }
+}
+.temporary-message__wrapper {
+  width: 100%;
+  flex-basis: 100%;
+  max-width: 100%;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+@media screen and (min-width: 768px) {
+  .temporary-message__wrapper {
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
 }
 .temporary-message--warning {
@@ -2720,6 +2747,11 @@ p {
   background-image: url(./components/general/TemporaryMessage/assets/warning-white.svg);
 }
 .temporary-message__content {
+  font-family: var(--body-font);
+  font-weight: var(--body-normal);
+  font-size: 1rem;
+  line-height: 1.6;
+  letter-spacing: normal;
   display: flex;
   justify-content: flex-start;
   padding-left: 0.5rem;
@@ -2756,6 +2788,9 @@ p {
 }
 .temporary-message__content a {
   text-decoration: underline;
+}
+.temporary-message__content a.external-link::after {
+  display: none;
 }
 .temporary-message__content p {
   margin: 0;
@@ -9373,7 +9408,7 @@ h3.form-title {
 /* Used for Style guide pages */
 .regional-variation-block {
   position: relative;
-  margin-top: 2rem;
+  margin-top: 3rem;
   padding: 0 0.5rem;
 }
 @media screen and (min-width: 768px) {
@@ -9541,6 +9576,9 @@ h3.form-title {
 /* Custom Mixins */
 /* Mixin for checkbox and radio button style */
 /* Used for Style guide pages */
+.text-block {
+  margin-top: 3rem;
+}
 .text-block > h1, .text-block > h2, .text-block > h3, .text-block > h4, .text-block > h5, .text-block > h6 {
   margin-top: 3rem;
   margin-bottom: 0;
@@ -10188,7 +10226,10 @@ h3.form-title {
 /* Mixin for checkbox and radio button style */
 /* Used for Style guide pages */
 .subject-listing__section {
-  margin-bottom: 2rem;
+  margin-top: 3rem;
+}
+.subject-listing__section:first-child {
+  margin-top: 0;
 }
 .subject-listing__title {
   font-family: var(--heading-font);
@@ -10196,7 +10237,6 @@ h3.form-title {
   font-weight: var(--heading-bold);
   line-height: 1.2;
   letter-spacing: normal;
-  margin: 0 0 1rem 0;
 }
 @media screen and (min-width: 1024px) {
   .subject-listing__title {
@@ -10209,7 +10249,6 @@ h3.form-title {
   font-size: 1rem;
   line-height: 1.6;
   letter-spacing: normal;
-  margin: 0 0 1rem 0;
 }
 .subject-listing__section-header {
   font-family: var(--body-font);
@@ -10217,7 +10256,7 @@ h3.form-title {
   font-size: 1rem;
   line-height: 1.6;
   letter-spacing: normal;
-  margin: 0 0 1rem 0;
+  margin-top: 1rem;
   font-weight: bold;
 }
 .subject-listing__link-list {
@@ -10226,7 +10265,7 @@ h3.form-title {
 }
 .subject-listing__link-list__item {
   margin-top: 1.25rem;
-  margin-left: 2rem;
+  margin-left: 2.25rem;
 }
 @media screen and (min-width: 1440px) {
   .subject-listing__link-list__item {
@@ -10259,8 +10298,8 @@ h3.form-title {
   background-position: center;
   position: relative;
   top: 0.1rem;
-  margin-left: -2rem;
-  margin-right: 0.25rem;
+  margin-left: -2.25rem;
+  margin-right: 0.5rem;
 }
 .subject-listing__link-list__item a:hover {
   text-decoration: underline;
@@ -10338,7 +10377,7 @@ h3.form-title {
 /* Mixin for checkbox and radio button style */
 /* Used for Style guide pages */
 .explanation-block {
-  margin-top: 2rem;
+  margin-top: 3rem;
 }
 .explanation-block__header {
   font-family: var(--heading-font);
@@ -10505,13 +10544,13 @@ h3.form-title {
 /* Used for Style guide pages */
 .quote-block {
   display: flex;
-  margin: 2rem -1rem 0;
+  margin: 3rem -1rem 0;
   padding: 1rem;
   background-color: var(--fsa_online-grey);
 }
 @media screen and (min-width: 768px) {
   .quote-block {
-    margin: 2rem 0 0;
+    margin: 3rem 0 0;
   }
 }
 .quote-block::before {
@@ -10544,8 +10583,10 @@ h3.form-title {
   font-size: 1rem;
   line-height: 1.6;
   letter-spacing: normal;
-  margin-top: 1rem;
   font-weight: bold;
+}
+.quote-block__author p {
+  margin-top: 1rem;
 }
 /*!*******************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/components/article/TeamContacts/teamContacts.scss ***!
@@ -10615,6 +10656,14 @@ h3.form-title {
 /* Custom Mixins */
 /* Mixin for checkbox and radio button style */
 /* Used for Style guide pages */
+.team-contacts {
+  margin: 3rem 0 0;
+}
+@media screen and (min-width: 1024px) {
+  .team-contacts {
+    margin: 4rem 0 0;
+  }
+}
 .team-contacts__item {
   padding-bottom: 3rem;
 }
@@ -10834,6 +10883,9 @@ h3.form-title {
 /* Used for Style guide pages */
 .pdf-and-print-buttons {
   display: flex;
+}
+.pdf-and-print-buttons--multipage {
+  margin-top: 2rem;
 }
 @media screen and (min-width: 768px) {
   .pdf-and-print-buttons {
