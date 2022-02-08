@@ -9332,13 +9332,14 @@ h3.form-title {
     margin-left: 1rem;
   }
 }
-.document-download__link {
+.document-download a.document-download__link {
+  color: var(--fsa-primary_black);
   text-decoration: underline;
 }
-.document-download__link:hover {
+.document-download a.document-download__link:hover {
   color: var(--fsa__link-green);
 }
-.document-download__link:focus {
+.document-download a.document-download__link:focus {
   color: var(--fsa-primary_black);
   outline: none;
   text-decoration: none;
