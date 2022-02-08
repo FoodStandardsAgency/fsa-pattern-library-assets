@@ -186,21 +186,6 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/form/Radio",
           "variables" => ["content" => []]
         ], 
-        "searchBarHeader" => [
-          "template" => "searchBarHeader",
-          "path" => $assetPath . "/components/search/SearchBarHeader/react",
-          "variables" => ["content" => []]
-        ], 
-        "sortBy" => [
-          "template" => "sortBy",
-          "path" => $assetPath . "/components/search/SortBy/react",
-          "variables" => ["content" => []]
-        ], 
-        "filtersHeader" => [
-          "template" => "filtersHeader",
-          "path" => $assetPath . "/components/search/FiltersHeader/react",
-          "variables" => ["content" => []]
-        ], 
         "tabs" => [
           "template" => "tabs",
           "path" => $assetPath . "/components/form/Tabs",
@@ -219,6 +204,21 @@ function deeson_twig_component_templates($assetPath = 'auto') {
         "textarea" => [
           "template" => "textarea",
           "path" => $assetPath . "/components/form/Textarea",
+          "variables" => ["content" => []]
+        ], 
+        "searchBarHeader" => [
+          "template" => "searchBarHeader",
+          "path" => $assetPath . "/components/search/SearchBarHeader/react",
+          "variables" => ["content" => []]
+        ], 
+        "sortBy" => [
+          "template" => "sortBy",
+          "path" => $assetPath . "/components/search/SortBy/react",
+          "variables" => ["content" => []]
+        ], 
+        "filtersHeader" => [
+          "template" => "filtersHeader",
+          "path" => $assetPath . "/components/search/FiltersHeader/react",
           "variables" => ["content" => []]
         ], 
         "landingLinks" => [
