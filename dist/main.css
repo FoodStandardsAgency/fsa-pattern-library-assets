@@ -1863,6 +1863,210 @@ p {
 .user-login-form .link__wrapper {
   padding-top: 2rem;
 }
+/*!*******************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/components/general/ExternalLink/externalLink.scss ***!
+  \*******************************************************************************************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css?family=Fira+Sans:300,400,500,700);
+/*!***********************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/components/general/ExternalLink/externalLink.scss (1) ***!
+  \***********************************************************************************************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700);
+/*!***********************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/components/general/ExternalLink/externalLink.scss (2) ***!
+  \***********************************************************************************************************************************************************************************************/
+:root {
+  /* Primary Colours */
+  --fsa-primary_dark-green: #007c75;
+  --fsa-primary_mid-green: #6cb33f;
+  --fsa-primary_light-green: #a9c47f;
+  --fsa-primary_dark-grey: #53565a;
+  --fsa_online-grey: #f0f3f5;
+  --fsa_border: #dee2e5;
+  --fsa-primary_black: #000000;
+  --fsa-primary_white: #ffffff;
+  --fsa_tint: #fafcfd;
+  /* Secondary Colours */
+  --fsa-secondary_mid-red: #e31837;
+  --fsa-secondary_dark-blue: #165c7d;
+  --fsa-secondary_orange: #f15d22;
+  --fsa-secondary_mid-yellow: #fdb913;
+  --fsa-secondary_mid-purple: #49176d;
+  --fsa-secondary_light-purple: #9f218b;
+  --fsa-tertiary_dark-blue: #9f218b;
+  --fsa-secondary-error-red: #e60f31;
+  --fsa-secondary-error-hover: #b0132b;
+  /* Tertiary Colours */
+  --fsa-tertiary_dark-red: #b04a5a;
+  --fsa-tertiary_light-red: #ef3340;
+  --fsa-tertiary_light-yellow: #f1c400;
+  --fsa-tertiary_teal: #00b2a9;
+  --fsa-tertiary_light-blue: #8dc8e8;
+  --fsa-tertiary_dark-purple: #51284f;
+  --fsa-secondary_mid-blue: #007fb2;
+  --fsa-tertiary_lime: #cedc00;
+  --fsa-tertiary_mauve: #8b84d7;
+  --fsa-tertiary_stripe-green: #006f51;
+  --fsa-tertiary_light-black: #101010;
+  /* Hover Colours */
+  --fsa__link-green: #014b4c;
+  --fsa__purple-hover: #2a0247;
+  --fsa__grey-hover: #d9d9d6;
+  --fsa__dark-green-hover: #002a2a;
+  /* Typography */
+  --body-font: "Open Sans", sans-serif;
+  --body-normal: 400;
+  --body-bold: 600;
+  --heading-font: "Fira Sans", sans-serif;
+  --heading-bold: 700;
+  /* Grid */
+  --container-mobile: 1rem;
+  --container: 2rem;
+  --gutter: 1rem;
+  --max-width: 1336px;
+  /* Transitions */
+  --transition-time: 200;
+}
+
+/* Grid */
+/* Custom Mixins */
+/* Mixin for checkbox and radio button style */
+/* Used for Style guide pages */
+.external-link {
+  color: var(--fsa-primary_dark-green);
+  text-decoration: underline;
+  margin-right: 0.25rem;
+  position: relative;
+  display: inline;
+}
+.external-link:hover {
+  color: var(--fsa__link-green);
+}
+.external-link:focus {
+  color: var(--fsa-primary_black);
+  outline: none;
+  text-decoration: none;
+  background-color: var(--fsa-tertiary_light-yellow);
+  border-bottom: 0.25rem solid var(--fsa-primary_black);
+  margin-bottom: -0.25rem;
+}
+.external-link::after {
+  content: "";
+  background-image: url(./components/general/ExternalLink/assets/external.svg);
+  display: inline-block;
+  width: 0.85rem;
+  height: 0.85rem;
+  margin-left: 0.25rem;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.temporary-message .external-link {
+  color: var(--fsa-primary_black);
+}
+.temporary-message .external-link::after {
+  background-image: url(./components/general/ExternalLink/assets/external-black.svg);
+}
+.temporary-message--danger .external-link {
+  color: var(--fsa-primary_white);
+}
+.temporary-message--danger .external-link::after {
+  background-image: url(./components/general/ExternalLink/assets/external-white.svg);
+}
+/*!***********************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/components/general/MailLink/mailLink.scss ***!
+  \***********************************************************************************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css?family=Fira+Sans:300,400,500,700);
+/*!***************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/components/general/MailLink/mailLink.scss (1) ***!
+  \***************************************************************************************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700);
+/*!***************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/components/general/MailLink/mailLink.scss (2) ***!
+  \***************************************************************************************************************************************************************************************/
+:root {
+  /* Primary Colours */
+  --fsa-primary_dark-green: #007c75;
+  --fsa-primary_mid-green: #6cb33f;
+  --fsa-primary_light-green: #a9c47f;
+  --fsa-primary_dark-grey: #53565a;
+  --fsa_online-grey: #f0f3f5;
+  --fsa_border: #dee2e5;
+  --fsa-primary_black: #000000;
+  --fsa-primary_white: #ffffff;
+  --fsa_tint: #fafcfd;
+  /* Secondary Colours */
+  --fsa-secondary_mid-red: #e31837;
+  --fsa-secondary_dark-blue: #165c7d;
+  --fsa-secondary_orange: #f15d22;
+  --fsa-secondary_mid-yellow: #fdb913;
+  --fsa-secondary_mid-purple: #49176d;
+  --fsa-secondary_light-purple: #9f218b;
+  --fsa-tertiary_dark-blue: #9f218b;
+  --fsa-secondary-error-red: #e60f31;
+  --fsa-secondary-error-hover: #b0132b;
+  /* Tertiary Colours */
+  --fsa-tertiary_dark-red: #b04a5a;
+  --fsa-tertiary_light-red: #ef3340;
+  --fsa-tertiary_light-yellow: #f1c400;
+  --fsa-tertiary_teal: #00b2a9;
+  --fsa-tertiary_light-blue: #8dc8e8;
+  --fsa-tertiary_dark-purple: #51284f;
+  --fsa-secondary_mid-blue: #007fb2;
+  --fsa-tertiary_lime: #cedc00;
+  --fsa-tertiary_mauve: #8b84d7;
+  --fsa-tertiary_stripe-green: #006f51;
+  --fsa-tertiary_light-black: #101010;
+  /* Hover Colours */
+  --fsa__link-green: #014b4c;
+  --fsa__purple-hover: #2a0247;
+  --fsa__grey-hover: #d9d9d6;
+  --fsa__dark-green-hover: #002a2a;
+  /* Typography */
+  --body-font: "Open Sans", sans-serif;
+  --body-normal: 400;
+  --body-bold: 600;
+  --heading-font: "Fira Sans", sans-serif;
+  --heading-bold: 700;
+  /* Grid */
+  --container-mobile: 1rem;
+  --container: 2rem;
+  --gutter: 1rem;
+  --max-width: 1336px;
+  /* Transitions */
+  --transition-time: 200;
+}
+
+/* Grid */
+/* Custom Mixins */
+/* Mixin for checkbox and radio button style */
+/* Used for Style guide pages */
+.mail-link {
+  color: var(--fsa-primary_dark-green);
+  text-decoration: underline;
+}
+.mail-link:hover {
+  color: var(--fsa__link-green);
+}
+.mail-link:focus {
+  color: var(--fsa-primary_black);
+  outline: none;
+  text-decoration: none;
+  background-color: var(--fsa-tertiary_light-yellow);
+  border-bottom: 0.25rem solid var(--fsa-primary_black);
+  margin-bottom: -0.25rem;
+}
+.mail-link:hover:after {
+  background-image: url(./components/general/MailLink/assets/email-hover.svg);
+}
+.mail-link:after {
+  content: "";
+  background-image: url(./components/general/MailLink/assets/email.svg);
+  background-repeat: no-repeat;
+  width: 15px;
+  height: 12px;
+  display: inline-block;
+  margin-left: 0.5rem;
+}
 /*!*******************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/components/general/Footer/footer.scss ***!
   \*******************************************************************************************************************************************************************************/
@@ -2795,6 +2999,7 @@ p {
 /*!*************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/components/general/ErrorResponse/errorResponse.scss (2) ***!
   \*************************************************************************************************************************************************************************************************/
+@charset "UTF-8";
 :root {
   /* Primary Colours */
   --fsa-primary_dark-green: #007c75;
@@ -2949,6 +3154,57 @@ p {
 }
 .error-response__message .document-download__content--with-region {
   margin-top: 0;
+}
+.error-response__message ul {
+  counter-reset: list;
+  padding-inline-start: 0;
+  list-style-position: outside;
+  list-style-type: none;
+  padding: 0;
+  font-family: var(--body-font);
+  font-weight: var(--body-normal);
+  font-size: 1rem;
+  line-height: 1.6;
+  letter-spacing: normal;
+  line-height: 1.6;
+}
+.error-response__message ul li {
+  margin-left: 1.5rem;
+}
+.error-response__message ul li:before {
+  display: inline-block;
+  margin-left: -1.5rem;
+}
+.error-response__message ul li:before {
+  content: "●";
+  color: var(--fsa-primary_dark-green);
+  font-weight: bold;
+  margin-right: 1rem;
+}
+.error-response__message ol {
+  counter-reset: list;
+  padding-inline-start: 0;
+  list-style-position: outside;
+  list-style-type: none;
+  padding: 0;
+  font-family: var(--body-font);
+  font-weight: var(--body-normal);
+  font-size: 1rem;
+  line-height: 1.6;
+  letter-spacing: normal;
+  line-height: 1.6;
+}
+.error-response__message ol li {
+  margin-left: 1.5rem;
+}
+.error-response__message ol li:before {
+  display: inline-block;
+  margin-left: -1.5rem;
+}
+.error-response__message ol li::before {
+  counter-increment: list;
+  content: counter(list) ".";
+  margin-right: 0.7rem;
 }
 .error-response__message > p, .error-response__message > h1, .error-response__message > h2, .error-response__message > h3, .error-response__message > h4, .error-response__message > h5, .error-response__message > h6, .error-response__message > ul, .error-response__message > ol {
   margin-bottom: 0;
@@ -5826,115 +6082,6 @@ body.overflow-hidden {
   background-color: var(--fsa-tertiary_light-yellow);
   border-bottom: 0.25rem solid var(--fsa-primary_black);
   margin-bottom: -0.25rem;
-}
-/*!****************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/components/form/ExternalLink/externalLink.scss ***!
-  \****************************************************************************************************************************************************************************************/
-@import url(https://fonts.googleapis.com/css?family=Fira+Sans:300,400,500,700);
-/*!********************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/components/form/ExternalLink/externalLink.scss (1) ***!
-  \********************************************************************************************************************************************************************************************/
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700);
-/*!********************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/components/form/ExternalLink/externalLink.scss (2) ***!
-  \********************************************************************************************************************************************************************************************/
-:root {
-  /* Primary Colours */
-  --fsa-primary_dark-green: #007c75;
-  --fsa-primary_mid-green: #6cb33f;
-  --fsa-primary_light-green: #a9c47f;
-  --fsa-primary_dark-grey: #53565a;
-  --fsa_online-grey: #f0f3f5;
-  --fsa_border: #dee2e5;
-  --fsa-primary_black: #000000;
-  --fsa-primary_white: #ffffff;
-  --fsa_tint: #fafcfd;
-  /* Secondary Colours */
-  --fsa-secondary_mid-red: #e31837;
-  --fsa-secondary_dark-blue: #165c7d;
-  --fsa-secondary_orange: #f15d22;
-  --fsa-secondary_mid-yellow: #fdb913;
-  --fsa-secondary_mid-purple: #49176d;
-  --fsa-secondary_light-purple: #9f218b;
-  --fsa-tertiary_dark-blue: #9f218b;
-  --fsa-secondary-error-red: #e60f31;
-  --fsa-secondary-error-hover: #b0132b;
-  /* Tertiary Colours */
-  --fsa-tertiary_dark-red: #b04a5a;
-  --fsa-tertiary_light-red: #ef3340;
-  --fsa-tertiary_light-yellow: #f1c400;
-  --fsa-tertiary_teal: #00b2a9;
-  --fsa-tertiary_light-blue: #8dc8e8;
-  --fsa-tertiary_dark-purple: #51284f;
-  --fsa-secondary_mid-blue: #007fb2;
-  --fsa-tertiary_lime: #cedc00;
-  --fsa-tertiary_mauve: #8b84d7;
-  --fsa-tertiary_stripe-green: #006f51;
-  --fsa-tertiary_light-black: #101010;
-  /* Hover Colours */
-  --fsa__link-green: #014b4c;
-  --fsa__purple-hover: #2a0247;
-  --fsa__grey-hover: #d9d9d6;
-  --fsa__dark-green-hover: #002a2a;
-  /* Typography */
-  --body-font: "Open Sans", sans-serif;
-  --body-normal: 400;
-  --body-bold: 600;
-  --heading-font: "Fira Sans", sans-serif;
-  --heading-bold: 700;
-  /* Grid */
-  --container-mobile: 1rem;
-  --container: 2rem;
-  --gutter: 1rem;
-  --max-width: 1336px;
-  /* Transitions */
-  --transition-time: 200;
-}
-
-/* Grid */
-/* Custom Mixins */
-/* Mixin for checkbox and radio button style */
-/* Used for Style guide pages */
-.external-link {
-  color: var(--fsa-primary_dark-green);
-  text-decoration: underline;
-  margin-right: 0.25rem;
-  position: relative;
-  display: inline;
-}
-.external-link:hover {
-  color: var(--fsa__link-green);
-}
-.external-link:focus {
-  color: var(--fsa-primary_black);
-  outline: none;
-  text-decoration: none;
-  background-color: var(--fsa-tertiary_light-yellow);
-  border-bottom: 0.25rem solid var(--fsa-primary_black);
-  margin-bottom: -0.25rem;
-}
-.external-link::after {
-  content: "";
-  background-image: url(./components/form/ExternalLink/assets/external.svg);
-  display: inline-block;
-  width: 0.85rem;
-  height: 0.85rem;
-  margin-left: 0.25rem;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
-.temporary-message .external-link {
-  color: var(--fsa-primary_black);
-}
-.temporary-message .external-link::after {
-  background-image: url(./components/form/ExternalLink/assets/external-black.svg);
-}
-.temporary-message--danger .external-link {
-  color: var(--fsa-primary_white);
-}
-.temporary-message--danger .external-link::after {
-  background-image: url(./components/form/ExternalLink/assets/external-white.svg);
 }
 /*!************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/components/form/InputField/inputField.scss ***!
@@ -9539,6 +9686,7 @@ h3.form-title {
 /*!*******************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/components/article/RegionalVariationBlock/regionalVariationBlock.scss (2) ***!
   \*******************************************************************************************************************************************************************************************************************/
+@charset "UTF-8";
 :root {
   /* Primary Colours */
   --fsa-primary_dark-green: #007c75;
@@ -9666,6 +9814,57 @@ h3.form-title {
 }
 .regional-variation-block__copy .document-download__content--with-region {
   margin-top: 0;
+}
+.regional-variation-block__copy ul {
+  counter-reset: list;
+  padding-inline-start: 0;
+  list-style-position: outside;
+  list-style-type: none;
+  padding: 0;
+  font-family: var(--body-font);
+  font-weight: var(--body-normal);
+  font-size: 1rem;
+  line-height: 1.6;
+  letter-spacing: normal;
+  line-height: 1.6;
+}
+.regional-variation-block__copy ul li {
+  margin-left: 1.5rem;
+}
+.regional-variation-block__copy ul li:before {
+  display: inline-block;
+  margin-left: -1.5rem;
+}
+.regional-variation-block__copy ul li:before {
+  content: "●";
+  color: var(--fsa-primary_dark-green);
+  font-weight: bold;
+  margin-right: 1rem;
+}
+.regional-variation-block__copy ol {
+  counter-reset: list;
+  padding-inline-start: 0;
+  list-style-position: outside;
+  list-style-type: none;
+  padding: 0;
+  font-family: var(--body-font);
+  font-weight: var(--body-normal);
+  font-size: 1rem;
+  line-height: 1.6;
+  letter-spacing: normal;
+  line-height: 1.6;
+}
+.regional-variation-block__copy ol li {
+  margin-left: 1.5rem;
+}
+.regional-variation-block__copy ol li:before {
+  display: inline-block;
+  margin-left: -1.5rem;
+}
+.regional-variation-block__copy ol li::before {
+  counter-increment: list;
+  content: counter(list) ".";
+  margin-right: 0.7rem;
 }
 .regional-variation-block__copy > p, .regional-variation-block__copy > h1, .regional-variation-block__copy > h2, .regional-variation-block__copy > h3, .regional-variation-block__copy > h4, .regional-variation-block__copy > h5, .regional-variation-block__copy > h6, .regional-variation-block__copy > ul, .regional-variation-block__copy > ol {
   margin-bottom: 0;
@@ -10514,6 +10713,7 @@ h3.form-title {
 /*!*******************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/components/article/ExplanationBlock/explanationBlock.scss (2) ***!
   \*******************************************************************************************************************************************************************************************************/
+@charset "UTF-8";
 :root {
   /* Primary Colours */
   --fsa-primary_dark-green: #007c75;
@@ -10638,6 +10838,57 @@ h3.form-title {
 }
 .explanation-block__content .document-download__content--with-region {
   margin-top: 0;
+}
+.explanation-block__content ul {
+  counter-reset: list;
+  padding-inline-start: 0;
+  list-style-position: outside;
+  list-style-type: none;
+  padding: 0;
+  font-family: var(--body-font);
+  font-weight: var(--body-normal);
+  font-size: 1rem;
+  line-height: 1.6;
+  letter-spacing: normal;
+  line-height: 1.6;
+}
+.explanation-block__content ul li {
+  margin-left: 1.5rem;
+}
+.explanation-block__content ul li:before {
+  display: inline-block;
+  margin-left: -1.5rem;
+}
+.explanation-block__content ul li:before {
+  content: "●";
+  color: var(--fsa-primary_dark-green);
+  font-weight: bold;
+  margin-right: 1rem;
+}
+.explanation-block__content ol {
+  counter-reset: list;
+  padding-inline-start: 0;
+  list-style-position: outside;
+  list-style-type: none;
+  padding: 0;
+  font-family: var(--body-font);
+  font-weight: var(--body-normal);
+  font-size: 1rem;
+  line-height: 1.6;
+  letter-spacing: normal;
+  line-height: 1.6;
+}
+.explanation-block__content ol li {
+  margin-left: 1.5rem;
+}
+.explanation-block__content ol li:before {
+  display: inline-block;
+  margin-left: -1.5rem;
+}
+.explanation-block__content ol li::before {
+  counter-increment: list;
+  content: counter(list) ".";
+  margin-right: 0.7rem;
 }
 .explanation-block__content > p, .explanation-block__content > h1, .explanation-block__content > h2, .explanation-block__content > h3, .explanation-block__content > h4, .explanation-block__content > h5, .explanation-block__content > h6, .explanation-block__content > ul, .explanation-block__content > ol {
   margin-bottom: 0;
@@ -10877,7 +11128,7 @@ h3.form-title {
   font-weight: var(--body-bold);
   line-height: 1.6;
   letter-spacing: normal;
-  margin: 1rem 0;
+  margin: 1rem 0 0;
 }
 .team-contacts__item__email-wrapper {
   margin-top: 0.5rem;
