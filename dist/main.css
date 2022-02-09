@@ -2950,12 +2950,6 @@ p {
 .error-response__message .document-download__content--with-region {
   margin-top: 0;
 }
-.error-response__message ul {
-  list-style: disc;
-}
-.error-response__message ol {
-  list-style: roman;
-}
 .error-response__message > p, .error-response__message > h1, .error-response__message > h2, .error-response__message > h3, .error-response__message > h4, .error-response__message > h5, .error-response__message > h6, .error-response__message > ul, .error-response__message > ol {
   margin-bottom: 0;
 }
@@ -9673,12 +9667,6 @@ h3.form-title {
 .regional-variation-block__copy .document-download__content--with-region {
   margin-top: 0;
 }
-.regional-variation-block__copy ul {
-  list-style: disc;
-}
-.regional-variation-block__copy ol {
-  list-style: roman;
-}
 .regional-variation-block__copy > p, .regional-variation-block__copy > h1, .regional-variation-block__copy > h2, .regional-variation-block__copy > h3, .regional-variation-block__copy > h4, .regional-variation-block__copy > h5, .regional-variation-block__copy > h6, .regional-variation-block__copy > ul, .regional-variation-block__copy > ol {
   margin-bottom: 0;
 }
@@ -10650,12 +10638,6 @@ h3.form-title {
 }
 .explanation-block__content .document-download__content--with-region {
   margin-top: 0;
-}
-.explanation-block__content ul {
-  list-style: disc;
-}
-.explanation-block__content ol {
-  list-style: roman;
 }
 .explanation-block__content > p, .explanation-block__content > h1, .explanation-block__content > h2, .explanation-block__content > h3, .explanation-block__content > h4, .explanation-block__content > h5, .explanation-block__content > h6, .explanation-block__content > ul, .explanation-block__content > ol {
   margin-bottom: 0;
