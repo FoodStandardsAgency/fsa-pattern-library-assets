@@ -2751,7 +2751,7 @@ p {
 .temporary-message__content {
   font-family: var(--body-font);
   font-weight: var(--body-normal);
-  font-size: 1rem;
+  font-size: 0.9rem;
   line-height: 1.6;
   letter-spacing: normal;
   display: flex;
@@ -2778,8 +2778,8 @@ p {
 .temporary-message__content a {
   text-decoration: underline;
 }
-.temporary-message__content a.external-link::after {
-  display: none;
+.temporary-message__content a:hover:not(:focus-visible) {
+  font-weight: bold;
 }
 .temporary-message__content p {
   margin: 0;
@@ -10296,10 +10296,19 @@ h3.form-title {
   height: 1rem;
   background-repeat: no-repeat;
   background-position: center;
-  margin-right: 0.5rem;
   position: absolute;
-  right: 2rem;
-  bottom: 2.25rem;
+  right: 1.25rem;
+  bottom: 0.5rem;
+}
+@media screen and (min-width: 768px) {
+  .related-content__card::after {
+    bottom: 1.25rem;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .related-content__card::after {
+    bottom: 1rem;
+  }
 }
 .related-content__card:hover {
   border-color: var(--fsa-primary_dark-green);
@@ -10446,7 +10455,7 @@ h3.form-title {
   font-size: 1rem;
   line-height: 1.6;
   letter-spacing: normal;
-  margin: 0;
+  margin: 1rem 0 0 0;
 }
 .subject-listing__section-header {
   font-family: var(--body-font);
@@ -10873,7 +10882,7 @@ h3.form-title {
   font-weight: var(--heading-bold);
   line-height: 1.2;
   letter-spacing: normal;
-  margin: 0 0 1rem 0;
+  margin: 0;
 }
 @media screen and (min-width: 1024px) {
   .team-contacts__item__label {
@@ -10886,7 +10895,10 @@ h3.form-title {
   font-weight: var(--body-bold);
   line-height: 1.6;
   letter-spacing: normal;
-  margin: 0 0 1rem 0;
+  margin: 1rem 0;
+}
+.team-contacts__item__email-wrapper {
+  margin-top: 0.5rem;
 }
 .team-contacts__item__email {
   color: var(--fsa-primary_dark-green);
@@ -12056,7 +12068,7 @@ h3.form-title {
     padding-right: 1rem;
   }
 }
-.content-layout__right *:first-child {
+.content-layout__right > *:first-child {
   margin-top: 0;
 }
 @media screen and (min-width: 1024px) {
