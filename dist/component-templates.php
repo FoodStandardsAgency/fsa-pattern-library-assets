@@ -221,19 +221,19 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/form/Textarea",
           "variables" => ["content" => []]
         ], 
-        "latestTeaser" => [
-          "template" => "latestTeaser",
-          "path" => $assetPath . "/components/landing/LatestTeaser",
-          "variables" => ["content" => []]
-        ], 
         "landingLinks" => [
           "template" => "landingLinks",
           "path" => $assetPath . "/components/landing/LandingLinks",
           "variables" => ["content" => []]
         ], 
-        "promoGroup" => [
-          "template" => "promoGroup",
-          "path" => $assetPath . "/components/landing/PromoGroup",
+        "largePromoGroup" => [
+          "template" => "largePromoGroup",
+          "path" => $assetPath . "/components/landing/LargePromoGroup",
+          "variables" => ["content" => []]
+        ], 
+        "latestTeaser" => [
+          "template" => "latestTeaser",
+          "path" => $assetPath . "/components/landing/LatestTeaser",
           "variables" => ["content" => []]
         ], 
         "filtersHeader" => [
@@ -256,6 +256,11 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/search/SearchBar/react",
           "variables" => ["content" => []]
         ], 
+        "promoGroup" => [
+          "template" => "promoGroup",
+          "path" => $assetPath . "/components/landing/PromoGroup",
+          "variables" => ["content" => []]
+        ], 
         "serviceLinks" => [
           "template" => "serviceLinks",
           "path" => $assetPath . "/components/landing/ServiceLinks",
@@ -266,19 +271,14 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/contact/HelpSecondaryMenu",
           "variables" => ["content" => []]
         ], 
-        "largePromoGroup" => [
-          "template" => "largePromoGroup",
-          "path" => $assetPath . "/components/landing/LargePromoGroup",
+        "promoLinks" => [
+          "template" => "promoLinks",
+          "path" => $assetPath . "/components/contact/PromoLinks",
           "variables" => ["content" => []]
         ], 
         "tableOfContents" => [
           "template" => "tableOfContents",
           "path" => $assetPath . "/components/article/TableOfContents",
-          "variables" => ["content" => []]
-        ], 
-        "promoLinks" => [
-          "template" => "promoLinks",
-          "path" => $assetPath . "/components/contact/PromoLinks",
           "variables" => ["content" => []]
         ], 
         "documentDownload" => [
