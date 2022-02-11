@@ -2980,10 +2980,11 @@ p {
   }
 }
 .temporary-message__content a {
-  text-decoration: underline;
+  text-decoration: none;
+  border-bottom: 1px solid;
 }
 .temporary-message__content a:hover:not(:focus-visible) {
-  font-weight: bold;
+  border-bottom: 4px solid;
 }
 .temporary-message__content p {
   margin: 0;
