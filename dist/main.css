@@ -2945,12 +2945,26 @@ p {
 .temporary-message--warning {
   background-color: var(--fsa-secondary_mid-yellow);
 }
+.temporary-message--warning a:focus {
+  color: var(--fsa-primary_white);
+  background-color: var(--fsa-primary_black);
+  border-color: var(--fsa-primary_white);
+}
+.temporary-message--warning a:focus::after {
+  background-image: url(./components/general/ExternalLink/assets/external-white.svg);
+}
 .temporary-message--danger {
   background-color: var(--fsa-secondary_mid-red);
   color: var(--fsa-primary_white);
 }
 .temporary-message--danger .temporary-message__content:before {
   background-image: url(./components/general/TemporaryMessage/assets/warning-white.svg);
+}
+.temporary-message--danger .temporary-message__content a:focus {
+  color: var(--fsa-primary_black);
+}
+.temporary-message--danger .temporary-message__content a:focus::after {
+  background-image: url(./components/general/ExternalLink/assets/external-black.svg);
 }
 .temporary-message__content {
   font-family: var(--body-font);
