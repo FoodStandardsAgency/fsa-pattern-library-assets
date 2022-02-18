@@ -141,14 +141,14 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/search/FiltersHeader",
           "variables" => ["content" => []]
         ], 
-        "ratingCta" => [
-          "template" => "ratingCta",
-          "path" => $assetPath . "/components/search/RatingCta",
-          "variables" => ["content" => []]
-        ], 
         "datepicker" => [
           "template" => "datepicker",
           "path" => $assetPath . "/components/search/Datepicker",
+          "variables" => ["content" => []]
+        ], 
+        "ratingCta" => [
+          "template" => "ratingCta",
+          "path" => $assetPath . "/components/search/RatingCta",
           "variables" => ["content" => []]
         ], 
         "accordion" => [
@@ -221,14 +221,14 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/search/FiltersHeader/react",
           "variables" => ["content" => []]
         ], 
-        "ratingCta" => [
-          "template" => "ratingCta",
-          "path" => $assetPath . "/components/search/RatingCta/react",
-          "variables" => ["content" => []]
-        ], 
         "datepicker" => [
           "template" => "datepicker",
           "path" => $assetPath . "/components/search/Datepicker/react",
+          "variables" => ["content" => []]
+        ], 
+        "ratingCta" => [
+          "template" => "ratingCta",
+          "path" => $assetPath . "/components/search/RatingCta/react",
           "variables" => ["content" => []]
         ], 
         "accordion" => [
@@ -271,6 +271,11 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/landing/ServiceLinks",
           "variables" => ["content" => []]
         ], 
+        "campaignBlock" => [
+          "template" => "campaignBlock",
+          "path" => $assetPath . "/components/landing/CampaignBlock",
+          "variables" => ["content" => []]
+        ], 
         "searchBar" => [
           "template" => "searchBar",
           "path" => $assetPath . "/components/search/SearchBar/react",
@@ -279,11 +284,6 @@ function deeson_twig_component_templates($assetPath = 'auto') {
         "multistepFunction" => [
           "template" => "multistepFunction",
           "path" => $assetPath . "/components/form/MultistepFunction/drupal",
-          "variables" => ["content" => []]
-        ], 
-        "campaignBlock" => [
-          "template" => "campaignBlock",
-          "path" => $assetPath . "/components/landing/CampaignBlock",
           "variables" => ["content" => []]
         ], 
         "helpSecondaryMenu" => [
