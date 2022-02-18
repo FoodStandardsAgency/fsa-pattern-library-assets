@@ -146,6 +146,11 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/search/RatingCta",
           "variables" => ["content" => []]
         ], 
+        "datepicker" => [
+          "template" => "datepicker",
+          "path" => $assetPath . "/components/search/Datepicker",
+          "variables" => ["content" => []]
+        ], 
         "accordion" => [
           "template" => "accordion",
           "path" => $assetPath . "/components/search/Accordion",
@@ -154,11 +159,6 @@ function deeson_twig_component_templates($assetPath = 'auto') {
         "searchBar" => [
           "template" => "searchBar",
           "path" => $assetPath . "/components/search/SearchBar",
-          "variables" => ["content" => []]
-        ], 
-        "datepicker" => [
-          "template" => "datepicker",
-          "path" => $assetPath . "/components/search/Datepicker",
           "variables" => ["content" => []]
         ], 
         "checkbox" => [
@@ -181,16 +181,6 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/form/InputField",
           "variables" => ["content" => []]
         ], 
-        "messageBox" => [
-          "template" => "messageBox",
-          "path" => $assetPath . "/components/form/MessageBox",
-          "variables" => ["content" => []]
-        ], 
-        "multistepFunction" => [
-          "template" => "multistepFunction",
-          "path" => $assetPath . "/components/form/MultistepFunction",
-          "variables" => ["content" => []]
-        ], 
         "searchBarHeader" => [
           "template" => "searchBarHeader",
           "path" => $assetPath . "/components/search/SearchBarHeader/react",
@@ -199,6 +189,16 @@ function deeson_twig_component_templates($assetPath = 'auto') {
         "sortBy" => [
           "template" => "sortBy",
           "path" => $assetPath . "/components/search/SortBy/react",
+          "variables" => ["content" => []]
+        ], 
+        "messageBox" => [
+          "template" => "messageBox",
+          "path" => $assetPath . "/components/form/MessageBox",
+          "variables" => ["content" => []]
+        ], 
+        "multistepFunction" => [
+          "template" => "multistepFunction",
+          "path" => $assetPath . "/components/form/MultistepFunction",
           "variables" => ["content" => []]
         ], 
         "radio" => [
@@ -221,14 +221,19 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/form/EmailField",
           "variables" => ["content" => []]
         ], 
-        "textarea" => [
-          "template" => "textarea",
-          "path" => $assetPath . "/components/form/Textarea",
-          "variables" => ["content" => []]
-        ], 
         "filtersHeader" => [
           "template" => "filtersHeader",
           "path" => $assetPath . "/components/search/FiltersHeader/react",
+          "variables" => ["content" => []]
+        ], 
+        "ratingCta" => [
+          "template" => "ratingCta",
+          "path" => $assetPath . "/components/search/RatingCta/react",
+          "variables" => ["content" => []]
+        ], 
+        "datepicker" => [
+          "template" => "datepicker",
+          "path" => $assetPath . "/components/search/Datepicker/react",
           "variables" => ["content" => []]
         ], 
         "accordion" => [
@@ -241,9 +246,9 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/search/SearchBar/react",
           "variables" => ["content" => []]
         ], 
-        "datepicker" => [
-          "template" => "datepicker",
-          "path" => $assetPath . "/components/search/Datepicker/react",
+        "textarea" => [
+          "template" => "textarea",
+          "path" => $assetPath . "/components/form/Textarea",
           "variables" => ["content" => []]
         ], 
         "landingLinks" => [
@@ -261,14 +266,14 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/landing/LatestTeaser",
           "variables" => ["content" => []]
         ], 
-        "serviceLinks" => [
-          "template" => "serviceLinks",
-          "path" => $assetPath . "/components/landing/ServiceLinks",
-          "variables" => ["content" => []]
-        ], 
         "promoGroup" => [
           "template" => "promoGroup",
           "path" => $assetPath . "/components/landing/PromoGroup",
+          "variables" => ["content" => []]
+        ], 
+        "serviceLinks" => [
+          "template" => "serviceLinks",
+          "path" => $assetPath . "/components/landing/ServiceLinks",
           "variables" => ["content" => []]
         ], 
         "campaignBlock" => [
