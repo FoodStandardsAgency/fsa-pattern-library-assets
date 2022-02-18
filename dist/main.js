@@ -632,7 +632,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _ratingCta_html_twig__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./ratingCta.html.twig */ \"./src/components/search/RatingCta/ratingCta.html.twig\");\n/* harmony import */ var _ratingCta_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./ratingCta.scss */ \"./src/components/search/RatingCta/ratingCta.scss\");\n\n\n\n//# sourceURL=webpack://fsa-design-system/./src/components/search/RatingCta/ratingCta.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _ratingCta_html_twig__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./ratingCta.html.twig */ \"./src/components/search/RatingCta/ratingCta.html.twig\");\n/* harmony import */ var _react_ratingCta_html_twig__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./react/ratingCta.html.twig */ \"./src/components/search/RatingCta/react/ratingCta.html.twig\");\n/* harmony import */ var _ratingCta_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./ratingCta.scss */ \"./src/components/search/RatingCta/ratingCta.scss\");\n\n\n\n\n//# sourceURL=webpack://fsa-design-system/./src/components/search/RatingCta/ratingCta.js?");
 
 /***/ }),
 
@@ -1468,6 +1468,17 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ 
 
 "use strict";
 eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"components/search/RatingCta/ratingCta.html.twig\");\n\n//# sourceURL=webpack://fsa-design-system/./src/components/search/RatingCta/ratingCta.html.twig?");
+
+/***/ }),
+
+/***/ "./src/components/search/RatingCta/react/ratingCta.html.twig":
+/*!*******************************************************************!*\
+  !*** ./src/components/search/RatingCta/react/ratingCta.html.twig ***!
+  \*******************************************************************/
+/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"components/search/RatingCta/react/ratingCta.html.twig\");\n\n//# sourceURL=webpack://fsa-design-system/./src/components/search/RatingCta/react/ratingCta.html.twig?");
 
 /***/ }),
 
