@@ -6,6 +6,11 @@ function deeson_tpl_component_templates($assetPath = 'auto') {
 
 function deeson_twig_component_templates($assetPath = 'auto') {
   return [ 
+        "formLayout" => [
+          "template" => "formLayout",
+          "path" => $assetPath . "/layout/formLayout",
+          "variables" => ["content" => []]
+        ], 
         "twoColumn" => [
           "template" => "twoColumn",
           "path" => $assetPath . "/layout/twoColumn",
@@ -19,11 +24,6 @@ function deeson_twig_component_templates($assetPath = 'auto') {
         "contentLayout" => [
           "template" => "contentLayout",
           "path" => $assetPath . "/layout/contentLayout",
-          "variables" => ["content" => []]
-        ], 
-        "formLayout" => [
-          "template" => "formLayout",
-          "path" => $assetPath . "/layout/formLayout",
           "variables" => ["content" => []]
         ], 
         "contactLayout" => [
@@ -46,14 +46,14 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/general/Header",
           "variables" => ["content" => []]
         ], 
-        "link" => [
-          "template" => "link",
-          "path" => $assetPath . "/components/general/Link",
-          "variables" => ["content" => []]
-        ], 
         "hero" => [
           "template" => "hero",
           "path" => $assetPath . "/components/general/Hero",
+          "variables" => ["content" => []]
+        ], 
+        "link" => [
+          "template" => "link",
+          "path" => $assetPath . "/components/general/Link",
           "variables" => ["content" => []]
         ], 
         "externalLink" => [
@@ -146,11 +146,6 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/search/RatingCta",
           "variables" => ["content" => []]
         ], 
-        "datepicker" => [
-          "template" => "datepicker",
-          "path" => $assetPath . "/components/search/Datepicker",
-          "variables" => ["content" => []]
-        ], 
         "accordion" => [
           "template" => "accordion",
           "path" => $assetPath . "/components/search/Accordion",
@@ -159,6 +154,11 @@ function deeson_twig_component_templates($assetPath = 'auto') {
         "searchBar" => [
           "template" => "searchBar",
           "path" => $assetPath . "/components/search/SearchBar",
+          "variables" => ["content" => []]
+        ], 
+        "datepicker" => [
+          "template" => "datepicker",
+          "path" => $assetPath . "/components/search/Datepicker",
           "variables" => ["content" => []]
         ], 
         "checkbox" => [
@@ -231,11 +231,6 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/search/FiltersHeader/react",
           "variables" => ["content" => []]
         ], 
-        "datepicker" => [
-          "template" => "datepicker",
-          "path" => $assetPath . "/components/search/Datepicker/react",
-          "variables" => ["content" => []]
-        ], 
         "accordion" => [
           "template" => "accordion",
           "path" => $assetPath . "/components/search/Accordion/react",
@@ -244,6 +239,11 @@ function deeson_twig_component_templates($assetPath = 'auto') {
         "searchBar" => [
           "template" => "searchBar",
           "path" => $assetPath . "/components/search/SearchBar/react",
+          "variables" => ["content" => []]
+        ], 
+        "datepicker" => [
+          "template" => "datepicker",
+          "path" => $assetPath . "/components/search/Datepicker/react",
           "variables" => ["content" => []]
         ], 
         "landingLinks" => [
@@ -261,14 +261,14 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/landing/LatestTeaser",
           "variables" => ["content" => []]
         ], 
-        "promoGroup" => [
-          "template" => "promoGroup",
-          "path" => $assetPath . "/components/landing/PromoGroup",
-          "variables" => ["content" => []]
-        ], 
         "serviceLinks" => [
           "template" => "serviceLinks",
           "path" => $assetPath . "/components/landing/ServiceLinks",
+          "variables" => ["content" => []]
+        ], 
+        "promoGroup" => [
+          "template" => "promoGroup",
+          "path" => $assetPath . "/components/landing/PromoGroup",
           "variables" => ["content" => []]
         ], 
         "campaignBlock" => [
@@ -336,14 +336,14 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/article/ExplanationBlock",
           "variables" => ["content" => []]
         ], 
-        "teamContacts" => [
-          "template" => "teamContacts",
-          "path" => $assetPath . "/components/article/TeamContacts",
-          "variables" => ["content" => []]
-        ], 
         "quoteBlock" => [
           "template" => "quoteBlock",
           "path" => $assetPath . "/components/article/QuoteBlock",
+          "variables" => ["content" => []]
+        ], 
+        "teamContacts" => [
+          "template" => "teamContacts",
+          "path" => $assetPath . "/components/article/TeamContacts",
           "variables" => ["content" => []]
         ], 
         "backToTop" => [
