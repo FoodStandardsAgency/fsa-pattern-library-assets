@@ -12207,7 +12207,7 @@ h3.form-title {
 /* Custom Mixins */
 /* Mixin for checkbox and radio button style */
 /* Used for Style guide pages */
-.article-hero__type--guide {
+.article-hero__type--multipage_guide {
   font-family: var(--body-font);
   font-weight: var(--body-normal);
   font-size: 1.18rem;
@@ -12217,7 +12217,7 @@ h3.form-title {
   font-weight: normal;
 }
 @media screen and (min-width: 1024px) {
-  .article-hero__type--guide {
+  .article-hero__type--multipage_guide {
     font-size: 1.2rem;
   }
 }
