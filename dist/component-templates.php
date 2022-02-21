@@ -186,11 +186,6 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/form/ErrorBox",
           "variables" => ["content" => []]
         ], 
-        "inputField" => [
-          "template" => "inputField",
-          "path" => $assetPath . "/components/form/InputField",
-          "variables" => ["content" => []]
-        ], 
         "messageBox" => [
           "template" => "messageBox",
           "path" => $assetPath . "/components/form/MessageBox",
@@ -209,6 +204,11 @@ function deeson_twig_component_templates($assetPath = 'auto') {
         "tabs" => [
           "template" => "tabs",
           "path" => $assetPath . "/components/form/Tabs",
+          "variables" => ["content" => []]
+        ], 
+        "inputField" => [
+          "template" => "inputField",
+          "path" => $assetPath . "/components/form/InputField",
           "variables" => ["content" => []]
         ], 
         "titleAndText" => [
@@ -231,14 +231,14 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/form/MapField",
           "variables" => ["content" => []]
         ], 
-        "step" => [
-          "template" => "step",
-          "path" => $assetPath . "/components/form/Step",
-          "variables" => ["content" => []]
-        ], 
         "textarea" => [
           "template" => "textarea",
           "path" => $assetPath . "/components/form/Textarea",
+          "variables" => ["content" => []]
+        ], 
+        "step" => [
+          "template" => "step",
+          "path" => $assetPath . "/components/form/Step",
           "variables" => ["content" => []]
         ], 
         "landingLinks" => [
@@ -281,11 +281,6 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/form/MultistepFunction/drupal",
           "variables" => ["content" => []]
         ], 
-        "promoGroup" => [
-          "template" => "promoGroup",
-          "path" => $assetPath . "/components/landing/PromoGroup",
-          "variables" => ["content" => []]
-        ], 
         "serviceLinks" => [
           "template" => "serviceLinks",
           "path" => $assetPath . "/components/landing/ServiceLinks",
@@ -294,6 +289,11 @@ function deeson_twig_component_templates($assetPath = 'auto') {
         "campaignBlock" => [
           "template" => "campaignBlock",
           "path" => $assetPath . "/components/landing/CampaignBlock",
+          "variables" => ["content" => []]
+        ], 
+        "promoGroup" => [
+          "template" => "promoGroup",
+          "path" => $assetPath . "/components/landing/PromoGroup",
           "variables" => ["content" => []]
         ], 
         "helpSecondaryMenu" => [
