@@ -11692,6 +11692,31 @@ h3.form-title {
 .subject-listing {
   margin-top: 3rem;
 }
+.subject-listing__container {
+  width: 100%;
+  margin: 0 auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+@media screen and (min-width: 768px) {
+  .subject-listing__container {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    width: 100%;
+    max-width: calc(1300px + (2 * 2rem));
+  }
+}
+.subject-listing__row {
+  flex: 1;
+  margin-left: -0.5rem;
+  margin-right: -0.5rem;
+}
+@media screen and (min-width: 768px) {
+  .subject-listing__row {
+    margin-left: -1rem;
+    margin-right: -1rem;
+  }
+}
 .subject-listing__section {
   margin-top: 3rem;
 }

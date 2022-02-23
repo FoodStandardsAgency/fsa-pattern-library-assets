@@ -61,11 +61,6 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/general/ExternalLink",
           "variables" => ["content" => []]
         ], 
-        "mailLink" => [
-          "template" => "mailLink",
-          "path" => $assetPath . "/components/general/MailLink",
-          "variables" => ["content" => []]
-        ], 
         "footer" => [
           "template" => "footer",
           "path" => $assetPath . "/components/general/Footer",
@@ -79,6 +74,11 @@ function deeson_twig_component_templates($assetPath = 'auto') {
         "cookieBanner" => [
           "template" => "cookieBanner",
           "path" => $assetPath . "/components/general/CookieBanner",
+          "variables" => ["content" => []]
+        ], 
+        "mailLink" => [
+          "template" => "mailLink",
+          "path" => $assetPath . "/components/general/MailLink",
           "variables" => ["content" => []]
         ], 
         "temporaryMessage" => [
@@ -141,14 +141,14 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/search/FiltersHeader",
           "variables" => ["content" => []]
         ], 
-        "datepicker" => [
-          "template" => "datepicker",
-          "path" => $assetPath . "/components/search/Datepicker",
-          "variables" => ["content" => []]
-        ], 
         "ratingCta" => [
           "template" => "ratingCta",
           "path" => $assetPath . "/components/search/RatingCta",
+          "variables" => ["content" => []]
+        ], 
+        "datepicker" => [
+          "template" => "datepicker",
+          "path" => $assetPath . "/components/search/Datepicker",
           "variables" => ["content" => []]
         ], 
         "accordion" => [
@@ -216,14 +216,14 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/form/EmailField",
           "variables" => ["content" => []]
         ], 
-        "mapField" => [
-          "template" => "mapField",
-          "path" => $assetPath . "/components/form/MapField",
-          "variables" => ["content" => []]
-        ], 
         "textarea" => [
           "template" => "textarea",
           "path" => $assetPath . "/components/form/Textarea",
+          "variables" => ["content" => []]
+        ], 
+        "mapField" => [
+          "template" => "mapField",
+          "path" => $assetPath . "/components/form/MapField",
           "variables" => ["content" => []]
         ], 
         "step" => [
@@ -256,14 +256,14 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/search/FiltersHeader/react",
           "variables" => ["content" => []]
         ], 
-        "datepicker" => [
-          "template" => "datepicker",
-          "path" => $assetPath . "/components/search/Datepicker/react",
-          "variables" => ["content" => []]
-        ], 
         "ratingCta" => [
           "template" => "ratingCta",
           "path" => $assetPath . "/components/search/RatingCta/react",
+          "variables" => ["content" => []]
+        ], 
+        "datepicker" => [
+          "template" => "datepicker",
+          "path" => $assetPath . "/components/search/Datepicker/react",
           "variables" => ["content" => []]
         ], 
         "accordion" => [
@@ -311,14 +311,14 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/contact/HelpSecondaryMenu",
           "variables" => ["content" => []]
         ], 
-        "promoLinks" => [
-          "template" => "promoLinks",
-          "path" => $assetPath . "/components/contact/PromoLinks",
-          "variables" => ["content" => []]
-        ], 
         "documentDownload" => [
           "template" => "documentDownload",
           "path" => $assetPath . "/components/article/DocumentDownload",
+          "variables" => ["content" => []]
+        ], 
+        "promoLinks" => [
+          "template" => "promoLinks",
+          "path" => $assetPath . "/components/contact/PromoLinks",
           "variables" => ["content" => []]
         ], 
         "articleHero" => [
