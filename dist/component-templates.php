@@ -111,14 +111,14 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/search/Pagination",
           "variables" => ["content" => []]
         ], 
-        "searchBarHeader" => [
-          "template" => "searchBarHeader",
-          "path" => $assetPath . "/components/search/SearchBarHeader",
-          "variables" => ["content" => []]
-        ], 
         "listingItem" => [
           "template" => "listingItem",
           "path" => $assetPath . "/components/search/ListingItem",
+          "variables" => ["content" => []]
+        ], 
+        "searchBarHeader" => [
+          "template" => "searchBarHeader",
+          "path" => $assetPath . "/components/search/SearchBarHeader",
           "variables" => ["content" => []]
         ], 
         "searchNoResults" => [
@@ -336,14 +336,14 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/article/TextBlock",
           "variables" => ["content" => []]
         ], 
-        "backTo" => [
-          "template" => "backTo",
-          "path" => $assetPath . "/components/article/BackTo",
-          "variables" => ["content" => []]
-        ], 
         "contentMetaData" => [
           "template" => "contentMetaData",
           "path" => $assetPath . "/components/article/ContentMetaData",
+          "variables" => ["content" => []]
+        ], 
+        "backTo" => [
+          "template" => "backTo",
+          "path" => $assetPath . "/components/article/BackTo",
           "variables" => ["content" => []]
         ], 
         "relatedContent" => [
@@ -351,19 +351,24 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/article/RelatedContent",
           "variables" => ["content" => []]
         ], 
-        "subjectListing" => [
-          "template" => "subjectListing",
-          "path" => $assetPath . "/components/article/SubjectListing",
-          "variables" => ["content" => []]
-        ], 
         "explanationBlock" => [
           "template" => "explanationBlock",
           "path" => $assetPath . "/components/article/ExplanationBlock",
           "variables" => ["content" => []]
         ], 
+        "subjectListing" => [
+          "template" => "subjectListing",
+          "path" => $assetPath . "/components/article/SubjectListing",
+          "variables" => ["content" => []]
+        ], 
         "quoteBlock" => [
           "template" => "quoteBlock",
           "path" => $assetPath . "/components/article/QuoteBlock",
+          "variables" => ["content" => []]
+        ], 
+        "teamContacts" => [
+          "template" => "teamContacts",
+          "path" => $assetPath . "/components/article/TeamContacts",
           "variables" => ["content" => []]
         ], 
         "backToTop" => [
@@ -379,11 +384,6 @@ function deeson_twig_component_templates($assetPath = 'auto') {
         "stickySidebar" => [
           "template" => "stickySidebar",
           "path" => $assetPath . "/components/article/StickySidebar",
-          "variables" => ["content" => []]
-        ], 
-        "teamContacts" => [
-          "template" => "teamContacts",
-          "path" => $assetPath . "/components/article/TeamContacts",
           "variables" => ["content" => []]
         ], 
         "pagination" => [
