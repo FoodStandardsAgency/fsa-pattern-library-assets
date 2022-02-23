@@ -16,14 +16,14 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/layout/twoColumn",
           "variables" => ["content" => []]
         ], 
-        "fullWidth" => [
-          "template" => "fullWidth",
-          "path" => $assetPath . "/layout/fullWidth",
-          "variables" => ["content" => []]
-        ], 
         "contentLayout" => [
           "template" => "contentLayout",
           "path" => $assetPath . "/layout/contentLayout",
+          "variables" => ["content" => []]
+        ], 
+        "fullWidth" => [
+          "template" => "fullWidth",
+          "path" => $assetPath . "/layout/fullWidth",
           "variables" => ["content" => []]
         ], 
         "contactLayout" => [
@@ -291,14 +291,14 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/landing/ServiceLinks",
           "variables" => ["content" => []]
         ], 
-        "landingText" => [
-          "template" => "landingText",
-          "path" => $assetPath . "/components/landing/LandingText",
-          "variables" => ["content" => []]
-        ], 
         "campaignBlock" => [
           "template" => "campaignBlock",
           "path" => $assetPath . "/components/landing/CampaignBlock",
+          "variables" => ["content" => []]
+        ], 
+        "landingText" => [
+          "template" => "landingText",
+          "path" => $assetPath . "/components/landing/LandingText",
           "variables" => ["content" => []]
         ], 
         "landingTitle" => [
