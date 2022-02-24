@@ -201,14 +201,14 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/form/MultistepFunction",
           "variables" => ["content" => []]
         ], 
-        "searchBarHeader" => [
-          "template" => "searchBarHeader",
-          "path" => $assetPath . "/components/search/SearchBarHeader/react",
-          "variables" => ["content" => []]
-        ], 
         "radio" => [
           "template" => "radio",
           "path" => $assetPath . "/components/form/Radio",
+          "variables" => ["content" => []]
+        ], 
+        "searchBarHeader" => [
+          "template" => "searchBarHeader",
+          "path" => $assetPath . "/components/search/SearchBarHeader/react",
           "variables" => ["content" => []]
         ], 
         "tabs" => [
@@ -246,6 +246,11 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/landing/LandingLinks",
           "variables" => ["content" => []]
         ], 
+        "largePromoGroup" => [
+          "template" => "largePromoGroup",
+          "path" => $assetPath . "/components/landing/LargePromoGroup",
+          "variables" => ["content" => []]
+        ], 
         "sortBy" => [
           "template" => "sortBy",
           "path" => $assetPath . "/components/search/SortBy/react",
@@ -259,11 +264,6 @@ function deeson_twig_component_templates($assetPath = 'auto') {
         "ratingCta" => [
           "template" => "ratingCta",
           "path" => $assetPath . "/components/search/RatingCta/react",
-          "variables" => ["content" => []]
-        ], 
-        "largePromoGroup" => [
-          "template" => "largePromoGroup",
-          "path" => $assetPath . "/components/landing/LargePromoGroup",
           "variables" => ["content" => []]
         ], 
         "datepicker" => [
