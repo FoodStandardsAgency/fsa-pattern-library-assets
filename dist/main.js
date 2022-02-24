@@ -467,7 +467,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _mai
 /***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _nationalArchiveLink_html_twig__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./nationalArchiveLink.html.twig */ \"./src/components/general/NationalArchiveLink/nationalArchiveLink.html.twig\");\n/* harmony import */ var _nationalArchiveLink_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./nationalArchiveLink.scss */ \"./src/components/general/NationalArchiveLink/nationalArchiveLink.scss\");\n\n\n\n//# sourceURL=webpack://fsa-design-system/./src/components/general/NationalArchiveLink/nationalArchiveLink.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _nationalArchiveLink_html_twig__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./nationalArchiveLink.html.twig */ \"./src/components/general/NationalArchiveLink/nationalArchiveLink.html.twig\");\n/* harmony import */ var _react_nationalArchiveLink_html_twig__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./react/nationalArchiveLink.html.twig */ \"./src/components/general/NationalArchiveLink/react/nationalArchiveLink.html.twig\");\n/* harmony import */ var _nationalArchiveLink_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./nationalArchiveLink.scss */ \"./src/components/general/NationalArchiveLink/nationalArchiveLink.scss\");\n\n\n\n\n//# sourceURL=webpack://fsa-design-system/./src/components/general/NationalArchiveLink/nationalArchiveLink.js?");
 
 /***/ }),
 
@@ -1347,6 +1347,17 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ 
 
 "use strict";
 eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"components/general/NationalArchiveLink/nationalArchiveLink.html.twig\");\n\n//# sourceURL=webpack://fsa-design-system/./src/components/general/NationalArchiveLink/nationalArchiveLink.html.twig?");
+
+/***/ }),
+
+/***/ "./src/components/general/NationalArchiveLink/react/nationalArchiveLink.html.twig":
+/*!****************************************************************************************!*\
+  !*** ./src/components/general/NationalArchiveLink/react/nationalArchiveLink.html.twig ***!
+  \****************************************************************************************/
+/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"components/general/NationalArchiveLink/react/nationalArchiveLink.html.twig\");\n\n//# sourceURL=webpack://fsa-design-system/./src/components/general/NationalArchiveLink/react/nationalArchiveLink.html.twig?");
 
 /***/ }),
 
