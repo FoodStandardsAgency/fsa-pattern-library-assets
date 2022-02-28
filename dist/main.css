@@ -809,27 +809,39 @@ p {
     padding-right: 1rem;
   }
 }
-.header__languages {
+.header__top {
+  display: flex;
+  justify-content: flex-end;
+}
+.header__languages, .header__user_menu {
   text-align: right;
 }
-.header__languages--mobile {
+.header__languages--mobile, .header__user_menu--mobile {
   display: block;
   background-color: var(--fsa-primary_white);
 }
 @media screen and (min-width: 1024px) {
-  .header__languages--mobile {
+  .header__languages--mobile, .header__user_menu--mobile {
     display: none;
   }
 }
-.header__languages--desktop {
+.header__languages--desktop, .header__user_menu--desktop {
   display: none;
 }
 @media screen and (min-width: 1024px) {
-  .header__languages--desktop {
+  .header__languages--desktop, .header__user_menu--desktop {
     display: block;
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
   }
 }
-.header__languages-list {
+.header__user_menu {
+  margin: 0 1rem 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  background-color: var(--fsa_online-grey);
+}
+.header__languages-list, .header__user_menu-list {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -839,15 +851,19 @@ p {
   padding: 0;
 }
 @media screen and (min-width: 1024px) {
-  .header__languages-list {
+  .header__languages-list, .header__user_menu-list {
     display: block;
     height: 2rem;
   }
 }
-.header__language {
+.header__user_menu-list {
+  position: relative;
+  z-index: 2;
+}
+.header__language, .header__user_menu_item {
   display: inline-block;
 }
-.header__language:first-child::after {
+.header__language:first-child::after, .header__user_menu_item:first-child::after {
   content: "|";
   margin: 0 0.25rem;
 }
@@ -896,6 +912,22 @@ p {
     padding-bottom: 0.5rem;
   }
 }
+.header__user_menu-link:focus {
+  text-decoration: none;
+  outline: none;
+  position: relative;
+  color: var(--fsa-primary_black);
+}
+.header__user_menu-link:focus::before {
+  content: "";
+  width: 100%;
+  height: calc(100% + 0.75rem);
+  top: -0.4rem;
+  position: absolute;
+  background-color: var(--fsa-tertiary_light-yellow);
+  border-bottom: 4px solid var(--fsa-primary_black);
+  z-index: -1;
+}
 .header__navigation {
   display: none;
 }
@@ -905,12 +937,33 @@ p {
     display: block;
   }
 }
+div .header__user-menu-navigation {
+  border-bottom: 0;
+}
+.header__logo-container {
+  flex-grow: 1;
+}
+@media screen and (min-width: 768px) {
+  .header__logo-container {
+    display: inline-flex;
+  }
+}
 .header__logo-wrapper {
   flex-grow: 1;
 }
 @media screen and (min-width: 1024px) {
   .header__logo-wrapper {
     flex-grow: 0;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .header__primary-logo-wrapper {
+    flex-grow: 0;
+  }
+}
+@media screen and (min-width: 768px) {
+  .header__secondary-logo-wrapper {
+    margin-left: 2rem;
   }
 }
 .header__logo {
@@ -933,6 +986,9 @@ p {
 .header__logo-svg--welsh {
   background-image: url(./components/general/Header/assets/logo/logo-cy.svg);
 }
+.header__logo-svg--secondary-logo {
+  background-image: url(./components/general/Header/assets/logo/my-haccp-logo.svg);
+}
 @media screen and (min-width: 1024px) {
   .header__logo-svg {
     width: 9.25rem;
@@ -948,6 +1004,12 @@ p {
   .header__links--mobile {
     display: none;
   }
+}
+.header__links--mobile-user-menu {
+  margin-left: 0;
+}
+.header__links--mobile-user-menu .navigation__wrapper {
+  margin-bottom: 0;
 }
 .header__links--desktop {
   display: none;
@@ -1144,6 +1206,12 @@ p {
   .header__links-anchor:hover {
     color: var(--fsa__link-green);
   }
+}
+.header__search-and-menu-container {
+  display: flex;
+  flex-direction: row;
+  -ms-grid-row-align: start;
+      align-self: start;
 }
 .header__search-bar-wrapper {
   display: flex;
@@ -3393,13 +3461,6 @@ p {
 }
 .error-response__message p {
   margin-top: 2rem;
-}
-.error-response__image {
-  position: absolute;
-  z-index: -1;
-  width: 12rem;
-  height: auto;
-  opacity: 0.5;
 }
 /*!***************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/components/general/Navigation/navigation.scss ***!

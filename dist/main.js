@@ -379,7 +379,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _errorResponse_html_twig__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./errorResponse.html.twig */ \"./src/components/general/ErrorResponse/errorResponse.html.twig\");\n/* harmony import */ var _errorResponse_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./errorResponse.scss */ \"./src/components/general/ErrorResponse/errorResponse.scss\");\n/* harmony import */ var _assets_403_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./assets/403.png */ \"./src/components/general/ErrorResponse/assets/403.png\");\n/* harmony import */ var _assets_404_png__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./assets/404.png */ \"./src/components/general/ErrorResponse/assets/404.png\");\n\n\n\n\n\n//# sourceURL=webpack://fsa-design-system/./src/components/general/ErrorResponse/errorResponse.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _errorResponse_html_twig__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./errorResponse.html.twig */ \"./src/components/general/ErrorResponse/errorResponse.html.twig\");\n/* harmony import */ var _errorResponse_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./errorResponse.scss */ \"./src/components/general/ErrorResponse/errorResponse.scss\");\n\n\n\n//# sourceURL=webpack://fsa-design-system/./src/components/general/ErrorResponse/errorResponse.js?");
 
 /***/ }),
 
@@ -852,28 +852,6 @@ eval("__webpack_require__.r(__webpack_exports__);\n/*!\n * css-vars-ponyfill\n *
 /***/ (function() {
 
 eval("if (typeof Element !== \"undefined\") {\n    if (!Element.prototype.matches) {\n        Element.prototype.matches = Element.prototype.msMatchesSelector || Element.prototype.webkitMatchesSelector;\n    }\n\n    if (!Element.prototype.closest) {\n        Element.prototype.closest = function (s) {\n            var el = this;\n\n            do {\n                if (el.matches(s)) return el;\n                el = el.parentElement || el.parentNode;\n            } while (el !== null && el.nodeType === 1);\n            \n            return null;\n        };\n    }\n}\n\n\n//# sourceURL=webpack://fsa-design-system/./node_modules/element-closest-polyfill/index.js?");
-
-/***/ }),
-
-/***/ "./src/components/general/ErrorResponse/assets/403.png":
-/*!*************************************************************!*\
-  !*** ./src/components/general/ErrorResponse/assets/403.png ***!
-  \*************************************************************/
-/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"./components/general/ErrorResponse/assets/403.png\");\n\n//# sourceURL=webpack://fsa-design-system/./src/components/general/ErrorResponse/assets/403.png?");
-
-/***/ }),
-
-/***/ "./src/components/general/ErrorResponse/assets/404.png":
-/*!*************************************************************!*\
-  !*** ./src/components/general/ErrorResponse/assets/404.png ***!
-  \*************************************************************/
-/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"./components/general/ErrorResponse/assets/404.png\");\n\n//# sourceURL=webpack://fsa-design-system/./src/components/general/ErrorResponse/assets/404.png?");
 
 /***/ }),
 
