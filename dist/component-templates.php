@@ -231,14 +231,14 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/form/Textarea",
           "variables" => ["content" => []]
         ], 
-        "step" => [
-          "template" => "step",
-          "path" => $assetPath . "/components/form/Step",
-          "variables" => ["content" => []]
-        ], 
         "mapField" => [
           "template" => "mapField",
           "path" => $assetPath . "/components/form/MapField",
+          "variables" => ["content" => []]
+        ], 
+        "step" => [
+          "template" => "step",
+          "path" => $assetPath . "/components/form/Step",
           "variables" => ["content" => []]
         ], 
         "landingLinks" => [
@@ -296,14 +296,14 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/landing/PromoGroup",
           "variables" => ["content" => []]
         ], 
-        "serviceLinks" => [
-          "template" => "serviceLinks",
-          "path" => $assetPath . "/components/landing/ServiceLinks",
-          "variables" => ["content" => []]
-        ], 
         "campaignBlock" => [
           "template" => "campaignBlock",
           "path" => $assetPath . "/components/landing/CampaignBlock",
+          "variables" => ["content" => []]
+        ], 
+        "serviceLinks" => [
+          "template" => "serviceLinks",
+          "path" => $assetPath . "/components/landing/ServiceLinks",
           "variables" => ["content" => []]
         ], 
         "landingText" => [
