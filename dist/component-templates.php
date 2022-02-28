@@ -216,14 +216,14 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/search/SearchBarHeader/react",
           "variables" => ["content" => []]
         ], 
-        "titleAndText" => [
-          "template" => "titleAndText",
-          "path" => $assetPath . "/components/form/TitleAndText",
-          "variables" => ["content" => []]
-        ], 
         "emailField" => [
           "template" => "emailField",
           "path" => $assetPath . "/components/form/EmailField",
+          "variables" => ["content" => []]
+        ], 
+        "titleAndText" => [
+          "template" => "titleAndText",
+          "path" => $assetPath . "/components/form/TitleAndText",
           "variables" => ["content" => []]
         ], 
         "textarea" => [
@@ -231,14 +231,14 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/form/Textarea",
           "variables" => ["content" => []]
         ], 
-        "step" => [
-          "template" => "step",
-          "path" => $assetPath . "/components/form/Step",
-          "variables" => ["content" => []]
-        ], 
         "mapField" => [
           "template" => "mapField",
           "path" => $assetPath . "/components/form/MapField",
+          "variables" => ["content" => []]
+        ], 
+        "step" => [
+          "template" => "step",
+          "path" => $assetPath . "/components/form/Step",
           "variables" => ["content" => []]
         ], 
         "landingLinks" => [
