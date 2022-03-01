@@ -196,14 +196,14 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/form/MessageBox",
           "variables" => ["content" => []]
         ], 
-        "radio" => [
-          "template" => "radio",
-          "path" => $assetPath . "/components/form/Radio",
-          "variables" => ["content" => []]
-        ], 
         "multistepFunction" => [
           "template" => "multistepFunction",
           "path" => $assetPath . "/components/form/MultistepFunction",
+          "variables" => ["content" => []]
+        ], 
+        "radio" => [
+          "template" => "radio",
+          "path" => $assetPath . "/components/form/Radio",
           "variables" => ["content" => []]
         ], 
         "tabs" => [
@@ -256,14 +256,14 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/search/SortBy/react",
           "variables" => ["content" => []]
         ], 
-        "ratingCta" => [
-          "template" => "ratingCta",
-          "path" => $assetPath . "/components/search/RatingCta/react",
-          "variables" => ["content" => []]
-        ], 
         "filtersHeader" => [
           "template" => "filtersHeader",
           "path" => $assetPath . "/components/search/FiltersHeader/react",
+          "variables" => ["content" => []]
+        ], 
+        "ratingCta" => [
+          "template" => "ratingCta",
+          "path" => $assetPath . "/components/search/RatingCta/react",
           "variables" => ["content" => []]
         ], 
         "datepicker" => [
