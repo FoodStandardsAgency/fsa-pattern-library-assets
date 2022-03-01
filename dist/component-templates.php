@@ -41,14 +41,14 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/general/Button",
           "variables" => ["content" => []]
         ], 
-        "header" => [
-          "template" => "header",
-          "path" => $assetPath . "/components/general/Header",
-          "variables" => ["content" => []]
-        ], 
         "hero" => [
           "template" => "hero",
           "path" => $assetPath . "/components/general/Hero",
+          "variables" => ["content" => []]
+        ], 
+        "header" => [
+          "template" => "header",
+          "path" => $assetPath . "/components/general/Header",
           "variables" => ["content" => []]
         ], 
         "link" => [
@@ -66,11 +66,6 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/general/MailLink",
           "variables" => ["content" => []]
         ], 
-        "footer" => [
-          "template" => "footer",
-          "path" => $assetPath . "/components/general/Footer",
-          "variables" => ["content" => []]
-        ], 
         "feedback" => [
           "template" => "feedback",
           "path" => $assetPath . "/components/general/Feedback",
@@ -79,6 +74,11 @@ function deeson_twig_component_templates($assetPath = 'auto') {
         "cookieBanner" => [
           "template" => "cookieBanner",
           "path" => $assetPath . "/components/general/CookieBanner",
+          "variables" => ["content" => []]
+        ], 
+        "footer" => [
+          "template" => "footer",
+          "path" => $assetPath . "/components/general/Footer",
           "variables" => ["content" => []]
         ], 
         "temporaryMessage" => [
@@ -141,11 +141,6 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/search/SortBy",
           "variables" => ["content" => []]
         ], 
-        "nationalArchiveLink" => [
-          "template" => "nationalArchiveLink",
-          "path" => $assetPath . "/components/general/NationalArchiveLink/react",
-          "variables" => ["content" => []]
-        ], 
         "filtersHeader" => [
           "template" => "filtersHeader",
           "path" => $assetPath . "/components/search/FiltersHeader",
@@ -154,6 +149,11 @@ function deeson_twig_component_templates($assetPath = 'auto') {
         "ratingCta" => [
           "template" => "ratingCta",
           "path" => $assetPath . "/components/search/RatingCta",
+          "variables" => ["content" => []]
+        ], 
+        "nationalArchiveLink" => [
+          "template" => "nationalArchiveLink",
+          "path" => $assetPath . "/components/general/NationalArchiveLink/react",
           "variables" => ["content" => []]
         ], 
         "datepicker" => [
@@ -221,6 +221,11 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/form/TitleAndText",
           "variables" => ["content" => []]
         ], 
+        "emailField" => [
+          "template" => "emailField",
+          "path" => $assetPath . "/components/form/EmailField",
+          "variables" => ["content" => []]
+        ], 
         "textarea" => [
           "template" => "textarea",
           "path" => $assetPath . "/components/form/Textarea",
@@ -244,11 +249,6 @@ function deeson_twig_component_templates($assetPath = 'auto') {
         "largePromoGroup" => [
           "template" => "largePromoGroup",
           "path" => $assetPath . "/components/landing/LargePromoGroup",
-          "variables" => ["content" => []]
-        ], 
-        "emailField" => [
-          "template" => "emailField",
-          "path" => $assetPath . "/components/form/EmailField",
           "variables" => ["content" => []]
         ], 
         "sortBy" => [
