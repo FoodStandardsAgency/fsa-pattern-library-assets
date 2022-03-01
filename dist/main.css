@@ -3029,35 +3029,23 @@ div .header__user-menu-navigation {
   }
 }
 .temporary-message a {
-  color: var(--fsa-primary_dark-green);
-  text-decoration: underline;
-  border-bottom: 0.25rem solid transparent;
   color: var(--fsa-primary_black);
   text-decoration: none;
   border-bottom: 1px solid var(--fsa-primary_black);
 }
-.temporary-message a:hover {
-  color: var(--fsa__link-green);
-}
 .temporary-message a:focus {
-  color: var(--fsa-primary_black);
-  outline: none;
-  text-decoration: none;
-  background-color: var(--fsa-tertiary_light-yellow);
-  border-bottom: 0.25rem solid var(--fsa-primary_black);
-  margin-bottom: -0.25rem;
-}
-.temporary-message a:focus-visible {
   color: var(--fsa-primary_white);
   background-color: var(--fsa-primary_black);
 }
-.temporary-message a:focus-visible::after {
+.temporary-message a:focus::after {
   background-image: url(./components/general/ExternalLink/assets/external-white.svg);
 }
-.temporary-message a:hover:not(:focus-visible) {
+.temporary-message a:hover {
   border-bottom: 4px solid var(--fsa-primary_black);
   color: var(--fsa-primary_black);
-  background-color: transparent;
+}
+.temporary-message a:hover:focus {
+  color: var(--fsa-primary_white);
 }
 .temporary-message--warning {
   background-color: var(--fsa-secondary_mid-yellow);
@@ -3076,13 +3064,15 @@ div .header__user-menu-navigation {
   color: var(--fsa-primary_white);
   border-color: var(--fsa-primary_white);
 }
-.temporary-message--danger .temporary-message__content a:focus-visible {
+.temporary-message--danger .temporary-message__content a:focus {
   border-color: var(--fsa-primary_black);
 }
-.temporary-message--danger .temporary-message__content a:hover:not(:focus-visible) {
+.temporary-message--danger .temporary-message__content a:hover {
+  border-bottom: 4px solid var(--fsa-primary_white);
   color: var(--fsa-primary_white);
-  border-color: var(--fsa-primary_white);
-  background-color: transparent;
+}
+.temporary-message--danger .temporary-message__content a:hover:focus {
+  border-bottom: 4px solid var(--fsa-primary_black);
 }
 .temporary-message__content {
   font-family: var(--body-font);
@@ -3182,6 +3172,11 @@ div .header__user-menu-navigation {
 /* Custom Mixins */
 /* Mixin for checkbox and radio button style */
 /* Used for Style guide pages */
+@media screen and (min-width: 1024px) {
+  .national-archive-link {
+    margin-top: 2rem;
+  }
+}
 .national-archive-link__content--left, .national-archive-link__content--right {
   display: flex;
   flex-direction: column;
@@ -4421,13 +4416,11 @@ div .header__user-menu-navigation {
 .filters {
   display: flex;
   flex-direction: column;
-  margin-bottom: 2rem;
 }
 @media screen and (min-width: 768px) {
   .filters {
     flex-direction: row;
     justify-content: space-between;
-    margin-bottom: 1.8rem;
   }
 }
 .filters__buttons {
@@ -4448,7 +4441,7 @@ div .header__user-menu-navigation {
   box-shadow: none;
   min-height: 44px;
   padding: 0.6rem 3rem 0.6rem 1rem;
-  margin: 0 0.5rem 0.5rem 0;
+  margin: 0.5rem 0.5rem 0 0;
   cursor: pointer;
   transition: background-color 0.2s cubic-bezier(0.19, 1, 0.22, 1), color 0.2s cubic-bezier(0.19, 1, 0.22, 1), border-radius 0.2s cubic-bezier(0.19, 1, 0.22, 1);
   background-image: url(./components/search/FiltersSelected/assets/cross-white.svg);
@@ -4569,15 +4562,23 @@ div .header__user-menu-navigation {
 /* Mixin for checkbox and radio button style */
 /* Used for Style guide pages */
 .listing-item {
-  margin-bottom: 1.5rem;
+  margin-top: 1.5rem;
+  position: relative;
+}
+.listing-item:after {
+  background: var(--fsa_border);
+  content: " ";
+  position: absolute;
+  margin-top: 1.5rem;
+  height: 4px;
+  width: 100%;
 }
 .listing-item__content {
-  border-bottom: 4px solid var(--fsa_border);
-  padding: 0 1rem 1.5rem 1rem;
+  padding: 1.5rem 1rem 0 1rem;
 }
 @media screen and (min-width: 1024px) {
   .listing-item__content {
-    padding: 0 3rem 1.5rem 3rem;
+    padding: 1.5rem 3rem 0 3rem;
   }
 }
 .listing-item__type {
@@ -4712,6 +4713,9 @@ div .header__user-menu-navigation {
 /* Custom Mixins */
 /* Mixin for checkbox and radio button style */
 /* Used for Style guide pages */
+.pagination {
+  margin-top: 4rem;
+}
 .pagination__list {
   display: flex;
   justify-content: space-between;
@@ -4719,7 +4723,7 @@ div .header__user-menu-navigation {
 }
 @media screen and (min-width: 1024px) {
   .pagination__list {
-    margin: 2rem 0;
+    margin: 2rem 0 0;
   }
 }
 .pagination__item-group {
@@ -4949,7 +4953,7 @@ div .header__user-menu-navigation {
   letter-spacing: normal;
   color: var(--fsa-primary_dark-green);
   color: var(--fsa-primary_dark-green);
-  margin-bottom: 1rem;
+  margin-bottom: 0;
   margin-top: 3rem;
 }
 @media screen and (min-width: 1024px) {
@@ -14047,7 +14051,7 @@ h3.form-title {
     padding-right: 1rem;
   }
 }
-.content-layout__right > *:first-child {
+.content-layout__right-content > *:first-child {
   margin-top: 0;
 }
 @media screen and (min-width: 1024px) {
@@ -14077,6 +14081,37 @@ h3.form-title {
 }
 @media screen and (min-width: 1440px) and (min-width: 768px) {
   .content-layout__right {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .content-layout__right--centered {
+    margin: 0 auto;
+    width: 66.6666666667%;
+    flex-basis: 66.6666666667%;
+    max-width: 66.6666666667%;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+}
+@media screen and (min-width: 1024px) and (min-width: 768px) {
+  .content-layout__right--centered {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .content-layout__right--centered {
+    width: 58.3333333333%;
+    flex-basis: 58.3333333333%;
+    max-width: 58.3333333333%;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+}
+@media screen and (min-width: 1440px) and (min-width: 768px) {
+  .content-layout__right--centered {
     padding-left: 1rem;
     padding-right: 1rem;
   }
@@ -14297,6 +14332,7 @@ h3.form-title {
 .search-bar {
   position: relative;
   display: flex;
+  margin-top: 1rem;
 }
 .search-bar__label {
   font-family: var(--body-font);
