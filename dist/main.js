@@ -764,7 +764,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\nvar updateParams = function updateParams(name, value) {\n  var currUrl = new URL(window.location.href);\n  var params = new URLSearchParams(currUrl.search);\n  params.delete(name);\n  params.append(name, value);\n  var query = params.toString();\n  var form = document.getElementsByClassName('search-bar');\n  var pathName = currUrl.pathname;\n\n  if (form[0]) {\n    pathName = form[0].getAttribute('action');\n  }\n\n  window.location.href = window.location.origin + pathName + (query != '' ? '?' + query : '');\n};\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (updateParams);\n\n//# sourceURL=webpack://fsa-design-system/./src/helpers/updateParams.js?");
+eval("__webpack_require__.r(__webpack_exports__);\nvar updateParams = function updateParams(name, value) {\n  var currUrl = new URL(window.location.href);\n  var params = new URLSearchParams(currUrl.search);\n  params.delete(name);\n  params.append(name, value);\n  var query = params.toString();\n  var pathName = currUrl.pathname;\n  window.location.href = window.location.origin + pathName + (query != '' ? '?' + query : '');\n};\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (updateParams);\n\n//# sourceURL=webpack://fsa-design-system/./src/helpers/updateParams.js?");
 
 /***/ }),
 
