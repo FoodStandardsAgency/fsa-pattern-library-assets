@@ -186,11 +186,6 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/form/ErrorBox",
           "variables" => ["content" => []]
         ], 
-        "inputField" => [
-          "template" => "inputField",
-          "path" => $assetPath . "/components/form/InputField",
-          "variables" => ["content" => []]
-        ], 
         "messageBox" => [
           "template" => "messageBox",
           "path" => $assetPath . "/components/form/MessageBox",
@@ -199,6 +194,11 @@ function deeson_twig_component_templates($assetPath = 'auto') {
         "multistepFunction" => [
           "template" => "multistepFunction",
           "path" => $assetPath . "/components/form/MultistepFunction",
+          "variables" => ["content" => []]
+        ], 
+        "inputField" => [
+          "template" => "inputField",
+          "path" => $assetPath . "/components/form/InputField",
           "variables" => ["content" => []]
         ], 
         "radio" => [
@@ -231,14 +231,14 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/form/Textarea",
           "variables" => ["content" => []]
         ], 
-        "mapField" => [
-          "template" => "mapField",
-          "path" => $assetPath . "/components/form/MapField",
-          "variables" => ["content" => []]
-        ], 
         "step" => [
           "template" => "step",
           "path" => $assetPath . "/components/form/Step",
+          "variables" => ["content" => []]
+        ], 
+        "mapField" => [
+          "template" => "mapField",
+          "path" => $assetPath . "/components/form/MapField",
           "variables" => ["content" => []]
         ], 
         "landingLinks" => [
@@ -291,14 +291,14 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/landing/LatestTeaser",
           "variables" => ["content" => []]
         ], 
-        "serviceLinks" => [
-          "template" => "serviceLinks",
-          "path" => $assetPath . "/components/landing/ServiceLinks",
-          "variables" => ["content" => []]
-        ], 
         "promoGroup" => [
           "template" => "promoGroup",
           "path" => $assetPath . "/components/landing/PromoGroup",
+          "variables" => ["content" => []]
+        ], 
+        "serviceLinks" => [
+          "template" => "serviceLinks",
+          "path" => $assetPath . "/components/landing/ServiceLinks",
           "variables" => ["content" => []]
         ], 
         "campaignBlock" => [
