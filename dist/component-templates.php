@@ -66,6 +66,11 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/general/MailLink",
           "variables" => ["content" => []]
         ], 
+        "footer" => [
+          "template" => "footer",
+          "path" => $assetPath . "/components/general/Footer",
+          "variables" => ["content" => []]
+        ], 
         "feedback" => [
           "template" => "feedback",
           "path" => $assetPath . "/components/general/Feedback",
@@ -74,11 +79,6 @@ function deeson_twig_component_templates($assetPath = 'auto') {
         "cookieBanner" => [
           "template" => "cookieBanner",
           "path" => $assetPath . "/components/general/CookieBanner",
-          "variables" => ["content" => []]
-        ], 
-        "footer" => [
-          "template" => "footer",
-          "path" => $assetPath . "/components/general/Footer",
           "variables" => ["content" => []]
         ], 
         "temporaryMessage" => [
@@ -291,6 +291,11 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/landing/LatestTeaser",
           "variables" => ["content" => []]
         ], 
+        "serviceLinks" => [
+          "template" => "serviceLinks",
+          "path" => $assetPath . "/components/landing/ServiceLinks",
+          "variables" => ["content" => []]
+        ], 
         "promoGroup" => [
           "template" => "promoGroup",
           "path" => $assetPath . "/components/landing/PromoGroup",
@@ -299,11 +304,6 @@ function deeson_twig_component_templates($assetPath = 'auto') {
         "campaignBlock" => [
           "template" => "campaignBlock",
           "path" => $assetPath . "/components/landing/CampaignBlock",
-          "variables" => ["content" => []]
-        ], 
-        "serviceLinks" => [
-          "template" => "serviceLinks",
-          "path" => $assetPath . "/components/landing/ServiceLinks",
           "variables" => ["content" => []]
         ], 
         "landingText" => [
