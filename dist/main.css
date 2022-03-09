@@ -1228,21 +1228,34 @@ div .header__user-menu-navigation {
   margin-left: 2rem;
 }
 .header__links-anchor {
+  color: #007c75;
+  color: var(--fsa-primary_dark-green);
+  text-decoration: underline;
+  border-bottom: 0.25rem solid transparent;
+  text-decoration: none;
   color: #fff;
   color: var(--fsa-primary_white);
-  font-family: "Open Sans", sans-serif;
-  font-family: var(--body-font);
-  font-weight: 400;
-  font-weight: var(--body-normal);
-  font-size: 1rem;
-  line-height: 1.6;
-  letter-spacing: normal;
   display: flex;
   flex-wrap: nowrap;
   margin: 0.5rem 0;
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
+}
+.header__links-anchor:hover {
+  color: #014b4c;
+  color: var(--fsa__link-green);
+}
+.header__links-anchor:focus {
+  color: #000;
+  color: var(--fsa-primary_black);
+  outline: none;
+  text-decoration: none;
+  background-color: #f1c400;
+  background-color: var(--fsa-tertiary_light-yellow);
+  border-bottom: 0.25rem solid #000;
+  border-bottom: 0.25rem solid var(--fsa-primary_black);
+  margin-bottom: -0.25rem;
 }
 @media screen and (min-width: 1024px) {
   .header__links-anchor {
@@ -1347,14 +1360,15 @@ div .header__user-menu-navigation {
   position: relative;
   color: #000;
   color: var(--fsa-primary_black);
+  margin-bottom: 0.5rem;
 }
-.header__links-anchor:hover {
+.header__links-anchor:hover:not(:focus) {
   color: #fff;
   color: var(--fsa-primary_white);
   text-decoration: underline;
 }
 @media screen and (min-width: 1024px) {
-  .header__links-anchor:hover {
+  .header__links-anchor:hover:not(:focus) {
     color: #014b4c;
     color: var(--fsa__link-green);
   }
@@ -1565,6 +1579,9 @@ div .header__user-menu-navigation {
   .header--expanded .header__navigation {
     display: block;
     margin-top: 2rem;
+  }
+  .header--expanded .header__temporary-message {
+    display: none;
   }
 }
 .header--main .search-bar {
@@ -4117,6 +4134,107 @@ div .header__user-menu-navigation {
 }
 .error-response__message p {
   margin-top: 2rem;
+}
+/*!****************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/general/SkipToMainContent/skipToMainContent.scss ***!
+  \****************************************************************************************************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css?family=Fira+Sans:300,400,500,700);
+/*!********************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/general/SkipToMainContent/skipToMainContent.scss (1) ***!
+  \********************************************************************************************************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700);
+/*!********************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/general/SkipToMainContent/skipToMainContent.scss (2) ***!
+  \********************************************************************************************************************************************************************************************************/
+:root {
+  /* Primary Colours */
+  --fsa-primary_dark-green: #007c75;
+  --fsa-primary_mid-green: #6cb33f;
+  --fsa-primary_light-green: #a9c47f;
+  --fsa-primary_dark-grey: #53565a;
+  --fsa_online-grey: #f0f3f5;
+  --fsa_border: #dee2e5;
+  --fsa-primary_black: #000;
+  --fsa-primary_white: #fff;
+  --fsa_tint: #fafcfd;
+  /* Secondary Colours */
+  --fsa-secondary_mid-red: #e31837;
+  --fsa-secondary_dark-blue: #165c7d;
+  --fsa-secondary_orange: #f15d22;
+  --fsa-secondary_mid-yellow: #fdb913;
+  --fsa-secondary_mid-purple: #49176d;
+  --fsa-secondary_light-purple: #9f218b;
+  --fsa-tertiary_dark-blue: #9f218b;
+  --fsa-secondary-error-red: #e60f31;
+  --fsa-secondary-error-hover: #b0132b;
+  /* Tertiary Colours */
+  --fsa-tertiary_dark-red: #b04a5a;
+  --fsa-tertiary_light-red: #ef3340;
+  --fsa-tertiary_light-yellow: #f1c400;
+  --fsa-tertiary_teal: #00b2a9;
+  --fsa-tertiary_light-blue: #8dc8e8;
+  --fsa-tertiary_dark-purple: #51284f;
+  --fsa-secondary_mid-blue: #007fb2;
+  --fsa-tertiary_lime: #cedc00;
+  --fsa-tertiary_mauve: #8b84d7;
+  --fsa-tertiary_stripe-green: #006f51;
+  --fsa-tertiary_light-black: #101010;
+  /* Hover Colours */
+  --fsa__link-green: #014b4c;
+  --fsa__purple-hover: #2a0247;
+  --fsa__grey-hover: #d9d9d6;
+  --fsa__dark-green-hover: #002a2a;
+  /* Typography */
+  --body-font: "Open Sans", sans-serif;
+  --body-normal: 400;
+  --body-bold: 600;
+  --heading-font: "Fira Sans", sans-serif;
+  --heading-bold: 700;
+  /* Grid */
+  --container-mobile: 1rem;
+  --container: 2rem;
+  --gutter: 1rem;
+  --max-width: 1336px;
+  /* Transitions */
+  --transition-time: 200;
+}
+
+/* Grid */
+/* Custom Mixins */
+/* Mixin for checkbox and radio button style */
+/* Used for Style guide pages */
+.skip-to-main-content {
+  position: absolute;
+  left: -99999px;
+  top: 0;
+  background-color: #fff;
+  background-color: var(--fsa-primary_white);
+  padding: 1rem;
+  z-index: 9999;
+}
+.skip-to-main-content:focus-within {
+  left: 0;
+}
+.skip-to-main-content a {
+  color: #007c75;
+  color: var(--fsa-primary_dark-green);
+  text-decoration: underline;
+  border-bottom: 0.25rem solid transparent;
+}
+.skip-to-main-content a:hover {
+  color: #014b4c;
+  color: var(--fsa__link-green);
+}
+.skip-to-main-content a:focus {
+  color: #000;
+  color: var(--fsa-primary_black);
+  outline: none;
+  text-decoration: none;
+  background-color: #f1c400;
+  background-color: var(--fsa-tertiary_light-yellow);
+  border-bottom: 0.25rem solid #000;
+  border-bottom: 0.25rem solid var(--fsa-primary_black);
+  margin-bottom: -0.25rem;
 }
 /*!**************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/general/Navigation/navigation.scss ***!
@@ -7572,6 +7690,7 @@ body.overflow-hidden {
   border: solid 1px var(--fsa-primary_dark-grey);
   padding: 0.85rem 1rem;
   flex-grow: 1;
+  font-size: 1rem;
 }
 @media screen and (min-width: 500px) {
   .input-field__input {
@@ -14203,7 +14322,7 @@ h3.form-title {
   width: 2rem;
   height: 1.625rem;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   margin-right: 1rem;
 }
 .quote-block__wrapper {
@@ -14650,6 +14769,113 @@ h3.form-title {
 .chart-block__download-label {
   font-weight: bold;
   margin-top: 1rem;
+}
+/*!************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/article/FootNotes/footNotes.scss ***!
+  \************************************************************************************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css?family=Fira+Sans:300,400,500,700);
+/*!****************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/article/FootNotes/footNotes.scss (1) ***!
+  \****************************************************************************************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700);
+/*!****************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/article/FootNotes/footNotes.scss (2) ***!
+  \****************************************************************************************************************************************************************************************/
+:root {
+  /* Primary Colours */
+  --fsa-primary_dark-green: #007c75;
+  --fsa-primary_mid-green: #6cb33f;
+  --fsa-primary_light-green: #a9c47f;
+  --fsa-primary_dark-grey: #53565a;
+  --fsa_online-grey: #f0f3f5;
+  --fsa_border: #dee2e5;
+  --fsa-primary_black: #000;
+  --fsa-primary_white: #fff;
+  --fsa_tint: #fafcfd;
+  /* Secondary Colours */
+  --fsa-secondary_mid-red: #e31837;
+  --fsa-secondary_dark-blue: #165c7d;
+  --fsa-secondary_orange: #f15d22;
+  --fsa-secondary_mid-yellow: #fdb913;
+  --fsa-secondary_mid-purple: #49176d;
+  --fsa-secondary_light-purple: #9f218b;
+  --fsa-tertiary_dark-blue: #9f218b;
+  --fsa-secondary-error-red: #e60f31;
+  --fsa-secondary-error-hover: #b0132b;
+  /* Tertiary Colours */
+  --fsa-tertiary_dark-red: #b04a5a;
+  --fsa-tertiary_light-red: #ef3340;
+  --fsa-tertiary_light-yellow: #f1c400;
+  --fsa-tertiary_teal: #00b2a9;
+  --fsa-tertiary_light-blue: #8dc8e8;
+  --fsa-tertiary_dark-purple: #51284f;
+  --fsa-secondary_mid-blue: #007fb2;
+  --fsa-tertiary_lime: #cedc00;
+  --fsa-tertiary_mauve: #8b84d7;
+  --fsa-tertiary_stripe-green: #006f51;
+  --fsa-tertiary_light-black: #101010;
+  /* Hover Colours */
+  --fsa__link-green: #014b4c;
+  --fsa__purple-hover: #2a0247;
+  --fsa__grey-hover: #d9d9d6;
+  --fsa__dark-green-hover: #002a2a;
+  /* Typography */
+  --body-font: "Open Sans", sans-serif;
+  --body-normal: 400;
+  --body-bold: 600;
+  --heading-font: "Fira Sans", sans-serif;
+  --heading-bold: 700;
+  /* Grid */
+  --container-mobile: 1rem;
+  --container: 2rem;
+  --gutter: 1rem;
+  --max-width: 1336px;
+  /* Transitions */
+  --transition-time: 200;
+}
+
+/* Grid */
+/* Custom Mixins */
+/* Mixin for checkbox and radio button style */
+/* Used for Style guide pages */
+.foot-notes {
+  border-top: 1px #d9d9d6 solid;
+  border-top: 1px var(--fsa__grey-hover) solid;
+  margin-top: 3rem;
+}
+.foot-notes__link-list {
+  padding-left: 1rem;
+}
+.foot-notes__link-list__item {
+  padding-left: 0.5rem;
+  margin-top: 0.5rem;
+}
+.foot-notes__link-list__item a {
+  color: #007c75;
+  color: var(--fsa-primary_dark-green);
+  text-decoration: underline;
+}
+.foot-notes__link-list__item a:hover {
+  color: #014b4c;
+  color: var(--fsa__link-green);
+}
+.foot-notes__link-list__item-link {
+  margin-right: 0.6rem;
+}
+.foot-notes__link-list__item-link:hover::after {
+  background-image: url(./components/article/FootNotes/assets/arrow-up-hover.svg);
+}
+.foot-notes__link-list__item-link::after {
+  content: "";
+  background-image: url(./components/article/FootNotes/assets/arrow-up.svg);
+  display: inline-block;
+  width: 1rem;
+  height: 1.1rem;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  left: 0.25rem;
+  top: 4px;
 }
 /*!************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/article/BackToTop/backToTop.scss ***!
