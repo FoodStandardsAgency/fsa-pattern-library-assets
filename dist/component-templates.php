@@ -366,11 +366,6 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/article/SubjectListing",
           "variables" => ["content" => []]
         ], 
-        "explanationBlock" => [
-          "template" => "explanationBlock",
-          "path" => $assetPath . "/components/article/ExplanationBlock",
-          "variables" => ["content" => []]
-        ], 
         "quoteBlock" => [
           "template" => "quoteBlock",
           "path" => $assetPath . "/components/article/QuoteBlock",
@@ -379,6 +374,11 @@ function deeson_twig_component_templates($assetPath = 'auto') {
         "teamContacts" => [
           "template" => "teamContacts",
           "path" => $assetPath . "/components/article/TeamContacts",
+          "variables" => ["content" => []]
+        ], 
+        "explanationBlock" => [
+          "template" => "explanationBlock",
+          "path" => $assetPath . "/components/article/ExplanationBlock",
           "variables" => ["content" => []]
         ], 
         "productDetails" => [

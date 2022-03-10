@@ -1171,6 +1171,7 @@ div .header__user-menu-navigation {
 @media screen and (min-width: 1440px) {
   .header__links--desktop {
     margin-left: 2.75rem;
+    width: 80%;
   }
 }
 .header__links-wrapper {
@@ -6049,15 +6050,8 @@ div .header__user-menu-navigation {
 /* Mixin for checkbox and radio button style */
 /* Used for Style guide pages */
 .search-no-results {
+  padding-top: 2rem;
   padding-bottom: 2rem;
-}
-.search-no-results__content {
-  padding-left: 1rem;
-}
-@media screen and (min-width: 500px) {
-  .search-no-results__content {
-    padding-left: 3rem;
-  }
 }
 .search-no-results__title {
   font-family: "Fira Sans", sans-serif;
@@ -6371,6 +6365,9 @@ body.overflow-hidden {
   }
 }
 
+.search-filters--no-results {
+  display: none;
+}
 .search-filters__title {
   font-family: "Fira Sans", sans-serif;
   font-family: var(--heading-font);
@@ -14763,12 +14760,60 @@ h3.form-title {
 /* Custom Mixins */
 /* Mixin for checkbox and radio button style */
 /* Used for Style guide pages */
-.chart-block__download-buttons {
+.chart-block {
+  margin-top: 3rem;
+}
+.chart-block__name {
+  margin: 0;
+}
+.chart-block__switch-button {
+  white-space: nowrap;
+  margin-top: 2rem;
+}
+.chart-block__switch-button .button {
+  padding: 0.6rem 2rem;
+}
+.chart-block__image, .chart-block__content {
   margin-top: 1rem;
 }
-.chart-block__download-label {
+@media screen and (min-width: 1024px) {
+  .chart-block__image, .chart-block__content {
+    margin-top: 2rem;
+  }
+}
+.chart-block .hide {
+  display: none;
+}
+.chart-block__source {
+  margin-top: 2rem;
+}
+.chart-block__source-text {
+  font-family: "Open Sans", sans-serif;
+  font-family: var(--body-font);
+  font-weight: 400;
+  font-weight: var(--body-normal);
+  font-size: 1rem;
+  line-height: 1.6;
+  letter-spacing: normal;
   font-weight: bold;
-  margin-top: 1rem;
+}
+.chart-block__download-buttons .button {
+  margin: 1rem 0.5rem 0 0;
+}
+.chart-block__download-label {
+  font-family: "Fira Sans", sans-serif;
+  font-family: var(--heading-font);
+  font-size: 1.392rem;
+  font-weight: 700;
+  font-weight: var(--heading-bold);
+  line-height: 1.2;
+  letter-spacing: normal;
+  margin-top: 2rem;
+}
+@media screen and (min-width: 1024px) {
+  .chart-block__download-label {
+    font-size: 1.44rem;
+  }
 }
 /*!************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/article/FootNotes/footNotes.scss ***!
