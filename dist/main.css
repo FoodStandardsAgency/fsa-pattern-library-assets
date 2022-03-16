@@ -1589,6 +1589,11 @@ div .header__user-menu-navigation {
   margin-top: 0;
 }
 @media screen and (min-width: 1024px) {
+  .header--haccp {
+    padding-top: 0;
+  }
+}
+@media screen and (min-width: 1024px) {
   .header--haccp .header__languages--desktop, .header--haccp .header__user_menu--desktop {
     padding-top: 1rem;
     padding-bottom: 0.5rem;
@@ -2167,6 +2172,12 @@ div .header__user-menu-navigation {
 /* Used for Style guide pages */
 .user-login-form .link__wrapper {
   padding-top: 2rem;
+}
+/*!********************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/general/SiteMap/siteMap.scss ***!
+  \********************************************************************************************************************************************************************************/
+.sitemap__second-level {
+  margin-left: 2rem;
 }
 /*!******************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/general/ExternalLink/externalLink.scss ***!
@@ -7550,6 +7561,27 @@ body.overflow-hidden {
   border-bottom: 0.25rem solid var(--fsa-primary_black);
   margin-bottom: -0.25rem;
 }
+.error-box a {
+  color: #007c75;
+  color: var(--fsa-primary_dark-green);
+  text-decoration: underline;
+  border-bottom: 0.25rem solid transparent;
+}
+.error-box a:hover {
+  color: #014b4c;
+  color: var(--fsa__link-green);
+}
+.error-box a:focus {
+  color: #000;
+  color: var(--fsa-primary_black);
+  outline: none;
+  text-decoration: none;
+  background-color: #f1c400;
+  background-color: var(--fsa-tertiary_light-yellow);
+  border-bottom: 0.25rem solid #000;
+  border-bottom: 0.25rem solid var(--fsa-primary_black);
+  margin-bottom: -0.25rem;
+}
 /*!***********************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/form/InputField/inputField.scss ***!
   \***********************************************************************************************************************************************************************************/
@@ -7749,6 +7781,27 @@ body.overflow-hidden {
 }
 .input-field__error-message {
   margin-top: 0.5rem;
+}
+.input-field a {
+  color: #007c75;
+  color: var(--fsa-primary_dark-green);
+  text-decoration: underline;
+  border-bottom: 0.25rem solid transparent;
+}
+.input-field a:hover {
+  color: #014b4c;
+  color: var(--fsa__link-green);
+}
+.input-field a:focus {
+  color: #000;
+  color: var(--fsa-primary_black);
+  outline: none;
+  text-decoration: none;
+  background-color: #f1c400;
+  background-color: var(--fsa-tertiary_light-yellow);
+  border-bottom: 0.25rem solid #000;
+  border-bottom: 0.25rem solid var(--fsa-primary_black);
+  margin-bottom: -0.25rem;
 }
 /*!***********************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/form/MessageBox/messageBox.scss ***!
@@ -13756,6 +13809,7 @@ h3.form-title {
   font-size: 1rem;
   line-height: 1.6;
   letter-spacing: normal;
+  text-decoration: none;
 }
 .subject-listing__link-list__item a {
   color: #007c75;
