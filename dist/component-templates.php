@@ -141,24 +141,19 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/search/SearchNoResults",
           "variables" => ["content" => []]
         ], 
-        "sortBy" => [
-          "template" => "sortBy",
-          "path" => $assetPath . "/components/search/SortBy",
-          "variables" => ["content" => []]
-        ], 
         "showing" => [
           "template" => "showing",
           "path" => $assetPath . "/components/search/Showing",
           "variables" => ["content" => []]
         ], 
+        "sortBy" => [
+          "template" => "sortBy",
+          "path" => $assetPath . "/components/search/SortBy",
+          "variables" => ["content" => []]
+        ], 
         "filtersHeader" => [
           "template" => "filtersHeader",
           "path" => $assetPath . "/components/search/FiltersHeader",
-          "variables" => ["content" => []]
-        ], 
-        "nationalArchiveLink" => [
-          "template" => "nationalArchiveLink",
-          "path" => $assetPath . "/components/general/NationalArchiveLink/react",
           "variables" => ["content" => []]
         ], 
         "ratingCta" => [
@@ -174,6 +169,21 @@ function deeson_twig_component_templates($assetPath = 'auto') {
         "accordion" => [
           "template" => "accordion",
           "path" => $assetPath . "/components/search/Accordion",
+          "variables" => ["content" => []]
+        ], 
+        "nationalArchiveLink" => [
+          "template" => "nationalArchiveLink",
+          "path" => $assetPath . "/components/general/NationalArchiveLink/react",
+          "variables" => ["content" => []]
+        ], 
+        "searchBarHeader" => [
+          "template" => "searchBarHeader",
+          "path" => $assetPath . "/components/search/SearchBarHeader/react",
+          "variables" => ["content" => []]
+        ], 
+        "sortBy" => [
+          "template" => "sortBy",
+          "path" => $assetPath . "/components/search/SortBy/react",
           "variables" => ["content" => []]
         ], 
         "searchBar" => [
@@ -201,21 +211,6 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/form/InputField",
           "variables" => ["content" => []]
         ], 
-        "searchBarHeader" => [
-          "template" => "searchBarHeader",
-          "path" => $assetPath . "/components/search/SearchBarHeader/react",
-          "variables" => ["content" => []]
-        ], 
-        "sortBy" => [
-          "template" => "sortBy",
-          "path" => $assetPath . "/components/search/SortBy/react",
-          "variables" => ["content" => []]
-        ], 
-        "filtersHeader" => [
-          "template" => "filtersHeader",
-          "path" => $assetPath . "/components/search/FiltersHeader/react",
-          "variables" => ["content" => []]
-        ], 
         "messageBox" => [
           "template" => "messageBox",
           "path" => $assetPath . "/components/form/MessageBox",
@@ -226,24 +221,9 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/form/MultistepFunction",
           "variables" => ["content" => []]
         ], 
-        "radio" => [
-          "template" => "radio",
-          "path" => $assetPath . "/components/form/Radio",
-          "variables" => ["content" => []]
-        ], 
-        "tabs" => [
-          "template" => "tabs",
-          "path" => $assetPath . "/components/form/Tabs",
-          "variables" => ["content" => []]
-        ], 
-        "titleAndText" => [
-          "template" => "titleAndText",
-          "path" => $assetPath . "/components/form/TitleAndText",
-          "variables" => ["content" => []]
-        ], 
-        "emailField" => [
-          "template" => "emailField",
-          "path" => $assetPath . "/components/form/EmailField",
+        "filtersHeader" => [
+          "template" => "filtersHeader",
+          "path" => $assetPath . "/components/search/FiltersHeader/react",
           "variables" => ["content" => []]
         ], 
         "ratingCta" => [
@@ -269,6 +249,26 @@ function deeson_twig_component_templates($assetPath = 'auto') {
         "multistepFunction" => [
           "template" => "multistepFunction",
           "path" => $assetPath . "/components/form/MultistepFunction/drupal",
+          "variables" => ["content" => []]
+        ], 
+        "radio" => [
+          "template" => "radio",
+          "path" => $assetPath . "/components/form/Radio",
+          "variables" => ["content" => []]
+        ], 
+        "tabs" => [
+          "template" => "tabs",
+          "path" => $assetPath . "/components/form/Tabs",
+          "variables" => ["content" => []]
+        ], 
+        "titleAndText" => [
+          "template" => "titleAndText",
+          "path" => $assetPath . "/components/form/TitleAndText",
+          "variables" => ["content" => []]
+        ], 
+        "emailField" => [
+          "template" => "emailField",
+          "path" => $assetPath . "/components/form/EmailField",
           "variables" => ["content" => []]
         ], 
         "textarea" => [
