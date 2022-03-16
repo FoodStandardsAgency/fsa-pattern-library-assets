@@ -106,14 +106,14 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/general/SkipToMainContent",
           "variables" => ["content" => []]
         ], 
-        "navigation" => [
-          "template" => "navigation",
-          "path" => $assetPath . "/components/general/Navigation",
-          "variables" => ["content" => []]
-        ], 
         "collapsibleCheckbox" => [
           "template" => "collapsibleCheckbox",
           "path" => $assetPath . "/components/search/CollapsibleCheckbox",
+          "variables" => ["content" => []]
+        ], 
+        "navigation" => [
+          "template" => "navigation",
+          "path" => $assetPath . "/components/general/Navigation",
           "variables" => ["content" => []]
         ], 
         "filtersSelected" => [
@@ -141,14 +141,14 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/search/SearchNoResults",
           "variables" => ["content" => []]
         ], 
-        "sortBy" => [
-          "template" => "sortBy",
-          "path" => $assetPath . "/components/search/SortBy",
-          "variables" => ["content" => []]
-        ], 
         "showing" => [
           "template" => "showing",
           "path" => $assetPath . "/components/search/Showing",
+          "variables" => ["content" => []]
+        ], 
+        "sortBy" => [
+          "template" => "sortBy",
+          "path" => $assetPath . "/components/search/SortBy",
           "variables" => ["content" => []]
         ], 
         "filtersHeader" => [
