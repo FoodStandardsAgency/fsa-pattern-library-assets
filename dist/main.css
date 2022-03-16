@@ -631,10 +631,10 @@ p {
   background-image: url(./components/general/Breadcrumb/assets/arrow.svg);
   background-repeat: no-repeat;
   transition: -webkit-transform 200 ease-out;
-  transition: -webkit-transform var(--transition-time) ease-out;
   transition: transform 200 ease-out;
-  transition: transform var(--transition-time) ease-out;
   transition: transform 200 ease-out, -webkit-transform 200 ease-out;
+  transition: -webkit-transform var(--transition-time) ease-out;
+  transition: transform var(--transition-time) ease-out;
   transition: transform var(--transition-time) ease-out, -webkit-transform var(--transition-time) ease-out;
 }
 .breadcrumb.overflowed .breadcrumb__mobile-overlay[aria-expanded=true]::after {
@@ -1695,12 +1695,17 @@ div .header__user-menu-navigation {
   height: -moz-fit-content;
   height: fit-content;
   overflow: visible;
-  -webkit-mask: url(./components/general/Hero/assets/hero.svg) no-repeat bottom;
-          mask: url(./components/general/Hero/assets/hero.svg) no-repeat bottom;
+  mask-image: url(./components/general/Hero/assets/hero.svg);
+  mask-position: bottom;
+  mask-size: 200%, 100%;
+  mask-repeat: no-repeat;
+  /* mask not working in chrome */
+  /* stylelint-disable property-no-vendor-prefix */
+  -webkit-mask-image: url(./components/general/Hero/assets/hero.svg);
+  -webkit-mask-position: bottom;
   -webkit-mask-size: 200%, 100%;
-          mask-size: 200%, 100%;
   -webkit-mask-repeat: no-repeat;
-          mask-repeat: no-repeat;
+  /* stylelint-enable property-no-vendor-prefix */
   color: white;
   padding-bottom: 2rem;
   z-index: 2;
@@ -7526,6 +7531,27 @@ body.overflow-hidden {
   line-height: 1.6;
   letter-spacing: normal;
 }
+.error-box a:not(.error-box__field) {
+  color: #007c75;
+  color: var(--fsa-primary_dark-green);
+  text-decoration: underline;
+  border-bottom: 0.25rem solid transparent;
+}
+.error-box a:not(.error-box__field):hover {
+  color: #014b4c;
+  color: var(--fsa__link-green);
+}
+.error-box a:not(.error-box__field):focus {
+  color: #000;
+  color: var(--fsa-primary_black);
+  outline: none;
+  text-decoration: none;
+  background-color: #f1c400;
+  background-color: var(--fsa-tertiary_light-yellow);
+  border-bottom: 0.25rem solid #000;
+  border-bottom: 0.25rem solid var(--fsa-primary_black);
+  margin-bottom: -0.25rem;
+}
 .error-box__field {
   font-family: "Fira Sans", sans-serif;
   font-family: var(--heading-font);
@@ -7551,27 +7577,6 @@ body.overflow-hidden {
   color: var(--fsa-secondary-error-hover);
 }
 .error-box__field:focus {
-  color: #000;
-  color: var(--fsa-primary_black);
-  outline: none;
-  text-decoration: none;
-  background-color: #f1c400;
-  background-color: var(--fsa-tertiary_light-yellow);
-  border-bottom: 0.25rem solid #000;
-  border-bottom: 0.25rem solid var(--fsa-primary_black);
-  margin-bottom: -0.25rem;
-}
-.error-box a {
-  color: #007c75;
-  color: var(--fsa-primary_dark-green);
-  text-decoration: underline;
-  border-bottom: 0.25rem solid transparent;
-}
-.error-box a:hover {
-  color: #014b4c;
-  color: var(--fsa__link-green);
-}
-.error-box a:focus {
   color: #000;
   color: var(--fsa-primary_black);
   outline: none;
