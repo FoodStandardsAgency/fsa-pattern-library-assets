@@ -4534,6 +4534,7 @@ div .header__user-menu-navigation {
   color: var(--fsa-primary_white);
   padding-top: 1rem;
   padding-bottom: 1rem;
+  text-decoration: none;
 }
 .navigation__menu--level-1 .navigation__link a {
   font-family: "Open Sans", sans-serif;
@@ -4547,6 +4548,7 @@ div .header__user-menu-navigation {
   color: var(--fsa-primary_white);
   padding-top: 1rem;
   padding-bottom: 1rem;
+  text-decoration: none;
 }
 .navigation__menu--level-1 .navigation__link > button:focus-visible {
   color: #000;
@@ -15170,6 +15172,9 @@ h3.form-title {
 .foot-notes__link-list__item a:hover {
   color: #014b4c;
   color: var(--fsa__link-green);
+}
+.foot-notes__link-list__item-label * {
+  display: inline;
 }
 .foot-notes__link-list__item-link {
   margin-right: 0.6rem;
