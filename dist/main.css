@@ -1110,7 +1110,17 @@ div .header__user-menu-navigation {
   }
 }
 .header__logo {
-  display: inline-block;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin-bottom: 0.5rem;
+  margin-right: 0.5rem;
+}
+@media screen and (min-width: 768px) {
+  .header__logo {
+    flex-direction: row;
+    margin-bottom: 0;
+  }
 }
 .header__logo:focus {
   box-shadow: 0 0 0 0.2rem #000, 0 0 0 0.4rem #f1c400;
@@ -1132,6 +1142,11 @@ div .header__user-menu-navigation {
 }
 .header__logo-svg--secondary-logo {
   background-image: url(./components/general/Header/assets/logo/my-haccp-logo.svg);
+}
+@media screen and (min-width: 768px) {
+  .header__logo-svg--secondary-logo {
+    margin-left: 2rem;
+  }
 }
 @media screen and (min-width: 1024px) {
   .header__logo-svg {
@@ -1594,8 +1609,13 @@ div .header__user-menu-navigation {
   }
 }
 @media screen and (min-width: 1024px) {
+  .header--haccp .header__languages, .header--haccp .header__user_menu {
+    margin: 0 1rem;
+  }
+}
+@media screen and (min-width: 1024px) {
   .header--haccp .header__languages--desktop, .header--haccp .header__user_menu--desktop {
-    padding-top: 1rem;
+    padding-top: 0.5rem;
     padding-bottom: 0.5rem;
   }
 }
@@ -1738,7 +1758,6 @@ div .header__user-menu-navigation {
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
   .hero__mask-wrapper {
     background-image: none;
-    height: 100vh;
   }
 }
 .hero__mask-wrapper--campaign-block {
@@ -1824,6 +1843,11 @@ div .header__user-menu-navigation {
   width: 100%;
   border-radius: 100%;
   z-index: -1;
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .hero__content::after {
+    content: none;
+  }
 }
 .hero__title {
   font-family: "Fira Sans", sans-serif;
@@ -2056,8 +2080,11 @@ div .header__user-menu-navigation {
     padding-bottom: 1rem;
   }
 }
-.hero--with-services .hero__row {
-  flex-direction: column;
+@supports not (-ms-high-contrast: none) {
+  .hero--with-services .hero__row {
+    /* Non-IE styles here */
+    flex-direction: column;
+  }
 }
 @media screen and (min-width: 1440px) {
   .hero--with-services.hero--with-image {
