@@ -6,6 +6,11 @@ function deeson_tpl_component_templates($assetPath = 'auto') {
 
 function deeson_twig_component_templates($assetPath = 'auto') {
   return [ 
+        "formLayout" => [
+          "template" => "formLayout",
+          "path" => $assetPath . "/layout/formLayout",
+          "variables" => ["content" => []]
+        ], 
         "twoColumn" => [
           "template" => "twoColumn",
           "path" => $assetPath . "/layout/twoColumn",
@@ -26,9 +31,9 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/layout/contactLayout",
           "variables" => ["content" => []]
         ], 
-        "formLayout" => [
-          "template" => "formLayout",
-          "path" => $assetPath . "/layout/formLayout",
+        "breadcrumbs" => [
+          "template" => "breadcrumbs",
+          "path" => $assetPath . "/components/general/Breadcrumb",
           "variables" => ["content" => []]
         ], 
         "button" => [
@@ -41,24 +46,14 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/general/Header",
           "variables" => ["content" => []]
         ], 
-        "link" => [
-          "template" => "link",
-          "path" => $assetPath . "/components/general/Link",
-          "variables" => ["content" => []]
-        ], 
-        "breadcrumbs" => [
-          "template" => "breadcrumbs",
-          "path" => $assetPath . "/components/general/Breadcrumb",
+        "hero" => [
+          "template" => "hero",
+          "path" => $assetPath . "/components/general/Hero",
           "variables" => ["content" => []]
         ], 
         "siteMap" => [
           "template" => "siteMap",
           "path" => $assetPath . "/components/general/SiteMap",
-          "variables" => ["content" => []]
-        ], 
-        "hero" => [
-          "template" => "hero",
-          "path" => $assetPath . "/components/general/Hero",
           "variables" => ["content" => []]
         ], 
         "externalLink" => [
@@ -74,6 +69,11 @@ function deeson_twig_component_templates($assetPath = 'auto') {
         "footer" => [
           "template" => "footer",
           "path" => $assetPath . "/components/general/Footer",
+          "variables" => ["content" => []]
+        ], 
+        "link" => [
+          "template" => "link",
+          "path" => $assetPath . "/components/general/Link",
           "variables" => ["content" => []]
         ], 
         "feedback" => [
@@ -301,14 +301,14 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/landing/LatestTeaser",
           "variables" => ["content" => []]
         ], 
-        "promoGroup" => [
-          "template" => "promoGroup",
-          "path" => $assetPath . "/components/landing/PromoGroup",
-          "variables" => ["content" => []]
-        ], 
         "serviceLinks" => [
           "template" => "serviceLinks",
           "path" => $assetPath . "/components/landing/ServiceLinks",
+          "variables" => ["content" => []]
+        ], 
+        "promoGroup" => [
+          "template" => "promoGroup",
+          "path" => $assetPath . "/components/landing/PromoGroup",
           "variables" => ["content" => []]
         ], 
         "campaignBlock" => [
@@ -396,11 +396,6 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/article/AllergensTable",
           "variables" => ["content" => []]
         ], 
-        "chartBlock" => [
-          "template" => "chartBlock",
-          "path" => $assetPath . "/components/article/ChartBlock",
-          "variables" => ["content" => []]
-        ], 
         "footNotes" => [
           "template" => "footNotes",
           "path" => $assetPath . "/components/article/FootNotes",
@@ -416,14 +411,19 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/article/PdfAndPrintButtons",
           "variables" => ["content" => []]
         ], 
+        "stickySidebar" => [
+          "template" => "stickySidebar",
+          "path" => $assetPath . "/components/article/StickySidebar",
+          "variables" => ["content" => []]
+        ], 
         "textBlock" => [
           "template" => "textBlock",
           "path" => $assetPath . "/components/article/TextBlock",
           "variables" => ["content" => []]
         ], 
-        "stickySidebar" => [
-          "template" => "stickySidebar",
-          "path" => $assetPath . "/components/article/StickySidebar",
+        "chartBlock" => [
+          "template" => "chartBlock",
+          "path" => $assetPath . "/components/article/ChartBlock",
           "variables" => ["content" => []]
         ], 
         "pagination" => [
