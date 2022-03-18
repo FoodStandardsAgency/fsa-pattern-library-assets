@@ -146,11 +146,6 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/search/Showing",
           "variables" => ["content" => []]
         ], 
-        "nationalArchiveLink" => [
-          "template" => "nationalArchiveLink",
-          "path" => $assetPath . "/components/general/NationalArchiveLink/react",
-          "variables" => ["content" => []]
-        ], 
         "sortBy" => [
           "template" => "sortBy",
           "path" => $assetPath . "/components/search/SortBy",
@@ -159,6 +154,11 @@ function deeson_twig_component_templates($assetPath = 'auto') {
         "filtersHeader" => [
           "template" => "filtersHeader",
           "path" => $assetPath . "/components/search/FiltersHeader",
+          "variables" => ["content" => []]
+        ], 
+        "nationalArchiveLink" => [
+          "template" => "nationalArchiveLink",
+          "path" => $assetPath . "/components/general/NationalArchiveLink/react",
           "variables" => ["content" => []]
         ], 
         "ratingCta" => [
