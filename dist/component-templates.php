@@ -36,11 +36,6 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/general/Breadcrumb",
           "variables" => ["content" => []]
         ], 
-        "button" => [
-          "template" => "button",
-          "path" => $assetPath . "/components/general/Button",
-          "variables" => ["content" => []]
-        ], 
         "header" => [
           "template" => "header",
           "path" => $assetPath . "/components/general/Header",
@@ -49,6 +44,11 @@ function deeson_twig_component_templates($assetPath = 'auto') {
         "hero" => [
           "template" => "hero",
           "path" => $assetPath . "/components/general/Hero",
+          "variables" => ["content" => []]
+        ], 
+        "button" => [
+          "template" => "button",
+          "path" => $assetPath . "/components/general/Button",
           "variables" => ["content" => []]
         ], 
         "link" => [
@@ -161,6 +161,11 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/general/NationalArchiveLink/react",
           "variables" => ["content" => []]
         ], 
+        "searchBarHeader" => [
+          "template" => "searchBarHeader",
+          "path" => $assetPath . "/components/search/SearchBarHeader/react",
+          "variables" => ["content" => []]
+        ], 
         "datepicker" => [
           "template" => "datepicker",
           "path" => $assetPath . "/components/search/Datepicker",
@@ -194,11 +199,6 @@ function deeson_twig_component_templates($assetPath = 'auto') {
         "inputField" => [
           "template" => "inputField",
           "path" => $assetPath . "/components/form/InputField",
-          "variables" => ["content" => []]
-        ], 
-        "searchBarHeader" => [
-          "template" => "searchBarHeader",
-          "path" => $assetPath . "/components/search/SearchBarHeader/react",
           "variables" => ["content" => []]
         ], 
         "sortBy" => [
@@ -411,6 +411,11 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/article/BackToTop",
           "variables" => ["content" => []]
         ], 
+        "pdfAndPrintButtons" => [
+          "template" => "pdfAndPrintButtons",
+          "path" => $assetPath . "/components/article/PdfAndPrintButtons",
+          "variables" => ["content" => []]
+        ], 
         "stickySidebar" => [
           "template" => "stickySidebar",
           "path" => $assetPath . "/components/article/StickySidebar",
@@ -419,11 +424,6 @@ function deeson_twig_component_templates($assetPath = 'auto') {
         "textBlock" => [
           "template" => "textBlock",
           "path" => $assetPath . "/components/article/TextBlock",
-          "variables" => ["content" => []]
-        ], 
-        "pdfAndPrintButtons" => [
-          "template" => "pdfAndPrintButtons",
-          "path" => $assetPath . "/components/article/PdfAndPrintButtons",
           "variables" => ["content" => []]
         ], 
         "pagination" => [
