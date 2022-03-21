@@ -2205,12 +2205,6 @@ div .header__user-menu-navigation {
 .user-login-form .link__wrapper {
   padding-top: 2rem;
 }
-/*!********************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/general/SiteMap/siteMap.scss ***!
-  \********************************************************************************************************************************************************************************/
-.sitemap__second-level {
-  margin-left: 2rem;
-}
 /*!******************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/general/ExternalLink/externalLink.scss ***!
   \******************************************************************************************************************************************************************************************/
@@ -15287,6 +15281,12 @@ h3.form-title {
 /* Custom Mixins */
 /* Mixin for checkbox and radio button style */
 /* Used for Style guide pages */
+.revision-log {
+  padding-top: 2rem;
+  margin-top: 3rem;
+  border-top: solid 1px #d9d9d6;
+  border-top: solid 1px var(--fsa__grey-hover);
+}
 .revision-log__control {
   display: flex;
   justify-content: space-between;
@@ -15311,11 +15311,27 @@ h3.form-title {
   background: #fff;
   background: var(--fsa-primary_white);
   border: 0;
-  text-decoration: underline;
   font-size: 1rem;
   cursor: pointer;
   color: #007c75;
   color: var(--fsa-primary_dark-green);
+  text-decoration: underline;
+  border-bottom: 0.25rem solid transparent;
+}
+.revision-log__toggle-button:hover {
+  color: #014b4c;
+  color: var(--fsa__link-green);
+}
+.revision-log__toggle-button:focus {
+  color: #000;
+  color: var(--fsa-primary_black);
+  outline: none;
+  text-decoration: none;
+  background-color: #f1c400;
+  background-color: var(--fsa-tertiary_light-yellow);
+  border-bottom: 0.25rem solid #000;
+  border-bottom: 0.25rem solid var(--fsa-primary_black);
+  margin-bottom: -0.25rem;
 }
 .revision-log--closed .revision-log__toggle-button-show {
   display: block;
