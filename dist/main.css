@@ -14804,305 +14804,6 @@ h3.form-title {
 .allergens-table tbody td {
   padding: 1rem;
 }
-/*!**************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/article/ChartBlock/chartBlock.scss ***!
-  \**************************************************************************************************************************************************************************************/
-@import url(https://fonts.googleapis.com/css?family=Fira+Sans:300,400,500,700);
-/*!******************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/article/ChartBlock/chartBlock.scss (1) ***!
-  \******************************************************************************************************************************************************************************************/
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700);
-/*!******************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/article/ChartBlock/chartBlock.scss (2) ***!
-  \******************************************************************************************************************************************************************************************/
-:root {
-  /* Primary Colours */
-  --fsa-primary_dark-green: #007c75;
-  --fsa-primary_mid-green: #6cb33f;
-  --fsa-primary_light-green: #a9c47f;
-  --fsa-primary_dark-grey: #53565a;
-  --fsa_online-grey: #f0f3f5;
-  --fsa_border: #dee2e5;
-  --fsa-primary_black: #000;
-  --fsa-primary_white: #fff;
-  --fsa_tint: #fafcfd;
-  /* Secondary Colours */
-  --fsa-secondary_mid-red: #e31837;
-  --fsa-secondary_dark-blue: #165c7d;
-  --fsa-secondary_orange: #f15d22;
-  --fsa-secondary_mid-yellow: #fdb913;
-  --fsa-secondary_mid-purple: #49176d;
-  --fsa-secondary_light-purple: #9f218b;
-  --fsa-tertiary_dark-blue: #9f218b;
-  --fsa-secondary-error-red: #e60f31;
-  --fsa-secondary-error-hover: #b0132b;
-  /* Tertiary Colours */
-  --fsa-tertiary_dark-red: #b04a5a;
-  --fsa-tertiary_light-red: #ef3340;
-  --fsa-tertiary_light-yellow: #f1c400;
-  --fsa-tertiary_teal: #00b2a9;
-  --fsa-tertiary_light-blue: #8dc8e8;
-  --fsa-tertiary_dark-purple: #51284f;
-  --fsa-secondary_mid-blue: #007fb2;
-  --fsa-tertiary_lime: #cedc00;
-  --fsa-tertiary_mauve: #8b84d7;
-  --fsa-tertiary_stripe-green: #006f51;
-  --fsa-tertiary_light-black: #101010;
-  /* Hover Colours */
-  --fsa__link-green: #014b4c;
-  --fsa__purple-hover: #2a0247;
-  --fsa__grey-hover: #d9d9d6;
-  --fsa__dark-green-hover: #002a2a;
-  /* Typography */
-  --body-font: "Open Sans", sans-serif;
-  --body-normal: 400;
-  --body-bold: 600;
-  --heading-font: "Fira Sans", sans-serif;
-  --heading-bold: 700;
-  /* Grid */
-  --container-mobile: 1rem;
-  --container: 2rem;
-  --gutter: 1rem;
-  --max-width: 1336px;
-  /* Transitions */
-  --transition-time: 200;
-}
-
-/* Grid */
-/* Custom Mixins */
-/* Mixin for checkbox and radio button style */
-/* Used for Style guide pages */
-.chart-block {
-  margin-top: 3rem;
-}
-.chart-block__name {
-  margin: 0;
-}
-.chart-block__switch-button {
-  white-space: nowrap;
-  margin-top: 2rem;
-}
-.chart-block__switch-button .button {
-  padding: 0.6rem 2rem;
-}
-.chart-block__image, .chart-block__content {
-  margin-top: 1rem;
-}
-@media screen and (min-width: 1024px) {
-  .chart-block__image, .chart-block__content {
-    margin-top: 2rem;
-  }
-}
-.chart-block__content table {
-  width: 100%;
-  margin-top: 2rem;
-  border-collapse: collapse;
-}
-.chart-block__content table caption {
-  font-family: "Fira Sans", sans-serif;
-  font-family: var(--heading-font);
-  font-size: 1.18rem;
-  font-weight: 700;
-  font-weight: var(--heading-bold);
-  line-height: 1.4;
-  letter-spacing: normal;
-  background-color: #2a0247;
-  background-color: var(--fsa__purple-hover);
-  border: 1px solid #2a0247;
-  border: 1px solid var(--fsa__purple-hover);
-  color: #fff;
-  color: var(--fsa-primary_white);
-  padding: 1rem;
-  text-align: left;
-}
-@media screen and (min-width: 1024px) {
-  .chart-block__content table caption {
-    font-size: 1.2rem;
-  }
-}
-@media screen and (min-width: 1024px) {
-  .chart-block__content table caption {
-    font-family: "Fira Sans", sans-serif;
-    font-family: var(--heading-font);
-    font-size: 1.939rem;
-    font-weight: 700;
-    font-weight: var(--heading-bold);
-    line-height: 1.2;
-    letter-spacing: normal;
-    background-color: transparent;
-    border: none;
-    color: #000;
-    color: var(--fsa-primary_black);
-    padding: 0;
-    margin-bottom: 1rem;
-  }
-}
-@media screen and (min-width: 1024px) and (min-width: 1024px) {
-  .chart-block__content table caption {
-    font-size: 2.074rem;
-  }
-}
-@media screen and (max-width: 1023px) {
-  .chart-block__content table thead {
-    border: 0;
-    clip: rect(0 0 0 0);
-    -webkit-clip-path: inset(50%);
-            clip-path: inset(50%);
-    height: 1px;
-    margin: 0;
-    overflow: hidden;
-    padding: 0;
-    position: absolute;
-    white-space: nowrap;
-    width: 1px;
-  }
-}
-@media screen and (min-width: 1024px) {
-  .chart-block__content table thead {
-    font-family: "Fira Sans", sans-serif;
-    font-family: var(--heading-font);
-    font-size: 1.18rem;
-    font-weight: 700;
-    font-weight: var(--heading-bold);
-    line-height: 1.4;
-    letter-spacing: normal;
-    background-color: #2a0247;
-    background-color: var(--fsa__purple-hover);
-    border: 1px solid #2a0247;
-    border: 1px solid var(--fsa__purple-hover);
-  }
-}
-@media screen and (min-width: 1024px) and (min-width: 1024px) {
-  .chart-block__content table thead {
-    font-size: 1.2rem;
-  }
-}
-@media screen and (min-width: 1024px) {
-  .chart-block__content table thead th {
-    color: #fff;
-    color: var(--fsa-primary_white);
-    font-weight: bold;
-    padding: 1rem;
-    text-align: left;
-  }
-}
-.chart-block__content table tbody td {
-  font-family: "Open Sans", sans-serif;
-  font-family: var(--body-font);
-  font-weight: 400;
-  font-weight: var(--body-normal);
-  font-size: 1rem;
-  line-height: 1.6;
-  letter-spacing: normal;
-  border: 1px solid #dee2e5;
-  border: 1px solid var(--fsa_border);
-  padding: 1rem;
-  position: relative;
-}
-.chart-block__content table tbody th {
-  font-family: "Open Sans", sans-serif;
-  font-family: var(--body-font);
-  font-weight: 400;
-  font-weight: var(--body-normal);
-  font-size: 1rem;
-  line-height: 1.6;
-  letter-spacing: normal;
-  border: 1px solid #dee2e5;
-  border: 1px solid var(--fsa_border);
-  padding: 1rem;
-  position: relative;
-}
-.chart-block__content table tbody tr {
-  display: block;
-  border-bottom: solid 4px #dee2e5;
-  border-bottom: solid 4px var(--fsa_border);
-}
-.chart-block__content table tbody tr:last-child {
-  border: 1px solid #dee2e5;
-  border: 1px solid var(--fsa_border);
-}
-@media screen and (min-width: 1024px) {
-  .chart-block__content table tbody tr {
-    display: table-row;
-    border: 1px solid #dee2e5;
-    border: 1px solid var(--fsa_border);
-  }
-}
-.chart-block__content table tbody tr td,
-.chart-block__content table tbody tr th {
-  display: flex;
-  min-width: 1px;
-  text-align: left;
-}
-@media screen and (min-width: 1024px) {
-  .chart-block__content table tbody tr td,
-.chart-block__content table tbody tr th {
-    display: table-cell;
-  }
-}
-.chart-block__content table .responsive-table__heading {
-  font-family: "Open Sans", sans-serif;
-  font-family: var(--body-font);
-  font-weight: 400;
-  font-weight: var(--body-normal);
-  font-size: 1rem;
-  line-height: 1.6;
-  letter-spacing: normal;
-  padding: 0;
-  word-break: initial;
-  height: 100%;
-  width: 50%;
-  padding-right: 1rem;
-  margin-right: 1rem;
-}
-.chart-block__content table .responsive-table__heading::after {
-  content: "";
-  position: absolute;
-  border: 1px solid #dee2e5;
-  border: 1px solid var(--fsa_border);
-  height: 100%;
-  right: 50%;
-  top: 0;
-}
-@media screen and (min-width: 1024px) {
-  .chart-block__content table .responsive-table__heading {
-    display: none;
-  }
-}
-.chart-block .hide {
-  display: none;
-}
-.chart-block__source {
-  margin-top: 2rem;
-}
-.chart-block__source-text {
-  font-family: "Open Sans", sans-serif;
-  font-family: var(--body-font);
-  font-weight: 400;
-  font-weight: var(--body-normal);
-  font-size: 1rem;
-  line-height: 1.6;
-  letter-spacing: normal;
-  font-weight: bold;
-}
-.chart-block__download-buttons .button {
-  margin: 1rem 0.5rem 0 0;
-}
-.chart-block__download-label {
-  font-family: "Fira Sans", sans-serif;
-  font-family: var(--heading-font);
-  font-size: 1.392rem;
-  font-weight: 700;
-  font-weight: var(--heading-bold);
-  line-height: 1.2;
-  letter-spacing: normal;
-  margin-top: 2rem;
-}
-@media screen and (min-width: 1024px) {
-  .chart-block__download-label {
-    font-size: 1.44rem;
-  }
-}
 /*!************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/article/FootNotes/footNotes.scss ***!
   \************************************************************************************************************************************************************************************/
@@ -16395,6 +16096,305 @@ h3.form-title {
 .text-block > h6 {
   margin-top: 3rem;
   margin-bottom: 0;
+}
+/*!**************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/article/ChartBlock/chartBlock.scss ***!
+  \**************************************************************************************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css?family=Fira+Sans:300,400,500,700);
+/*!******************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/article/ChartBlock/chartBlock.scss (1) ***!
+  \******************************************************************************************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700);
+/*!******************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/article/ChartBlock/chartBlock.scss (2) ***!
+  \******************************************************************************************************************************************************************************************/
+:root {
+  /* Primary Colours */
+  --fsa-primary_dark-green: #007c75;
+  --fsa-primary_mid-green: #6cb33f;
+  --fsa-primary_light-green: #a9c47f;
+  --fsa-primary_dark-grey: #53565a;
+  --fsa_online-grey: #f0f3f5;
+  --fsa_border: #dee2e5;
+  --fsa-primary_black: #000;
+  --fsa-primary_white: #fff;
+  --fsa_tint: #fafcfd;
+  /* Secondary Colours */
+  --fsa-secondary_mid-red: #e31837;
+  --fsa-secondary_dark-blue: #165c7d;
+  --fsa-secondary_orange: #f15d22;
+  --fsa-secondary_mid-yellow: #fdb913;
+  --fsa-secondary_mid-purple: #49176d;
+  --fsa-secondary_light-purple: #9f218b;
+  --fsa-tertiary_dark-blue: #9f218b;
+  --fsa-secondary-error-red: #e60f31;
+  --fsa-secondary-error-hover: #b0132b;
+  /* Tertiary Colours */
+  --fsa-tertiary_dark-red: #b04a5a;
+  --fsa-tertiary_light-red: #ef3340;
+  --fsa-tertiary_light-yellow: #f1c400;
+  --fsa-tertiary_teal: #00b2a9;
+  --fsa-tertiary_light-blue: #8dc8e8;
+  --fsa-tertiary_dark-purple: #51284f;
+  --fsa-secondary_mid-blue: #007fb2;
+  --fsa-tertiary_lime: #cedc00;
+  --fsa-tertiary_mauve: #8b84d7;
+  --fsa-tertiary_stripe-green: #006f51;
+  --fsa-tertiary_light-black: #101010;
+  /* Hover Colours */
+  --fsa__link-green: #014b4c;
+  --fsa__purple-hover: #2a0247;
+  --fsa__grey-hover: #d9d9d6;
+  --fsa__dark-green-hover: #002a2a;
+  /* Typography */
+  --body-font: "Open Sans", sans-serif;
+  --body-normal: 400;
+  --body-bold: 600;
+  --heading-font: "Fira Sans", sans-serif;
+  --heading-bold: 700;
+  /* Grid */
+  --container-mobile: 1rem;
+  --container: 2rem;
+  --gutter: 1rem;
+  --max-width: 1336px;
+  /* Transitions */
+  --transition-time: 200;
+}
+
+/* Grid */
+/* Custom Mixins */
+/* Mixin for checkbox and radio button style */
+/* Used for Style guide pages */
+.chart-block {
+  margin-top: 3rem;
+}
+.chart-block__name {
+  margin: 0;
+}
+.chart-block__switch-button {
+  white-space: nowrap;
+  margin-top: 2rem;
+}
+.chart-block__switch-button .button {
+  padding: 0.6rem 2rem;
+}
+.chart-block__image, .chart-block__content {
+  margin-top: 1rem;
+}
+@media screen and (min-width: 1024px) {
+  .chart-block__image, .chart-block__content {
+    margin-top: 2rem;
+  }
+}
+.chart-block__content table {
+  width: 100%;
+  margin-top: 2rem;
+  border-collapse: collapse;
+}
+.chart-block__content table caption {
+  font-family: "Fira Sans", sans-serif;
+  font-family: var(--heading-font);
+  font-size: 1.18rem;
+  font-weight: 700;
+  font-weight: var(--heading-bold);
+  line-height: 1.4;
+  letter-spacing: normal;
+  background-color: #2a0247;
+  background-color: var(--fsa__purple-hover);
+  border: 1px solid #2a0247;
+  border: 1px solid var(--fsa__purple-hover);
+  color: #fff;
+  color: var(--fsa-primary_white);
+  padding: 1rem;
+  text-align: left;
+}
+@media screen and (min-width: 1024px) {
+  .chart-block__content table caption {
+    font-size: 1.2rem;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .chart-block__content table caption {
+    font-family: "Fira Sans", sans-serif;
+    font-family: var(--heading-font);
+    font-size: 1.939rem;
+    font-weight: 700;
+    font-weight: var(--heading-bold);
+    line-height: 1.2;
+    letter-spacing: normal;
+    background-color: transparent;
+    border: none;
+    color: #000;
+    color: var(--fsa-primary_black);
+    padding: 0;
+    margin-bottom: 1rem;
+  }
+}
+@media screen and (min-width: 1024px) and (min-width: 1024px) {
+  .chart-block__content table caption {
+    font-size: 2.074rem;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .chart-block__content table thead {
+    border: 0;
+    clip: rect(0 0 0 0);
+    -webkit-clip-path: inset(50%);
+            clip-path: inset(50%);
+    height: 1px;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .chart-block__content table thead {
+    font-family: "Fira Sans", sans-serif;
+    font-family: var(--heading-font);
+    font-size: 1.18rem;
+    font-weight: 700;
+    font-weight: var(--heading-bold);
+    line-height: 1.4;
+    letter-spacing: normal;
+    background-color: #2a0247;
+    background-color: var(--fsa__purple-hover);
+    border: 1px solid #2a0247;
+    border: 1px solid var(--fsa__purple-hover);
+  }
+}
+@media screen and (min-width: 1024px) and (min-width: 1024px) {
+  .chart-block__content table thead {
+    font-size: 1.2rem;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .chart-block__content table thead th {
+    color: #fff;
+    color: var(--fsa-primary_white);
+    font-weight: bold;
+    padding: 1rem;
+    text-align: left;
+  }
+}
+.chart-block__content table tbody td {
+  font-family: "Open Sans", sans-serif;
+  font-family: var(--body-font);
+  font-weight: 400;
+  font-weight: var(--body-normal);
+  font-size: 1rem;
+  line-height: 1.6;
+  letter-spacing: normal;
+  border: 1px solid #dee2e5;
+  border: 1px solid var(--fsa_border);
+  padding: 1rem;
+  position: relative;
+}
+.chart-block__content table tbody th {
+  font-family: "Open Sans", sans-serif;
+  font-family: var(--body-font);
+  font-weight: 400;
+  font-weight: var(--body-normal);
+  font-size: 1rem;
+  line-height: 1.6;
+  letter-spacing: normal;
+  border: 1px solid #dee2e5;
+  border: 1px solid var(--fsa_border);
+  padding: 1rem;
+  position: relative;
+}
+.chart-block__content table tbody tr {
+  display: block;
+  border-bottom: solid 4px #dee2e5;
+  border-bottom: solid 4px var(--fsa_border);
+}
+.chart-block__content table tbody tr:last-child {
+  border: 1px solid #dee2e5;
+  border: 1px solid var(--fsa_border);
+}
+@media screen and (min-width: 1024px) {
+  .chart-block__content table tbody tr {
+    display: table-row;
+    border: 1px solid #dee2e5;
+    border: 1px solid var(--fsa_border);
+  }
+}
+.chart-block__content table tbody tr td,
+.chart-block__content table tbody tr th {
+  display: flex;
+  min-width: 1px;
+  text-align: left;
+}
+@media screen and (min-width: 1024px) {
+  .chart-block__content table tbody tr td,
+.chart-block__content table tbody tr th {
+    display: table-cell;
+  }
+}
+.chart-block__content table .responsive-table__heading {
+  font-family: "Open Sans", sans-serif;
+  font-family: var(--body-font);
+  font-weight: 400;
+  font-weight: var(--body-normal);
+  font-size: 1rem;
+  line-height: 1.6;
+  letter-spacing: normal;
+  padding: 0;
+  word-break: initial;
+  height: 100%;
+  width: 50%;
+  padding-right: 1rem;
+  margin-right: 1rem;
+}
+.chart-block__content table .responsive-table__heading::after {
+  content: "";
+  position: absolute;
+  border: 1px solid #dee2e5;
+  border: 1px solid var(--fsa_border);
+  height: 100%;
+  right: 50%;
+  top: 0;
+}
+@media screen and (min-width: 1024px) {
+  .chart-block__content table .responsive-table__heading {
+    display: none;
+  }
+}
+.chart-block .hide {
+  display: none;
+}
+.chart-block__source {
+  margin-top: 2rem;
+}
+.chart-block__source-text {
+  font-family: "Open Sans", sans-serif;
+  font-family: var(--body-font);
+  font-weight: 400;
+  font-weight: var(--body-normal);
+  font-size: 1rem;
+  line-height: 1.6;
+  letter-spacing: normal;
+  font-weight: bold;
+}
+.chart-block__download-buttons .button {
+  margin: 1rem 0.5rem 0 0;
+}
+.chart-block__download-label {
+  font-family: "Fira Sans", sans-serif;
+  font-family: var(--heading-font);
+  font-size: 1.392rem;
+  font-weight: 700;
+  font-weight: var(--heading-bold);
+  line-height: 1.2;
+  letter-spacing: normal;
+  margin-top: 2rem;
+}
+@media screen and (min-width: 1024px) {
+  .chart-block__download-label {
+    font-size: 1.44rem;
+  }
 }
 /*!*******************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/multipageguide/GuideHero/guideHero.scss ***!
