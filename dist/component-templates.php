@@ -51,14 +51,14 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/general/Hero",
           "variables" => ["content" => []]
         ], 
-        "link" => [
-          "template" => "link",
-          "path" => $assetPath . "/components/general/Link",
-          "variables" => ["content" => []]
-        ], 
         "externalLink" => [
           "template" => "externalLink",
           "path" => $assetPath . "/components/general/ExternalLink",
+          "variables" => ["content" => []]
+        ], 
+        "link" => [
+          "template" => "link",
+          "path" => $assetPath . "/components/general/Link",
           "variables" => ["content" => []]
         ], 
         "mailLink" => [
@@ -146,11 +146,6 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/search/Showing",
           "variables" => ["content" => []]
         ], 
-        "nationalArchiveLink" => [
-          "template" => "nationalArchiveLink",
-          "path" => $assetPath . "/components/general/NationalArchiveLink/react",
-          "variables" => ["content" => []]
-        ], 
         "sortBy" => [
           "template" => "sortBy",
           "path" => $assetPath . "/components/search/SortBy",
@@ -181,24 +176,19 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/search/SearchBar",
           "variables" => ["content" => []]
         ], 
-        "dropdown" => [
-          "template" => "dropdown",
-          "path" => $assetPath . "/components/form/Dropdown",
-          "variables" => ["content" => []]
-        ], 
-        "searchBarHeader" => [
-          "template" => "searchBarHeader",
-          "path" => $assetPath . "/components/search/SearchBarHeader/react",
-          "variables" => ["content" => []]
-        ], 
-        "sortBy" => [
-          "template" => "sortBy",
-          "path" => $assetPath . "/components/search/SortBy/react",
+        "nationalArchiveLink" => [
+          "template" => "nationalArchiveLink",
+          "path" => $assetPath . "/components/general/NationalArchiveLink/react",
           "variables" => ["content" => []]
         ], 
         "checkbox" => [
           "template" => "checkbox",
           "path" => $assetPath . "/components/form/Checkbox",
+          "variables" => ["content" => []]
+        ], 
+        "dropdown" => [
+          "template" => "dropdown",
+          "path" => $assetPath . "/components/form/Dropdown",
           "variables" => ["content" => []]
         ], 
         "errorBox" => [
@@ -224,6 +214,16 @@ function deeson_twig_component_templates($assetPath = 'auto') {
         "radio" => [
           "template" => "radio",
           "path" => $assetPath . "/components/form/Radio",
+          "variables" => ["content" => []]
+        ], 
+        "searchBarHeader" => [
+          "template" => "searchBarHeader",
+          "path" => $assetPath . "/components/search/SearchBarHeader/react",
+          "variables" => ["content" => []]
+        ], 
+        "sortBy" => [
+          "template" => "sortBy",
+          "path" => $assetPath . "/components/search/SortBy/react",
           "variables" => ["content" => []]
         ], 
         "filtersHeader" => [
