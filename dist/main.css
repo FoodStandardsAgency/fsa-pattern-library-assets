@@ -13803,6 +13803,10 @@ h3.form-title {
   display: block;
   margin: 0.5rem auto 0;
 }
+.related-content__main-text {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
 .related-content__grid-container {
   width: 100%;
   margin: 0 auto;
@@ -13921,6 +13925,22 @@ h3.form-title {
 }
 .related-content__card:hover::after {
   background-image: url(./components/article/RelatedContent/assets/arrow-hover.svg);
+}
+.related-content__card_no_link::after {
+  content: "";
+  background-image: none;
+}
+.related-content__card_no_link:hover {
+  border-color: inherit;
+}
+.related-content__card_no_link:hover::after {
+  background-image: none;
+}
+.related-content__image {
+  margin: 1rem 1.25rem 0;
+}
+.related-content__image img {
+  width: 100%;
 }
 .related-content__sub-heading {
   font-family: "Fira Sans", sans-serif;
@@ -16716,6 +16736,9 @@ h3.form-title {
   .chart-block__image, .chart-block__content {
     margin-top: 2rem;
   }
+}
+.chart-block__image img, .chart-block__content img {
+  max-width: 100%;
 }
 .chart-block__content table {
   width: 100%;
