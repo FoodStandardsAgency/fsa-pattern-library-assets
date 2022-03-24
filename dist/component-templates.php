@@ -66,11 +66,6 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/general/MailLink",
           "variables" => ["content" => []]
         ], 
-        "footer" => [
-          "template" => "footer",
-          "path" => $assetPath . "/components/general/Footer",
-          "variables" => ["content" => []]
-        ], 
         "feedback" => [
           "template" => "feedback",
           "path" => $assetPath . "/components/general/Feedback",
@@ -79,6 +74,11 @@ function deeson_twig_component_templates($assetPath = 'auto') {
         "cookieBanner" => [
           "template" => "cookieBanner",
           "path" => $assetPath . "/components/general/CookieBanner",
+          "variables" => ["content" => []]
+        ], 
+        "footer" => [
+          "template" => "footer",
+          "path" => $assetPath . "/components/general/Footer",
           "variables" => ["content" => []]
         ], 
         "temporaryMessage" => [
@@ -136,6 +136,11 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/search/SearchBarHeader",
           "variables" => ["content" => []]
         ], 
+        "nationalArchiveLink" => [
+          "template" => "nationalArchiveLink",
+          "path" => $assetPath . "/components/general/NationalArchiveLink/react",
+          "variables" => ["content" => []]
+        ], 
         "searchNoResults" => [
           "template" => "searchNoResults",
           "path" => $assetPath . "/components/search/SearchNoResults",
@@ -176,14 +181,19 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/search/SearchBar",
           "variables" => ["content" => []]
         ], 
-        "nationalArchiveLink" => [
-          "template" => "nationalArchiveLink",
-          "path" => $assetPath . "/components/general/NationalArchiveLink/react",
-          "variables" => ["content" => []]
-        ], 
         "checkbox" => [
           "template" => "checkbox",
           "path" => $assetPath . "/components/form/Checkbox",
+          "variables" => ["content" => []]
+        ], 
+        "searchBarHeader" => [
+          "template" => "searchBarHeader",
+          "path" => $assetPath . "/components/search/SearchBarHeader/react",
+          "variables" => ["content" => []]
+        ], 
+        "sortBy" => [
+          "template" => "sortBy",
+          "path" => $assetPath . "/components/search/SortBy/react",
           "variables" => ["content" => []]
         ], 
         "dropdown" => [
@@ -196,11 +206,6 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/form/ErrorBox",
           "variables" => ["content" => []]
         ], 
-        "inputField" => [
-          "template" => "inputField",
-          "path" => $assetPath . "/components/form/InputField",
-          "variables" => ["content" => []]
-        ], 
         "messageBox" => [
           "template" => "messageBox",
           "path" => $assetPath . "/components/form/MessageBox",
@@ -211,19 +216,14 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/form/MultistepFunction",
           "variables" => ["content" => []]
         ], 
+        "inputField" => [
+          "template" => "inputField",
+          "path" => $assetPath . "/components/form/InputField",
+          "variables" => ["content" => []]
+        ], 
         "radio" => [
           "template" => "radio",
           "path" => $assetPath . "/components/form/Radio",
-          "variables" => ["content" => []]
-        ], 
-        "searchBarHeader" => [
-          "template" => "searchBarHeader",
-          "path" => $assetPath . "/components/search/SearchBarHeader/react",
-          "variables" => ["content" => []]
-        ], 
-        "sortBy" => [
-          "template" => "sortBy",
-          "path" => $assetPath . "/components/search/SortBy/react",
           "variables" => ["content" => []]
         ], 
         "filtersHeader" => [
