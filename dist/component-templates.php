@@ -31,6 +31,11 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/layout/contactLayout",
           "variables" => ["content" => []]
         ], 
+        "fhrsLayout" => [
+          "template" => "fhrsLayout",
+          "path" => $assetPath . "/layout/fhrsLayout",
+          "variables" => ["content" => []]
+        ], 
         "breadcrumbs" => [
           "template" => "breadcrumbs",
           "path" => $assetPath . "/components/general/Breadcrumb",
@@ -166,11 +171,6 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/search/Datepicker",
           "variables" => ["content" => []]
         ], 
-        "nationalArchiveLink" => [
-          "template" => "nationalArchiveLink",
-          "path" => $assetPath . "/components/general/NationalArchiveLink/react",
-          "variables" => ["content" => []]
-        ], 
         "accordion" => [
           "template" => "accordion",
           "path" => $assetPath . "/components/search/Accordion",
@@ -179,6 +179,16 @@ function deeson_twig_component_templates($assetPath = 'auto') {
         "searchBar" => [
           "template" => "searchBar",
           "path" => $assetPath . "/components/search/SearchBar",
+          "variables" => ["content" => []]
+        ], 
+        "nationalArchiveLink" => [
+          "template" => "nationalArchiveLink",
+          "path" => $assetPath . "/components/general/NationalArchiveLink/react",
+          "variables" => ["content" => []]
+        ], 
+        "searchBarHeader" => [
+          "template" => "searchBarHeader",
+          "path" => $assetPath . "/components/search/SearchBarHeader/react",
           "variables" => ["content" => []]
         ], 
         "checkbox" => [
@@ -209,11 +219,6 @@ function deeson_twig_component_templates($assetPath = 'auto') {
         "multistepFunction" => [
           "template" => "multistepFunction",
           "path" => $assetPath . "/components/form/MultistepFunction",
-          "variables" => ["content" => []]
-        ], 
-        "searchBarHeader" => [
-          "template" => "searchBarHeader",
-          "path" => $assetPath . "/components/search/SearchBarHeader/react",
           "variables" => ["content" => []]
         ], 
         "sortBy" => [
@@ -434,6 +439,11 @@ function deeson_twig_component_templates($assetPath = 'auto') {
         "chartBlock" => [
           "template" => "chartBlock",
           "path" => $assetPath . "/components/article/ChartBlock",
+          "variables" => ["content" => []]
+        ], 
+        "localAuthority" => [
+          "template" => "localAuthority",
+          "path" => $assetPath . "/components/fhrs/LocalAuthority",
           "variables" => ["content" => []]
         ], 
         "pagination" => [
