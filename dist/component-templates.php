@@ -281,14 +281,14 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/form/Textarea",
           "variables" => ["content" => []]
         ], 
-        "mapField" => [
-          "template" => "mapField",
-          "path" => $assetPath . "/components/form/MapField",
-          "variables" => ["content" => []]
-        ], 
         "step" => [
           "template" => "step",
           "path" => $assetPath . "/components/form/Step",
+          "variables" => ["content" => []]
+        ], 
+        "mapField" => [
+          "template" => "mapField",
+          "path" => $assetPath . "/components/form/MapField",
           "variables" => ["content" => []]
         ], 
         "landingLinks" => [
