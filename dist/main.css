@@ -47,6 +47,8 @@
   --fsa__purple-hover: #2a0247;
   --fsa__grey-hover: #d9d9d6;
   --fsa__dark-green-hover: #002a2a;
+  /* Custom Colours */
+  --fsa-webtool-prgress-bar-border-step: #d8d8d8;
   /* Typography */
   --body-font: "Open Sans", sans-serif;
   --body-normal: 400;
@@ -391,6 +393,8 @@ p {
   --fsa__purple-hover: #2a0247;
   --fsa__grey-hover: #d9d9d6;
   --fsa__dark-green-hover: #002a2a;
+  /* Custom Colours */
+  --fsa-webtool-prgress-bar-border-step: #d8d8d8;
   /* Typography */
   --body-font: "Open Sans", sans-serif;
   --body-normal: 400;
@@ -691,6 +695,8 @@ p {
   --fsa__purple-hover: #2a0247;
   --fsa__grey-hover: #d9d9d6;
   --fsa__dark-green-hover: #002a2a;
+  /* Custom Colours */
+  --fsa-webtool-prgress-bar-border-step: #d8d8d8;
   /* Typography */
   --body-font: "Open Sans", sans-serif;
   --body-normal: 400;
@@ -844,6 +850,8 @@ p {
   --fsa__purple-hover: #2a0247;
   --fsa__grey-hover: #d9d9d6;
   --fsa__dark-green-hover: #002a2a;
+  /* Custom Colours */
+  --fsa-webtool-prgress-bar-border-step: #d8d8d8;
   /* Typography */
   --body-font: "Open Sans", sans-serif;
   --body-normal: 400;
@@ -1678,6 +1686,8 @@ div .header__user-menu-navigation {
   --fsa__purple-hover: #2a0247;
   --fsa__grey-hover: #d9d9d6;
   --fsa__dark-green-hover: #002a2a;
+  /* Custom Colours */
+  --fsa-webtool-prgress-bar-border-step: #d8d8d8;
   /* Typography */
   --body-font: "Open Sans", sans-serif;
   --body-normal: 400;
@@ -2188,6 +2198,8 @@ div .header__user-menu-navigation {
   --fsa__purple-hover: #2a0247;
   --fsa__grey-hover: #d9d9d6;
   --fsa__dark-green-hover: #002a2a;
+  /* Custom Colours */
+  --fsa-webtool-prgress-bar-border-step: #d8d8d8;
   /* Typography */
   --body-font: "Open Sans", sans-serif;
   --body-normal: 400;
@@ -2209,6 +2221,12 @@ div .header__user-menu-navigation {
 /* Used for Style guide pages */
 .user-login-form .link__wrapper {
   padding-top: 2rem;
+}
+/*!********************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/general/SiteMap/siteMap.scss ***!
+  \********************************************************************************************************************************************************************************/
+.sitemap__second-level {
+  margin-left: 2rem;
 }
 /*!******************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/general/ExternalLink/externalLink.scss ***!
@@ -2259,6 +2277,8 @@ div .header__user-menu-navigation {
   --fsa__purple-hover: #2a0247;
   --fsa__grey-hover: #d9d9d6;
   --fsa__dark-green-hover: #002a2a;
+  /* Custom Colours */
+  --fsa-webtool-prgress-bar-border-step: #d8d8d8;
   /* Typography */
   --body-font: "Open Sans", sans-serif;
   --body-normal: 400;
@@ -2379,6 +2399,8 @@ div .header__user-menu-navigation {
   --fsa__purple-hover: #2a0247;
   --fsa__grey-hover: #d9d9d6;
   --fsa__dark-green-hover: #002a2a;
+  /* Custom Colours */
+  --fsa-webtool-prgress-bar-border-step: #d8d8d8;
   /* Typography */
   --body-font: "Open Sans", sans-serif;
   --body-normal: 400;
@@ -2480,6 +2502,8 @@ div .header__user-menu-navigation {
   --fsa__purple-hover: #2a0247;
   --fsa__grey-hover: #d9d9d6;
   --fsa__dark-green-hover: #002a2a;
+  /* Custom Colours */
+  --fsa-webtool-prgress-bar-border-step: #d8d8d8;
   /* Typography */
   --body-font: "Open Sans", sans-serif;
   --body-normal: 400;
@@ -2754,6 +2778,8 @@ div .header__user-menu-navigation {
   --fsa__purple-hover: #2a0247;
   --fsa__grey-hover: #d9d9d6;
   --fsa__dark-green-hover: #002a2a;
+  /* Custom Colours */
+  --fsa-webtool-prgress-bar-border-step: #d8d8d8;
   /* Typography */
   --body-font: "Open Sans", sans-serif;
   --body-normal: 400;
@@ -3200,6 +3226,8 @@ div .header__user-menu-navigation {
   --fsa__purple-hover: #2a0247;
   --fsa__grey-hover: #d9d9d6;
   --fsa__dark-green-hover: #002a2a;
+  /* Custom Colours */
+  --fsa-webtool-prgress-bar-border-step: #d8d8d8;
   /* Typography */
   --body-font: "Open Sans", sans-serif;
   --body-normal: 400;
@@ -3427,6 +3455,8 @@ div .header__user-menu-navigation {
   --fsa__purple-hover: #2a0247;
   --fsa__grey-hover: #d9d9d6;
   --fsa__dark-green-hover: #002a2a;
+  /* Custom Colours */
+  --fsa-webtool-prgress-bar-border-step: #d8d8d8;
   /* Typography */
   --body-font: "Open Sans", sans-serif;
   --body-normal: 400;
@@ -3637,6 +3667,8 @@ div .header__user-menu-navigation {
   --fsa__purple-hover: #2a0247;
   --fsa__grey-hover: #d9d9d6;
   --fsa__dark-green-hover: #002a2a;
+  /* Custom Colours */
+  --fsa-webtool-prgress-bar-border-step: #d8d8d8;
   /* Typography */
   --body-font: "Open Sans", sans-serif;
   --body-normal: 400;
@@ -3752,6 +3784,8 @@ div .header__user-menu-navigation {
   --fsa__purple-hover: #2a0247;
   --fsa__grey-hover: #d9d9d6;
   --fsa__dark-green-hover: #002a2a;
+  /* Custom Colours */
+  --fsa-webtool-prgress-bar-border-step: #d8d8d8;
   /* Typography */
   --body-font: "Open Sans", sans-serif;
   --body-normal: 400;
@@ -4269,6 +4303,8 @@ div .header__user-menu-navigation {
   --fsa__purple-hover: #2a0247;
   --fsa__grey-hover: #d9d9d6;
   --fsa__dark-green-hover: #002a2a;
+  /* Custom Colours */
+  --fsa-webtool-prgress-bar-border-step: #d8d8d8;
   /* Typography */
   --body-font: "Open Sans", sans-serif;
   --body-normal: 400;
@@ -4370,6 +4406,8 @@ div .header__user-menu-navigation {
   --fsa__purple-hover: #2a0247;
   --fsa__grey-hover: #d9d9d6;
   --fsa__dark-green-hover: #002a2a;
+  /* Custom Colours */
+  --fsa-webtool-prgress-bar-border-step: #d8d8d8;
   /* Typography */
   --body-font: "Open Sans", sans-serif;
   --body-normal: 400;
@@ -5201,6 +5239,8 @@ div .header__user-menu-navigation {
   --fsa__purple-hover: #2a0247;
   --fsa__grey-hover: #d9d9d6;
   --fsa__dark-green-hover: #002a2a;
+  /* Custom Colours */
+  --fsa-webtool-prgress-bar-border-step: #d8d8d8;
   /* Typography */
   --body-font: "Open Sans", sans-serif;
   --body-normal: 400;
@@ -5319,6 +5359,8 @@ div .header__user-menu-navigation {
   --fsa__purple-hover: #2a0247;
   --fsa__grey-hover: #d9d9d6;
   --fsa__dark-green-hover: #002a2a;
+  /* Custom Colours */
+  --fsa-webtool-prgress-bar-border-step: #d8d8d8;
   /* Typography */
   --body-font: "Open Sans", sans-serif;
   --body-normal: 400;
@@ -5513,6 +5555,8 @@ div .header__user-menu-navigation {
   --fsa__purple-hover: #2a0247;
   --fsa__grey-hover: #d9d9d6;
   --fsa__dark-green-hover: #002a2a;
+  /* Custom Colours */
+  --fsa-webtool-prgress-bar-border-step: #d8d8d8;
   /* Typography */
   --body-font: "Open Sans", sans-serif;
   --body-normal: 400;
@@ -5676,6 +5720,8 @@ div .header__user-menu-navigation {
   --fsa__purple-hover: #2a0247;
   --fsa__grey-hover: #d9d9d6;
   --fsa__dark-green-hover: #002a2a;
+  /* Custom Colours */
+  --fsa-webtool-prgress-bar-border-step: #d8d8d8;
   /* Typography */
   --body-font: "Open Sans", sans-serif;
   --body-normal: 400;
@@ -5847,6 +5893,8 @@ div .header__user-menu-navigation {
   --fsa__purple-hover: #2a0247;
   --fsa__grey-hover: #d9d9d6;
   --fsa__dark-green-hover: #002a2a;
+  /* Custom Colours */
+  --fsa-webtool-prgress-bar-border-step: #d8d8d8;
   /* Typography */
   --body-font: "Open Sans", sans-serif;
   --body-normal: 400;
@@ -6124,6 +6172,8 @@ div .header__user-menu-navigation {
   --fsa__purple-hover: #2a0247;
   --fsa__grey-hover: #d9d9d6;
   --fsa__dark-green-hover: #002a2a;
+  /* Custom Colours */
+  --fsa-webtool-prgress-bar-border-step: #d8d8d8;
   /* Typography */
   --body-font: "Open Sans", sans-serif;
   --body-normal: 400;
@@ -6234,6 +6284,8 @@ div .header__user-menu-navigation {
   --fsa__purple-hover: #2a0247;
   --fsa__grey-hover: #d9d9d6;
   --fsa__dark-green-hover: #002a2a;
+  /* Custom Colours */
+  --fsa-webtool-prgress-bar-border-step: #d8d8d8;
   /* Typography */
   --body-font: "Open Sans", sans-serif;
   --body-normal: 400;
@@ -6351,6 +6403,8 @@ div .header__user-menu-navigation {
   --fsa__purple-hover: #2a0247;
   --fsa__grey-hover: #d9d9d6;
   --fsa__dark-green-hover: #002a2a;
+  /* Custom Colours */
+  --fsa-webtool-prgress-bar-border-step: #d8d8d8;
   /* Typography */
   --body-font: "Open Sans", sans-serif;
   --body-normal: 400;
@@ -6433,6 +6487,8 @@ div .header__user-menu-navigation {
   --fsa__purple-hover: #2a0247;
   --fsa__grey-hover: #d9d9d6;
   --fsa__dark-green-hover: #002a2a;
+  /* Custom Colours */
+  --fsa-webtool-prgress-bar-border-step: #d8d8d8;
   /* Typography */
   --body-font: "Open Sans", sans-serif;
   --body-normal: 400;
@@ -6541,6 +6597,8 @@ div .header__user-menu-navigation {
   --fsa__purple-hover: #2a0247;
   --fsa__grey-hover: #d9d9d6;
   --fsa__dark-green-hover: #002a2a;
+  /* Custom Colours */
+  --fsa-webtool-prgress-bar-border-step: #d8d8d8;
   /* Typography */
   --body-font: "Open Sans", sans-serif;
   --body-normal: 400;
@@ -6748,6 +6806,8 @@ body.overflow-hidden {
   --fsa__purple-hover: #2a0247;
   --fsa__grey-hover: #d9d9d6;
   --fsa__dark-green-hover: #002a2a;
+  /* Custom Colours */
+  --fsa-webtool-prgress-bar-border-step: #d8d8d8;
   /* Typography */
   --body-font: "Open Sans", sans-serif;
   --body-normal: 400;
@@ -6869,6 +6929,8 @@ body.overflow-hidden {
   --fsa__purple-hover: #2a0247;
   --fsa__grey-hover: #d9d9d6;
   --fsa__dark-green-hover: #002a2a;
+  /* Custom Colours */
+  --fsa-webtool-prgress-bar-border-step: #d8d8d8;
   /* Typography */
   --body-font: "Open Sans", sans-serif;
   --body-normal: 400;
@@ -7051,6 +7113,8 @@ body.overflow-hidden {
   --fsa__purple-hover: #2a0247;
   --fsa__grey-hover: #d9d9d6;
   --fsa__dark-green-hover: #002a2a;
+  /* Custom Colours */
+  --fsa-webtool-prgress-bar-border-step: #d8d8d8;
   /* Typography */
   --body-font: "Open Sans", sans-serif;
   --body-normal: 400;
@@ -7249,6 +7313,8 @@ body.overflow-hidden {
   --fsa__purple-hover: #2a0247;
   --fsa__grey-hover: #d9d9d6;
   --fsa__dark-green-hover: #002a2a;
+  /* Custom Colours */
+  --fsa-webtool-prgress-bar-border-step: #d8d8d8;
   /* Typography */
   --body-font: "Open Sans", sans-serif;
   --body-normal: 400;
@@ -7466,6 +7532,8 @@ body.overflow-hidden {
   --fsa__purple-hover: #2a0247;
   --fsa__grey-hover: #d9d9d6;
   --fsa__dark-green-hover: #002a2a;
+  /* Custom Colours */
+  --fsa-webtool-prgress-bar-border-step: #d8d8d8;
   /* Typography */
   --body-font: "Open Sans", sans-serif;
   --body-normal: 400;
@@ -7653,6 +7721,8 @@ body.overflow-hidden {
   --fsa__purple-hover: #2a0247;
   --fsa__grey-hover: #d9d9d6;
   --fsa__dark-green-hover: #002a2a;
+  /* Custom Colours */
+  --fsa-webtool-prgress-bar-border-step: #d8d8d8;
   /* Typography */
   --body-font: "Open Sans", sans-serif;
   --body-normal: 400;
@@ -7824,6 +7894,8 @@ body.overflow-hidden {
   --fsa__purple-hover: #2a0247;
   --fsa__grey-hover: #d9d9d6;
   --fsa__dark-green-hover: #002a2a;
+  /* Custom Colours */
+  --fsa-webtool-prgress-bar-border-step: #d8d8d8;
   /* Typography */
   --body-font: "Open Sans", sans-serif;
   --body-normal: 400;
@@ -8053,6 +8125,8 @@ body.overflow-hidden {
   --fsa__purple-hover: #2a0247;
   --fsa__grey-hover: #d9d9d6;
   --fsa__dark-green-hover: #002a2a;
+  /* Custom Colours */
+  --fsa-webtool-prgress-bar-border-step: #d8d8d8;
   /* Typography */
   --body-font: "Open Sans", sans-serif;
   --body-normal: 400;
@@ -8110,6 +8184,8 @@ body.overflow-hidden {
   --fsa__purple-hover: #2a0247;
   --fsa__grey-hover: #d9d9d6;
   --fsa__dark-green-hover: #002a2a;
+  /* Custom Colours */
+  --fsa-webtool-prgress-bar-border-step: #d8d8d8;
   /* Typography */
   --body-font: "Open Sans", sans-serif;
   --body-normal: 400;
@@ -8326,6 +8402,8 @@ body.overflow-hidden {
   --fsa__purple-hover: #2a0247;
   --fsa__grey-hover: #d9d9d6;
   --fsa__dark-green-hover: #002a2a;
+  /* Custom Colours */
+  --fsa-webtool-prgress-bar-border-step: #d8d8d8;
   /* Typography */
   --body-font: "Open Sans", sans-serif;
   --body-normal: 400;
@@ -8448,6 +8526,8 @@ body.overflow-hidden {
   --fsa__purple-hover: #2a0247;
   --fsa__grey-hover: #d9d9d6;
   --fsa__dark-green-hover: #002a2a;
+  /* Custom Colours */
+  --fsa-webtool-prgress-bar-border-step: #d8d8d8;
   /* Typography */
   --body-font: "Open Sans", sans-serif;
   --body-normal: 400;
@@ -8675,6 +8755,8 @@ body.overflow-hidden {
   --fsa__purple-hover: #2a0247;
   --fsa__grey-hover: #d9d9d6;
   --fsa__dark-green-hover: #002a2a;
+  /* Custom Colours */
+  --fsa-webtool-prgress-bar-border-step: #d8d8d8;
   /* Typography */
   --body-font: "Open Sans", sans-serif;
   --body-normal: 400;
@@ -8837,6 +8919,8 @@ body.overflow-hidden {
   --fsa__purple-hover: #2a0247;
   --fsa__grey-hover: #d9d9d6;
   --fsa__dark-green-hover: #002a2a;
+  /* Custom Colours */
+  --fsa-webtool-prgress-bar-border-step: #d8d8d8;
   /* Typography */
   --body-font: "Open Sans", sans-serif;
   --body-normal: 400;
@@ -8937,6 +9021,8 @@ h3.form-title {
   --fsa__purple-hover: #2a0247;
   --fsa__grey-hover: #d9d9d6;
   --fsa__dark-green-hover: #002a2a;
+  /* Custom Colours */
+  --fsa-webtool-prgress-bar-border-step: #d8d8d8;
   /* Typography */
   --body-font: "Open Sans", sans-serif;
   --body-normal: 400;
@@ -9103,6 +9189,8 @@ h3.form-title {
   --fsa__purple-hover: #2a0247;
   --fsa__grey-hover: #d9d9d6;
   --fsa__dark-green-hover: #002a2a;
+  /* Custom Colours */
+  --fsa-webtool-prgress-bar-border-step: #d8d8d8;
   /* Typography */
   --body-font: "Open Sans", sans-serif;
   --body-normal: 400;
@@ -9285,6 +9373,8 @@ h3.form-title {
   --fsa__purple-hover: #2a0247;
   --fsa__grey-hover: #d9d9d6;
   --fsa__dark-green-hover: #002a2a;
+  /* Custom Colours */
+  --fsa-webtool-prgress-bar-border-step: #d8d8d8;
   /* Typography */
   --body-font: "Open Sans", sans-serif;
   --body-normal: 400;
@@ -9367,6 +9457,8 @@ h3.form-title {
   --fsa__purple-hover: #2a0247;
   --fsa__grey-hover: #d9d9d6;
   --fsa__dark-green-hover: #002a2a;
+  /* Custom Colours */
+  --fsa-webtool-prgress-bar-border-step: #d8d8d8;
   /* Typography */
   --body-font: "Open Sans", sans-serif;
   --body-normal: 400;
@@ -9457,6 +9549,8 @@ h3.form-title {
   --fsa__purple-hover: #2a0247;
   --fsa__grey-hover: #d9d9d6;
   --fsa__dark-green-hover: #002a2a;
+  /* Custom Colours */
+  --fsa-webtool-prgress-bar-border-step: #d8d8d8;
   /* Typography */
   --body-font: "Open Sans", sans-serif;
   --body-normal: 400;
@@ -9767,6 +9861,8 @@ h3.form-title {
   --fsa__purple-hover: #2a0247;
   --fsa__grey-hover: #d9d9d6;
   --fsa__dark-green-hover: #002a2a;
+  /* Custom Colours */
+  --fsa-webtool-prgress-bar-border-step: #d8d8d8;
   /* Typography */
   --body-font: "Open Sans", sans-serif;
   --body-normal: 400;
@@ -9959,6 +10055,8 @@ h3.form-title {
   --fsa__purple-hover: #2a0247;
   --fsa__grey-hover: #d9d9d6;
   --fsa__dark-green-hover: #002a2a;
+  /* Custom Colours */
+  --fsa-webtool-prgress-bar-border-step: #d8d8d8;
   /* Typography */
   --body-font: "Open Sans", sans-serif;
   --body-normal: 400;
@@ -10359,6 +10457,8 @@ h3.form-title {
   --fsa__purple-hover: #2a0247;
   --fsa__grey-hover: #d9d9d6;
   --fsa__dark-green-hover: #002a2a;
+  /* Custom Colours */
+  --fsa-webtool-prgress-bar-border-step: #d8d8d8;
   /* Typography */
   --body-font: "Open Sans", sans-serif;
   --body-normal: 400;
@@ -10742,6 +10842,8 @@ h3.form-title {
   --fsa__purple-hover: #2a0247;
   --fsa__grey-hover: #d9d9d6;
   --fsa__dark-green-hover: #002a2a;
+  /* Custom Colours */
+  --fsa-webtool-prgress-bar-border-step: #d8d8d8;
   /* Typography */
   --body-font: "Open Sans", sans-serif;
   --body-normal: 400;
@@ -11094,6 +11196,8 @@ h3.form-title {
   --fsa__purple-hover: #2a0247;
   --fsa__grey-hover: #d9d9d6;
   --fsa__dark-green-hover: #002a2a;
+  /* Custom Colours */
+  --fsa-webtool-prgress-bar-border-step: #d8d8d8;
   /* Typography */
   --body-font: "Open Sans", sans-serif;
   --body-normal: 400;
@@ -11361,6 +11465,8 @@ h3.form-title {
   --fsa__purple-hover: #2a0247;
   --fsa__grey-hover: #d9d9d6;
   --fsa__dark-green-hover: #002a2a;
+  /* Custom Colours */
+  --fsa-webtool-prgress-bar-border-step: #d8d8d8;
   /* Typography */
   --body-font: "Open Sans", sans-serif;
   --body-normal: 400;
@@ -11863,6 +11969,8 @@ h3.form-title {
   --fsa__purple-hover: #2a0247;
   --fsa__grey-hover: #d9d9d6;
   --fsa__dark-green-hover: #002a2a;
+  /* Custom Colours */
+  --fsa-webtool-prgress-bar-border-step: #d8d8d8;
   /* Typography */
   --body-font: "Open Sans", sans-serif;
   --body-normal: 400;
@@ -12045,6 +12153,8 @@ h3.form-title {
   --fsa__purple-hover: #2a0247;
   --fsa__grey-hover: #d9d9d6;
   --fsa__dark-green-hover: #002a2a;
+  /* Custom Colours */
+  --fsa-webtool-prgress-bar-border-step: #d8d8d8;
   /* Typography */
   --body-font: "Open Sans", sans-serif;
   --body-normal: 400;
@@ -12335,6 +12445,8 @@ h3.form-title {
   --fsa__purple-hover: #2a0247;
   --fsa__grey-hover: #d9d9d6;
   --fsa__dark-green-hover: #002a2a;
+  /* Custom Colours */
+  --fsa-webtool-prgress-bar-border-step: #d8d8d8;
   /* Typography */
   --body-font: "Open Sans", sans-serif;
   --body-normal: 400;
@@ -12537,6 +12649,8 @@ h3.form-title {
   --fsa__purple-hover: #2a0247;
   --fsa__grey-hover: #d9d9d6;
   --fsa__dark-green-hover: #002a2a;
+  /* Custom Colours */
+  --fsa-webtool-prgress-bar-border-step: #d8d8d8;
   /* Typography */
   --body-font: "Open Sans", sans-serif;
   --body-normal: 400;
@@ -12739,6 +12853,8 @@ h3.form-title {
   --fsa__purple-hover: #2a0247;
   --fsa__grey-hover: #d9d9d6;
   --fsa__dark-green-hover: #002a2a;
+  /* Custom Colours */
+  --fsa-webtool-prgress-bar-border-step: #d8d8d8;
   /* Typography */
   --body-font: "Open Sans", sans-serif;
   --body-normal: 400;
@@ -12972,6 +13088,8 @@ h3.form-title {
   --fsa__purple-hover: #2a0247;
   --fsa__grey-hover: #d9d9d6;
   --fsa__dark-green-hover: #002a2a;
+  /* Custom Colours */
+  --fsa-webtool-prgress-bar-border-step: #d8d8d8;
   /* Typography */
   --body-font: "Open Sans", sans-serif;
   --body-normal: 400;
@@ -13481,6 +13599,8 @@ h3.form-title {
   --fsa__purple-hover: #2a0247;
   --fsa__grey-hover: #d9d9d6;
   --fsa__dark-green-hover: #002a2a;
+  /* Custom Colours */
+  --fsa-webtool-prgress-bar-border-step: #d8d8d8;
   /* Typography */
   --body-font: "Open Sans", sans-serif;
   --body-normal: 400;
@@ -13588,6 +13708,8 @@ h3.form-title {
   --fsa__purple-hover: #2a0247;
   --fsa__grey-hover: #d9d9d6;
   --fsa__dark-green-hover: #002a2a;
+  /* Custom Colours */
+  --fsa-webtool-prgress-bar-border-step: #d8d8d8;
   /* Typography */
   --body-font: "Open Sans", sans-serif;
   --body-normal: 400;
@@ -13709,6 +13831,8 @@ h3.form-title {
   --fsa__purple-hover: #2a0247;
   --fsa__grey-hover: #d9d9d6;
   --fsa__dark-green-hover: #002a2a;
+  /* Custom Colours */
+  --fsa-webtool-prgress-bar-border-step: #d8d8d8;
   /* Typography */
   --body-font: "Open Sans", sans-serif;
   --body-normal: 400;
@@ -14043,6 +14167,8 @@ h3.form-title {
   --fsa__purple-hover: #2a0247;
   --fsa__grey-hover: #d9d9d6;
   --fsa__dark-green-hover: #002a2a;
+  /* Custom Colours */
+  --fsa-webtool-prgress-bar-border-step: #d8d8d8;
   /* Typography */
   --body-font: "Open Sans", sans-serif;
   --body-normal: 400;
@@ -14275,6 +14401,8 @@ h3.form-title {
   --fsa__purple-hover: #2a0247;
   --fsa__grey-hover: #d9d9d6;
   --fsa__dark-green-hover: #002a2a;
+  /* Custom Colours */
+  --fsa-webtool-prgress-bar-border-step: #d8d8d8;
   /* Typography */
   --body-font: "Open Sans", sans-serif;
   --body-normal: 400;
@@ -14771,6 +14899,8 @@ h3.form-title {
   --fsa__purple-hover: #2a0247;
   --fsa__grey-hover: #d9d9d6;
   --fsa__dark-green-hover: #002a2a;
+  /* Custom Colours */
+  --fsa-webtool-prgress-bar-border-step: #d8d8d8;
   /* Typography */
   --body-font: "Open Sans", sans-serif;
   --body-normal: 400;
@@ -14890,6 +15020,8 @@ h3.form-title {
   --fsa__purple-hover: #2a0247;
   --fsa__grey-hover: #d9d9d6;
   --fsa__dark-green-hover: #002a2a;
+  /* Custom Colours */
+  --fsa-webtool-prgress-bar-border-step: #d8d8d8;
   /* Typography */
   --body-font: "Open Sans", sans-serif;
   --body-normal: 400;
@@ -15030,6 +15162,8 @@ h3.form-title {
   --fsa__purple-hover: #2a0247;
   --fsa__grey-hover: #d9d9d6;
   --fsa__dark-green-hover: #002a2a;
+  /* Custom Colours */
+  --fsa-webtool-prgress-bar-border-step: #d8d8d8;
   /* Typography */
   --body-font: "Open Sans", sans-serif;
   --body-normal: 400;
@@ -15116,6 +15250,8 @@ h3.form-title {
   --fsa__purple-hover: #2a0247;
   --fsa__grey-hover: #d9d9d6;
   --fsa__dark-green-hover: #002a2a;
+  /* Custom Colours */
+  --fsa-webtool-prgress-bar-border-step: #d8d8d8;
   /* Typography */
   --body-font: "Open Sans", sans-serif;
   --body-normal: 400;
@@ -15230,6 +15366,8 @@ h3.form-title {
   --fsa__purple-hover: #2a0247;
   --fsa__grey-hover: #d9d9d6;
   --fsa__dark-green-hover: #002a2a;
+  /* Custom Colours */
+  --fsa-webtool-prgress-bar-border-step: #d8d8d8;
   /* Typography */
   --body-font: "Open Sans", sans-serif;
   --body-normal: 400;
@@ -15349,6 +15487,8 @@ h3.form-title {
   --fsa__purple-hover: #2a0247;
   --fsa__grey-hover: #d9d9d6;
   --fsa__dark-green-hover: #002a2a;
+  /* Custom Colours */
+  --fsa-webtool-prgress-bar-border-step: #d8d8d8;
   /* Typography */
   --body-font: "Open Sans", sans-serif;
   --body-normal: 400;
@@ -15459,6 +15599,8 @@ h3.form-title {
   --fsa__purple-hover: #2a0247;
   --fsa__grey-hover: #d9d9d6;
   --fsa__dark-green-hover: #002a2a;
+  /* Custom Colours */
+  --fsa-webtool-prgress-bar-border-step: #d8d8d8;
   /* Typography */
   --body-font: "Open Sans", sans-serif;
   --body-normal: 400;
@@ -15598,6 +15740,8 @@ h3.form-title {
   --fsa__purple-hover: #2a0247;
   --fsa__grey-hover: #d9d9d6;
   --fsa__dark-green-hover: #002a2a;
+  /* Custom Colours */
+  --fsa-webtool-prgress-bar-border-step: #d8d8d8;
   /* Typography */
   --body-font: "Open Sans", sans-serif;
   --body-normal: 400;
@@ -15710,6 +15854,8 @@ h3.form-title {
   --fsa__purple-hover: #2a0247;
   --fsa__grey-hover: #d9d9d6;
   --fsa__dark-green-hover: #002a2a;
+  /* Custom Colours */
+  --fsa-webtool-prgress-bar-border-step: #d8d8d8;
   /* Typography */
   --body-font: "Open Sans", sans-serif;
   --body-normal: 400;
@@ -15922,6 +16068,8 @@ h3.form-title {
   --fsa__purple-hover: #2a0247;
   --fsa__grey-hover: #d9d9d6;
   --fsa__dark-green-hover: #002a2a;
+  /* Custom Colours */
+  --fsa-webtool-prgress-bar-border-step: #d8d8d8;
   /* Typography */
   --body-font: "Open Sans", sans-serif;
   --body-normal: 400;
@@ -16020,6 +16168,8 @@ h3.form-title {
   --fsa__purple-hover: #2a0247;
   --fsa__grey-hover: #d9d9d6;
   --fsa__dark-green-hover: #002a2a;
+  /* Custom Colours */
+  --fsa-webtool-prgress-bar-border-step: #d8d8d8;
   /* Typography */
   --body-font: "Open Sans", sans-serif;
   --body-normal: 400;
@@ -16255,6 +16405,8 @@ h3.form-title {
   --fsa__purple-hover: #2a0247;
   --fsa__grey-hover: #d9d9d6;
   --fsa__dark-green-hover: #002a2a;
+  /* Custom Colours */
+  --fsa-webtool-prgress-bar-border-step: #d8d8d8;
   /* Typography */
   --body-font: "Open Sans", sans-serif;
   --body-normal: 400;
@@ -16700,6 +16852,8 @@ h3.form-title {
   --fsa__purple-hover: #2a0247;
   --fsa__grey-hover: #d9d9d6;
   --fsa__dark-green-hover: #002a2a;
+  /* Custom Colours */
+  --fsa-webtool-prgress-bar-border-step: #d8d8d8;
   /* Typography */
   --body-font: "Open Sans", sans-serif;
   --body-normal: 400;
@@ -17011,6 +17165,230 @@ h3.form-title {
     font-size: 1.44rem;
   }
 }
+/*!******************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/article/WebToolProgressBar/webToolProgressBar.scss ***!
+  \******************************************************************************************************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css?family=Fira+Sans:300,400,500,700);
+/*!**********************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/article/WebToolProgressBar/webToolProgressBar.scss (1) ***!
+  \**********************************************************************************************************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700);
+/*!**********************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/article/WebToolProgressBar/webToolProgressBar.scss (2) ***!
+  \**********************************************************************************************************************************************************************************************************/
+:root {
+  /* Primary Colours */
+  --fsa-primary_dark-green: #007c75;
+  --fsa-primary_mid-green: #6cb33f;
+  --fsa-primary_light-green: #a9c47f;
+  --fsa-primary_dark-grey: #53565a;
+  --fsa_online-grey: #f0f3f5;
+  --fsa_border: #dee2e5;
+  --fsa-primary_black: #000;
+  --fsa-primary_white: #fff;
+  --fsa_tint: #fafcfd;
+  /* Secondary Colours */
+  --fsa-secondary_mid-red: #e31837;
+  --fsa-secondary_dark-blue: #165c7d;
+  --fsa-secondary_orange: #f15d22;
+  --fsa-secondary_mid-yellow: #fdb913;
+  --fsa-secondary_mid-purple: #49176d;
+  --fsa-secondary_light-purple: #9f218b;
+  --fsa-tertiary_dark-blue: #9f218b;
+  --fsa-secondary-error-red: #e60f31;
+  --fsa-secondary-error-hover: #b0132b;
+  /* Tertiary Colours */
+  --fsa-tertiary_dark-red: #b04a5a;
+  --fsa-tertiary_light-red: #ef3340;
+  --fsa-tertiary_light-yellow: #f1c400;
+  --fsa-tertiary_teal: #00b2a9;
+  --fsa-tertiary_light-blue: #8dc8e8;
+  --fsa-tertiary_dark-purple: #51284f;
+  --fsa-secondary_mid-blue: #007fb2;
+  --fsa-tertiary_lime: #cedc00;
+  --fsa-tertiary_mauve: #8b84d7;
+  --fsa-tertiary_stripe-green: #006f51;
+  --fsa-tertiary_light-black: #101010;
+  /* Hover Colours */
+  --fsa__link-green: #014b4c;
+  --fsa__purple-hover: #2a0247;
+  --fsa__grey-hover: #d9d9d6;
+  --fsa__dark-green-hover: #002a2a;
+  /* Custom Colours */
+  --fsa-webtool-prgress-bar-border-step: #d8d8d8;
+  /* Typography */
+  --body-font: "Open Sans", sans-serif;
+  --body-normal: 400;
+  --body-bold: 600;
+  --heading-font: "Fira Sans", sans-serif;
+  --heading-bold: 700;
+  /* Grid */
+  --container-mobile: 1rem;
+  --container: 2rem;
+  --gutter: 1rem;
+  --max-width: 1336px;
+  /* Transitions */
+  --transition-time: 200;
+}
+
+/* Grid */
+/* Custom Mixins */
+/* Mixin for checkbox and radio button style */
+/* Used for Style guide pages */
+.webtool-progress-bar {
+  background: #f0f3f5;
+  background: var(--fsa_online-grey);
+  border: 1px solid #dee2e5;
+  border: 1px solid var(--fsa_border);
+  padding: 1rem;
+}
+@media screen and (min-width: 1024px) {
+  .webtool-progress-bar {
+    display: inline-block;
+    padding-bottom: 2rem;
+  }
+}
+.webtool-progress-bar__line {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.webtool-progress-bar__line + .webtool-progress-bar__line {
+  margin-top: 1rem;
+}
+@media screen and (min-width: 1024px) {
+  .webtool-progress-bar__line {
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-between;
+  }
+  .webtool-progress-bar__line + .webtool-progress-bar__line {
+    margin-top: 3.5rem;
+  }
+}
+.webtool-progress-bar__line-opened .webtool-progress-bar__label::after {
+  -webkit-transform: none;
+          transform: none;
+}
+.webtool-progress-bar__line-opened .webtool-progress-bar__steps {
+  display: block;
+}
+@media screen and (min-width: 1024px) {
+  .webtool-progress-bar__line-opened .webtool-progress-bar__steps {
+    display: flex;
+    flex-direction: row;
+  }
+}
+.webtool-progress-bar__label {
+  cursor: default;
+  font-size: 1.5rem;
+  font-weight: bold;
+  line-height: 1;
+  position: relative;
+}
+.webtool-progress-bar__label::after {
+  content: "";
+  background-image: url(./components/article/WebToolProgressBar/assets/arrow.svg);
+  display: inline-block;
+  width: 1.1rem;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  height: 1rem;
+  right: 0;
+  vertical-align: middle;
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+@media screen and (min-width: 1024px) {
+  .webtool-progress-bar__label {
+    margin-right: 2rem;
+  }
+  .webtool-progress-bar__label::after {
+    display: none;
+  }
+}
+.webtool-progress-bar__steps {
+  display: none;
+  margin-top: 1rem;
+}
+@media screen and (min-width: 1024px) {
+  .webtool-progress-bar__steps {
+    display: flex;
+    flex-direction: row;
+    margin-top: 0;
+  }
+}
+.webtool-progress-bar__step {
+  border-left: 4px solid #d8d8d8;
+  border-left: 4px solid var(--fsa-webtool-prgress-bar-border-step);
+}
+@media screen and (min-width: 1024px) {
+  .webtool-progress-bar__step {
+    border-bottom: 4px solid #d8d8d8;
+    border-bottom: 4px solid var(--fsa-webtool-prgress-bar-border-step);
+    border-left: none;
+  }
+}
+.webtool-progress-bar__step a {
+  color: #007c75;
+  color: var(--fsa-primary_dark-green);
+  display: block;
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 1rem 1.5rem;
+  width: 100%;
+}
+@media screen and (min-width: 1024px) {
+  .webtool-progress-bar__step a {
+    font-size: 1.5rem;
+    padding: 0 0.5rem;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .webtool-progress-bar__step a {
+    padding: 0.5rem 2rem;
+  }
+}
+.webtool-progress-bar__step a:hover {
+  color: #014b4c;
+  color: var(--fsa__link-green);
+}
+.webtool-progress-bar__step a:focus {
+  color: #014b4c;
+  color: var(--fsa__link-green);
+}
+.webtool-progress-bar__step-completed {
+  border-color: #007c75;
+  border-color: var(--fsa-primary_dark-green);
+  margin-bottom: 1px;
+}
+@media screen and (min-width: 1024px) {
+  .webtool-progress-bar__step-completed {
+    margin-right: 1px;
+    margin-bottom: 0;
+  }
+}
+.webtool-progress-bar__step-completed a {
+  color: #000;
+  color: var(--fsa-primary_black);
+}
+.webtool-progress-bar__step-active {
+  background: #007c75;
+  background: var(--fsa-primary_dark-green);
+}
+.webtool-progress-bar__step-active a {
+  color: #fff;
+  color: var(--fsa-primary_white);
+}
+.webtool-progress-bar__step-active a:hover {
+  color: #fff;
+  color: var(--fsa-primary_white);
+}
+.webtool-progress-bar__step-active a:focus {
+  color: #fff;
+  color: var(--fsa-primary_white);
+}
 /*!*******************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/fhrs/LocalAuthority/localAuthority.scss ***!
   \*******************************************************************************************************************************************************************************************/
@@ -17060,6 +17438,8 @@ h3.form-title {
   --fsa__purple-hover: #2a0247;
   --fsa__grey-hover: #d9d9d6;
   --fsa__dark-green-hover: #002a2a;
+  /* Custom Colours */
+  --fsa-webtool-prgress-bar-border-step: #d8d8d8;
   /* Typography */
   --body-font: "Open Sans", sans-serif;
   --body-normal: 400;
@@ -17185,6 +17565,8 @@ h3.form-title {
   --fsa__purple-hover: #2a0247;
   --fsa__grey-hover: #d9d9d6;
   --fsa__dark-green-hover: #002a2a;
+  /* Custom Colours */
+  --fsa-webtool-prgress-bar-border-step: #d8d8d8;
   /* Typography */
   --body-font: "Open Sans", sans-serif;
   --body-normal: 400;
@@ -17269,6 +17651,8 @@ h3.form-title {
   --fsa__purple-hover: #2a0247;
   --fsa__grey-hover: #d9d9d6;
   --fsa__dark-green-hover: #002a2a;
+  /* Custom Colours */
+  --fsa-webtool-prgress-bar-border-step: #d8d8d8;
   /* Typography */
   --body-font: "Open Sans", sans-serif;
   --body-normal: 400;
@@ -17436,6 +17820,8 @@ h3.form-title {
   --fsa__purple-hover: #2a0247;
   --fsa__grey-hover: #d9d9d6;
   --fsa__dark-green-hover: #002a2a;
+  /* Custom Colours */
+  --fsa-webtool-prgress-bar-border-step: #d8d8d8;
   /* Typography */
   --body-font: "Open Sans", sans-serif;
   --body-normal: 400;
@@ -17666,6 +18052,8 @@ h3.form-title {
   --fsa__purple-hover: #2a0247;
   --fsa__grey-hover: #d9d9d6;
   --fsa__dark-green-hover: #002a2a;
+  /* Custom Colours */
+  --fsa-webtool-prgress-bar-border-step: #d8d8d8;
   /* Typography */
   --body-font: "Open Sans", sans-serif;
   --body-normal: 400;
@@ -17867,6 +18255,8 @@ h3.form-title {
   --fsa__purple-hover: #2a0247;
   --fsa__grey-hover: #d9d9d6;
   --fsa__dark-green-hover: #002a2a;
+  /* Custom Colours */
+  --fsa-webtool-prgress-bar-border-step: #d8d8d8;
   /* Typography */
   --body-font: "Open Sans", sans-serif;
   --body-normal: 400;
@@ -17992,6 +18382,8 @@ h3.form-title {
   --fsa__purple-hover: #2a0247;
   --fsa__grey-hover: #d9d9d6;
   --fsa__dark-green-hover: #002a2a;
+  /* Custom Colours */
+  --fsa-webtool-prgress-bar-border-step: #d8d8d8;
   /* Typography */
   --body-font: "Open Sans", sans-serif;
   --body-normal: 400;
@@ -18272,6 +18664,8 @@ h3.form-title {
   --fsa__purple-hover: #2a0247;
   --fsa__grey-hover: #d9d9d6;
   --fsa__dark-green-hover: #002a2a;
+  /* Custom Colours */
+  --fsa-webtool-prgress-bar-border-step: #d8d8d8;
   /* Typography */
   --body-font: "Open Sans", sans-serif;
   --body-normal: 400;
@@ -18417,6 +18811,8 @@ h3.form-title {
   --fsa__purple-hover: #2a0247;
   --fsa__grey-hover: #d9d9d6;
   --fsa__dark-green-hover: #002a2a;
+  /* Custom Colours */
+  --fsa-webtool-prgress-bar-border-step: #d8d8d8;
   /* Typography */
   --body-font: "Open Sans", sans-serif;
   --body-normal: 400;
@@ -18549,6 +18945,8 @@ h3.form-title {
   --fsa__purple-hover: #2a0247;
   --fsa__grey-hover: #d9d9d6;
   --fsa__dark-green-hover: #002a2a;
+  /* Custom Colours */
+  --fsa-webtool-prgress-bar-border-step: #d8d8d8;
   /* Typography */
   --body-font: "Open Sans", sans-serif;
   --body-normal: 400;
