@@ -71,6 +71,11 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/general/ExternalLink",
           "variables" => ["content" => []]
         ], 
+        "mailLink" => [
+          "template" => "mailLink",
+          "path" => $assetPath . "/components/general/MailLink",
+          "variables" => ["content" => []]
+        ], 
         "footer" => [
           "template" => "footer",
           "path" => $assetPath . "/components/general/Footer",
@@ -79,11 +84,6 @@ function deeson_twig_component_templates($assetPath = 'auto') {
         "feedback" => [
           "template" => "feedback",
           "path" => $assetPath . "/components/general/Feedback",
-          "variables" => ["content" => []]
-        ], 
-        "mailLink" => [
-          "template" => "mailLink",
-          "path" => $assetPath . "/components/general/MailLink",
           "variables" => ["content" => []]
         ], 
         "cookieBanner" => [
@@ -161,6 +161,11 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/search/SortBy",
           "variables" => ["content" => []]
         ], 
+        "nationalArchiveLink" => [
+          "template" => "nationalArchiveLink",
+          "path" => $assetPath . "/components/general/NationalArchiveLink/react",
+          "variables" => ["content" => []]
+        ], 
         "filtersHeader" => [
           "template" => "filtersHeader",
           "path" => $assetPath . "/components/search/FiltersHeader",
@@ -169,11 +174,6 @@ function deeson_twig_component_templates($assetPath = 'auto') {
         "ratingCta" => [
           "template" => "ratingCta",
           "path" => $assetPath . "/components/search/RatingCta",
-          "variables" => ["content" => []]
-        ], 
-        "nationalArchiveLink" => [
-          "template" => "nationalArchiveLink",
-          "path" => $assetPath . "/components/general/NationalArchiveLink/react",
           "variables" => ["content" => []]
         ], 
         "datepicker" => [
