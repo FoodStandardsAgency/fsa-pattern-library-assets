@@ -1546,6 +1546,9 @@ div .header__user-menu-navigation {
     overflow-y: auto;
     overflow-x: hidden;
   }
+  .header--expanded .header__logo-svg--secondary-logo {
+    background-image: url(./components/general/Header/assets/logo/my-haccp-logo-white.svg);
+  }
   .header--expanded .header__search-bar--icon {
     background-color: #fff;
     background-color: var(--fsa-primary_white);
@@ -2654,9 +2657,6 @@ div .header__user-menu-navigation {
   .footer .footer__menu-link {
     padding-left: 0.75rem;
     padding-right: 0.75rem;
-  }
-  .footer .footer__menu-link.external-link {
-    padding-right: 2rem;
   }
   .footer .footer__menu-link.external-link::after {
     right: 0.75rem;
@@ -5261,7 +5261,9 @@ div .header__user-menu-navigation {
 /* Mixin for checkbox and radio button style */
 /* Used for Style guide pages */
 .dropdown-menu {
+  display: inline-block;
   position: relative;
+  text-align: left;
 }
 .dropdown-menu__label {
   color: #000;
@@ -5272,17 +5274,22 @@ div .header__user-menu-navigation {
   font-size: 1rem;
   padding: 0.5rem 2.5rem 0.5rem 1rem;
   min-height: 2.4rem;
-  background: undefined;
-  background: var(--fsa-tint);
+  background-color: #fafcfd;
+  background-color: var(--fsa_tint);
   border: 1px solid #000;
   border: 1px solid var(--fsa-primary_black);
   border-radius: 0;
   max-width: 100%;
   flex-grow: 1;
-  font-weight: bold;
+  font-weight: normal;
   background-image: url(./components/general/DropdownMenu/assets/arrow-down.svg);
   background-repeat: no-repeat;
   background-position: calc(100% - 1rem) center;
+}
+@media screen and (min-width: 768px) {
+  .dropdown-menu__label {
+    font-weight: bold;
+  }
 }
 .dropdown-menu__option {
   border-top: solid 1px #dee2e5;
@@ -5293,8 +5300,8 @@ div .header__user-menu-navigation {
   padding: 0.5rem 2.5rem 0.5rem 1rem;
 }
 .dropdown-menu__option a:hover {
-  background: #f0f3f5;
-  background: var(--fsa_online-grey);
+  background: #fafcfd;
+  background: var(--fsa_tint);
 }
 .dropdown-menu__options {
   background: #fff;
@@ -9642,6 +9649,7 @@ h3.form-title {
   background: var(--fsa_online-grey);
   border-right: 3px solid #007c75;
   border-right: 3px solid var(--fsa-primary_dark-green);
+  border-radius: 10rem 0 0;
   content: "";
   position: absolute;
   right: -0.17rem;
@@ -9652,14 +9660,12 @@ h3.form-title {
 @media screen and (min-width: 768px) {
   .tooltip__body::before {
     right: -0.17rem;
-    top: -0.83rem;
+    top: -0.82rem;
     height: 0.83rem;
     width: 0.83rem;
   }
 }
 .tooltip__body::after {
-  background: #fff;
-  background: var(--fsa-primary_white);
   border-right: 3px solid #007c75;
   border-right: 3px solid var(--fsa-primary_dark-green);
   content: "";
@@ -9709,8 +9715,30 @@ h3.form-title {
   display: block;
 }
 .tooltip__message {
-  padding: 1rem 2rem 1rem 1rem;
+  font-family: "Open Sans", sans-serif;
+  font-family: var(--body-font);
+  font-weight: 400;
+  font-weight: var(--body-normal);
+  font-size: 1rem;
+  line-height: 1.6;
+  letter-spacing: normal;
+  padding: 1rem 1.5rem 1rem 1rem;
   text-align: left;
+}
+
+.with-tooltip {
+  position: relative;
+  padding-right: 2rem;
+}
+.with-tooltip .tooltip {
+  position: absolute;
+  top: -0.3rem;
+  right: 0;
+}
+@media screen and (min-width: 1024px) {
+  .with-tooltip .tooltip {
+    top: -0.2rem;
+  }
 }
 /*!******************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/landing/LandingLinks/landingLinks.scss ***!
@@ -13225,6 +13253,8 @@ h3.form-title {
   color: var(--fsa-primary_dark-green);
   text-decoration: underline;
   border-bottom: 0.25rem solid transparent;
+  font-family: "Open Sans", sans-serif;
+  font-family: var(--body-font);
 }
 .article-hero__toolbar__revision-log:hover {
   color: #014b4c;
@@ -14274,12 +14304,6 @@ h3.form-title {
 }
 .related-content__card_no_link:hover::after {
   background-image: none;
-}
-.related-content__image {
-  margin: 1rem 1.25rem 0;
-}
-.related-content__image img {
-  width: 100%;
 }
 .related-content__sub-heading {
   font-family: "Fira Sans", sans-serif;
@@ -15529,127 +15553,6 @@ h3.form-title {
 .allergens-table tbody td {
   padding: 1rem;
 }
-/*!********************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/article/WebToolStudiesTable/webToolStudiesTable.scss ***!
-  \********************************************************************************************************************************************************************************************************/
-@import url(https://fonts.googleapis.com/css?family=Fira+Sans:300,400,500,700);
-/*!************************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/article/WebToolStudiesTable/webToolStudiesTable.scss (1) ***!
-  \************************************************************************************************************************************************************************************************************/
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700);
-/*!************************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/article/WebToolStudiesTable/webToolStudiesTable.scss (2) ***!
-  \************************************************************************************************************************************************************************************************************/
-:root {
-  /* Primary Colours */
-  --fsa-primary_dark-green: #007c75;
-  --fsa-primary_mid-green: #6cb33f;
-  --fsa-primary_light-green: #a9c47f;
-  --fsa-primary_dark-grey: #53565a;
-  --fsa_online-grey: #f0f3f5;
-  --fsa_border: #dee2e5;
-  --fsa-primary_black: #000;
-  --fsa-primary_white: #fff;
-  --fsa_tint: #fafcfd;
-  /* Secondary Colours */
-  --fsa-secondary_mid-red: #e31837;
-  --fsa-secondary_dark-blue: #165c7d;
-  --fsa-secondary_orange: #f15d22;
-  --fsa-secondary_mid-yellow: #fdb913;
-  --fsa-secondary_mid-purple: #49176d;
-  --fsa-secondary_light-purple: #9f218b;
-  --fsa-tertiary_dark-blue: #9f218b;
-  --fsa-secondary-error-red: #e60f31;
-  --fsa-secondary-error-hover: #b0132b;
-  /* Tertiary Colours */
-  --fsa-tertiary_dark-red: #b04a5a;
-  --fsa-tertiary_light-red: #ef3340;
-  --fsa-tertiary_light-yellow: #f1c400;
-  --fsa-tertiary_teal: #00b2a9;
-  --fsa-tertiary_light-blue: #8dc8e8;
-  --fsa-tertiary_dark-purple: #51284f;
-  --fsa-secondary_mid-blue: #007fb2;
-  --fsa-tertiary_lime: #cedc00;
-  --fsa-tertiary_mauve: #8b84d7;
-  --fsa-tertiary_stripe-green: #006f51;
-  --fsa-tertiary_light-black: #101010;
-  /* Hover Colours */
-  --fsa__link-green: #014b4c;
-  --fsa__purple-hover: #2a0247;
-  --fsa__grey-hover: #d9d9d6;
-  --fsa__dark-green-hover: #002a2a;
-  /* Custom Colours */
-  --fsa-webtool-prgress-bar-border-step: #d8d8d8;
-  /* Typography */
-  --body-font: "Open Sans", sans-serif;
-  --body-normal: 400;
-  --body-bold: 600;
-  --heading-font: "Fira Sans", sans-serif;
-  --heading-bold: 700;
-  /* Grid */
-  --container-mobile: 1rem;
-  --container: 2rem;
-  --gutter: 1rem;
-  --max-width: 1336px;
-  /* Transitions */
-  --transition-time: 200;
-}
-
-/* Grid */
-/* Custom Mixins */
-/* Mixin for checkbox and radio button style */
-/* Used for Style guide pages */
-.webtool-studies-table {
-  width: 100%;
-  margin-top: 2rem;
-  text-align: left;
-  border-collapse: collapse;
-}
-.webtool-studies-table td {
-  border: 1px solid #dee2e5;
-  border: 1px solid var(--fsa_border);
-  border-left: none;
-  border-right: none;
-}
-.webtool-studies-table td.right {
-  text-align: right;
-}
-.webtool-studies-table thead {
-  font-family: "Fira Sans", sans-serif;
-  font-family: var(--heading-font);
-  font-size: 1.18rem;
-  font-weight: 700;
-  font-weight: var(--heading-bold);
-  line-height: 1.4;
-  letter-spacing: normal;
-  background-color: #2a0247;
-  background-color: var(--fsa__purple-hover);
-  border: 1px solid #2a0247;
-  border: 1px solid var(--fsa__purple-hover);
-}
-@media screen and (min-width: 1024px) {
-  .webtool-studies-table thead {
-    font-size: 1.2rem;
-  }
-}
-.webtool-studies-table thead th {
-  color: #fff;
-  color: var(--fsa-primary_white);
-  font-weight: bold;
-  padding: 1rem;
-}
-.webtool-studies-table tbody {
-  font-family: "Open Sans", sans-serif;
-  font-family: var(--body-font);
-  font-weight: 400;
-  font-weight: var(--body-normal);
-  font-size: 1rem;
-  line-height: 1.6;
-  letter-spacing: normal;
-}
-.webtool-studies-table tbody td {
-  padding: 1rem;
-}
 /*!************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/article/FootNotes/footNotes.scss ***!
   \************************************************************************************************************************************************************************************/
@@ -15845,6 +15748,7 @@ h3.form-title {
 .revision-log__heading {
   font-weight: bold;
   font-size: 1.4rem;
+  margin: 0;
 }
 @media screen and (min-width: 768px) {
   .revision-log__heading {
@@ -15858,16 +15762,18 @@ h3.form-title {
   margin: 0;
 }
 .revision-log__toggle-button {
+  color: #007c75;
+  color: var(--fsa-primary_dark-green);
+  text-decoration: underline;
+  border-bottom: 0.25rem solid transparent;
   display: none;
   background: #fff;
   background: var(--fsa-primary_white);
   border: 0;
   font-size: 1rem;
   cursor: pointer;
-  color: #007c75;
-  color: var(--fsa-primary_dark-green);
-  text-decoration: underline;
-  border-bottom: 0.25rem solid transparent;
+  font-family: "Open Sans", sans-serif;
+  font-family: var(--body-font);
 }
 .revision-log__toggle-button:hover {
   color: #014b4c;
@@ -17378,16 +17284,187 @@ h3.form-title {
   }
 }
 /*!******************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/article/WebToolProgressBar/webToolProgressBar.scss ***!
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/haccp/WebToolStudiesTable/webToolStudiesTable.scss ***!
   \******************************************************************************************************************************************************************************************************/
 @import url(https://fonts.googleapis.com/css?family=Fira+Sans:300,400,500,700);
 /*!**********************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/article/WebToolProgressBar/webToolProgressBar.scss (1) ***!
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/haccp/WebToolStudiesTable/webToolStudiesTable.scss (1) ***!
   \**********************************************************************************************************************************************************************************************************/
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700);
 /*!**********************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/article/WebToolProgressBar/webToolProgressBar.scss (2) ***!
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/haccp/WebToolStudiesTable/webToolStudiesTable.scss (2) ***!
   \**********************************************************************************************************************************************************************************************************/
+:root {
+  /* Primary Colours */
+  --fsa-primary_dark-green: #007c75;
+  --fsa-primary_mid-green: #6cb33f;
+  --fsa-primary_light-green: #a9c47f;
+  --fsa-primary_dark-grey: #53565a;
+  --fsa_online-grey: #f0f3f5;
+  --fsa_border: #dee2e5;
+  --fsa-primary_black: #000;
+  --fsa-primary_white: #fff;
+  --fsa_tint: #fafcfd;
+  /* Secondary Colours */
+  --fsa-secondary_mid-red: #e31837;
+  --fsa-secondary_dark-blue: #165c7d;
+  --fsa-secondary_orange: #f15d22;
+  --fsa-secondary_mid-yellow: #fdb913;
+  --fsa-secondary_mid-purple: #49176d;
+  --fsa-secondary_light-purple: #9f218b;
+  --fsa-tertiary_dark-blue: #9f218b;
+  --fsa-secondary-error-red: #e60f31;
+  --fsa-secondary-error-hover: #b0132b;
+  /* Tertiary Colours */
+  --fsa-tertiary_dark-red: #b04a5a;
+  --fsa-tertiary_light-red: #ef3340;
+  --fsa-tertiary_light-yellow: #f1c400;
+  --fsa-tertiary_teal: #00b2a9;
+  --fsa-tertiary_light-blue: #8dc8e8;
+  --fsa-tertiary_dark-purple: #51284f;
+  --fsa-secondary_mid-blue: #007fb2;
+  --fsa-tertiary_lime: #cedc00;
+  --fsa-tertiary_mauve: #8b84d7;
+  --fsa-tertiary_stripe-green: #006f51;
+  --fsa-tertiary_light-black: #101010;
+  /* Hover Colours */
+  --fsa__link-green: #014b4c;
+  --fsa__purple-hover: #2a0247;
+  --fsa__grey-hover: #d9d9d6;
+  --fsa__dark-green-hover: #002a2a;
+  /* Custom Colours */
+  --fsa-webtool-prgress-bar-border-step: #d8d8d8;
+  /* Typography */
+  --body-font: "Open Sans", sans-serif;
+  --body-normal: 400;
+  --body-bold: 600;
+  --heading-font: "Fira Sans", sans-serif;
+  --heading-bold: 700;
+  /* Grid */
+  --container-mobile: 1rem;
+  --container: 2rem;
+  --gutter: 1rem;
+  --max-width: 1336px;
+  /* Transitions */
+  --transition-time: 200;
+}
+
+/* Grid */
+/* Custom Mixins */
+/* Mixin for checkbox and radio button style */
+/* Used for Style guide pages */
+.webtool-studies-table {
+  margin: 3rem 0 0;
+  width: 100%;
+  text-align: left;
+  border-collapse: collapse;
+}
+@media screen and (min-width: 1024px) {
+  .webtool-studies-table {
+    margin: 4rem 0 0;
+  }
+}
+.webtool-studies-table th.hide-on-mobile {
+  display: none;
+}
+@media screen and (min-width: 1024px) {
+  .webtool-studies-table th.hide-on-mobile {
+    display: table-cell;
+  }
+}
+.webtool-studies-table th.show-on-mobile {
+  display: table-cell;
+}
+@media screen and (min-width: 1024px) {
+  .webtool-studies-table th.show-on-mobile {
+    display: none;
+  }
+}
+.webtool-studies-table td {
+  border: 1px solid #dee2e5;
+  border: 1px solid var(--fsa_border);
+  border-left: none;
+  border-right: none;
+}
+.webtool-studies-table td a.study-label {
+  color: #007c75;
+  color: var(--fsa-primary_dark-green);
+  text-decoration: underline;
+  border-bottom: 0.25rem solid transparent;
+}
+.webtool-studies-table td a.study-label:hover {
+  color: #014b4c;
+  color: var(--fsa__link-green);
+}
+.webtool-studies-table td a.study-label:focus {
+  color: #000;
+  color: var(--fsa-primary_black);
+  outline: none;
+  text-decoration: none;
+  background-color: #f1c400;
+  background-color: var(--fsa-tertiary_light-yellow);
+  border-bottom: 0.25rem solid #000;
+  border-bottom: 0.25rem solid var(--fsa-primary_black);
+  margin-bottom: -0.25rem;
+}
+.webtool-studies-table td.right {
+  text-align: right;
+}
+.webtool-studies-table td.hide-on-mobile {
+  display: none;
+}
+@media screen and (min-width: 1024px) {
+  .webtool-studies-table td.hide-on-mobile {
+    display: table-cell;
+  }
+}
+.webtool-studies-table thead {
+  font-family: "Fira Sans", sans-serif;
+  font-family: var(--heading-font);
+  font-size: 1.18rem;
+  font-weight: 700;
+  font-weight: var(--heading-bold);
+  line-height: 1.4;
+  letter-spacing: normal;
+  background-color: #2a0247;
+  background-color: var(--fsa__purple-hover);
+  border: 1px solid #2a0247;
+  border: 1px solid var(--fsa__purple-hover);
+}
+@media screen and (min-width: 1024px) {
+  .webtool-studies-table thead {
+    font-size: 1.2rem;
+  }
+}
+.webtool-studies-table thead th {
+  color: #fff;
+  color: var(--fsa-primary_white);
+  font-weight: bold;
+  padding: 1rem;
+}
+.webtool-studies-table tbody {
+  font-family: "Open Sans", sans-serif;
+  font-family: var(--body-font);
+  font-weight: 400;
+  font-weight: var(--body-normal);
+  font-size: 1rem;
+  line-height: 1.6;
+  letter-spacing: normal;
+}
+.webtool-studies-table tbody td {
+  padding: 1rem;
+}
+/*!****************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/haccp/WebToolProgressBar/webToolProgressBar.scss ***!
+  \****************************************************************************************************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css?family=Fira+Sans:300,400,500,700);
+/*!********************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/haccp/WebToolProgressBar/webToolProgressBar.scss (1) ***!
+  \********************************************************************************************************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700);
+/*!********************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/haccp/WebToolProgressBar/webToolProgressBar.scss (2) ***!
+  \********************************************************************************************************************************************************************************************************/
 :root {
   /* Primary Colours */
   --fsa-primary_dark-green: #007c75;
@@ -17500,7 +17577,7 @@ h3.form-title {
 }
 .webtool-progress-bar__label::after {
   content: "";
-  background-image: url(./components/article/WebToolProgressBar/assets/arrow.svg);
+  background-image: url(./components/haccp/WebToolProgressBar/assets/arrow.svg);
   display: inline-block;
   width: 1.1rem;
   background-repeat: no-repeat;
@@ -17728,6 +17805,115 @@ h3.form-title {
 .local-authority__logo-wrapper svg {
   height: 100%;
   width: auto;
+}
+/*!****************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/haccp/SaveProgress/saveProgress.scss ***!
+  \****************************************************************************************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css?family=Fira+Sans:300,400,500,700);
+/*!********************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/haccp/SaveProgress/saveProgress.scss (1) ***!
+  \********************************************************************************************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700);
+/*!********************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/haccp/SaveProgress/saveProgress.scss (2) ***!
+  \********************************************************************************************************************************************************************************************/
+:root {
+  /* Primary Colours */
+  --fsa-primary_dark-green: #007c75;
+  --fsa-primary_mid-green: #6cb33f;
+  --fsa-primary_light-green: #a9c47f;
+  --fsa-primary_dark-grey: #53565a;
+  --fsa_online-grey: #f0f3f5;
+  --fsa_border: #dee2e5;
+  --fsa-primary_black: #000;
+  --fsa-primary_white: #fff;
+  --fsa_tint: #fafcfd;
+  /* Secondary Colours */
+  --fsa-secondary_mid-red: #e31837;
+  --fsa-secondary_dark-blue: #165c7d;
+  --fsa-secondary_orange: #f15d22;
+  --fsa-secondary_mid-yellow: #fdb913;
+  --fsa-secondary_mid-purple: #49176d;
+  --fsa-secondary_light-purple: #9f218b;
+  --fsa-tertiary_dark-blue: #9f218b;
+  --fsa-secondary-error-red: #e60f31;
+  --fsa-secondary-error-hover: #b0132b;
+  /* Tertiary Colours */
+  --fsa-tertiary_dark-red: #b04a5a;
+  --fsa-tertiary_light-red: #ef3340;
+  --fsa-tertiary_light-yellow: #f1c400;
+  --fsa-tertiary_teal: #00b2a9;
+  --fsa-tertiary_light-blue: #8dc8e8;
+  --fsa-tertiary_dark-purple: #51284f;
+  --fsa-secondary_mid-blue: #007fb2;
+  --fsa-tertiary_lime: #cedc00;
+  --fsa-tertiary_mauve: #8b84d7;
+  --fsa-tertiary_stripe-green: #006f51;
+  --fsa-tertiary_light-black: #101010;
+  /* Hover Colours */
+  --fsa__link-green: #014b4c;
+  --fsa__purple-hover: #2a0247;
+  --fsa__grey-hover: #d9d9d6;
+  --fsa__dark-green-hover: #002a2a;
+  /* Custom Colours */
+  --fsa-webtool-prgress-bar-border-step: #d8d8d8;
+  /* Typography */
+  --body-font: "Open Sans", sans-serif;
+  --body-normal: 400;
+  --body-bold: 600;
+  --heading-font: "Fira Sans", sans-serif;
+  --heading-bold: 700;
+  /* Grid */
+  --container-mobile: 1rem;
+  --container: 2rem;
+  --gutter: 1rem;
+  --max-width: 1336px;
+  /* Transitions */
+  --transition-time: 200;
+}
+
+/* Grid */
+/* Custom Mixins */
+/* Mixin for checkbox and radio button style */
+/* Used for Style guide pages */
+.haccp-save-progress__message {
+  font-family: "Open Sans", sans-serif;
+  font-family: var(--body-font);
+  font-weight: 400;
+  font-weight: var(--body-normal);
+  font-size: 1rem;
+  line-height: 1.6;
+  letter-spacing: normal;
+  text-align: left;
+}
+@media screen and (min-width: 768px) {
+  .haccp-save-progress__message {
+    text-align: right;
+  }
+}
+.haccp-save-progress__message a {
+  color: #007c75;
+  color: var(--fsa-primary_dark-green);
+  text-decoration: underline;
+  border-bottom: 0.25rem solid transparent;
+}
+.haccp-save-progress__message a:hover {
+  color: #014b4c;
+  color: var(--fsa__link-green);
+}
+.haccp-save-progress__message a:focus {
+  color: #000;
+  color: var(--fsa-primary_black);
+  outline: none;
+  text-decoration: none;
+  background-color: #f1c400;
+  background-color: var(--fsa-tertiary_light-yellow);
+  border-bottom: 0.25rem solid #000;
+  border-bottom: 0.25rem solid var(--fsa-primary_black);
+  margin-bottom: -0.25rem;
+}
+.haccp-save-progress__actions .multistep-function {
+  margin-top: 1rem;
 }
 /*!*******************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/multipageguide/GuideHero/guideHero.scss ***!
