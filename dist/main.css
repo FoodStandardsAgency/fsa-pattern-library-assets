@@ -14344,6 +14344,14 @@ h3.form-title {
   color: #000;
   color: var(--fsa-primary_black);
 }
+.related-content__description ol,
+.related-content__description ul {
+  padding-left: 1rem;
+}
+.related-content__description ol li,
+.related-content__description ul li {
+  margin-top: 1rem;
+}
 @media screen and (min-width: 768px) {
   .related-content__description {
     margin: 1rem 2.25rem 0;
@@ -17527,9 +17535,8 @@ h3.form-title {
 .webtool-progress-bar {
   background: #f0f3f5;
   background: var(--fsa_online-grey);
-  border: 1px solid #dee2e5;
-  border: 1px solid var(--fsa_border);
   padding: 1rem;
+  width: 100%;
 }
 @media screen and (min-width: 1024px) {
   .webtool-progress-bar {
@@ -17556,8 +17563,8 @@ h3.form-title {
   }
 }
 .webtool-progress-bar__line-opened .webtool-progress-bar__label::after {
-  -webkit-transform: none;
-          transform: none;
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
 }
 .webtool-progress-bar__line-opened .webtool-progress-bar__steps {
   display: block;
@@ -17569,11 +17576,21 @@ h3.form-title {
   }
 }
 .webtool-progress-bar__label {
+  font-family: "Fira Sans", sans-serif;
+  font-family: var(--heading-font);
+  font-size: 1.392rem;
+  font-weight: 700;
+  font-weight: var(--heading-bold);
+  line-height: 1.2;
+  letter-spacing: normal;
   cursor: default;
-  font-size: 1.5rem;
-  font-weight: bold;
   line-height: 1;
   position: relative;
+}
+@media screen and (min-width: 1024px) {
+  .webtool-progress-bar__label {
+    font-size: 1.44rem;
+  }
 }
 .webtool-progress-bar__label::after {
   content: "";
@@ -17586,8 +17603,6 @@ h3.form-title {
   height: 1rem;
   right: 0;
   vertical-align: middle;
-  -webkit-transform: rotate(180deg);
-          transform: rotate(180deg);
 }
 @media screen and (min-width: 1024px) {
   .webtool-progress-bar__label {
@@ -17600,6 +17615,7 @@ h3.form-title {
 .webtool-progress-bar__steps {
   display: none;
   margin-top: 1rem;
+  width: 80%;
 }
 @media screen and (min-width: 1024px) {
   .webtool-progress-bar__steps {
@@ -17608,30 +17624,78 @@ h3.form-title {
     margin-top: 0;
   }
 }
+@media screen and (min-width: 1440px) {
+  .webtool-progress-bar__steps {
+    width: 85%;
+  }
+}
 .webtool-progress-bar__step {
   border-left: 4px solid #d8d8d8;
   border-left: 4px solid var(--fsa-webtool-prgress-bar-border-step);
+  flex: 1;
+}
+.webtool-progress-bar__step .sr-desktop {
+  display: inline;
 }
 @media screen and (min-width: 1024px) {
   .webtool-progress-bar__step {
     border-bottom: 4px solid #d8d8d8;
     border-bottom: 4px solid var(--fsa-webtool-prgress-bar-border-step);
     border-left: none;
+    text-align: center;
+  }
+  .webtool-progress-bar__step .sr-desktop {
+    display: none;
   }
 }
 .webtool-progress-bar__step a {
+  font-family: "Open Sans", sans-serif;
+  font-family: var(--body-font);
+  font-size: 1rem;
+  font-weight: 600;
+  font-weight: var(--body-bold);
+  line-height: 1.6;
+  letter-spacing: normal;
   color: #007c75;
   color: var(--fsa-primary_dark-green);
+  text-decoration: underline;
+  border-bottom: 0.25rem solid transparent;
   display: block;
-  font-size: 1rem;
-  font-weight: bold;
-  padding: 1rem 1.5rem;
+  padding: 0.75rem 1.5rem;
+  text-decoration: none;
   width: 100%;
+}
+.webtool-progress-bar__step a:hover {
+  color: #014b4c;
+  color: var(--fsa__link-green);
+}
+.webtool-progress-bar__step a:focus {
+  color: #000;
+  color: var(--fsa-primary_black);
+  outline: none;
+  text-decoration: none;
+  background-color: #f1c400;
+  background-color: var(--fsa-tertiary_light-yellow);
+  border-bottom: 0.25rem solid #000;
+  border-bottom: 0.25rem solid var(--fsa-primary_black);
+  margin-bottom: -0.25rem;
 }
 @media screen and (min-width: 1024px) {
   .webtool-progress-bar__step a {
+    font-family: "Fira Sans", sans-serif;
+    font-family: var(--heading-font);
+    font-size: 1.392rem;
+    font-weight: 700;
+    font-weight: var(--heading-bold);
+    line-height: 1.2;
+    letter-spacing: normal;
     font-size: 1.5rem;
     padding: 0 0.5rem;
+  }
+}
+@media screen and (min-width: 1024px) and (min-width: 1024px) {
+  .webtool-progress-bar__step a {
+    font-size: 1.44rem;
   }
 }
 @media screen and (min-width: 1440px) {
@@ -17640,12 +17704,10 @@ h3.form-title {
   }
 }
 .webtool-progress-bar__step a:hover {
-  color: #014b4c;
-  color: var(--fsa__link-green);
-}
-.webtool-progress-bar__step a:focus {
-  color: #014b4c;
-  color: var(--fsa__link-green);
+  background: #007c75;
+  background: var(--fsa-primary_dark-green);
+  color: #fff;
+  color: var(--fsa-primary_white);
 }
 .webtool-progress-bar__step-completed {
   border-color: #007c75;

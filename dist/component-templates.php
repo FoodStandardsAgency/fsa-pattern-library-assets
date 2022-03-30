@@ -156,11 +156,6 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/search/Showing",
           "variables" => ["content" => []]
         ], 
-        "nationalArchiveLink" => [
-          "template" => "nationalArchiveLink",
-          "path" => $assetPath . "/components/general/NationalArchiveLink/react",
-          "variables" => ["content" => []]
-        ], 
         "sortBy" => [
           "template" => "sortBy",
           "path" => $assetPath . "/components/search/SortBy",
@@ -196,41 +191,6 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/form/Checkbox",
           "variables" => ["content" => []]
         ], 
-        "searchBarHeader" => [
-          "template" => "searchBarHeader",
-          "path" => $assetPath . "/components/search/SearchBarHeader/react",
-          "variables" => ["content" => []]
-        ], 
-        "sortBy" => [
-          "template" => "sortBy",
-          "path" => $assetPath . "/components/search/SortBy/react",
-          "variables" => ["content" => []]
-        ], 
-        "filtersHeader" => [
-          "template" => "filtersHeader",
-          "path" => $assetPath . "/components/search/FiltersHeader/react",
-          "variables" => ["content" => []]
-        ], 
-        "ratingCta" => [
-          "template" => "ratingCta",
-          "path" => $assetPath . "/components/search/RatingCta/react",
-          "variables" => ["content" => []]
-        ], 
-        "datepicker" => [
-          "template" => "datepicker",
-          "path" => $assetPath . "/components/search/Datepicker/react",
-          "variables" => ["content" => []]
-        ], 
-        "accordion" => [
-          "template" => "accordion",
-          "path" => $assetPath . "/components/search/Accordion/react",
-          "variables" => ["content" => []]
-        ], 
-        "searchBar" => [
-          "template" => "searchBar",
-          "path" => $assetPath . "/components/search/SearchBar/react",
-          "variables" => ["content" => []]
-        ], 
         "dropdown" => [
           "template" => "dropdown",
           "path" => $assetPath . "/components/form/Dropdown",
@@ -261,11 +221,6 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/form/Radio",
           "variables" => ["content" => []]
         ], 
-        "tabs" => [
-          "template" => "tabs",
-          "path" => $assetPath . "/components/form/Tabs",
-          "variables" => ["content" => []]
-        ], 
         "titleAndText" => [
           "template" => "titleAndText",
           "path" => $assetPath . "/components/form/TitleAndText",
@@ -274,6 +229,11 @@ function deeson_twig_component_templates($assetPath = 'auto') {
         "emailField" => [
           "template" => "emailField",
           "path" => $assetPath . "/components/form/EmailField",
+          "variables" => ["content" => []]
+        ], 
+        "tabs" => [
+          "template" => "tabs",
+          "path" => $assetPath . "/components/form/Tabs",
           "variables" => ["content" => []]
         ], 
         "textarea" => [
@@ -301,14 +261,14 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/landing/LandingLinks",
           "variables" => ["content" => []]
         ], 
-        "largePromoGroup" => [
-          "template" => "largePromoGroup",
-          "path" => $assetPath . "/components/landing/LargePromoGroup",
-          "variables" => ["content" => []]
-        ], 
         "latestTeaser" => [
           "template" => "latestTeaser",
           "path" => $assetPath . "/components/landing/LatestTeaser",
+          "variables" => ["content" => []]
+        ], 
+        "largePromoGroup" => [
+          "template" => "largePromoGroup",
+          "path" => $assetPath . "/components/landing/LargePromoGroup",
           "variables" => ["content" => []]
         ], 
         "promoGroup" => [
@@ -346,19 +306,9 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/contact/PromoLinks",
           "variables" => ["content" => []]
         ], 
-        "multistepFunction" => [
-          "template" => "multistepFunction",
-          "path" => $assetPath . "/components/form/MultistepFunction/drupal",
-          "variables" => ["content" => []]
-        ], 
         "documentDownload" => [
           "template" => "documentDownload",
           "path" => $assetPath . "/components/article/DocumentDownload",
-          "variables" => ["content" => []]
-        ], 
-        "articleHero" => [
-          "template" => "articleHero",
-          "path" => $assetPath . "/components/article/ArticleHero",
           "variables" => ["content" => []]
         ], 
         "regionalVariationBlock" => [
@@ -371,9 +321,9 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/article/BackTo",
           "variables" => ["content" => []]
         ], 
-        "contentMetaData" => [
-          "template" => "contentMetaData",
-          "path" => $assetPath . "/components/article/ContentMetaData",
+        "articleHero" => [
+          "template" => "articleHero",
+          "path" => $assetPath . "/components/article/ArticleHero",
           "variables" => ["content" => []]
         ], 
         "relatedContent" => [
@@ -381,14 +331,24 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/article/RelatedContent",
           "variables" => ["content" => []]
         ], 
-        "subjectListing" => [
-          "template" => "subjectListing",
-          "path" => $assetPath . "/components/article/SubjectListing",
-          "variables" => ["content" => []]
-        ], 
         "explanationBlock" => [
           "template" => "explanationBlock",
           "path" => $assetPath . "/components/article/ExplanationBlock",
+          "variables" => ["content" => []]
+        ], 
+        "contentMetaData" => [
+          "template" => "contentMetaData",
+          "path" => $assetPath . "/components/article/ContentMetaData",
+          "variables" => ["content" => []]
+        ], 
+        "multistepFunction" => [
+          "template" => "multistepFunction",
+          "path" => $assetPath . "/components/form/MultistepFunction/drupal",
+          "variables" => ["content" => []]
+        ], 
+        "subjectListing" => [
+          "template" => "subjectListing",
+          "path" => $assetPath . "/components/article/SubjectListing",
           "variables" => ["content" => []]
         ], 
         "quoteBlock" => [
