@@ -391,14 +391,14 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/article/FootNotes",
           "variables" => ["content" => []]
         ], 
-        "backToTop" => [
-          "template" => "backToTop",
-          "path" => $assetPath . "/components/article/BackToTop",
-          "variables" => ["content" => []]
-        ], 
         "revisionLogBottom" => [
           "template" => "revisionLogBottom",
           "path" => $assetPath . "/components/article/RevisionLogBottom",
+          "variables" => ["content" => []]
+        ], 
+        "backToTop" => [
+          "template" => "backToTop",
+          "path" => $assetPath . "/components/article/BackToTop",
           "variables" => ["content" => []]
         ], 
         "pdfAndPrintButtons" => [
@@ -426,24 +426,24 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/haccp/WebToolStudiesTable",
           "variables" => ["content" => []]
         ], 
-        "webToolProgressBar" => [
-          "template" => "webToolProgressBar",
-          "path" => $assetPath . "/components/haccp/WebToolProgressBar",
-          "variables" => ["content" => []]
-        ], 
         "saveProgress" => [
           "template" => "saveProgress",
           "path" => $assetPath . "/components/haccp/SaveProgress",
           "variables" => ["content" => []]
         ], 
-        "localAuthority" => [
-          "template" => "localAuthority",
-          "path" => $assetPath . "/components/fhrs/LocalAuthority",
+        "webToolProgressBar" => [
+          "template" => "webToolProgressBar",
+          "path" => $assetPath . "/components/haccp/WebToolProgressBar",
           "variables" => ["content" => []]
         ], 
         "pagination" => [
           "template" => "pagination",
           "path" => $assetPath . "/components/multipageguide/Pagination",
+          "variables" => ["content" => []]
+        ], 
+        "localAuthority" => [
+          "template" => "localAuthority",
+          "path" => $assetPath . "/components/fhrs/LocalAuthority",
           "variables" => ["content" => []]
         ], 
         "tableOfContents" => [
