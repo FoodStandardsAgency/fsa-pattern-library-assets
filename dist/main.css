@@ -9729,6 +9729,7 @@ h3.form-title {
 .with-tooltip {
   position: relative;
   padding-right: 2rem;
+  width: 100%;
 }
 .with-tooltip .tooltip {
   position: absolute;
@@ -9739,6 +9740,242 @@ h3.form-title {
   .with-tooltip .tooltip {
     top: -0.2rem;
   }
+}
+/*!*********************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/form/MultivalueField/multivalueField.scss ***!
+  \*********************************************************************************************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css?family=Fira+Sans:300,400,500,700);
+/*!*************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/form/MultivalueField/multivalueField.scss (1) ***!
+  \*************************************************************************************************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700);
+/*!*************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/form/MultivalueField/multivalueField.scss (2) ***!
+  \*************************************************************************************************************************************************************************************************/
+:root {
+  /* Primary Colours */
+  --fsa-primary_dark-green: #007c75;
+  --fsa-primary_mid-green: #6cb33f;
+  --fsa-primary_light-green: #a9c47f;
+  --fsa-primary_dark-grey: #53565a;
+  --fsa_online-grey: #f0f3f5;
+  --fsa_border: #dee2e5;
+  --fsa-primary_black: #000;
+  --fsa-primary_white: #fff;
+  --fsa_tint: #fafcfd;
+  /* Secondary Colours */
+  --fsa-secondary_mid-red: #e31837;
+  --fsa-secondary_dark-blue: #165c7d;
+  --fsa-secondary_orange: #f15d22;
+  --fsa-secondary_mid-yellow: #fdb913;
+  --fsa-secondary_mid-purple: #49176d;
+  --fsa-secondary_light-purple: #9f218b;
+  --fsa-tertiary_dark-blue: #9f218b;
+  --fsa-secondary-error-red: #e60f31;
+  --fsa-secondary-error-hover: #b0132b;
+  /* Tertiary Colours */
+  --fsa-tertiary_dark-red: #b04a5a;
+  --fsa-tertiary_light-red: #ef3340;
+  --fsa-tertiary_light-yellow: #f1c400;
+  --fsa-tertiary_teal: #00b2a9;
+  --fsa-tertiary_light-blue: #8dc8e8;
+  --fsa-tertiary_dark-purple: #51284f;
+  --fsa-secondary_mid-blue: #007fb2;
+  --fsa-tertiary_lime: #cedc00;
+  --fsa-tertiary_mauve: #8b84d7;
+  --fsa-tertiary_stripe-green: #006f51;
+  --fsa-tertiary_light-black: #101010;
+  /* Hover Colours */
+  --fsa__link-green: #014b4c;
+  --fsa__purple-hover: #2a0247;
+  --fsa__grey-hover: #d9d9d6;
+  --fsa__dark-green-hover: #002a2a;
+  /* Custom Colours */
+  --fsa-webtool-prgress-bar-border-step: #d8d8d8;
+  /* Typography */
+  --body-font: "Open Sans", sans-serif;
+  --body-normal: 400;
+  --body-bold: 600;
+  --heading-font: "Fira Sans", sans-serif;
+  --heading-bold: 700;
+  /* Grid */
+  --container-mobile: 1rem;
+  --container: 2rem;
+  --gutter: 1rem;
+  --max-width: 1336px;
+  /* Transitions */
+  --transition-time: 200;
+}
+
+/* Grid */
+/* Custom Mixins */
+/* Mixin for checkbox and radio button style */
+/* Used for Style guide pages */
+.multivalue-field__add-entity {
+  color: #007c75;
+  color: var(--fsa-primary_dark-green);
+  text-decoration: underline;
+  border-bottom: 0.25rem solid transparent;
+  margin-top: 1rem;
+}
+.multivalue-field__add-entity:hover {
+  color: #014b4c;
+  color: var(--fsa__link-green);
+}
+.multivalue-field__add-entity:focus {
+  color: #000;
+  color: var(--fsa-primary_black);
+  outline: none;
+  text-decoration: none;
+  background-color: #f1c400;
+  background-color: var(--fsa-tertiary_light-yellow);
+  border-bottom: 0.25rem solid #000;
+  border-bottom: 0.25rem solid var(--fsa-primary_black);
+  margin-bottom: -0.25rem;
+}
+.multivalue-field__delete-entity {
+  cursor: pointer;
+}
+.multivalue-field__delete-entity::before {
+  content: "";
+  background-image: url(./components/form/MultivalueField/assets/delete.svg);
+  display: inline-block;
+  width: 1.75rem;
+  height: 1rem;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-right: 1rem;
+  vertical-align: middle;
+}
+.multivalue-field .input-field__wrapper {
+  position: relative;
+}
+.multivalue-field .input-field__wrapper + .multivalue-field .input-field__wrapper input {
+  padding-right: 2rem;
+}
+.multivalue-field .input-field__wrapper .multivalue-field__delete-entity {
+  position: absolute;
+  right: -0.8rem;
+  top: 0.5rem;
+}
+/*!*********************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/form/MultifieldGroup/multifieldGroup.scss ***!
+  \*********************************************************************************************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css?family=Fira+Sans:300,400,500,700);
+/*!*************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/form/MultifieldGroup/multifieldGroup.scss (1) ***!
+  \*************************************************************************************************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700);
+/*!*************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/form/MultifieldGroup/multifieldGroup.scss (2) ***!
+  \*************************************************************************************************************************************************************************************************/
+:root {
+  /* Primary Colours */
+  --fsa-primary_dark-green: #007c75;
+  --fsa-primary_mid-green: #6cb33f;
+  --fsa-primary_light-green: #a9c47f;
+  --fsa-primary_dark-grey: #53565a;
+  --fsa_online-grey: #f0f3f5;
+  --fsa_border: #dee2e5;
+  --fsa-primary_black: #000;
+  --fsa-primary_white: #fff;
+  --fsa_tint: #fafcfd;
+  /* Secondary Colours */
+  --fsa-secondary_mid-red: #e31837;
+  --fsa-secondary_dark-blue: #165c7d;
+  --fsa-secondary_orange: #f15d22;
+  --fsa-secondary_mid-yellow: #fdb913;
+  --fsa-secondary_mid-purple: #49176d;
+  --fsa-secondary_light-purple: #9f218b;
+  --fsa-tertiary_dark-blue: #9f218b;
+  --fsa-secondary-error-red: #e60f31;
+  --fsa-secondary-error-hover: #b0132b;
+  /* Tertiary Colours */
+  --fsa-tertiary_dark-red: #b04a5a;
+  --fsa-tertiary_light-red: #ef3340;
+  --fsa-tertiary_light-yellow: #f1c400;
+  --fsa-tertiary_teal: #00b2a9;
+  --fsa-tertiary_light-blue: #8dc8e8;
+  --fsa-tertiary_dark-purple: #51284f;
+  --fsa-secondary_mid-blue: #007fb2;
+  --fsa-tertiary_lime: #cedc00;
+  --fsa-tertiary_mauve: #8b84d7;
+  --fsa-tertiary_stripe-green: #006f51;
+  --fsa-tertiary_light-black: #101010;
+  /* Hover Colours */
+  --fsa__link-green: #014b4c;
+  --fsa__purple-hover: #2a0247;
+  --fsa__grey-hover: #d9d9d6;
+  --fsa__dark-green-hover: #002a2a;
+  /* Custom Colours */
+  --fsa-webtool-prgress-bar-border-step: #d8d8d8;
+  /* Typography */
+  --body-font: "Open Sans", sans-serif;
+  --body-normal: 400;
+  --body-bold: 600;
+  --heading-font: "Fira Sans", sans-serif;
+  --heading-bold: 700;
+  /* Grid */
+  --container-mobile: 1rem;
+  --container: 2rem;
+  --gutter: 1rem;
+  --max-width: 1336px;
+  /* Transitions */
+  --transition-time: 200;
+}
+
+/* Grid */
+/* Custom Mixins */
+/* Mixin for checkbox and radio button style */
+/* Used for Style guide pages */
+.multifield-group {
+  margin-top: 3rem;
+}
+.multifield-group__delete-item {
+  color: #007c75;
+  color: var(--fsa-primary_dark-green);
+  text-decoration: underline;
+  border-bottom: 0.25rem solid transparent;
+}
+.multifield-group__delete-item:hover {
+  color: #014b4c;
+  color: var(--fsa__link-green);
+}
+.multifield-group__delete-item:focus {
+  color: #000;
+  color: var(--fsa-primary_black);
+  outline: none;
+  text-decoration: none;
+  background-color: #f1c400;
+  background-color: var(--fsa-tertiary_light-yellow);
+  border-bottom: 0.25rem solid #000;
+  border-bottom: 0.25rem solid var(--fsa-primary_black);
+  margin-bottom: -0.25rem;
+}
+@media screen and (min-width: 1024px) {
+  .multifield-group__delete-item {
+    position: absolute;
+    top: 0.5rem;
+    right: 0;
+  }
+}
+.multifield-group__add-item {
+  margin-top: 1px;
+  text-align: center;
+}
+.multifield-group__item {
+  position: relative;
+}
+.multifield-group__item + .multifield-group__item {
+  border-top: 4px solid #d9d9d6;
+  border-top: 4px solid var(--fsa__grey-hover);
+  margin: 2rem 0;
+}
+.multifield-group__item + .multifield-group__item .multifield-group__delete-item {
+  top: 2.2rem;
+}
+.multifield-group__template {
+  display: none;
 }
 /*!******************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/landing/LandingLinks/landingLinks.scss ***!
@@ -17541,7 +17778,51 @@ h3.form-title {
 @media screen and (min-width: 1024px) {
   .webtool-progress-bar {
     display: inline-block;
-    padding-bottom: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+  }
+}
+.webtool-progress-bar__wrapper {
+  width: 100%;
+  margin: 0 auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+@media screen and (min-width: 768px) {
+  .webtool-progress-bar__wrapper {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    width: 100%;
+    max-width: calc(1300px + (2 * 2rem));
+  }
+}
+@media screen and (max-width: 1023px) {
+  .webtool-progress-bar__wrapper {
+    padding: 0;
+  }
+}
+.webtool-progress-bar__grid-row {
+  flex: 1;
+  margin-left: -0.5rem;
+  margin-right: -0.5rem;
+}
+@media screen and (min-width: 768px) {
+  .webtool-progress-bar__grid-row {
+    margin-left: -1rem;
+    margin-right: -1rem;
+  }
+}
+.webtool-progress-bar__grid-col {
+  width: 100%;
+  flex-basis: 100%;
+  max-width: 100%;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+@media screen and (min-width: 768px) {
+  .webtool-progress-bar__grid-col {
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
 }
 .webtool-progress-bar__line {
@@ -17550,7 +17831,7 @@ h3.form-title {
   flex-direction: column;
 }
 .webtool-progress-bar__line + .webtool-progress-bar__line {
-  margin-top: 1rem;
+  margin-top: 2rem;
 }
 @media screen and (min-width: 1024px) {
   .webtool-progress-bar__line {
@@ -17605,9 +17886,6 @@ h3.form-title {
   vertical-align: middle;
 }
 @media screen and (min-width: 1024px) {
-  .webtool-progress-bar__label {
-    margin-right: 2rem;
-  }
   .webtool-progress-bar__label::after {
     display: none;
   }
@@ -17615,13 +17893,14 @@ h3.form-title {
 .webtool-progress-bar__steps {
   display: none;
   margin-top: 1rem;
-  width: 80%;
+  width: 100%;
 }
 @media screen and (min-width: 1024px) {
   .webtool-progress-bar__steps {
     display: flex;
     flex-direction: row;
     margin-top: 0;
+    width: 80%;
   }
 }
 @media screen and (min-width: 1440px) {
@@ -17690,7 +17969,7 @@ h3.form-title {
     line-height: 1.2;
     letter-spacing: normal;
     font-size: 1.5rem;
-    padding: 0 0.5rem;
+    padding: 0 0.25rem;
   }
 }
 @media screen and (min-width: 1024px) and (min-width: 1024px) {
@@ -17700,7 +17979,7 @@ h3.form-title {
 }
 @media screen and (min-width: 1440px) {
   .webtool-progress-bar__step a {
-    padding: 0.5rem 2rem;
+    padding: 0.5rem 1.5rem;
   }
 }
 .webtool-progress-bar__step a:hover {
