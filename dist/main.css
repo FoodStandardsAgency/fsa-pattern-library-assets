@@ -9784,14 +9784,45 @@ h3.form-title {
   display: inline;
 }
 .tooltip__question-mark {
+  color: #007c75;
+  color: var(--fsa-primary_dark-green);
+  text-decoration: underline;
+  border-bottom: 0.25rem solid transparent;
   cursor: pointer;
   position: relative;
   z-index: 2;
+  width: 2.3rem;
+  height: 2.3rem;
+}
+.tooltip__question-mark:hover {
+  color: #014b4c;
+  color: var(--fsa__link-green);
+}
+.tooltip__question-mark:focus {
+  color: #000;
+  color: var(--fsa-primary_black);
+  outline: none;
+  text-decoration: none;
+  background-color: #f1c400;
+  background-color: var(--fsa-tertiary_light-yellow);
+  border-bottom: 0.25rem solid #000;
+  border-bottom: 0.25rem solid var(--fsa-primary_black);
+  margin-bottom: -0.25rem;
+}
+@media screen and (min-width: 1024px) {
+  .tooltip__question-mark {
+    width: 2rem;
+    height: 2rem;
+  }
+}
+.tooltip__question-mark:focus {
+  border-bottom-color: #f1c400;
+  border-bottom-color: var(--fsa-tertiary_light-yellow);
 }
 .tooltip__question-mark::before {
   content: "";
   background-image: url(./components/form/Tooltip/assets/question.svg);
-  display: inline-block;
+  display: block;
   width: 2.3rem;
   height: 2.3rem;
   background-repeat: no-repeat;
@@ -9801,23 +9832,6 @@ h3.form-title {
     width: 2rem;
     height: 2rem;
   }
-}
-.tooltip__close {
-  cursor: pointer;
-  display: block;
-  height: 0.7rem;
-  position: absolute;
-  right: 0.5rem;
-  top: 0.5rem;
-  width: 0.7rem;
-}
-.tooltip__close::before {
-  content: "";
-  background-image: url(./components/form/Tooltip/assets/close.svg);
-  display: block;
-  width: 0.7rem;
-  height: 0.7rem;
-  background-repeat: no-repeat;
 }
 .tooltip__body {
   background: #f0f3f5;
@@ -9861,28 +9875,6 @@ h3.form-title {
     right: -17.5px;
   }
 }
-.tooltip__body a {
-  color: #007c75;
-  color: var(--fsa-primary_dark-green);
-  text-decoration: underline;
-  border-bottom: 0.25rem solid transparent;
-  font-weight: bold;
-}
-.tooltip__body a:hover {
-  color: #014b4c;
-  color: var(--fsa__link-green);
-}
-.tooltip__body a:focus {
-  color: #000;
-  color: var(--fsa-primary_black);
-  outline: none;
-  text-decoration: none;
-  background-color: #f1c400;
-  background-color: var(--fsa-tertiary_light-yellow);
-  border-bottom: 0.25rem solid #000;
-  border-bottom: 0.25rem solid var(--fsa-primary_black);
-  margin-bottom: -0.25rem;
-}
 .tooltip__body-opened {
   display: block;
 }
@@ -9898,6 +9890,68 @@ h3.form-title {
   color: var(--fsa-primary_black);
   padding: 1rem 1.5rem 1rem 1rem;
   text-align: left;
+}
+.tooltip__message a {
+  color: #007c75;
+  color: var(--fsa-primary_dark-green);
+  text-decoration: underline;
+  border-bottom: 0.25rem solid transparent;
+  font-weight: bold;
+}
+.tooltip__message a:hover {
+  color: #014b4c;
+  color: var(--fsa__link-green);
+}
+.tooltip__message a:focus {
+  color: #000;
+  color: var(--fsa-primary_black);
+  outline: none;
+  text-decoration: none;
+  background-color: #f1c400;
+  background-color: var(--fsa-tertiary_light-yellow);
+  border-bottom: 0.25rem solid #000;
+  border-bottom: 0.25rem solid var(--fsa-primary_black);
+  margin-bottom: -0.25rem;
+}
+.tooltip__close {
+  color: #007c75;
+  color: var(--fsa-primary_dark-green);
+  text-decoration: underline;
+  border-bottom: 0.25rem solid transparent;
+  cursor: pointer;
+  display: block;
+  height: 0.6rem;
+  position: absolute;
+  right: 0.5rem;
+  top: 0.5rem;
+  width: 0.6rem;
+}
+.tooltip__close:hover {
+  color: #014b4c;
+  color: var(--fsa__link-green);
+}
+.tooltip__close:focus {
+  color: #000;
+  color: var(--fsa-primary_black);
+  outline: none;
+  text-decoration: none;
+  background-color: #f1c400;
+  background-color: var(--fsa-tertiary_light-yellow);
+  border-bottom: 0.25rem solid #000;
+  border-bottom: 0.25rem solid var(--fsa-primary_black);
+  margin-bottom: -0.25rem;
+}
+.tooltip__close::before {
+  content: "";
+  background-image: url(./components/form/Tooltip/assets/close.svg);
+  display: block;
+  width: 0.6rem;
+  height: 0.6rem;
+  background-repeat: no-repeat;
+}
+.tooltip__close:focus {
+  border-bottom-color: #f1c400;
+  border-bottom-color: var(--fsa-tertiary_light-yellow);
 }
 
 .label-with-tooltip {
@@ -9986,17 +10040,19 @@ h3.form-title {
 /* Mixin for checkbox and radio button style */
 /* Used for Style guide pages */
 .multivalue-field__add-entity {
+  margin-top: 1rem;
+}
+.multivalue-field__add-entity a {
   color: #007c75;
   color: var(--fsa-primary_dark-green);
   text-decoration: underline;
   border-bottom: 0.25rem solid transparent;
-  margin-top: 1rem;
 }
-.multivalue-field__add-entity:hover {
+.multivalue-field__add-entity a:hover {
   color: #014b4c;
   color: var(--fsa__link-green);
 }
-.multivalue-field__add-entity:focus {
+.multivalue-field__add-entity a:focus {
   color: #000;
   color: var(--fsa-primary_black);
   outline: none;
@@ -10007,8 +10063,13 @@ h3.form-title {
   border-bottom: 0.25rem solid var(--fsa-primary_black);
   margin-bottom: -0.25rem;
 }
+.multivalue-field[data-count="1"] .multivalue-field__delete-entity {
+  display: none;
+}
 .multivalue-field__delete-entity {
   cursor: pointer;
+  height: 1.75rem;
+  width: 1.75rem;
 }
 .multivalue-field__delete-entity::before {
   content: "";
@@ -10021,15 +10082,19 @@ h3.form-title {
   margin-right: 1rem;
   vertical-align: middle;
 }
+.multivalue-field__delete-entity:focus {
+  border-bottom-color: #f1c400 !important;
+  border-bottom-color: var(--fsa-tertiary_light-yellow) !important;
+}
 .multivalue-field .input-field__wrapper {
   position: relative;
 }
-.multivalue-field .input-field__wrapper + .multivalue-field .input-field__wrapper input {
+.multivalue-field .input-field__wrapper input {
   padding-right: 2rem;
 }
 .multivalue-field .input-field__wrapper .multivalue-field__delete-entity {
   position: absolute;
-  right: -0.8rem;
+  right: 0.2rem;
   top: 0.5rem;
 }
 /*!*********************************************************************************************************************************************************************************************!*\
@@ -16165,13 +16230,18 @@ h3.form-title {
   justify-content: space-between;
 }
 .revision-log__heading {
-  font-weight: bold;
-  font-size: 1.4rem;
   margin: 0;
+  font-family: "Fira Sans", sans-serif;
+  font-family: var(--heading-font);
+  font-size: 1.392rem;
+  font-weight: 700;
+  font-weight: var(--heading-bold);
+  line-height: 1.2;
+  letter-spacing: normal;
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1024px) {
   .revision-log__heading {
-    font-size: 1.439rem;
+    font-size: 1.44rem;
   }
 }
 .revision-log__dates {
@@ -18164,9 +18234,17 @@ h3.form-title {
     padding: 0.5rem 1.5rem;
   }
 }
+.webtool-progress-bar__step a:focus {
+  border-bottom-color: #f1c400;
+  border-bottom-color: var(--fsa-tertiary_light-yellow);
+  color: #fff;
+  color: var(--fsa-primary_white);
+}
 .webtool-progress-bar__step a:hover {
   background: #007c75;
   background: var(--fsa-primary_dark-green);
+  border-bottom-color: #007c75;
+  border-bottom-color: var(--fsa-primary_dark-green);
   color: #fff;
   color: var(--fsa-primary_white);
 }
@@ -18289,6 +18367,9 @@ h3.form-title {
 }
 .local-authority__field {
   margin-top: 1rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
 }
 .local-authority__field-name {
   font-family: "Open Sans", sans-serif;
@@ -18310,6 +18391,9 @@ h3.form-title {
   font-size: 1rem;
   line-height: 1.6;
   letter-spacing: normal;
+}
+.local-authority__field-content a {
+  overflow-wrap: anywhere;
 }
 .local-authority__logo-wrapper {
   display: flex;
@@ -18399,6 +18483,9 @@ h3.form-title {
 /* Custom Mixins */
 /* Mixin for checkbox and radio button style */
 /* Used for Style guide pages */
+.haccp-save-progress {
+  margin-top: 3rem;
+}
 .haccp-save-progress__message {
   font-family: "Open Sans", sans-serif;
   font-family: var(--body-font);
