@@ -5415,7 +5415,7 @@ div .header__user-menu-navigation {
   background: var(--fsa-primary_white);
   border: 3px solid #007c75;
   border: 3px solid var(--fsa-primary_dark-green);
-  padding: 1rem;
+  padding: 0.25rem 1rem;
   position: fixed;
   top: 1rem;
   left: 1rem;
@@ -5425,7 +5425,7 @@ div .header__user-menu-navigation {
 }
 @media screen and (min-width: 768px) {
   .guidance-popup__wrapper {
-    padding: 1rem 2rem;
+    padding: 0.25rem 2rem;
     top: 2rem;
     left: 2rem;
     height: calc(100% - 4rem);
@@ -5477,17 +5477,17 @@ div .header__user-menu-navigation {
   font-weight: bold;
   text-transform: uppercase;
 }
-.guidance-popup__more {
+.guidance-popup__more a {
   color: #007c75;
   color: var(--fsa-primary_dark-green);
   text-decoration: underline;
   border-bottom: 0.25rem solid transparent;
 }
-.guidance-popup__more:hover {
+.guidance-popup__more a:hover {
   color: #014b4c;
   color: var(--fsa__link-green);
 }
-.guidance-popup__more:focus {
+.guidance-popup__more a:focus {
   color: #000;
   color: var(--fsa-primary_black);
   outline: none;
@@ -5500,20 +5500,40 @@ div .header__user-menu-navigation {
 }
 .guidance-popup__close {
   display: inline-block;
-  margin-left: 2.5rem;
+  margin-left: 0.5rem;
+  position: relative;
+  right: -1rem;
 }
 @media screen and (min-width: 768px) {
   .guidance-popup__close {
-    margin-left: 2rem;
+    right: -2rem;
   }
+}
+.guidance-popup__close a {
+  display: block;
+  height: 1.8rem;
+  width: 1.8rem;
+  position: relative;
+}
+.guidance-popup__close a:focus {
+  background-color: #000;
+  background-color: var(--fsa-primary_black);
+  border: 2px solid #f1c400;
+  border: 2px solid var(--fsa-tertiary_light-yellow);
 }
 .guidance-popup__close a::before {
   content: "";
   background-image: url(./components/general/GuidancePopup/assets/close.svg);
+  background-color: #fff;
+  background-color: var(--fsa-primary_white);
   display: block;
-  width: 1.2rem;
-  height: 1.2rem;
+  position: absolute;
+  height: calc(100% - 4px);
+  width: calc(100% - 4px);
+  top: 2px;
+  left: 2px;
   background-repeat: no-repeat;
+  background-position: center;
 }
 /*!*******************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/search/CollapsibleCheckbox/collapsibleCheckbox.scss ***!
@@ -8217,6 +8237,27 @@ body.overflow-hidden {
   color: var(--fsa-primary_dark-grey);
   margin-top: 0.5rem;
 }
+.input-field__caption a {
+  color: #007c75;
+  color: var(--fsa-primary_dark-green);
+  text-decoration: underline;
+  border-bottom: 0.25rem solid transparent;
+}
+.input-field__caption a:hover {
+  color: #014b4c;
+  color: var(--fsa__link-green);
+}
+.input-field__caption a:focus {
+  color: #000;
+  color: var(--fsa-primary_black);
+  outline: none;
+  text-decoration: none;
+  background-color: #f1c400;
+  background-color: var(--fsa-tertiary_light-yellow);
+  border-bottom: 0.25rem solid #000;
+  border-bottom: 0.25rem solid var(--fsa-primary_black);
+  margin-bottom: -0.25rem;
+}
 .input-field--error {
   border-left: 0.25rem solid #e31837;
   border-left: 0.25rem solid var(--fsa-secondary_mid-red);
@@ -8252,17 +8293,17 @@ body.overflow-hidden {
 .input-field__error-message {
   margin-top: 0.5rem;
 }
-.input-field a {
+.input-field__error-message a {
   color: #007c75;
   color: var(--fsa-primary_dark-green);
   text-decoration: underline;
   border-bottom: 0.25rem solid transparent;
 }
-.input-field a:hover {
+.input-field__error-message a:hover {
   color: #014b4c;
   color: var(--fsa__link-green);
 }
-.input-field a:focus {
+.input-field__error-message a:focus {
   color: #000;
   color: var(--fsa-primary_black);
   outline: none;
@@ -9783,6 +9824,28 @@ h3.form-title {
 .tooltip__popup {
   display: inline;
 }
+.tooltip__popup-open {
+  color: #007c75;
+  color: var(--fsa-primary_dark-green);
+  text-decoration: underline;
+  border-bottom: 0.25rem solid transparent;
+  font-weight: bold;
+}
+.tooltip__popup-open:hover {
+  color: #014b4c;
+  color: var(--fsa__link-green);
+}
+.tooltip__popup-open:focus {
+  color: #000;
+  color: var(--fsa-primary_black);
+  outline: none;
+  text-decoration: none;
+  background-color: #f1c400;
+  background-color: var(--fsa-tertiary_light-yellow);
+  border-bottom: 0.25rem solid #000;
+  border-bottom: 0.25rem solid var(--fsa-primary_black);
+  margin-bottom: -0.25rem;
+}
 .tooltip__question-mark {
   color: #007c75;
   color: var(--fsa-primary_dark-green);
@@ -9891,18 +9954,21 @@ h3.form-title {
   padding: 1rem 1.5rem 1rem 1rem;
   text-align: left;
 }
-.tooltip__message a {
+.tooltip__message-content {
+  display: inline;
+}
+.tooltip__message-content a {
   color: #007c75;
   color: var(--fsa-primary_dark-green);
   text-decoration: underline;
   border-bottom: 0.25rem solid transparent;
   font-weight: bold;
 }
-.tooltip__message a:hover {
+.tooltip__message-content a:hover {
   color: #014b4c;
   color: var(--fsa__link-green);
 }
-.tooltip__message a:focus {
+.tooltip__message-content a:focus {
   color: #000;
   color: var(--fsa-primary_black);
   outline: none;
@@ -18194,6 +18260,7 @@ h3.form-title {
   display: block;
   padding: 0.75rem 1.5rem;
   text-decoration: none;
+  position: relative;
   width: 100%;
 }
 .webtool-progress-bar__step a:hover {
@@ -18234,12 +18301,6 @@ h3.form-title {
     padding: 0.5rem 1.5rem;
   }
 }
-.webtool-progress-bar__step a:focus {
-  border-bottom-color: #f1c400;
-  border-bottom-color: var(--fsa-tertiary_light-yellow);
-  color: #fff;
-  color: var(--fsa-primary_white);
-}
 .webtool-progress-bar__step a:hover {
   background: #007c75;
   background: var(--fsa-primary_dark-green);
@@ -18247,6 +18308,22 @@ h3.form-title {
   border-bottom-color: var(--fsa-primary_dark-green);
   color: #fff;
   color: var(--fsa-primary_white);
+}
+.webtool-progress-bar__step a:focus:not(:hover) {
+  border-bottom-color: #f1c400;
+  border-bottom-color: var(--fsa-tertiary_light-yellow);
+  color: #000;
+  color: var(--fsa-primary_black);
+}
+.webtool-progress-bar__step a:focus:not(:hover)::after {
+  content: "";
+  width: 100%;
+  border-bottom: 4px solid #000;
+  border-bottom: 4px solid var(--fsa-primary_black);
+  height: 4px;
+  position: absolute;
+  bottom: -8px;
+  left: 0;
 }
 .webtool-progress-bar__step-completed {
   border-color: #007c75;
@@ -18272,10 +18349,6 @@ h3.form-title {
   color: var(--fsa-primary_white);
 }
 .webtool-progress-bar__step-active a:hover {
-  color: #fff;
-  color: var(--fsa-primary_white);
-}
-.webtool-progress-bar__step-active a:focus {
   color: #fff;
   color: var(--fsa-primary_white);
 }
