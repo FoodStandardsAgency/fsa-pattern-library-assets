@@ -141,14 +141,14 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/search/ListingItem",
           "variables" => ["content" => []]
         ], 
-        "searchBarHeader" => [
-          "template" => "searchBarHeader",
-          "path" => $assetPath . "/components/search/SearchBarHeader",
-          "variables" => ["content" => []]
-        ], 
         "pagination" => [
           "template" => "pagination",
           "path" => $assetPath . "/components/search/Pagination",
+          "variables" => ["content" => []]
+        ], 
+        "searchBarHeader" => [
+          "template" => "searchBarHeader",
+          "path" => $assetPath . "/components/search/SearchBarHeader",
           "variables" => ["content" => []]
         ], 
         "searchNoResults" => [
@@ -211,11 +211,6 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/form/InputField",
           "variables" => ["content" => []]
         ], 
-        "messageBox" => [
-          "template" => "messageBox",
-          "path" => $assetPath . "/components/form/MessageBox",
-          "variables" => ["content" => []]
-        ], 
         "multistepFunction" => [
           "template" => "multistepFunction",
           "path" => $assetPath . "/components/form/MultistepFunction",
@@ -244,6 +239,11 @@ function deeson_twig_component_templates($assetPath = 'auto') {
         "textarea" => [
           "template" => "textarea",
           "path" => $assetPath . "/components/form/Textarea",
+          "variables" => ["content" => []]
+        ], 
+        "messageBox" => [
+          "template" => "messageBox",
+          "path" => $assetPath . "/components/form/MessageBox",
           "variables" => ["content" => []]
         ], 
         "step" => [
@@ -356,14 +356,14 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/form/MultistepFunction/drupal",
           "variables" => ["content" => []]
         ], 
-        "subjectListing" => [
-          "template" => "subjectListing",
-          "path" => $assetPath . "/components/article/SubjectListing",
-          "variables" => ["content" => []]
-        ], 
         "explanationBlock" => [
           "template" => "explanationBlock",
           "path" => $assetPath . "/components/article/ExplanationBlock",
+          "variables" => ["content" => []]
+        ], 
+        "subjectListing" => [
+          "template" => "subjectListing",
+          "path" => $assetPath . "/components/article/SubjectListing",
           "variables" => ["content" => []]
         ], 
         "quoteBlock" => [
@@ -436,14 +436,14 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/haccp/SaveProgress",
           "variables" => ["content" => []]
         ], 
-        "localAuthority" => [
-          "template" => "localAuthority",
-          "path" => $assetPath . "/components/fhrs/LocalAuthority",
-          "variables" => ["content" => []]
-        ], 
         "pagination" => [
           "template" => "pagination",
           "path" => $assetPath . "/components/multipageguide/Pagination",
+          "variables" => ["content" => []]
+        ], 
+        "localAuthority" => [
+          "template" => "localAuthority",
+          "path" => $assetPath . "/components/fhrs/LocalAuthority",
           "variables" => ["content" => []]
         ], 
         "tableOfContents" => [
