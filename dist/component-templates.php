@@ -286,14 +286,14 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/landing/LatestTeaser",
           "variables" => ["content" => []]
         ], 
-        "serviceLinks" => [
-          "template" => "serviceLinks",
-          "path" => $assetPath . "/components/landing/ServiceLinks",
-          "variables" => ["content" => []]
-        ], 
         "promoGroup" => [
           "template" => "promoGroup",
           "path" => $assetPath . "/components/landing/PromoGroup",
+          "variables" => ["content" => []]
+        ], 
+        "serviceLinks" => [
+          "template" => "serviceLinks",
+          "path" => $assetPath . "/components/landing/ServiceLinks",
           "variables" => ["content" => []]
         ], 
         "campaignBlock" => [
@@ -351,14 +351,14 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/article/RelatedContent",
           "variables" => ["content" => []]
         ], 
-        "multistepFunction" => [
-          "template" => "multistepFunction",
-          "path" => $assetPath . "/components/form/MultistepFunction/drupal",
-          "variables" => ["content" => []]
-        ], 
         "subjectListing" => [
           "template" => "subjectListing",
           "path" => $assetPath . "/components/article/SubjectListing",
+          "variables" => ["content" => []]
+        ], 
+        "explanationBlock" => [
+          "template" => "explanationBlock",
+          "path" => $assetPath . "/components/article/ExplanationBlock",
           "variables" => ["content" => []]
         ], 
         "quoteBlock" => [
@@ -381,9 +381,9 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/article/AllergensTable",
           "variables" => ["content" => []]
         ], 
-        "explanationBlock" => [
-          "template" => "explanationBlock",
-          "path" => $assetPath . "/components/article/ExplanationBlock",
+        "multistepFunction" => [
+          "template" => "multistepFunction",
+          "path" => $assetPath . "/components/form/MultistepFunction/drupal",
           "variables" => ["content" => []]
         ], 
         "footNotes" => [
@@ -416,11 +416,6 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/article/TextBlock",
           "variables" => ["content" => []]
         ], 
-        "chartBlock" => [
-          "template" => "chartBlock",
-          "path" => $assetPath . "/components/article/ChartBlock",
-          "variables" => ["content" => []]
-        ], 
         "webToolStudiesTable" => [
           "template" => "webToolStudiesTable",
           "path" => $assetPath . "/components/haccp/WebToolStudiesTable",
@@ -429,6 +424,11 @@ function deeson_twig_component_templates($assetPath = 'auto') {
         "webToolProgressBar" => [
           "template" => "webToolProgressBar",
           "path" => $assetPath . "/components/haccp/WebToolProgressBar",
+          "variables" => ["content" => []]
+        ], 
+        "chartBlock" => [
+          "template" => "chartBlock",
+          "path" => $assetPath . "/components/article/ChartBlock",
           "variables" => ["content" => []]
         ], 
         "saveProgress" => [
