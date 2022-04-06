@@ -5274,18 +5274,26 @@ div .header__user-menu-navigation {
   font-size: 1rem;
   padding: 0.5rem 2.5rem 0.5rem 1rem;
   min-height: 2.4rem;
-  background-color: #fafcfd;
-  background-color: var(--fsa_tint);
   border: 1px solid #000;
   border: 1px solid var(--fsa-primary_black);
   border-radius: 0;
   max-width: 100%;
   flex-grow: 1;
   font-weight: normal;
+  background: #fafcfd;
+  background: var(--fsa_tint);
+  white-space: nowrap;
+}
+.dropdown-menu__label-arrow {
   background-image: url(./components/general/DropdownMenu/assets/arrow-down.svg);
   background-repeat: no-repeat;
-  background-position: calc(100% - 1rem) center;
-  white-space: nowrap;
+  content: "";
+  top: 0;
+  width: 1rem;
+  position: absolute;
+  right: 1rem;
+  height: 100%;
+  background-position: center;
 }
 @media screen and (min-width: 768px) {
   .dropdown-menu__label {
@@ -5409,6 +5417,33 @@ div .header__user-menu-navigation {
   display: flex;
   flex-direction: row;
   vertical-align: middle;
+}
+.guidance-popup__compact .guidance-popup__wrapper {
+  top: 3rem;
+  left: 1rem;
+  height: calc(100% - 6rem);
+  width: calc(100% - 6rem);
+}
+@media screen and (min-width: 768px) {
+  .guidance-popup__compact .guidance-popup__wrapper {
+    padding: 0.25rem 2rem;
+    top: 6rem;
+    left: 6rem;
+    height: calc(100% - 12rem);
+    width: calc(100% - 12rem);
+  }
+}
+@media screen and (min-width: 1024px) {
+  .guidance-popup__compact .guidance-popup__wrapper {
+    left: calc(50% - 22rem);
+    width: 44rem;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .guidance-popup__compact .guidance-popup__wrapper {
+    left: calc(50% - 24rem);
+    width: 48rem;
+  }
 }
 .guidance-popup__wrapper {
   background: #fff;
@@ -7691,6 +7726,7 @@ body.overflow-hidden {
 .checkbox--error .checkbox__fields {
   border: 4px solid #e31837;
   border: 4px solid var(--fsa-secondary_mid-red);
+  clear: both;
   margin: 2rem 0 0 -4px;
   padding: 0 0.5rem 0.5rem;
 }
@@ -8935,6 +8971,7 @@ body.overflow-hidden {
 .radio--error .radio__fields {
   border: 4px solid #e31837;
   border: 4px solid var(--fsa-secondary_mid-red);
+  clear: both;
   margin: 2rem 0 0 -4px;
   padding: 0 0.5rem 0.5rem;
 }
@@ -9909,7 +9946,7 @@ h3.form-title {
   text-align: right;
   font-weight: normal;
   width: 20rem;
-  z-index: 3;
+  z-index: 50;
 }
 @media screen and (min-width: 768px) {
   .tooltip__body {

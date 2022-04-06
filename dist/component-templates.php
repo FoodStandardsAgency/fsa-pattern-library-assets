@@ -286,14 +286,14 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/landing/LatestTeaser",
           "variables" => ["content" => []]
         ], 
-        "promoGroup" => [
-          "template" => "promoGroup",
-          "path" => $assetPath . "/components/landing/PromoGroup",
-          "variables" => ["content" => []]
-        ], 
         "serviceLinks" => [
           "template" => "serviceLinks",
           "path" => $assetPath . "/components/landing/ServiceLinks",
+          "variables" => ["content" => []]
+        ], 
+        "promoGroup" => [
+          "template" => "promoGroup",
+          "path" => $assetPath . "/components/landing/PromoGroup",
           "variables" => ["content" => []]
         ], 
         "campaignBlock" => [
@@ -301,14 +301,14 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/landing/CampaignBlock",
           "variables" => ["content" => []]
         ], 
-        "landingTitle" => [
-          "template" => "landingTitle",
-          "path" => $assetPath . "/components/landing/LandingTitle",
-          "variables" => ["content" => []]
-        ], 
         "landingText" => [
           "template" => "landingText",
           "path" => $assetPath . "/components/landing/LandingText",
+          "variables" => ["content" => []]
+        ], 
+        "landingTitle" => [
+          "template" => "landingTitle",
+          "path" => $assetPath . "/components/landing/LandingTitle",
           "variables" => ["content" => []]
         ], 
         "helpSecondaryMenu" => [
@@ -361,11 +361,6 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/article/SubjectListing",
           "variables" => ["content" => []]
         ], 
-        "explanationBlock" => [
-          "template" => "explanationBlock",
-          "path" => $assetPath . "/components/article/ExplanationBlock",
-          "variables" => ["content" => []]
-        ], 
         "quoteBlock" => [
           "template" => "quoteBlock",
           "path" => $assetPath . "/components/article/QuoteBlock",
@@ -384,6 +379,11 @@ function deeson_twig_component_templates($assetPath = 'auto') {
         "allergensTable" => [
           "template" => "allergensTable",
           "path" => $assetPath . "/components/article/AllergensTable",
+          "variables" => ["content" => []]
+        ], 
+        "explanationBlock" => [
+          "template" => "explanationBlock",
+          "path" => $assetPath . "/components/article/ExplanationBlock",
           "variables" => ["content" => []]
         ], 
         "footNotes" => [
