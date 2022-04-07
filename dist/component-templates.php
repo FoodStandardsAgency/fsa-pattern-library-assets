@@ -221,6 +221,11 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/form/MultistepFunction",
           "variables" => ["content" => []]
         ], 
+        "radio" => [
+          "template" => "radio",
+          "path" => $assetPath . "/components/form/Radio",
+          "variables" => ["content" => []]
+        ], 
         "tabs" => [
           "template" => "tabs",
           "path" => $assetPath . "/components/form/Tabs",
@@ -229,11 +234,6 @@ function deeson_twig_component_templates($assetPath = 'auto') {
         "titleAndText" => [
           "template" => "titleAndText",
           "path" => $assetPath . "/components/form/TitleAndText",
-          "variables" => ["content" => []]
-        ], 
-        "radio" => [
-          "template" => "radio",
-          "path" => $assetPath . "/components/form/Radio",
           "variables" => ["content" => []]
         ], 
         "emailField" => [
@@ -331,11 +331,6 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/article/ArticleHero",
           "variables" => ["content" => []]
         ], 
-        "multistepFunction" => [
-          "template" => "multistepFunction",
-          "path" => $assetPath . "/components/form/MultistepFunction/drupal",
-          "variables" => ["content" => []]
-        ], 
         "regionalVariationBlock" => [
           "template" => "regionalVariationBlock",
           "path" => $assetPath . "/components/article/RegionalVariationBlock",
@@ -349,6 +344,11 @@ function deeson_twig_component_templates($assetPath = 'auto') {
         "contentMetaData" => [
           "template" => "contentMetaData",
           "path" => $assetPath . "/components/article/ContentMetaData",
+          "variables" => ["content" => []]
+        ], 
+        "multistepFunction" => [
+          "template" => "multistepFunction",
+          "path" => $assetPath . "/components/form/MultistepFunction/drupal",
           "variables" => ["content" => []]
         ], 
         "relatedContent" => [
@@ -391,14 +391,14 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/article/FootNotes",
           "variables" => ["content" => []]
         ], 
-        "revisionLogBottom" => [
-          "template" => "revisionLogBottom",
-          "path" => $assetPath . "/components/article/RevisionLogBottom",
-          "variables" => ["content" => []]
-        ], 
         "backToTop" => [
           "template" => "backToTop",
           "path" => $assetPath . "/components/article/BackToTop",
+          "variables" => ["content" => []]
+        ], 
+        "revisionLogBottom" => [
+          "template" => "revisionLogBottom",
+          "path" => $assetPath . "/components/article/RevisionLogBottom",
           "variables" => ["content" => []]
         ], 
         "pdfAndPrintButtons" => [
