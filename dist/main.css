@@ -10273,6 +10273,9 @@ h3.form-title {
 .multifield-group {
   margin-top: 3rem;
 }
+.multifield-group--required .multifield-group__template + .multifield-group__item .multifield-group__delete-item {
+  display: none;
+}
 .multifield-group__delete-item {
   color: #007c75;
   color: var(--fsa-primary_dark-green);
@@ -10302,7 +10305,7 @@ h3.form-title {
   }
 }
 .multifield-group__add-item {
-  margin-top: 1px;
+  margin-top: 2rem;
   text-align: center;
 }
 .multifield-group__item {
@@ -10311,7 +10314,7 @@ h3.form-title {
 .multifield-group__item + .multifield-group__item {
   border-top: 4px solid #d9d9d6;
   border-top: 4px solid var(--fsa__grey-hover);
-  margin: 2rem 0;
+  margin-top: 2rem;
 }
 .multifield-group__item + .multifield-group__item .multifield-group__delete-item {
   top: 2.2rem;
@@ -14873,6 +14876,27 @@ h3.form-title {
 }
 .related-content__card:hover::after {
   background-image: url(./components/article/RelatedContent/assets/arrow-hover.svg);
+}
+.related-content__card_no_link a {
+  color: #007c75;
+  color: var(--fsa-primary_dark-green);
+  text-decoration: underline;
+  border-bottom: 0.25rem solid transparent;
+}
+.related-content__card_no_link a:hover {
+  color: #014b4c;
+  color: var(--fsa__link-green);
+}
+.related-content__card_no_link a:focus {
+  color: #000;
+  color: var(--fsa-primary_black);
+  outline: none;
+  text-decoration: none;
+  background-color: #f1c400;
+  background-color: var(--fsa-tertiary_light-yellow);
+  border-bottom: 0.25rem solid #000;
+  border-bottom: 0.25rem solid var(--fsa-primary_black);
+  margin-bottom: -0.25rem;
 }
 .related-content__card_no_link::after {
   content: "";

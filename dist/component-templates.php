@@ -71,11 +71,6 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/general/ExternalLink",
           "variables" => ["content" => []]
         ], 
-        "mailLink" => [
-          "template" => "mailLink",
-          "path" => $assetPath . "/components/general/MailLink",
-          "variables" => ["content" => []]
-        ], 
         "footer" => [
           "template" => "footer",
           "path" => $assetPath . "/components/general/Footer",
@@ -84,6 +79,11 @@ function deeson_twig_component_templates($assetPath = 'auto') {
         "feedback" => [
           "template" => "feedback",
           "path" => $assetPath . "/components/general/Feedback",
+          "variables" => ["content" => []]
+        ], 
+        "mailLink" => [
+          "template" => "mailLink",
+          "path" => $assetPath . "/components/general/MailLink",
           "variables" => ["content" => []]
         ], 
         "cookieBanner" => [
@@ -416,6 +416,11 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/article/TextBlock",
           "variables" => ["content" => []]
         ], 
+        "chartBlock" => [
+          "template" => "chartBlock",
+          "path" => $assetPath . "/components/article/ChartBlock",
+          "variables" => ["content" => []]
+        ], 
         "webToolStudiesTable" => [
           "template" => "webToolStudiesTable",
           "path" => $assetPath . "/components/haccp/WebToolStudiesTable",
@@ -424,11 +429,6 @@ function deeson_twig_component_templates($assetPath = 'auto') {
         "webToolProgressBar" => [
           "template" => "webToolProgressBar",
           "path" => $assetPath . "/components/haccp/WebToolProgressBar",
-          "variables" => ["content" => []]
-        ], 
-        "chartBlock" => [
-          "template" => "chartBlock",
-          "path" => $assetPath . "/components/article/ChartBlock",
           "variables" => ["content" => []]
         ], 
         "saveProgress" => [
