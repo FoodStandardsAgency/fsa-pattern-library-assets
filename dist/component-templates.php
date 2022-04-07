@@ -221,11 +221,6 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/form/MultistepFunction",
           "variables" => ["content" => []]
         ], 
-        "radio" => [
-          "template" => "radio",
-          "path" => $assetPath . "/components/form/Radio",
-          "variables" => ["content" => []]
-        ], 
         "tabs" => [
           "template" => "tabs",
           "path" => $assetPath . "/components/form/Tabs",
@@ -234,6 +229,11 @@ function deeson_twig_component_templates($assetPath = 'auto') {
         "titleAndText" => [
           "template" => "titleAndText",
           "path" => $assetPath . "/components/form/TitleAndText",
+          "variables" => ["content" => []]
+        ], 
+        "radio" => [
+          "template" => "radio",
+          "path" => $assetPath . "/components/form/Radio",
           "variables" => ["content" => []]
         ], 
         "emailField" => [
@@ -331,6 +331,11 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/article/ArticleHero",
           "variables" => ["content" => []]
         ], 
+        "multistepFunction" => [
+          "template" => "multistepFunction",
+          "path" => $assetPath . "/components/form/MultistepFunction/drupal",
+          "variables" => ["content" => []]
+        ], 
         "regionalVariationBlock" => [
           "template" => "regionalVariationBlock",
           "path" => $assetPath . "/components/article/RegionalVariationBlock",
@@ -381,11 +386,6 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/article/AllergensTable",
           "variables" => ["content" => []]
         ], 
-        "multistepFunction" => [
-          "template" => "multistepFunction",
-          "path" => $assetPath . "/components/form/MultistepFunction/drupal",
-          "variables" => ["content" => []]
-        ], 
         "footNotes" => [
           "template" => "footNotes",
           "path" => $assetPath . "/components/article/FootNotes",
@@ -416,6 +416,11 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/article/TextBlock",
           "variables" => ["content" => []]
         ], 
+        "chartBlock" => [
+          "template" => "chartBlock",
+          "path" => $assetPath . "/components/article/ChartBlock",
+          "variables" => ["content" => []]
+        ], 
         "webToolStudiesTable" => [
           "template" => "webToolStudiesTable",
           "path" => $assetPath . "/components/haccp/WebToolStudiesTable",
@@ -424,11 +429,6 @@ function deeson_twig_component_templates($assetPath = 'auto') {
         "webToolProgressBar" => [
           "template" => "webToolProgressBar",
           "path" => $assetPath . "/components/haccp/WebToolProgressBar",
-          "variables" => ["content" => []]
-        ], 
-        "chartBlock" => [
-          "template" => "chartBlock",
-          "path" => $assetPath . "/components/article/ChartBlock",
           "variables" => ["content" => []]
         ], 
         "saveProgress" => [
