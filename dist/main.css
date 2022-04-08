@@ -5555,6 +5555,7 @@ div .header__user-menu-navigation {
   background-color: var(--fsa-primary_black);
   border: 2px solid #f1c400;
   border: 2px solid var(--fsa-tertiary_light-yellow);
+  outline: none;
 }
 .guidance-popup__close a::before {
   content: "";
@@ -9888,11 +9889,13 @@ h3.form-title {
   color: var(--fsa-primary_dark-green);
   text-decoration: underline;
   border-bottom: 0.25rem solid transparent;
+  border: 2px solid transparent;
   cursor: pointer;
+  display: block;
   position: relative;
   z-index: 2;
-  width: 2.3rem;
-  height: 2.3rem;
+  width: 3em;
+  height: 3rem;
 }
 .tooltip__question-mark:hover {
   color: #014b4c;
@@ -9911,27 +9914,30 @@ h3.form-title {
 }
 @media screen and (min-width: 1024px) {
   .tooltip__question-mark {
-    width: 2rem;
-    height: 2rem;
+    width: 2.7rem;
+    height: 2.7rem;
   }
 }
 .tooltip__question-mark:focus {
-  border-bottom-color: #f1c400;
-  border-bottom-color: var(--fsa-tertiary_light-yellow);
+  background-color: #000;
+  background-color: var(--fsa-primary_black);
+  border: 2px solid #f1c400;
+  border: 2px solid var(--fsa-tertiary_light-yellow);
+  outline: none;
 }
 .tooltip__question-mark::before {
   content: "";
   background-image: url(./components/form/Tooltip/assets/question.svg);
+  background-color: #fff;
+  background-color: var(--fsa-primary_white);
   display: block;
-  width: 2.3rem;
-  height: 2.3rem;
+  height: calc(100% - 4px);
+  width: calc(100% - 4px);
+  position: absolute;
+  top: 2px;
+  left: 2px;
   background-repeat: no-repeat;
-}
-@media screen and (min-width: 1024px) {
-  .tooltip__question-mark::before {
-    width: 2rem;
-    height: 2rem;
-  }
+  background-position: center;
 }
 .tooltip__body {
   background: #f0f3f5;
@@ -9941,8 +9947,8 @@ h3.form-title {
   display: none;
   font-size: 1rem;
   position: absolute;
-  right: 1rem;
-  top: 3.4rem;
+  right: 1.2rem;
+  top: 4rem;
   text-align: right;
   font-weight: normal;
   width: 20rem;
@@ -9950,13 +9956,7 @@ h3.form-title {
 }
 @media screen and (min-width: 768px) {
   .tooltip__body {
-    top: 3.6rem;
     width: 41rem;
-  }
-}
-@media screen and (min-width: 1024px) {
-  .tooltip__body {
-    top: 3.27rem;
   }
 }
 .tooltip__body::before {
@@ -9988,7 +9988,7 @@ h3.form-title {
   letter-spacing: normal;
   color: #000;
   color: var(--fsa-primary_black);
-  padding: 1rem 1.5rem 1rem 1rem;
+  padding: 1rem 2rem 1rem 1rem;
   text-align: left;
 }
 .tooltip__message-content {
@@ -10021,13 +10021,15 @@ h3.form-title {
   color: var(--fsa-primary_dark-green);
   text-decoration: underline;
   border-bottom: 0.25rem solid transparent;
+  border: 2px solid transparent;
   cursor: pointer;
   display: block;
-  height: 0.6rem;
+  height: 1.2rem;
   position: absolute;
   right: 0.5rem;
   top: 0.5rem;
-  width: 0.6rem;
+  width: 1.2rem;
+  margin: 0;
 }
 .tooltip__close:hover {
   color: #014b4c;
@@ -10046,15 +10048,24 @@ h3.form-title {
 }
 .tooltip__close::before {
   content: "";
+  background-color: #f0f3f5;
+  background-color: var(--fsa_online-grey);
   background-image: url(./components/form/Tooltip/assets/close.svg);
   display: block;
-  width: 0.6rem;
-  height: 0.6rem;
+  height: calc(100% - 4px);
+  width: calc(100% - 4px);
+  top: 2px;
+  left: 2px;
+  position: absolute;
   background-repeat: no-repeat;
+  background-position: center;
 }
 .tooltip__close:focus {
-  border-bottom-color: #f1c400;
-  border-bottom-color: var(--fsa-tertiary_light-yellow);
+  background-color: #000;
+  background-color: var(--fsa-primary_black);
+  border: 2px solid #f1c400;
+  border: 2px solid var(--fsa-tertiary_light-yellow);
+  outline: none;
 }
 
 .label-with-tooltip {
@@ -10064,12 +10075,12 @@ h3.form-title {
 }
 .label-with-tooltip .tooltip {
   position: absolute;
-  top: -0.3rem;
+  top: -0.9rem;
   right: 0;
 }
 @media screen and (min-width: 1024px) {
   .label-with-tooltip .tooltip {
-    top: -0.2rem;
+    top: -0.6rem;
   }
 }
 /*!*********************************************************************************************************************************************************************************************!*\
