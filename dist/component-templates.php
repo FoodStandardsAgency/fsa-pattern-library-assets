@@ -401,11 +401,6 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/article/BackToTop",
           "variables" => ["content" => []]
         ], 
-        "pdfAndPrintButtons" => [
-          "template" => "pdfAndPrintButtons",
-          "path" => $assetPath . "/components/article/PdfAndPrintButtons",
-          "variables" => ["content" => []]
-        ], 
         "stickySidebar" => [
           "template" => "stickySidebar",
           "path" => $assetPath . "/components/article/StickySidebar",
@@ -414,6 +409,11 @@ function deeson_twig_component_templates($assetPath = 'auto') {
         "textBlock" => [
           "template" => "textBlock",
           "path" => $assetPath . "/components/article/TextBlock",
+          "variables" => ["content" => []]
+        ], 
+        "pdfAndPrintButtons" => [
+          "template" => "pdfAndPrintButtons",
+          "path" => $assetPath . "/components/article/PdfAndPrintButtons",
           "variables" => ["content" => []]
         ], 
         "chartBlock" => [
