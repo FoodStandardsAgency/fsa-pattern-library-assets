@@ -7650,7 +7650,7 @@ body.overflow-hidden {
   font-weight: var(--heading-bold);
   line-height: 1.4;
   letter-spacing: normal;
-  margin-left: 1rem;
+  margin-left: 0.5rem;
   color: #000;
   color: var(--fsa-primary_black);
   font-weight: inherit;
@@ -7866,7 +7866,7 @@ body.overflow-hidden {
   font-weight: var(--heading-bold);
   line-height: 1.4;
   letter-spacing: normal;
-  margin-left: 1rem;
+  margin-left: 0.5rem;
   color: #000;
   color: var(--fsa-primary_black);
   font-weight: inherit;
@@ -8238,7 +8238,7 @@ body.overflow-hidden {
   font-weight: var(--heading-bold);
   line-height: 1.4;
   letter-spacing: normal;
-  margin-left: 1rem;
+  margin-left: 0.5rem;
   font-weight: inherit;
 }
 @media screen and (min-width: 1024px) {
@@ -8885,7 +8885,7 @@ body.overflow-hidden {
   font-weight: var(--heading-bold);
   line-height: 1.4;
   letter-spacing: normal;
-  margin-left: 1rem;
+  margin-left: 0.5rem;
   color: #000;
   color: var(--fsa-primary_black);
   font-weight: inherit;
@@ -9537,9 +9537,6 @@ h3.form-title {
     font-size: 1.2rem;
   }
 }
-.textarea__label-content {
-  margin-right: 1rem;
-}
 .textarea__required {
   font-family: "Fira Sans", sans-serif;
   font-family: var(--heading-font);
@@ -9548,6 +9545,7 @@ h3.form-title {
   font-weight: var(--heading-bold);
   line-height: 1.4;
   letter-spacing: normal;
+  margin-left: 0.5rem;
   font-weight: inherit;
   color: #000;
   color: var(--fsa-primary_black);
@@ -10301,6 +10299,10 @@ h3.form-title {
   margin-top: 3rem;
 }
 .multifield-group--required .multifield-group__template + .multifield-group__item .multifield-group__delete-item {
+  display: none;
+}
+.multifield-group--frozen-steps .multifield-group__delete-item,
+.multifield-group--frozen-steps .multifield-group__add-item {
   display: none;
 }
 .multifield-group__delete-item {

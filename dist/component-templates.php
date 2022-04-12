@@ -201,14 +201,14 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/form/Dropdown",
           "variables" => ["content" => []]
         ], 
-        "errorBox" => [
-          "template" => "errorBox",
-          "path" => $assetPath . "/components/form/ErrorBox",
-          "variables" => ["content" => []]
-        ], 
         "inputField" => [
           "template" => "inputField",
           "path" => $assetPath . "/components/form/InputField",
+          "variables" => ["content" => []]
+        ], 
+        "errorBox" => [
+          "template" => "errorBox",
+          "path" => $assetPath . "/components/form/ErrorBox",
           "variables" => ["content" => []]
         ], 
         "messageBox" => [
@@ -296,6 +296,11 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/landing/ServiceLinks",
           "variables" => ["content" => []]
         ], 
+        "campaignBlock" => [
+          "template" => "campaignBlock",
+          "path" => $assetPath . "/components/landing/CampaignBlock",
+          "variables" => ["content" => []]
+        ], 
         "landingText" => [
           "template" => "landingText",
           "path" => $assetPath . "/components/landing/LandingText",
@@ -304,11 +309,6 @@ function deeson_twig_component_templates($assetPath = 'auto') {
         "landingTitle" => [
           "template" => "landingTitle",
           "path" => $assetPath . "/components/landing/LandingTitle",
-          "variables" => ["content" => []]
-        ], 
-        "campaignBlock" => [
-          "template" => "campaignBlock",
-          "path" => $assetPath . "/components/landing/CampaignBlock",
           "variables" => ["content" => []]
         ], 
         "helpSecondaryMenu" => [
