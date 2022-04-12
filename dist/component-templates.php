@@ -186,6 +186,11 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/search/Accordion",
           "variables" => ["content" => []]
         ], 
+        "searchBar" => [
+          "template" => "searchBar",
+          "path" => $assetPath . "/components/search/SearchBar",
+          "variables" => ["content" => []]
+        ], 
         "checkbox" => [
           "template" => "checkbox",
           "path" => $assetPath . "/components/form/Checkbox",
@@ -194,11 +199,6 @@ function deeson_twig_component_templates($assetPath = 'auto') {
         "dropdown" => [
           "template" => "dropdown",
           "path" => $assetPath . "/components/form/Dropdown",
-          "variables" => ["content" => []]
-        ], 
-        "searchBar" => [
-          "template" => "searchBar",
-          "path" => $assetPath . "/components/search/SearchBar",
           "variables" => ["content" => []]
         ], 
         "errorBox" => [
@@ -316,6 +316,11 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/contact/HelpSecondaryMenu",
           "variables" => ["content" => []]
         ], 
+        "multistepFunction" => [
+          "template" => "multistepFunction",
+          "path" => $assetPath . "/components/form/MultistepFunction/drupal",
+          "variables" => ["content" => []]
+        ], 
         "promoLinks" => [
           "template" => "promoLinks",
           "path" => $assetPath . "/components/contact/PromoLinks",
@@ -344,11 +349,6 @@ function deeson_twig_component_templates($assetPath = 'auto') {
         "contentMetaData" => [
           "template" => "contentMetaData",
           "path" => $assetPath . "/components/article/ContentMetaData",
-          "variables" => ["content" => []]
-        ], 
-        "multistepFunction" => [
-          "template" => "multistepFunction",
-          "path" => $assetPath . "/components/form/MultistepFunction/drupal",
           "variables" => ["content" => []]
         ], 
         "relatedContent" => [
