@@ -16,14 +16,14 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/layout/twoColumn",
           "variables" => ["content" => []]
         ], 
-        "contentLayout" => [
-          "template" => "contentLayout",
-          "path" => $assetPath . "/layout/contentLayout",
-          "variables" => ["content" => []]
-        ], 
         "fullWidth" => [
           "template" => "fullWidth",
           "path" => $assetPath . "/layout/fullWidth",
+          "variables" => ["content" => []]
+        ], 
+        "contentLayout" => [
+          "template" => "contentLayout",
+          "path" => $assetPath . "/layout/contentLayout",
           "variables" => ["content" => []]
         ], 
         "contactLayout" => [
@@ -236,6 +236,11 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/form/TitleAndText",
           "variables" => ["content" => []]
         ], 
+        "emailField" => [
+          "template" => "emailField",
+          "path" => $assetPath . "/components/form/EmailField",
+          "variables" => ["content" => []]
+        ], 
         "textarea" => [
           "template" => "textarea",
           "path" => $assetPath . "/components/form/Textarea",
@@ -244,11 +249,6 @@ function deeson_twig_component_templates($assetPath = 'auto') {
         "step" => [
           "template" => "step",
           "path" => $assetPath . "/components/form/Step",
-          "variables" => ["content" => []]
-        ], 
-        "emailField" => [
-          "template" => "emailField",
-          "path" => $assetPath . "/components/form/EmailField",
           "variables" => ["content" => []]
         ], 
         "mapField" => [
@@ -341,14 +341,14 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/article/BackTo",
           "variables" => ["content" => []]
         ], 
-        "contentMetaData" => [
-          "template" => "contentMetaData",
-          "path" => $assetPath . "/components/article/ContentMetaData",
-          "variables" => ["content" => []]
-        ], 
         "multistepFunction" => [
           "template" => "multistepFunction",
           "path" => $assetPath . "/components/form/MultistepFunction/drupal",
+          "variables" => ["content" => []]
+        ], 
+        "contentMetaData" => [
+          "template" => "contentMetaData",
+          "path" => $assetPath . "/components/article/ContentMetaData",
           "variables" => ["content" => []]
         ], 
         "relatedContent" => [
