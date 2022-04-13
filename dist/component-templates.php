@@ -156,14 +156,14 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/search/SearchNoResults",
           "variables" => ["content" => []]
         ], 
-        "showing" => [
-          "template" => "showing",
-          "path" => $assetPath . "/components/search/Showing",
-          "variables" => ["content" => []]
-        ], 
         "sortBy" => [
           "template" => "sortBy",
           "path" => $assetPath . "/components/search/SortBy",
+          "variables" => ["content" => []]
+        ], 
+        "showing" => [
+          "template" => "showing",
+          "path" => $assetPath . "/components/search/Showing",
           "variables" => ["content" => []]
         ], 
         "filtersHeader" => [
@@ -301,14 +301,14 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/landing/CampaignBlock",
           "variables" => ["content" => []]
         ], 
-        "landingText" => [
-          "template" => "landingText",
-          "path" => $assetPath . "/components/landing/LandingText",
-          "variables" => ["content" => []]
-        ], 
         "landingTitle" => [
           "template" => "landingTitle",
           "path" => $assetPath . "/components/landing/LandingTitle",
+          "variables" => ["content" => []]
+        ], 
+        "landingText" => [
+          "template" => "landingText",
+          "path" => $assetPath . "/components/landing/LandingText",
           "variables" => ["content" => []]
         ], 
         "helpSecondaryMenu" => [
