@@ -10200,21 +10200,20 @@ h3.form-title {
 .multivalue-field__delete-entity::before {
   content: "";
   background-image: url(./components/form/MultivalueField/assets/delete.svg);
-  display: inline-block;
-  width: 1.75rem;
-  height: 1rem;
+  display: block;
+  width: 100%;
+  height: 100%;
   background-repeat: no-repeat;
   background-position: center;
   margin-right: 1rem;
   vertical-align: middle;
 }
 .multivalue-field__delete-entity:focus {
-  box-shadow: inset 0 0 0 2px #000;
-  box-shadow: inset 0 0 0 2px var(--fsa-primary_black);
-  outline: solid 3px #f1c400;
-  outline: solid 3px var(--fsa-tertiary_light-yellow);
-  background-color: #fff;
-  background-color: var(--fsa-primary_white);
+  border: 0.2rem solid #000;
+  border: 0.2rem solid var(--fsa-primary_black);
+  box-shadow: 0 0 0 0.2rem #f1c400;
+  box-shadow: 0 0 0 0.2rem var(--fsa-tertiary_light-yellow);
+  outline: none;
 }
 .multivalue-field .input-field__wrapper {
   position: relative;
@@ -10226,6 +10225,9 @@ h3.form-title {
   position: absolute;
   right: 0.5rem;
   top: 0.5rem;
+}
+.multivalue-field .input-field--error .multivalue-field__delete-entity {
+  top: 0.7rem;
 }
 /*!*********************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/form/MultifieldGroup/multifieldGroup.scss ***!
@@ -18219,6 +18221,7 @@ h3.form-title {
   flex: 1;
   margin-left: -0.5rem;
   margin-right: -0.5rem;
+  margin: 0;
 }
 @media screen and (min-width: 768px) {
   .webtool-progress-bar__grid-row {
