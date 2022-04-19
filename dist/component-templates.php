@@ -126,14 +126,14 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/general/GuidancePopup",
           "variables" => ["content" => []]
         ], 
-        "filtersSelected" => [
-          "template" => "filtersSelected",
-          "path" => $assetPath . "/components/search/FiltersSelected",
-          "variables" => ["content" => []]
-        ], 
         "collapsibleCheckbox" => [
           "template" => "collapsibleCheckbox",
           "path" => $assetPath . "/components/search/CollapsibleCheckbox",
+          "variables" => ["content" => []]
+        ], 
+        "filtersSelected" => [
+          "template" => "filtersSelected",
+          "path" => $assetPath . "/components/search/FiltersSelected",
           "variables" => ["content" => []]
         ], 
         "listingItem" => [
@@ -141,14 +141,14 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/search/ListingItem",
           "variables" => ["content" => []]
         ], 
-        "searchBarHeader" => [
-          "template" => "searchBarHeader",
-          "path" => $assetPath . "/components/search/SearchBarHeader",
-          "variables" => ["content" => []]
-        ], 
         "pagination" => [
           "template" => "pagination",
           "path" => $assetPath . "/components/search/Pagination",
+          "variables" => ["content" => []]
+        ], 
+        "searchBarHeader" => [
+          "template" => "searchBarHeader",
+          "path" => $assetPath . "/components/search/SearchBarHeader",
           "variables" => ["content" => []]
         ], 
         "searchNoResults" => [
@@ -341,14 +341,14 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/article/BackTo",
           "variables" => ["content" => []]
         ], 
-        "contentMetaData" => [
-          "template" => "contentMetaData",
-          "path" => $assetPath . "/components/article/ContentMetaData",
-          "variables" => ["content" => []]
-        ], 
         "multistepFunction" => [
           "template" => "multistepFunction",
           "path" => $assetPath . "/components/form/MultistepFunction/drupal",
+          "variables" => ["content" => []]
+        ], 
+        "contentMetaData" => [
+          "template" => "contentMetaData",
+          "path" => $assetPath . "/components/article/ContentMetaData",
           "variables" => ["content" => []]
         ], 
         "relatedContent" => [
