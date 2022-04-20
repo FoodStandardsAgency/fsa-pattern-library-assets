@@ -10305,6 +10305,9 @@ h3.form-title {
 .multifield-group--required .multifield-group__template + .multifield-group__item .multifield-group__delete-item {
   display: none;
 }
+.multifield-group--required .multifield-group__template + .multifield-group__item .multifield-group__delete-item + .multifield-group__form {
+  margin-top: 0;
+}
 .multifield-group--frozen-steps .multifield-group__delete-item,
 .multifield-group--frozen-steps .multifield-group__add-item {
   display: none;
@@ -10338,6 +10341,9 @@ h3.form-title {
     position: absolute;
     top: 0.5rem;
     right: 0;
+  }
+  .multifield-group__delete-item--no-label + .multifield-group__form {
+    margin-top: 6rem;
   }
 }
 .multifield-group__add-item {
