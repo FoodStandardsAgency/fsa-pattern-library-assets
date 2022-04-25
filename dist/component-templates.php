@@ -136,14 +136,14 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/search/FiltersSelected",
           "variables" => ["content" => []]
         ], 
-        "listingItem" => [
-          "template" => "listingItem",
-          "path" => $assetPath . "/components/search/ListingItem",
-          "variables" => ["content" => []]
-        ], 
         "pagination" => [
           "template" => "pagination",
           "path" => $assetPath . "/components/search/Pagination",
+          "variables" => ["content" => []]
+        ], 
+        "listingItem" => [
+          "template" => "listingItem",
+          "path" => $assetPath . "/components/search/ListingItem",
           "variables" => ["content" => []]
         ], 
         "searchBarHeader" => [
@@ -386,11 +386,6 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/article/ProductDetails",
           "variables" => ["content" => []]
         ], 
-        "allergensTable" => [
-          "template" => "allergensTable",
-          "path" => $assetPath . "/components/article/AllergensTable",
-          "variables" => ["content" => []]
-        ], 
         "footNotes" => [
           "template" => "footNotes",
           "path" => $assetPath . "/components/article/FootNotes",
@@ -399,6 +394,11 @@ function deeson_twig_component_templates($assetPath = 'auto') {
         "revisionLogBottom" => [
           "template" => "revisionLogBottom",
           "path" => $assetPath . "/components/article/RevisionLogBottom",
+          "variables" => ["content" => []]
+        ], 
+        "allergensTable" => [
+          "template" => "allergensTable",
+          "path" => $assetPath . "/components/article/AllergensTable",
           "variables" => ["content" => []]
         ], 
         "backToTop" => [
