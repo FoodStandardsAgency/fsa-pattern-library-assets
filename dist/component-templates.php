@@ -141,14 +141,14 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/search/ListingItem",
           "variables" => ["content" => []]
         ], 
-        "searchBarHeader" => [
-          "template" => "searchBarHeader",
-          "path" => $assetPath . "/components/search/SearchBarHeader",
-          "variables" => ["content" => []]
-        ], 
         "pagination" => [
           "template" => "pagination",
           "path" => $assetPath . "/components/search/Pagination",
+          "variables" => ["content" => []]
+        ], 
+        "searchBarHeader" => [
+          "template" => "searchBarHeader",
+          "path" => $assetPath . "/components/search/SearchBarHeader",
           "variables" => ["content" => []]
         ], 
         "searchNoResults" => [
@@ -281,14 +281,14 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/landing/LandingLinks",
           "variables" => ["content" => []]
         ], 
-        "latestTeaser" => [
-          "template" => "latestTeaser",
-          "path" => $assetPath . "/components/landing/LatestTeaser",
-          "variables" => ["content" => []]
-        ], 
         "largePromoGroup" => [
           "template" => "largePromoGroup",
           "path" => $assetPath . "/components/landing/LargePromoGroup",
+          "variables" => ["content" => []]
+        ], 
+        "latestTeaser" => [
+          "template" => "latestTeaser",
+          "path" => $assetPath . "/components/landing/LatestTeaser",
           "variables" => ["content" => []]
         ], 
         "promoGroup" => [
@@ -391,11 +391,6 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/article/AllergensTable",
           "variables" => ["content" => []]
         ], 
-        "footNotes" => [
-          "template" => "footNotes",
-          "path" => $assetPath . "/components/article/FootNotes",
-          "variables" => ["content" => []]
-        ], 
         "revisionLogBottom" => [
           "template" => "revisionLogBottom",
           "path" => $assetPath . "/components/article/RevisionLogBottom",
@@ -404,6 +399,11 @@ function deeson_twig_component_templates($assetPath = 'auto') {
         "backToTop" => [
           "template" => "backToTop",
           "path" => $assetPath . "/components/article/BackToTop",
+          "variables" => ["content" => []]
+        ], 
+        "footNotes" => [
+          "template" => "footNotes",
+          "path" => $assetPath . "/components/article/FootNotes",
           "variables" => ["content" => []]
         ], 
         "pdfAndPrintButtons" => [
