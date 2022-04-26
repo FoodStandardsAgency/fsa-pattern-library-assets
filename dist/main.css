@@ -944,6 +944,9 @@ p {
   display: flex;
   justify-content: flex-end;
 }
+.header__languages {
+  min-width: 10rem;
+}
 .header__languages, .header__user_menu {
   text-align: right;
 }
@@ -1186,7 +1189,7 @@ div .header__user-menu-navigation {
     display: flex;
     margin-left: 1.25rem;
     margin-top: 0;
-    width: 55%;
+    width: 65%;
     flex-grow: 1;
     padding: 0;
   }
@@ -20505,6 +20508,9 @@ h3.form-title {
   .fhrs-layout__row {
     flex-direction: row;
   }
+}
+.fhrs-layout__top {
+  width: 100%;
 }
 .fhrs-layout__center {
   width: 100%;
