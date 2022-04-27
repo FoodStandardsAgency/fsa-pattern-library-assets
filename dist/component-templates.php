@@ -191,11 +191,6 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/search/SearchBar",
           "variables" => ["content" => []]
         ], 
-        "checkbox" => [
-          "template" => "checkbox",
-          "path" => $assetPath . "/components/form/Checkbox",
-          "variables" => ["content" => []]
-        ], 
         "dropdown" => [
           "template" => "dropdown",
           "path" => $assetPath . "/components/form/Dropdown",
@@ -214,6 +209,11 @@ function deeson_twig_component_templates($assetPath = 'auto') {
         "messageBox" => [
           "template" => "messageBox",
           "path" => $assetPath . "/components/form/MessageBox",
+          "variables" => ["content" => []]
+        ], 
+        "checkbox" => [
+          "template" => "checkbox",
+          "path" => $assetPath . "/components/form/Checkbox",
           "variables" => ["content" => []]
         ], 
         "multistepFunction" => [
@@ -236,14 +236,14 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/form/TitleAndText",
           "variables" => ["content" => []]
         ], 
-        "emailField" => [
-          "template" => "emailField",
-          "path" => $assetPath . "/components/form/EmailField",
-          "variables" => ["content" => []]
-        ], 
         "textarea" => [
           "template" => "textarea",
           "path" => $assetPath . "/components/form/Textarea",
+          "variables" => ["content" => []]
+        ], 
+        "emailField" => [
+          "template" => "emailField",
+          "path" => $assetPath . "/components/form/EmailField",
           "variables" => ["content" => []]
         ], 
         "step" => [
@@ -254,11 +254,6 @@ function deeson_twig_component_templates($assetPath = 'auto') {
         "fileUpload" => [
           "template" => "fileUpload",
           "path" => $assetPath . "/components/form/FileUpload",
-          "variables" => ["content" => []]
-        ], 
-        "mapField" => [
-          "template" => "mapField",
-          "path" => $assetPath . "/components/form/MapField",
           "variables" => ["content" => []]
         ], 
         "tooltip" => [
@@ -279,6 +274,11 @@ function deeson_twig_component_templates($assetPath = 'auto') {
         "landingLinks" => [
           "template" => "landingLinks",
           "path" => $assetPath . "/components/landing/LandingLinks",
+          "variables" => ["content" => []]
+        ], 
+        "mapField" => [
+          "template" => "mapField",
+          "path" => $assetPath . "/components/form/MapField",
           "variables" => ["content" => []]
         ], 
         "largePromoGroup" => [
@@ -341,6 +341,11 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/article/RegionalVariationBlock",
           "variables" => ["content" => []]
         ], 
+        "multistepFunction" => [
+          "template" => "multistepFunction",
+          "path" => $assetPath . "/components/form/MultistepFunction/drupal",
+          "variables" => ["content" => []]
+        ], 
         "backTo" => [
           "template" => "backTo",
           "path" => $assetPath . "/components/article/BackTo",
@@ -369,11 +374,6 @@ function deeson_twig_component_templates($assetPath = 'auto') {
         "quoteBlock" => [
           "template" => "quoteBlock",
           "path" => $assetPath . "/components/article/QuoteBlock",
-          "variables" => ["content" => []]
-        ], 
-        "multistepFunction" => [
-          "template" => "multistepFunction",
-          "path" => $assetPath . "/components/form/MultistepFunction/drupal",
           "variables" => ["content" => []]
         ], 
         "teamContacts" => [
