@@ -131,14 +131,14 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/search/CollapsibleCheckbox",
           "variables" => ["content" => []]
         ], 
-        "filtersSelected" => [
-          "template" => "filtersSelected",
-          "path" => $assetPath . "/components/search/FiltersSelected",
-          "variables" => ["content" => []]
-        ], 
         "listingItem" => [
           "template" => "listingItem",
           "path" => $assetPath . "/components/search/ListingItem",
+          "variables" => ["content" => []]
+        ], 
+        "filtersSelected" => [
+          "template" => "filtersSelected",
+          "path" => $assetPath . "/components/search/FiltersSelected",
           "variables" => ["content" => []]
         ], 
         "pagination" => [
@@ -191,14 +191,14 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/search/SearchBar",
           "variables" => ["content" => []]
         ], 
-        "checkbox" => [
-          "template" => "checkbox",
-          "path" => $assetPath . "/components/form/Checkbox",
-          "variables" => ["content" => []]
-        ], 
         "dropdown" => [
           "template" => "dropdown",
           "path" => $assetPath . "/components/form/Dropdown",
+          "variables" => ["content" => []]
+        ], 
+        "checkbox" => [
+          "template" => "checkbox",
+          "path" => $assetPath . "/components/form/Checkbox",
           "variables" => ["content" => []]
         ], 
         "errorBox" => [
@@ -231,14 +231,14 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/form/Tabs",
           "variables" => ["content" => []]
         ], 
-        "titleAndText" => [
-          "template" => "titleAndText",
-          "path" => $assetPath . "/components/form/TitleAndText",
-          "variables" => ["content" => []]
-        ], 
         "emailField" => [
           "template" => "emailField",
           "path" => $assetPath . "/components/form/EmailField",
+          "variables" => ["content" => []]
+        ], 
+        "titleAndText" => [
+          "template" => "titleAndText",
+          "path" => $assetPath . "/components/form/TitleAndText",
           "variables" => ["content" => []]
         ], 
         "textarea" => [
@@ -256,14 +256,14 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/form/FileUpload",
           "variables" => ["content" => []]
         ], 
-        "mapField" => [
-          "template" => "mapField",
-          "path" => $assetPath . "/components/form/MapField",
-          "variables" => ["content" => []]
-        ], 
         "tooltip" => [
           "template" => "tooltip",
           "path" => $assetPath . "/components/form/Tooltip",
+          "variables" => ["content" => []]
+        ], 
+        "mapField" => [
+          "template" => "mapField",
+          "path" => $assetPath . "/components/form/MapField",
           "variables" => ["content" => []]
         ], 
         "multivalueField" => [
