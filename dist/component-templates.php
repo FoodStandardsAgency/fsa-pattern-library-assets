@@ -411,6 +411,11 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/article/PdfAndPrintButtons",
           "variables" => ["content" => []]
         ], 
+        "stickySidebar" => [
+          "template" => "stickySidebar",
+          "path" => $assetPath . "/components/article/StickySidebar",
+          "variables" => ["content" => []]
+        ], 
         "textBlock" => [
           "template" => "textBlock",
           "path" => $assetPath . "/components/article/TextBlock",
@@ -424,11 +429,6 @@ function deeson_twig_component_templates($assetPath = 'auto') {
         "webToolStudiesTable" => [
           "template" => "webToolStudiesTable",
           "path" => $assetPath . "/components/haccp/WebToolStudiesTable",
-          "variables" => ["content" => []]
-        ], 
-        "stickySidebar" => [
-          "template" => "stickySidebar",
-          "path" => $assetPath . "/components/article/StickySidebar",
           "variables" => ["content" => []]
         ], 
         "webToolProgressBar" => [
