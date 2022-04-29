@@ -126,14 +126,14 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/general/GuidancePopup",
           "variables" => ["content" => []]
         ], 
-        "collapsibleCheckbox" => [
-          "template" => "collapsibleCheckbox",
-          "path" => $assetPath . "/components/search/CollapsibleCheckbox",
-          "variables" => ["content" => []]
-        ], 
         "filtersSelected" => [
           "template" => "filtersSelected",
           "path" => $assetPath . "/components/search/FiltersSelected",
+          "variables" => ["content" => []]
+        ], 
+        "collapsibleCheckbox" => [
+          "template" => "collapsibleCheckbox",
+          "path" => $assetPath . "/components/search/CollapsibleCheckbox",
           "variables" => ["content" => []]
         ], 
         "listingItem" => [
@@ -336,14 +336,14 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/article/ArticleHero",
           "variables" => ["content" => []]
         ], 
-        "multistepFunction" => [
-          "template" => "multistepFunction",
-          "path" => $assetPath . "/components/form/MultistepFunction/drupal",
-          "variables" => ["content" => []]
-        ], 
         "regionalVariationBlock" => [
           "template" => "regionalVariationBlock",
           "path" => $assetPath . "/components/article/RegionalVariationBlock",
+          "variables" => ["content" => []]
+        ], 
+        "multistepFunction" => [
+          "template" => "multistepFunction",
+          "path" => $assetPath . "/components/form/MultistepFunction/drupal",
           "variables" => ["content" => []]
         ], 
         "backTo" => [
@@ -411,6 +411,11 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/article/PdfAndPrintButtons",
           "variables" => ["content" => []]
         ], 
+        "stickySidebar" => [
+          "template" => "stickySidebar",
+          "path" => $assetPath . "/components/article/StickySidebar",
+          "variables" => ["content" => []]
+        ], 
         "textBlock" => [
           "template" => "textBlock",
           "path" => $assetPath . "/components/article/TextBlock",
@@ -426,24 +431,19 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/haccp/WebToolStudiesTable",
           "variables" => ["content" => []]
         ], 
-        "stickySidebar" => [
-          "template" => "stickySidebar",
-          "path" => $assetPath . "/components/article/StickySidebar",
-          "variables" => ["content" => []]
-        ], 
         "webToolProgressBar" => [
           "template" => "webToolProgressBar",
           "path" => $assetPath . "/components/haccp/WebToolProgressBar",
           "variables" => ["content" => []]
         ], 
-        "saveProgress" => [
-          "template" => "saveProgress",
-          "path" => $assetPath . "/components/haccp/SaveProgress",
-          "variables" => ["content" => []]
-        ], 
         "localAuthority" => [
           "template" => "localAuthority",
           "path" => $assetPath . "/components/fhrs/LocalAuthority",
+          "variables" => ["content" => []]
+        ], 
+        "saveProgress" => [
+          "template" => "saveProgress",
+          "path" => $assetPath . "/components/haccp/SaveProgress",
           "variables" => ["content" => []]
         ], 
         "businessHero" => [
