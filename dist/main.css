@@ -68,6 +68,8 @@
 /* Custom Mixins */
 /* Mixin for checkbox and radio button style */
 /* Used for Style guide pages */
+/* stylelint-disable value-keyword-case */
+/* stylelint-enable value-keyword-case */
 html {
   font-family: sans-serif;
   font-size: 16px;
@@ -414,6 +416,8 @@ p {
 /* Custom Mixins */
 /* Mixin for checkbox and radio button style */
 /* Used for Style guide pages */
+/* stylelint-disable value-keyword-case */
+/* stylelint-enable value-keyword-case */
 .breadcrumb {
   font-family: "Open Sans", sans-serif;
   font-family: var(--body-font);
@@ -716,6 +720,8 @@ p {
 /* Custom Mixins */
 /* Mixin for checkbox and radio button style */
 /* Used for Style guide pages */
+/* stylelint-disable value-keyword-case */
+/* stylelint-enable value-keyword-case */
 .button--primary {
   display: inline-block;
   font-family: "open sans", sans-serif;
@@ -871,6 +877,8 @@ p {
 /* Custom Mixins */
 /* Mixin for checkbox and radio button style */
 /* Used for Style guide pages */
+/* stylelint-disable value-keyword-case */
+/* stylelint-enable value-keyword-case */
 .header {
   display: flex;
   padding: 0.5rem 0 0;
@@ -1713,6 +1721,8 @@ div .header__user-menu-navigation {
 /* Custom Mixins */
 /* Mixin for checkbox and radio button style */
 /* Used for Style guide pages */
+/* stylelint-disable value-keyword-case */
+/* stylelint-enable value-keyword-case */
 .hero {
   display: flex;
   flex-direction: column-reverse;
@@ -2225,6 +2235,8 @@ div .header__user-menu-navigation {
 /* Custom Mixins */
 /* Mixin for checkbox and radio button style */
 /* Used for Style guide pages */
+/* stylelint-disable value-keyword-case */
+/* stylelint-enable value-keyword-case */
 .user-login-form .link__wrapper {
   padding-top: 2rem;
 }
@@ -2304,6 +2316,8 @@ div .header__user-menu-navigation {
 /* Custom Mixins */
 /* Mixin for checkbox and radio button style */
 /* Used for Style guide pages */
+/* stylelint-disable value-keyword-case */
+/* stylelint-enable value-keyword-case */
 .external-link {
   color: #007c75;
   color: var(--fsa-primary_dark-green);
@@ -2426,6 +2440,8 @@ div .header__user-menu-navigation {
 /* Custom Mixins */
 /* Mixin for checkbox and radio button style */
 /* Used for Style guide pages */
+/* stylelint-disable value-keyword-case */
+/* stylelint-enable value-keyword-case */
 .mail-link {
   color: #007c75;
   color: var(--fsa-primary_dark-green);
@@ -2529,6 +2545,8 @@ div .header__user-menu-navigation {
 /* Custom Mixins */
 /* Mixin for checkbox and radio button style */
 /* Used for Style guide pages */
+/* stylelint-disable value-keyword-case */
+/* stylelint-enable value-keyword-case */
 .footer {
   background-color: #2a0247;
   background-color: var(--fsa__purple-hover);
@@ -2802,6 +2820,8 @@ div .header__user-menu-navigation {
 /* Custom Mixins */
 /* Mixin for checkbox and radio button style */
 /* Used for Style guide pages */
+/* stylelint-disable value-keyword-case */
+/* stylelint-enable value-keyword-case */
 .feedback {
   background-color: #f0f3f5;
   background-color: var(--fsa_online-grey);
@@ -3250,6 +3270,8 @@ div .header__user-menu-navigation {
 /* Custom Mixins */
 /* Mixin for checkbox and radio button style */
 /* Used for Style guide pages */
+/* stylelint-disable value-keyword-case */
+/* stylelint-enable value-keyword-case */
 .cookie-banner {
   background-color: #007c75;
   background-color: var(--fsa-primary_dark-green);
@@ -3479,6 +3501,8 @@ div .header__user-menu-navigation {
 /* Custom Mixins */
 /* Mixin for checkbox and radio button style */
 /* Used for Style guide pages */
+/* stylelint-disable value-keyword-case */
+/* stylelint-enable value-keyword-case */
 .temporary-message {
   background-color: #d9d9d6;
   background-color: var(--fsa__grey-hover);
@@ -3691,6 +3715,8 @@ div .header__user-menu-navigation {
 /* Custom Mixins */
 /* Mixin for checkbox and radio button style */
 /* Used for Style guide pages */
+/* stylelint-disable value-keyword-case */
+/* stylelint-enable value-keyword-case */
 @media screen and (min-width: 1024px) {
   .national-archive-link {
     margin-top: 2rem;
@@ -3808,6 +3834,8 @@ div .header__user-menu-navigation {
 /* Custom Mixins */
 /* Mixin for checkbox and radio button style */
 /* Used for Style guide pages */
+/* stylelint-disable value-keyword-case */
+/* stylelint-enable value-keyword-case */
 .error-response {
   margin-top: 3rem;
 }
@@ -4327,6 +4355,8 @@ div .header__user-menu-navigation {
 /* Custom Mixins */
 /* Mixin for checkbox and radio button style */
 /* Used for Style guide pages */
+/* stylelint-disable value-keyword-case */
+/* stylelint-enable value-keyword-case */
 .skip-to-main-content {
   position: absolute;
   left: -99999px;
@@ -4430,6 +4460,8 @@ div .header__user-menu-navigation {
 /* Custom Mixins */
 /* Mixin for checkbox and radio button style */
 /* Used for Style guide pages */
+/* stylelint-disable value-keyword-case */
+/* stylelint-enable value-keyword-case */
 .navigation {
   z-index: 100;
   background-color: #2a0247;
@@ -5263,6 +5295,8 @@ div .header__user-menu-navigation {
 /* Custom Mixins */
 /* Mixin for checkbox and radio button style */
 /* Used for Style guide pages */
+/* stylelint-disable value-keyword-case */
+/* stylelint-enable value-keyword-case */
 .dropdown-menu {
   display: inline-block;
   position: relative;
@@ -5410,6 +5444,8 @@ div .header__user-menu-navigation {
 /* Custom Mixins */
 /* Mixin for checkbox and radio button style */
 /* Used for Style guide pages */
+/* stylelint-disable value-keyword-case */
+/* stylelint-enable value-keyword-case */
 .guidance-popup {
   display: none;
 }
@@ -5655,6 +5691,8 @@ div .header__user-menu-navigation {
 /* Custom Mixins */
 /* Mixin for checkbox and radio button style */
 /* Used for Style guide pages */
+/* stylelint-disable value-keyword-case */
+/* stylelint-enable value-keyword-case */
 .accordion {
   border: none;
   border-top: 4px solid #dee2e5;
@@ -5851,6 +5889,8 @@ div .header__user-menu-navigation {
 /* Custom Mixins */
 /* Mixin for checkbox and radio button style */
 /* Used for Style guide pages */
+/* stylelint-disable value-keyword-case */
+/* stylelint-enable value-keyword-case */
 .filters {
   display: flex;
   flex-direction: column;
@@ -6016,6 +6056,8 @@ div .header__user-menu-navigation {
 /* Custom Mixins */
 /* Mixin for checkbox and radio button style */
 /* Used for Style guide pages */
+/* stylelint-disable value-keyword-case */
+/* stylelint-enable value-keyword-case */
 .listing-item {
   margin-top: 1.5rem;
   position: relative;
@@ -6189,6 +6231,8 @@ div .header__user-menu-navigation {
 /* Custom Mixins */
 /* Mixin for checkbox and radio button style */
 /* Used for Style guide pages */
+/* stylelint-disable value-keyword-case */
+/* stylelint-enable value-keyword-case */
 .pagination {
   margin-top: 4rem;
 }
@@ -6468,6 +6512,8 @@ div .header__user-menu-navigation {
 /* Custom Mixins */
 /* Mixin for checkbox and radio button style */
 /* Used for Style guide pages */
+/* stylelint-disable value-keyword-case */
+/* stylelint-enable value-keyword-case */
 @media screen and (min-width: 1024px) {
   .search-header {
     width: 66.6666666667%;
@@ -6580,6 +6626,8 @@ div .header__user-menu-navigation {
 /* Custom Mixins */
 /* Mixin for checkbox and radio button style */
 /* Used for Style guide pages */
+/* stylelint-disable value-keyword-case */
+/* stylelint-enable value-keyword-case */
 .search-no-results {
   padding-top: 2rem;
   padding-bottom: 2rem;
@@ -6707,6 +6755,8 @@ div .header__user-menu-navigation {
 /* Custom Mixins */
 /* Mixin for checkbox and radio button style */
 /* Used for Style guide pages */
+/* stylelint-disable value-keyword-case */
+/* stylelint-enable value-keyword-case */
 .showing {
   color: #000;
   color: var(--fsa-primary_black);
@@ -6791,6 +6841,8 @@ div .header__user-menu-navigation {
 /* Custom Mixins */
 /* Mixin for checkbox and radio button style */
 /* Used for Style guide pages */
+/* stylelint-disable value-keyword-case */
+/* stylelint-enable value-keyword-case */
 .sort__label {
   margin-right: 0.5rem;
   display: inline-block;
@@ -6901,6 +6953,8 @@ div .header__user-menu-navigation {
 /* Custom Mixins */
 /* Mixin for checkbox and radio button style */
 /* Used for Style guide pages */
+/* stylelint-disable value-keyword-case */
+/* stylelint-enable value-keyword-case */
 body.overflow-hidden {
   overflow-y: hidden;
 }
@@ -7110,6 +7164,8 @@ body.overflow-hidden {
 /* Custom Mixins */
 /* Mixin for checkbox and radio button style */
 /* Used for Style guide pages */
+/* stylelint-disable value-keyword-case */
+/* stylelint-enable value-keyword-case */
 .rating-cta {
   margin-bottom: 1rem;
 }
@@ -7233,6 +7289,8 @@ body.overflow-hidden {
 /* Custom Mixins */
 /* Mixin for checkbox and radio button style */
 /* Used for Style guide pages */
+/* stylelint-disable value-keyword-case */
+/* stylelint-enable value-keyword-case */
 .datepicker {
   width: 100%;
 }
@@ -7417,6 +7475,8 @@ body.overflow-hidden {
 /* Custom Mixins */
 /* Mixin for checkbox and radio button style */
 /* Used for Style guide pages */
+/* stylelint-disable value-keyword-case */
+/* stylelint-enable value-keyword-case */
 .accordion {
   border: none;
   border-top: 4px solid #dee2e5;
@@ -7617,6 +7677,8 @@ body.overflow-hidden {
 /* Custom Mixins */
 /* Mixin for checkbox and radio button style */
 /* Used for Style guide pages */
+/* stylelint-disable value-keyword-case */
+/* stylelint-enable value-keyword-case */
 .checkbox {
   border: none;
   padding: 0;
@@ -7837,6 +7899,8 @@ body.overflow-hidden {
 /* Custom Mixins */
 /* Mixin for checkbox and radio button style */
 /* Used for Style guide pages */
+/* stylelint-disable value-keyword-case */
+/* stylelint-enable value-keyword-case */
 .dropdown {
   margin-top: 2rem;
 }
@@ -8026,6 +8090,8 @@ body.overflow-hidden {
 /* Custom Mixins */
 /* Mixin for checkbox and radio button style */
 /* Used for Style guide pages */
+/* stylelint-disable value-keyword-case */
+/* stylelint-enable value-keyword-case */
 .error-box {
   margin: 2rem -0.75rem 0;
 }
@@ -8199,6 +8265,8 @@ body.overflow-hidden {
 /* Custom Mixins */
 /* Mixin for checkbox and radio button style */
 /* Used for Style guide pages */
+/* stylelint-disable value-keyword-case */
+/* stylelint-enable value-keyword-case */
 .input-field {
   margin-top: 2rem;
   display: flex;
@@ -8451,6 +8519,8 @@ body.overflow-hidden {
 /* Custom Mixins */
 /* Mixin for checkbox and radio button style */
 /* Used for Style guide pages */
+/* stylelint-disable value-keyword-case */
+/* stylelint-enable value-keyword-case */
 :root {
   /* Primary Colours */
   --fsa-primary_dark-green: #007c75;
@@ -8510,6 +8580,8 @@ body.overflow-hidden {
 /* Custom Mixins */
 /* Mixin for checkbox and radio button style */
 /* Used for Style guide pages */
+/* stylelint-disable value-keyword-case */
+/* stylelint-enable value-keyword-case */
 .external-link {
   color: #007c75;
   color: var(--fsa-primary_dark-green);
@@ -8728,6 +8800,8 @@ body.overflow-hidden {
 /* Custom Mixins */
 /* Mixin for checkbox and radio button style */
 /* Used for Style guide pages */
+/* stylelint-disable value-keyword-case */
+/* stylelint-enable value-keyword-case */
 .multistep-function {
   margin-top: 2rem;
 }
@@ -8852,6 +8926,8 @@ body.overflow-hidden {
 /* Custom Mixins */
 /* Mixin for checkbox and radio button style */
 /* Used for Style guide pages */
+/* stylelint-disable value-keyword-case */
+/* stylelint-enable value-keyword-case */
 .radio {
   border: none;
   padding: 0;
@@ -9082,6 +9158,8 @@ body.overflow-hidden {
 /* Custom Mixins */
 /* Mixin for checkbox and radio button style */
 /* Used for Style guide pages */
+/* stylelint-disable value-keyword-case */
+/* stylelint-enable value-keyword-case */
 .tabs {
   margin: 2.75rem 0 0;
 }
@@ -9246,6 +9324,8 @@ body.overflow-hidden {
 /* Custom Mixins */
 /* Mixin for checkbox and radio button style */
 /* Used for Style guide pages */
+/* stylelint-disable value-keyword-case */
+/* stylelint-enable value-keyword-case */
 .form-title {
   margin: 2rem 0 0;
   overflow-wrap: break-word;
@@ -9348,6 +9428,8 @@ h3.form-title {
 /* Custom Mixins */
 /* Mixin for checkbox and radio button style */
 /* Used for Style guide pages */
+/* stylelint-disable value-keyword-case */
+/* stylelint-enable value-keyword-case */
 .email-field {
   margin-top: 2rem;
 }
@@ -9516,6 +9598,8 @@ h3.form-title {
 /* Custom Mixins */
 /* Mixin for checkbox and radio button style */
 /* Used for Style guide pages */
+/* stylelint-disable value-keyword-case */
+/* stylelint-enable value-keyword-case */
 .textarea {
   margin-top: 2rem;
 }
@@ -9698,6 +9782,8 @@ h3.form-title {
 /* Custom Mixins */
 /* Mixin for checkbox and radio button style */
 /* Used for Style guide pages */
+/* stylelint-disable value-keyword-case */
+/* stylelint-enable value-keyword-case */
 .step {
   font-family: "Open Sans", sans-serif;
   font-family: var(--body-font);
@@ -9782,6 +9868,8 @@ h3.form-title {
 /* Custom Mixins */
 /* Mixin for checkbox and radio button style */
 /* Used for Style guide pages */
+/* stylelint-disable value-keyword-case */
+/* stylelint-enable value-keyword-case */
 .file-upload-widget {
   margin-top: 2rem;
 }
@@ -9936,6 +10024,8 @@ h3.form-title {
 /* Custom Mixins */
 /* Mixin for checkbox and radio button style */
 /* Used for Style guide pages */
+/* stylelint-disable value-keyword-case */
+/* stylelint-enable value-keyword-case */
 .map-field {
   margin-top: 2rem;
   display: flex;
@@ -10028,6 +10118,8 @@ h3.form-title {
 /* Custom Mixins */
 /* Mixin for checkbox and radio button style */
 /* Used for Style guide pages */
+/* stylelint-disable value-keyword-case */
+/* stylelint-enable value-keyword-case */
 .tooltip {
   display: inline-block;
   position: relative;
@@ -10322,6 +10414,8 @@ h3.form-title {
 /* Custom Mixins */
 /* Mixin for checkbox and radio button style */
 /* Used for Style guide pages */
+/* stylelint-disable value-keyword-case */
+/* stylelint-enable value-keyword-case */
 .multivalue-field__add-entity {
   margin-top: 1rem;
 }
@@ -10456,6 +10550,8 @@ h3.form-title {
 /* Custom Mixins */
 /* Mixin for checkbox and radio button style */
 /* Used for Style guide pages */
+/* stylelint-disable value-keyword-case */
+/* stylelint-enable value-keyword-case */
 .multifield-group {
   margin-top: 3rem;
 }
@@ -10594,6 +10690,8 @@ h3.form-title {
 /* Custom Mixins */
 /* Mixin for checkbox and radio button style */
 /* Used for Style guide pages */
+/* stylelint-disable value-keyword-case */
+/* stylelint-enable value-keyword-case */
 .landing-links {
   margin: 3rem 0 0;
 }
@@ -10906,6 +11004,8 @@ h3.form-title {
 /* Custom Mixins */
 /* Mixin for checkbox and radio button style */
 /* Used for Style guide pages */
+/* stylelint-disable value-keyword-case */
+/* stylelint-enable value-keyword-case */
 .largePromoGroup {
   margin: 3rem 0 0;
 }
@@ -11100,6 +11200,8 @@ h3.form-title {
 /* Custom Mixins */
 /* Mixin for checkbox and radio button style */
 /* Used for Style guide pages */
+/* stylelint-disable value-keyword-case */
+/* stylelint-enable value-keyword-case */
 .latest-teaser {
   margin: 3rem 0 0;
   /* Cards */
@@ -11502,6 +11604,8 @@ h3.form-title {
 /* Custom Mixins */
 /* Mixin for checkbox and radio button style */
 /* Used for Style guide pages */
+/* stylelint-disable value-keyword-case */
+/* stylelint-enable value-keyword-case */
 .promo-group {
   margin: 3rem 0 0;
 }
@@ -11887,6 +11991,8 @@ h3.form-title {
 /* Custom Mixins */
 /* Mixin for checkbox and radio button style */
 /* Used for Style guide pages */
+/* stylelint-disable value-keyword-case */
+/* stylelint-enable value-keyword-case */
 .service-links {
   margin: 3rem 0 0;
 }
@@ -12241,6 +12347,8 @@ h3.form-title {
 /* Custom Mixins */
 /* Mixin for checkbox and radio button style */
 /* Used for Style guide pages */
+/* stylelint-disable value-keyword-case */
+/* stylelint-enable value-keyword-case */
 .campaign-block {
   position: relative;
   display: flex;
@@ -12510,6 +12618,8 @@ h3.form-title {
 /* Custom Mixins */
 /* Mixin for checkbox and radio button style */
 /* Used for Style guide pages */
+/* stylelint-disable value-keyword-case */
+/* stylelint-enable value-keyword-case */
 .landing-text {
   margin: 3rem 0 0;
 }
@@ -13014,6 +13124,8 @@ h3.form-title {
 /* Custom Mixins */
 /* Mixin for checkbox and radio button style */
 /* Used for Style guide pages */
+/* stylelint-disable value-keyword-case */
+/* stylelint-enable value-keyword-case */
 .landing-title {
   margin: 3rem 0 0;
 }
@@ -13198,6 +13310,8 @@ h3.form-title {
 /* Custom Mixins */
 /* Mixin for checkbox and radio button style */
 /* Used for Style guide pages */
+/* stylelint-disable value-keyword-case */
+/* stylelint-enable value-keyword-case */
 .help-secondary-menu {
   margin: 3rem auto 0;
 }
@@ -13490,6 +13604,8 @@ h3.form-title {
 /* Custom Mixins */
 /* Mixin for checkbox and radio button style */
 /* Used for Style guide pages */
+/* stylelint-disable value-keyword-case */
+/* stylelint-enable value-keyword-case */
 .contact-promo {
   margin-top: 2rem;
 }
@@ -13694,6 +13810,8 @@ h3.form-title {
 /* Custom Mixins */
 /* Mixin for checkbox and radio button style */
 /* Used for Style guide pages */
+/* stylelint-disable value-keyword-case */
+/* stylelint-enable value-keyword-case */
 .document-download {
   background-color: #fafcfd;
   background-color: var(--fsa_tint);
@@ -13898,6 +14016,8 @@ h3.form-title {
 /* Custom Mixins */
 /* Mixin for checkbox and radio button style */
 /* Used for Style guide pages */
+/* stylelint-disable value-keyword-case */
+/* stylelint-enable value-keyword-case */
 .article-hero {
   margin-bottom: 2rem;
 }
@@ -14135,6 +14255,8 @@ h3.form-title {
 /* Custom Mixins */
 /* Mixin for checkbox and radio button style */
 /* Used for Style guide pages */
+/* stylelint-disable value-keyword-case */
+/* stylelint-enable value-keyword-case */
 .regional-variation-block {
   position: relative;
   margin-top: 3rem;
@@ -14646,6 +14768,8 @@ h3.form-title {
 /* Custom Mixins */
 /* Mixin for checkbox and radio button style */
 /* Used for Style guide pages */
+/* stylelint-disable value-keyword-case */
+/* stylelint-enable value-keyword-case */
 .back-to__link {
   color: #007c75;
   color: var(--fsa-primary_dark-green);
@@ -14755,6 +14879,8 @@ h3.form-title {
 /* Custom Mixins */
 /* Mixin for checkbox and radio button style */
 /* Used for Style guide pages */
+/* stylelint-disable value-keyword-case */
+/* stylelint-enable value-keyword-case */
 .content-meta-data {
   font-family: "Open Sans", sans-serif;
   font-family: var(--body-font);
@@ -14878,6 +15004,8 @@ h3.form-title {
 /* Custom Mixins */
 /* Mixin for checkbox and radio button style */
 /* Used for Style guide pages */
+/* stylelint-disable value-keyword-case */
+/* stylelint-enable value-keyword-case */
 .related-content {
   margin: 3rem 0 0;
 }
@@ -15239,6 +15367,8 @@ h3.form-title {
 /* Custom Mixins */
 /* Mixin for checkbox and radio button style */
 /* Used for Style guide pages */
+/* stylelint-disable value-keyword-case */
+/* stylelint-enable value-keyword-case */
 .subject-listing {
   margin-top: 3rem;
 }
@@ -15473,6 +15603,8 @@ h3.form-title {
 /* Custom Mixins */
 /* Mixin for checkbox and radio button style */
 /* Used for Style guide pages */
+/* stylelint-disable value-keyword-case */
+/* stylelint-enable value-keyword-case */
 .explanation-block {
   margin-top: 3rem;
 }
@@ -15971,6 +16103,8 @@ h3.form-title {
 /* Custom Mixins */
 /* Mixin for checkbox and radio button style */
 /* Used for Style guide pages */
+/* stylelint-disable value-keyword-case */
+/* stylelint-enable value-keyword-case */
 .quote-block {
   display: flex;
   margin: 3rem -1rem 0;
@@ -16092,6 +16226,8 @@ h3.form-title {
 /* Custom Mixins */
 /* Mixin for checkbox and radio button style */
 /* Used for Style guide pages */
+/* stylelint-disable value-keyword-case */
+/* stylelint-enable value-keyword-case */
 .team-contacts {
   margin: 3rem 0 0;
 }
@@ -16234,6 +16370,8 @@ h3.form-title {
 /* Custom Mixins */
 /* Mixin for checkbox and radio button style */
 /* Used for Style guide pages */
+/* stylelint-disable value-keyword-case */
+/* stylelint-enable value-keyword-case */
 .product-details {
   margin-top: 3rem;
 }
@@ -16322,6 +16460,8 @@ h3.form-title {
 /* Custom Mixins */
 /* Mixin for checkbox and radio button style */
 /* Used for Style guide pages */
+/* stylelint-disable value-keyword-case */
+/* stylelint-enable value-keyword-case */
 .allergens-table {
   width: 100%;
   margin-top: 2rem;
@@ -16438,6 +16578,8 @@ h3.form-title {
 /* Custom Mixins */
 /* Mixin for checkbox and radio button style */
 /* Used for Style guide pages */
+/* stylelint-disable value-keyword-case */
+/* stylelint-enable value-keyword-case */
 .foot-notes {
   border-top: 1px #d9d9d6 solid;
   border-top: 1px var(--fsa__grey-hover) solid;
@@ -16550,6 +16692,8 @@ h3.form-title {
 /* Custom Mixins */
 /* Mixin for checkbox and radio button style */
 /* Used for Style guide pages */
+/* stylelint-disable value-keyword-case */
+/* stylelint-enable value-keyword-case */
 .revision-log {
   padding-top: 2rem;
   margin-top: 3rem;
@@ -16699,6 +16843,8 @@ h3.form-title {
 /* Custom Mixins */
 /* Mixin for checkbox and radio button style */
 /* Used for Style guide pages */
+/* stylelint-disable value-keyword-case */
+/* stylelint-enable value-keyword-case */
 .back-to-top {
   margin: 3rem 0 0;
 }
@@ -16813,6 +16959,8 @@ h3.form-title {
 /* Custom Mixins */
 /* Mixin for checkbox and radio button style */
 /* Used for Style guide pages */
+/* stylelint-disable value-keyword-case */
+/* stylelint-enable value-keyword-case */
 .pdf-and-print-buttons {
   display: flex;
 }
@@ -17027,6 +17175,8 @@ h3.form-title {
 /* Custom Mixins */
 /* Mixin for checkbox and radio button style */
 /* Used for Style guide pages */
+/* stylelint-disable value-keyword-case */
+/* stylelint-enable value-keyword-case */
 .sticky-sidebar {
   margin-bottom: 2rem;
 }
@@ -17127,6 +17277,8 @@ h3.form-title {
 /* Custom Mixins */
 /* Mixin for checkbox and radio button style */
 /* Used for Style guide pages */
+/* stylelint-disable value-keyword-case */
+/* stylelint-enable value-keyword-case */
 @media screen and (min-width: 1024px) {
   .table-of-contents {
     padding-right: 2rem;
@@ -17364,6 +17516,8 @@ h3.form-title {
 /* Custom Mixins */
 /* Mixin for checkbox and radio button style */
 /* Used for Style guide pages */
+/* stylelint-disable value-keyword-case */
+/* stylelint-enable value-keyword-case */
 .text-block {
   margin-top: 3rem;
   font-family: "Open Sans", sans-serif;
@@ -17811,6 +17965,8 @@ h3.form-title {
 /* Custom Mixins */
 /* Mixin for checkbox and radio button style */
 /* Used for Style guide pages */
+/* stylelint-disable value-keyword-case */
+/* stylelint-enable value-keyword-case */
 .chart-block {
   margin-top: 3rem;
 }
@@ -18173,6 +18329,8 @@ h3.form-title {
 /* Custom Mixins */
 /* Mixin for checkbox and radio button style */
 /* Used for Style guide pages */
+/* stylelint-disable value-keyword-case */
+/* stylelint-enable value-keyword-case */
 .webtool-studies-table {
   margin: 3rem 0 0;
   width: 100%;
@@ -18352,6 +18510,8 @@ h3.form-title {
 /* Custom Mixins */
 /* Mixin for checkbox and radio button style */
 /* Used for Style guide pages */
+/* stylelint-disable value-keyword-case */
+/* stylelint-enable value-keyword-case */
 .webtool-progress-bar {
   background: #f0f3f5;
   background: var(--fsa_online-grey);
@@ -18705,6 +18865,8 @@ h3.form-title {
 /* Custom Mixins */
 /* Mixin for checkbox and radio button style */
 /* Used for Style guide pages */
+/* stylelint-disable value-keyword-case */
+/* stylelint-enable value-keyword-case */
 .local-authority {
   margin-top: 3rem;
 }
@@ -18840,84 +19002,90 @@ h3.form-title {
 /* Custom Mixins */
 /* Mixin for checkbox and radio button style */
 /* Used for Style guide pages */
+/* stylelint-disable value-keyword-case */
+/* stylelint-enable value-keyword-case */
 .business-hero__badge--0 {
-  background-image: url(./components/fhrs/BusinessHero/assets/english-badges/english-badge-0.svg);
+  background-image: url(./components/fhrs/badges/english-badges/english-badge-0.svg);
 }
 
 .business-hero__badge--0.business-hero__badge--welsh {
-  background-image: url(./components/fhrs/BusinessHero/assets/bilingual-badges/bilingual-badge-0.svg);
+  background-image: url(./components/fhrs/badges/bilingual-badges/bilingual-badge-0.svg);
 }
 
 .business-hero__badge--1 {
-  background-image: url(./components/fhrs/BusinessHero/assets/english-badges/english-badge-1.svg);
+  background-image: url(./components/fhrs/badges/english-badges/english-badge-1.svg);
 }
 
 .business-hero__badge--1.business-hero__badge--welsh {
-  background-image: url(./components/fhrs/BusinessHero/assets/bilingual-badges/bilingual-badge-1.svg);
+  background-image: url(./components/fhrs/badges/bilingual-badges/bilingual-badge-1.svg);
 }
 
 .business-hero__badge--2 {
-  background-image: url(./components/fhrs/BusinessHero/assets/english-badges/english-badge-2.svg);
+  background-image: url(./components/fhrs/badges/english-badges/english-badge-2.svg);
 }
 
 .business-hero__badge--2.business-hero__badge--welsh {
-  background-image: url(./components/fhrs/BusinessHero/assets/bilingual-badges/bilingual-badge-2.svg);
+  background-image: url(./components/fhrs/badges/bilingual-badges/bilingual-badge-2.svg);
 }
 
 .business-hero__badge--3 {
-  background-image: url(./components/fhrs/BusinessHero/assets/english-badges/english-badge-3.svg);
+  background-image: url(./components/fhrs/badges/english-badges/english-badge-3.svg);
 }
 
 .business-hero__badge--3.business-hero__badge--welsh {
-  background-image: url(./components/fhrs/BusinessHero/assets/bilingual-badges/bilingual-badge-3.svg);
+  background-image: url(./components/fhrs/badges/bilingual-badges/bilingual-badge-3.svg);
 }
 
 .business-hero__badge--4 {
-  background-image: url(./components/fhrs/BusinessHero/assets/english-badges/english-badge-4.svg);
+  background-image: url(./components/fhrs/badges/english-badges/english-badge-4.svg);
 }
 
 .business-hero__badge--4.business-hero__badge--welsh {
-  background-image: url(./components/fhrs/BusinessHero/assets/bilingual-badges/bilingual-badge-4.svg);
+  background-image: url(./components/fhrs/badges/bilingual-badges/bilingual-badge-4.svg);
 }
 
 .business-hero__badge--5 {
-  background-image: url(./components/fhrs/BusinessHero/assets/english-badges/english-badge-5.svg);
+  background-image: url(./components/fhrs/badges/english-badges/english-badge-5.svg);
 }
 
 .business-hero__badge--5.business-hero__badge--welsh {
-  background-image: url(./components/fhrs/BusinessHero/assets/bilingual-badges/bilingual-badge-5.svg);
+  background-image: url(./components/fhrs/badges/bilingual-badges/bilingual-badge-5.svg);
 }
 
-.business-hero__badge--exempt {
-  background-image: url(./components/fhrs/BusinessHero/assets/english-badges/english-badge-exempt.svg);
+.business-hero__badge--Exempt {
+  background-image: url(./components/fhrs/badges/english-badges/english-badge-Exempt.svg);
 }
 
-.business-hero__badge--exempt.business-hero__badge--welsh {
-  background-image: url(./components/fhrs/BusinessHero/assets/bilingual-badges/bilingual-badge-exempt.svg);
+.business-hero__badge--Exempt.business-hero__badge--welsh {
+  background-image: url(./components/fhrs/badges/bilingual-badges/bilingual-badge-Exempt.svg);
 }
 
-.business-hero__badge--inspection {
-  background-image: url(./components/fhrs/BusinessHero/assets/english-badges/english-badge-inspection.svg);
+.business-hero__badge--AwaitingInspection {
+  background-image: url(./components/fhrs/badges/english-badges/english-badge-AwaitingInspection.svg);
 }
 
-.business-hero__badge--inspection.business-hero__badge--welsh {
-  background-image: url(./components/fhrs/BusinessHero/assets/bilingual-badges/bilingual-badge-inspection.svg);
+.business-hero__badge--AwaitingInspection.business-hero__badge--welsh {
+  background-image: url(./components/fhrs/badges/bilingual-badges/bilingual-badge-AwaitingInspection.svg);
 }
 
-.business-hero__badge--publication {
-  background-image: url(./components/fhrs/BusinessHero/assets/english-badges/english-badge-publication.svg);
+.business-hero__badge--AwaitingPublication {
+  background-image: url(./components/fhrs/badges/english-badges/english-badge-AwaitingPublication.svg);
 }
 
-.business-hero__badge--publication.business-hero__badge--welsh {
-  background-image: url(./components/fhrs/BusinessHero/assets/bilingual-badges/bilingual-badge-publication.svg);
+.business-hero__badge--AwaitingPublication.business-hero__badge--welsh {
+  background-image: url(./components/fhrs/badges/bilingual-badges/bilingual-badge-AwaitingPublication.svg);
 }
 
-.business-hero__badge--awaited {
-  background-image: url(./components/fhrs/BusinessHero/assets/english-badges/english-badge-awaited.svg);
+.business-hero__badge--Empty {
+  background-image: url(./components/fhrs/badges/english-badges/english-badge-Empty.svg);
 }
 
-.business-hero__badge--awaited.business-hero__badge--welsh {
-  background-image: url(./components/fhrs/BusinessHero/assets/bilingual-badges/bilingual-badge-awaited.svg);
+.business-hero__badge--Empty.business-hero__badge--welsh {
+  background-image: url(./components/fhrs/badges/bilingual-badges/bilingual-badge-Empty.svg);
+}
+
+.business-hero__badge--Pass {
+  background-image: url(./components/fhrs/badges/scottish-badges/scottish-badge-Pass.jpeg);
 }
 
 .business-hero {
@@ -19056,6 +19224,288 @@ h3.form-title {
   line-height: 1.6;
   letter-spacing: normal;
 }
+/*!***********************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/fhrs/SearchCard/searchCard.scss ***!
+  \***********************************************************************************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css?family=Fira+Sans:300,400,500,700);
+/*!***************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/fhrs/SearchCard/searchCard.scss (1) ***!
+  \***************************************************************************************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700);
+/*!***************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/fhrs/SearchCard/searchCard.scss (2) ***!
+  \***************************************************************************************************************************************************************************************/
+:root {
+  /* Primary Colours */
+  --fsa-primary_dark-green: #007c75;
+  --fsa-primary_mid-green: #6cb33f;
+  --fsa-primary_light-green: #a9c47f;
+  --fsa-primary_dark-grey: #53565a;
+  --fsa_online-grey: #f0f3f5;
+  --fsa_border: #dee2e5;
+  --fsa-primary_black: #000;
+  --fsa-primary_white: #fff;
+  --fsa_tint: #fafcfd;
+  /* Secondary Colours */
+  --fsa-secondary_mid-red: #e31837;
+  --fsa-secondary_dark-blue: #165c7d;
+  --fsa-secondary_orange: #f15d22;
+  --fsa-secondary_mid-yellow: #fdb913;
+  --fsa-secondary_mid-purple: #49176d;
+  --fsa-secondary_light-purple: #9f218b;
+  --fsa-tertiary_dark-blue: #9f218b;
+  --fsa-secondary-error-red: #e60f31;
+  --fsa-secondary-error-hover: #b0132b;
+  /* Tertiary Colours */
+  --fsa-tertiary_dark-red: #b04a5a;
+  --fsa-tertiary_light-red: #ef3340;
+  --fsa-tertiary_light-yellow: #f1c400;
+  --fsa-tertiary_teal: #00b2a9;
+  --fsa-tertiary_light-blue: #8dc8e8;
+  --fsa-tertiary_dark-purple: #51284f;
+  --fsa-secondary_mid-blue: #007fb2;
+  --fsa-tertiary_lime: #cedc00;
+  --fsa-tertiary_mauve: #8b84d7;
+  --fsa-tertiary_stripe-green: #006f51;
+  --fsa-tertiary_light-black: #101010;
+  /* Hover Colours */
+  --fsa__link-green: #014b4c;
+  --fsa__purple-hover: #2a0247;
+  --fsa__grey-hover: #d9d9d6;
+  --fsa__dark-green-hover: #002a2a;
+  /* Custom Colours */
+  --fsa-webtool-prgress-bar-border-step: #d8d8d8;
+  /* Typography */
+  --body-font: "Open Sans", sans-serif;
+  --body-normal: 400;
+  --body-bold: 600;
+  --heading-font: "Fira Sans", sans-serif;
+  --heading-bold: 700;
+  /* Grid */
+  --container-mobile: 1rem;
+  --container: 2rem;
+  --gutter: 1rem;
+  --max-width: 1336px;
+  /* Transitions */
+  --transition-time: 200;
+}
+
+/* Grid */
+/* Custom Mixins */
+/* Mixin for checkbox and radio button style */
+/* Used for Style guide pages */
+/* stylelint-disable value-keyword-case */
+/* stylelint-enable value-keyword-case */
+.fhrs-search-card__badge--0 {
+  background-image: url(./components/fhrs/badges/english-badges/english-badge-0.svg);
+}
+
+.fhrs-search-card__badge--0.fhrs-search-card__badge--welsh {
+  background-image: url(./components/fhrs/badges/bilingual-badges/bilingual-badge-0.svg);
+}
+
+.fhrs-search-card__badge--1 {
+  background-image: url(./components/fhrs/badges/english-badges/english-badge-1.svg);
+}
+
+.fhrs-search-card__badge--1.fhrs-search-card__badge--welsh {
+  background-image: url(./components/fhrs/badges/bilingual-badges/bilingual-badge-1.svg);
+}
+
+.fhrs-search-card__badge--2 {
+  background-image: url(./components/fhrs/badges/english-badges/english-badge-2.svg);
+}
+
+.fhrs-search-card__badge--2.fhrs-search-card__badge--welsh {
+  background-image: url(./components/fhrs/badges/bilingual-badges/bilingual-badge-2.svg);
+}
+
+.fhrs-search-card__badge--3 {
+  background-image: url(./components/fhrs/badges/english-badges/english-badge-3.svg);
+}
+
+.fhrs-search-card__badge--3.fhrs-search-card__badge--welsh {
+  background-image: url(./components/fhrs/badges/bilingual-badges/bilingual-badge-3.svg);
+}
+
+.fhrs-search-card__badge--4 {
+  background-image: url(./components/fhrs/badges/english-badges/english-badge-4.svg);
+}
+
+.fhrs-search-card__badge--4.fhrs-search-card__badge--welsh {
+  background-image: url(./components/fhrs/badges/bilingual-badges/bilingual-badge-4.svg);
+}
+
+.fhrs-search-card__badge--5 {
+  background-image: url(./components/fhrs/badges/english-badges/english-badge-5.svg);
+}
+
+.fhrs-search-card__badge--5.fhrs-search-card__badge--welsh {
+  background-image: url(./components/fhrs/badges/bilingual-badges/bilingual-badge-5.svg);
+}
+
+.fhrs-search-card__badge--Exempt {
+  background-image: url(./components/fhrs/badges/english-badges/english-badge-Exempt.svg);
+}
+
+.fhrs-search-card__badge--Exempt.fhrs-search-card__badge--welsh {
+  background-image: url(./components/fhrs/badges/bilingual-badges/bilingual-badge-Exempt.svg);
+}
+
+.fhrs-search-card__badge--AwaitingInspection {
+  background-image: url(./components/fhrs/badges/english-badges/english-badge-AwaitingInspection.svg);
+}
+
+.fhrs-search-card__badge--AwaitingInspection.fhrs-search-card__badge--welsh {
+  background-image: url(./components/fhrs/badges/bilingual-badges/bilingual-badge-AwaitingInspection.svg);
+}
+
+.fhrs-search-card__badge--AwaitingPublication {
+  background-image: url(./components/fhrs/badges/english-badges/english-badge-AwaitingPublication.svg);
+}
+
+.fhrs-search-card__badge--AwaitingPublication.fhrs-search-card__badge--welsh {
+  background-image: url(./components/fhrs/badges/bilingual-badges/bilingual-badge-AwaitingPublication.svg);
+}
+
+.fhrs-search-card__badge--Empty {
+  background-image: url(./components/fhrs/badges/english-badges/english-badge-Empty.svg);
+}
+
+.fhrs-search-card__badge--Empty.fhrs-search-card__badge--welsh {
+  background-image: url(./components/fhrs/badges/bilingual-badges/bilingual-badge-Empty.svg);
+}
+
+.fhrs-search-card__badge--Pass {
+  background-image: url(./components/fhrs/badges/scottish-badges/scottish-badge-Pass.jpeg);
+}
+
+.fhrs-search-card {
+  margin-top: 1.5rem;
+  padding: 0 0 1.75rem 1rem;
+  border-bottom: 0.25rem #dee2e5 solid;
+  border-bottom: 0.25rem var(--fsa_border) solid;
+}
+@media screen and (min-width: 768px) {
+  .fhrs-search-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0 0 1.5rem 3rem;
+  }
+}
+.fhrs-search-card__name {
+  font-family: "Fira Sans", sans-serif;
+  font-family: var(--heading-font);
+  font-size: 1.18rem;
+  font-weight: 700;
+  font-weight: var(--heading-bold);
+  line-height: 1.4;
+  letter-spacing: normal;
+  color: #007c75;
+  color: var(--fsa-primary_dark-green);
+  margin: 0;
+}
+@media screen and (min-width: 1024px) {
+  .fhrs-search-card__name {
+    font-size: 1.2rem;
+  }
+}
+.fhrs-search-card__name:hover {
+  text-decoration: underline;
+  color: #014b4c;
+  color: var(--fsa__link-green);
+}
+.fhrs-search-card__address {
+  font-family: "Open Sans", sans-serif;
+  font-family: var(--body-font);
+  font-weight: 400;
+  font-weight: var(--body-normal);
+  font-size: 1rem;
+  line-height: 1.6;
+  letter-spacing: normal;
+  color: #000;
+  color: var(--fsa-primary_black);
+  margin-top: 0.5rem;
+}
+.fhrs-search-card__last-inspected {
+  font-family: "Open Sans", sans-serif;
+  font-family: var(--body-font);
+  font-weight: 400;
+  font-weight: var(--body-normal);
+  font-size: 1rem;
+  line-height: 1.6;
+  letter-spacing: normal;
+  color: #53565a;
+  color: var(--fsa-primary_dark-grey);
+  margin-top: 0.5rem;
+}
+.fhrs-search-card__business-say {
+  font-family: "Open Sans", sans-serif;
+  font-family: var(--body-font);
+  font-weight: 400;
+  font-weight: var(--body-normal);
+  font-size: 1rem;
+  line-height: 1.6;
+  letter-spacing: normal;
+  color: #000;
+  color: var(--fsa-primary_black);
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+}
+.fhrs-search-card__business-say::before {
+  content: "";
+  background-image: url(./components/fhrs/SearchCard/assets/quote.svg);
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: contain;
+  height: 1.5rem;
+  width: 2rem;
+  display: inline-block;
+  margin-right: 0.75rem;
+}
+.fhrs-search-card__badge {
+  margin-top: 1rem;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: left center;
+  height: 8rem;
+  width: 15rem;
+}
+@media screen and (min-width: 768px) {
+  .fhrs-search-card__badge {
+    margin-top: 0;
+    background-position: right top;
+  }
+}
+.fhrs-search-card__badge--welsh {
+  height: 10rem;
+}
+.fhrs-search-card__badge--AwaitingInspection, .fhrs-search-card__badge--AwaitingPublication, .fhrs-search-card__badge--Exempt, .fhrs-search-card__badge--Empty {
+  height: 6rem;
+}
+.fhrs-search-card__badge--AwaitingInspection.fhrs-search-card__badge--welsh, .fhrs-search-card__badge--AwaitingPublication.fhrs-search-card__badge--welsh, .fhrs-search-card__badge--Exempt.fhrs-search-card__badge--welsh, .fhrs-search-card__badge--Empty.fhrs-search-card__badge--welsh {
+  height: 8rem;
+}
+.fhrs-search-card__status {
+  font-family: "Open Sans", sans-serif;
+  font-family: var(--body-font);
+  font-weight: 400;
+  font-weight: var(--body-normal);
+  font-size: 1rem;
+  line-height: 1.6;
+  letter-spacing: normal;
+  text-align: center;
+  max-width: 15rem;
+  padding: 0 0.5rem;
+  margin-top: 0.5rem;
+  color: undefined;
+  color: var(--black);
+}
+.fhrs-search-card__summary {
+  font-weight: bold;
+}
 /*!****************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/haccp/SaveProgress/saveProgress.scss ***!
   \****************************************************************************************************************************************************************************************/
@@ -19126,6 +19576,8 @@ h3.form-title {
 /* Custom Mixins */
 /* Mixin for checkbox and radio button style */
 /* Used for Style guide pages */
+/* stylelint-disable value-keyword-case */
+/* stylelint-enable value-keyword-case */
 .haccp-save-progress {
   margin-top: 3rem;
 }
@@ -19238,6 +19690,8 @@ h3.form-title {
 /* Custom Mixins */
 /* Mixin for checkbox and radio button style */
 /* Used for Style guide pages */
+/* stylelint-disable value-keyword-case */
+/* stylelint-enable value-keyword-case */
 .article-hero__type--multipage_guide {
   font-family: "Open Sans", sans-serif;
   font-family: var(--body-font);
@@ -19324,6 +19778,8 @@ h3.form-title {
 /* Custom Mixins */
 /* Mixin for checkbox and radio button style */
 /* Used for Style guide pages */
+/* stylelint-disable value-keyword-case */
+/* stylelint-enable value-keyword-case */
 .multipage-guide-pagination {
   margin-top: 2rem;
   border-top: solid 1px #d9d9d6;
@@ -19493,6 +19949,8 @@ h3.form-title {
 /* Custom Mixins */
 /* Mixin for checkbox and radio button style */
 /* Used for Style guide pages */
+/* stylelint-disable value-keyword-case */
+/* stylelint-enable value-keyword-case */
 .form-layout {
   max-width: 100%;
 }
@@ -19725,6 +20183,8 @@ h3.form-title {
 /* Custom Mixins */
 /* Mixin for checkbox and radio button style */
 /* Used for Style guide pages */
+/* stylelint-disable value-keyword-case */
+/* stylelint-enable value-keyword-case */
 .two-col {
   max-width: 100%;
 }
@@ -19928,6 +20388,8 @@ h3.form-title {
 /* Custom Mixins */
 /* Mixin for checkbox and radio button style */
 /* Used for Style guide pages */
+/* stylelint-disable value-keyword-case */
+/* stylelint-enable value-keyword-case */
 .full-width {
   max-width: 100%;
 }
@@ -20055,6 +20517,8 @@ h3.form-title {
 /* Custom Mixins */
 /* Mixin for checkbox and radio button style */
 /* Used for Style guide pages */
+/* stylelint-disable value-keyword-case */
+/* stylelint-enable value-keyword-case */
 .content-layout {
   max-width: 100%;
 }
@@ -20337,6 +20801,8 @@ h3.form-title {
 /* Custom Mixins */
 /* Mixin for checkbox and radio button style */
 /* Used for Style guide pages */
+/* stylelint-disable value-keyword-case */
+/* stylelint-enable value-keyword-case */
 .contact-layout {
   width: 100%;
 }
@@ -20484,6 +20950,8 @@ h3.form-title {
 /* Custom Mixins */
 /* Mixin for checkbox and radio button style */
 /* Used for Style guide pages */
+/* stylelint-disable value-keyword-case */
+/* stylelint-enable value-keyword-case */
 .fhrs-layout {
   max-width: 100%;
 }
@@ -20621,6 +21089,8 @@ h3.form-title {
 /* Custom Mixins */
 /* Mixin for checkbox and radio button style */
 /* Used for Style guide pages */
+/* stylelint-disable value-keyword-case */
+/* stylelint-enable value-keyword-case */
 .search-bar {
   position: relative;
   display: flex;
