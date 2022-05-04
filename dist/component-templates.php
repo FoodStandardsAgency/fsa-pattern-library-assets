@@ -336,11 +336,6 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/article/ArticleHero",
           "variables" => ["content" => []]
         ], 
-        "multistepFunction" => [
-          "template" => "multistepFunction",
-          "path" => $assetPath . "/components/form/MultistepFunction/drupal",
-          "variables" => ["content" => []]
-        ], 
         "regionalVariationBlock" => [
           "template" => "regionalVariationBlock",
           "path" => $assetPath . "/components/article/RegionalVariationBlock",
@@ -349,6 +344,11 @@ function deeson_twig_component_templates($assetPath = 'auto') {
         "backTo" => [
           "template" => "backTo",
           "path" => $assetPath . "/components/article/BackTo",
+          "variables" => ["content" => []]
+        ], 
+        "multistepFunction" => [
+          "template" => "multistepFunction",
+          "path" => $assetPath . "/components/form/MultistepFunction/drupal",
           "variables" => ["content" => []]
         ], 
         "contentMetaData" => [
@@ -454,6 +454,11 @@ function deeson_twig_component_templates($assetPath = 'auto') {
         "searchCard" => [
           "template" => "searchCard",
           "path" => $assetPath . "/components/fhrs/SearchCard",
+          "variables" => ["content" => []]
+        ], 
+        "badge" => [
+          "template" => "badge",
+          "path" => $assetPath . "/components/fhrs/Badge",
           "variables" => ["content" => []]
         ], 
         "pagination" => [
