@@ -301,6 +301,11 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/landing/ServiceLinks",
           "variables" => ["content" => []]
         ], 
+        "multistepFunction" => [
+          "template" => "multistepFunction",
+          "path" => $assetPath . "/components/form/MultistepFunction/drupal",
+          "variables" => ["content" => []]
+        ], 
         "campaignBlock" => [
           "template" => "campaignBlock",
           "path" => $assetPath . "/components/landing/CampaignBlock",
@@ -344,11 +349,6 @@ function deeson_twig_component_templates($assetPath = 'auto') {
         "backTo" => [
           "template" => "backTo",
           "path" => $assetPath . "/components/article/BackTo",
-          "variables" => ["content" => []]
-        ], 
-        "multistepFunction" => [
-          "template" => "multistepFunction",
-          "path" => $assetPath . "/components/form/MultistepFunction/drupal",
           "variables" => ["content" => []]
         ], 
         "contentMetaData" => [
@@ -431,14 +431,14 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/haccp/WebToolStudiesTable",
           "variables" => ["content" => []]
         ], 
-        "webToolProgressBar" => [
-          "template" => "webToolProgressBar",
-          "path" => $assetPath . "/components/haccp/WebToolProgressBar",
-          "variables" => ["content" => []]
-        ], 
         "saveProgress" => [
           "template" => "saveProgress",
           "path" => $assetPath . "/components/haccp/SaveProgress",
+          "variables" => ["content" => []]
+        ], 
+        "webToolProgressBar" => [
+          "template" => "webToolProgressBar",
+          "path" => $assetPath . "/components/haccp/WebToolProgressBar",
           "variables" => ["content" => []]
         ], 
         "localAuthority" => [
