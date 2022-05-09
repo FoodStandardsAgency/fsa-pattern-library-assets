@@ -20676,6 +20676,9 @@ h3.form-title {
     padding-right: 1rem;
   }
 }
+.content-layout__right-content > * {
+  max-width: 100%;
+}
 .content-layout__right-content > *:first-child {
   margin-top: 0;
 }
