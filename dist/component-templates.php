@@ -301,6 +301,11 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/landing/ServiceLinks",
           "variables" => ["content" => []]
         ], 
+        "multistepFunction" => [
+          "template" => "multistepFunction",
+          "path" => $assetPath . "/components/form/MultistepFunction/drupal",
+          "variables" => ["content" => []]
+        ], 
         "campaignBlock" => [
           "template" => "campaignBlock",
           "path" => $assetPath . "/components/landing/CampaignBlock",
@@ -319,11 +324,6 @@ function deeson_twig_component_templates($assetPath = 'auto') {
         "helpSecondaryMenu" => [
           "template" => "helpSecondaryMenu",
           "path" => $assetPath . "/components/contact/HelpSecondaryMenu",
-          "variables" => ["content" => []]
-        ], 
-        "multistepFunction" => [
-          "template" => "multistepFunction",
-          "path" => $assetPath . "/components/form/MultistepFunction/drupal",
           "variables" => ["content" => []]
         ], 
         "promoLinks" => [
@@ -396,11 +396,6 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/article/FootNotes",
           "variables" => ["content" => []]
         ], 
-        "revisionLogBottom" => [
-          "template" => "revisionLogBottom",
-          "path" => $assetPath . "/components/article/RevisionLogBottom",
-          "variables" => ["content" => []]
-        ], 
         "backToTop" => [
           "template" => "backToTop",
           "path" => $assetPath . "/components/article/BackToTop",
@@ -424,6 +419,11 @@ function deeson_twig_component_templates($assetPath = 'auto') {
         "chartBlock" => [
           "template" => "chartBlock",
           "path" => $assetPath . "/components/article/ChartBlock",
+          "variables" => ["content" => []]
+        ], 
+        "revisionLogBottom" => [
+          "template" => "revisionLogBottom",
+          "path" => $assetPath . "/components/article/RevisionLogBottom",
           "variables" => ["content" => []]
         ], 
         "webToolStudiesTable" => [
