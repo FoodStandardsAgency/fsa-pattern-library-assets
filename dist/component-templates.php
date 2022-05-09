@@ -171,11 +171,6 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/search/FiltersHeader",
           "variables" => ["content" => []]
         ], 
-        "ratingCta" => [
-          "template" => "ratingCta",
-          "path" => $assetPath . "/components/search/RatingCta",
-          "variables" => ["content" => []]
-        ], 
         "datepicker" => [
           "template" => "datepicker",
           "path" => $assetPath . "/components/search/Datepicker",
@@ -194,6 +189,11 @@ function deeson_twig_component_templates($assetPath = 'auto') {
         "checkbox" => [
           "template" => "checkbox",
           "path" => $assetPath . "/components/form/Checkbox",
+          "variables" => ["content" => []]
+        ], 
+        "ratingCta" => [
+          "template" => "ratingCta",
+          "path" => $assetPath . "/components/search/RatingCta",
           "variables" => ["content" => []]
         ], 
         "dropdown" => [
@@ -426,14 +426,14 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/article/ChartBlock",
           "variables" => ["content" => []]
         ], 
-        "webToolProgressBar" => [
-          "template" => "webToolProgressBar",
-          "path" => $assetPath . "/components/haccp/WebToolProgressBar",
-          "variables" => ["content" => []]
-        ], 
         "webToolStudiesTable" => [
           "template" => "webToolStudiesTable",
           "path" => $assetPath . "/components/haccp/WebToolStudiesTable",
+          "variables" => ["content" => []]
+        ], 
+        "webToolProgressBar" => [
+          "template" => "webToolProgressBar",
+          "path" => $assetPath . "/components/haccp/WebToolProgressBar",
           "variables" => ["content" => []]
         ], 
         "saveProgress" => [
