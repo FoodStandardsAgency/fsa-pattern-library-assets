@@ -3959,6 +3959,9 @@ div .header__user-menu-navigation {
   display: inline-block;
   margin-left: -1.5rem;
 }
+.error-response__message ul li p {
+  display: contents;
+}
 .error-response__message ul li::before {
   content: "●";
   color: #007c75;
@@ -3988,6 +3991,9 @@ div .header__user-menu-navigation {
 .error-response__message ol li::before {
   display: inline-block;
   margin-left: -1.5rem;
+}
+.error-response__message ol li p {
+  display: contents;
 }
 .error-response__message ol li::before {
   counter-increment: list;
@@ -4227,6 +4233,9 @@ div .header__user-menu-navigation {
   .error-response__message table .fsa-table__heading--hidden {
     display: table-cell;
   }
+}
+.error-response__message > * {
+  max-width: 100%;
 }
 .error-response__message > p,
 .error-response__message > h1,
@@ -12731,6 +12740,9 @@ h3.form-title {
   display: inline-block;
   margin-left: -1.5rem;
 }
+.landing-text__content ul li p {
+  display: contents;
+}
 .landing-text__content ul li::before {
   content: "●";
   color: #007c75;
@@ -12760,6 +12772,9 @@ h3.form-title {
 .landing-text__content ol li::before {
   display: inline-block;
   margin-left: -1.5rem;
+}
+.landing-text__content ol li p {
+  display: contents;
 }
 .landing-text__content ol li::before {
   counter-increment: list;
@@ -12999,6 +13014,9 @@ h3.form-title {
   .landing-text__content table .fsa-table__heading--hidden {
     display: table-cell;
   }
+}
+.landing-text__content > * {
+  max-width: 100%;
 }
 .landing-text__content > p,
 .landing-text__content > h1,
@@ -14375,6 +14393,9 @@ h3.form-title {
   display: inline-block;
   margin-left: -1.5rem;
 }
+.regional-variation-block__copy ul li p {
+  display: contents;
+}
 .regional-variation-block__copy ul li::before {
   content: "●";
   color: #007c75;
@@ -14404,6 +14425,9 @@ h3.form-title {
 .regional-variation-block__copy ol li::before {
   display: inline-block;
   margin-left: -1.5rem;
+}
+.regional-variation-block__copy ol li p {
+  display: contents;
 }
 .regional-variation-block__copy ol li::before {
   counter-increment: list;
@@ -14643,6 +14667,9 @@ h3.form-title {
   .regional-variation-block__copy table .fsa-table__heading--hidden {
     display: table-cell;
   }
+}
+.regional-variation-block__copy > * {
+  max-width: 100%;
 }
 .regional-variation-block__copy > p,
 .regional-variation-block__copy > h1,
@@ -15710,6 +15737,9 @@ h3.form-title {
   display: inline-block;
   margin-left: -1.5rem;
 }
+.explanation-block__content ul li p {
+  display: contents;
+}
 .explanation-block__content ul li::before {
   content: "●";
   color: #007c75;
@@ -15739,6 +15769,9 @@ h3.form-title {
 .explanation-block__content ol li::before {
   display: inline-block;
   margin-left: -1.5rem;
+}
+.explanation-block__content ol li p {
+  display: contents;
 }
 .explanation-block__content ol li::before {
   counter-increment: list;
@@ -15978,6 +16011,9 @@ h3.form-title {
   .explanation-block__content table .fsa-table__heading--hidden {
     display: table-cell;
   }
+}
+.explanation-block__content > * {
+  max-width: 100%;
 }
 .explanation-block__content > p,
 .explanation-block__content > h1,
@@ -17563,6 +17599,9 @@ h3.form-title {
   display: inline-block;
   margin-left: -1.5rem;
 }
+.text-block ul li p {
+  display: contents;
+}
 .text-block ul li::before {
   content: "●";
   color: #007c75;
@@ -17592,6 +17631,9 @@ h3.form-title {
 .text-block ol li::before {
   display: inline-block;
   margin-left: -1.5rem;
+}
+.text-block ol li p {
+  display: contents;
 }
 .text-block ol li::before {
   counter-increment: list;
@@ -17831,6 +17873,9 @@ h3.form-title {
   .text-block table .fsa-table__heading--hidden {
     display: table-cell;
   }
+}
+.text-block > * {
+  max-width: 100%;
 }
 .text-block > p,
 .text-block > h1,
