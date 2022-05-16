@@ -171,6 +171,11 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/search/FiltersHeader",
           "variables" => ["content" => []]
         ], 
+        "ratingCta" => [
+          "template" => "ratingCta",
+          "path" => $assetPath . "/components/search/RatingCta",
+          "variables" => ["content" => []]
+        ], 
         "datepicker" => [
           "template" => "datepicker",
           "path" => $assetPath . "/components/search/Datepicker",
@@ -189,11 +194,6 @@ function deeson_twig_component_templates($assetPath = 'auto') {
         "checkbox" => [
           "template" => "checkbox",
           "path" => $assetPath . "/components/form/Checkbox",
-          "variables" => ["content" => []]
-        ], 
-        "ratingCta" => [
-          "template" => "ratingCta",
-          "path" => $assetPath . "/components/search/RatingCta",
           "variables" => ["content" => []]
         ], 
         "dropdown" => [
@@ -316,6 +316,16 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/landing/LandingTitle",
           "variables" => ["content" => []]
         ], 
+        "multistepFunction" => [
+          "template" => "multistepFunction",
+          "path" => $assetPath . "/components/form/MultistepFunction/drupal",
+          "variables" => ["content" => []]
+        ], 
+        "titleAndDescription" => [
+          "template" => "titleAndDescription",
+          "path" => $assetPath . "/components/landing/TitleAndDescription",
+          "variables" => ["content" => []]
+        ], 
         "helpSecondaryMenu" => [
           "template" => "helpSecondaryMenu",
           "path" => $assetPath . "/components/contact/HelpSecondaryMenu",
@@ -334,11 +344,6 @@ function deeson_twig_component_templates($assetPath = 'auto') {
         "articleHero" => [
           "template" => "articleHero",
           "path" => $assetPath . "/components/article/ArticleHero",
-          "variables" => ["content" => []]
-        ], 
-        "multistepFunction" => [
-          "template" => "multistepFunction",
-          "path" => $assetPath . "/components/form/MultistepFunction/drupal",
           "variables" => ["content" => []]
         ], 
         "regionalVariationBlock" => [
