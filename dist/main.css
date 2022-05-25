@@ -9103,6 +9103,23 @@ body.overflow-hidden {
   overflow-wrap: break-word;
 }
 
+h1.form-title--underlined::after,
+h2.form-title--underlined::after {
+  content: "";
+  background-image: url(./components/form/TitleAndText/assets/dot-dark.svg);
+  background-repeat: repeat-x;
+  background-size: 1.5rem 1.5rem;
+  width: 100%;
+  display: block;
+  padding-bottom: 0.5rem;
+  margin-top: 1rem;
+}
+
+h2.form-title--underlined::after {
+  background-image: url(./components/form/TitleAndText/assets/dot-light.svg);
+  margin-top: 0.5rem;
+}
+
 h3.form-title {
   font-family: "Fira Sans", sans-serif;
   font-family: var(--heading-font);
@@ -9118,7 +9135,7 @@ h3.form-title {
   }
 }
 
-h3.legacy-badge-title {
+h2.legacy-badge-title {
   font-family: "Fira Sans", sans-serif;
   font-family: var(--heading-font);
   font-size: 1.643rem;
@@ -9129,7 +9146,7 @@ h3.legacy-badge-title {
   margin: 3rem 0 0;
 }
 @media screen and (min-width: 1024px) {
-  h3.legacy-badge-title {
+  h2.legacy-badge-title {
     font-size: 1.728rem;
   }
 }
@@ -10598,6 +10615,142 @@ h3.legacy-badge-title {
 .multifield-group__template {
   display: none;
 }
+/*!***************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/form/ToggleButton/toggleButton.scss ***!
+  \***************************************************************************************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css?family=Fira+Sans:300,400,500,700);
+/*!*******************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/form/ToggleButton/toggleButton.scss (1) ***!
+  \*******************************************************************************************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700);
+/*!*******************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/form/ToggleButton/toggleButton.scss (2) ***!
+  \*******************************************************************************************************************************************************************************************/
+:root {
+  /* Primary Colours */
+  --fsa-primary_dark-green: #007c75;
+  --fsa-primary_mid-green: #6cb33f;
+  --fsa-primary_light-green: #a9c47f;
+  --fsa-primary_dark-grey: #53565a;
+  --fsa_online-grey: #f0f3f5;
+  --fsa_border: #dee2e5;
+  --fsa-primary_black: #000;
+  --fsa-primary_white: #fff;
+  --fsa_tint: #fafcfd;
+  /* Secondary Colours */
+  --fsa-secondary_mid-red: #e31837;
+  --fsa-secondary_dark-blue: #165c7d;
+  --fsa-secondary_orange: #f15d22;
+  --fsa-secondary_mid-yellow: #fdb913;
+  --fsa-secondary_mid-purple: #49176d;
+  --fsa-secondary_light-purple: #9f218b;
+  --fsa-tertiary_dark-blue: #9f218b;
+  --fsa-secondary-error-red: #e60f31;
+  --fsa-secondary-error-hover: #b0132b;
+  /* Tertiary Colours */
+  --fsa-tertiary_dark-red: #b04a5a;
+  --fsa-tertiary_light-red: #ef3340;
+  --fsa-tertiary_light-yellow: #f1c400;
+  --fsa-tertiary_teal: #00b2a9;
+  --fsa-tertiary_light-blue: #8dc8e8;
+  --fsa-tertiary_dark-purple: #51284f;
+  --fsa-secondary_mid-blue: #007fb2;
+  --fsa-tertiary_lime: #cedc00;
+  --fsa-tertiary_mauve: #8b84d7;
+  --fsa-tertiary_stripe-green: #006f51;
+  --fsa-tertiary_light-black: #101010;
+  /* Hover Colours */
+  --fsa__link-green: #014b4c;
+  --fsa__purple-hover: #2a0247;
+  --fsa__grey-hover: #d9d9d6;
+  --fsa__dark-green-hover: #002a2a;
+  /* Custom Colours */
+  --fsa-webtool-prgress-bar-border-step: #d8d8d8;
+  /* Typography */
+  --body-font: "Open Sans", sans-serif;
+  --body-normal: 400;
+  --body-bold: 600;
+  --heading-font: "Fira Sans", sans-serif;
+  --heading-bold: 700;
+  /* Grid */
+  --container-mobile: 1rem;
+  --container: 2rem;
+  --gutter: 1rem;
+  --max-width: 1336px;
+  /* Transitions */
+  --transition-time: 200;
+}
+
+/* Grid */
+/* Custom Mixins */
+/* Mixin for checkbox and radio button style */
+/* Used for Style guide pages */
+/* stylelint-disable value-keyword-case */
+/* stylelint-enable value-keyword-case */
+.toggle-button {
+  margin-top: 0.5rem;
+}
+.toggle-button button {
+  background: transparent;
+  box-shadow: 0 0 0 transparent;
+  border: 0 solid transparent;
+  text-shadow: 0 0 0 transparent;
+  padding: 0;
+}
+.toggle-button button:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.2rem #000, 0 0 0 0.4rem #f1c400;
+  box-shadow: 0 0 0 0.2rem var(--fsa-primary_black), 0 0 0 0.4rem var(--fsa-tertiary_light-yellow);
+  border-radius: 2rem;
+}
+.toggle-button label {
+  display: flex;
+  justify-content: space-between;
+}
+.toggle-button__button--disabled {
+  opacity: 0.5;
+}
+.toggle-button [role=switch] {
+  position: relative;
+  padding: 0;
+  width: 3.438rem;
+  height: 1.625rem;
+  border: 0;
+  border-radius: 1rem;
+  background-color: #53565a;
+  background-color: var(--fsa-primary_dark-grey);
+  margin-right: 2rem;
+  margin-right: 3rem;
+}
+.toggle-button [role=switch][aria-checked=true] {
+  background-color: #49176d;
+  background-color: var(--fsa-secondary_mid-purple);
+}
+.toggle-button [role=switch] span {
+  position: absolute;
+  border-radius: 2rem;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  cursor: pointer;
+  transition: 0.4s;
+}
+.toggle-button [role=switch] span::before {
+  position: absolute;
+  content: "";
+  top: 0.313rem;
+  left: 0.313rem;
+  bottom: 0.313rem;
+  width: 1rem;
+  background-color: white;
+  transition: 0.4s;
+  border-radius: 50%;
+}
+.toggle-button [role=switch][aria-checked=true] span::before {
+  -webkit-transform: translateX(1.714rem);
+          transform: translateX(1.714rem);
+}
 /*!***********************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/form/InputField/inputField.scss ***!
   \***********************************************************************************************************************************************************************************/
@@ -10675,9 +10828,8 @@ h3.legacy-badge-title {
   display: flex;
   flex-direction: column;
 }
-.input-field--disabled {
-  -webkit-filter: greyscale();
-          filter: greyscale();
+.input-field--disabled input,
+.input-field--disabled label {
   opacity: 0.5;
 }
 .input-field__label {
@@ -10936,9 +11088,8 @@ h3.legacy-badge-title {
 .textarea {
   margin-top: 2rem;
 }
-.textarea--disabled {
-  -webkit-filter: greyscale();
-          filter: greyscale();
+.textarea--disabled textarea,
+.textarea--disabled label {
   opacity: 0.5;
 }
 .textarea__label {
@@ -12060,6 +12211,18 @@ h3.legacy-badge-title {
     bottom: 1rem;
   }
 }
+.promo-group__card--external::after {
+  content: "";
+  background-image: url(./components/landing/PromoGroup/assets/external.svg);
+  background-size: contain;
+  width: 1.25rem;
+  height: 1.25rem;
+}
+.promo-group__card--external:hover::after {
+  content: "";
+  background-image: url(./components/landing/PromoGroup/assets/external-hover.svg);
+  background-size: contain;
+}
 .promo-group__card--multiple-links {
   padding-bottom: 2rem;
 }
@@ -12133,6 +12296,9 @@ h3.legacy-badge-title {
   background-color: var(--fsa-tertiary_light-yellow);
   border-bottom: 0.25rem solid #000;
   border-bottom: 0.25rem solid var(--fsa-primary_black);
+}
+.promo-group__title-link.external-link::after {
+  display: none;
 }
 .promo-group__description {
   margin: 1rem 1.25rem 0;
@@ -12636,6 +12802,17 @@ h3.legacy-badge-title {
   outline: none;
   background-color: #f1c400;
   background-color: var(--fsa-tertiary_light-yellow);
+}
+.service-links__anchor.external-link::before {
+  background-image: url(./components/landing/ServiceLinks/assets/external.svg);
+  background-size: contain;
+}
+.service-links__anchor.external-link:hover::before {
+  background-image: url(./components/landing/ServiceLinks/assets/external-hover.svg);
+  background-size: contain;
+}
+.service-links__anchor.external-link::after {
+  display: none;
 }
 /*!********************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/landing/CampaignBlock/campaignBlock.scss ***!
@@ -16279,6 +16456,20 @@ h3.legacy-badge-title {
   line-height: 1.6;
   letter-spacing: normal;
 }
+.explanation-block__content--h3 {
+  font-family: "Fira Sans", sans-serif;
+  font-family: var(--heading-font);
+  font-size: 1.643rem;
+  font-weight: 700;
+  font-weight: var(--heading-bold);
+  line-height: 1.2;
+  letter-spacing: normal;
+}
+@media screen and (min-width: 1024px) {
+  .explanation-block__content--h3 {
+    font-size: 1.728rem;
+  }
+}
 @media screen and (min-width: 768px) {
   .explanation-block__content {
     padding: 2rem;
@@ -17819,7 +18010,6 @@ h3.legacy-badge-title {
 }
 @media screen and (min-width: 1024px) {
   .sticky-sidebar {
-    height: 100%;
     margin-top: 0;
   }
 }
@@ -17832,9 +18022,9 @@ h3.legacy-badge-title {
 }
 @media screen and (min-width: 1024px) {
   .sticky-sidebar--bottom {
-    position: relative;
+    position: absolute;
     display: flex;
-    align-items: flex-end;
+    flex-direction: column;
     bottom: 0;
   }
 }
@@ -17843,6 +18033,10 @@ h3.legacy-badge-title {
 }
 .sticky-sidebar__content-item:first-child {
   margin-top: 0;
+}
+.sticky-sidebar__wrapper {
+  position: relative;
+  height: 100%;
 }
 /*!************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/article/TableOfContents/tableOfContents.scss ***!
@@ -19793,19 +19987,30 @@ h3.legacy-badge-title {
   background-repeat: no-repeat;
   background-size: contain;
   background-position: left center;
-  height: 8rem;
-  width: 15rem;
+  height: 9rem;
+  width: 17rem;
 }
 .business-hero__badge--welsh {
   height: 10rem;
+}
+@media screen and (min-width: 1024px) {
+  .business-hero__badge {
+    height: 8rem;
+    width: 15rem;
+  }
+  .business-hero__badge--welsh {
+    height: 11.25rem;
+  }
+}
+.business-hero__link-wrapper {
+  display: block;
+  margin-top: 1rem;
 }
 .business-hero__link {
   color: #007c75;
   color: var(--fsa-primary_dark-green);
   text-decoration: underline;
   border-bottom: 0.25rem solid transparent;
-  display: block;
-  margin-top: 1rem;
   border: none;
   padding-left: 2.25rem;
   background-repeat: no-repeat;
@@ -19830,8 +20035,14 @@ h3.legacy-badge-title {
 .business-hero__link--back {
   background-image: url(./components/fhrs/BusinessHero/assets/arrow-back.svg);
 }
+.business-hero__link--back:hover {
+  background-image: url(./components/fhrs/BusinessHero/assets/arrow-back-hover.svg);
+}
 .business-hero__link--forward {
   background-image: url(./components/fhrs/BusinessHero/assets/arrow-forward.svg);
+}
+.business-hero__link--forward:hover {
+  background-image: url(./components/fhrs/BusinessHero/assets/arrow-forward-hover.svg);
 }
 .business-hero__block:not(:first-child) {
   margin-top: 1rem;
@@ -20144,6 +20355,212 @@ h3.legacy-badge-title {
 }
 .fhrs-search-card__summary {
   font-weight: bold;
+}
+/*!***********************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/fhrs/RatingsSearchBox/ratingsSearchBox.scss ***!
+  \***********************************************************************************************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css?family=Fira+Sans:300,400,500,700);
+/*!***************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/fhrs/RatingsSearchBox/ratingsSearchBox.scss (1) ***!
+  \***************************************************************************************************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700);
+/*!***************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/fhrs/RatingsSearchBox/ratingsSearchBox.scss (2) ***!
+  \***************************************************************************************************************************************************************************************************/
+:root {
+  /* Primary Colours */
+  --fsa-primary_dark-green: #007c75;
+  --fsa-primary_mid-green: #6cb33f;
+  --fsa-primary_light-green: #a9c47f;
+  --fsa-primary_dark-grey: #53565a;
+  --fsa_online-grey: #f0f3f5;
+  --fsa_border: #dee2e5;
+  --fsa-primary_black: #000;
+  --fsa-primary_white: #fff;
+  --fsa_tint: #fafcfd;
+  /* Secondary Colours */
+  --fsa-secondary_mid-red: #e31837;
+  --fsa-secondary_dark-blue: #165c7d;
+  --fsa-secondary_orange: #f15d22;
+  --fsa-secondary_mid-yellow: #fdb913;
+  --fsa-secondary_mid-purple: #49176d;
+  --fsa-secondary_light-purple: #9f218b;
+  --fsa-tertiary_dark-blue: #9f218b;
+  --fsa-secondary-error-red: #e60f31;
+  --fsa-secondary-error-hover: #b0132b;
+  /* Tertiary Colours */
+  --fsa-tertiary_dark-red: #b04a5a;
+  --fsa-tertiary_light-red: #ef3340;
+  --fsa-tertiary_light-yellow: #f1c400;
+  --fsa-tertiary_teal: #00b2a9;
+  --fsa-tertiary_light-blue: #8dc8e8;
+  --fsa-tertiary_dark-purple: #51284f;
+  --fsa-secondary_mid-blue: #007fb2;
+  --fsa-tertiary_lime: #cedc00;
+  --fsa-tertiary_mauve: #8b84d7;
+  --fsa-tertiary_stripe-green: #006f51;
+  --fsa-tertiary_light-black: #101010;
+  /* Hover Colours */
+  --fsa__link-green: #014b4c;
+  --fsa__purple-hover: #2a0247;
+  --fsa__grey-hover: #d9d9d6;
+  --fsa__dark-green-hover: #002a2a;
+  /* Custom Colours */
+  --fsa-webtool-prgress-bar-border-step: #d8d8d8;
+  /* Typography */
+  --body-font: "Open Sans", sans-serif;
+  --body-normal: 400;
+  --body-bold: 600;
+  --heading-font: "Fira Sans", sans-serif;
+  --heading-bold: 700;
+  /* Grid */
+  --container-mobile: 1rem;
+  --container: 2rem;
+  --gutter: 1rem;
+  --max-width: 1336px;
+  /* Transitions */
+  --transition-time: 200;
+}
+
+/* Grid */
+/* Custom Mixins */
+/* Mixin for checkbox and radio button style */
+/* Used for Style guide pages */
+/* stylelint-disable value-keyword-case */
+/* stylelint-enable value-keyword-case */
+.ratings-search-box__location-search {
+  display: block;
+}
+.ratings-search-box__location-search--closed {
+  display: none;
+}
+.ratings-search-box__toggle-area {
+  margin-top: 2rem;
+}
+@media screen and (min-width: 768px) {
+  .ratings-search-box__toggle-area__left, .ratings-search-box__toggle-area__right {
+    width: 100%;
+  }
+  .ratings-search-box__toggle-area__left {
+    margin-right: 1rem;
+  }
+  .ratings-search-box__toggle-area__right {
+    margin-left: 1rem;
+  }
+}
+@media screen and (min-width: 768px) {
+  .ratings-search-box__toggle-area {
+    display: flex;
+    flex: 1;
+  }
+}
+.ratings-search-box__toggle-area a {
+  color: #007c75;
+  color: var(--fsa-primary_dark-green);
+  text-decoration: underline;
+  border-bottom: 0.25rem solid transparent;
+  display: flex;
+  margin-top: 0.5rem;
+}
+.ratings-search-box__toggle-area a:hover {
+  color: #014b4c;
+  color: var(--fsa__link-green);
+}
+.ratings-search-box__toggle-area a:focus {
+  color: #000;
+  color: var(--fsa-primary_black);
+  outline: none;
+  text-decoration: none;
+  background-color: #f1c400;
+  background-color: var(--fsa-tertiary_light-yellow);
+  border-bottom: 0.25rem solid #000;
+  border-bottom: 0.25rem solid var(--fsa-primary_black);
+  margin-bottom: -0.25rem;
+}
+.ratings-search-box fieldset {
+  margin-top: 2rem;
+  border: none;
+  padding: 0;
+}
+.ratings-search-box fieldset legend {
+  font-family: "Fira Sans", sans-serif;
+  font-family: var(--heading-font);
+  font-size: 1.18rem;
+  font-weight: 700;
+  font-weight: var(--heading-bold);
+  line-height: 1.4;
+  letter-spacing: normal;
+}
+@media screen and (min-width: 1024px) {
+  .ratings-search-box fieldset legend {
+    font-size: 1.2rem;
+  }
+}
+.ratings-search-box__single-radio h5 {
+  margin-bottom: 0;
+}
+.ratings-search-box__dropdown--hide-label .dropdown {
+  margin-top: 1rem;
+}
+.ratings-search-box__dropdown--hide-label label {
+  position: absolute;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+}
+.ratings-search-box__additional-options {
+  display: none;
+  margin-top: 2rem;
+}
+@media screen and (min-width: 768px) {
+  .ratings-search-box__additional-options__left, .ratings-search-box__additional-options__right {
+    width: 100%;
+  }
+  .ratings-search-box__additional-options__left {
+    margin-right: 1rem;
+  }
+  .ratings-search-box__additional-options__right {
+    margin-left: 1rem;
+  }
+}
+.ratings-search-box__additional-options--open {
+  display: block;
+}
+@media screen and (min-width: 768px) {
+  .ratings-search-box__additional-options--open {
+    display: flex;
+    flex: 1;
+  }
+}
+.ratings-search-box__more-search-options {
+  align-items: center;
+}
+.ratings-search-box__more-search-options__arrow {
+  background-image: url(./components/fhrs/RatingsSearchBox/assets/arrow.svg);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  width: 0.875rem;
+  height: 0.625rem;
+  margin-left: 1rem;
+}
+.ratings-search-box__more-search-options__arrow--open {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+.ratings-search-box__submit {
+  margin-top: 2rem;
+  display: flex;
+  width: 100%;
+}
+.ratings-search-box__map {
+  display: none;
+}
+.ratings-search-box__map--open {
+  display: block;
+  background-image: url(./components/fhrs/RatingsSearchBox/assets/google-maps-placeholder.png);
+  height: 520px;
+  margin-top: 1rem;
+  width: 100%;
 }
 /*!****************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/haccp/SaveProgress/saveProgress.scss ***!
