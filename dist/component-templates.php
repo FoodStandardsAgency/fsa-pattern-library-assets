@@ -271,6 +271,11 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/landing/LandingLinks",
           "variables" => ["content" => []]
         ], 
+        "largePromoGroup" => [
+          "template" => "largePromoGroup",
+          "path" => $assetPath . "/components/landing/LargePromoGroup",
+          "variables" => ["content" => []]
+        ], 
         "latestTeaser" => [
           "template" => "latestTeaser",
           "path" => $assetPath . "/components/landing/LatestTeaser",
@@ -279,11 +284,6 @@ function deeson_twig_component_templates($assetPath = 'auto') {
         "promoGroup" => [
           "template" => "promoGroup",
           "path" => $assetPath . "/components/landing/PromoGroup",
-          "variables" => ["content" => []]
-        ], 
-        "largePromoGroup" => [
-          "template" => "largePromoGroup",
-          "path" => $assetPath . "/components/landing/LargePromoGroup",
           "variables" => ["content" => []]
         ], 
         "serviceLinks" => [
@@ -316,14 +316,14 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/contact/HelpSecondaryMenu",
           "variables" => ["content" => []]
         ], 
-        "promoLinks" => [
-          "template" => "promoLinks",
-          "path" => $assetPath . "/components/contact/PromoLinks",
-          "variables" => ["content" => []]
-        ], 
         "multistepFunction" => [
           "template" => "multistepFunction",
           "path" => $assetPath . "/components/form/MultistepFunction/drupal",
+          "variables" => ["content" => []]
+        ], 
+        "promoLinks" => [
+          "template" => "promoLinks",
+          "path" => $assetPath . "/components/contact/PromoLinks",
           "variables" => ["content" => []]
         ], 
         "documentDownload" => [
@@ -411,14 +411,14 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/article/StickySidebar",
           "variables" => ["content" => []]
         ], 
-        "textBlock" => [
-          "template" => "textBlock",
-          "path" => $assetPath . "/components/article/TextBlock",
-          "variables" => ["content" => []]
-        ], 
         "chartBlock" => [
           "template" => "chartBlock",
           "path" => $assetPath . "/components/article/ChartBlock",
+          "variables" => ["content" => []]
+        ], 
+        "textBlock" => [
+          "template" => "textBlock",
+          "path" => $assetPath . "/components/article/TextBlock",
           "variables" => ["content" => []]
         ], 
         "webToolStudiesTable" => [
@@ -441,9 +441,9 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/fhrs/LocalAuthority",
           "variables" => ["content" => []]
         ], 
-        "searchCard" => [
-          "template" => "searchCard",
-          "path" => $assetPath . "/components/fhrs/SearchCard",
+        "businessHero" => [
+          "template" => "businessHero",
+          "path" => $assetPath . "/components/fhrs/BusinessHero",
           "variables" => ["content" => []]
         ], 
         "contactLayout" => [
@@ -451,9 +451,9 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/layout/contactLayout",
           "variables" => ["content" => []]
         ], 
-        "businessHero" => [
-          "template" => "businessHero",
-          "path" => $assetPath . "/components/fhrs/BusinessHero",
+        "searchCard" => [
+          "template" => "searchCard",
+          "path" => $assetPath . "/components/fhrs/SearchCard",
           "variables" => ["content" => []]
         ], 
         "badge" => [
