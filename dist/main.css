@@ -9102,6 +9102,19 @@ body.overflow-hidden {
   margin: 2rem 0 0;
   overflow-wrap: break-word;
 }
+.form-title__subtitle {
+  font-family: "Open Sans", sans-serif;
+  font-family: var(--body-font);
+  font-weight: 400;
+  font-weight: var(--body-normal);
+  font-size: 1rem;
+  line-height: 1.6;
+  letter-spacing: normal;
+  display: block;
+  margin-top: 1rem;
+  color: #000;
+  color: var(--fsa-primary_black);
+}
 
 h1.form-title--underlined::after,
 h2.form-title--underlined::after {
@@ -20581,6 +20594,19 @@ h2.legacy-badge-title {
     font-size: 2.986rem;
   }
 }
+.business-hero__title span {
+  font-family: "Open Sans", sans-serif;
+  font-family: var(--body-font);
+  font-weight: 400;
+  font-weight: var(--body-normal);
+  font-size: 1rem;
+  line-height: 1.6;
+  letter-spacing: normal;
+  color: #101010;
+  color: var(--fsa-tertiary_light-black);
+  display: block;
+  margin-bottom: 0.5rem;
+}
 .business-hero__content {
   margin-top: 2rem;
   width: 100%;
@@ -21658,6 +21684,17 @@ h2.legacy-badge-title {
 /* Used for Style guide pages */
 /* stylelint-disable value-keyword-case */
 /* stylelint-enable value-keyword-case */
+.ratings-search-box button {
+  background: transparent;
+  box-shadow: 0 0 0 transparent;
+  border: 0 solid transparent;
+  text-shadow: 0 0 0 transparent;
+  padding: 0;
+}
+.ratings-search-box button:hover {
+  box-shadow: 0 0 0 transparent;
+  text-shadow: 0 0 0 transparent;
+}
 @media screen and (min-width: 768px) {
   .ratings-search-box__search-inputs {
     display: flex;
@@ -21776,7 +21813,35 @@ h2.legacy-badge-title {
   }
 }
 .ratings-search-box__more-search-options {
+  font-family: "Open Sans", sans-serif;
+  font-family: var(--body-font);
+  font-weight: 400;
+  font-weight: var(--body-normal);
+  font-size: 1rem;
+  line-height: 1.6;
+  letter-spacing: normal;
+  color: #007c75;
+  color: var(--fsa-primary_dark-green);
+  text-decoration: underline;
+  border-bottom: 0.25rem solid transparent;
   align-items: center;
+  margin-top: 0.5rem;
+  display: flex;
+}
+.ratings-search-box__more-search-options:hover {
+  color: #014b4c;
+  color: var(--fsa__link-green);
+}
+.ratings-search-box__more-search-options:focus {
+  color: #000;
+  color: var(--fsa-primary_black);
+  outline: none;
+  text-decoration: none;
+  background-color: #f1c400;
+  background-color: var(--fsa-tertiary_light-yellow);
+  border-bottom: 0.25rem solid #000;
+  border-bottom: 0.25rem solid var(--fsa-primary_black);
+  margin-bottom: -0.25rem;
 }
 .ratings-search-box__more-search-options__arrow {
   background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg width='16' height='10' viewBox='0 0 16 10' xmlns='http://www.w3.org/2000/svg'%3E %3Cpath d='m1 1 7 7 7-7' stroke='%23007C75' stroke-width='2' fill='none' fill-rule='evenodd'/%3E %3C/svg%3E");
@@ -21804,6 +21869,9 @@ h2.legacy-badge-title {
   height: 520px;
   margin-top: 1rem;
   width: 100%;
+}
+.ratings-search-box__local-authority-section .local-authority {
+  margin-top: 1rem;
 }
 /*!*****************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/fhrs/BadgeDownload/badgeDownload.scss ***!
