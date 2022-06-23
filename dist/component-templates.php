@@ -21,11 +21,6 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/layout/fullWidth",
           "variables" => ["content" => []]
         ], 
-        "contentLayout" => [
-          "template" => "contentLayout",
-          "path" => $assetPath . "/layout/contentLayout",
-          "variables" => ["content" => []]
-        ], 
         "breadcrumbs" => [
           "template" => "breadcrumbs",
           "path" => $assetPath . "/components/general/Breadcrumb",
@@ -86,14 +81,14 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/general/TemporaryMessage",
           "variables" => ["content" => []]
         ], 
-        "errorResponse" => [
-          "template" => "errorResponse",
-          "path" => $assetPath . "/components/general/ErrorResponse",
-          "variables" => ["content" => []]
-        ], 
         "nationalArchiveLink" => [
           "template" => "nationalArchiveLink",
           "path" => $assetPath . "/components/general/NationalArchiveLink",
+          "variables" => ["content" => []]
+        ], 
+        "errorResponse" => [
+          "template" => "errorResponse",
+          "path" => $assetPath . "/components/general/ErrorResponse",
           "variables" => ["content" => []]
         ], 
         "skipToMainContent" => [
@@ -191,14 +186,14 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/form/ErrorBox",
           "variables" => ["content" => []]
         ], 
-        "messageBox" => [
-          "template" => "messageBox",
-          "path" => $assetPath . "/components/form/MessageBox",
-          "variables" => ["content" => []]
-        ], 
         "multistepFunction" => [
           "template" => "multistepFunction",
           "path" => $assetPath . "/components/form/MultistepFunction",
+          "variables" => ["content" => []]
+        ], 
+        "messageBox" => [
+          "template" => "messageBox",
+          "path" => $assetPath . "/components/form/MessageBox",
           "variables" => ["content" => []]
         ], 
         "radio" => [
@@ -291,14 +286,14 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/landing/ServiceLinks",
           "variables" => ["content" => []]
         ], 
-        "landingText" => [
-          "template" => "landingText",
-          "path" => $assetPath . "/components/landing/LandingText",
-          "variables" => ["content" => []]
-        ], 
         "campaignBlock" => [
           "template" => "campaignBlock",
           "path" => $assetPath . "/components/landing/CampaignBlock",
+          "variables" => ["content" => []]
+        ], 
+        "landingText" => [
+          "template" => "landingText",
+          "path" => $assetPath . "/components/landing/LandingText",
           "variables" => ["content" => []]
         ], 
         "landingTitle" => [
@@ -316,14 +311,14 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/contact/HelpSecondaryMenu",
           "variables" => ["content" => []]
         ], 
-        "promoLinks" => [
-          "template" => "promoLinks",
-          "path" => $assetPath . "/components/contact/PromoLinks",
-          "variables" => ["content" => []]
-        ], 
         "multistepFunction" => [
           "template" => "multistepFunction",
           "path" => $assetPath . "/components/form/MultistepFunction/drupal",
+          "variables" => ["content" => []]
+        ], 
+        "promoLinks" => [
+          "template" => "promoLinks",
+          "path" => $assetPath . "/components/contact/PromoLinks",
           "variables" => ["content" => []]
         ], 
         "documentDownload" => [
@@ -366,14 +361,14 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/article/ExplanationBlock",
           "variables" => ["content" => []]
         ], 
-        "teamContacts" => [
-          "template" => "teamContacts",
-          "path" => $assetPath . "/components/article/TeamContacts",
-          "variables" => ["content" => []]
-        ], 
         "quoteBlock" => [
           "template" => "quoteBlock",
           "path" => $assetPath . "/components/article/QuoteBlock",
+          "variables" => ["content" => []]
+        ], 
+        "teamContacts" => [
+          "template" => "teamContacts",
+          "path" => $assetPath . "/components/article/TeamContacts",
           "variables" => ["content" => []]
         ], 
         "productDetails" => [
@@ -391,14 +386,14 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/article/FootNotes",
           "variables" => ["content" => []]
         ], 
-        "backToTop" => [
-          "template" => "backToTop",
-          "path" => $assetPath . "/components/article/BackToTop",
-          "variables" => ["content" => []]
-        ], 
         "revisionLogBottom" => [
           "template" => "revisionLogBottom",
           "path" => $assetPath . "/components/article/RevisionLogBottom",
+          "variables" => ["content" => []]
+        ], 
+        "backToTop" => [
+          "template" => "backToTop",
+          "path" => $assetPath . "/components/article/BackToTop",
           "variables" => ["content" => []]
         ], 
         "pdfAndPrintButtons" => [
@@ -406,14 +401,14 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/article/PdfAndPrintButtons",
           "variables" => ["content" => []]
         ], 
-        "textBlock" => [
-          "template" => "textBlock",
-          "path" => $assetPath . "/components/article/TextBlock",
-          "variables" => ["content" => []]
-        ], 
         "stickySidebar" => [
           "template" => "stickySidebar",
           "path" => $assetPath . "/components/article/StickySidebar",
+          "variables" => ["content" => []]
+        ], 
+        "textBlock" => [
+          "template" => "textBlock",
+          "path" => $assetPath . "/components/article/TextBlock",
           "variables" => ["content" => []]
         ], 
         "chartBlock" => [
@@ -446,11 +441,6 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/fhrs/BusinessHero",
           "variables" => ["content" => []]
         ], 
-        "contactLayout" => [
-          "template" => "contactLayout",
-          "path" => $assetPath . "/layout/contactLayout",
-          "variables" => ["content" => []]
-        ], 
         "searchCard" => [
           "template" => "searchCard",
           "path" => $assetPath . "/components/fhrs/SearchCard",
@@ -471,9 +461,24 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/fhrs/BadgeDownload",
           "variables" => ["content" => []]
         ], 
+        "localAuthorityMap" => [
+          "template" => "localAuthorityMap",
+          "path" => $assetPath . "/components/fhrs/LocalAuthorityMap",
+          "variables" => ["content" => []]
+        ], 
         "pagination" => [
           "template" => "pagination",
           "path" => $assetPath . "/components/multipageguide/Pagination",
+          "variables" => ["content" => []]
+        ], 
+        "contentLayout" => [
+          "template" => "contentLayout",
+          "path" => $assetPath . "/layout/contentLayout",
+          "variables" => ["content" => []]
+        ], 
+        "contactLayout" => [
+          "template" => "contactLayout",
+          "path" => $assetPath . "/layout/contactLayout",
           "variables" => ["content" => []]
         ], 
         "fhrsLayout" => [
