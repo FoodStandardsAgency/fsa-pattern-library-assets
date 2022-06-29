@@ -206,14 +206,14 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/form/Tabs",
           "variables" => ["content" => []]
         ], 
-        "titleAndText" => [
-          "template" => "titleAndText",
-          "path" => $assetPath . "/components/form/TitleAndText",
-          "variables" => ["content" => []]
-        ], 
         "emailField" => [
           "template" => "emailField",
           "path" => $assetPath . "/components/form/EmailField",
+          "variables" => ["content" => []]
+        ], 
+        "titleAndText" => [
+          "template" => "titleAndText",
+          "path" => $assetPath . "/components/form/TitleAndText",
           "variables" => ["content" => []]
         ], 
         "step" => [
@@ -271,19 +271,9 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/landing/LargePromoGroup",
           "variables" => ["content" => []]
         ], 
-        "promoGroup" => [
-          "template" => "promoGroup",
-          "path" => $assetPath . "/components/landing/PromoGroup",
-          "variables" => ["content" => []]
-        ], 
         "latestTeaser" => [
           "template" => "latestTeaser",
           "path" => $assetPath . "/components/landing/LatestTeaser",
-          "variables" => ["content" => []]
-        ], 
-        "campaignBlock" => [
-          "template" => "campaignBlock",
-          "path" => $assetPath . "/components/landing/CampaignBlock",
           "variables" => ["content" => []]
         ], 
         "multistepFunction" => [
@@ -291,9 +281,19 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/form/MultistepFunction/drupal",
           "variables" => ["content" => []]
         ], 
+        "promoGroup" => [
+          "template" => "promoGroup",
+          "path" => $assetPath . "/components/landing/PromoGroup",
+          "variables" => ["content" => []]
+        ], 
         "serviceLinks" => [
           "template" => "serviceLinks",
           "path" => $assetPath . "/components/landing/ServiceLinks",
+          "variables" => ["content" => []]
+        ], 
+        "campaignBlock" => [
+          "template" => "campaignBlock",
+          "path" => $assetPath . "/components/landing/CampaignBlock",
           "variables" => ["content" => []]
         ], 
         "landingText" => [
@@ -411,14 +411,14 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/article/TextBlock",
           "variables" => ["content" => []]
         ], 
-        "chartBlock" => [
-          "template" => "chartBlock",
-          "path" => $assetPath . "/components/article/ChartBlock",
-          "variables" => ["content" => []]
-        ], 
         "webToolStudiesTable" => [
           "template" => "webToolStudiesTable",
           "path" => $assetPath . "/components/haccp/WebToolStudiesTable",
+          "variables" => ["content" => []]
+        ], 
+        "chartBlock" => [
+          "template" => "chartBlock",
+          "path" => $assetPath . "/components/article/ChartBlock",
           "variables" => ["content" => []]
         ], 
         "webToolProgressBar" => [
@@ -444,11 +444,6 @@ function deeson_twig_component_templates($assetPath = 'auto') {
         "contentLayout" => [
           "template" => "contentLayout",
           "path" => $assetPath . "/layout/contentLayout",
-          "variables" => ["content" => []]
-        ], 
-        "contactLayout" => [
-          "template" => "contactLayout",
-          "path" => $assetPath . "/layout/contactLayout",
           "variables" => ["content" => []]
         ], 
         "searchCard" => [
@@ -479,6 +474,11 @@ function deeson_twig_component_templates($assetPath = 'auto') {
         "pagination" => [
           "template" => "pagination",
           "path" => $assetPath . "/components/multipageguide/Pagination",
+          "variables" => ["content" => []]
+        ], 
+        "contactLayout" => [
+          "template" => "contactLayout",
+          "path" => $assetPath . "/layout/contactLayout",
           "variables" => ["content" => []]
         ], 
         "fhrsLayout" => [
