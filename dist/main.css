@@ -22265,6 +22265,14 @@ h2.legacy-badge-title {
 .ratings-search-box__toggle-area {
   margin-top: 2rem;
 }
+.ratings-search-box__toggle-area__right {
+  margin-top: 2rem;
+}
+@media screen and (min-width: 768px) {
+  .ratings-search-box__toggle-area__right {
+    margin-top: 0;
+  }
+}
 @media screen and (min-width: 768px) {
   .ratings-search-box__toggle-area {
     display: flex;
