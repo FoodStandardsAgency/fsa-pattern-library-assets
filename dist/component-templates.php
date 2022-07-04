@@ -66,14 +66,14 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/general/Feedback",
           "variables" => ["content" => []]
         ], 
-        "cookieBanner" => [
-          "template" => "cookieBanner",
-          "path" => $assetPath . "/components/general/CookieBanner",
-          "variables" => ["content" => []]
-        ], 
         "temporaryMessage" => [
           "template" => "temporaryMessage",
           "path" => $assetPath . "/components/general/TemporaryMessage",
+          "variables" => ["content" => []]
+        ], 
+        "cookieBanner" => [
+          "template" => "cookieBanner",
+          "path" => $assetPath . "/components/general/CookieBanner",
           "variables" => ["content" => []]
         ], 
         "nationalArchiveLink" => [
@@ -261,11 +261,6 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/landing/LandingLinks",
           "variables" => ["content" => []]
         ], 
-        "multistepFunction" => [
-          "template" => "multistepFunction",
-          "path" => $assetPath . "/components/form/MultistepFunction/drupal",
-          "variables" => ["content" => []]
-        ], 
         "largePromoGroup" => [
           "template" => "largePromoGroup",
           "path" => $assetPath . "/components/landing/LargePromoGroup",
@@ -274,6 +269,11 @@ function deeson_twig_component_templates($assetPath = 'auto') {
         "latestTeaser" => [
           "template" => "latestTeaser",
           "path" => $assetPath . "/components/landing/LatestTeaser",
+          "variables" => ["content" => []]
+        ], 
+        "multistepFunction" => [
+          "template" => "multistepFunction",
+          "path" => $assetPath . "/components/form/MultistepFunction/drupal",
           "variables" => ["content" => []]
         ], 
         "promoGroup" => [
@@ -326,6 +326,11 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/article/ArticleHero",
           "variables" => ["content" => []]
         ], 
+        "regionalVariationBlock" => [
+          "template" => "regionalVariationBlock",
+          "path" => $assetPath . "/components/article/RegionalVariationBlock",
+          "variables" => ["content" => []]
+        ], 
         "backTo" => [
           "template" => "backTo",
           "path" => $assetPath . "/components/article/BackTo",
@@ -344,11 +349,6 @@ function deeson_twig_component_templates($assetPath = 'auto') {
         "subjectListing" => [
           "template" => "subjectListing",
           "path" => $assetPath . "/components/article/SubjectListing",
-          "variables" => ["content" => []]
-        ], 
-        "regionalVariationBlock" => [
-          "template" => "regionalVariationBlock",
-          "path" => $assetPath . "/components/article/RegionalVariationBlock",
           "variables" => ["content" => []]
         ], 
         "explanationBlock" => [
@@ -456,16 +456,6 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/fhrs/BadgeDownload",
           "variables" => ["content" => []]
         ], 
-        "localAuthorityMap" => [
-          "template" => "localAuthorityMap",
-          "path" => $assetPath . "/components/fhrs/LocalAuthorityMap",
-          "variables" => ["content" => []]
-        ], 
-        "pagination" => [
-          "template" => "pagination",
-          "path" => $assetPath . "/components/multipageguide/Pagination",
-          "variables" => ["content" => []]
-        ], 
         "fullWidth" => [
           "template" => "fullWidth",
           "path" => $assetPath . "/layout/fullWidth",
@@ -476,19 +466,29 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/layout/contentLayout",
           "variables" => ["content" => []]
         ], 
+        "localAuthorityMap" => [
+          "template" => "localAuthorityMap",
+          "path" => $assetPath . "/components/fhrs/LocalAuthorityMap",
+          "variables" => ["content" => []]
+        ], 
+        "pagination" => [
+          "template" => "pagination",
+          "path" => $assetPath . "/components/multipageguide/Pagination",
+          "variables" => ["content" => []]
+        ], 
         "contactLayout" => [
           "template" => "contactLayout",
           "path" => $assetPath . "/layout/contactLayout",
           "variables" => ["content" => []]
         ], 
-        "tableOfContents" => [
-          "template" => "tableOfContents",
-          "path" => $assetPath . "/components/article/TableOfContents",
-          "variables" => ["content" => []]
-        ], 
         "fhrsLayout" => [
           "template" => "fhrsLayout",
           "path" => $assetPath . "/layout/fhrsLayout",
+          "variables" => ["content" => []]
+        ], 
+        "tableOfContents" => [
+          "template" => "tableOfContents",
+          "path" => $assetPath . "/components/article/TableOfContents",
           "variables" => ["content" => []]
         ], 
         "searchBar" => [

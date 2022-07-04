@@ -2165,6 +2165,9 @@ div .header__user-menu-navigation {
     align-items: center;
   }
 }
+.hero--mini.hero--with-image .hero__title {
+  margin-top: 0;
+}
 @media screen and (max-width: 767px) {
   .hero--mini.hero--with-image .hero__title::after {
     display: none;
@@ -2177,37 +2180,40 @@ div .header__user-menu-navigation {
 }
 @media screen and (min-width: 768px) {
   .hero--mini.hero--with-image .hero__mask-wrapper {
-    padding-bottom: 3rem;
+    min-height: 208px;
   }
 }
 @media screen and (min-width: 1024px) {
   .hero--mini.hero--with-image .hero__mask-wrapper {
-    padding-bottom: 6rem;
+    min-height: 296px;
   }
 }
-@media screen and (min-width: 1440px) {
-  .hero--mini.hero--with-image .hero__mask-wrapper {
-    padding-bottom: 8rem;
-    min-height: 0;
-  }
+.hero--mini.hero--with-image .hero__content-wrapper {
+  margin: 1rem 0;
 }
 @media screen and (min-width: 768px) {
   .hero--mini.hero--with-image .hero__content-wrapper {
-    padding: 0 1rem;
-    max-width: 60%;
-    flex-basis: 60%;
+    margin: 2rem 0 0;
+    max-width: 55%;
+    flex-basis: 55%;
   }
 }
 @media screen and (min-width: 1024px) {
   .hero--mini.hero--with-image .hero__content-wrapper {
-    max-width: 57%;
-    flex-basis: 57%;
+    max-width: 56%;
+    flex-basis: 56%;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .hero--mini.hero--with-image .hero__content-wrapper {
+    margin: 0;
   }
 }
 .hero--mini.hero--with-image .hero__image {
   height: 9.125rem;
   display: flex;
   align-items: center;
+  width: 100%;
 }
 @media screen and (min-width: 768px) {
   .hero--mini.hero--with-image .hero__image svg {
