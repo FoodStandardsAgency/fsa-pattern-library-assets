@@ -1758,7 +1758,7 @@ div .header__user-menu-navigation {
   -webkit-mask-repeat: no-repeat;
   /* stylelint-enable property-no-vendor-prefix */
   color: white;
-  padding-bottom: 2rem;
+  padding-bottom: 1.5rem;
   z-index: 2;
   /* Remove background pattern and fit-content doesn't work in IE11 */
 }
@@ -2180,16 +2180,16 @@ div .header__user-menu-navigation {
 }
 @media screen and (min-width: 768px) {
   .hero--mini.hero--with-image .hero__mask-wrapper {
-    min-height: 208px;
+    min-height: 13rem;
   }
 }
 @media screen and (min-width: 1024px) {
   .hero--mini.hero--with-image .hero__mask-wrapper {
-    min-height: 296px;
+    min-height: 18.5rem;
   }
 }
 .hero--mini.hero--with-image .hero__content-wrapper {
-  margin: 1rem 0;
+  margin: 1rem 0 0;
 }
 @media screen and (min-width: 768px) {
   .hero--mini.hero--with-image .hero__content-wrapper {
