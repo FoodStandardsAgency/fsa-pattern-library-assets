@@ -171,6 +171,11 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/form/Checkbox",
           "variables" => ["content" => []]
         ], 
+        "dropdown" => [
+          "template" => "dropdown",
+          "path" => $assetPath . "/components/form/Dropdown",
+          "variables" => ["content" => []]
+        ], 
         "errorBox" => [
           "template" => "errorBox",
           "path" => $assetPath . "/components/form/ErrorBox",
@@ -184,11 +189,6 @@ function deeson_twig_component_templates($assetPath = 'auto') {
         "multistepFunction" => [
           "template" => "multistepFunction",
           "path" => $assetPath . "/components/form/MultistepFunction",
-          "variables" => ["content" => []]
-        ], 
-        "dropdown" => [
-          "template" => "dropdown",
-          "path" => $assetPath . "/components/form/Dropdown",
           "variables" => ["content" => []]
         ], 
         "radio" => [
@@ -241,6 +241,11 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/form/MultifieldGroup",
           "variables" => ["content" => []]
         ], 
+        "toggleButton" => [
+          "template" => "toggleButton",
+          "path" => $assetPath . "/components/form/ToggleButton",
+          "variables" => ["content" => []]
+        ], 
         "inputField" => [
           "template" => "inputField",
           "path" => $assetPath . "/components/form/InputField",
@@ -249,11 +254,6 @@ function deeson_twig_component_templates($assetPath = 'auto') {
         "textarea" => [
           "template" => "textarea",
           "path" => $assetPath . "/components/form/Textarea",
-          "variables" => ["content" => []]
-        ], 
-        "toggleButton" => [
-          "template" => "toggleButton",
-          "path" => $assetPath . "/components/form/ToggleButton",
           "variables" => ["content" => []]
         ], 
         "landingLinks" => [
@@ -331,14 +331,14 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/article/RegionalVariationBlock",
           "variables" => ["content" => []]
         ], 
-        "contentMetaData" => [
-          "template" => "contentMetaData",
-          "path" => $assetPath . "/components/article/ContentMetaData",
-          "variables" => ["content" => []]
-        ], 
         "backTo" => [
           "template" => "backTo",
           "path" => $assetPath . "/components/article/BackTo",
+          "variables" => ["content" => []]
+        ], 
+        "contentMetaData" => [
+          "template" => "contentMetaData",
+          "path" => $assetPath . "/components/article/ContentMetaData",
           "variables" => ["content" => []]
         ], 
         "relatedContent" => [
