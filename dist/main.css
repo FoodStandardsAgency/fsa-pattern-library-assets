@@ -20195,1016 +20195,6 @@ h2.legacy-badge-title {
   width: auto;
   max-width: 100%;
 }
-/*!***************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/fhrs/BusinessHero/businessHero.scss ***!
-  \***************************************************************************************************************************************************************************************/
-@import url(https://fonts.googleapis.com/css?family=Fira+Sans:300,400,500,700);
-/*!*******************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/fhrs/BusinessHero/businessHero.scss (1) ***!
-  \*******************************************************************************************************************************************************************************************/
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700);
-/*!*******************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/fhrs/BusinessHero/businessHero.scss (2) ***!
-  \*******************************************************************************************************************************************************************************************/
-:root {
-  /* Primary Colours */
-  --fsa-primary_dark-green: #007c75;
-  --fsa-primary_mid-green: #6cb33f;
-  --fsa-primary_light-green: #a9c47f;
-  --fsa-primary_dark-grey: #53565a;
-  --fsa_online-grey: #f0f3f5;
-  --fsa_border: #dee2e5;
-  --fsa-primary_black: #000;
-  --fsa-primary_white: #fff;
-  --fsa_tint: #fafcfd;
-  /* Secondary Colours */
-  --fsa-secondary_mid-red: #e31837;
-  --fsa-secondary_dark-blue: #165c7d;
-  --fsa-secondary_orange: #f15d22;
-  --fsa-secondary_mid-yellow: #fdb913;
-  --fsa-secondary_mid-purple: #49176d;
-  --fsa-secondary_light-purple: #9f218b;
-  --fsa-tertiary_dark-blue: #9f218b;
-  --fsa-secondary-error-red: #e60f31;
-  --fsa-secondary-error-hover: #b0132b;
-  /* Tertiary Colours */
-  --fsa-tertiary_dark-red: #b04a5a;
-  --fsa-tertiary_light-red: #ef3340;
-  --fsa-tertiary_light-yellow: #f1c400;
-  --fsa-tertiary_teal: #00b2a9;
-  --fsa-tertiary_light-blue: #8dc8e8;
-  --fsa-tertiary_dark-purple: #51284f;
-  --fsa-secondary_mid-blue: #007fb2;
-  --fsa-tertiary_lime: #cedc00;
-  --fsa-tertiary_mauve: #8b84d7;
-  --fsa-tertiary_stripe-green: #006f51;
-  --fsa-tertiary_light-black: #101010;
-  /* Hover Colours */
-  --fsa__link-green: #014b4c;
-  --fsa__purple-hover: #2a0247;
-  --fsa__grey-hover: #d9d9d6;
-  --fsa__dark-green-hover: #002a2a;
-  /* Custom Colours */
-  --fsa-webtool-prgress-bar-border-step: #d8d8d8;
-  /* Typography */
-  --body-font: "Open Sans", sans-serif;
-  --body-normal: 400;
-  --body-bold: 600;
-  --heading-font: "Fira Sans", sans-serif;
-  --heading-bold: 700;
-  /* Grid */
-  --container-mobile: 1rem;
-  --container: 2rem;
-  --gutter: 1rem;
-  --max-width: 1336px;
-  /* Transitions */
-  --transition-time: 200;
-}
-
-/* Grid */
-/* Custom Mixins */
-/* Mixin for checkbox and radio button style */
-/* Used for Style guide pages */
-/* stylelint-disable value-keyword-case */
-/* stylelint-enable value-keyword-case */
-.business-hero__badge--fhrs.business-hero__badge--0--1:before {
-  content: url(./components/fhrs/badges/fhrs/1/fhrs-badge-0.svg);
-  display: block;
-  width: 26.75rem;
-  height: auto;
-}
-
-.business-hero__badge--fhrs.business-hero__badge--0--1.business-hero__badge--welsh:before {
-  content: url(./components/fhrs/badges/fhrs-bilingual/1/fhrs-bilingual-badge-0.svg);
-  display: block;
-  width: 26.75rem;
-  height: auto;
-}
-
-.business-hero__badge--fhrs.business-hero__badge--0--2:before {
-  content: url(./components/fhrs/badges/fhrs/2/fhrs-badge-0.svg);
-  display: block;
-  width: 30rem;
-  height: auto;
-}
-
-.business-hero__badge--fhrs.business-hero__badge--0--2.business-hero__badge--welsh:before {
-  content: url(./components/fhrs/badges/fhrs-bilingual/2/fhrs-bilingual-badge-0.svg);
-  display: block;
-  width: 30rem;
-  height: auto;
-}
-
-.business-hero__badge--fhrs.business-hero__badge--0--3:before {
-  content: url(./components/fhrs/badges/fhrs/3/fhrs-badge-0.svg);
-  display: block;
-  width: 16.188rem;
-  height: auto;
-}
-
-.business-hero__badge--fhrs.business-hero__badge--0--3.business-hero__badge--welsh:before {
-  content: url(./components/fhrs/badges/fhrs-bilingual/3/fhrs-bilingual-badge-0.svg);
-  display: block;
-  width: 16.188rem;
-  height: auto;
-}
-
-.business-hero__badge--fhrs.business-hero__badge--0--4:before {
-  content: url(./components/fhrs/badges/fhrs/4/fhrs-badge-0.svg);
-  display: block;
-  width: 7.813rem;
-  height: auto;
-}
-
-.business-hero__badge--fhrs.business-hero__badge--0--4.business-hero__badge--welsh:before {
-  content: url(./components/fhrs/badges/fhrs-bilingual/4/fhrs-bilingual-badge-0.svg);
-  display: block;
-  width: 7.813rem;
-  height: auto;
-}
-
-.business-hero__badge--fhrs.business-hero__badge--0--5:before {
-  content: url(./components/fhrs/badges/fhrs/5/fhrs-badge-0.svg);
-  display: block;
-  width: 11.813rem;
-  height: auto;
-}
-
-.business-hero__badge--fhrs.business-hero__badge--0--5.business-hero__badge--welsh:before {
-  content: url(./components/fhrs/badges/fhrs-bilingual/5/fhrs-bilingual-badge-0.svg);
-  display: block;
-  width: 11.813rem;
-  height: auto;
-}
-
-.business-hero__badge--fhrs.business-hero__badge--1--1:before {
-  content: url(./components/fhrs/badges/fhrs/1/fhrs-badge-1.svg);
-  display: block;
-  width: 26.75rem;
-  height: auto;
-}
-
-.business-hero__badge--fhrs.business-hero__badge--1--1.business-hero__badge--welsh:before {
-  content: url(./components/fhrs/badges/fhrs-bilingual/1/fhrs-bilingual-badge-1.svg);
-  display: block;
-  width: 26.75rem;
-  height: auto;
-}
-
-.business-hero__badge--fhrs.business-hero__badge--1--2:before {
-  content: url(./components/fhrs/badges/fhrs/2/fhrs-badge-1.svg);
-  display: block;
-  width: 30rem;
-  height: auto;
-}
-
-.business-hero__badge--fhrs.business-hero__badge--1--2.business-hero__badge--welsh:before {
-  content: url(./components/fhrs/badges/fhrs-bilingual/2/fhrs-bilingual-badge-1.svg);
-  display: block;
-  width: 30rem;
-  height: auto;
-}
-
-.business-hero__badge--fhrs.business-hero__badge--1--3:before {
-  content: url(./components/fhrs/badges/fhrs/3/fhrs-badge-1.svg);
-  display: block;
-  width: 16.188rem;
-  height: auto;
-}
-
-.business-hero__badge--fhrs.business-hero__badge--1--3.business-hero__badge--welsh:before {
-  content: url(./components/fhrs/badges/fhrs-bilingual/3/fhrs-bilingual-badge-1.svg);
-  display: block;
-  width: 16.188rem;
-  height: auto;
-}
-
-.business-hero__badge--fhrs.business-hero__badge--1--4:before {
-  content: url(./components/fhrs/badges/fhrs/4/fhrs-badge-1.svg);
-  display: block;
-  width: 7.813rem;
-  height: auto;
-}
-
-.business-hero__badge--fhrs.business-hero__badge--1--4.business-hero__badge--welsh:before {
-  content: url(./components/fhrs/badges/fhrs-bilingual/4/fhrs-bilingual-badge-1.svg);
-  display: block;
-  width: 7.813rem;
-  height: auto;
-}
-
-.business-hero__badge--fhrs.business-hero__badge--1--5:before {
-  content: url(./components/fhrs/badges/fhrs/5/fhrs-badge-1.svg);
-  display: block;
-  width: 11.813rem;
-  height: auto;
-}
-
-.business-hero__badge--fhrs.business-hero__badge--1--5.business-hero__badge--welsh:before {
-  content: url(./components/fhrs/badges/fhrs-bilingual/5/fhrs-bilingual-badge-1.svg);
-  display: block;
-  width: 11.813rem;
-  height: auto;
-}
-
-.business-hero__badge--fhrs.business-hero__badge--2--1:before {
-  content: url(./components/fhrs/badges/fhrs/1/fhrs-badge-2.svg);
-  display: block;
-  width: 26.75rem;
-  height: auto;
-}
-
-.business-hero__badge--fhrs.business-hero__badge--2--1.business-hero__badge--welsh:before {
-  content: url(./components/fhrs/badges/fhrs-bilingual/1/fhrs-bilingual-badge-2.svg);
-  display: block;
-  width: 26.75rem;
-  height: auto;
-}
-
-.business-hero__badge--fhrs.business-hero__badge--2--2:before {
-  content: url(./components/fhrs/badges/fhrs/2/fhrs-badge-2.svg);
-  display: block;
-  width: 30rem;
-  height: auto;
-}
-
-.business-hero__badge--fhrs.business-hero__badge--2--2.business-hero__badge--welsh:before {
-  content: url(./components/fhrs/badges/fhrs-bilingual/2/fhrs-bilingual-badge-2.svg);
-  display: block;
-  width: 30rem;
-  height: auto;
-}
-
-.business-hero__badge--fhrs.business-hero__badge--2--3:before {
-  content: url(./components/fhrs/badges/fhrs/3/fhrs-badge-2.svg);
-  display: block;
-  width: 16.188rem;
-  height: auto;
-}
-
-.business-hero__badge--fhrs.business-hero__badge--2--3.business-hero__badge--welsh:before {
-  content: url(./components/fhrs/badges/fhrs-bilingual/3/fhrs-bilingual-badge-2.svg);
-  display: block;
-  width: 16.188rem;
-  height: auto;
-}
-
-.business-hero__badge--fhrs.business-hero__badge--2--4:before {
-  content: url(./components/fhrs/badges/fhrs/4/fhrs-badge-2.svg);
-  display: block;
-  width: 7.813rem;
-  height: auto;
-}
-
-.business-hero__badge--fhrs.business-hero__badge--2--4.business-hero__badge--welsh:before {
-  content: url(./components/fhrs/badges/fhrs-bilingual/4/fhrs-bilingual-badge-2.svg);
-  display: block;
-  width: 7.813rem;
-  height: auto;
-}
-
-.business-hero__badge--fhrs.business-hero__badge--2--5:before {
-  content: url(./components/fhrs/badges/fhrs/5/fhrs-badge-2.svg);
-  display: block;
-  width: 11.813rem;
-  height: auto;
-}
-
-.business-hero__badge--fhrs.business-hero__badge--2--5.business-hero__badge--welsh:before {
-  content: url(./components/fhrs/badges/fhrs-bilingual/5/fhrs-bilingual-badge-2.svg);
-  display: block;
-  width: 11.813rem;
-  height: auto;
-}
-
-.business-hero__badge--fhrs.business-hero__badge--3--1:before {
-  content: url(./components/fhrs/badges/fhrs/1/fhrs-badge-3.svg);
-  display: block;
-  width: 26.75rem;
-  height: auto;
-}
-
-.business-hero__badge--fhrs.business-hero__badge--3--1.business-hero__badge--welsh:before {
-  content: url(./components/fhrs/badges/fhrs-bilingual/1/fhrs-bilingual-badge-3.svg);
-  display: block;
-  width: 26.75rem;
-  height: auto;
-}
-
-.business-hero__badge--fhrs.business-hero__badge--3--2:before {
-  content: url(./components/fhrs/badges/fhrs/2/fhrs-badge-3.svg);
-  display: block;
-  width: 30rem;
-  height: auto;
-}
-
-.business-hero__badge--fhrs.business-hero__badge--3--2.business-hero__badge--welsh:before {
-  content: url(./components/fhrs/badges/fhrs-bilingual/2/fhrs-bilingual-badge-3.svg);
-  display: block;
-  width: 30rem;
-  height: auto;
-}
-
-.business-hero__badge--fhrs.business-hero__badge--3--3:before {
-  content: url(./components/fhrs/badges/fhrs/3/fhrs-badge-3.svg);
-  display: block;
-  width: 16.188rem;
-  height: auto;
-}
-
-.business-hero__badge--fhrs.business-hero__badge--3--3.business-hero__badge--welsh:before {
-  content: url(./components/fhrs/badges/fhrs-bilingual/3/fhrs-bilingual-badge-3.svg);
-  display: block;
-  width: 16.188rem;
-  height: auto;
-}
-
-.business-hero__badge--fhrs.business-hero__badge--3--4:before {
-  content: url(./components/fhrs/badges/fhrs/4/fhrs-badge-3.svg);
-  display: block;
-  width: 7.813rem;
-  height: auto;
-}
-
-.business-hero__badge--fhrs.business-hero__badge--3--4.business-hero__badge--welsh:before {
-  content: url(./components/fhrs/badges/fhrs-bilingual/4/fhrs-bilingual-badge-3.svg);
-  display: block;
-  width: 7.813rem;
-  height: auto;
-}
-
-.business-hero__badge--fhrs.business-hero__badge--3--5:before {
-  content: url(./components/fhrs/badges/fhrs/5/fhrs-badge-3.svg);
-  display: block;
-  width: 11.813rem;
-  height: auto;
-}
-
-.business-hero__badge--fhrs.business-hero__badge--3--5.business-hero__badge--welsh:before {
-  content: url(./components/fhrs/badges/fhrs-bilingual/5/fhrs-bilingual-badge-3.svg);
-  display: block;
-  width: 11.813rem;
-  height: auto;
-}
-
-.business-hero__badge--fhrs.business-hero__badge--4--1:before {
-  content: url(./components/fhrs/badges/fhrs/1/fhrs-badge-4.svg);
-  display: block;
-  width: 26.75rem;
-  height: auto;
-}
-
-.business-hero__badge--fhrs.business-hero__badge--4--1.business-hero__badge--welsh:before {
-  content: url(./components/fhrs/badges/fhrs-bilingual/1/fhrs-bilingual-badge-4.svg);
-  display: block;
-  width: 26.75rem;
-  height: auto;
-}
-
-.business-hero__badge--fhrs.business-hero__badge--4--2:before {
-  content: url(./components/fhrs/badges/fhrs/2/fhrs-badge-4.svg);
-  display: block;
-  width: 30rem;
-  height: auto;
-}
-
-.business-hero__badge--fhrs.business-hero__badge--4--2.business-hero__badge--welsh:before {
-  content: url(./components/fhrs/badges/fhrs-bilingual/2/fhrs-bilingual-badge-4.svg);
-  display: block;
-  width: 30rem;
-  height: auto;
-}
-
-.business-hero__badge--fhrs.business-hero__badge--4--3:before {
-  content: url(./components/fhrs/badges/fhrs/3/fhrs-badge-4.svg);
-  display: block;
-  width: 16.188rem;
-  height: auto;
-}
-
-.business-hero__badge--fhrs.business-hero__badge--4--3.business-hero__badge--welsh:before {
-  content: url(./components/fhrs/badges/fhrs-bilingual/3/fhrs-bilingual-badge-4.svg);
-  display: block;
-  width: 16.188rem;
-  height: auto;
-}
-
-.business-hero__badge--fhrs.business-hero__badge--4--4:before {
-  content: url(./components/fhrs/badges/fhrs/4/fhrs-badge-4.svg);
-  display: block;
-  width: 7.813rem;
-  height: auto;
-}
-
-.business-hero__badge--fhrs.business-hero__badge--4--4.business-hero__badge--welsh:before {
-  content: url(./components/fhrs/badges/fhrs-bilingual/4/fhrs-bilingual-badge-4.svg);
-  display: block;
-  width: 7.813rem;
-  height: auto;
-}
-
-.business-hero__badge--fhrs.business-hero__badge--4--5:before {
-  content: url(./components/fhrs/badges/fhrs/5/fhrs-badge-4.svg);
-  display: block;
-  width: 11.813rem;
-  height: auto;
-}
-
-.business-hero__badge--fhrs.business-hero__badge--4--5.business-hero__badge--welsh:before {
-  content: url(./components/fhrs/badges/fhrs-bilingual/5/fhrs-bilingual-badge-4.svg);
-  display: block;
-  width: 11.813rem;
-  height: auto;
-}
-
-.business-hero__badge--fhrs.business-hero__badge--5--1:before {
-  content: url(./components/fhrs/badges/fhrs/1/fhrs-badge-5.svg);
-  display: block;
-  width: 26.75rem;
-  height: auto;
-}
-
-.business-hero__badge--fhrs.business-hero__badge--5--1.business-hero__badge--welsh:before {
-  content: url(./components/fhrs/badges/fhrs-bilingual/1/fhrs-bilingual-badge-5.svg);
-  display: block;
-  width: 26.75rem;
-  height: auto;
-}
-
-.business-hero__badge--fhrs.business-hero__badge--5--2:before {
-  content: url(./components/fhrs/badges/fhrs/2/fhrs-badge-5.svg);
-  display: block;
-  width: 30rem;
-  height: auto;
-}
-
-.business-hero__badge--fhrs.business-hero__badge--5--2.business-hero__badge--welsh:before {
-  content: url(./components/fhrs/badges/fhrs-bilingual/2/fhrs-bilingual-badge-5.svg);
-  display: block;
-  width: 30rem;
-  height: auto;
-}
-
-.business-hero__badge--fhrs.business-hero__badge--5--3:before {
-  content: url(./components/fhrs/badges/fhrs/3/fhrs-badge-5.svg);
-  display: block;
-  width: 16.188rem;
-  height: auto;
-}
-
-.business-hero__badge--fhrs.business-hero__badge--5--3.business-hero__badge--welsh:before {
-  content: url(./components/fhrs/badges/fhrs-bilingual/3/fhrs-bilingual-badge-5.svg);
-  display: block;
-  width: 16.188rem;
-  height: auto;
-}
-
-.business-hero__badge--fhrs.business-hero__badge--5--4:before {
-  content: url(./components/fhrs/badges/fhrs/4/fhrs-badge-5.svg);
-  display: block;
-  width: 7.813rem;
-  height: auto;
-}
-
-.business-hero__badge--fhrs.business-hero__badge--5--4.business-hero__badge--welsh:before {
-  content: url(./components/fhrs/badges/fhrs-bilingual/4/fhrs-bilingual-badge-5.svg);
-  display: block;
-  width: 7.813rem;
-  height: auto;
-}
-
-.business-hero__badge--fhrs.business-hero__badge--5--5:before {
-  content: url(./components/fhrs/badges/fhrs/5/fhrs-badge-5.svg);
-  display: block;
-  width: 11.813rem;
-  height: auto;
-}
-
-.business-hero__badge--fhrs.business-hero__badge--5--5.business-hero__badge--welsh:before {
-  content: url(./components/fhrs/badges/fhrs-bilingual/5/fhrs-bilingual-badge-5.svg);
-  display: block;
-  width: 11.813rem;
-  height: auto;
-}
-
-.business-hero__badge--fhrs.business-hero__badge--Exempt--1:before {
-  content: url(./components/fhrs/badges/fhrs/1/fhrs-badge-Exempt.svg);
-  display: block;
-  width: 26.75rem;
-  height: auto;
-}
-
-.business-hero__badge--fhrs.business-hero__badge--Exempt--1.business-hero__badge--welsh:before {
-  content: url(./components/fhrs/badges/fhrs-bilingual/1/fhrs-bilingual-badge-Exempt.svg);
-  display: block;
-  width: 26.75rem;
-  height: auto;
-}
-
-.business-hero__badge--fhrs.business-hero__badge--Exempt--2:before {
-  content: url(./components/fhrs/badges/fhrs/2/fhrs-badge-Exempt.svg);
-  display: block;
-  width: 30rem;
-  height: auto;
-}
-
-.business-hero__badge--fhrs.business-hero__badge--Exempt--2.business-hero__badge--welsh:before {
-  content: url(./components/fhrs/badges/fhrs-bilingual/2/fhrs-bilingual-badge-Exempt.svg);
-  display: block;
-  width: 30rem;
-  height: auto;
-}
-
-.business-hero__badge--fhrs.business-hero__badge--Exempt--3:before {
-  content: url(./components/fhrs/badges/fhrs/3/fhrs-badge-Exempt.svg);
-  display: block;
-  width: 16.188rem;
-  height: auto;
-}
-
-.business-hero__badge--fhrs.business-hero__badge--Exempt--3.business-hero__badge--welsh:before {
-  content: url(./components/fhrs/badges/fhrs-bilingual/3/fhrs-bilingual-badge-Exempt.svg);
-  display: block;
-  width: 16.188rem;
-  height: auto;
-}
-
-.business-hero__badge--fhrs.business-hero__badge--Exempt--4:before {
-  content: url(./components/fhrs/badges/fhrs/4/fhrs-badge-Exempt.svg);
-  display: block;
-  width: 7.813rem;
-  height: auto;
-}
-
-.business-hero__badge--fhrs.business-hero__badge--Exempt--4.business-hero__badge--welsh:before {
-  content: url(./components/fhrs/badges/fhrs-bilingual/4/fhrs-bilingual-badge-Exempt.svg);
-  display: block;
-  width: 7.813rem;
-  height: auto;
-}
-
-.business-hero__badge--fhrs.business-hero__badge--Exempt--5:before {
-  content: url(./components/fhrs/badges/fhrs/5/fhrs-badge-Exempt.svg);
-  display: block;
-  width: 11.813rem;
-  height: auto;
-}
-
-.business-hero__badge--fhrs.business-hero__badge--Exempt--5.business-hero__badge--welsh:before {
-  content: url(./components/fhrs/badges/fhrs-bilingual/5/fhrs-bilingual-badge-Exempt.svg);
-  display: block;
-  width: 11.813rem;
-  height: auto;
-}
-
-.business-hero__badge--fhrs.business-hero__badge--AwaitingInspection--1:before {
-  content: url(./components/fhrs/badges/fhrs/1/fhrs-badge-AwaitingInspection.svg);
-  display: block;
-  width: 26.75rem;
-  height: auto;
-}
-
-.business-hero__badge--fhrs.business-hero__badge--AwaitingInspection--1.business-hero__badge--welsh:before {
-  content: url(./components/fhrs/badges/fhrs-bilingual/1/fhrs-bilingual-badge-AwaitingInspection.svg);
-  display: block;
-  width: 26.75rem;
-  height: auto;
-}
-
-.business-hero__badge--fhrs.business-hero__badge--AwaitingInspection--2:before {
-  content: url(./components/fhrs/badges/fhrs/2/fhrs-badge-AwaitingInspection.svg);
-  display: block;
-  width: 30rem;
-  height: auto;
-}
-
-.business-hero__badge--fhrs.business-hero__badge--AwaitingInspection--2.business-hero__badge--welsh:before {
-  content: url(./components/fhrs/badges/fhrs-bilingual/2/fhrs-bilingual-badge-AwaitingInspection.svg);
-  display: block;
-  width: 30rem;
-  height: auto;
-}
-
-.business-hero__badge--fhrs.business-hero__badge--AwaitingInspection--3:before {
-  content: url(./components/fhrs/badges/fhrs/3/fhrs-badge-AwaitingInspection.svg);
-  display: block;
-  width: 16.188rem;
-  height: auto;
-}
-
-.business-hero__badge--fhrs.business-hero__badge--AwaitingInspection--3.business-hero__badge--welsh:before {
-  content: url(./components/fhrs/badges/fhrs-bilingual/3/fhrs-bilingual-badge-AwaitingInspection.svg);
-  display: block;
-  width: 16.188rem;
-  height: auto;
-}
-
-.business-hero__badge--fhrs.business-hero__badge--AwaitingInspection--4:before {
-  content: url(./components/fhrs/badges/fhrs/4/fhrs-badge-AwaitingInspection.svg);
-  display: block;
-  width: 7.813rem;
-  height: auto;
-}
-
-.business-hero__badge--fhrs.business-hero__badge--AwaitingInspection--4.business-hero__badge--welsh:before {
-  content: url(./components/fhrs/badges/fhrs-bilingual/4/fhrs-bilingual-badge-AwaitingInspection.svg);
-  display: block;
-  width: 7.813rem;
-  height: auto;
-}
-
-.business-hero__badge--fhrs.business-hero__badge--AwaitingInspection--5:before {
-  content: url(./components/fhrs/badges/fhrs/5/fhrs-badge-AwaitingInspection.svg);
-  display: block;
-  width: 11.813rem;
-  height: auto;
-}
-
-.business-hero__badge--fhrs.business-hero__badge--AwaitingInspection--5.business-hero__badge--welsh:before {
-  content: url(./components/fhrs/badges/fhrs-bilingual/5/fhrs-bilingual-badge-AwaitingInspection.svg);
-  display: block;
-  width: 11.813rem;
-  height: auto;
-}
-
-.business-hero__badge--fhrs.business-hero__badge--AwaitingPublication--1:before {
-  content: url(./components/fhrs/badges/fhrs/1/fhrs-badge-AwaitingPublication.svg);
-  display: block;
-  width: 26.75rem;
-  height: auto;
-}
-
-.business-hero__badge--fhrs.business-hero__badge--AwaitingPublication--1.business-hero__badge--welsh:before {
-  content: url(./components/fhrs/badges/fhrs-bilingual/1/fhrs-bilingual-badge-AwaitingPublication.svg);
-  display: block;
-  width: 26.75rem;
-  height: auto;
-}
-
-.business-hero__badge--fhrs.business-hero__badge--AwaitingPublication--2:before {
-  content: url(./components/fhrs/badges/fhrs/2/fhrs-badge-AwaitingPublication.svg);
-  display: block;
-  width: 30rem;
-  height: auto;
-}
-
-.business-hero__badge--fhrs.business-hero__badge--AwaitingPublication--2.business-hero__badge--welsh:before {
-  content: url(./components/fhrs/badges/fhrs-bilingual/2/fhrs-bilingual-badge-AwaitingPublication.svg);
-  display: block;
-  width: 30rem;
-  height: auto;
-}
-
-.business-hero__badge--fhrs.business-hero__badge--AwaitingPublication--3:before {
-  content: url(./components/fhrs/badges/fhrs/3/fhrs-badge-AwaitingPublication.svg);
-  display: block;
-  width: 16.188rem;
-  height: auto;
-}
-
-.business-hero__badge--fhrs.business-hero__badge--AwaitingPublication--3.business-hero__badge--welsh:before {
-  content: url(./components/fhrs/badges/fhrs-bilingual/3/fhrs-bilingual-badge-AwaitingPublication.svg);
-  display: block;
-  width: 16.188rem;
-  height: auto;
-}
-
-.business-hero__badge--fhrs.business-hero__badge--AwaitingPublication--4:before {
-  content: url(./components/fhrs/badges/fhrs/4/fhrs-badge-AwaitingPublication.svg);
-  display: block;
-  width: 7.813rem;
-  height: auto;
-}
-
-.business-hero__badge--fhrs.business-hero__badge--AwaitingPublication--4.business-hero__badge--welsh:before {
-  content: url(./components/fhrs/badges/fhrs-bilingual/4/fhrs-bilingual-badge-AwaitingPublication.svg);
-  display: block;
-  width: 7.813rem;
-  height: auto;
-}
-
-.business-hero__badge--fhrs.business-hero__badge--AwaitingPublication--5:before {
-  content: url(./components/fhrs/badges/fhrs/5/fhrs-badge-AwaitingPublication.svg);
-  display: block;
-  width: 11.813rem;
-  height: auto;
-}
-
-.business-hero__badge--fhrs.business-hero__badge--AwaitingPublication--5.business-hero__badge--welsh:before {
-  content: url(./components/fhrs/badges/fhrs-bilingual/5/fhrs-bilingual-badge-AwaitingPublication.svg);
-  display: block;
-  width: 11.813rem;
-  height: auto;
-}
-
-.business-hero__badge--fhrs.business-hero__badge--Empty--1:before {
-  content: url(./components/fhrs/badges/fhrs/1/fhrs-badge-Empty.svg);
-  display: block;
-  width: 26.75rem;
-  height: auto;
-}
-
-.business-hero__badge--fhrs.business-hero__badge--Empty--1.business-hero__badge--welsh:before {
-  content: url(./components/fhrs/badges/fhrs-bilingual/1/fhrs-bilingual-badge-Empty.svg);
-  display: block;
-  width: 26.75rem;
-  height: auto;
-}
-
-.business-hero__badge--fhrs.business-hero__badge--Empty--2:before {
-  content: url(./components/fhrs/badges/fhrs/2/fhrs-badge-Empty.svg);
-  display: block;
-  width: 30rem;
-  height: auto;
-}
-
-.business-hero__badge--fhrs.business-hero__badge--Empty--2.business-hero__badge--welsh:before {
-  content: url(./components/fhrs/badges/fhrs-bilingual/2/fhrs-bilingual-badge-Empty.svg);
-  display: block;
-  width: 30rem;
-  height: auto;
-}
-
-.business-hero__badge--fhrs.business-hero__badge--Empty--3:before {
-  content: url(./components/fhrs/badges/fhrs/3/fhrs-badge-Empty.svg);
-  display: block;
-  width: 16.188rem;
-  height: auto;
-}
-
-.business-hero__badge--fhrs.business-hero__badge--Empty--3.business-hero__badge--welsh:before {
-  content: url(./components/fhrs/badges/fhrs-bilingual/3/fhrs-bilingual-badge-Empty.svg);
-  display: block;
-  width: 16.188rem;
-  height: auto;
-}
-
-.business-hero__badge--fhrs.business-hero__badge--Empty--4:before {
-  content: url(./components/fhrs/badges/fhrs/4/fhrs-badge-Empty.svg);
-  display: block;
-  width: 7.813rem;
-  height: auto;
-}
-
-.business-hero__badge--fhrs.business-hero__badge--Empty--4.business-hero__badge--welsh:before {
-  content: url(./components/fhrs/badges/fhrs-bilingual/4/fhrs-bilingual-badge-Empty.svg);
-  display: block;
-  width: 7.813rem;
-  height: auto;
-}
-
-.business-hero__badge--fhrs.business-hero__badge--Empty--5:before {
-  content: url(./components/fhrs/badges/fhrs/5/fhrs-badge-Empty.svg);
-  display: block;
-  width: 11.813rem;
-  height: auto;
-}
-
-.business-hero__badge--fhrs.business-hero__badge--Empty--5.business-hero__badge--welsh:before {
-  content: url(./components/fhrs/badges/fhrs-bilingual/5/fhrs-bilingual-badge-Empty.svg);
-  display: block;
-  width: 11.813rem;
-  height: auto;
-}
-
-.business-hero__badge--fhis.business-hero__badge--Exempt--1:before {
-  content: url(./components/fhrs/badges/fhis/1/fhis-badge-Exempt.jpg);
-}
-
-.business-hero__badge--fhis.business-hero__badge--Exempt--2:before {
-  content: url(./components/fhrs/badges/fhis/2/fhis-badge-Exempt.jpg);
-}
-
-.business-hero__badge--fhis.business-hero__badge--Exempt--3:before {
-  content: url(./components/fhrs/badges/fhis/3/fhis-badge-Exempt.jpg);
-}
-
-.business-hero__badge--fhis.business-hero__badge--AwaitingInspection--1:before {
-  content: url(./components/fhrs/badges/fhis/1/fhis-badge-AwaitingInspection.jpg);
-}
-
-.business-hero__badge--fhis.business-hero__badge--AwaitingInspection--2:before {
-  content: url(./components/fhrs/badges/fhis/2/fhis-badge-AwaitingInspection.jpg);
-}
-
-.business-hero__badge--fhis.business-hero__badge--AwaitingInspection--3:before {
-  content: url(./components/fhrs/badges/fhis/3/fhis-badge-AwaitingInspection.jpg);
-}
-
-.business-hero__badge--fhis.business-hero__badge--AwaitingPublication--1:before {
-  content: url(./components/fhrs/badges/fhis/1/fhis-badge-AwaitingPublication.jpg);
-}
-
-.business-hero__badge--fhis.business-hero__badge--AwaitingPublication--2:before {
-  content: url(./components/fhrs/badges/fhis/2/fhis-badge-AwaitingPublication.jpg);
-}
-
-.business-hero__badge--fhis.business-hero__badge--AwaitingPublication--3:before {
-  content: url(./components/fhrs/badges/fhis/3/fhis-badge-AwaitingPublication.jpg);
-}
-
-.business-hero__badge--fhis.business-hero__badge--ImprovementRequired--1:before {
-  content: url(./components/fhrs/badges/fhis/1/fhis-badge-ImprovementRequired.jpg);
-}
-
-.business-hero__badge--fhis.business-hero__badge--ImprovementRequired--2:before {
-  content: url(./components/fhrs/badges/fhis/2/fhis-badge-ImprovementRequired.jpg);
-}
-
-.business-hero__badge--fhis.business-hero__badge--ImprovementRequired--3:before {
-  content: url(./components/fhrs/badges/fhis/3/fhis-badge-ImprovementRequired.jpg);
-}
-
-.business-hero__badge--fhis.business-hero__badge--Pass--1:before {
-  content: url(./components/fhrs/badges/fhis/1/fhis-badge-Pass.jpg);
-}
-
-.business-hero__badge--fhis.business-hero__badge--Pass--2:before {
-  content: url(./components/fhrs/badges/fhis/2/fhis-badge-Pass.jpg);
-}
-
-.business-hero__badge--fhis.business-hero__badge--Pass--3:before {
-  content: url(./components/fhrs/badges/fhis/3/fhis-badge-Pass.jpg);
-}
-
-.business-hero__badge--fhis.business-hero__badge--PassEatSafe--1:before {
-  content: url(./components/fhrs/badges/fhis/1/fhis-badge-PassEatSafe.jpg);
-}
-
-.business-hero__badge--fhis.business-hero__badge--PassEatSafe--2:before {
-  content: url(./components/fhrs/badges/fhis/2/fhis-badge-PassEatSafe.jpg);
-}
-
-.business-hero__badge--fhis.business-hero__badge--PassEatSafe--3:before {
-  content: url(./components/fhrs/badges/fhis/3/fhis-badge-PassEatSafe.jpg);
-}
-
-.business-hero {
-  margin-top: 3rem;
-}
-.business-hero__title {
-  font-family: "Fira Sans", sans-serif;
-  font-family: var(--heading-font);
-  font-size: 2.288rem;
-  font-weight: 700;
-  font-weight: var(--heading-bold);
-  line-height: 1.1;
-  letter-spacing: normal;
-  color: #007c75;
-  color: var(--fsa-primary_dark-green);
-  color: #007c75;
-  color: var(--fsa-primary_dark-green);
-  margin: 0;
-  padding-bottom: 2rem;
-  border-bottom: 1px solid #d9d9d6;
-  border-bottom: 1px solid var(--fsa__grey-hover);
-}
-@media screen and (min-width: 1024px) {
-  .business-hero__title {
-    font-size: 2.986rem;
-  }
-}
-.business-hero__prefix {
-  font-family: "Open Sans", sans-serif;
-  font-family: var(--body-font);
-  font-weight: 400;
-  font-weight: var(--body-normal);
-  font-size: 1.18rem;
-  line-height: 1.6;
-  letter-spacing: normal;
-  color: #101010;
-  color: var(--fsa-tertiary_light-black);
-  display: block;
-}
-.business-hero__description {
-  font-family: "Open Sans", sans-serif;
-  font-family: var(--body-font);
-  font-weight: 400;
-  font-weight: var(--body-normal);
-  font-size: 1.18rem;
-  line-height: 1.6;
-  letter-spacing: normal;
-  color: #101010;
-  color: var(--fsa-tertiary_light-black);
-  display: block;
-}
-@media screen and (min-width: 1024px) {
-  .business-hero__prefix, .business-hero__description {
-    font-size: 1.2rem;
-  }
-}
-.business-hero__description {
-  margin-top: 1rem;
-}
-.business-hero__prefix {
-  margin-bottom: 0.5rem;
-}
-.business-hero__content {
-  margin-top: 2rem;
-  width: 100%;
-}
-@media screen and (min-width: 768px) {
-  .business-hero__content {
-    display: flex;
-    justify-content: flex-start;
-  }
-}
-@media screen and (min-width: 768px) {
-  .business-hero__left {
-    width: 50%;
-    display: inline-block;
-  }
-}
-@media screen and (min-width: 1024px) and (max-width: 1439px) {
-  .business-hero__left {
-    width: 55%;
-  }
-}
-.business-hero__right {
-  margin-top: 1rem;
-}
-@media screen and (min-width: 768px) {
-  .business-hero__right {
-    margin-top: 0;
-    display: inline-block;
-  }
-}
-.business-hero__badge::before {
-  width: 15rem;
-  height: auto;
-}
-.business-hero__link-wrapper {
-  display: block;
-  margin-top: 1rem;
-}
-.business-hero__link {
-  color: #007c75;
-  color: var(--fsa-primary_dark-green);
-  text-decoration: underline;
-  border-bottom: 0.25rem solid transparent;
-  border: none;
-  padding-left: 2.25rem;
-  background-repeat: no-repeat;
-  background-position: center left;
-  background-size: 1.56rem auto;
-}
-.business-hero__link:hover {
-  color: #014b4c;
-  color: var(--fsa__link-green);
-}
-.business-hero__link:focus {
-  color: #000;
-  color: var(--fsa-primary_black);
-  outline: none;
-  text-decoration: none;
-  background-color: #f1c400;
-  background-color: var(--fsa-tertiary_light-yellow);
-  border-bottom: 0.25rem solid #000;
-  border-bottom: 0.25rem solid var(--fsa-primary_black);
-  margin-bottom: -0.25rem;
-}
-.business-hero__link--back {
-  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg width='28' height='17' viewBox='0 0 28 17' xmlns='http://www.w3.org/2000/svg'%3E %3Cg stroke='%23007C75' stroke-width='2' fill='none' fill-rule='evenodd' stroke-linecap='round'%3E %3Cpath d='M27 8.45H2M9 1.2l-7 7 7 7'/%3E %3C/g%3E %3C/svg%3E");
-}
-.business-hero__link--back:hover {
-  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg width='28' height='17' viewBox='0 0 28 17' xmlns='http://www.w3.org/2000/svg'%3E %3Cg stroke='%23014B4C' stroke-width='2' fill='none' fill-rule='evenodd' stroke-linecap='round'%3E %3Cpath d='M27 8.45H2M9 1.2l-7 7 7 7'/%3E %3C/g%3E %3C/svg%3E");
-}
-.business-hero__link--forward {
-  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg width='28' height='17' viewBox='0 0 28 17' xmlns='http://www.w3.org/2000/svg'%3E %3Cg stroke='%23007C75' stroke-width='2' fill='none' fill-rule='evenodd' stroke-linecap='round'%3E %3Cpath d='M1 8.45h25M19 1.2l7 7-7 7'/%3E %3C/g%3E %3C/svg%3E");
-}
-.business-hero__link--forward:hover {
-  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg width='28' height='17' viewBox='0 0 28 17' xmlns='http://www.w3.org/2000/svg'%3E %3Cg stroke='%23014B4C' stroke-width='2' fill='none' fill-rule='evenodd' stroke-linecap='round'%3E %3Cpath d='M1 8.45h25M19 1.2l7 7-7 7'/%3E %3C/g%3E %3C/svg%3E");
-}
-.business-hero__block:not(:first-child) {
-  margin-top: 1rem;
-}
-.business-hero__subtitle {
-  font-family: "Fira Sans", sans-serif;
-  font-family: var(--heading-font);
-  font-size: 1.392rem;
-  font-weight: 700;
-  font-weight: var(--heading-bold);
-  line-height: 1.2;
-  letter-spacing: normal;
-  color: #000;
-  color: var(--fsa-primary_black);
-  margin: 0;
-}
-@media screen and (min-width: 1024px) {
-  .business-hero__subtitle {
-    font-size: 1.44rem;
-  }
-}
-.business-hero__text {
-  margin-top: 0.5rem;
-  font-family: "Open Sans", sans-serif;
-  font-family: var(--body-font);
-  font-weight: 400;
-  font-weight: var(--body-normal);
-  font-size: 1rem;
-  line-height: 1.6;
-  letter-spacing: normal;
-}
 /*!***********************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/fhrs/SearchCard/searchCard.scss ***!
   \***********************************************************************************************************************************************************************************/
@@ -23618,6 +22608,1084 @@ h2.legacy-badge-title {
 }
 .local-authority-map .pagination__numbered {
   display: none;
+}
+/*!***************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/fhrs/BusinessHero/businessHero.scss ***!
+  \***************************************************************************************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css?family=Fira+Sans:300,400,500,700);
+/*!*******************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/fhrs/BusinessHero/businessHero.scss (1) ***!
+  \*******************************************************************************************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700);
+/*!*******************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/fhrs/BusinessHero/businessHero.scss (2) ***!
+  \*******************************************************************************************************************************************************************************************/
+:root {
+  /* Primary Colours */
+  --fsa-primary_dark-green: #007c75;
+  --fsa-primary_mid-green: #6cb33f;
+  --fsa-primary_light-green: #a9c47f;
+  --fsa-primary_dark-grey: #53565a;
+  --fsa_online-grey: #f0f3f5;
+  --fsa_border: #dee2e5;
+  --fsa-primary_black: #000;
+  --fsa-primary_white: #fff;
+  --fsa_tint: #fafcfd;
+  /* Secondary Colours */
+  --fsa-secondary_mid-red: #e31837;
+  --fsa-secondary_dark-blue: #165c7d;
+  --fsa-secondary_orange: #f15d22;
+  --fsa-secondary_mid-yellow: #fdb913;
+  --fsa-secondary_mid-purple: #49176d;
+  --fsa-secondary_light-purple: #9f218b;
+  --fsa-tertiary_dark-blue: #9f218b;
+  --fsa-secondary-error-red: #e60f31;
+  --fsa-secondary-error-hover: #b0132b;
+  /* Tertiary Colours */
+  --fsa-tertiary_dark-red: #b04a5a;
+  --fsa-tertiary_light-red: #ef3340;
+  --fsa-tertiary_light-yellow: #f1c400;
+  --fsa-tertiary_teal: #00b2a9;
+  --fsa-tertiary_light-blue: #8dc8e8;
+  --fsa-tertiary_dark-purple: #51284f;
+  --fsa-secondary_mid-blue: #007fb2;
+  --fsa-tertiary_lime: #cedc00;
+  --fsa-tertiary_mauve: #8b84d7;
+  --fsa-tertiary_stripe-green: #006f51;
+  --fsa-tertiary_light-black: #101010;
+  /* Hover Colours */
+  --fsa__link-green: #014b4c;
+  --fsa__purple-hover: #2a0247;
+  --fsa__grey-hover: #d9d9d6;
+  --fsa__dark-green-hover: #002a2a;
+  /* Custom Colours */
+  --fsa-webtool-prgress-bar-border-step: #d8d8d8;
+  /* Typography */
+  --body-font: "Open Sans", sans-serif;
+  --body-normal: 400;
+  --body-bold: 600;
+  --heading-font: "Fira Sans", sans-serif;
+  --heading-bold: 700;
+  /* Grid */
+  --container-mobile: 1rem;
+  --container: 2rem;
+  --gutter: 1rem;
+  --max-width: 1336px;
+  /* Transitions */
+  --transition-time: 200;
+}
+
+/* Grid */
+/* Custom Mixins */
+/* Mixin for checkbox and radio button style */
+/* Used for Style guide pages */
+/* stylelint-disable value-keyword-case */
+/* stylelint-enable value-keyword-case */
+.business-hero__badge--fhrs.business-hero__badge--0--1:before {
+  content: url(./components/fhrs/badges/fhrs/1/fhrs-badge-0.svg);
+  display: block;
+  width: 26.75rem;
+  height: auto;
+}
+
+.business-hero__badge--fhrs.business-hero__badge--0--1.business-hero__badge--welsh:before {
+  content: url(./components/fhrs/badges/fhrs-bilingual/1/fhrs-bilingual-badge-0.svg);
+  display: block;
+  width: 26.75rem;
+  height: auto;
+}
+
+.business-hero__badge--fhrs.business-hero__badge--0--2:before {
+  content: url(./components/fhrs/badges/fhrs/2/fhrs-badge-0.svg);
+  display: block;
+  width: 30rem;
+  height: auto;
+}
+
+.business-hero__badge--fhrs.business-hero__badge--0--2.business-hero__badge--welsh:before {
+  content: url(./components/fhrs/badges/fhrs-bilingual/2/fhrs-bilingual-badge-0.svg);
+  display: block;
+  width: 30rem;
+  height: auto;
+}
+
+.business-hero__badge--fhrs.business-hero__badge--0--3:before {
+  content: url(./components/fhrs/badges/fhrs/3/fhrs-badge-0.svg);
+  display: block;
+  width: 16.188rem;
+  height: auto;
+}
+
+.business-hero__badge--fhrs.business-hero__badge--0--3.business-hero__badge--welsh:before {
+  content: url(./components/fhrs/badges/fhrs-bilingual/3/fhrs-bilingual-badge-0.svg);
+  display: block;
+  width: 16.188rem;
+  height: auto;
+}
+
+.business-hero__badge--fhrs.business-hero__badge--0--4:before {
+  content: url(./components/fhrs/badges/fhrs/4/fhrs-badge-0.svg);
+  display: block;
+  width: 7.813rem;
+  height: auto;
+}
+
+.business-hero__badge--fhrs.business-hero__badge--0--4.business-hero__badge--welsh:before {
+  content: url(./components/fhrs/badges/fhrs-bilingual/4/fhrs-bilingual-badge-0.svg);
+  display: block;
+  width: 7.813rem;
+  height: auto;
+}
+
+.business-hero__badge--fhrs.business-hero__badge--0--5:before {
+  content: url(./components/fhrs/badges/fhrs/5/fhrs-badge-0.svg);
+  display: block;
+  width: 11.813rem;
+  height: auto;
+}
+
+.business-hero__badge--fhrs.business-hero__badge--0--5.business-hero__badge--welsh:before {
+  content: url(./components/fhrs/badges/fhrs-bilingual/5/fhrs-bilingual-badge-0.svg);
+  display: block;
+  width: 11.813rem;
+  height: auto;
+}
+
+.business-hero__badge--fhrs.business-hero__badge--1--1:before {
+  content: url(./components/fhrs/badges/fhrs/1/fhrs-badge-1.svg);
+  display: block;
+  width: 26.75rem;
+  height: auto;
+}
+
+.business-hero__badge--fhrs.business-hero__badge--1--1.business-hero__badge--welsh:before {
+  content: url(./components/fhrs/badges/fhrs-bilingual/1/fhrs-bilingual-badge-1.svg);
+  display: block;
+  width: 26.75rem;
+  height: auto;
+}
+
+.business-hero__badge--fhrs.business-hero__badge--1--2:before {
+  content: url(./components/fhrs/badges/fhrs/2/fhrs-badge-1.svg);
+  display: block;
+  width: 30rem;
+  height: auto;
+}
+
+.business-hero__badge--fhrs.business-hero__badge--1--2.business-hero__badge--welsh:before {
+  content: url(./components/fhrs/badges/fhrs-bilingual/2/fhrs-bilingual-badge-1.svg);
+  display: block;
+  width: 30rem;
+  height: auto;
+}
+
+.business-hero__badge--fhrs.business-hero__badge--1--3:before {
+  content: url(./components/fhrs/badges/fhrs/3/fhrs-badge-1.svg);
+  display: block;
+  width: 16.188rem;
+  height: auto;
+}
+
+.business-hero__badge--fhrs.business-hero__badge--1--3.business-hero__badge--welsh:before {
+  content: url(./components/fhrs/badges/fhrs-bilingual/3/fhrs-bilingual-badge-1.svg);
+  display: block;
+  width: 16.188rem;
+  height: auto;
+}
+
+.business-hero__badge--fhrs.business-hero__badge--1--4:before {
+  content: url(./components/fhrs/badges/fhrs/4/fhrs-badge-1.svg);
+  display: block;
+  width: 7.813rem;
+  height: auto;
+}
+
+.business-hero__badge--fhrs.business-hero__badge--1--4.business-hero__badge--welsh:before {
+  content: url(./components/fhrs/badges/fhrs-bilingual/4/fhrs-bilingual-badge-1.svg);
+  display: block;
+  width: 7.813rem;
+  height: auto;
+}
+
+.business-hero__badge--fhrs.business-hero__badge--1--5:before {
+  content: url(./components/fhrs/badges/fhrs/5/fhrs-badge-1.svg);
+  display: block;
+  width: 11.813rem;
+  height: auto;
+}
+
+.business-hero__badge--fhrs.business-hero__badge--1--5.business-hero__badge--welsh:before {
+  content: url(./components/fhrs/badges/fhrs-bilingual/5/fhrs-bilingual-badge-1.svg);
+  display: block;
+  width: 11.813rem;
+  height: auto;
+}
+
+.business-hero__badge--fhrs.business-hero__badge--2--1:before {
+  content: url(./components/fhrs/badges/fhrs/1/fhrs-badge-2.svg);
+  display: block;
+  width: 26.75rem;
+  height: auto;
+}
+
+.business-hero__badge--fhrs.business-hero__badge--2--1.business-hero__badge--welsh:before {
+  content: url(./components/fhrs/badges/fhrs-bilingual/1/fhrs-bilingual-badge-2.svg);
+  display: block;
+  width: 26.75rem;
+  height: auto;
+}
+
+.business-hero__badge--fhrs.business-hero__badge--2--2:before {
+  content: url(./components/fhrs/badges/fhrs/2/fhrs-badge-2.svg);
+  display: block;
+  width: 30rem;
+  height: auto;
+}
+
+.business-hero__badge--fhrs.business-hero__badge--2--2.business-hero__badge--welsh:before {
+  content: url(./components/fhrs/badges/fhrs-bilingual/2/fhrs-bilingual-badge-2.svg);
+  display: block;
+  width: 30rem;
+  height: auto;
+}
+
+.business-hero__badge--fhrs.business-hero__badge--2--3:before {
+  content: url(./components/fhrs/badges/fhrs/3/fhrs-badge-2.svg);
+  display: block;
+  width: 16.188rem;
+  height: auto;
+}
+
+.business-hero__badge--fhrs.business-hero__badge--2--3.business-hero__badge--welsh:before {
+  content: url(./components/fhrs/badges/fhrs-bilingual/3/fhrs-bilingual-badge-2.svg);
+  display: block;
+  width: 16.188rem;
+  height: auto;
+}
+
+.business-hero__badge--fhrs.business-hero__badge--2--4:before {
+  content: url(./components/fhrs/badges/fhrs/4/fhrs-badge-2.svg);
+  display: block;
+  width: 7.813rem;
+  height: auto;
+}
+
+.business-hero__badge--fhrs.business-hero__badge--2--4.business-hero__badge--welsh:before {
+  content: url(./components/fhrs/badges/fhrs-bilingual/4/fhrs-bilingual-badge-2.svg);
+  display: block;
+  width: 7.813rem;
+  height: auto;
+}
+
+.business-hero__badge--fhrs.business-hero__badge--2--5:before {
+  content: url(./components/fhrs/badges/fhrs/5/fhrs-badge-2.svg);
+  display: block;
+  width: 11.813rem;
+  height: auto;
+}
+
+.business-hero__badge--fhrs.business-hero__badge--2--5.business-hero__badge--welsh:before {
+  content: url(./components/fhrs/badges/fhrs-bilingual/5/fhrs-bilingual-badge-2.svg);
+  display: block;
+  width: 11.813rem;
+  height: auto;
+}
+
+.business-hero__badge--fhrs.business-hero__badge--3--1:before {
+  content: url(./components/fhrs/badges/fhrs/1/fhrs-badge-3.svg);
+  display: block;
+  width: 26.75rem;
+  height: auto;
+}
+
+.business-hero__badge--fhrs.business-hero__badge--3--1.business-hero__badge--welsh:before {
+  content: url(./components/fhrs/badges/fhrs-bilingual/1/fhrs-bilingual-badge-3.svg);
+  display: block;
+  width: 26.75rem;
+  height: auto;
+}
+
+.business-hero__badge--fhrs.business-hero__badge--3--2:before {
+  content: url(./components/fhrs/badges/fhrs/2/fhrs-badge-3.svg);
+  display: block;
+  width: 30rem;
+  height: auto;
+}
+
+.business-hero__badge--fhrs.business-hero__badge--3--2.business-hero__badge--welsh:before {
+  content: url(./components/fhrs/badges/fhrs-bilingual/2/fhrs-bilingual-badge-3.svg);
+  display: block;
+  width: 30rem;
+  height: auto;
+}
+
+.business-hero__badge--fhrs.business-hero__badge--3--3:before {
+  content: url(./components/fhrs/badges/fhrs/3/fhrs-badge-3.svg);
+  display: block;
+  width: 16.188rem;
+  height: auto;
+}
+
+.business-hero__badge--fhrs.business-hero__badge--3--3.business-hero__badge--welsh:before {
+  content: url(./components/fhrs/badges/fhrs-bilingual/3/fhrs-bilingual-badge-3.svg);
+  display: block;
+  width: 16.188rem;
+  height: auto;
+}
+
+.business-hero__badge--fhrs.business-hero__badge--3--4:before {
+  content: url(./components/fhrs/badges/fhrs/4/fhrs-badge-3.svg);
+  display: block;
+  width: 7.813rem;
+  height: auto;
+}
+
+.business-hero__badge--fhrs.business-hero__badge--3--4.business-hero__badge--welsh:before {
+  content: url(./components/fhrs/badges/fhrs-bilingual/4/fhrs-bilingual-badge-3.svg);
+  display: block;
+  width: 7.813rem;
+  height: auto;
+}
+
+.business-hero__badge--fhrs.business-hero__badge--3--5:before {
+  content: url(./components/fhrs/badges/fhrs/5/fhrs-badge-3.svg);
+  display: block;
+  width: 11.813rem;
+  height: auto;
+}
+
+.business-hero__badge--fhrs.business-hero__badge--3--5.business-hero__badge--welsh:before {
+  content: url(./components/fhrs/badges/fhrs-bilingual/5/fhrs-bilingual-badge-3.svg);
+  display: block;
+  width: 11.813rem;
+  height: auto;
+}
+
+.business-hero__badge--fhrs.business-hero__badge--4--1:before {
+  content: url(./components/fhrs/badges/fhrs/1/fhrs-badge-4.svg);
+  display: block;
+  width: 26.75rem;
+  height: auto;
+}
+
+.business-hero__badge--fhrs.business-hero__badge--4--1.business-hero__badge--welsh:before {
+  content: url(./components/fhrs/badges/fhrs-bilingual/1/fhrs-bilingual-badge-4.svg);
+  display: block;
+  width: 26.75rem;
+  height: auto;
+}
+
+.business-hero__badge--fhrs.business-hero__badge--4--2:before {
+  content: url(./components/fhrs/badges/fhrs/2/fhrs-badge-4.svg);
+  display: block;
+  width: 30rem;
+  height: auto;
+}
+
+.business-hero__badge--fhrs.business-hero__badge--4--2.business-hero__badge--welsh:before {
+  content: url(./components/fhrs/badges/fhrs-bilingual/2/fhrs-bilingual-badge-4.svg);
+  display: block;
+  width: 30rem;
+  height: auto;
+}
+
+.business-hero__badge--fhrs.business-hero__badge--4--3:before {
+  content: url(./components/fhrs/badges/fhrs/3/fhrs-badge-4.svg);
+  display: block;
+  width: 16.188rem;
+  height: auto;
+}
+
+.business-hero__badge--fhrs.business-hero__badge--4--3.business-hero__badge--welsh:before {
+  content: url(./components/fhrs/badges/fhrs-bilingual/3/fhrs-bilingual-badge-4.svg);
+  display: block;
+  width: 16.188rem;
+  height: auto;
+}
+
+.business-hero__badge--fhrs.business-hero__badge--4--4:before {
+  content: url(./components/fhrs/badges/fhrs/4/fhrs-badge-4.svg);
+  display: block;
+  width: 7.813rem;
+  height: auto;
+}
+
+.business-hero__badge--fhrs.business-hero__badge--4--4.business-hero__badge--welsh:before {
+  content: url(./components/fhrs/badges/fhrs-bilingual/4/fhrs-bilingual-badge-4.svg);
+  display: block;
+  width: 7.813rem;
+  height: auto;
+}
+
+.business-hero__badge--fhrs.business-hero__badge--4--5:before {
+  content: url(./components/fhrs/badges/fhrs/5/fhrs-badge-4.svg);
+  display: block;
+  width: 11.813rem;
+  height: auto;
+}
+
+.business-hero__badge--fhrs.business-hero__badge--4--5.business-hero__badge--welsh:before {
+  content: url(./components/fhrs/badges/fhrs-bilingual/5/fhrs-bilingual-badge-4.svg);
+  display: block;
+  width: 11.813rem;
+  height: auto;
+}
+
+.business-hero__badge--fhrs.business-hero__badge--5--1:before {
+  content: url(./components/fhrs/badges/fhrs/1/fhrs-badge-5.svg);
+  display: block;
+  width: 26.75rem;
+  height: auto;
+}
+
+.business-hero__badge--fhrs.business-hero__badge--5--1.business-hero__badge--welsh:before {
+  content: url(./components/fhrs/badges/fhrs-bilingual/1/fhrs-bilingual-badge-5.svg);
+  display: block;
+  width: 26.75rem;
+  height: auto;
+}
+
+.business-hero__badge--fhrs.business-hero__badge--5--2:before {
+  content: url(./components/fhrs/badges/fhrs/2/fhrs-badge-5.svg);
+  display: block;
+  width: 30rem;
+  height: auto;
+}
+
+.business-hero__badge--fhrs.business-hero__badge--5--2.business-hero__badge--welsh:before {
+  content: url(./components/fhrs/badges/fhrs-bilingual/2/fhrs-bilingual-badge-5.svg);
+  display: block;
+  width: 30rem;
+  height: auto;
+}
+
+.business-hero__badge--fhrs.business-hero__badge--5--3:before {
+  content: url(./components/fhrs/badges/fhrs/3/fhrs-badge-5.svg);
+  display: block;
+  width: 16.188rem;
+  height: auto;
+}
+
+.business-hero__badge--fhrs.business-hero__badge--5--3.business-hero__badge--welsh:before {
+  content: url(./components/fhrs/badges/fhrs-bilingual/3/fhrs-bilingual-badge-5.svg);
+  display: block;
+  width: 16.188rem;
+  height: auto;
+}
+
+.business-hero__badge--fhrs.business-hero__badge--5--4:before {
+  content: url(./components/fhrs/badges/fhrs/4/fhrs-badge-5.svg);
+  display: block;
+  width: 7.813rem;
+  height: auto;
+}
+
+.business-hero__badge--fhrs.business-hero__badge--5--4.business-hero__badge--welsh:before {
+  content: url(./components/fhrs/badges/fhrs-bilingual/4/fhrs-bilingual-badge-5.svg);
+  display: block;
+  width: 7.813rem;
+  height: auto;
+}
+
+.business-hero__badge--fhrs.business-hero__badge--5--5:before {
+  content: url(./components/fhrs/badges/fhrs/5/fhrs-badge-5.svg);
+  display: block;
+  width: 11.813rem;
+  height: auto;
+}
+
+.business-hero__badge--fhrs.business-hero__badge--5--5.business-hero__badge--welsh:before {
+  content: url(./components/fhrs/badges/fhrs-bilingual/5/fhrs-bilingual-badge-5.svg);
+  display: block;
+  width: 11.813rem;
+  height: auto;
+}
+
+.business-hero__badge--fhrs.business-hero__badge--Exempt--1:before {
+  content: url(./components/fhrs/badges/fhrs/1/fhrs-badge-Exempt.svg);
+  display: block;
+  width: 26.75rem;
+  height: auto;
+}
+
+.business-hero__badge--fhrs.business-hero__badge--Exempt--1.business-hero__badge--welsh:before {
+  content: url(./components/fhrs/badges/fhrs-bilingual/1/fhrs-bilingual-badge-Exempt.svg);
+  display: block;
+  width: 26.75rem;
+  height: auto;
+}
+
+.business-hero__badge--fhrs.business-hero__badge--Exempt--2:before {
+  content: url(./components/fhrs/badges/fhrs/2/fhrs-badge-Exempt.svg);
+  display: block;
+  width: 30rem;
+  height: auto;
+}
+
+.business-hero__badge--fhrs.business-hero__badge--Exempt--2.business-hero__badge--welsh:before {
+  content: url(./components/fhrs/badges/fhrs-bilingual/2/fhrs-bilingual-badge-Exempt.svg);
+  display: block;
+  width: 30rem;
+  height: auto;
+}
+
+.business-hero__badge--fhrs.business-hero__badge--Exempt--3:before {
+  content: url(./components/fhrs/badges/fhrs/3/fhrs-badge-Exempt.svg);
+  display: block;
+  width: 16.188rem;
+  height: auto;
+}
+
+.business-hero__badge--fhrs.business-hero__badge--Exempt--3.business-hero__badge--welsh:before {
+  content: url(./components/fhrs/badges/fhrs-bilingual/3/fhrs-bilingual-badge-Exempt.svg);
+  display: block;
+  width: 16.188rem;
+  height: auto;
+}
+
+.business-hero__badge--fhrs.business-hero__badge--Exempt--4:before {
+  content: url(./components/fhrs/badges/fhrs/4/fhrs-badge-Exempt.svg);
+  display: block;
+  width: 7.813rem;
+  height: auto;
+}
+
+.business-hero__badge--fhrs.business-hero__badge--Exempt--4.business-hero__badge--welsh:before {
+  content: url(./components/fhrs/badges/fhrs-bilingual/4/fhrs-bilingual-badge-Exempt.svg);
+  display: block;
+  width: 7.813rem;
+  height: auto;
+}
+
+.business-hero__badge--fhrs.business-hero__badge--Exempt--5:before {
+  content: url(./components/fhrs/badges/fhrs/5/fhrs-badge-Exempt.svg);
+  display: block;
+  width: 11.813rem;
+  height: auto;
+}
+
+.business-hero__badge--fhrs.business-hero__badge--Exempt--5.business-hero__badge--welsh:before {
+  content: url(./components/fhrs/badges/fhrs-bilingual/5/fhrs-bilingual-badge-Exempt.svg);
+  display: block;
+  width: 11.813rem;
+  height: auto;
+}
+
+.business-hero__badge--fhrs.business-hero__badge--AwaitingInspection--1:before {
+  content: url(./components/fhrs/badges/fhrs/1/fhrs-badge-AwaitingInspection.svg);
+  display: block;
+  width: 26.75rem;
+  height: auto;
+}
+
+.business-hero__badge--fhrs.business-hero__badge--AwaitingInspection--1.business-hero__badge--welsh:before {
+  content: url(./components/fhrs/badges/fhrs-bilingual/1/fhrs-bilingual-badge-AwaitingInspection.svg);
+  display: block;
+  width: 26.75rem;
+  height: auto;
+}
+
+.business-hero__badge--fhrs.business-hero__badge--AwaitingInspection--2:before {
+  content: url(./components/fhrs/badges/fhrs/2/fhrs-badge-AwaitingInspection.svg);
+  display: block;
+  width: 30rem;
+  height: auto;
+}
+
+.business-hero__badge--fhrs.business-hero__badge--AwaitingInspection--2.business-hero__badge--welsh:before {
+  content: url(./components/fhrs/badges/fhrs-bilingual/2/fhrs-bilingual-badge-AwaitingInspection.svg);
+  display: block;
+  width: 30rem;
+  height: auto;
+}
+
+.business-hero__badge--fhrs.business-hero__badge--AwaitingInspection--3:before {
+  content: url(./components/fhrs/badges/fhrs/3/fhrs-badge-AwaitingInspection.svg);
+  display: block;
+  width: 16.188rem;
+  height: auto;
+}
+
+.business-hero__badge--fhrs.business-hero__badge--AwaitingInspection--3.business-hero__badge--welsh:before {
+  content: url(./components/fhrs/badges/fhrs-bilingual/3/fhrs-bilingual-badge-AwaitingInspection.svg);
+  display: block;
+  width: 16.188rem;
+  height: auto;
+}
+
+.business-hero__badge--fhrs.business-hero__badge--AwaitingInspection--4:before {
+  content: url(./components/fhrs/badges/fhrs/4/fhrs-badge-AwaitingInspection.svg);
+  display: block;
+  width: 7.813rem;
+  height: auto;
+}
+
+.business-hero__badge--fhrs.business-hero__badge--AwaitingInspection--4.business-hero__badge--welsh:before {
+  content: url(./components/fhrs/badges/fhrs-bilingual/4/fhrs-bilingual-badge-AwaitingInspection.svg);
+  display: block;
+  width: 7.813rem;
+  height: auto;
+}
+
+.business-hero__badge--fhrs.business-hero__badge--AwaitingInspection--5:before {
+  content: url(./components/fhrs/badges/fhrs/5/fhrs-badge-AwaitingInspection.svg);
+  display: block;
+  width: 11.813rem;
+  height: auto;
+}
+
+.business-hero__badge--fhrs.business-hero__badge--AwaitingInspection--5.business-hero__badge--welsh:before {
+  content: url(./components/fhrs/badges/fhrs-bilingual/5/fhrs-bilingual-badge-AwaitingInspection.svg);
+  display: block;
+  width: 11.813rem;
+  height: auto;
+}
+
+.business-hero__badge--fhrs.business-hero__badge--AwaitingPublication--1:before {
+  content: url(./components/fhrs/badges/fhrs/1/fhrs-badge-AwaitingPublication.svg);
+  display: block;
+  width: 26.75rem;
+  height: auto;
+}
+
+.business-hero__badge--fhrs.business-hero__badge--AwaitingPublication--1.business-hero__badge--welsh:before {
+  content: url(./components/fhrs/badges/fhrs-bilingual/1/fhrs-bilingual-badge-AwaitingPublication.svg);
+  display: block;
+  width: 26.75rem;
+  height: auto;
+}
+
+.business-hero__badge--fhrs.business-hero__badge--AwaitingPublication--2:before {
+  content: url(./components/fhrs/badges/fhrs/2/fhrs-badge-AwaitingPublication.svg);
+  display: block;
+  width: 30rem;
+  height: auto;
+}
+
+.business-hero__badge--fhrs.business-hero__badge--AwaitingPublication--2.business-hero__badge--welsh:before {
+  content: url(./components/fhrs/badges/fhrs-bilingual/2/fhrs-bilingual-badge-AwaitingPublication.svg);
+  display: block;
+  width: 30rem;
+  height: auto;
+}
+
+.business-hero__badge--fhrs.business-hero__badge--AwaitingPublication--3:before {
+  content: url(./components/fhrs/badges/fhrs/3/fhrs-badge-AwaitingPublication.svg);
+  display: block;
+  width: 16.188rem;
+  height: auto;
+}
+
+.business-hero__badge--fhrs.business-hero__badge--AwaitingPublication--3.business-hero__badge--welsh:before {
+  content: url(./components/fhrs/badges/fhrs-bilingual/3/fhrs-bilingual-badge-AwaitingPublication.svg);
+  display: block;
+  width: 16.188rem;
+  height: auto;
+}
+
+.business-hero__badge--fhrs.business-hero__badge--AwaitingPublication--4:before {
+  content: url(./components/fhrs/badges/fhrs/4/fhrs-badge-AwaitingPublication.svg);
+  display: block;
+  width: 7.813rem;
+  height: auto;
+}
+
+.business-hero__badge--fhrs.business-hero__badge--AwaitingPublication--4.business-hero__badge--welsh:before {
+  content: url(./components/fhrs/badges/fhrs-bilingual/4/fhrs-bilingual-badge-AwaitingPublication.svg);
+  display: block;
+  width: 7.813rem;
+  height: auto;
+}
+
+.business-hero__badge--fhrs.business-hero__badge--AwaitingPublication--5:before {
+  content: url(./components/fhrs/badges/fhrs/5/fhrs-badge-AwaitingPublication.svg);
+  display: block;
+  width: 11.813rem;
+  height: auto;
+}
+
+.business-hero__badge--fhrs.business-hero__badge--AwaitingPublication--5.business-hero__badge--welsh:before {
+  content: url(./components/fhrs/badges/fhrs-bilingual/5/fhrs-bilingual-badge-AwaitingPublication.svg);
+  display: block;
+  width: 11.813rem;
+  height: auto;
+}
+
+.business-hero__badge--fhrs.business-hero__badge--Empty--1:before {
+  content: url(./components/fhrs/badges/fhrs/1/fhrs-badge-Empty.svg);
+  display: block;
+  width: 26.75rem;
+  height: auto;
+}
+
+.business-hero__badge--fhrs.business-hero__badge--Empty--1.business-hero__badge--welsh:before {
+  content: url(./components/fhrs/badges/fhrs-bilingual/1/fhrs-bilingual-badge-Empty.svg);
+  display: block;
+  width: 26.75rem;
+  height: auto;
+}
+
+.business-hero__badge--fhrs.business-hero__badge--Empty--2:before {
+  content: url(./components/fhrs/badges/fhrs/2/fhrs-badge-Empty.svg);
+  display: block;
+  width: 30rem;
+  height: auto;
+}
+
+.business-hero__badge--fhrs.business-hero__badge--Empty--2.business-hero__badge--welsh:before {
+  content: url(./components/fhrs/badges/fhrs-bilingual/2/fhrs-bilingual-badge-Empty.svg);
+  display: block;
+  width: 30rem;
+  height: auto;
+}
+
+.business-hero__badge--fhrs.business-hero__badge--Empty--3:before {
+  content: url(./components/fhrs/badges/fhrs/3/fhrs-badge-Empty.svg);
+  display: block;
+  width: 16.188rem;
+  height: auto;
+}
+
+.business-hero__badge--fhrs.business-hero__badge--Empty--3.business-hero__badge--welsh:before {
+  content: url(./components/fhrs/badges/fhrs-bilingual/3/fhrs-bilingual-badge-Empty.svg);
+  display: block;
+  width: 16.188rem;
+  height: auto;
+}
+
+.business-hero__badge--fhrs.business-hero__badge--Empty--4:before {
+  content: url(./components/fhrs/badges/fhrs/4/fhrs-badge-Empty.svg);
+  display: block;
+  width: 7.813rem;
+  height: auto;
+}
+
+.business-hero__badge--fhrs.business-hero__badge--Empty--4.business-hero__badge--welsh:before {
+  content: url(./components/fhrs/badges/fhrs-bilingual/4/fhrs-bilingual-badge-Empty.svg);
+  display: block;
+  width: 7.813rem;
+  height: auto;
+}
+
+.business-hero__badge--fhrs.business-hero__badge--Empty--5:before {
+  content: url(./components/fhrs/badges/fhrs/5/fhrs-badge-Empty.svg);
+  display: block;
+  width: 11.813rem;
+  height: auto;
+}
+
+.business-hero__badge--fhrs.business-hero__badge--Empty--5.business-hero__badge--welsh:before {
+  content: url(./components/fhrs/badges/fhrs-bilingual/5/fhrs-bilingual-badge-Empty.svg);
+  display: block;
+  width: 11.813rem;
+  height: auto;
+}
+
+.business-hero__badge--fhis.business-hero__badge--Exempt--1:before {
+  content: url(./components/fhrs/badges/fhis/1/fhis-badge-Exempt.jpg);
+}
+
+.business-hero__badge--fhis.business-hero__badge--Exempt--2:before {
+  content: url(./components/fhrs/badges/fhis/2/fhis-badge-Exempt.jpg);
+}
+
+.business-hero__badge--fhis.business-hero__badge--Exempt--3:before {
+  content: url(./components/fhrs/badges/fhis/3/fhis-badge-Exempt.jpg);
+}
+
+.business-hero__badge--fhis.business-hero__badge--AwaitingInspection--1:before {
+  content: url(./components/fhrs/badges/fhis/1/fhis-badge-AwaitingInspection.jpg);
+}
+
+.business-hero__badge--fhis.business-hero__badge--AwaitingInspection--2:before {
+  content: url(./components/fhrs/badges/fhis/2/fhis-badge-AwaitingInspection.jpg);
+}
+
+.business-hero__badge--fhis.business-hero__badge--AwaitingInspection--3:before {
+  content: url(./components/fhrs/badges/fhis/3/fhis-badge-AwaitingInspection.jpg);
+}
+
+.business-hero__badge--fhis.business-hero__badge--AwaitingPublication--1:before {
+  content: url(./components/fhrs/badges/fhis/1/fhis-badge-AwaitingPublication.jpg);
+}
+
+.business-hero__badge--fhis.business-hero__badge--AwaitingPublication--2:before {
+  content: url(./components/fhrs/badges/fhis/2/fhis-badge-AwaitingPublication.jpg);
+}
+
+.business-hero__badge--fhis.business-hero__badge--AwaitingPublication--3:before {
+  content: url(./components/fhrs/badges/fhis/3/fhis-badge-AwaitingPublication.jpg);
+}
+
+.business-hero__badge--fhis.business-hero__badge--ImprovementRequired--1:before {
+  content: url(./components/fhrs/badges/fhis/1/fhis-badge-ImprovementRequired.jpg);
+}
+
+.business-hero__badge--fhis.business-hero__badge--ImprovementRequired--2:before {
+  content: url(./components/fhrs/badges/fhis/2/fhis-badge-ImprovementRequired.jpg);
+}
+
+.business-hero__badge--fhis.business-hero__badge--ImprovementRequired--3:before {
+  content: url(./components/fhrs/badges/fhis/3/fhis-badge-ImprovementRequired.jpg);
+}
+
+.business-hero__badge--fhis.business-hero__badge--Pass--1:before {
+  content: url(./components/fhrs/badges/fhis/1/fhis-badge-Pass.jpg);
+}
+
+.business-hero__badge--fhis.business-hero__badge--Pass--2:before {
+  content: url(./components/fhrs/badges/fhis/2/fhis-badge-Pass.jpg);
+}
+
+.business-hero__badge--fhis.business-hero__badge--Pass--3:before {
+  content: url(./components/fhrs/badges/fhis/3/fhis-badge-Pass.jpg);
+}
+
+.business-hero__badge--fhis.business-hero__badge--PassEatSafe--1:before {
+  content: url(./components/fhrs/badges/fhis/1/fhis-badge-PassEatSafe.jpg);
+}
+
+.business-hero__badge--fhis.business-hero__badge--PassEatSafe--2:before {
+  content: url(./components/fhrs/badges/fhis/2/fhis-badge-PassEatSafe.jpg);
+}
+
+.business-hero__badge--fhis.business-hero__badge--PassEatSafe--3:before {
+  content: url(./components/fhrs/badges/fhis/3/fhis-badge-PassEatSafe.jpg);
+}
+
+.business-hero {
+  margin-top: 3rem;
+}
+.business-hero__title {
+  font-family: "Fira Sans", sans-serif;
+  font-family: var(--heading-font);
+  font-size: 2.288rem;
+  font-weight: 700;
+  font-weight: var(--heading-bold);
+  line-height: 1.1;
+  letter-spacing: normal;
+  color: #007c75;
+  color: var(--fsa-primary_dark-green);
+  color: #007c75;
+  color: var(--fsa-primary_dark-green);
+  margin: 0;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid #d9d9d6;
+  border-bottom: 1px solid var(--fsa__grey-hover);
+}
+@media screen and (min-width: 1024px) {
+  .business-hero__title {
+    font-size: 2.986rem;
+  }
+}
+.business-hero__prefix {
+  font-family: "Open Sans", sans-serif;
+  font-family: var(--body-font);
+  font-weight: 400;
+  font-weight: var(--body-normal);
+  font-size: 1.18rem;
+  line-height: 1.6;
+  letter-spacing: normal;
+  color: #101010;
+  color: var(--fsa-tertiary_light-black);
+  display: block;
+}
+.business-hero__description {
+  font-family: "Open Sans", sans-serif;
+  font-family: var(--body-font);
+  font-weight: 400;
+  font-weight: var(--body-normal);
+  font-size: 1.18rem;
+  line-height: 1.6;
+  letter-spacing: normal;
+  color: #101010;
+  color: var(--fsa-tertiary_light-black);
+  display: block;
+}
+@media screen and (min-width: 1024px) {
+  .business-hero__prefix, .business-hero__description {
+    font-size: 1.2rem;
+  }
+}
+.business-hero__description {
+  margin-top: 1rem;
+}
+.business-hero__prefix {
+  margin-bottom: 0.5rem;
+}
+.business-hero__content {
+  margin-top: 2rem;
+  width: 100%;
+}
+@media screen and (min-width: 768px) {
+  .business-hero__content {
+    display: flex;
+    justify-content: flex-start;
+  }
+}
+@media screen and (min-width: 768px) {
+  .business-hero__left {
+    width: 50%;
+    display: inline-block;
+  }
+}
+@media screen and (min-width: 1024px) and (max-width: 1439px) {
+  .business-hero__left {
+    width: 55%;
+  }
+}
+.business-hero__right {
+  margin-top: 1rem;
+}
+@media screen and (min-width: 768px) {
+  .business-hero__right {
+    margin-top: 0;
+    display: inline-block;
+  }
+}
+.business-hero__badge::before {
+  width: 15rem;
+  height: auto;
+}
+.business-hero__link-wrapper {
+  display: block;
+  margin-top: 1rem;
+}
+.business-hero__link {
+  color: #007c75;
+  color: var(--fsa-primary_dark-green);
+  text-decoration: underline;
+  border-bottom: 0.25rem solid transparent;
+  border: none;
+  padding-left: 2.25rem;
+  background-repeat: no-repeat;
+  background-position: center left;
+  background-size: 1.56rem auto;
+}
+.business-hero__link:hover {
+  color: #014b4c;
+  color: var(--fsa__link-green);
+}
+.business-hero__link:focus {
+  color: #000;
+  color: var(--fsa-primary_black);
+  outline: none;
+  text-decoration: none;
+  background-color: #f1c400;
+  background-color: var(--fsa-tertiary_light-yellow);
+  border-bottom: 0.25rem solid #000;
+  border-bottom: 0.25rem solid var(--fsa-primary_black);
+  margin-bottom: -0.25rem;
+}
+.business-hero__link--back {
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg width='28' height='17' viewBox='0 0 28 17' xmlns='http://www.w3.org/2000/svg'%3E %3Cg stroke='%23007C75' stroke-width='2' fill='none' fill-rule='evenodd' stroke-linecap='round'%3E %3Cpath d='M27 8.45H2M9 1.2l-7 7 7 7'/%3E %3C/g%3E %3C/svg%3E");
+}
+.business-hero__link--back:hover {
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg width='28' height='17' viewBox='0 0 28 17' xmlns='http://www.w3.org/2000/svg'%3E %3Cg stroke='%23014B4C' stroke-width='2' fill='none' fill-rule='evenodd' stroke-linecap='round'%3E %3Cpath d='M27 8.45H2M9 1.2l-7 7 7 7'/%3E %3C/g%3E %3C/svg%3E");
+}
+.business-hero__link--forward {
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg width='28' height='17' viewBox='0 0 28 17' xmlns='http://www.w3.org/2000/svg'%3E %3Cg stroke='%23007C75' stroke-width='2' fill='none' fill-rule='evenodd' stroke-linecap='round'%3E %3Cpath d='M1 8.45h25M19 1.2l7 7-7 7'/%3E %3C/g%3E %3C/svg%3E");
+}
+.business-hero__link--forward:hover {
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg width='28' height='17' viewBox='0 0 28 17' xmlns='http://www.w3.org/2000/svg'%3E %3Cg stroke='%23014B4C' stroke-width='2' fill='none' fill-rule='evenodd' stroke-linecap='round'%3E %3Cpath d='M1 8.45h25M19 1.2l7 7-7 7'/%3E %3C/g%3E %3C/svg%3E");
+}
+.business-hero__block:not(:first-child) {
+  margin-top: 1rem;
+}
+.business-hero__subtitle {
+  font-family: "Fira Sans", sans-serif;
+  font-family: var(--heading-font);
+  font-size: 1.392rem;
+  font-weight: 700;
+  font-weight: var(--heading-bold);
+  line-height: 1.2;
+  letter-spacing: normal;
+  color: #000;
+  color: var(--fsa-primary_black);
+  margin: 0;
+}
+@media screen and (min-width: 1024px) {
+  .business-hero__subtitle {
+    font-size: 1.44rem;
+  }
+}
+.business-hero__text {
+  margin-top: 0.5rem;
+  font-family: "Open Sans", sans-serif;
+  font-family: var(--body-font);
+  font-weight: 400;
+  font-weight: var(--body-normal);
+  font-size: 1rem;
+  line-height: 1.6;
+  letter-spacing: normal;
+}
+.business-hero__map {
+  width: 100%;
+  margin-top: 0.5rem;
+}
+.business-hero__map button {
+  background: transparent;
+  box-shadow: 0 0 0 transparent;
+  border: 0 solid transparent;
+  text-shadow: 0 0 0 transparent;
+  padding: 0;
+}
+.business-hero__map button:hover {
+  box-shadow: 0 0 0 transparent;
+  text-shadow: 0 0 0 transparent;
+}
+.business-hero__map__wrapper {
+  display: none;
+  width: 100%;
+  height: 25rem;
+  margin-top: 1rem;
+}
+.business-hero__map__wrapper--open {
+  display: block;
+}
+.business-hero__map__button {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  color: #007c75;
+  color: var(--fsa-primary_dark-green);
+}
+.business-hero__map__button-label {
+  font-family: "Fira Sans", sans-serif;
+  font-family: var(--heading-font);
+  font-size: 1.18rem;
+  font-weight: 700;
+  font-weight: var(--heading-bold);
+  line-height: 1.4;
+  letter-spacing: normal;
+  margin-left: 1rem;
+}
+@media screen and (min-width: 1024px) {
+  .business-hero__map__button-label {
+    font-size: 1.2rem;
+  }
+}
+.business-hero__map__pin {
+  display: inline-block;
+  background-image: url("data:image/svg+xml;charset=utf-8,%3C?xml version='1.0' encoding='UTF-8'?%3E %3Csvg width='25px' height='30px' viewBox='0 0 25 30' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E %3Ctitle%3EFill 1 Copy%3C/title%3E %3Cg id='--fhrs---business-hero' stroke='none' stroke-width='1' fill='none' fill-rule='evenodd'%3E %3Cg id='fhrs-business-hero--desktop' transform='translate(-569.000000, -590.000000)' fill='%23007C75'%3E %3Cpath d='M581,597.1 C578.238406,597.1 576,599.338406 576,602.1 C576,604.861594 578.238406,607.1 581,607.1 C583.761594,607.1 586,604.861594 586,602.1 C586,599.338406 583.761594,597.1 581,597.1 M593.166667,602.016589 C593.166667,611.600055 581.083333,619.1 581.083333,619.1 C581.083333,619.1 569,612.266727 569,602.016589 C569,595.435211 574.409864,590.1 581.083333,590.1 C587.756802,590.1 593.166667,595.435211 593.166667,602.016589' id='Fill-1-Copy'/%3E %3C/g%3E %3C/g%3E %3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+  width: 1.563rem;
+  height: 1.875rem;
+}
+.business-hero__map__arrow {
+  display: inline-block;
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg width='16' height='10' viewBox='0 0 16 10' xmlns='http://www.w3.org/2000/svg'%3E %3Cpath d='m1 1 7 7 7-7' stroke='%23007C75' stroke-width='2' fill='none' fill-rule='evenodd'/%3E %3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  width: 0.875rem;
+  height: 0.625rem;
+  margin-left: 2rem;
+}
+.business-hero__map__arrow--open {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
 }
 /*!****************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/haccp/SaveProgress/saveProgress.scss ***!
