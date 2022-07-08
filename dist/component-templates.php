@@ -111,14 +111,14 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/search/CollapsibleCheckbox",
           "variables" => ["content" => []]
         ], 
-        "listingItem" => [
-          "template" => "listingItem",
-          "path" => $assetPath . "/components/search/ListingItem",
-          "variables" => ["content" => []]
-        ], 
         "filtersSelected" => [
           "template" => "filtersSelected",
           "path" => $assetPath . "/components/search/FiltersSelected",
+          "variables" => ["content" => []]
+        ], 
+        "listingItem" => [
+          "template" => "listingItem",
+          "path" => $assetPath . "/components/search/ListingItem",
           "variables" => ["content" => []]
         ], 
         "pagination" => [
@@ -261,11 +261,6 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/landing/LandingLinks",
           "variables" => ["content" => []]
         ], 
-        "multistepFunction" => [
-          "template" => "multistepFunction",
-          "path" => $assetPath . "/components/form/MultistepFunction/drupal",
-          "variables" => ["content" => []]
-        ], 
         "largePromoGroup" => [
           "template" => "largePromoGroup",
           "path" => $assetPath . "/components/landing/LargePromoGroup",
@@ -274,6 +269,11 @@ function deeson_twig_component_templates($assetPath = 'auto') {
         "latestTeaser" => [
           "template" => "latestTeaser",
           "path" => $assetPath . "/components/landing/LatestTeaser",
+          "variables" => ["content" => []]
+        ], 
+        "multistepFunction" => [
+          "template" => "multistepFunction",
+          "path" => $assetPath . "/components/form/MultistepFunction/drupal",
           "variables" => ["content" => []]
         ], 
         "promoGroup" => [
@@ -391,14 +391,14 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/article/BackToTop",
           "variables" => ["content" => []]
         ], 
-        "stickySidebar" => [
-          "template" => "stickySidebar",
-          "path" => $assetPath . "/components/article/StickySidebar",
-          "variables" => ["content" => []]
-        ], 
         "pdfAndPrintButtons" => [
           "template" => "pdfAndPrintButtons",
           "path" => $assetPath . "/components/article/PdfAndPrintButtons",
+          "variables" => ["content" => []]
+        ], 
+        "stickySidebar" => [
+          "template" => "stickySidebar",
+          "path" => $assetPath . "/components/article/StickySidebar",
           "variables" => ["content" => []]
         ], 
         "textBlock" => [
@@ -456,16 +456,6 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/fhrs/BadgeDownload",
           "variables" => ["content" => []]
         ], 
-        "localAuthorityMap" => [
-          "template" => "localAuthorityMap",
-          "path" => $assetPath . "/components/fhrs/LocalAuthorityMap",
-          "variables" => ["content" => []]
-        ], 
-        "pagination" => [
-          "template" => "pagination",
-          "path" => $assetPath . "/components/multipageguide/Pagination",
-          "variables" => ["content" => []]
-        ], 
         "fullWidth" => [
           "template" => "fullWidth",
           "path" => $assetPath . "/layout/fullWidth",
@@ -474,6 +464,16 @@ function deeson_twig_component_templates($assetPath = 'auto') {
         "contentLayout" => [
           "template" => "contentLayout",
           "path" => $assetPath . "/layout/contentLayout",
+          "variables" => ["content" => []]
+        ], 
+        "localAuthorityMap" => [
+          "template" => "localAuthorityMap",
+          "path" => $assetPath . "/components/fhrs/LocalAuthorityMap",
+          "variables" => ["content" => []]
+        ], 
+        "pagination" => [
+          "template" => "pagination",
+          "path" => $assetPath . "/components/multipageguide/Pagination",
           "variables" => ["content" => []]
         ], 
         "contactLayout" => [
