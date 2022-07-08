@@ -381,14 +381,14 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/article/FootNotes",
           "variables" => ["content" => []]
         ], 
-        "backToTop" => [
-          "template" => "backToTop",
-          "path" => $assetPath . "/components/article/BackToTop",
-          "variables" => ["content" => []]
-        ], 
         "revisionLogBottom" => [
           "template" => "revisionLogBottom",
           "path" => $assetPath . "/components/article/RevisionLogBottom",
+          "variables" => ["content" => []]
+        ], 
+        "backToTop" => [
+          "template" => "backToTop",
+          "path" => $assetPath . "/components/article/BackToTop",
           "variables" => ["content" => []]
         ], 
         "pdfAndPrintButtons" => [
@@ -476,14 +476,14 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/multipageguide/Pagination",
           "variables" => ["content" => []]
         ], 
-        "contactLayout" => [
-          "template" => "contactLayout",
-          "path" => $assetPath . "/layout/contactLayout",
-          "variables" => ["content" => []]
-        ], 
         "fhrsLayout" => [
           "template" => "fhrsLayout",
           "path" => $assetPath . "/layout/fhrsLayout",
+          "variables" => ["content" => []]
+        ], 
+        "contactLayout" => [
+          "template" => "contactLayout",
+          "path" => $assetPath . "/layout/contactLayout",
           "variables" => ["content" => []]
         ], 
         "tableOfContents" => [
