@@ -22265,6 +22265,11 @@ h2.legacy-badge-title {
     margin-left: 1rem;
   }
 }
+@media screen and (min-width: 768px) {
+  .ratings-search-box__business-name--full-width {
+    margin-right: -1rem;
+  }
+}
 .ratings-search-box__location-search {
   display: block;
 }
