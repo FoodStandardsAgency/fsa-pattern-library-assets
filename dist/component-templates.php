@@ -16,9 +16,9 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/layout/twoColumn",
           "variables" => ["content" => []]
         ], 
-        "fullWidth" => [
-          "template" => "fullWidth",
-          "path" => $assetPath . "/layout/fullWidth",
+        "breadcrumbs" => [
+          "template" => "breadcrumbs",
+          "path" => $assetPath . "/components/general/Breadcrumb",
           "variables" => ["content" => []]
         ], 
         "button" => [
@@ -44,11 +44,6 @@ function deeson_twig_component_templates($assetPath = 'auto') {
         "siteMap" => [
           "template" => "siteMap",
           "path" => $assetPath . "/components/general/SiteMap",
-          "variables" => ["content" => []]
-        ], 
-        "breadcrumbs" => [
-          "template" => "breadcrumbs",
-          "path" => $assetPath . "/components/general/Breadcrumb",
           "variables" => ["content" => []]
         ], 
         "externalLink" => [
@@ -91,14 +86,14 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/general/ErrorResponse",
           "variables" => ["content" => []]
         ], 
-        "navigation" => [
-          "template" => "navigation",
-          "path" => $assetPath . "/components/general/Navigation",
-          "variables" => ["content" => []]
-        ], 
         "skipToMainContent" => [
           "template" => "skipToMainContent",
           "path" => $assetPath . "/components/general/SkipToMainContent",
+          "variables" => ["content" => []]
+        ], 
+        "navigation" => [
+          "template" => "navigation",
+          "path" => $assetPath . "/components/general/Navigation",
           "variables" => ["content" => []]
         ], 
         "dropdownMenu" => [
@@ -266,6 +261,11 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/landing/LandingLinks",
           "variables" => ["content" => []]
         ], 
+        "multistepFunction" => [
+          "template" => "multistepFunction",
+          "path" => $assetPath . "/components/form/MultistepFunction/drupal",
+          "variables" => ["content" => []]
+        ], 
         "largePromoGroup" => [
           "template" => "largePromoGroup",
           "path" => $assetPath . "/components/landing/LargePromoGroup",
@@ -304,11 +304,6 @@ function deeson_twig_component_templates($assetPath = 'auto') {
         "titleAndDescription" => [
           "template" => "titleAndDescription",
           "path" => $assetPath . "/components/landing/TitleAndDescription",
-          "variables" => ["content" => []]
-        ], 
-        "multistepFunction" => [
-          "template" => "multistepFunction",
-          "path" => $assetPath . "/components/form/MultistepFunction/drupal",
           "variables" => ["content" => []]
         ], 
         "helpSecondaryMenu" => [
@@ -456,19 +451,29 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/fhrs/RatingsSearchBox",
           "variables" => ["content" => []]
         ], 
-        "localAuthorityMap" => [
-          "template" => "localAuthorityMap",
-          "path" => $assetPath . "/components/fhrs/LocalAuthorityMap",
-          "variables" => ["content" => []]
-        ], 
         "badgeDownload" => [
           "template" => "badgeDownload",
           "path" => $assetPath . "/components/fhrs/BadgeDownload",
           "variables" => ["content" => []]
         ], 
+        "localAuthorityMap" => [
+          "template" => "localAuthorityMap",
+          "path" => $assetPath . "/components/fhrs/LocalAuthorityMap",
+          "variables" => ["content" => []]
+        ], 
         "pagination" => [
           "template" => "pagination",
           "path" => $assetPath . "/components/multipageguide/Pagination",
+          "variables" => ["content" => []]
+        ], 
+        "tableOfContents" => [
+          "template" => "tableOfContents",
+          "path" => $assetPath . "/components/article/TableOfContents",
+          "variables" => ["content" => []]
+        ], 
+        "fullWidth" => [
+          "template" => "fullWidth",
+          "path" => $assetPath . "/layout/fullWidth",
           "variables" => ["content" => []]
         ], 
         "contentLayout" => [
@@ -489,11 +494,6 @@ function deeson_twig_component_templates($assetPath = 'auto') {
         "searchBar" => [
           "template" => "searchBar",
           "path" => $assetPath . "/components/search/SearchBar",
-          "variables" => ["content" => []]
-        ], 
-        "tableOfContents" => [
-          "template" => "tableOfContents",
-          "path" => $assetPath . "/components/article/TableOfContents",
           "variables" => ["content" => []]
         ]
   ];
