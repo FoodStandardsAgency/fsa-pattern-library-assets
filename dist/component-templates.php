@@ -191,14 +191,14 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/form/MultistepFunction",
           "variables" => ["content" => []]
         ], 
-        "radio" => [
-          "template" => "radio",
-          "path" => $assetPath . "/components/form/Radio",
-          "variables" => ["content" => []]
-        ], 
         "tabs" => [
           "template" => "tabs",
           "path" => $assetPath . "/components/form/Tabs",
+          "variables" => ["content" => []]
+        ], 
+        "radio" => [
+          "template" => "radio",
+          "path" => $assetPath . "/components/form/Radio",
           "variables" => ["content" => []]
         ], 
         "titleAndText" => [
@@ -211,14 +211,14 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/form/EmailField",
           "variables" => ["content" => []]
         ], 
-        "step" => [
-          "template" => "step",
-          "path" => $assetPath . "/components/form/Step",
-          "variables" => ["content" => []]
-        ], 
         "fileUpload" => [
           "template" => "fileUpload",
           "path" => $assetPath . "/components/form/FileUpload",
+          "variables" => ["content" => []]
+        ], 
+        "step" => [
+          "template" => "step",
+          "path" => $assetPath . "/components/form/Step",
           "variables" => ["content" => []]
         ], 
         "mapField" => [
@@ -286,14 +286,14 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/landing/ServiceLinks",
           "variables" => ["content" => []]
         ], 
-        "campaignBlock" => [
-          "template" => "campaignBlock",
-          "path" => $assetPath . "/components/landing/CampaignBlock",
-          "variables" => ["content" => []]
-        ], 
         "landingText" => [
           "template" => "landingText",
           "path" => $assetPath . "/components/landing/LandingText",
+          "variables" => ["content" => []]
+        ], 
+        "campaignBlock" => [
+          "template" => "campaignBlock",
+          "path" => $assetPath . "/components/landing/CampaignBlock",
           "variables" => ["content" => []]
         ], 
         "landingTitle" => [
@@ -476,14 +476,14 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/multipageguide/Pagination",
           "variables" => ["content" => []]
         ], 
-        "fhrsLayout" => [
-          "template" => "fhrsLayout",
-          "path" => $assetPath . "/layout/fhrsLayout",
-          "variables" => ["content" => []]
-        ], 
         "contactLayout" => [
           "template" => "contactLayout",
           "path" => $assetPath . "/layout/contactLayout",
+          "variables" => ["content" => []]
+        ], 
+        "fhrsLayout" => [
+          "template" => "fhrsLayout",
+          "path" => $assetPath . "/layout/fhrsLayout",
           "variables" => ["content" => []]
         ], 
         "tableOfContents" => [

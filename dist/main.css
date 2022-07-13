@@ -22596,6 +22596,10 @@ h2.legacy-badge-title {
   width: 100%;
   z-index: 0;
 }
+.local-authority-map__map area:focus-visible {
+  outline: #f1c400 auto 1px;
+  outline: var(--fsa-tertiary_light-yellow) auto 1px;
+}
 .local-authority-map__map--hidden {
   position: relative;
 }
@@ -23633,6 +23637,11 @@ h2.legacy-badge-title {
 .business-hero__map button:hover {
   box-shadow: 0 0 0 transparent;
   text-shadow: 0 0 0 transparent;
+}
+@media screen and (min-width: 768px) {
+  .business-hero__map {
+    margin-top: 1.5rem;
+  }
 }
 .business-hero__map__wrapper {
   display: none;
