@@ -23658,6 +23658,7 @@ h2.legacy-badge-title {
   cursor: pointer;
   color: #007c75;
   color: var(--fsa-primary_dark-green);
+  width: 14rem;
 }
 .business-hero__map__button-label {
   font-family: "Fira Sans", sans-serif;
@@ -23690,7 +23691,7 @@ h2.legacy-badge-title {
   background-position: bottom;
   width: 0.875rem;
   height: 0.625rem;
-  margin-left: 2rem;
+  margin-left: auto;
 }
 .business-hero__map__arrow--open {
   -webkit-transform: rotate(180deg);

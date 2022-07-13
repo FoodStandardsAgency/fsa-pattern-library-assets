@@ -191,14 +191,14 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/form/MultistepFunction",
           "variables" => ["content" => []]
         ], 
-        "tabs" => [
-          "template" => "tabs",
-          "path" => $assetPath . "/components/form/Tabs",
-          "variables" => ["content" => []]
-        ], 
         "radio" => [
           "template" => "radio",
           "path" => $assetPath . "/components/form/Radio",
+          "variables" => ["content" => []]
+        ], 
+        "tabs" => [
+          "template" => "tabs",
+          "path" => $assetPath . "/components/form/Tabs",
           "variables" => ["content" => []]
         ], 
         "titleAndText" => [
@@ -211,14 +211,14 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/form/EmailField",
           "variables" => ["content" => []]
         ], 
-        "fileUpload" => [
-          "template" => "fileUpload",
-          "path" => $assetPath . "/components/form/FileUpload",
-          "variables" => ["content" => []]
-        ], 
         "step" => [
           "template" => "step",
           "path" => $assetPath . "/components/form/Step",
+          "variables" => ["content" => []]
+        ], 
+        "fileUpload" => [
+          "template" => "fileUpload",
+          "path" => $assetPath . "/components/form/FileUpload",
           "variables" => ["content" => []]
         ], 
         "mapField" => [
@@ -286,14 +286,14 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/landing/ServiceLinks",
           "variables" => ["content" => []]
         ], 
-        "landingText" => [
-          "template" => "landingText",
-          "path" => $assetPath . "/components/landing/LandingText",
-          "variables" => ["content" => []]
-        ], 
         "campaignBlock" => [
           "template" => "campaignBlock",
           "path" => $assetPath . "/components/landing/CampaignBlock",
+          "variables" => ["content" => []]
+        ], 
+        "landingText" => [
+          "template" => "landingText",
+          "path" => $assetPath . "/components/landing/LandingText",
           "variables" => ["content" => []]
         ], 
         "landingTitle" => [
@@ -456,16 +456,6 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/fhrs/LocalAuthorityMap",
           "variables" => ["content" => []]
         ], 
-        "fullWidth" => [
-          "template" => "fullWidth",
-          "path" => $assetPath . "/layout/fullWidth",
-          "variables" => ["content" => []]
-        ], 
-        "contentLayout" => [
-          "template" => "contentLayout",
-          "path" => $assetPath . "/layout/contentLayout",
-          "variables" => ["content" => []]
-        ], 
         "businessHero" => [
           "template" => "businessHero",
           "path" => $assetPath . "/components/fhrs/BusinessHero",
@@ -476,6 +466,21 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/multipageguide/Pagination",
           "variables" => ["content" => []]
         ], 
+        "tableOfContents" => [
+          "template" => "tableOfContents",
+          "path" => $assetPath . "/components/article/TableOfContents",
+          "variables" => ["content" => []]
+        ], 
+        "fullWidth" => [
+          "template" => "fullWidth",
+          "path" => $assetPath . "/layout/fullWidth",
+          "variables" => ["content" => []]
+        ], 
+        "contentLayout" => [
+          "template" => "contentLayout",
+          "path" => $assetPath . "/layout/contentLayout",
+          "variables" => ["content" => []]
+        ], 
         "contactLayout" => [
           "template" => "contactLayout",
           "path" => $assetPath . "/layout/contactLayout",
@@ -484,11 +489,6 @@ function deeson_twig_component_templates($assetPath = 'auto') {
         "fhrsLayout" => [
           "template" => "fhrsLayout",
           "path" => $assetPath . "/layout/fhrsLayout",
-          "variables" => ["content" => []]
-        ], 
-        "tableOfContents" => [
-          "template" => "tableOfContents",
-          "path" => $assetPath . "/components/article/TableOfContents",
           "variables" => ["content" => []]
         ], 
         "searchBar" => [
