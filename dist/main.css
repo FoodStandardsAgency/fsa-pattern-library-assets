@@ -2165,6 +2165,11 @@ div .header__user-menu-navigation {
     align-items: center;
   }
 }
+@media screen and (min-width: 1024px) {
+  .hero--mini.hero--with-image {
+    min-height: 16.5rem;
+  }
+}
 .hero--mini.hero--with-image .hero__title {
   margin-top: 0;
 }
@@ -2178,14 +2183,23 @@ div .header__user-menu-navigation {
     display: none;
   }
 }
+.hero--mini.hero--with-image .hero__text-content {
+  min-height: 3.438rem;
+}
 @media screen and (min-width: 768px) {
   .hero--mini.hero--with-image .hero__mask-wrapper {
     min-height: 13rem;
+    padding-bottom: 3rem;
   }
 }
 @media screen and (min-width: 1024px) {
   .hero--mini.hero--with-image .hero__mask-wrapper {
-    min-height: 18.5rem;
+    min-height: 14rem;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .hero--mini.hero--with-image .hero__mask-wrapper {
+    min-height: 15rem;
   }
 }
 .hero--mini.hero--with-image .hero__content-wrapper {
