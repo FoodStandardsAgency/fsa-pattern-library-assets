@@ -15,7 +15,7 @@
       <div class="business-hero__left">
         {% include "@components/components/fhrs/Badge/badge.html.twig" with {
           class_name: "business-hero",
-          rating: rating,
+          rating: wales_business and rating == 'AwaitingInspection' ? 'Empty' : rating,
           welsh: wales_business or welsh,
           version: fhis ? 1 : 3,
         } %}

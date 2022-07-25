@@ -231,14 +231,14 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/components/form/Tooltip",
           "variables" => ["content" => []]
         ], 
-        "multivalueField" => [
-          "template" => "multivalueField",
-          "path" => $assetPath . "/components/form/MultivalueField",
-          "variables" => ["content" => []]
-        ], 
         "multifieldGroup" => [
           "template" => "multifieldGroup",
           "path" => $assetPath . "/components/form/MultifieldGroup",
+          "variables" => ["content" => []]
+        ], 
+        "multivalueField" => [
+          "template" => "multivalueField",
+          "path" => $assetPath . "/components/form/MultivalueField",
           "variables" => ["content" => []]
         ], 
         "toggleButton" => [
@@ -476,14 +476,14 @@ function deeson_twig_component_templates($assetPath = 'auto') {
           "path" => $assetPath . "/layout/fullWidth",
           "variables" => ["content" => []]
         ], 
-        "contentLayout" => [
-          "template" => "contentLayout",
-          "path" => $assetPath . "/layout/contentLayout",
-          "variables" => ["content" => []]
-        ], 
         "contactLayout" => [
           "template" => "contactLayout",
           "path" => $assetPath . "/layout/contactLayout",
+          "variables" => ["content" => []]
+        ], 
+        "contentLayout" => [
+          "template" => "contentLayout",
+          "path" => $assetPath . "/layout/contentLayout",
           "variables" => ["content" => []]
         ], 
         "fhrsLayout" => [
